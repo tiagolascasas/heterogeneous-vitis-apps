@@ -1,0 +1,53 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'edgedetect'" level="0">
+<item name = "Date">Sat Sep 14 02:48:31 2024
+</item>
+<item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
+<item name = "Project">EdgedetectBaseline_cluster</item>
+<item name = "Solution">hls (Vitis Kernel Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xczu9eg-ffvb1156-2-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">6.67 ns, 4.867 ns, 1.80 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">18005295, 18005295, 0.120 sec, 0.120 sec, 18005296, 18005296, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_fu_213">edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2, 921709, 921709, 6.145 ms, 6.145 ms, 921603, 921603, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2_fu_223">edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2, 83, 83, 0.553 us, 0.553 us, 10, 10, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4_fu_231">edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4, 5489522, 5489522, 36.599 ms, 36.599 ms, 5489370, 5489370, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259">edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2, 83, 83, 0.553 us, 0.553 us, 10, 10, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267">edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4, 5489522, 5489522, 36.599 ms, 36.599 ms, 5489370, 5489370, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295">edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2, 83, 83, 0.553 us, 0.553 us, 10, 10, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303">edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4, 5489522, 5489522, 36.599 ms, 36.599 ms, 5489370, 5489370, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331">edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2, 614475, 614475, 4.097 ms, 4.097 ms, 614402, 614402, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

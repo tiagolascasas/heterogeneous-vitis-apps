@@ -1,0 +1,48 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/DisparityMalloc_kernel.hlscompile_summary, at Thu Jul 11 02:33:34 2024
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel -config /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg -cmdlineconfig /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Thu Jul 11 02:33:35 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'tls' on host 'tls-Legion-5-15ACH6H' (Linux_x86_64 version 6.5.0-41-generic) on Thu Jul 11 02:33:36 WEST 2024
+INFO: [HLS 200-10] On os Ubuntu 22.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel'
+INFO: [HLS 200-2005] Using work_dir /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=cluster.c' from /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file '/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/cluster.c' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=cluster' from /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1465] Applying ini 'part=xczu9eg-ffvb1156-2-e' from /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [HLS 200-1465] Applying ini 'clock=150MHz' from /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 6.667ns.
+INFO: [HLS 200-1465] Applying ini 'package.output.format=xo' from /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2.94 seconds. CPU system time: 0.47 seconds. Elapsed time: 3.24 seconds; current allocated memory: 351.355 MB.
+INFO: [HLS 200-10] Analyzing design file 'cluster.c' ... 
+WARNING: [HLS 207-3946] implicitly declaring library function 'abs' with type 'int (int)' (cluster.c:16:12)
+INFO: [HLS 207-4260] include the header <stdlib.h> or explicitly provide a declaration for 'abs' (cluster.c:16:12)
+ERROR: [HLS 207-3946] implicitly declaring library function 'abs' with type 'int (int)' (cluster.c:16:12)
+WARNING: [HLS 207-5292] unused parameter 'borderMat_w' (cluster.c:3:63)
+WARNING: [HLS 207-5292] unused parameter 'borderMat_h' (cluster.c:4:20)
+WARNING: [HLS 207-5292] unused parameter 'paddedArray_h' (cluster.c:5:39)
+WARNING: [HLS 207-5292] unused parameter 'Iright_moved_h' (cluster.c:57:41)
+WARNING: [HLS 207-5292] unused parameter 'SAD_h' (cluster.c:58:32)
+WARNING: [HLS 207-5292] unused parameter 'integralImg_h' (cluster.c:83:47)
+WARNING: [HLS 207-5292] unused parameter 'retSAD_h' (cluster.c:126:33)
+WARNING: [HLS 207-5292] unused parameter 'range_h' (cluster.c:154:39)
+ERROR: Compilation of the preprocessed source 'cluster' failed
+INFO: [HLS 200-112] Total CPU user time: 3.33 seconds. Total CPU system time: 1 seconds. Total elapsed time: 4.18 seconds; peak allocated memory: 353.504 MB.

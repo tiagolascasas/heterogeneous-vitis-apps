@@ -1,0 +1,17 @@
+{
+  "0": {
+    "basicblocks": 48,
+    "calls": "",
+    "file": "cluster.c",
+    "fileloc": 170,
+    "instructions": 285,
+    "loads": {
+      "T": 7
+    },
+    "name": "cluster",
+    "stores": {
+      "T": 4
+    },
+    "total_instructions": 285
+  }
+}

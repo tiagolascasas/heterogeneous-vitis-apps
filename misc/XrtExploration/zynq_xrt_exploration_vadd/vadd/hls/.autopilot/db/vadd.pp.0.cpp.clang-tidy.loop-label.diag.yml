@@ -1,0 +1,13 @@
+---
+MainSourceFile:  /home/tls/Dev/wonderland/AmdVitisProjects/XrtExploration/zynq_xrt_exploration_vadd/vadd/hls/.autopilot/db/vadd.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3_1:  '
+    FileOffset:      3
+    FilePath:        vadd.cpp
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisProjects/XrtExploration/zynq_xrt_exploration_vadd/vadd/hls/.autopilot/db/vadd.pp.0.cpp
+        Offset:          9633
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3_1: '
+...

@@ -1,0 +1,247 @@
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: vadd.cpp, Line: 3, Column: 25 }
+Function:        vadd
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        in1seq
+  - ArrayName:       in1
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_3_1
+  - String:          ' '
+  - LoopLoc:         'vadd.cpp:3:25'
+  - String:          ' '
+  - Function:        vadd
+    DebugLoc:        { File: vadd.cpp, Line: 2, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: vadd.cpp, Line: 4, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          for.inc.load.4
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: vadd.cpp, Line: 3, Column: 25 }
+Function:        vadd
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        in2seq
+  - ArrayName:       in2
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_3_1
+  - String:          ' '
+  - LoopLoc:         'vadd.cpp:3:25'
+  - String:          ' '
+  - Function:        vadd
+    DebugLoc:        { File: vadd.cpp, Line: 2, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: vadd.cpp, Line: 4, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          for.inc.load.7
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: vadd.cpp, Line: 3, Column: 25 }
+Function:        vadd
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        outseq
+  - ArrayName:       out
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_3_1
+  - String:          ' '
+  - LoopLoc:         'vadd.cpp:3:25'
+  - String:          ' '
+  - Function:        vadd
+    DebugLoc:        { File: vadd.cpp, Line: 2, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: vadd.cpp, Line: 4, Column: 20 }
+  - OrigDirection:   write
+  - OrigID:          for.inc.store.11
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: vadd.cpp, Line: 3, Column: 25 }
+Function:        vadd
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: vadd.cpp, Line: 3, Column: 25 }
+  - OrigDirection:   read
+  - OrigID:          in1seq
+  - ArrayName:       in1
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_3_1
+  - String:          ' '
+  - LoopLoc:         'vadd.cpp:3:25'
+  - String:          ' '
+  - Function:        vadd
+    DebugLoc:        { File: vadd.cpp, Line: 2, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: vadd.cpp, Line: 3, Column: 25 }
+Function:        vadd
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: vadd.cpp, Line: 3, Column: 25 }
+  - OrigDirection:   read
+  - OrigID:          in2seq
+  - ArrayName:       in2
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_3_1
+  - String:          ' '
+  - LoopLoc:         'vadd.cpp:3:25'
+  - String:          ' '
+  - Function:        vadd
+    DebugLoc:        { File: vadd.cpp, Line: 2, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: vadd.cpp, Line: 3, Column: 25 }
+Function:        vadd
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: vadd.cpp, Line: 3, Column: 25 }
+  - OrigDirection:   write
+  - OrigID:          outseq
+  - ArrayName:       out
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_3_1
+  - String:          ' '
+  - LoopLoc:         'vadd.cpp:3:25'
+  - String:          ' '
+  - Function:        vadd
+    DebugLoc:        { File: vadd.cpp, Line: 2, Column: 0 }
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_3_1
+  - String:          '> at '
+  - LoopLoc:         'vadd.cpp:3:25'
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            BurstConflict
+DebugLoc:        { File: vadd.cpp, Line: 3, Column: 25 }
+Function:        vadd
+Args:            
+  - String:          'Could not burst due to multiple potential '
+  - Direction:       reads
+  - String:          ' to the same bundle in the same region.'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: vadd.cpp, Line: 3, Column: 25 }
+  - OrigDirection:   read
+  - OrigID:          seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        vadd
+    DebugLoc:        { File: vadd.cpp, Line: 2, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: vadd.cpp, Line: 3, Column: 25 }
+Function:        vadd
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length and bit width '
+  - Width:           '32'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq2
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_3_1
+  - String:          ' '
+  - LoopLoc:         'vadd.cpp:3:25'
+  - String:          ' '
+  - Function:        vadd
+    DebugLoc:        { File: vadd.cpp, Line: 2, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: vadd.cpp, Line: 3, Column: 25 }
+Function:        vadd
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length and bit width '
+  - Width:           '32'
+  - String:          ' in loop '''
+  - LoopName:        VITIS_LOOP_3_1
+  - String:          '''('
+  - LoopLoc:         'vadd.cpp:3:25'
+  - String:          ')'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      gmem
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...

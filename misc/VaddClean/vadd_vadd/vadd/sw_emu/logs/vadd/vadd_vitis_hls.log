@@ -1,0 +1,71 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Fri Jul 12 23:56:08 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'tls' on host 'tls-Legion-5-15ACH6H' (Linux_x86_64 version 6.5.0-41-generic) on Fri Jul 12 23:56:09 WEST 2024
+INFO: [HLS 200-10] On os Ubuntu 22.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd'
+WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'vadd.tcl'
+INFO: [HLS 200-1510] Running: open_project vadd 
+INFO: [HLS 200-10] Creating and opening project '/home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd'.
+INFO: [HLS 200-1510] Running: set_top vadd 
+INFO: [HLS 200-1510] Running: add_files /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/src/vadd.cpp -cflags  -g 
+INFO: [HLS 200-10] Adding design file '/home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/src/vadd.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution -flow_target vitis solution 
+INFO: [HLS 200-10] Creating and opening solution '/home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution'.
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1510] Running: set_part xczu9eg-ffvb1156-2-e 
+INFO: [HLS 200-1611] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [HLS 200-1510] Running: create_clock -period 150.000000MHz -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 6.667ns.
+INFO: [HLS 200-1510] Running: config_rtl -kernel_profile 
+INFO: [HLS 200-1510] Running: config_dataflow -strict_mode warning 
+INFO: [HLS 200-1510] Running: config_debug -enable 
+INFO: [HLS 200-1510] Running: config_rtl -deadlock_detection none 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_conservative_mode=1 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_auto_max_ports=0 
+INFO: [HLS 200-1510] Running: config_export -format xo -ipname vadd 
+INFO: [HLS 200-1510] Running: csynth_design -synthesis_check 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 361.086 MB.
+INFO: [HLS 200-10] Analyzing design file '../../../../src/vadd.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.34 seconds. CPU system time: 0.47 seconds. Elapsed time: 0.81 seconds; current allocated memory: 362.590 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
+INFO: [HLS 200-1995] There were 157 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 98 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 86 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 86 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 66 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 66 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 66 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 66 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 66 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 66 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 66 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 104 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisVadd/vadd_vadd/vadd/sw_emu/vadd/vadd/vadd/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-376] automatically set the pipeline for Loop< mem_wr> at ../../../../src/vadd.cpp:89:5 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< execute> at ../../../../src/vadd.cpp:80:5 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< mem_rd> at ../../../../src/vadd.cpp:68:5 
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1.93 seconds. CPU system time: 0.6 seconds. Elapsed time: 7.05 seconds; current allocated memory: 372.703 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 372.703 MB.
+INFO: [HLS 200-1493] Running only source code synthesis checks, skipping scheduling and RTL generation.
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:07; Allocated memory: 11.730 MB.
+INFO: [HLS 200-1510] Running: close_project 
+HLS completed successfully
+INFO: [HLS 200-112] Total CPU user time: 5.1 seconds. Total CPU system time: 1.49 seconds. Total elapsed time: 10.95 seconds; peak allocated memory: 372.816 MB.

@@ -1,0 +1,168 @@
+<ENTRY>
+{
+ "thisFile": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/sw_emu/vadd.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Thu Sep 19 01:19:16 2024",
+ "timestampMillis": "1726705156008",
+ "buildStep": {
+  "cmdId": "eda6f6f3-47fd-4ddd-b759-1bb01678939c",
+  "name": "v++",
+  "logFile": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/sw_emu/vadd/vadd.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2024.1/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -c -k vadd --target sw_emu /mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/src/vadd.cpp -g --platform /tools/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_202410_1/xilinx_zcu102_base_202410_1.xpfm --temp_dir /mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/sw_emu -o /mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/sw_emu/vadd.xo ",
+  "args": [
+   "-c",
+   "-k",
+   "vadd",
+   "--target",
+   "sw_emu",
+   "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/src/vadd.cpp",
+   "-g",
+   "--platform",
+   "/tools/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_202410_1/xilinx_zcu102_base_202410_1.xpfm",
+   "--temp_dir",
+   "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/sw_emu",
+   "-o",
+   "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/sw_emu/vadd.xo"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 19 01:19:16 2024",
+ "timestampMillis": "1726705156009",
+ "status": {
+  "cmdId": "eda6f6f3-47fd-4ddd-b759-1bb01678939c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Thu Sep 19 01:19:16 2024",
+ "timestampMillis": "1726705156442",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_zcu102_base_202410_1.xpfm",
+  "hardwareDsa": "hw.xsa",
+  "platformDirectory": "/tools/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_202410_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_SW_EMU",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "vadd",
+     "file": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/sw_emu/vadd.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/src/vadd.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2024.1. SW Build 5074859 on 2024-05-20-23:21:20"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu Sep 19 01:19:16 2024",
+ "timestampMillis": "1726705156445",
+ "buildStep": {
+  "cmdId": "02455b53-040f-4991-9b56-aee73f5cead5",
+  "name": "vitis_hls",
+  "logFile": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/sw_emu/vadd/vadd/vitis_hls.log",
+  "commandLine": "vitis_hls -f /mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/sw_emu/vadd/vadd/vadd.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/sw_emu/vadd/vadd/vadd.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 19 01:19:16 2024",
+ "timestampMillis": "1726705156445",
+ "status": {
+  "cmdId": "02455b53-040f-4991-9b56-aee73f5cead5",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 19 01:19:29 2024",
+ "timestampMillis": "1726705169758",
+ "status": {
+  "cmdId": "02455b53-040f-4991-9b56-aee73f5cead5",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 19 01:19:29 2024",
+ "timestampMillis": "1726705169772",
+ "status": {
+  "cmdId": "eda6f6f3-47fd-4ddd-b759-1bb01678939c",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:19:29 2024",
+ "timestampMillis": "1726705169829",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/sw_emu/reports/vadd/v++_compile_vadd_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:19:29 2024",
+ "timestampMillis": "1726705169830",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/sw_emu/v++_compile_vadd_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

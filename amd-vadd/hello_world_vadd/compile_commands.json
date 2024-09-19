@@ -1,0 +1,15 @@
+[
+  {
+    "directory": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
+      "",
+      "-g",
+      "-c",
+      "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/src/vadd.cpp"
+    ],
+    "file": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/src/vadd.cpp"
+  }
+]

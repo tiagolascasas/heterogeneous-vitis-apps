@@ -1,0 +1,3 @@
+relativeroot=/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd
+original_argv=-c --mode hls --config /mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/hls_config.cfg --work_dir vadd 
+

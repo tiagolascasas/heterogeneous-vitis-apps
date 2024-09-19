@@ -1,0 +1,372 @@
+<ENTRY>
+{
+ "thisFile": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/vadd.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Thu Sep 19 01:27:33 2024",
+ "timestampMillis": "1726705653954",
+ "buildStep": {
+  "cmdId": "b3fa6c62-04eb-4bfd-958a-0515c7e2cc08",
+  "name": "v++",
+  "logFile": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/logs/vadd.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2024.1/bin/unwrapped/lnx64.o/v++  -c --mode hls --config /mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/hls_config.cfg --work_dir vadd ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/hls_config.cfg",
+   "--work_dir",
+   "vadd"
+  ],
+  "iniFiles": [
+   {
+    "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/hls_config.cfg",
+    "content": "part=xczu9eg-ffvb1156-2-e\n\n[hls]\nclock=6.667ns\nflow_target=vitis\nsyn.file=src/vadd.cpp\nsyn.file_cflags=src/vadd.cpp,-g\nsyn.top=vadd\npackage.ip.name=vadd\npackage.output.format=xo\nsyn.dataflow.strict_mode=warning\nsyn.debug.enable=1\nsyn.interface.m_axi_addr64=1\nsyn.interface.m_axi_auto_max_ports=0\nsyn.interface.m_axi_conservative_mode=1\nsyn.rtl.deadlock_detection=sim\nsyn.rtl.kernel_profile=1\npackage.output.syn=true"
+   }
+  ],
+  "cwd": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 19 01:27:33 2024",
+ "timestampMillis": "1726705653954",
+ "status": {
+  "cmdId": "b3fa6c62-04eb-4bfd-958a-0515c7e2cc08",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Thu Sep 19 01:27:38 2024",
+ "timestampMillis": "1726705658066",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "vadd",
+     "file": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/vadd.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/src/vadd.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu Sep 19 01:27:38 2024",
+ "timestampMillis": "1726705658067",
+ "buildStep": {
+  "cmdId": "3dc59440-63a9-4f25-b992-5e60eebee384",
+  "name": "csynth_design",
+  "logFile": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls/hls.log",
+  "commandLine": "csynth_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 19 01:27:38 2024",
+ "timestampMillis": "1726705658067",
+ "status": {
+  "cmdId": "3dc59440-63a9-4f25-b992-5e60eebee384",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:27:38 2024",
+ "timestampMillis": "1726705658067",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls/hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:27:38 2024",
+ "timestampMillis": "1726705658068",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls/syn/report/csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:27:38 2024",
+ "timestampMillis": "1726705658068",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls/syn/report/csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:27:48 2024",
+ "timestampMillis": "1726705668105",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:27:48 2024",
+ "timestampMillis": "1726705668105",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:27:48 2024",
+ "timestampMillis": "1726705668106",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 19 01:27:48 2024",
+ "timestampMillis": "1726705668106",
+ "status": {
+  "cmdId": "3dc59440-63a9-4f25-b992-5e60eebee384",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Thu Sep 19 01:27:48 2024",
+ "timestampMillis": "1726705668106",
+ "buildStep": {
+  "cmdId": "7486f816-efdf-427f-8af2-5032504c6c9c",
+  "name": "export_design",
+  "logFile": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls/hls.log",
+  "commandLine": "export_design -flow none -format xo",
+  "args": [
+   "-flow",
+   "none",
+   "-format",
+   "xo"
+  ],
+  "iniFiles": [],
+  "cwd": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 19 01:27:48 2024",
+ "timestampMillis": "1726705668106",
+ "status": {
+  "cmdId": "7486f816-efdf-427f-8af2-5032504c6c9c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:27:48 2024",
+ "timestampMillis": "1726705668106",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls/hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:27:48 2024",
+ "timestampMillis": "1726705668106",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls/syn/report/csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:27:48 2024",
+ "timestampMillis": "1726705668106",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls/syn/report/csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:28:05 2024",
+ "timestampMillis": "1726705685033",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:28:05 2024",
+ "timestampMillis": "1726705685033",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:28:05 2024",
+ "timestampMillis": "1726705685033",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 19 01:28:05 2024",
+ "timestampMillis": "1726705685033",
+ "status": {
+  "cmdId": "7486f816-efdf-427f-8af2-5032504c6c9c",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Sep 19 01:28:05 2024",
+ "timestampMillis": "1726705685212",
+ "status": {
+  "cmdId": "b3fa6c62-04eb-4bfd-958a-0515c7e2cc08",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:28:05 2024",
+ "timestampMillis": "1726705685261",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/reports/v++_compile_vadd_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Sep 19 01:28:05 2024",
+ "timestampMillis": "1726705685261",
+ "report": {
+  "path": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall/hello_world_vadd/vadd/reports/.db/v++_compile_vadd_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

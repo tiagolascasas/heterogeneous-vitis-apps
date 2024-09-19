@@ -1,0 +1,264 @@
+Thu Jul 11 02:33:32 2024: Running xcd server. This server was built by gradle.
+Thu Jul 11 02:33:32 2024: Server was asked to start on port: '43081'
+Thu Jul 11 02:33:32 2024: Server is using token UUID: 'e9c66c28-773a-46cd-b84f-753d1e2a82a2'
+Thu Jul 11 02:33:32 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Thu Jul 11 02:33:32 2024: Attempting to start server on port '43081'
+Thu Jul 11 02:33:32 2024: XCD main fifo: created main fifo '/tmp/xcdmaine9c66c28-773a-46cd-b84f-753d1e2a82a2', fd read = 13
+Thu Jul 11 02:33:32 2024: Running Dispatch Server
+Thu Jul 11 02:33:32 2024: Version 2.2.0
+Thu Jul 11 02:33:33 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 02:33:33 2024: Starting Socket connection
+Thu Jul 11 02:33:33 2024: EXCHANGE_TOKEN received, server token: e9c66c28-773a-46cd-b84f-753d1e2a82a2, passed token: e9c66c28-773a-46cd-b84f-753d1e2a82a2
+Thu Jul 11 02:33:34 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Thu Jul 11 02:33:34 2024: SESSION_MGR: creating session with session uuid: '65f41970-bcfc-4b1e-88b5-76f81800aaa5' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:33:34 2024: KERNEL_SVC: creating session with uuid: '65f41970-bcfc-4b1e-88b5-76f81800aaa5' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:33:34 2024: GUIDANCE_SMGR: creating guidance session with uuid: '65f41970-bcfc-4b1e-88b5-76f81800aaa5' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:33:34 2024: SYSTEM_DIAGRAM: creating session with uuid: '65f41970-bcfc-4b1e-88b5-76f81800aaa5' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:33:38 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 02:33:38 2024: Starting Socket connection
+Thu Jul 11 02:33:39 2024: SESSION_MGR: closing session for UUID '65f41970-bcfc-4b1e-88b5-76f81800aaa5' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:33:39 2024: KERNEL_SVC: closing session for UUID '65f41970-bcfc-4b1e-88b5-76f81800aaa5' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:33:39 2024: GUIDANCE_SMGR: closing session for UUID '65f41970-bcfc-4b1e-88b5-76f81800aaa5' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:33:39 2024: SYSTEM_DIAGRAM: closing session for UUID '65f41970-bcfc-4b1e-88b5-76f81800aaa5' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:33:39 2024: STOP_SERVER received, server token: e9c66c28-773a-46cd-b84f-753d1e2a82a2, passed token: e9c66c28-773a-46cd-b84f-753d1e2a82a2
+Thu Jul 11 02:33:39 2024: Socket received request to stop server.
+Thu Jul 11 02:33:39 2024: Dispatch Server: do_await_stop
+Thu Jul 11 02:33:39 2024: Dispatch Server: stopping mainFifo_
+Thu Jul 11 02:33:39 2024: XCD main fifo: Stopping
+Thu Jul 11 02:33:39 2024: XCD main fifo: do_read error code: Operation canceled
+Thu Jul 11 02:33:39 2024: XCD main fifo: bytes_transferred: 0
+Thu Jul 11 02:33:39 2024: SERVER: destructor for server bound to port 43081
+Thu Jul 11 02:33:39 2024: XCD main fifo: Good unlink of /tmp/xcdmaine9c66c28-773a-46cd-b84f-753d1e2a82a2
+Thu Jul 11 02:33:39 2024: Server exiting with status 0.
+Thu Jul 11 02:33:39 2024: Closing log file.
+Thu Jul 11 02:34:12 2024: Running xcd server. This server was built by gradle.
+Thu Jul 11 02:34:12 2024: Server was asked to start on port: '44625'
+Thu Jul 11 02:34:12 2024: Server is using token UUID: '42a2ac23-cd5a-425d-9163-960360bf8dfb'
+Thu Jul 11 02:34:12 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Thu Jul 11 02:34:12 2024: Attempting to start server on port '44625'
+Thu Jul 11 02:34:12 2024: XCD main fifo: created main fifo '/tmp/xcdmain42a2ac23-cd5a-425d-9163-960360bf8dfb', fd read = 13
+Thu Jul 11 02:34:12 2024: Running Dispatch Server
+Thu Jul 11 02:34:12 2024: Version 2.2.0
+Thu Jul 11 02:34:14 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 02:34:14 2024: Starting Socket connection
+Thu Jul 11 02:34:14 2024: EXCHANGE_TOKEN received, server token: 42a2ac23-cd5a-425d-9163-960360bf8dfb, passed token: 42a2ac23-cd5a-425d-9163-960360bf8dfb
+Thu Jul 11 02:34:14 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Thu Jul 11 02:34:14 2024: SESSION_MGR: creating session with session uuid: 'd3edfc51-80f1-4019-986a-fe967ede745a' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:34:14 2024: KERNEL_SVC: creating session with uuid: 'd3edfc51-80f1-4019-986a-fe967ede745a' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:34:14 2024: GUIDANCE_SMGR: creating guidance session with uuid: 'd3edfc51-80f1-4019-986a-fe967ede745a' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:34:14 2024: SYSTEM_DIAGRAM: creating session with uuid: 'd3edfc51-80f1-4019-986a-fe967ede745a' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:34:18 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 02:34:18 2024: Starting Socket connection
+Thu Jul 11 02:34:32 2024: SESSION_MGR: closing session for UUID 'd3edfc51-80f1-4019-986a-fe967ede745a' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:34:32 2024: KERNEL_SVC: closing session for UUID 'd3edfc51-80f1-4019-986a-fe967ede745a' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:34:32 2024: GUIDANCE_SMGR: closing session for UUID 'd3edfc51-80f1-4019-986a-fe967ede745a' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:34:32 2024: SYSTEM_DIAGRAM: closing session for UUID 'd3edfc51-80f1-4019-986a-fe967ede745a' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:34:32 2024: STOP_SERVER received, server token: 42a2ac23-cd5a-425d-9163-960360bf8dfb, passed token: 42a2ac23-cd5a-425d-9163-960360bf8dfb
+Thu Jul 11 02:34:32 2024: Socket received request to stop server.
+Thu Jul 11 02:34:32 2024: Dispatch Server: do_await_stop
+Thu Jul 11 02:34:32 2024: Dispatch Server: stopping mainFifo_
+Thu Jul 11 02:34:32 2024: XCD main fifo: Stopping
+Thu Jul 11 02:34:32 2024: XCD main fifo: do_read error code: Operation canceled
+Thu Jul 11 02:34:32 2024: XCD main fifo: bytes_transferred: 0
+Thu Jul 11 02:34:32 2024: SERVER: destructor for server bound to port 44625
+Thu Jul 11 02:34:32 2024: XCD main fifo: Good unlink of /tmp/xcdmain42a2ac23-cd5a-425d-9163-960360bf8dfb
+Thu Jul 11 02:34:32 2024: Server exiting with status 0.
+Thu Jul 11 02:34:32 2024: Closing log file.
+Thu Jul 11 02:52:12 2024: Running xcd server. This server was built by gradle.
+Thu Jul 11 02:52:12 2024: Server was asked to start on port: '38641'
+Thu Jul 11 02:52:12 2024: Server is using token UUID: 'fa1ae6ae-23fc-4a25-8fb4-6e782f545ff4'
+Thu Jul 11 02:52:12 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Thu Jul 11 02:52:12 2024: Attempting to start server on port '38641'
+Thu Jul 11 02:52:12 2024: XCD main fifo: created main fifo '/tmp/xcdmainfa1ae6ae-23fc-4a25-8fb4-6e782f545ff4', fd read = 13
+Thu Jul 11 02:52:12 2024: Running Dispatch Server
+Thu Jul 11 02:52:12 2024: Version 2.2.0
+Thu Jul 11 02:52:14 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 02:52:14 2024: Starting Socket connection
+Thu Jul 11 02:52:14 2024: EXCHANGE_TOKEN received, server token: fa1ae6ae-23fc-4a25-8fb4-6e782f545ff4, passed token: fa1ae6ae-23fc-4a25-8fb4-6e782f545ff4
+Thu Jul 11 02:52:14 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Thu Jul 11 02:52:14 2024: SESSION_MGR: creating session with session uuid: 'c34fffa8-0481-4207-ac5c-0beaaa2c8b1e' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:52:14 2024: KERNEL_SVC: creating session with uuid: 'c34fffa8-0481-4207-ac5c-0beaaa2c8b1e' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:52:14 2024: GUIDANCE_SMGR: creating guidance session with uuid: 'c34fffa8-0481-4207-ac5c-0beaaa2c8b1e' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:52:14 2024: SYSTEM_DIAGRAM: creating session with uuid: 'c34fffa8-0481-4207-ac5c-0beaaa2c8b1e' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:52:18 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 02:52:18 2024: Starting Socket connection
+Thu Jul 11 02:52:32 2024: SESSION_MGR: closing session for UUID 'c34fffa8-0481-4207-ac5c-0beaaa2c8b1e' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:52:32 2024: KERNEL_SVC: closing session for UUID 'c34fffa8-0481-4207-ac5c-0beaaa2c8b1e' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:52:32 2024: GUIDANCE_SMGR: closing session for UUID 'c34fffa8-0481-4207-ac5c-0beaaa2c8b1e' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:52:32 2024: SYSTEM_DIAGRAM: closing session for UUID 'c34fffa8-0481-4207-ac5c-0beaaa2c8b1e' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:52:32 2024: STOP_SERVER received, server token: fa1ae6ae-23fc-4a25-8fb4-6e782f545ff4, passed token: fa1ae6ae-23fc-4a25-8fb4-6e782f545ff4
+Thu Jul 11 02:52:32 2024: Socket received request to stop server.
+Thu Jul 11 02:52:32 2024: Dispatch Server: do_await_stop
+Thu Jul 11 02:52:32 2024: Dispatch Server: stopping mainFifo_
+Thu Jul 11 02:52:32 2024: XCD main fifo: Stopping
+Thu Jul 11 02:52:32 2024: XCD main fifo: do_read error code: Operation canceled
+Thu Jul 11 02:52:32 2024: XCD main fifo: bytes_transferred: 0
+Thu Jul 11 02:52:32 2024: SERVER: destructor for server bound to port 38641
+Thu Jul 11 02:52:32 2024: XCD main fifo: Good unlink of /tmp/xcdmainfa1ae6ae-23fc-4a25-8fb4-6e782f545ff4
+Thu Jul 11 02:52:32 2024: Server exiting with status 0.
+Thu Jul 11 02:52:32 2024: Closing log file.
+Thu Jul 11 02:52:34 2024: Running xcd server. This server was built by gradle.
+Thu Jul 11 02:52:34 2024: Server was asked to start on port: '42885'
+Thu Jul 11 02:52:34 2024: Server is using token UUID: 'a0e5171d-4f2e-48c9-8850-9b0429cc228d'
+Thu Jul 11 02:52:34 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Thu Jul 11 02:52:34 2024: Attempting to start server on port '42885'
+Thu Jul 11 02:52:34 2024: XCD main fifo: created main fifo '/tmp/xcdmaina0e5171d-4f2e-48c9-8850-9b0429cc228d', fd read = 13
+Thu Jul 11 02:52:34 2024: Running Dispatch Server
+Thu Jul 11 02:52:34 2024: Version 2.2.0
+Thu Jul 11 02:52:36 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 02:52:36 2024: Starting Socket connection
+Thu Jul 11 02:52:36 2024: EXCHANGE_TOKEN received, server token: a0e5171d-4f2e-48c9-8850-9b0429cc228d, passed token: a0e5171d-4f2e-48c9-8850-9b0429cc228d
+Thu Jul 11 02:52:36 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Thu Jul 11 02:52:36 2024: SESSION_MGR: creating session with session uuid: 'b969b3f1-3f0b-45ad-b000-f93e643dd618' and name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:52:36 2024: KERNEL_SVC: creating session with uuid: 'b969b3f1-3f0b-45ad-b000-f93e643dd618' and name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:52:36 2024: GUIDANCE_SMGR: creating guidance session with uuid: 'b969b3f1-3f0b-45ad-b000-f93e643dd618' and name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:52:36 2024: SYSTEM_DIAGRAM: creating session with uuid: 'b969b3f1-3f0b-45ad-b000-f93e643dd618' and name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:52:40 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 02:52:40 2024: Starting Socket connection
+Thu Jul 11 02:53:02 2024: SESSION_MGR: closing session for UUID 'b969b3f1-3f0b-45ad-b000-f93e643dd618' with name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:53:02 2024: KERNEL_SVC: closing session for UUID 'b969b3f1-3f0b-45ad-b000-f93e643dd618' with name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:53:02 2024: GUIDANCE_SMGR: closing session for UUID 'b969b3f1-3f0b-45ad-b000-f93e643dd618' with name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:53:02 2024: SYSTEM_DIAGRAM: closing session for UUID 'b969b3f1-3f0b-45ad-b000-f93e643dd618' with name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 02:53:02 2024: STOP_SERVER received, server token: a0e5171d-4f2e-48c9-8850-9b0429cc228d, passed token: a0e5171d-4f2e-48c9-8850-9b0429cc228d
+Thu Jul 11 02:53:02 2024: Socket received request to stop server.
+Thu Jul 11 02:53:02 2024: Dispatch Server: do_await_stop
+Thu Jul 11 02:53:02 2024: Dispatch Server: stopping mainFifo_
+Thu Jul 11 02:53:02 2024: XCD main fifo: Stopping
+Thu Jul 11 02:53:02 2024: XCD main fifo: do_read error code: Operation canceled
+Thu Jul 11 02:53:02 2024: XCD main fifo: bytes_transferred: 0
+Thu Jul 11 02:53:02 2024: SERVER: destructor for server bound to port 42885
+Thu Jul 11 02:53:02 2024: XCD main fifo: Good unlink of /tmp/xcdmaina0e5171d-4f2e-48c9-8850-9b0429cc228d
+Thu Jul 11 02:53:02 2024: Server exiting with status 0.
+Thu Jul 11 02:53:02 2024: Closing log file.
+Thu Jul 11 10:45:22 2024: Running xcd server. This server was built by gradle.
+Thu Jul 11 10:45:22 2024: Server was asked to start on port: '39157'
+Thu Jul 11 10:45:22 2024: Server is using token UUID: '0dc073d7-cde9-43e2-b5ce-c2738b8acf78'
+Thu Jul 11 10:45:22 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Thu Jul 11 10:45:22 2024: Attempting to start server on port '39157'
+Thu Jul 11 10:45:22 2024: XCD main fifo: created main fifo '/tmp/xcdmain0dc073d7-cde9-43e2-b5ce-c2738b8acf78', fd read = 13
+Thu Jul 11 10:45:22 2024: Running Dispatch Server
+Thu Jul 11 10:45:22 2024: Version 2.2.0
+Thu Jul 11 10:45:24 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 10:45:24 2024: Starting Socket connection
+Thu Jul 11 10:45:24 2024: EXCHANGE_TOKEN received, server token: 0dc073d7-cde9-43e2-b5ce-c2738b8acf78, passed token: 0dc073d7-cde9-43e2-b5ce-c2738b8acf78
+Thu Jul 11 10:45:24 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Thu Jul 11 10:45:24 2024: SESSION_MGR: creating session with session uuid: 'b7721351-cab4-4e28-93e4-bd513be63287' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:45:24 2024: KERNEL_SVC: creating session with uuid: 'b7721351-cab4-4e28-93e4-bd513be63287' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:45:24 2024: GUIDANCE_SMGR: creating guidance session with uuid: 'b7721351-cab4-4e28-93e4-bd513be63287' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:45:24 2024: SYSTEM_DIAGRAM: creating session with uuid: 'b7721351-cab4-4e28-93e4-bd513be63287' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:45:29 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 10:45:29 2024: Starting Socket connection
+Thu Jul 11 10:45:42 2024: SESSION_MGR: closing session for UUID 'b7721351-cab4-4e28-93e4-bd513be63287' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:45:42 2024: KERNEL_SVC: closing session for UUID 'b7721351-cab4-4e28-93e4-bd513be63287' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:45:42 2024: GUIDANCE_SMGR: closing session for UUID 'b7721351-cab4-4e28-93e4-bd513be63287' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:45:42 2024: SYSTEM_DIAGRAM: closing session for UUID 'b7721351-cab4-4e28-93e4-bd513be63287' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:45:42 2024: STOP_SERVER received, server token: 0dc073d7-cde9-43e2-b5ce-c2738b8acf78, passed token: 0dc073d7-cde9-43e2-b5ce-c2738b8acf78
+Thu Jul 11 10:45:42 2024: Socket received request to stop server.
+Thu Jul 11 10:45:42 2024: Dispatch Server: do_await_stop
+Thu Jul 11 10:45:42 2024: Dispatch Server: stopping mainFifo_
+Thu Jul 11 10:45:42 2024: XCD main fifo: Stopping
+Thu Jul 11 10:45:42 2024: XCD main fifo: do_read error code: Operation canceled
+Thu Jul 11 10:45:42 2024: XCD main fifo: bytes_transferred: 0
+Thu Jul 11 10:45:42 2024: SERVER: destructor for server bound to port 39157
+Thu Jul 11 10:45:42 2024: XCD main fifo: Good unlink of /tmp/xcdmain0dc073d7-cde9-43e2-b5ce-c2738b8acf78
+Thu Jul 11 10:45:42 2024: Server exiting with status 0.
+Thu Jul 11 10:45:42 2024: Closing log file.
+Thu Jul 11 10:45:43 2024: Running xcd server. This server was built by gradle.
+Thu Jul 11 10:45:43 2024: Server was asked to start on port: '37545'
+Thu Jul 11 10:45:43 2024: Server is using token UUID: '46e9c9e2-9c3c-4334-baa3-5daa92a540f2'
+Thu Jul 11 10:45:43 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Thu Jul 11 10:45:43 2024: Attempting to start server on port '37545'
+Thu Jul 11 10:45:43 2024: XCD main fifo: created main fifo '/tmp/xcdmain46e9c9e2-9c3c-4334-baa3-5daa92a540f2', fd read = 13
+Thu Jul 11 10:45:43 2024: Running Dispatch Server
+Thu Jul 11 10:45:43 2024: Version 2.2.0
+Thu Jul 11 10:45:45 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 10:45:45 2024: Starting Socket connection
+Thu Jul 11 10:45:45 2024: EXCHANGE_TOKEN received, server token: 46e9c9e2-9c3c-4334-baa3-5daa92a540f2, passed token: 46e9c9e2-9c3c-4334-baa3-5daa92a540f2
+Thu Jul 11 10:45:45 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Thu Jul 11 10:45:45 2024: SESSION_MGR: creating session with session uuid: '2c0b6fb8-436f-4e57-aab7-7da53188f7f6' and name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:45:45 2024: KERNEL_SVC: creating session with uuid: '2c0b6fb8-436f-4e57-aab7-7da53188f7f6' and name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:45:45 2024: GUIDANCE_SMGR: creating guidance session with uuid: '2c0b6fb8-436f-4e57-aab7-7da53188f7f6' and name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:45:45 2024: SYSTEM_DIAGRAM: creating session with uuid: '2c0b6fb8-436f-4e57-aab7-7da53188f7f6' and name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:45:49 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 10:45:49 2024: Starting Socket connection
+Thu Jul 11 10:46:11 2024: SESSION_MGR: closing session for UUID '2c0b6fb8-436f-4e57-aab7-7da53188f7f6' with name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:46:11 2024: KERNEL_SVC: closing session for UUID '2c0b6fb8-436f-4e57-aab7-7da53188f7f6' with name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:46:11 2024: GUIDANCE_SMGR: closing session for UUID '2c0b6fb8-436f-4e57-aab7-7da53188f7f6' with name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:46:11 2024: SYSTEM_DIAGRAM: closing session for UUID '2c0b6fb8-436f-4e57-aab7-7da53188f7f6' with name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:46:11 2024: STOP_SERVER received, server token: 46e9c9e2-9c3c-4334-baa3-5daa92a540f2, passed token: 46e9c9e2-9c3c-4334-baa3-5daa92a540f2
+Thu Jul 11 10:46:11 2024: Socket received request to stop server.
+Thu Jul 11 10:46:11 2024: Dispatch Server: do_await_stop
+Thu Jul 11 10:46:11 2024: Dispatch Server: stopping mainFifo_
+Thu Jul 11 10:46:11 2024: XCD main fifo: Stopping
+Thu Jul 11 10:46:11 2024: XCD main fifo: do_read error code: Operation canceled
+Thu Jul 11 10:46:11 2024: XCD main fifo: bytes_transferred: 0
+Thu Jul 11 10:46:11 2024: SERVER: destructor for server bound to port 37545
+Thu Jul 11 10:46:11 2024: XCD main fifo: Good unlink of /tmp/xcdmain46e9c9e2-9c3c-4334-baa3-5daa92a540f2
+Thu Jul 11 10:46:11 2024: Server exiting with status 0.
+Thu Jul 11 10:46:11 2024: Closing log file.
+Thu Jul 11 10:57:22 2024: Running xcd server. This server was built by gradle.
+Thu Jul 11 10:57:22 2024: Server was asked to start on port: '40657'
+Thu Jul 11 10:57:22 2024: Server is using token UUID: '1975dba9-e9cb-413a-820a-b62e3f4e7414'
+Thu Jul 11 10:57:22 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Thu Jul 11 10:57:22 2024: Attempting to start server on port '40657'
+Thu Jul 11 10:57:22 2024: XCD main fifo: created main fifo '/tmp/xcdmain1975dba9-e9cb-413a-820a-b62e3f4e7414', fd read = 13
+Thu Jul 11 10:57:22 2024: Running Dispatch Server
+Thu Jul 11 10:57:22 2024: Version 2.2.0
+Thu Jul 11 10:57:23 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 10:57:23 2024: Starting Socket connection
+Thu Jul 11 10:57:23 2024: EXCHANGE_TOKEN received, server token: 1975dba9-e9cb-413a-820a-b62e3f4e7414, passed token: 1975dba9-e9cb-413a-820a-b62e3f4e7414
+Thu Jul 11 10:57:24 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Thu Jul 11 10:57:24 2024: SESSION_MGR: creating session with session uuid: '4dd2c1df-470c-42de-ad3c-239650a6a362' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:57:24 2024: KERNEL_SVC: creating session with uuid: '4dd2c1df-470c-42de-ad3c-239650a6a362' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:57:24 2024: GUIDANCE_SMGR: creating guidance session with uuid: '4dd2c1df-470c-42de-ad3c-239650a6a362' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:57:24 2024: SYSTEM_DIAGRAM: creating session with uuid: '4dd2c1df-470c-42de-ad3c-239650a6a362' and name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:57:28 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 10:57:28 2024: Starting Socket connection
+Thu Jul 11 10:57:41 2024: SESSION_MGR: closing session for UUID '4dd2c1df-470c-42de-ad3c-239650a6a362' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:57:41 2024: KERNEL_SVC: closing session for UUID '4dd2c1df-470c-42de-ad3c-239650a6a362' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:57:41 2024: GUIDANCE_SMGR: closing session for UUID '4dd2c1df-470c-42de-ad3c-239650a6a362' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:57:41 2024: SYSTEM_DIAGRAM: closing session for UUID '4dd2c1df-470c-42de-ad3c-239650a6a362' with name 'v++_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:57:41 2024: STOP_SERVER received, server token: 1975dba9-e9cb-413a-820a-b62e3f4e7414, passed token: 1975dba9-e9cb-413a-820a-b62e3f4e7414
+Thu Jul 11 10:57:41 2024: Socket received request to stop server.
+Thu Jul 11 10:57:41 2024: Dispatch Server: do_await_stop
+Thu Jul 11 10:57:41 2024: Dispatch Server: stopping mainFifo_
+Thu Jul 11 10:57:41 2024: XCD main fifo: Stopping
+Thu Jul 11 10:57:41 2024: XCD main fifo: do_read error code: Operation canceled
+Thu Jul 11 10:57:41 2024: XCD main fifo: bytes_transferred: 0
+Thu Jul 11 10:57:41 2024: SERVER: destructor for server bound to port 40657
+Thu Jul 11 10:57:41 2024: XCD main fifo: Good unlink of /tmp/xcdmain1975dba9-e9cb-413a-820a-b62e3f4e7414
+Thu Jul 11 10:57:41 2024: Server exiting with status 0.
+Thu Jul 11 10:57:41 2024: Closing log file.
+Thu Jul 11 10:57:43 2024: Running xcd server. This server was built by gradle.
+Thu Jul 11 10:57:43 2024: Server was asked to start on port: '46851'
+Thu Jul 11 10:57:43 2024: Server is using token UUID: 'b44680b3-2dad-4900-91ab-3438f9e4685d'
+Thu Jul 11 10:57:43 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Thu Jul 11 10:57:43 2024: Attempting to start server on port '46851'
+Thu Jul 11 10:57:43 2024: XCD main fifo: created main fifo '/tmp/xcdmainb44680b3-2dad-4900-91ab-3438f9e4685d', fd read = 13
+Thu Jul 11 10:57:43 2024: Running Dispatch Server
+Thu Jul 11 10:57:43 2024: Version 2.2.0
+Thu Jul 11 10:57:44 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 10:57:44 2024: Starting Socket connection
+Thu Jul 11 10:57:44 2024: EXCHANGE_TOKEN received, server token: b44680b3-2dad-4900-91ab-3438f9e4685d, passed token: b44680b3-2dad-4900-91ab-3438f9e4685d
+Thu Jul 11 10:57:45 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Thu Jul 11 10:57:45 2024: SESSION_MGR: creating session with session uuid: '465e2f13-c4cc-4d23-b592-09a3166bdda4' and name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:57:45 2024: KERNEL_SVC: creating session with uuid: '465e2f13-c4cc-4d23-b592-09a3166bdda4' and name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:57:45 2024: GUIDANCE_SMGR: creating guidance session with uuid: '465e2f13-c4cc-4d23-b592-09a3166bdda4' and name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:57:45 2024: SYSTEM_DIAGRAM: creating session with uuid: '465e2f13-c4cc-4d23-b592-09a3166bdda4' and name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:57:49 2024: Dispatch Server: Accepted socket connection from client
+Thu Jul 11 10:57:49 2024: Starting Socket connection
+Thu Jul 11 10:58:10 2024: SESSION_MGR: closing session for UUID '465e2f13-c4cc-4d23-b592-09a3166bdda4' with name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:58:10 2024: KERNEL_SVC: closing session for UUID '465e2f13-c4cc-4d23-b592-09a3166bdda4' with name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:58:10 2024: GUIDANCE_SMGR: closing session for UUID '465e2f13-c4cc-4d23-b592-09a3166bdda4' with name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:58:10 2024: SYSTEM_DIAGRAM: closing session for UUID '465e2f13-c4cc-4d23-b592-09a3166bdda4' with name 'vitis-run_compile_DisparityMalloc_kernel'
+Thu Jul 11 10:58:10 2024: STOP_SERVER received, server token: b44680b3-2dad-4900-91ab-3438f9e4685d, passed token: b44680b3-2dad-4900-91ab-3438f9e4685d
+Thu Jul 11 10:58:10 2024: Socket received request to stop server.
+Thu Jul 11 10:58:10 2024: Dispatch Server: do_await_stop
+Thu Jul 11 10:58:10 2024: Dispatch Server: stopping mainFifo_
+Thu Jul 11 10:58:10 2024: XCD main fifo: Stopping
+Thu Jul 11 10:58:10 2024: XCD main fifo: do_read error code: Operation canceled
+Thu Jul 11 10:58:10 2024: XCD main fifo: bytes_transferred: 0
+Thu Jul 11 10:58:10 2024: SERVER: destructor for server bound to port 46851
+Thu Jul 11 10:58:10 2024: XCD main fifo: Good unlink of /tmp/xcdmainb44680b3-2dad-4900-91ab-3438f9e4685d
+Thu Jul 11 10:58:10 2024: Server exiting with status 0.
+Thu Jul 11 10:58:10 2024: Closing log file.

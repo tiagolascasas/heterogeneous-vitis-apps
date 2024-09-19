@@ -1,0 +1,6 @@
+{
+  "workspaceRoot": "/mnt/d991888a-3811-4d27-9ea4-f309485dc91f/VitisApps/AmdVitisMiscProjects/VaddNewInstall",
+  "mapping": {
+    "hello_world_vadd/src/vadd.cpp": "hello_world_vadd"
+  }
+}

@@ -1,0 +1,130 @@
+---
+MainSourceFile:  /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_28_1:  '
+    FileOffset:      28
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          38008
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_28_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_2:  '
+    FileOffset:      31
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          38093
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_41_3:  '
+    FileOffset:      41
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          38338
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_41_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_44_4:  '
+    FileOffset:      44
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          38431
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_44_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_68_1:  '
+    FileOffset:      68
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          39002
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_68_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_2:  '
+    FileOffset:      71
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          39083
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_92_1:  '
+    FileOffset:      92
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          39604
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_92_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_98_2:  '
+    FileOffset:      98
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          39784
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_98_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_101_3:  '
+    FileOffset:      101
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          39863
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_101_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_4:  '
+    FileOffset:      109
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          40131
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_112_5:  '
+    FileOffset:      112
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          40210
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_112_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_1:  '
+    FileOffset:      137
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          40806
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_140_2:  '
+    FileOffset:      140
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          40898
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_140_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_163_1:  '
+    FileOffset:      163
+    FilePath:        cluster.c
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c
+        Offset:          41789
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_163_1: '
+...

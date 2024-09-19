@@ -1,0 +1,339 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/DisparityMalloc_kernel.hlscompile_summary, at Thu Jul 11 10:57:24 2024
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel -config /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg -cmdlineconfig /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Thu Jul 11 10:57:24 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'tls' on host 'tls-Legion-5-15ACH6H' (Linux_x86_64 version 6.5.0-41-generic) on Thu Jul 11 10:57:26 WEST 2024
+INFO: [HLS 200-10] On os Ubuntu 22.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel'
+INFO: [HLS 200-2005] Using work_dir /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=cluster.c' from /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file '/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/cluster.c' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=cluster' from /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1465] Applying ini 'part=xczu9eg-ffvb1156-2-e' from /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [HLS 200-1465] Applying ini 'clock=150MHz' from /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 6.667ns.
+INFO: [HLS 200-1465] Applying ini 'package.output.format=xo' from /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 3.12 seconds. CPU system time: 0.42 seconds. Elapsed time: 3.38 seconds; current allocated memory: 351.367 MB.
+INFO: [HLS 200-10] Analyzing design file 'cluster.c' ... 
+WARNING: [HLS 207-5292] unused parameter 'borderMat_w' (cluster.c:3:63)
+WARNING: [HLS 207-5292] unused parameter 'borderMat_h' (cluster.c:4:20)
+WARNING: [HLS 207-5292] unused parameter 'paddedArray_h' (cluster.c:5:39)
+WARNING: [HLS 207-5292] unused parameter 'Iright_moved_h' (cluster.c:57:41)
+WARNING: [HLS 207-5292] unused parameter 'SAD_h' (cluster.c:58:32)
+WARNING: [HLS 207-5292] unused parameter 'integralImg_h' (cluster.c:83:47)
+WARNING: [HLS 207-5292] unused parameter 'retSAD_h' (cluster.c:126:33)
+WARNING: [HLS 207-5292] unused parameter 'range_h' (cluster.c:154:39)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.39 seconds. CPU system time: 0.48 seconds. Elapsed time: 0.88 seconds; current allocated memory: 353.379 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
+INFO: [HLS 200-1995] There were 297 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 265 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 206 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 271 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 257 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 246 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 246 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 246 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 246 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 285 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 285 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 285 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 279 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 279 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 435 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 464 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-178] Inlining function 'outlined_fun_18' into 'cluster' (cluster.c:178:0)
+INFO: [HLS 214-178] Inlining function 'padarray4' into 'cluster' (cluster.c:178:0)
+INFO: [HLS 214-178] Inlining function 'computeSAD' into 'cluster' (cluster.c:178:0)
+INFO: [HLS 214-178] Inlining function 'integralImage2D2D' into 'cluster' (cluster.c:178:0)
+INFO: [HLS 214-178] Inlining function 'finalSAD' into 'cluster' (cluster.c:178:0)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_163_1> at cluster.c:163:23 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_44_4> at cluster.c:44:19 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_71_2> at cluster.c:71:19 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_92_1> at cluster.c:92:22 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_101_3> at cluster.c:101:20 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_112_5> at cluster.c:112:20 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_140_2> at cluster.c:140:20 
+INFO: [HLS 214-437] Automatically disabling loop flattening for loop 'VITIS_LOOP_109_4'. (cluster.c:109:23)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.46 seconds. CPU system time: 0.61 seconds. Elapsed time: 7.5 seconds; current allocated memory: 356.238 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 356.238 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 356.918 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 356.965 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'cluster' (cluster.c:170)...3 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.13 seconds. CPU system time: 0 seconds. Elapsed time: 0.13 seconds; current allocated memory: 381.293 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_41_3'(cluster.c:41:26) and 'VITIS_LOOP_44_4'(cluster.c:44:19) in function 'cluster' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_68_1'(cluster.c:68:22) and 'VITIS_LOOP_71_2'(cluster.c:71:19) in function 'cluster' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_98_2'(cluster.c:98:22) and 'VITIS_LOOP_101_3'(cluster.c:101:20) in function 'cluster' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_137_1'(cluster.c:137:23) and 'VITIS_LOOP_140_2'(cluster.c:140:20) in function 'cluster' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_41_3' (cluster.c:41:26) in function 'cluster'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_68_1' (cluster.c:68:22) in function 'cluster'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_98_2' (cluster.c:98:22) in function 'cluster'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_137_1' (cluster.c:137:23) in function 'cluster'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.14 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.16 seconds; current allocated memory: 439.793 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'cluster' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cluster_Pipeline_VITIS_LOOP_163_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_163_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 71, loop 'VITIS_LOOP_163_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.08 seconds; current allocated memory: 440.418 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 440.418 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cluster_Pipeline_VITIS_LOOP_41_3_VITIS_LOOP_44_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_41_3_VITIS_LOOP_44_4'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 145, loop 'VITIS_LOOP_41_3_VITIS_LOOP_44_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 440.457 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 440.457 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cluster_Pipeline_VITIS_LOOP_68_1_VITIS_LOOP_71_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_68_1_VITIS_LOOP_71_2'.
+WARNING: [HLS 200-885] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_68_1_VITIS_LOOP_71_2' (loop 'VITIS_LOOP_68_1_VITIS_LOOP_71_2'): Unable to schedule bus request operation ('gmem_load_2_req', cluster.c:75->cluster.c:195) on port 'gmem' (cluster.c:75->cluster.c:195) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 2, Depth = 153, loop 'VITIS_LOOP_68_1_VITIS_LOOP_71_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 440.980 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 440.980 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cluster_Pipeline_VITIS_LOOP_92_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_92_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 143, loop 'VITIS_LOOP_92_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 442.102 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 442.102 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cluster_Pipeline_VITIS_LOOP_98_2_VITIS_LOOP_101_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_98_2_VITIS_LOOP_101_3'.
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_98_2_VITIS_LOOP_101_3' (loop 'VITIS_LOOP_98_2_VITIS_LOOP_101_3'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between bus response operation ('empty_48', cluster.c:104->cluster.c:199) on port 'gmem' (cluster.c:104->cluster.c:199) and bus request operation ('gmem_load_4_req', cluster.c:105->cluster.c:199) on port 'gmem' (cluster.c:105->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_98_2_VITIS_LOOP_101_3' (loop 'VITIS_LOOP_98_2_VITIS_LOOP_101_3'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between bus response operation ('empty_48', cluster.c:104->cluster.c:199) on port 'gmem' (cluster.c:104->cluster.c:199) and bus request operation ('gmem_load_4_req', cluster.c:105->cluster.c:199) on port 'gmem' (cluster.c:105->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_98_2_VITIS_LOOP_101_3' (loop 'VITIS_LOOP_98_2_VITIS_LOOP_101_3'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between bus response operation ('empty_48', cluster.c:104->cluster.c:199) on port 'gmem' (cluster.c:104->cluster.c:199) and bus request operation ('gmem_load_4_req', cluster.c:105->cluster.c:199) on port 'gmem' (cluster.c:105->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_98_2_VITIS_LOOP_101_3' (loop 'VITIS_LOOP_98_2_VITIS_LOOP_101_3'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between bus response operation ('empty_48', cluster.c:104->cluster.c:199) on port 'gmem' (cluster.c:104->cluster.c:199) and bus request operation ('gmem_load_4_req', cluster.c:105->cluster.c:199) on port 'gmem' (cluster.c:105->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_98_2_VITIS_LOOP_101_3' (loop 'VITIS_LOOP_98_2_VITIS_LOOP_101_3'): Unable to enforce a carried dependence constraint (II = 130, distance = 1, offset = 1) between bus response operation ('empty_48', cluster.c:104->cluster.c:199) on port 'gmem' (cluster.c:104->cluster.c:199) and bus request operation ('gmem_load_4_req', cluster.c:105->cluster.c:199) on port 'gmem' (cluster.c:105->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_98_2_VITIS_LOOP_101_3' (loop 'VITIS_LOOP_98_2_VITIS_LOOP_101_3'): Unable to enforce a carried dependence constraint (II = 145, distance = 1, offset = 1) between bus response operation ('empty_48', cluster.c:104->cluster.c:199) on port 'gmem' (cluster.c:104->cluster.c:199) and bus request operation ('gmem_load_4_req', cluster.c:105->cluster.c:199) on port 'gmem' (cluster.c:105->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_98_2_VITIS_LOOP_101_3' (loop 'VITIS_LOOP_98_2_VITIS_LOOP_101_3'): Unable to enforce a carried dependence constraint (II = 149, distance = 1, offset = 1) between bus response operation ('empty_48', cluster.c:104->cluster.c:199) on port 'gmem' (cluster.c:104->cluster.c:199) and bus request operation ('gmem_load_4_req', cluster.c:105->cluster.c:199) on port 'gmem' (cluster.c:105->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 150, Depth = 154, loop 'VITIS_LOOP_98_2_VITIS_LOOP_101_3'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 443.762 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 443.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cluster_Pipeline_VITIS_LOOP_112_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_112_5'.
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_112_5' (loop 'VITIS_LOOP_112_5'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation 0 bit ('store_forwarded_write_ln116', cluster.c:116->cluster.c:199) of variable 'add45_i', cluster.c:116->cluster.c:199 on local variable 'store_forwarded' and 'fadd' operation 32 bit ('add45_i', cluster.c:116->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_112_5' (loop 'VITIS_LOOP_112_5'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation 0 bit ('store_forwarded_write_ln116', cluster.c:116->cluster.c:199) of variable 'add45_i', cluster.c:116->cluster.c:199 on local variable 'store_forwarded' and 'fadd' operation 32 bit ('add45_i', cluster.c:116->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_112_5' (loop 'VITIS_LOOP_112_5'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between 'store' operation 0 bit ('store_forwarded_write_ln116', cluster.c:116->cluster.c:199) of variable 'add45_i', cluster.c:116->cluster.c:199 on local variable 'store_forwarded' and 'fadd' operation 32 bit ('add45_i', cluster.c:116->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_112_5' (loop 'VITIS_LOOP_112_5'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between 'store' operation 0 bit ('store_forwarded_write_ln116', cluster.c:116->cluster.c:199) of variable 'add45_i', cluster.c:116->cluster.c:199 on local variable 'store_forwarded' and 'fadd' operation 32 bit ('add45_i', cluster.c:116->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_112_5' (loop 'VITIS_LOOP_112_5'): Unable to enforce a carried dependence constraint (II = 130, distance = 1, offset = 1) between bus response operation ('empty_62', cluster.c:115->cluster.c:199) on port 'gmem' (cluster.c:115->cluster.c:199) and bus request operation ('gmem_load_7_req', cluster.c:117->cluster.c:199) on port 'gmem' (cluster.c:117->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_112_5' (loop 'VITIS_LOOP_112_5'): Unable to enforce a carried dependence constraint (II = 145, distance = 1, offset = 1) between bus response operation ('empty_62', cluster.c:115->cluster.c:199) on port 'gmem' (cluster.c:115->cluster.c:199) and bus request operation ('gmem_load_7_req', cluster.c:117->cluster.c:199) on port 'gmem' (cluster.c:117->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_112_5' (loop 'VITIS_LOOP_112_5'): Unable to enforce a carried dependence constraint (II = 147, distance = 1, offset = 1) between bus response operation ('empty_62', cluster.c:115->cluster.c:199) on port 'gmem' (cluster.c:115->cluster.c:199) and bus request operation ('gmem_load_7_req', cluster.c:117->cluster.c:199) on port 'gmem' (cluster.c:117->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_112_5' (loop 'VITIS_LOOP_112_5'): Unable to enforce a carried dependence constraint (II = 148, distance = 1, offset = 1) between bus response operation ('empty_62', cluster.c:115->cluster.c:199) on port 'gmem' (cluster.c:115->cluster.c:199) and bus request operation ('gmem_load_7_req', cluster.c:117->cluster.c:199) on port 'gmem' (cluster.c:117->cluster.c:199).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 149, Depth = 150, loop 'VITIS_LOOP_112_5'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 445.059 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 445.094 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cluster_Pipeline_VITIS_LOOP_137_1_VITIS_LOOP_140_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_137_1_VITIS_LOOP_140_2'.
+WARNING: [HLS 200-885] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_137_1_VITIS_LOOP_140_2' (loop 'VITIS_LOOP_137_1_VITIS_LOOP_140_2'): Unable to schedule bus request operation ('gmem_load_9_req', cluster.c:145->cluster.c:202) on port 'gmem' (cluster.c:145->cluster.c:202) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_137_1_VITIS_LOOP_140_2' (loop 'VITIS_LOOP_137_1_VITIS_LOOP_140_2'): Unable to schedule bus request operation ('gmem_load_10_req', cluster.c:146->cluster.c:202) on port 'gmem' (cluster.c:146->cluster.c:202) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'cluster_Pipeline_VITIS_LOOP_137_1_VITIS_LOOP_140_2' (loop 'VITIS_LOOP_137_1_VITIS_LOOP_140_2'): Unable to schedule bus request operation ('gmem_load_11_req', cluster.c:147->cluster.c:202) on port 'gmem' (cluster.c:147->cluster.c:202) due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 4, Depth = 168, loop 'VITIS_LOOP_137_1_VITIS_LOOP_140_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 447.078 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 447.371 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'cluster' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 449.086 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 449.328 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cluster_Pipeline_VITIS_LOOP_163_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'cluster_Pipeline_VITIS_LOOP_163_1' pipeline 'VITIS_LOOP_163_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cluster_Pipeline_VITIS_LOOP_163_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 450.641 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cluster_Pipeline_VITIS_LOOP_41_3_VITIS_LOOP_44_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'cluster_Pipeline_VITIS_LOOP_41_3_VITIS_LOOP_44_4' pipeline 'VITIS_LOOP_41_3_VITIS_LOOP_44_4' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'cluster_Pipeline_VITIS_LOOP_41_3_VITIS_LOOP_44_4' is 5291 from HDL expression: (1'b0 == ap_block_pp0_stage0_11001)
+INFO: [RTGEN 206-100] Generating core module 'mul_31ns_32s_62_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cluster_Pipeline_VITIS_LOOP_41_3_VITIS_LOOP_44_4'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.13 seconds. CPU system time: 0 seconds. Elapsed time: 0.13 seconds; current allocated memory: 455.137 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cluster_Pipeline_VITIS_LOOP_68_1_VITIS_LOOP_71_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'cluster_Pipeline_VITIS_LOOP_68_1_VITIS_LOOP_71_2' pipeline 'VITIS_LOOP_68_1_VITIS_LOOP_71_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'cluster_Pipeline_VITIS_LOOP_68_1_VITIS_LOOP_71_2' is 5566 from HDL expression: ((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_CS_fsm_pp0_stage0))
+INFO: [RTGEN 206-100] Generating core module 'mul_31ns_32s_62_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sitofp_32ns_32_5_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cluster_Pipeline_VITIS_LOOP_68_1_VITIS_LOOP_71_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.2 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.21 seconds; current allocated memory: 459.898 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cluster_Pipeline_VITIS_LOOP_92_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'cluster_Pipeline_VITIS_LOOP_92_1' pipeline 'VITIS_LOOP_92_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'cluster_Pipeline_VITIS_LOOP_92_1' is 5032 from HDL expression: (1'b0 == ap_block_pp0_stage0_11001)
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cluster_Pipeline_VITIS_LOOP_92_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 465.645 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cluster_Pipeline_VITIS_LOOP_98_2_VITIS_LOOP_101_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'cluster_Pipeline_VITIS_LOOP_98_2_VITIS_LOOP_101_3' pipeline 'VITIS_LOOP_98_2_VITIS_LOOP_101_3' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_6_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_31ns_32s_62_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cluster_Pipeline_VITIS_LOOP_98_2_VITIS_LOOP_101_3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.14 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.15 seconds; current allocated memory: 469.652 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cluster_Pipeline_VITIS_LOOP_112_5' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'cluster_Pipeline_VITIS_LOOP_112_5' pipeline 'VITIS_LOOP_112_5' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_6_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cluster_Pipeline_VITIS_LOOP_112_5'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.12 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.15 seconds; current allocated memory: 473.766 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cluster_Pipeline_VITIS_LOOP_137_1_VITIS_LOOP_140_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'cluster_Pipeline_VITIS_LOOP_137_1_VITIS_LOOP_140_2' pipeline 'VITIS_LOOP_137_1_VITIS_LOOP_140_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_6_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_31ns_32s_62_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_33s_32s_62_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cluster_Pipeline_VITIS_LOOP_137_1_VITIS_LOOP_140_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.13 seconds. CPU system time: 0 seconds. Elapsed time: 0.13 seconds; current allocated memory: 477.215 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'cluster' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/Ileft_w' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/Ileft_h' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/Ileft_data' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/Iright_w' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/Iright_h' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/Iright_data' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/Iright_moved_w' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/Iright_moved_h' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/Iright_moved_data' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/win_sz' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/disparity' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/SAD_w' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/SAD_h' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/SAD_data' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/integralImg_w' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/integralImg_h' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/integralImg_data' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/retSAD_w' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/retSAD_h' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/retSAD_data' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/range_w' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/range_h' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'cluster/range_data' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'cluster' to 's_axilite & ap_ctrl_chain'.
+INFO: [RTGEN 206-100] Bundling port 'Ileft_w', 'Ileft_h', 'Ileft_data', 'Iright_w', 'Iright_h', 'Iright_data', 'Iright_moved_w', 'Iright_moved_h', 'Iright_moved_data', 'win_sz', 'disparity', 'SAD_w', 'SAD_h', 'SAD_data', 'integralImg_w', 'integralImg_h', 'integralImg_data', 'retSAD_w', 'retSAD_h', 'retSAD_data', 'range_w', 'range_h', 'range_data' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_6_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32ns_32ns_64_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'cluster'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.21 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.24 seconds; current allocated memory: 484.613 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.31 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.34 seconds; current allocated memory: 489.082 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1.44 seconds. CPU system time: 0.05 seconds. Elapsed time: 1.48 seconds; current allocated memory: 497.809 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for cluster.
+INFO: [VLOG 209-307] Generating Verilog RTL for cluster.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 205.47 MHz
+INFO: [HLS 200-112] Total CPU user time: 10.22 seconds. Total CPU system time: 1.8 seconds. Total elapsed time: 16.32 seconds; peak allocated memory: 498.188 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 19s

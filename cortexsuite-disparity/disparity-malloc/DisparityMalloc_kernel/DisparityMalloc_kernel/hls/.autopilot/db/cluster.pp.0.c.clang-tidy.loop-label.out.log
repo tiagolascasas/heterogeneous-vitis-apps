@@ -1,0 +1,70 @@
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1412:9: warning: Added loop label VITIS_LOOP_28_1:   [xilinx-label-all-loops]
+        for (i = 0; i < rows; i++)
+        ^~~
+        VITIS_LOOP_28_1: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1412:9: note: FIX-IT applied suggested code changes
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1415:2: warning: Added loop label VITIS_LOOP_31_2:   [xilinx-label-all-loops]
+ for (j = 0; j < cols; j++)
+ ^~~
+ VITIS_LOOP_31_2: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1415:2: note: FIX-IT applied suggested code changes
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1425:9: warning: Added loop label VITIS_LOOP_41_3:   [xilinx-label-all-loops]
+        for (i = 0; i < rows - bRows; i++)
+        ^~~
+        VITIS_LOOP_41_3: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1425:9: note: FIX-IT applied suggested code changes
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1428:2: warning: Added loop label VITIS_LOOP_44_4:   [xilinx-label-all-loops]
+ for (j = 0; j < cols - bCols; j++)
+ ^~~
+ VITIS_LOOP_44_4: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1428:2: note: FIX-IT applied suggested code changes
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1452:5: warning: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
+    for (i = 0; i < rows; i++)
+    ^~~
+    VITIS_LOOP_68_1: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1452:5: note: FIX-IT applied suggested code changes
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1455:2: warning: Added loop label VITIS_LOOP_71_2:   [xilinx-label-all-loops]
+ for (j = 0; j < cols; j++)
+ ^~~
+ VITIS_LOOP_71_2: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1455:2: note: FIX-IT applied suggested code changes
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1476:5: warning: Added loop label VITIS_LOOP_92_1:   [xilinx-label-all-loops]
+    for (i = 0; i < nc; i++)
+    ^~~
+    VITIS_LOOP_92_1: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1476:5: note: FIX-IT applied suggested code changes
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1482:5: warning: Added loop label VITIS_LOOP_98_2:   [xilinx-label-all-loops]
+    for (i = 1; i < nr; i++)
+    ^~~
+    VITIS_LOOP_98_2: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1482:5: note: FIX-IT applied suggested code changes
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1485:2: warning: Added loop label VITIS_LOOP_101_3:   [xilinx-label-all-loops]
+ for (j = 0; j < nc; j++)
+ ^~~
+ VITIS_LOOP_101_3: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1485:2: note: FIX-IT applied suggested code changes
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1493:5: warning: Added loop label VITIS_LOOP_109_4:   [xilinx-label-all-loops]
+    for (i = 0; i < nr; i++)
+    ^~~
+    VITIS_LOOP_109_4: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1493:5: note: FIX-IT applied suggested code changes
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1496:2: warning: Added loop label VITIS_LOOP_112_5:   [xilinx-label-all-loops]
+ for (j = 1; j < nc; j++)
+ ^~~
+ VITIS_LOOP_112_5: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1496:2: note: FIX-IT applied suggested code changes
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1521:5: warning: Added loop label VITIS_LOOP_137_1:   [xilinx-label-all-loops]
+    for (j = 0; j < (endC - win_sz); j++)
+    ^~~
+    VITIS_LOOP_137_1: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1521:5: note: FIX-IT applied suggested code changes
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1524:2: warning: Added loop label VITIS_LOOP_140_2:   [xilinx-label-all-loops]
+ for (i = 0; i < (endR - win_sz); i++)
+ ^~~
+ VITIS_LOOP_140_2: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1524:2: note: FIX-IT applied suggested code changes
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1547:5: warning: Added loop label VITIS_LOOP_163_1:   [xilinx-label-all-loops]
+    for ((*i) = 0; (*i) < (*rows) * (*cols); (*i)++)
+    ^~~
+    VITIS_LOOP_163_1: 
+/home/tls/Dev/wonderland/AmdVitisDisparity/DisparityMalloc/DisparityMalloc_kernel/DisparityMalloc_kernel/hls/.autopilot/db/cluster.pp.0.c:1547:5: note: FIX-IT applied suggested code changes

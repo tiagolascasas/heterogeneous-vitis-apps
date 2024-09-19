@@ -1,0 +1,17 @@
+{
+  "0": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "vadd.cpp",
+    "fileloc": 2,
+    "instructions": 23,
+    "loads": {
+      "T": 2
+    },
+    "name": "vadd",
+    "stores": {
+      "T": 1
+    },
+    "total_instructions": 23
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "2 1 4 3 5",
+    "file": "cluster.c",
+    "fileloc": 170,
+    "instructions": 9,
+    "name": "cluster",
+    "total_instructions": 206
+  },
+  "1": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "cluster.c",
+    "fileloc": 3,
+    "instructions": 32,
+    "loads": {
+      "L": 3
+    },
+    "name": "padarray4",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 32
+  },
+  "2": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "cluster.c",
+    "fileloc": 154,
+    "instructions": 18,
+    "name": "outlined_fun_18",
+    "stores": {
+      "L": 7
+    },
+    "total_instructions": 18
+  },
+  "3": {
+    "basicblocks": 16,
+    "calls": "",
+    "file": "cluster.c",
+    "fileloc": 82,
+    "instructions": 69,
+    "loads": {
+      "L": 5
+    },
+    "name": "integralImage2D2D",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 69
+  },
+  "4": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "cluster.c",
+    "fileloc": 56,
+    "instructions": 33,
+    "loads": {
+      "L": 2
+    },
+    "name": "computeSAD",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 33
+  },
+  "5": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "cluster.c",
+    "fileloc": 124,
+    "instructions": 45,
+    "loads": {
+      "L": 4
+    },
+    "name": "finalSAD",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 45
+  }
+}

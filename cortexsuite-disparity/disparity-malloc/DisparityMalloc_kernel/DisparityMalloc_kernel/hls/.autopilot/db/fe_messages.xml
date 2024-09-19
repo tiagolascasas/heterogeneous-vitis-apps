@@ -1,0 +1,93 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="cluster.c:3:63" msg_body="unused parameter 'borderMat_w'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="cluster.c:4:20" msg_body="unused parameter 'borderMat_h'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="cluster.c:5:39" msg_body="unused parameter 'paddedArray_h'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="cluster.c:57:41" msg_body="unused parameter 'Iright_moved_h'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="cluster.c:58:32" msg_body="unused parameter 'SAD_h'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="cluster.c:83:47" msg_body="unused parameter 'integralImg_h'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="cluster.c:126:33" msg_body="unused parameter 'retSAD_h'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="cluster.c:154:39" msg_body="unused parameter 'range_h'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:30:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="padarray4" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 488 max = 488" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:33:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="padarray4" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 595 max = 595" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:43:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="padarray4" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 488 max = 488" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="padarray4" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 595 max = 595" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:70:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="computeSAD" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 488 max = 488" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:73:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="computeSAD" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 595 max = 595" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:94:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="integralImage2D2D" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 595 max = 595" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:100:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="integralImage2D2D" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 488 max = 488" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:103:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="integralImage2D2D" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 595 max = 595" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:111:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="integralImage2D2D" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 488 max = 488" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:114:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="integralImage2D2D" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 595 max = 595" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:139:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="finalSAD" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 587 max = 587" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:142:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="finalSAD" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 480 max = 480" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cluster.c:165:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="outlined_fun_18" ARG_PragmaIsValid="1" ARG_PragmaOptions="min = 290360 max = 290360" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="cluster" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=cluster" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="cluster.c:178:0" msg_body="Inlining function 'outlined_fun_18' into 'cluster'">
+        <args Callee="outlined_fun_18" Callee-DebugLoc="File cluster.c Line 158 Column 0" Caller="cluster" Caller-DebugLoc="File cluster.c Line 178 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="cluster.c:178:0" msg_body="Inlining function 'padarray4' into 'cluster'">
+        <args Callee="padarray4" Callee-DebugLoc="File cluster.c Line 6 Column 0" Caller="cluster" Caller-DebugLoc="File cluster.c Line 178 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="cluster.c:178:0" msg_body="Inlining function 'computeSAD' into 'cluster'">
+        <args Callee="computeSAD" Callee-DebugLoc="File cluster.c Line 59 Column 0" Caller="cluster" Caller-DebugLoc="File cluster.c Line 178 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="cluster.c:178:0" msg_body="Inlining function 'integralImage2D2D' into 'cluster'">
+        <args Callee="integralImage2D2D" Callee-DebugLoc="File cluster.c Line 84 Column 0" Caller="cluster" Caller-DebugLoc="File cluster.c Line 178 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="cluster.c:178:0" msg_body="Inlining function 'finalSAD' into 'cluster'">
+        <args Callee="finalSAD" Callee-DebugLoc="File cluster.c Line 127 Column 0" Caller="cluster" Caller-DebugLoc="File cluster.c Line 178 Column 0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-437" msg_severity="INFO" msg_loc="cluster.c:109:23" msg_body="Automatically disabling loop flattening for loop 'VITIS_LOOP_109_4'.">
+        <args LoopName="VITIS_LOOP_109_4"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="cluster.c:109:23" msg_body="loop_flatten 0 1 cluster cluster.c:109:23VITIS_LOOP_109_4 cluster.c:109:23">
+        <args LoopLoc="cluster.c:109:23" LoopLoc-DebugLoc="File cluster.c Line 109 Column 23" LoopName="VITIS_LOOP_109_4" PragmaFunction="cluster" PragmaIsAuto="1" PragmaOptions="0" PragmaSrcLoc="cluster.c:109:23" PragmaSrcLoc-DebugLoc="File cluster.c Line 109 Column 23" PragmaType="loop_flatten"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

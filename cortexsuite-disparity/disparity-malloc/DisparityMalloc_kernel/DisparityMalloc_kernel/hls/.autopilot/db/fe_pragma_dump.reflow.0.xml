@@ -1,0 +1,16 @@
+<pragmas>
+<pragma file="cluster.c" line="70" pragmaType="loop_tripcount" parentfunction="computeSAD" min="488" max="488" avg="488"/>
+<pragma file="cluster.c" line="73" pragmaType="loop_tripcount" parentfunction="computeSAD" min="595" max="595" avg="595"/>
+<pragma file="cluster.c" line="30" pragmaType="loop_tripcount" parentfunction="padarray4" min="488" max="488" avg="488"/>
+<pragma file="cluster.c" line="33" pragmaType="loop_tripcount" parentfunction="padarray4" min="595" max="595" avg="595"/>
+<pragma file="cluster.c" line="43" pragmaType="loop_tripcount" parentfunction="padarray4" min="488" max="488" avg="488"/>
+<pragma file="cluster.c" line="46" pragmaType="loop_tripcount" parentfunction="padarray4" min="595" max="595" avg="595"/>
+<pragma file="cluster.c" line="165" pragmaType="loop_tripcount" parentfunction="outlined_fun_18" min="290360" max="290360" avg="290360"/>
+<pragma file="cluster.c" line="111" pragmaType="loop_tripcount" parentfunction="integralImage2D2D" min="488" max="488" avg="488"/>
+<pragma file="cluster.c" line="114" pragmaType="loop_tripcount" parentfunction="integralImage2D2D" min="595" max="595" avg="595"/>
+<pragma file="cluster.c" line="100" pragmaType="loop_tripcount" parentfunction="integralImage2D2D" min="488" max="488" avg="488"/>
+<pragma file="cluster.c" line="103" pragmaType="loop_tripcount" parentfunction="integralImage2D2D" min="595" max="595" avg="595"/>
+<pragma file="cluster.c" line="94" pragmaType="loop_tripcount" parentfunction="integralImage2D2D" min="595" max="595" avg="595"/>
+<pragma file="cluster.c" line="139" pragmaType="loop_tripcount" parentfunction="finalSAD" min="587" max="587" avg="587"/>
+<pragma file="cluster.c" line="142" pragmaType="loop_tripcount" parentfunction="finalSAD" min="480" max="480" avg="480"/>
+</pragmas>

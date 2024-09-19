@@ -1,0 +1,5 @@
+/home/tls/Dev/wonderland/AmdVitisProjects/XrtExploration/zynq_xrt_exploration_vadd/vadd/hls/.autopilot/db/vadd.pp.0.cpp:162:9: warning: Added loop label VITIS_LOOP_3_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < size; i++) {
+        ^~~
+        VITIS_LOOP_3_1: 
+/home/tls/Dev/wonderland/AmdVitisProjects/XrtExploration/zynq_xrt_exploration_vadd/vadd/hls/.autopilot/db/vadd.pp.0.cpp:162:9: note: FIX-IT applied suggested code changes

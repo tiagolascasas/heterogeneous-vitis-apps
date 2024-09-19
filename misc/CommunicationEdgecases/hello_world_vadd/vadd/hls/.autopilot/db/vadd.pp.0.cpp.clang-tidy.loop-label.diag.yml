@@ -1,0 +1,13 @@
+---
+MainSourceFile:  /home/tls/Dev/wonderland/AmdVitisMiscProjects/CommunicationEdgecases/hello_world_vadd/vadd/hls/.autopilot/db/vadd.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_4_1:  '
+    FileOffset:      4
+    FilePath:        /home/tls/Dev/wonderland/AmdVitisMiscProjects/CommunicationEdgecases/hello_world_vadd/src/vadd.cpp
+    Replacements:    
+      - FilePath:        /home/tls/Dev/wonderland/AmdVitisMiscProjects/CommunicationEdgecases/hello_world_vadd/vadd/hls/.autopilot/db/vadd.pp.0.cpp
+        Offset:          9625
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_4_1: '
+...
