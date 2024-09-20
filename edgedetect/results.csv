@@ -1,0 +1,6 @@
+benchmark,version,m1,m2,m3,m4,m5
+edgedetect,cpu,463011,463213,462962,462944,462994
+edgedetect,baseline,1201637,1128994,599001,1105164,610785
+edgedetect,optimized,80613,72189,73058,72904,72415
+
+
