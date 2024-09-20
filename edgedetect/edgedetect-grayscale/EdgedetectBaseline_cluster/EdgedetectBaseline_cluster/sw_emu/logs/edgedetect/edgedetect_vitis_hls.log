@@ -3,12 +3,12 @@
   **** SW Build 5069499 on May 21 2024
   **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Fri Sep 20 05:14:50 2024
+  **** Start of session at: Fri Sep 20 21:31:09 2024
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source /tools/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
-INFO: [HLS 200-10] For user 'tls' on host 'tls-Legion-5-15ACH6H' (Linux_x86_64 version 6.8.0-40-generic) on Fri Sep 20 05:14:52 WEST 2024
+INFO: [HLS 200-10] For user 'tls' on host 'tls-Legion-5-15ACH6H' (Linux_x86_64 version 6.8.0-40-generic) on Fri Sep 20 21:31:11 WEST 2024
 INFO: [HLS 200-10] On os Ubuntu 22.04.5 LTS
 INFO: [HLS 200-10] In directory '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect'
 WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl
@@ -16,8 +16,8 @@ Sourcing Tcl script 'edgedetect.tcl'
 INFO: [HLS 200-1510] Running: open_project edgedetect 
 INFO: [HLS 200-10] Creating and opening project '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect'.
 INFO: [HLS 200-1510] Running: set_top edgedetect 
-INFO: [HLS 200-1510] Running: add_files /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/src/edgedetect.cpp -cflags  -g 
-INFO: [HLS 200-10] Adding design file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/src/edgedetect.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_host/src/edgedetect.cpp -cflags  -g 
+INFO: [HLS 200-10] Adding design file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_host/src/edgedetect.cpp' to the project
 INFO: [HLS 200-1510] Running: open_solution -flow_target vitis solution 
 INFO: [HLS 200-10] Creating and opening solution '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution'.
 INFO: [HLS 200-1505] Using flow_target 'vitis'
@@ -39,9 +39,9 @@ INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64
 INFO: [HLS 200-1510] Running: config_interface -m_axi_auto_max_ports=0 
 INFO: [HLS 200-1510] Running: config_export -format xo -ipname edgedetect 
 INFO: [HLS 200-1510] Running: csynth_design -synthesis_check 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.05 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.07 seconds; current allocated memory: 333.363 MB.
-INFO: [HLS 200-10] Analyzing design file '../../../../../src/edgedetect.cpp' ... 
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.34 seconds. CPU system time: 0.49 seconds. Elapsed time: 0.83 seconds; current allocated memory: 334.898 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 361.062 MB.
+INFO: [HLS 200-10] Analyzing design file '../../../../../EdgedetectBaseline_host/src/edgedetect.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.42 seconds. CPU system time: 0.46 seconds. Elapsed time: 0.86 seconds; current allocated memory: 362.566 MB.
 INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
 INFO: [HLS 200-1995] There were 4,703 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
 INFO: [HLS 200-1995] There were 362 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
@@ -74,15 +74,15 @@ INFO: [HLS 214-178] Inlining function 'fp_struct<double>::mantissa() const' into
 INFO: [HLS 214-178] Inlining function 'fp_struct<double>::expv() const' into 'unsigned char generic_cast_IEEE754<unsigned char, (ap_q_mode)6, double>(double, bool, hls::enable_if<!(std::numeric_limits<unsigned char>::is_signed), bool>::type)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:65:0)
 INFO: [HLS 214-178] Inlining function 'unsigned char generic_cast_IEEE754<unsigned char, (ap_q_mode)6, double>(double, bool, hls::enable_if<!(std::numeric_limits<unsigned char>::is_signed), bool>::type)' into 'unsigned char generic_cast_IEEE754<unsigned char, double>(double, bool)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:116:0)
 INFO: [HLS 214-178] Inlining function 'unsigned char generic_cast_IEEE754<unsigned char, double>(double, bool)' into '__hls_fptoui_double_i8' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/src/lib_floatconversion.cpp:67:0)
-INFO: [HLS 214-178] Inlining function 'floor' into 'edgedetect(unsigned char*, unsigned char*)' (../../../../../src/edgedetect.cpp:10:0)
-INFO: [HLS 214-178] Inlining function '__hls_fptoui_double_i8' into 'edgedetect(unsigned char*, unsigned char*)' (../../../../../src/edgedetect.cpp:10:0)
-INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at ../../../../../src/edgedetect.cpp:15:9 
-WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'input_image' since this interface mode only supports scalar types (../../../../../src/edgedetect.cpp:10:0)
-WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'output_image' since this interface mode only supports scalar types (../../../../../src/edgedetect.cpp:10:0)
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1.96 seconds. CPU system time: 0.57 seconds. Elapsed time: 7.08 seconds; current allocated memory: 345.289 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 345.289 MB.
+INFO: [HLS 214-178] Inlining function 'floor' into 'edgedetect(unsigned char*, unsigned char*)' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:9:0)
+INFO: [HLS 214-178] Inlining function '__hls_fptoui_double_i8' into 'edgedetect(unsigned char*, unsigned char*)' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:9:0)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at ../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:13:9 
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'input_image' since this interface mode only supports scalar types (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:9:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'output_image' since this interface mode only supports scalar types (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:9:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.04 seconds. CPU system time: 0.52 seconds. Elapsed time: 7.12 seconds; current allocated memory: 372.961 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 372.961 MB.
 INFO: [HLS 200-1493] Running only source code synthesis checks, skipping scheduling and RTL generation.
-INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:08; Allocated memory: 11.957 MB.
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:08; Allocated memory: 11.898 MB.
 INFO: [HLS 200-1510] Running: close_project 
 HLS completed successfully
-INFO: [HLS 200-112] Total CPU user time: 5.13 seconds. Total CPU system time: 1.47 seconds. Total elapsed time: 10.97 seconds; peak allocated memory: 345.320 MB.
+INFO: [HLS 200-112] Total CPU user time: 5.36 seconds. Total CPU system time: 1.4 seconds. Total elapsed time: 11.14 seconds; peak allocated memory: 372.961 MB.

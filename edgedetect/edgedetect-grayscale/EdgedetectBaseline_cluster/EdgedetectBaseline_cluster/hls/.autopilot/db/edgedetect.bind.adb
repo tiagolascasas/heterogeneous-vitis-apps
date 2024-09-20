@@ -296,7 +296,7 @@
 					<Obj>
 						<type>0</type>
 						<id>9</id>
-						<name>phi_ln236</name>
+						<name>phi_ln216</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -338,7 +338,7 @@
 					<Obj>
 						<type>0</type>
 						<id>10</id>
-						<name>add_ln128</name>
+						<name>add_ln108</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -381,7 +381,7 @@
 						<type>0</type>
 						<id>20</id>
 						<name>output_image_read</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>8</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
@@ -396,7 +396,7 @@
 									<item_version>0</item_version>
 									<item class_id="13" tracking_level="0" version="0">
 										<first class_id="14" tracking_level="0" version="0">
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
 										<second>8</second>
@@ -438,7 +438,7 @@
 						<type>0</type>
 						<id>21</id>
 						<name>input_image_read</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>8</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
@@ -453,7 +453,7 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
 										<second>8</second>
@@ -494,7 +494,7 @@
 					<Obj>
 						<type>0</type>
 						<id>22</id>
-						<name>add_ln128_write_ln0</name>
+						<name>add_ln108_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -537,7 +537,7 @@
 					<Obj>
 						<type>0</type>
 						<id>23</id>
-						<name>phi_ln236_write_ln0</name>
+						<name>phi_ln216_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -839,10 +839,10 @@
 					<Obj>
 						<type>0</type>
 						<id>31</id>
-						<name>icmp_ln157</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>icmp_ln137</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>15</lineNumber>
+						<lineNumber>13</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -855,10 +855,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>15</second>
+										<second>13</second>
 									</item>
 								</second>
 							</item>
@@ -899,9 +899,9 @@
 						<type>0</type>
 						<id>32</id>
 						<name>trunc_ln</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -914,10 +914,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -957,10 +957,10 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>sext_ln12</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>sext_ln10</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -973,10 +973,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1014,9 +1014,9 @@
 						<type>0</type>
 						<id>34</id>
 						<name>gmem_addr</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1029,10 +1029,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1070,10 +1070,10 @@
 					<Obj>
 						<type>0</type>
 						<id>35</id>
-						<name>br_ln23</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>br_ln21</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1086,10 +1086,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -1129,9 +1129,9 @@
 						<type>0</type>
 						<id>37</id>
 						<name>empty</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1144,10 +1144,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1186,10 +1186,10 @@
 					<Obj>
 						<type>0</type>
 						<id>38</id>
-						<name>br_ln23</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>br_ln21</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1202,10 +1202,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -1243,9 +1243,9 @@
 						<type>0</type>
 						<id>40</id>
 						<name>indvar_flatten2_load</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1258,10 +1258,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1300,9 +1300,9 @@
 						<type>0</type>
 						<id>41</id>
 						<name>i3_load</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1315,10 +1315,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1357,9 +1357,9 @@
 						<type>0</type>
 						<id>42</id>
 						<name>jj4_load</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1372,10 +1372,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1414,9 +1414,9 @@
 						<type>0</type>
 						<id>43</id>
 						<name>j5_load</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1429,10 +1429,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1470,10 +1470,10 @@
 					<Obj>
 						<type>0</type>
 						<id>44</id>
-						<name>phi_ln236_load</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>phi_ln216_load</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1486,10 +1486,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1527,10 +1527,10 @@
 					<Obj>
 						<type>0</type>
 						<id>45</id>
-						<name>add_ln128_load</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>add_ln108_load</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1543,10 +1543,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1584,10 +1584,10 @@
 					<Obj>
 						<type>0</type>
 						<id>48</id>
-						<name>select_ln12</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>select_ln10</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1600,10 +1600,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1642,10 +1642,10 @@
 					<Obj>
 						<type>0</type>
 						<id>49</id>
-						<name>select_ln12_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>select_ln10_1</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1658,10 +1658,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1700,10 +1700,10 @@
 					<Obj>
 						<type>0</type>
 						<id>50</id>
-						<name>select_ln12_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>select_ln10_2</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1716,10 +1716,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1759,9 +1759,9 @@
 						<type>0</type>
 						<id>51</id>
 						<name>i</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1774,10 +1774,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1817,9 +1817,9 @@
 						<type>0</type>
 						<id>52</id>
 						<name>p_shl</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1832,10 +1832,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1875,9 +1875,9 @@
 						<type>0</type>
 						<id>53</id>
 						<name>tmp</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1890,10 +1890,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1933,9 +1933,9 @@
 						<type>0</type>
 						<id>54</id>
 						<name>p_shl29</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -1948,10 +1948,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -1989,9 +1989,9 @@
 						<type>0</type>
 						<id>55</id>
 						<name>empty_22</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2004,10 +2004,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -2046,9 +2046,9 @@
 						<type>0</type>
 						<id>56</id>
 						<name>p_cast</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2061,10 +2061,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -2102,9 +2102,9 @@
 						<type>0</type>
 						<id>57</id>
 						<name>tmp_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2117,10 +2117,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -2161,9 +2161,9 @@
 						<type>0</type>
 						<id>58</id>
 						<name>tmp_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2176,10 +2176,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -2219,9 +2219,9 @@
 						<type>0</type>
 						<id>59</id>
 						<name>p_cast5</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2234,10 +2234,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -2275,9 +2275,9 @@
 						<type>0</type>
 						<id>60</id>
 						<name>tmp_3</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2290,10 +2290,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -2334,9 +2334,9 @@
 						<type>0</type>
 						<id>61</id>
 						<name>tmp_5</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2349,10 +2349,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -2391,10 +2391,10 @@
 					<Obj>
 						<type>0</type>
 						<id>62</id>
-						<name>zext_ln15</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>zext_ln13</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>15</lineNumber>
+						<lineNumber>13</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2407,10 +2407,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>15</second>
+										<second>13</second>
 									</item>
 								</second>
 							</item>
@@ -2447,10 +2447,10 @@
 					<Obj>
 						<type>0</type>
 						<id>63</id>
-						<name>zext_ln15_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>zext_ln13_1</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>15</lineNumber>
+						<lineNumber>13</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2463,10 +2463,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>15</second>
+										<second>13</second>
 									</item>
 								</second>
 							</item>
@@ -2503,10 +2503,10 @@
 					<Obj>
 						<type>0</type>
 						<id>64</id>
-						<name>trunc_ln15</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>trunc_ln13</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>15</lineNumber>
+						<lineNumber>13</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2519,10 +2519,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>15</second>
+										<second>13</second>
 									</item>
 								</second>
 							</item>
@@ -2559,10 +2559,10 @@
 					<Obj>
 						<type>0</type>
 						<id>66</id>
-						<name>add_ln17</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>add_ln15</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2575,10 +2575,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -2616,10 +2616,10 @@
 					<Obj>
 						<type>0</type>
 						<id>67</id>
-						<name>add_ln17_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>add_ln15_1</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2632,10 +2632,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -2673,10 +2673,10 @@
 					<Obj>
 						<type>0</type>
 						<id>68</id>
-						<name>trunc_ln17_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>trunc_ln15_1</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2689,10 +2689,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -2732,10 +2732,10 @@
 					<Obj>
 						<type>0</type>
 						<id>69</id>
-						<name>sext_ln17</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>sext_ln15</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2748,10 +2748,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -2789,9 +2789,9 @@
 						<type>0</type>
 						<id>70</id>
 						<name>gmem_addr_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2804,10 +2804,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -2846,9 +2846,9 @@
 						<type>0</type>
 						<id>71</id>
 						<name>gmem_load_req</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2861,10 +2861,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -2904,9 +2904,9 @@
 						<type>0</type>
 						<id>72</id>
 						<name>gmem_addr_1_read</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2919,10 +2919,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -2961,10 +2961,10 @@
 					<Obj>
 						<type>0</type>
 						<id>73</id>
-						<name>trunc_ln17</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>trunc_ln15</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -2977,10 +2977,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3018,9 +3018,9 @@
 						<type>0</type>
 						<id>74</id>
 						<name>shl_ln</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3033,10 +3033,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3075,10 +3075,10 @@
 					<Obj>
 						<type>0</type>
 						<id>75</id>
-						<name>zext_ln17</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>zext_ln15</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3091,10 +3091,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3131,10 +3131,10 @@
 					<Obj>
 						<type>0</type>
 						<id>76</id>
-						<name>lshr_ln17</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>lshr_ln15</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3147,10 +3147,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3189,9 +3189,9 @@
 						<type>0</type>
 						<id>77</id>
 						<name>r</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3204,10 +3204,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3244,10 +3244,10 @@
 					<Obj>
 						<type>0</type>
 						<id>78</id>
-						<name>add_ln17_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>add_ln15_2</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3260,10 +3260,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3301,10 +3301,10 @@
 					<Obj>
 						<type>0</type>
 						<id>79</id>
-						<name>trunc_ln17_5</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>trunc_ln15_5</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3317,10 +3317,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3360,10 +3360,10 @@
 					<Obj>
 						<type>0</type>
 						<id>80</id>
-						<name>sext_ln17_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>sext_ln15_1</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3376,10 +3376,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3417,9 +3417,9 @@
 						<type>0</type>
 						<id>81</id>
 						<name>gmem_addr_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3432,10 +3432,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3474,9 +3474,9 @@
 						<type>0</type>
 						<id>82</id>
 						<name>gmem_load_1_req</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3489,10 +3489,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3533,9 +3533,9 @@
 						<type>0</type>
 						<id>83</id>
 						<name>gmem_addr_2_read</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3548,10 +3548,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3591,10 +3591,10 @@
 					<Obj>
 						<type>0</type>
 						<id>84</id>
-						<name>trunc_ln17_3</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>trunc_ln15_3</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3607,10 +3607,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3647,10 +3647,10 @@
 					<Obj>
 						<type>0</type>
 						<id>85</id>
-						<name>shl_ln17_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>shl_ln15_1</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3663,10 +3663,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3705,10 +3705,10 @@
 					<Obj>
 						<type>0</type>
 						<id>86</id>
-						<name>zext_ln17_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>zext_ln15_1</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3721,10 +3721,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3761,10 +3761,10 @@
 					<Obj>
 						<type>0</type>
 						<id>87</id>
-						<name>lshr_ln17_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>lshr_ln15_1</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3777,10 +3777,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3819,9 +3819,9 @@
 						<type>0</type>
 						<id>88</id>
 						<name>g</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3834,10 +3834,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3874,10 +3874,10 @@
 					<Obj>
 						<type>0</type>
 						<id>89</id>
-						<name>add_ln17_3</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>add_ln15_3</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3890,10 +3890,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3931,10 +3931,10 @@
 					<Obj>
 						<type>0</type>
 						<id>90</id>
-						<name>trunc_ln17_7</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>trunc_ln15_7</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -3947,10 +3947,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -3990,10 +3990,10 @@
 					<Obj>
 						<type>0</type>
 						<id>91</id>
-						<name>sext_ln17_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>sext_ln15_2</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4006,10 +4006,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -4047,9 +4047,9 @@
 						<type>0</type>
 						<id>92</id>
 						<name>gmem_addr_3</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4062,10 +4062,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -4104,9 +4104,9 @@
 						<type>0</type>
 						<id>93</id>
 						<name>gmem_load_2_req</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4119,10 +4119,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -4163,9 +4163,9 @@
 						<type>0</type>
 						<id>94</id>
 						<name>gmem_addr_3_read</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4178,10 +4178,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -4221,10 +4221,10 @@
 					<Obj>
 						<type>0</type>
 						<id>95</id>
-						<name>trunc_ln17_6</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>trunc_ln15_6</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4237,10 +4237,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -4277,10 +4277,10 @@
 					<Obj>
 						<type>0</type>
 						<id>96</id>
-						<name>shl_ln17_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>shl_ln15_2</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4293,10 +4293,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -4335,10 +4335,10 @@
 					<Obj>
 						<type>0</type>
 						<id>97</id>
-						<name>zext_ln17_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>zext_ln15_2</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4351,10 +4351,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -4391,10 +4391,10 @@
 					<Obj>
 						<type>0</type>
 						<id>98</id>
-						<name>lshr_ln17_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>lshr_ln15_2</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4407,10 +4407,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -4449,9 +4449,9 @@
 						<type>0</type>
 						<id>99</id>
 						<name>b</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>17</lineNumber>
+						<lineNumber>15</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4464,10 +4464,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>17</second>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -4505,9 +4505,9 @@
 						<type>0</type>
 						<id>100</id>
 						<name>jj</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>20</lineNumber>
+						<lineNumber>18</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4520,10 +4520,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>20</second>
+										<second>18</second>
 									</item>
 								</second>
 							</item>
@@ -4561,10 +4561,10 @@
 					<Obj>
 						<type>0</type>
 						<id>101</id>
-						<name>zext_ln22</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>zext_ln20</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4577,10 +4577,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>22</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -4618,9 +4618,9 @@
 						<type>0</type>
 						<id>102</id>
 						<name>conv</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4633,10 +4633,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>22</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -4674,9 +4674,9 @@
 						<type>0</type>
 						<id>103</id>
 						<name>mul</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4689,10 +4689,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>22</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -4730,10 +4730,10 @@
 					<Obj>
 						<type>0</type>
 						<id>104</id>
-						<name>zext_ln22_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>zext_ln20_1</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4746,10 +4746,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>22</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -4787,9 +4787,9 @@
 						<type>0</type>
 						<id>105</id>
 						<name>conv1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4802,10 +4802,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>22</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -4843,9 +4843,9 @@
 						<type>0</type>
 						<id>106</id>
 						<name>mul1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4858,10 +4858,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>22</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -4900,9 +4900,9 @@
 						<type>0</type>
 						<id>107</id>
 						<name>add</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4915,10 +4915,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>22</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -4956,10 +4956,10 @@
 					<Obj>
 						<type>0</type>
 						<id>108</id>
-						<name>zext_ln22_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>zext_ln20_2</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -4972,10 +4972,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>22</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -5013,9 +5013,9 @@
 						<type>0</type>
 						<id>109</id>
 						<name>conv2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -5028,10 +5028,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>22</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -5069,9 +5069,9 @@
 						<type>0</type>
 						<id>110</id>
 						<name>mul2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -5084,10 +5084,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>22</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -5126,9 +5126,9 @@
 						<type>0</type>
 						<id>111</id>
 						<name>add1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -5141,10 +5141,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>22</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -5183,9 +5183,9 @@
 						<type>0</type>
 						<id>112</id>
 						<name>gray</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>22</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -5198,10 +5198,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>22</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -5239,9 +5239,9 @@
 						<type>0</type>
 						<id>113</id>
 						<name>dc</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -5254,10 +5254,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -5310,10 +5310,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -5394,10 +5394,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -5480,10 +5480,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -5567,10 +5567,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -5651,10 +5651,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -5729,10 +5729,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -5807,10 +5807,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -5914,10 +5914,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -6012,10 +6012,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -6092,10 +6092,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -6169,10 +6169,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -6248,10 +6248,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -6325,10 +6325,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -6402,10 +6402,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -6486,10 +6486,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -6572,10 +6572,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -6650,10 +6650,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -6736,10 +6736,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -6823,10 +6823,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -6907,10 +6907,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -6992,10 +6992,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -7078,10 +7078,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -7164,10 +7164,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -7242,10 +7242,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -7320,10 +7320,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -7421,10 +7421,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -7512,10 +7512,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -7590,10 +7590,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -7668,10 +7668,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -7746,10 +7746,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -7824,10 +7824,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -7902,10 +7902,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -7980,10 +7980,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -8058,10 +8058,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -8136,10 +8136,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -8214,10 +8214,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -8279,9 +8279,9 @@
 						<type>0</type>
 						<id>150</id>
 						<name>dc_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -8294,10 +8294,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -8360,10 +8360,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -8451,10 +8451,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -8545,10 +8545,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -8636,10 +8636,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -8723,10 +8723,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -8807,10 +8807,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -8898,10 +8898,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -8990,10 +8990,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -9076,10 +9076,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -9161,10 +9161,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -9245,10 +9245,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -9331,10 +9331,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -9415,10 +9415,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -9499,10 +9499,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -9584,10 +9584,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -9653,10 +9653,10 @@
 					<Obj>
 						<type>0</type>
 						<id>166</id>
-						<name>icmp_ln23</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>icmp_ln21</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -9669,10 +9669,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -9711,9 +9711,9 @@
 						<type>0</type>
 						<id>167</id>
 						<name>tmp_9</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -9726,10 +9726,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -9770,9 +9770,9 @@
 						<type>0</type>
 						<id>168</id>
 						<name>tmp_s</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -9785,10 +9785,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -9844,10 +9844,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -9915,9 +9915,9 @@
 						<type>0</type>
 						<id>170</id>
 						<name>or_ln</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -9930,10 +9930,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -9972,10 +9972,10 @@
 					<Obj>
 						<type>0</type>
 						<id>171</id>
-						<name>add_ln12_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>add_ln10_1</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -9988,10 +9988,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -10029,10 +10029,10 @@
 					<Obj>
 						<type>0</type>
 						<id>172</id>
-						<name>br_ln23</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>br_ln21</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10045,10 +10045,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -10087,10 +10087,10 @@
 					<Obj>
 						<type>0</type>
 						<id>174</id>
-						<name>gmem_addr_write_ln23</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>gmem_addr_write_ln21</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10103,10 +10103,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -10150,10 +10150,10 @@
 					<Obj>
 						<type>0</type>
 						<id>175</id>
-						<name>br_ln23</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>br_ln21</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10166,10 +10166,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -10207,9 +10207,9 @@
 						<type>0</type>
 						<id>177</id>
 						<name>indvar_flatten2_load_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10222,10 +10222,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -10264,9 +10264,9 @@
 						<type>0</type>
 						<id>178</id>
 						<name>j</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>15</lineNumber>
+						<lineNumber>13</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10279,10 +10279,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>15</second>
+										<second>13</second>
 									</item>
 								</second>
 							</item>
@@ -10321,9 +10321,9 @@
 						<type>0</type>
 						<id>179</id>
 						<name>tmp_4</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>15</lineNumber>
+						<lineNumber>13</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10336,10 +10336,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>15</second>
+										<second>13</second>
 									</item>
 								</second>
 							</item>
@@ -10380,9 +10380,9 @@
 						<type>0</type>
 						<id>180</id>
 						<name>tmp_6</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>15</lineNumber>
+						<lineNumber>13</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10395,10 +10395,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>15</second>
+										<second>13</second>
 									</item>
 								</second>
 							</item>
@@ -10437,10 +10437,10 @@
 					<Obj>
 						<type>0</type>
 						<id>181</id>
-						<name>select_ln23</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>select_ln21</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10453,10 +10453,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -10495,10 +10495,10 @@
 					<Obj>
 						<type>0</type>
 						<id>182</id>
-						<name>icmp_ln15</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>icmp_ln13</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>15</lineNumber>
+						<lineNumber>13</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10511,10 +10511,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>15</second>
+										<second>13</second>
 									</item>
 								</second>
 							</item>
@@ -10552,10 +10552,10 @@
 					<Obj>
 						<type>0</type>
 						<id>183</id>
-						<name>add_ln12</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>add_ln10</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10568,10 +10568,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -10609,10 +10609,10 @@
 					<Obj>
 						<type>0</type>
 						<id>184</id>
-						<name>icmp_ln12</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>icmp_ln10</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10625,10 +10625,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -10666,10 +10666,10 @@
 					<Obj>
 						<type>0</type>
 						<id>185</id>
-						<name>br_ln12</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>br_ln10</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10682,10 +10682,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -10725,9 +10725,9 @@
 						<type>0</type>
 						<id>187</id>
 						<name>empty_21</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>26</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10740,10 +10740,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>26</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -10824,10 +10824,10 @@
 					<Obj>
 						<type>0</type>
 						<id>190</id>
-						<name>add_ln128_write_ln12</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>add_ln108_write_ln10</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10840,10 +10840,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -10883,10 +10883,10 @@
 					<Obj>
 						<type>0</type>
 						<id>191</id>
-						<name>phi_ln236_write_ln23</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>phi_ln216_write_ln21</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>23</lineNumber>
+						<lineNumber>21</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10899,10 +10899,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>23</second>
+										<second>21</second>
 									</item>
 								</second>
 							</item>
@@ -10942,10 +10942,10 @@
 					<Obj>
 						<type>0</type>
 						<id>192</id>
-						<name>j5_write_ln15</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>j5_write_ln13</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>15</lineNumber>
+						<lineNumber>13</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -10958,10 +10958,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>15</second>
+										<second>13</second>
 									</item>
 								</second>
 							</item>
@@ -11001,10 +11001,10 @@
 					<Obj>
 						<type>0</type>
 						<id>193</id>
-						<name>jj4_write_ln20</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>jj4_write_ln18</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>20</lineNumber>
+						<lineNumber>18</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -11017,10 +11017,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>20</second>
+										<second>18</second>
 									</item>
 								</second>
 							</item>
@@ -11060,10 +11060,10 @@
 					<Obj>
 						<type>0</type>
 						<id>194</id>
-						<name>i3_write_ln12</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>i3_write_ln10</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -11076,10 +11076,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -11119,10 +11119,10 @@
 					<Obj>
 						<type>0</type>
 						<id>195</id>
-						<name>indvar_flatten2_write_ln12</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>indvar_flatten2_write_ln10</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -11135,10 +11135,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -11179,10 +11179,10 @@
 					<Obj>
 						<type>0</type>
 						<id>196</id>
-						<name>br_ln12</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>br_ln10</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>12</lineNumber>
+						<lineNumber>10</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -11195,10 +11195,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>12</second>
+										<second>10</second>
 									</item>
 								</second>
 							</item>
@@ -11237,10 +11237,10 @@
 					<Obj>
 						<type>0</type>
 						<id>198</id>
-						<name>_ln26</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>_ln24</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster</fileDirectory>
-						<lineNumber>26</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>edgedetect</contextFuncName>
 						<contextNormFuncName>edgedetect</contextNormFuncName>
 						<inlineStackInfo>
@@ -11253,10 +11253,10 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>26</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -15855,8 +15855,8 @@
 		</item>
 		<item class_id_reference="22" object_id="_604">
 			<mId>3</mId>
-			<mTag>VITIS_LOOP_12_1_VITIS_LOOP_15_2</mTag>
-			<mNormTag>VITIS_LOOP_12_1_VITIS_LOOP_15_2</mNormTag>
+			<mTag>VITIS_LOOP_10_1_VITIS_LOOP_13_2</mTag>
+			<mNormTag>VITIS_LOOP_10_1_VITIS_LOOP_13_2</mNormTag>
 			<mType>1</mType>
 			<sub_regions>
 				<count>0</count>
@@ -23661,7 +23661,7 @@
 		<count>1</count>
 		<item_version>0</item_version>
 		<item class_id="42" tracking_level="1" version="0" object_id="_1472">
-			<region_name>VITIS_LOOP_12_1_VITIS_LOOP_15_2</region_name>
+			<region_name>VITIS_LOOP_10_1_VITIS_LOOP_13_2</region_name>
 			<basic_blocks>
 				<count>7</count>
 				<item_version>0</item_version>
@@ -25360,7 +25360,7 @@
 		<count>124</count>
 		<item_version>0</item_version>
 		<item class_id="53" tracking_level="0" version="0">
-			<first>add_ln128_fu_226</first>
+			<first>add_ln108_fu_226</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25368,7 +25368,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln12_1_fu_617</first>
+			<first>add_ln10_1_fu_617</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25376,7 +25376,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln12_fu_492</first>
+			<first>add_ln10_fu_492</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25384,7 +25384,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln17_1_fu_466</first>
+			<first>add_ln15_1_fu_466</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25392,7 +25392,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln17_2_fu_545</first>
+			<first>add_ln15_2_fu_545</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25400,7 +25400,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln17_3_fu_564</first>
+			<first>add_ln15_3_fu_564</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25408,7 +25408,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln17_fu_460</first>
+			<first>add_ln15_fu_460</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25576,7 +25576,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln12_fu_638</first>
+			<first>icmp_ln10_fu_638</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25584,7 +25584,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln157_phi_fu_323</first>
+			<first>icmp_ln137_phi_fu_323</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25592,7 +25592,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln15_fu_632</first>
+			<first>icmp_ln13_fu_632</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25624,7 +25624,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln23_fu_611</first>
+			<first>icmp_ln21_fu_611</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25688,7 +25688,7 @@
 			</second>
 		</item>
 		<item>
-			<first>lshr_ln17_1_fu_695</first>
+			<first>lshr_ln15_1_fu_695</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25696,7 +25696,7 @@
 			</second>
 		</item>
 		<item>
-			<first>lshr_ln17_2_fu_719</first>
+			<first>lshr_ln15_2_fu_719</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25704,7 +25704,7 @@
 			</second>
 		</item>
 		<item>
-			<first>lshr_ln17_fu_675</first>
+			<first>lshr_ln15_fu_675</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25792,7 +25792,7 @@
 			</second>
 		</item>
 		<item>
-			<first>phi_ln236_fu_222</first>
+			<first>phi_ln216_fu_222</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25816,7 +25816,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln12_1_fu_589</first>
+			<first>select_ln10_1_fu_589</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25824,7 +25824,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln12_2_fu_991</first>
+			<first>select_ln10_2_fu_991</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25832,7 +25832,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln12_fu_390</first>
+			<first>select_ln10_fu_390</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25840,7 +25840,7 @@
 			</second>
 		</item>
 		<item>
-			<first>select_ln23_fu_1140</first>
+			<first>select_ln21_fu_1140</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25864,7 +25864,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln12_fu_977</first>
+			<first>sext_ln10_fu_977</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25872,7 +25872,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln17_1_fu_601</first>
+			<first>sext_ln15_1_fu_601</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25880,7 +25880,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln17_2_fu_654</first>
+			<first>sext_ln15_2_fu_654</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25888,7 +25888,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln17_fu_535</first>
+			<first>sext_ln15_fu_535</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25912,7 +25912,7 @@
 			</second>
 		</item>
 		<item>
-			<first>shl_ln17_1_fu_684</first>
+			<first>shl_ln15_1_fu_684</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -25920,7 +25920,7 @@
 			</second>
 		</item>
 		<item>
-			<first>shl_ln17_2_fu_708</first>
+			<first>shl_ln15_2_fu_708</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26056,7 +26056,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln15_fu_597</first>
+			<first>trunc_ln13_fu_597</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26064,7 +26064,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln17_1_fu_472</first>
+			<first>trunc_ln15_1_fu_472</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26072,7 +26072,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln17_3_fu_560</first>
+			<first>trunc_ln15_3_fu_560</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26080,7 +26080,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln17_5_fu_550</first>
+			<first>trunc_ln15_5_fu_550</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26088,7 +26088,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln17_6_fu_579</first>
+			<first>trunc_ln15_6_fu_579</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26096,7 +26096,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln17_7_fu_569</first>
+			<first>trunc_ln15_7_fu_569</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26104,7 +26104,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln17_fu_482</first>
+			<first>trunc_ln15_fu_482</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26248,7 +26248,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln15_1_fu_456</first>
+			<first>zext_ln13_1_fu_456</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26256,7 +26256,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln15_fu_531</first>
+			<first>zext_ln13_fu_531</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26264,7 +26264,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln17_1_fu_691</first>
+			<first>zext_ln15_1_fu_691</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26272,7 +26272,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln17_2_fu_715</first>
+			<first>zext_ln15_2_fu_715</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26280,7 +26280,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln17_fu_671</first>
+			<first>zext_ln15_fu_671</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26288,7 +26288,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln22_1_fu_728</first>
+			<first>zext_ln20_1_fu_728</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26296,7 +26296,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln22_2_fu_732</first>
+			<first>zext_ln20_2_fu_732</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26304,7 +26304,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln22_fu_704</first>
+			<first>zext_ln20_fu_704</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26451,7 +26451,7 @@
 		<count>29</count>
 		<item_version>0</item_version>
 		<item>
-			<first>add_ln128_load_load_fu_387</first>
+			<first>add_ln108_load_load_fu_387</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26849,7 +26849,7 @@
 			</second>
 		</item>
 		<item>
-			<first>phi_ln236_load_load_fu_988</first>
+			<first>phi_ln216_load_load_fu_988</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26905,7 +26905,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln12_store_fu_498</first>
+			<first>store_ln10_store_fu_498</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26913,7 +26913,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln12_store_fu_508</first>
+			<first>store_ln10_store_fu_508</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26921,7 +26921,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln12_store_fu_649</first>
+			<first>store_ln10_store_fu_649</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26929,7 +26929,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln15_store_fu_644</first>
+			<first>store_ln13_store_fu_644</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26937,7 +26937,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln20_store_fu_503</first>
+			<first>store_ln18_store_fu_503</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26945,7 +26945,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln23_store_fu_1147</first>
+			<first>store_ln21_store_fu_1147</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -26953,7 +26953,7 @@
 			</second>
 		</item>
 		<item>
-			<first>write_ln23_write_fu_285</first>
+			<first>write_ln21_write_fu_285</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27405,7 +27405,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln128_reg_1188</first>
+			<first>add_ln108_reg_1188</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27413,7 +27413,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln17_reg_1210</first>
+			<first>add_ln15_reg_1210</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27565,7 +27565,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln12_reg_1268</first>
+			<first>icmp_ln10_reg_1268</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27573,7 +27573,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln157_reg_320</first>
+			<first>icmp_ln137_reg_320</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27581,7 +27581,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln15_reg_1263</first>
+			<first>icmp_ln13_reg_1263</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27589,7 +27589,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln23_reg_1258</first>
+			<first>icmp_ln21_reg_1258</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27669,7 +27669,7 @@
 			</second>
 		</item>
 		<item>
-			<first>phi_ln236_reg_1181</first>
+			<first>phi_ln216_reg_1181</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27701,7 +27701,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln17_1_reg_1216</first>
+			<first>trunc_ln15_1_reg_1216</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27709,7 +27709,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln17_3_reg_1237</first>
+			<first>trunc_ln15_3_reg_1237</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27717,7 +27717,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln17_5_reg_1232</first>
+			<first>trunc_ln15_5_reg_1232</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27725,7 +27725,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln17_6_reg_1247</first>
+			<first>trunc_ln15_6_reg_1247</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27733,7 +27733,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln17_7_reg_1242</first>
+			<first>trunc_ln15_7_reg_1242</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27741,7 +27741,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln17_reg_1221</first>
+			<first>trunc_ln15_reg_1221</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27781,7 +27781,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln22_1_reg_1313</first>
+			<first>zext_ln20_1_reg_1313</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27789,7 +27789,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln22_2_reg_1318</first>
+			<first>zext_ln20_2_reg_1318</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27797,7 +27797,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln22_reg_1303</first>
+			<first>zext_ln20_reg_1303</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -27837,7 +27837,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln157_reg_320</first>
+			<first>icmp_ln137_reg_320</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

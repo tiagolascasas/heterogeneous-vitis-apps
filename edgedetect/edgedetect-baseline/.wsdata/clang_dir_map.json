@@ -2,6 +2,6 @@
   "workspaceRoot": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline",
   "mapping": {
     "src/edgedetect.cpp": "EdgedetectBaseline_cluster",
-    "/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/edgedetect.cpp": "EdgedetectBaseline_cluster"
+    "EdgedetectBaseline_host/src/edgedetect.cpp": "EdgedetectBaseline_cluster"
   }
 }

@@ -1960,10 +1960,10 @@ entry:38 %empty_51 = trunc i64 %filter_read
 
 <Node id="95" bw="58" op_0_bw="58" op_1_bw="64" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-entry:87 %trunc_ln5 = partselect i58 @_ssdm_op_PartSelect.i58.i64.i32.i32, i64 %temp_buf_read, i32 6, i32 63
+entry:87 %trunc_ln7 = partselect i58 @_ssdm_op_PartSelect.i58.i64.i32.i32, i64 %temp_buf_read, i32 6, i32 63
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln5"/></StgValue>
+<StgValue><ssdm name="trunc_ln7"/></StgValue>
 </operation>
 
 <operation id="310" st_id="1" stage="1" lat="1">
@@ -1975,10 +1975,10 @@ entry:87 %trunc_ln5 = partselect i58 @_ssdm_op_PartSelect.i58.i64.i32.i32, i64 %
 
 <Node id="96" bw="58" op_0_bw="58" op_1_bw="64" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-entry:88 %trunc_ln162_1 = partselect i58 @_ssdm_op_PartSelect.i58.i64.i32.i32, i64 %output_r_read, i32 6, i32 63
+entry:88 %trunc_ln165_1 = partselect i58 @_ssdm_op_PartSelect.i58.i64.i32.i32, i64 %output_r_read, i32 6, i32 63
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln162_1"/></StgValue>
+<StgValue><ssdm name="trunc_ln165_1"/></StgValue>
 </operation>
 </state>
 
@@ -5002,10 +5002,10 @@ entry:73 %empty_68 = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i512, i512 %gmem_add
 
 <Node id="82" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="512" op_3_bw="64" op_4_bw="0">
 <![CDATA[
-entry:74 %write_ln69 = write void @_ssdm_op_Write.m_axi.p1i512, i512 %gmem_addr_1, i512 18518522396055503103, i64 511
+entry:74 %write_ln70 = write void @_ssdm_op_Write.m_axi.p1i512, i512 %gmem_addr_1, i512 18518522396055503103, i64 511
 
 ]]></Node>
-<StgValue><ssdm name="write_ln69"/></StgValue>
+<StgValue><ssdm name="write_ln70"/></StgValue>
 </operation>
 </state>
 
@@ -6244,7 +6244,7 @@ entry:75 %empty_69 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_a
 
 <Node id="84" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="64" op_3_bw="12" op_4_bw="0" op_5_bw="0">
 <![CDATA[
-entry:76 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_5_loc
+entry:76 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_5_loc
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -6262,7 +6262,7 @@ entry:76 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_8
 
 <Node id="84" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="64" op_3_bw="12" op_4_bw="0" op_5_bw="0">
 <![CDATA[
-entry:76 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_5_loc
+entry:76 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_5_loc
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -6295,10 +6295,10 @@ entry:77 %normal_factor_5_loc_load = load i12 %normal_factor_5_loc
 
 <Node id="86" bw="1" op_0_bw="12" op_1_bw="12">
 <![CDATA[
-entry:78 %icmp_ln92 = icmp_eq  i12 %normal_factor_5_loc_load, i12 0
+entry:78 %icmp_ln93 = icmp_eq  i12 %normal_factor_5_loc_load, i12 0
 
 ]]></Node>
-<StgValue><ssdm name="icmp_ln92"/></StgValue>
+<StgValue><ssdm name="icmp_ln93"/></StgValue>
 </operation>
 
 <operation id="569" st_id="151" stage="2" lat="2">
@@ -6310,7 +6310,7 @@ entry:78 %icmp_ln92 = icmp_eq  i12 %normal_factor_5_loc_load, i12 0
 
 <Node id="87" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="58" op_3_bw="58" op_4_bw="58" op_5_bw="58" op_6_bw="58" op_7_bw="58" op_8_bw="58" op_9_bw="58" op_10_bw="58" op_11_bw="64" op_12_bw="9" op_13_bw="9" op_14_bw="9" op_15_bw="9" op_16_bw="9" op_17_bw="9" op_18_bw="9" op_19_bw="9" op_20_bw="9" op_21_bw="12" op_22_bw="1" op_23_bw="64" op_24_bw="0" op_25_bw="0">
 <![CDATA[
-entry:79 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_5_loc_load, i1 %icmp_ln92, i64 %image_gray_read
+entry:79 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_5_loc_load, i1 %icmp_ln93, i64 %image_gray_read
 
 ]]></Node>
 <StgValue><ssdm name="call_ln26"/></StgValue>
@@ -6328,7 +6328,7 @@ entry:79 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_
 
 <Node id="87" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="58" op_3_bw="58" op_4_bw="58" op_5_bw="58" op_6_bw="58" op_7_bw="58" op_8_bw="58" op_9_bw="58" op_10_bw="58" op_11_bw="64" op_12_bw="9" op_13_bw="9" op_14_bw="9" op_15_bw="9" op_16_bw="9" op_17_bw="9" op_18_bw="9" op_19_bw="9" op_20_bw="9" op_21_bw="12" op_22_bw="1" op_23_bw="64" op_24_bw="0" op_25_bw="0">
 <![CDATA[
-entry:79 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_5_loc_load, i1 %icmp_ln92, i64 %image_gray_read
+entry:79 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_5_loc_load, i1 %icmp_ln93, i64 %image_gray_read
 
 ]]></Node>
 <StgValue><ssdm name="call_ln26"/></StgValue>
@@ -6364,10 +6364,10 @@ entry:80 %empty_70 = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i512, i512 %gmem_add
 
 <Node id="89" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="512" op_3_bw="64" op_4_bw="0">
 <![CDATA[
-entry:81 %write_ln112 = write void @_ssdm_op_Write.m_axi.p1i512, i512 %gmem_addr_1, i512 4722294143800630641153, i64 511
+entry:81 %write_ln114 = write void @_ssdm_op_Write.m_axi.p1i512, i512 %gmem_addr_1, i512 4722294143800630641153, i64 511
 
 ]]></Node>
-<StgValue><ssdm name="write_ln112"/></StgValue>
+<StgValue><ssdm name="write_ln114"/></StgValue>
 </operation>
 </state>
 
@@ -7606,7 +7606,7 @@ entry:82 %empty_71 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_a
 
 <Node id="91" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="64" op_3_bw="12" op_4_bw="0" op_5_bw="0">
 <![CDATA[
-entry:83 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_8_loc
+entry:83 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_8_loc
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -7624,7 +7624,7 @@ entry:83 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_
 
 <Node id="91" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="64" op_3_bw="12" op_4_bw="0" op_5_bw="0">
 <![CDATA[
-entry:83 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_8_loc
+entry:83 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_8_loc
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -7657,10 +7657,10 @@ entry:84 %normal_factor_8_loc_load = load i12 %normal_factor_8_loc
 
 <Node id="93" bw="1" op_0_bw="12" op_1_bw="12">
 <![CDATA[
-entry:85 %icmp_ln135 = icmp_eq  i12 %normal_factor_8_loc_load, i12 0
+entry:85 %icmp_ln137 = icmp_eq  i12 %normal_factor_8_loc_load, i12 0
 
 ]]></Node>
-<StgValue><ssdm name="icmp_ln135"/></StgValue>
+<StgValue><ssdm name="icmp_ln137"/></StgValue>
 </operation>
 
 <operation id="645" st_id="225" stage="2" lat="2">
@@ -7672,7 +7672,7 @@ entry:85 %icmp_ln135 = icmp_eq  i12 %normal_factor_8_loc_load, i12 0
 
 <Node id="94" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="58" op_3_bw="58" op_4_bw="58" op_5_bw="58" op_6_bw="58" op_7_bw="58" op_8_bw="58" op_9_bw="58" op_10_bw="58" op_11_bw="64" op_12_bw="9" op_13_bw="9" op_14_bw="9" op_15_bw="9" op_16_bw="9" op_17_bw="9" op_18_bw="9" op_19_bw="9" op_20_bw="9" op_21_bw="12" op_22_bw="1" op_23_bw="64" op_24_bw="0" op_25_bw="0">
 <![CDATA[
-entry:86 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_8_loc_load, i1 %icmp_ln135, i64 %temp_buf_read
+entry:86 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_8_loc_load, i1 %icmp_ln137, i64 %temp_buf_read
 
 ]]></Node>
 <StgValue><ssdm name="call_ln26"/></StgValue>
@@ -7690,7 +7690,7 @@ entry:86 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP
 
 <Node id="94" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="58" op_3_bw="58" op_4_bw="58" op_5_bw="58" op_6_bw="58" op_7_bw="58" op_8_bw="58" op_9_bw="58" op_10_bw="58" op_11_bw="64" op_12_bw="9" op_13_bw="9" op_14_bw="9" op_15_bw="9" op_16_bw="9" op_17_bw="9" op_18_bw="9" op_19_bw="9" op_20_bw="9" op_21_bw="12" op_22_bw="1" op_23_bw="64" op_24_bw="0" op_25_bw="0">
 <![CDATA[
-entry:86 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_8_loc_load, i1 %icmp_ln135, i64 %temp_buf_read
+entry:86 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_8_loc_load, i1 %icmp_ln137, i64 %temp_buf_read
 
 ]]></Node>
 <StgValue><ssdm name="call_ln26"/></StgValue>
@@ -7708,10 +7708,10 @@ entry:86 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP
 
 <Node id="97" bw="64" op_0_bw="58">
 <![CDATA[
-entry:89 %sext_ln162_1 = sext i58 %trunc_ln162_1
+entry:89 %sext_ln165_1 = sext i58 %trunc_ln165_1
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln162_1"/></StgValue>
+<StgValue><ssdm name="sext_ln165_1"/></StgValue>
 </operation>
 
 <operation id="648" st_id="227" stage="1" lat="1">
@@ -7723,7 +7723,7 @@ entry:89 %sext_ln162_1 = sext i58 %trunc_ln162_1
 
 <Node id="98" bw="512" op_0_bw="512" op_1_bw="64">
 <![CDATA[
-entry:90 %gmem_addr_35 = getelementptr i512 %gmem, i64 %sext_ln162_1
+entry:90 %gmem_addr_35 = getelementptr i512 %gmem, i64 %sext_ln165_1
 
 ]]></Node>
 <StgValue><ssdm name="gmem_addr_35"/></StgValue>
@@ -7756,10 +7756,10 @@ entry:91 %empty_72 = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i512, i512 %gmem_add
 
 <Node id="100" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="58" op_3_bw="58" op_4_bw="58" op_5_bw="0" op_6_bw="0">
 <![CDATA[
-entry:92 %call_ln162 = call void @edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2, i512 %gmem, i58 %trunc_ln162_1, i58 %trunc_ln, i58 %trunc_ln5
+entry:92 %call_ln165 = call void @edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2, i512 %gmem, i58 %trunc_ln165_1, i58 %trunc_ln, i58 %trunc_ln7
 
 ]]></Node>
-<StgValue><ssdm name="call_ln162"/></StgValue>
+<StgValue><ssdm name="call_ln165"/></StgValue>
 </operation>
 </state>
 
@@ -7774,10 +7774,10 @@ entry:92 %call_ln162 = call void @edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOO
 
 <Node id="100" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="58" op_3_bw="58" op_4_bw="58" op_5_bw="0" op_6_bw="0">
 <![CDATA[
-entry:92 %call_ln162 = call void @edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2, i512 %gmem, i58 %trunc_ln162_1, i58 %trunc_ln, i58 %trunc_ln5
+entry:92 %call_ln165 = call void @edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2, i512 %gmem, i58 %trunc_ln165_1, i58 %trunc_ln, i58 %trunc_ln7
 
 ]]></Node>
-<StgValue><ssdm name="call_ln162"/></StgValue>
+<StgValue><ssdm name="call_ln165"/></StgValue>
 </operation>
 </state>
 
@@ -8998,10 +8998,10 @@ entry:93 %empty_73 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_a
 
 <Node id="16" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-entry:8 %spectopmodule_ln214 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_6
+entry:8 %spectopmodule_ln217 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_6
 
 ]]></Node>
-<StgValue><ssdm name="spectopmodule_ln214"/></StgValue>
+<StgValue><ssdm name="spectopmodule_ln217"/></StgValue>
 </operation>
 
 <operation id="720" st_id="297" stage="1" lat="1">
@@ -9013,10 +9013,10 @@ entry:8 %spectopmodule_ln214 = spectopmodule void @_ssdm_op_SpecTopModule, void 
 
 <Node id="17" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32">
 <![CDATA[
-entry:9 %specinterface_ln214 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_9, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7, i32 4294967295, i32 0, i32 0
+entry:9 %specinterface_ln217 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_9, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7, i32 4294967295, i32 0, i32 0
 
 ]]></Node>
-<StgValue><ssdm name="specinterface_ln214"/></StgValue>
+<StgValue><ssdm name="specinterface_ln217"/></StgValue>
 </operation>
 
 <operation id="721" st_id="297" stage="1" lat="1">
@@ -9238,10 +9238,10 @@ entry:93 %empty_73 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_a
 
 <Node id="102" bw="0">
 <![CDATA[
-entry:94 %ret_ln236 = ret
+entry:94 %ret_ln239 = ret
 
 ]]></Node>
-<StgValue><ssdm name="ret_ln236"/></StgValue>
+<StgValue><ssdm name="ret_ln239"/></StgValue>
 </operation>
 </state>
 </state_list>

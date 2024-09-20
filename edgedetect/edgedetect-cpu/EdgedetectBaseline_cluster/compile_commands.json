@@ -7,8 +7,8 @@
       "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
       "",
       "-c",
-      "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-cpu/src/edgedetect_fpga.cpp"
+      "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-cpu/EdgedetectBaseline_host/src/edgedetect_fpga.cpp"
     ],
-    "file": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-cpu/src/edgedetect_fpga.cpp"
+    "file": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-cpu/EdgedetectBaseline_host/src/edgedetect_fpga.cpp"
   }
 ]

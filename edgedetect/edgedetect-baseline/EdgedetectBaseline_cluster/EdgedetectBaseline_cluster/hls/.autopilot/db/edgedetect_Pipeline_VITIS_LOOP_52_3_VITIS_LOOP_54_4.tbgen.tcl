@@ -27,14 +27,14 @@ set C_modelArgList {
 	{ p_cast55_cast int 58 regular  }
 	{ p_cast57_cast int 58 regular  }
 	{ image_gray int 64 regular  }
-	{ p_cast77 int 9 regular  }
-	{ p_cast78 int 9 regular  }
-	{ p_cast79 int 9 regular  }
 	{ p_cast80 int 9 regular  }
 	{ p_cast81 int 9 regular  }
 	{ p_cast82 int 9 regular  }
 	{ p_cast83 int 9 regular  }
 	{ p_cast84 int 9 regular  }
+	{ p_cast85 int 9 regular  }
+	{ p_cast86 int 9 regular  }
+	{ p_cast87 int 9 regular  }
 	{ zext_ln52 int 9 regular  }
 	{ normal_factor_2_reload int 12 regular  }
 	{ icmp_ln49 int 1 regular  }
@@ -55,14 +55,14 @@ set C_modelArgMapList {[
  	{ "Name" : "p_cast55_cast", "interface" : "wire", "bitwidth" : 58, "direction" : "READONLY"} , 
  	{ "Name" : "p_cast57_cast", "interface" : "wire", "bitwidth" : 58, "direction" : "READONLY"} , 
  	{ "Name" : "image_gray", "interface" : "wire", "bitwidth" : 64, "direction" : "READONLY"} , 
- 	{ "Name" : "p_cast77", "interface" : "wire", "bitwidth" : 9, "direction" : "READONLY"} , 
- 	{ "Name" : "p_cast78", "interface" : "wire", "bitwidth" : 9, "direction" : "READONLY"} , 
- 	{ "Name" : "p_cast79", "interface" : "wire", "bitwidth" : 9, "direction" : "READONLY"} , 
  	{ "Name" : "p_cast80", "interface" : "wire", "bitwidth" : 9, "direction" : "READONLY"} , 
  	{ "Name" : "p_cast81", "interface" : "wire", "bitwidth" : 9, "direction" : "READONLY"} , 
  	{ "Name" : "p_cast82", "interface" : "wire", "bitwidth" : 9, "direction" : "READONLY"} , 
  	{ "Name" : "p_cast83", "interface" : "wire", "bitwidth" : 9, "direction" : "READONLY"} , 
  	{ "Name" : "p_cast84", "interface" : "wire", "bitwidth" : 9, "direction" : "READONLY"} , 
+ 	{ "Name" : "p_cast85", "interface" : "wire", "bitwidth" : 9, "direction" : "READONLY"} , 
+ 	{ "Name" : "p_cast86", "interface" : "wire", "bitwidth" : 9, "direction" : "READONLY"} , 
+ 	{ "Name" : "p_cast87", "interface" : "wire", "bitwidth" : 9, "direction" : "READONLY"} , 
  	{ "Name" : "zext_ln52", "interface" : "wire", "bitwidth" : 9, "direction" : "READONLY"} , 
  	{ "Name" : "normal_factor_2_reload", "interface" : "wire", "bitwidth" : 12, "direction" : "READONLY"} , 
  	{ "Name" : "icmp_ln49", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY"} , 
@@ -132,14 +132,14 @@ set portList {
 	{ p_cast55_cast sc_in sc_lv 58 signal 8 } 
 	{ p_cast57_cast sc_in sc_lv 58 signal 9 } 
 	{ image_gray sc_in sc_lv 64 signal 10 } 
-	{ p_cast77 sc_in sc_lv 9 signal 11 } 
-	{ p_cast78 sc_in sc_lv 9 signal 12 } 
-	{ p_cast79 sc_in sc_lv 9 signal 13 } 
-	{ p_cast80 sc_in sc_lv 9 signal 14 } 
-	{ p_cast81 sc_in sc_lv 9 signal 15 } 
-	{ p_cast82 sc_in sc_lv 9 signal 16 } 
-	{ p_cast83 sc_in sc_lv 9 signal 17 } 
-	{ p_cast84 sc_in sc_lv 9 signal 18 } 
+	{ p_cast80 sc_in sc_lv 9 signal 11 } 
+	{ p_cast81 sc_in sc_lv 9 signal 12 } 
+	{ p_cast82 sc_in sc_lv 9 signal 13 } 
+	{ p_cast83 sc_in sc_lv 9 signal 14 } 
+	{ p_cast84 sc_in sc_lv 9 signal 15 } 
+	{ p_cast85 sc_in sc_lv 9 signal 16 } 
+	{ p_cast86 sc_in sc_lv 9 signal 17 } 
+	{ p_cast87 sc_in sc_lv 9 signal 18 } 
 	{ zext_ln52 sc_in sc_lv 9 signal 19 } 
 	{ normal_factor_2_reload sc_in sc_lv 12 signal 20 } 
 	{ icmp_ln49 sc_in sc_lv 1 signal 21 } 
@@ -208,14 +208,14 @@ set NewPortList {[
  	{ "name": "p_cast55_cast", "direction": "in", "datatype": "sc_lv", "bitwidth":58, "type": "signal", "bundle":{"name": "p_cast55_cast", "role": "default" }} , 
  	{ "name": "p_cast57_cast", "direction": "in", "datatype": "sc_lv", "bitwidth":58, "type": "signal", "bundle":{"name": "p_cast57_cast", "role": "default" }} , 
  	{ "name": "image_gray", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "image_gray", "role": "default" }} , 
- 	{ "name": "p_cast77", "direction": "in", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "p_cast77", "role": "default" }} , 
- 	{ "name": "p_cast78", "direction": "in", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "p_cast78", "role": "default" }} , 
- 	{ "name": "p_cast79", "direction": "in", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "p_cast79", "role": "default" }} , 
  	{ "name": "p_cast80", "direction": "in", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "p_cast80", "role": "default" }} , 
  	{ "name": "p_cast81", "direction": "in", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "p_cast81", "role": "default" }} , 
  	{ "name": "p_cast82", "direction": "in", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "p_cast82", "role": "default" }} , 
  	{ "name": "p_cast83", "direction": "in", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "p_cast83", "role": "default" }} , 
  	{ "name": "p_cast84", "direction": "in", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "p_cast84", "role": "default" }} , 
+ 	{ "name": "p_cast85", "direction": "in", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "p_cast85", "role": "default" }} , 
+ 	{ "name": "p_cast86", "direction": "in", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "p_cast86", "role": "default" }} , 
+ 	{ "name": "p_cast87", "direction": "in", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "p_cast87", "role": "default" }} , 
  	{ "name": "zext_ln52", "direction": "in", "datatype": "sc_lv", "bitwidth":9, "type": "signal", "bundle":{"name": "zext_ln52", "role": "default" }} , 
  	{ "name": "normal_factor_2_reload", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "normal_factor_2_reload", "role": "default" }} , 
  	{ "name": "icmp_ln49", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "icmp_ln49", "role": "default" }} , 
@@ -254,14 +254,14 @@ set RtlHierarchyInfo {[
 			{"Name" : "p_cast55_cast", "Type" : "None", "Direction" : "I"},
 			{"Name" : "p_cast57_cast", "Type" : "None", "Direction" : "I"},
 			{"Name" : "image_gray", "Type" : "None", "Direction" : "I"},
-			{"Name" : "p_cast77", "Type" : "None", "Direction" : "I"},
-			{"Name" : "p_cast78", "Type" : "None", "Direction" : "I"},
-			{"Name" : "p_cast79", "Type" : "None", "Direction" : "I"},
 			{"Name" : "p_cast80", "Type" : "None", "Direction" : "I"},
 			{"Name" : "p_cast81", "Type" : "None", "Direction" : "I"},
 			{"Name" : "p_cast82", "Type" : "None", "Direction" : "I"},
 			{"Name" : "p_cast83", "Type" : "None", "Direction" : "I"},
 			{"Name" : "p_cast84", "Type" : "None", "Direction" : "I"},
+			{"Name" : "p_cast85", "Type" : "None", "Direction" : "I"},
+			{"Name" : "p_cast86", "Type" : "None", "Direction" : "I"},
+			{"Name" : "p_cast87", "Type" : "None", "Direction" : "I"},
 			{"Name" : "zext_ln52", "Type" : "None", "Direction" : "I"},
 			{"Name" : "normal_factor_2_reload", "Type" : "None", "Direction" : "I"},
 			{"Name" : "icmp_ln49", "Type" : "None", "Direction" : "I"},
@@ -295,14 +295,14 @@ set ArgLastReadFirstWriteLatency {
 		p_cast55_cast {Type I LastRead 0 FirstWrite -1}
 		p_cast57_cast {Type I LastRead 0 FirstWrite -1}
 		image_gray {Type I LastRead 0 FirstWrite -1}
-		p_cast77 {Type I LastRead 0 FirstWrite -1}
-		p_cast78 {Type I LastRead 0 FirstWrite -1}
-		p_cast79 {Type I LastRead 0 FirstWrite -1}
 		p_cast80 {Type I LastRead 0 FirstWrite -1}
 		p_cast81 {Type I LastRead 0 FirstWrite -1}
 		p_cast82 {Type I LastRead 0 FirstWrite -1}
 		p_cast83 {Type I LastRead 0 FirstWrite -1}
 		p_cast84 {Type I LastRead 0 FirstWrite -1}
+		p_cast85 {Type I LastRead 0 FirstWrite -1}
+		p_cast86 {Type I LastRead 0 FirstWrite -1}
+		p_cast87 {Type I LastRead 0 FirstWrite -1}
 		zext_ln52 {Type I LastRead 0 FirstWrite -1}
 		normal_factor_2_reload {Type I LastRead 0 FirstWrite -1}
 		icmp_ln49 {Type I LastRead 0 FirstWrite -1}
@@ -331,14 +331,14 @@ set Spec2ImplPortList {
 	p_cast55_cast { ap_none {  { p_cast55_cast in_data 0 58 } } }
 	p_cast57_cast { ap_none {  { p_cast57_cast in_data 0 58 } } }
 	image_gray { ap_none {  { image_gray in_data 0 64 } } }
-	p_cast77 { ap_none {  { p_cast77 in_data 0 9 } } }
-	p_cast78 { ap_none {  { p_cast78 in_data 0 9 } } }
-	p_cast79 { ap_none {  { p_cast79 in_data 0 9 } } }
 	p_cast80 { ap_none {  { p_cast80 in_data 0 9 } } }
 	p_cast81 { ap_none {  { p_cast81 in_data 0 9 } } }
 	p_cast82 { ap_none {  { p_cast82 in_data 0 9 } } }
 	p_cast83 { ap_none {  { p_cast83 in_data 0 9 } } }
 	p_cast84 { ap_none {  { p_cast84 in_data 0 9 } } }
+	p_cast85 { ap_none {  { p_cast85 in_data 0 9 } } }
+	p_cast86 { ap_none {  { p_cast86 in_data 0 9 } } }
+	p_cast87 { ap_none {  { p_cast87 in_data 0 9 } } }
 	zext_ln52 { ap_none {  { zext_ln52 in_data 0 9 } } }
 	normal_factor_2_reload { ap_none {  { normal_factor_2_reload in_data 0 12 } } }
 	icmp_ln49 { ap_none {  { icmp_ln49 in_data 0 1 } } }

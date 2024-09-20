@@ -256,7 +256,8 @@ Args:
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 0 }
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 9, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Inlining function '''
@@ -265,13 +266,15 @@ Args:
                        Line: 6, Column: 0 }
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*)'
-    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 0 }
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 9, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 0 }
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 9, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Inlining function '''
@@ -280,13 +283,15 @@ Args:
                        Line: 67, Column: 0 }
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*)'
-    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 0 }
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 9, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../src/edgedetect.cpp, Line: 12, Column: 22 }
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 10, Column: 22 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Sequential '
@@ -300,31 +305,36 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_12_1
+  - LoopName:        VITIS_LOOP_10_1
   - String:          ' '
-  - LoopLoc:         '../src/edgedetect.cpp:12:22'
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:10:22'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
-    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 0 }
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 9, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 17, Column: 31 }
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 15, Column: 31 }
   - OrigDirection:   read
   - OrigID:          for.inc.load.12
   - OrigAccess:      load
-    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 18, Column: 31 }
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 16, Column: 31 }
   - OrigDirection:   read
   - OrigID:          for.inc.load.16
   - OrigAccess:      load
-    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 19, Column: 31 }
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 17, Column: 31 }
   - OrigDirection:   read
   - OrigID:          for.inc.load.20
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../src/edgedetect.cpp, Line: 12, Column: 22 }
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 10, Column: 22 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Sequential '
@@ -338,23 +348,26 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_12_1
+  - LoopName:        VITIS_LOOP_10_1
   - String:          ' '
-  - LoopLoc:         '../src/edgedetect.cpp:12:22'
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:10:22'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
-    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 0 }
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 9, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 23, Column: 39 }
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 21, Column: 39 }
   - OrigDirection:   write
   - OrigID:          __hls_fptoui_double_i8.exit.store.8
 ...
 --- !Passed
 Pass:            reflow-burst-widen
 Name:            BurstWidened
-DebugLoc:        { File: ../src/edgedetect.cpp, Line: 12, Column: 22 }
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 10, Column: 22 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Sequential '
@@ -372,7 +385,8 @@ Args:
   - String:          bit words
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 12, Column: 22 }
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 10, Column: 22 }
   - OrigDirection:   write
   - OrigID:          output_image6seq
   - String:          ' _XLX_SEP_ '
@@ -381,12 +395,13 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_15_2
+  - LoopName:        VITIS_LOOP_13_2
   - String:          ' '
-  - LoopLoc:         '../src/edgedetect.cpp:15:26'
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:13:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
-    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 0 }
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 9, Column: 0 }
   - String:          ' '
 ...
 --- !HLSReportInfo
@@ -394,15 +409,16 @@ Pass:            auto-loop-pipeline
 Name:            AutoLoopPipeline
 Args:            
   - String:          'automatically set the pipeline for Loop< '
-  - LoopName:        VITIS_LOOP_15_2
+  - LoopName:        VITIS_LOOP_13_2
   - String:          '> at '
-  - LoopLoc:         '../src/edgedetect.cpp:15:26'
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:13:26'
   - String:          ' '
 ...
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 0 }
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 9, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Cannot apply interface mode '''
@@ -415,7 +431,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 0 }
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 9, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Cannot apply interface mode '''
@@ -428,13 +445,15 @@ Args:
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: ../src/edgedetect.cpp, Line: 12, Column: 22 }
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 10, Column: 22 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 12, Column: 22 }
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 10, Column: 22 }
   - OrigDirection:   read
   - OrigID:          input_image5seq
   - ArrayName:       ''
@@ -442,13 +461,15 @@ Args:
   - BundleName:      input_image
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
-    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 0 }
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 9, Column: 0 }
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../src/edgedetect.cpp, Line: 12, Column: 22 }
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 10, Column: 22 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Multiple burst '
@@ -466,13 +487,15 @@ Args:
   - BundleName:      gmem
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
-    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 0 }
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 9, Column: 0 }
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../src/edgedetect.cpp, Line: 12, Column: 22 }
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 10, Column: 22 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Multiple burst '

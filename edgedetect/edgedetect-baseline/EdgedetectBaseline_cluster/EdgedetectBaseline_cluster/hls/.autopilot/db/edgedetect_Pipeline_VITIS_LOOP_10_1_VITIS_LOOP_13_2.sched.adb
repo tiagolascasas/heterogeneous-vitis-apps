@@ -171,7 +171,7 @@
 						<type>0</type>
 						<id>6</id>
 						<name>j</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -186,14 +186,14 @@
 									<item_version>0</item_version>
 									<item class_id="13" tracking_level="0" version="0">
 										<first class_id="14" tracking_level="0" version="0">
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>13</second>
@@ -234,7 +234,7 @@
 						<type>0</type>
 						<id>7</id>
 						<name>jj</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>12</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -249,14 +249,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>12</second>
@@ -297,7 +297,7 @@
 						<type>0</type>
 						<id>8</id>
 						<name>i</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -312,14 +312,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -573,7 +573,7 @@
 						<type>0</type>
 						<id>15</id>
 						<name>i_write_ln10</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -588,14 +588,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -637,7 +637,7 @@
 						<type>0</type>
 						<id>16</id>
 						<name>jj_write_ln12</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>12</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -652,14 +652,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>12</second>
@@ -701,7 +701,7 @@
 						<type>0</type>
 						<id>17</id>
 						<name>j_write_ln13</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -716,14 +716,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>13</second>
@@ -850,7 +850,7 @@
 						<type>0</type>
 						<id>21</id>
 						<name>indvar_flatten_load</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -865,14 +865,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -914,7 +914,7 @@
 						<type>0</type>
 						<id>23</id>
 						<name>icmp_ln10</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -929,14 +929,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -978,7 +978,7 @@
 						<type>0</type>
 						<id>24</id>
 						<name>add_ln10</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -993,14 +993,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -1042,7 +1042,7 @@
 						<type>0</type>
 						<id>25</id>
 						<name>br_ln10</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1057,14 +1057,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -1107,7 +1107,7 @@
 						<type>0</type>
 						<id>27</id>
 						<name>phi_ln21_load</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1122,14 +1122,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -1171,7 +1171,7 @@
 						<type>0</type>
 						<id>28</id>
 						<name>j_load</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1186,14 +1186,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>13</second>
@@ -1235,7 +1235,7 @@
 						<type>0</type>
 						<id>29</id>
 						<name>jj_load</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1250,14 +1250,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -1299,7 +1299,7 @@
 						<type>0</type>
 						<id>30</id>
 						<name>i_load</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1314,14 +1314,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -1363,7 +1363,7 @@
 						<type>0</type>
 						<id>31</id>
 						<name>gmem_addr</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1378,14 +1378,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -1427,7 +1427,7 @@
 						<type>0</type>
 						<id>34</id>
 						<name>icmp_ln13</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1442,14 +1442,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>13</second>
@@ -1491,7 +1491,7 @@
 						<type>0</type>
 						<id>35</id>
 						<name>select_ln10</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1506,14 +1506,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -1556,7 +1556,7 @@
 						<type>0</type>
 						<id>36</id>
 						<name>select_ln10_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1571,14 +1571,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -1621,7 +1621,7 @@
 						<type>0</type>
 						<id>37</id>
 						<name>select_ln10_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1636,14 +1636,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -1686,7 +1686,7 @@
 						<type>0</type>
 						<id>38</id>
 						<name>add_ln10_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1701,14 +1701,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -1750,7 +1750,7 @@
 						<type>0</type>
 						<id>39</id>
 						<name>select_ln10_3</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1765,14 +1765,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -1815,7 +1815,7 @@
 						<type>0</type>
 						<id>40</id>
 						<name>p_shl</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1830,14 +1830,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -1880,7 +1880,7 @@
 						<type>0</type>
 						<id>41</id>
 						<name>tmp</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1895,14 +1895,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -1945,7 +1945,7 @@
 						<type>0</type>
 						<id>42</id>
 						<name>p_shl16</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -1960,14 +1960,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -2008,7 +2008,7 @@
 						<type>0</type>
 						<id>43</id>
 						<name>empty</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2023,14 +2023,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -2071,8 +2071,8 @@
 					<Obj>
 						<type>0</type>
 						<id>44</id>
-						<name>p_cast74</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>p_cast77</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2087,14 +2087,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -2135,7 +2135,7 @@
 						<type>0</type>
 						<id>45</id>
 						<name>tmp_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2150,14 +2150,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -2201,7 +2201,7 @@
 						<type>0</type>
 						<id>46</id>
 						<name>tmp_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2216,14 +2216,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -2265,8 +2265,8 @@
 					<Obj>
 						<type>0</type>
 						<id>47</id>
-						<name>p_cast75</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<name>p_cast78</name>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2281,14 +2281,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -2329,7 +2329,7 @@
 						<type>0</type>
 						<id>48</id>
 						<name>tmp_3</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2344,14 +2344,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -2395,7 +2395,7 @@
 						<type>0</type>
 						<id>49</id>
 						<name>tmp_5</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2410,14 +2410,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -2460,7 +2460,7 @@
 						<type>0</type>
 						<id>50</id>
 						<name>zext_ln13</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2475,14 +2475,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>13</second>
@@ -2523,7 +2523,7 @@
 						<type>0</type>
 						<id>51</id>
 						<name>zext_ln13_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2538,14 +2538,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>13</second>
@@ -2586,7 +2586,7 @@
 						<type>0</type>
 						<id>52</id>
 						<name>trunc_ln13</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2601,14 +2601,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>13</second>
@@ -2649,7 +2649,7 @@
 						<type>0</type>
 						<id>54</id>
 						<name>add_ln15</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2664,14 +2664,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -2713,7 +2713,7 @@
 						<type>0</type>
 						<id>55</id>
 						<name>add_ln15_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2728,14 +2728,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -2777,7 +2777,7 @@
 						<type>0</type>
 						<id>56</id>
 						<name>trunc_ln15_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2792,14 +2792,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -2843,7 +2843,7 @@
 						<type>0</type>
 						<id>57</id>
 						<name>sext_ln15</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2858,14 +2858,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -2906,7 +2906,7 @@
 						<type>0</type>
 						<id>58</id>
 						<name>gmem_addr_10</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2921,14 +2921,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -2970,7 +2970,7 @@
 						<type>0</type>
 						<id>59</id>
 						<name>gmem_load_req</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -2985,14 +2985,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3035,7 +3035,7 @@
 						<type>0</type>
 						<id>60</id>
 						<name>gmem_addr_10_read</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3050,14 +3050,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3100,7 +3100,7 @@
 						<type>0</type>
 						<id>61</id>
 						<name>trunc_ln15</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3115,14 +3115,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3163,7 +3163,7 @@
 						<type>0</type>
 						<id>62</id>
 						<name>shl_ln</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3178,14 +3178,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3228,7 +3228,7 @@
 						<type>0</type>
 						<id>63</id>
 						<name>zext_ln15</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3243,14 +3243,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3291,7 +3291,7 @@
 						<type>0</type>
 						<id>64</id>
 						<name>lshr_ln15</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3306,14 +3306,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3355,7 +3355,7 @@
 						<type>0</type>
 						<id>65</id>
 						<name>r</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3370,14 +3370,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3418,7 +3418,7 @@
 						<type>0</type>
 						<id>66</id>
 						<name>add_ln15_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3433,14 +3433,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3482,7 +3482,7 @@
 						<type>0</type>
 						<id>67</id>
 						<name>trunc_ln15_5</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3497,14 +3497,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3548,7 +3548,7 @@
 						<type>0</type>
 						<id>68</id>
 						<name>sext_ln15_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3563,14 +3563,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3611,7 +3611,7 @@
 						<type>0</type>
 						<id>69</id>
 						<name>gmem_addr_11</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3626,14 +3626,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3675,7 +3675,7 @@
 						<type>0</type>
 						<id>70</id>
 						<name>gmem_load_1_req</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3690,14 +3690,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3741,7 +3741,7 @@
 						<type>0</type>
 						<id>71</id>
 						<name>gmem_addr_11_read</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3756,14 +3756,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3807,7 +3807,7 @@
 						<type>0</type>
 						<id>72</id>
 						<name>trunc_ln15_3</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3822,14 +3822,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3870,7 +3870,7 @@
 						<type>0</type>
 						<id>73</id>
 						<name>shl_ln15_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3885,14 +3885,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3935,7 +3935,7 @@
 						<type>0</type>
 						<id>74</id>
 						<name>zext_ln15_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -3950,14 +3950,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -3998,7 +3998,7 @@
 						<type>0</type>
 						<id>75</id>
 						<name>lshr_ln15_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4013,14 +4013,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -4062,7 +4062,7 @@
 						<type>0</type>
 						<id>76</id>
 						<name>g</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4077,14 +4077,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -4125,7 +4125,7 @@
 						<type>0</type>
 						<id>77</id>
 						<name>add_ln15_3</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4140,14 +4140,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -4189,7 +4189,7 @@
 						<type>0</type>
 						<id>78</id>
 						<name>trunc_ln15_7</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4204,14 +4204,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -4255,7 +4255,7 @@
 						<type>0</type>
 						<id>79</id>
 						<name>sext_ln15_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4270,14 +4270,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -4318,7 +4318,7 @@
 						<type>0</type>
 						<id>80</id>
 						<name>gmem_addr_12</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4333,14 +4333,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -4382,7 +4382,7 @@
 						<type>0</type>
 						<id>81</id>
 						<name>gmem_load_2_req</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4397,14 +4397,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -4448,7 +4448,7 @@
 						<type>0</type>
 						<id>82</id>
 						<name>gmem_addr_12_read</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4463,14 +4463,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -4514,7 +4514,7 @@
 						<type>0</type>
 						<id>83</id>
 						<name>trunc_ln15_6</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4529,14 +4529,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -4577,7 +4577,7 @@
 						<type>0</type>
 						<id>84</id>
 						<name>shl_ln15_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4592,14 +4592,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -4642,7 +4642,7 @@
 						<type>0</type>
 						<id>85</id>
 						<name>zext_ln15_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4657,14 +4657,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -4705,7 +4705,7 @@
 						<type>0</type>
 						<id>86</id>
 						<name>lshr_ln15_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4720,14 +4720,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -4769,7 +4769,7 @@
 						<type>0</type>
 						<id>87</id>
 						<name>b</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>15</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4784,14 +4784,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>15</second>
@@ -4832,7 +4832,7 @@
 						<type>0</type>
 						<id>88</id>
 						<name>add_ln18</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>18</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4847,14 +4847,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>18</second>
@@ -4896,7 +4896,7 @@
 						<type>0</type>
 						<id>89</id>
 						<name>zext_ln20</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4911,14 +4911,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>20</second>
@@ -4959,7 +4959,7 @@
 						<type>0</type>
 						<id>90</id>
 						<name>conv19_i</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -4974,14 +4974,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>20</second>
@@ -5022,7 +5022,7 @@
 						<type>0</type>
 						<id>91</id>
 						<name>mul20_i</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -5037,14 +5037,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>20</second>
@@ -5086,7 +5086,7 @@
 						<type>0</type>
 						<id>92</id>
 						<name>zext_ln20_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -5101,14 +5101,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>20</second>
@@ -5149,7 +5149,7 @@
 						<type>0</type>
 						<id>93</id>
 						<name>conv22_i</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -5164,14 +5164,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>20</second>
@@ -5212,7 +5212,7 @@
 						<type>0</type>
 						<id>94</id>
 						<name>mul23_i</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -5227,14 +5227,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>20</second>
@@ -5276,7 +5276,7 @@
 						<type>0</type>
 						<id>95</id>
 						<name>add24_i</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -5291,14 +5291,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>20</second>
@@ -5340,7 +5340,7 @@
 						<type>0</type>
 						<id>96</id>
 						<name>zext_ln20_2</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -5355,14 +5355,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>20</second>
@@ -5403,7 +5403,7 @@
 						<type>0</type>
 						<id>97</id>
 						<name>conv26_i</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -5418,14 +5418,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>20</second>
@@ -5466,7 +5466,7 @@
 						<type>0</type>
 						<id>98</id>
 						<name>mul27_i</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -5481,14 +5481,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>20</second>
@@ -5530,7 +5530,7 @@
 						<type>0</type>
 						<id>99</id>
 						<name>add28_i</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -5545,14 +5545,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>20</second>
@@ -5594,7 +5594,7 @@
 						<type>0</type>
 						<id>100</id>
 						<name>gray</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -5609,14 +5609,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>20</second>
@@ -5657,7 +5657,7 @@
 						<type>0</type>
 						<id>101</id>
 						<name>dc</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -5672,14 +5672,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -5735,14 +5735,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -5826,14 +5826,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -5919,14 +5919,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -6013,14 +6013,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -6104,14 +6104,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -6189,14 +6189,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -6274,14 +6274,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -6388,14 +6388,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -6493,14 +6493,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -6580,14 +6580,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -6664,14 +6664,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -6750,14 +6750,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -6834,14 +6834,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -6918,14 +6918,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -7009,14 +7009,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -7102,14 +7102,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -7187,14 +7187,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -7280,14 +7280,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -7374,14 +7374,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -7465,14 +7465,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -7557,14 +7557,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -7650,14 +7650,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -7743,14 +7743,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -7828,14 +7828,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -7913,14 +7913,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -8021,14 +8021,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -8119,14 +8119,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -8204,14 +8204,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -8289,14 +8289,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -8374,14 +8374,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -8459,14 +8459,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -8544,14 +8544,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -8629,14 +8629,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -8714,14 +8714,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -8799,14 +8799,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -8884,14 +8884,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -8956,7 +8956,7 @@
 						<type>0</type>
 						<id>138</id>
 						<name>dc_1</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -8971,14 +8971,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -9044,14 +9044,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -9142,14 +9142,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -9243,14 +9243,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -9341,14 +9341,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -9435,14 +9435,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -9526,14 +9526,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -9624,14 +9624,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -9723,14 +9723,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -9816,14 +9816,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -9908,14 +9908,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -9999,14 +9999,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -10092,14 +10092,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -10183,14 +10183,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -10274,14 +10274,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -10366,14 +10366,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -10443,7 +10443,7 @@
 						<type>0</type>
 						<id>154</id>
 						<name>icmp_ln21</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -10458,14 +10458,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -10507,7 +10507,7 @@
 						<type>0</type>
 						<id>155</id>
 						<name>tmp_9</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -10522,14 +10522,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -10573,7 +10573,7 @@
 						<type>0</type>
 						<id>156</id>
 						<name>tmp_s</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -10588,14 +10588,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -10654,14 +10654,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -10732,7 +10732,7 @@
 						<type>0</type>
 						<id>158</id>
 						<name>or_ln</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -10747,14 +10747,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -10797,7 +10797,7 @@
 						<type>0</type>
 						<id>159</id>
 						<name>br_ln21</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -10812,14 +10812,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -10862,7 +10862,7 @@
 						<type>0</type>
 						<id>161</id>
 						<name>gmem_addr_write_ln21</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -10877,14 +10877,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -10931,7 +10931,7 @@
 						<type>0</type>
 						<id>162</id>
 						<name>br_ln21</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -10946,14 +10946,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -10994,7 +10994,7 @@
 						<type>0</type>
 						<id>164</id>
 						<name>add_ln13</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -11009,14 +11009,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>13</second>
@@ -11058,7 +11058,7 @@
 						<type>0</type>
 						<id>165</id>
 						<name>tmp_4</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -11073,14 +11073,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>13</second>
@@ -11124,7 +11124,7 @@
 						<type>0</type>
 						<id>166</id>
 						<name>tmp_6</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -11139,14 +11139,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>13</second>
@@ -11189,7 +11189,7 @@
 						<type>0</type>
 						<id>167</id>
 						<name>select_ln21</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -11204,14 +11204,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -11254,7 +11254,7 @@
 						<type>0</type>
 						<id>168</id>
 						<name>indvar_flatten_write_ln10</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -11269,14 +11269,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -11320,7 +11320,7 @@
 						<type>0</type>
 						<id>169</id>
 						<name>i_write_ln10</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>10</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -11335,14 +11335,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>10</second>
@@ -11386,7 +11386,7 @@
 						<type>0</type>
 						<id>170</id>
 						<name>jj_write_ln12</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>12</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -11401,14 +11401,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>12</second>
@@ -11452,7 +11452,7 @@
 						<type>0</type>
 						<id>171</id>
 						<name>j_write_ln13</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -11467,14 +11467,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>13</second>
@@ -11518,7 +11518,7 @@
 						<type>0</type>
 						<id>172</id>
 						<name>phi_ln21_write_ln21</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>21</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -11533,14 +11533,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>21</second>
@@ -11584,7 +11584,7 @@
 						<type>0</type>
 						<id>173</id>
 						<name>br_ln13</name>
-						<fileName>../src/edgedetect.cpp</fileName>
+						<fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
 						<fileDirectory>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</fileDirectory>
 						<lineNumber>13</lineNumber>
 						<contextFuncName>rgbToGrayscale</contextFuncName>
@@ -11599,14 +11599,14 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>edgedetect</second>
 										</first>
-										<second>221</second>
+										<second>224</second>
 									</item>
 									<item>
 										<first>
-											<first>../src/edgedetect.cpp</first>
+											<first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
 											<second>rgbToGrayscale</second>
 										</first>
 										<second>13</second>

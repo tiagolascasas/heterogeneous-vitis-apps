@@ -10,19 +10,19 @@ set ModuleHierarchy {[{
 	{"Name" : "grp_edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4_fu_231","ID" : "5","Type" : "sequential",
 		"SubLoops" : [
 		{"Name" : "VITIS_LOOP_52_3_VITIS_LOOP_54_4","ID" : "6","Type" : "pipeline"},]},
-	{"Name" : "grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259","ID" : "7","Type" : "sequential",
+	{"Name" : "grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259","ID" : "7","Type" : "sequential",
 		"SubLoops" : [
-		{"Name" : "VITIS_LOOP_84_1_VITIS_LOOP_86_2","ID" : "8","Type" : "pipeline"},]},
-	{"Name" : "grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267","ID" : "9","Type" : "sequential",
+		{"Name" : "VITIS_LOOP_85_1_VITIS_LOOP_87_2","ID" : "8","Type" : "pipeline"},]},
+	{"Name" : "grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267","ID" : "9","Type" : "sequential",
 		"SubLoops" : [
-		{"Name" : "VITIS_LOOP_95_3_VITIS_LOOP_97_4","ID" : "10","Type" : "pipeline"},]},
-	{"Name" : "grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295","ID" : "11","Type" : "sequential",
+		{"Name" : "VITIS_LOOP_96_3_VITIS_LOOP_98_4","ID" : "10","Type" : "pipeline"},]},
+	{"Name" : "grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295","ID" : "11","Type" : "sequential",
 		"SubLoops" : [
-		{"Name" : "VITIS_LOOP_127_1_VITIS_LOOP_129_2","ID" : "12","Type" : "pipeline"},]},
-	{"Name" : "grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303","ID" : "13","Type" : "sequential",
+		{"Name" : "VITIS_LOOP_129_1_VITIS_LOOP_131_2","ID" : "12","Type" : "pipeline"},]},
+	{"Name" : "grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303","ID" : "13","Type" : "sequential",
 		"SubLoops" : [
-		{"Name" : "VITIS_LOOP_138_3_VITIS_LOOP_140_4","ID" : "14","Type" : "pipeline"},]},
-	{"Name" : "grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331","ID" : "15","Type" : "sequential",
+		{"Name" : "VITIS_LOOP_140_3_VITIS_LOOP_142_4","ID" : "14","Type" : "pipeline"},]},
+	{"Name" : "grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331","ID" : "15","Type" : "sequential",
 		"SubLoops" : [
-		{"Name" : "VITIS_LOOP_162_1_VITIS_LOOP_164_2","ID" : "16","Type" : "pipeline"},]},]
+		{"Name" : "VITIS_LOOP_165_1_VITIS_LOOP_167_2","ID" : "16","Type" : "pipeline"},]},]
 }]}

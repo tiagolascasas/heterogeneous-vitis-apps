@@ -34,7 +34,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../src/edgedetect.cpp:214</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:217</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 
@@ -42,8 +42,8 @@
 <Resources>
 <BRAM_18K>60</BRAM_18K>
 <DSP>29</DSP>
-<FF>93251</FF>
-<LUT>159639</LUT>
+<FF>93257</FF>
+<LUT>159750</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>

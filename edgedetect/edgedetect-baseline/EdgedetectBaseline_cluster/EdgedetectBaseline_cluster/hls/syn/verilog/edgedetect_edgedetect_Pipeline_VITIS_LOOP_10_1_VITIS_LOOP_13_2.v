@@ -468,12 +468,12 @@ wire   [19:0] empty_fu_402_p2;
 wire   [10:0] select_ln10_fu_352_p3;
 wire   [9:0] select_ln10_1_fu_360_p3;
 wire   [63:0] zext_ln13_1_fu_432_p1;
-wire   [63:0] p_cast74_fu_408_p1;
+wire   [63:0] p_cast77_fu_408_p1;
 wire   [63:0] add_ln15_1_fu_445_p2;
 wire   [5:0] trunc_ln13_fu_436_p1;
 wire   [19:0] tmp_2_fu_503_p3;
 wire   [19:0] tmp_5_fu_514_p3;
-wire   [63:0] p_cast75_fu_510_p1;
+wire   [63:0] p_cast78_fu_510_p1;
 wire   [63:0] add_ln15_2_fu_535_p2;
 wire   [63:0] zext_ln13_fu_521_p1;
 wire   [63:0] add_ln15_3_fu_554_p2;
@@ -2047,9 +2047,9 @@ assign add_ln10_fu_331_p2 = (indvar_flatten_fu_200 + 19'd1);
 
 assign add_ln13_fu_477_p2 = (select_ln10_1_fu_360_p3 + 10'd1);
 
-assign add_ln15_1_fu_445_p2 = (add_ln15_fu_440_p2 + p_cast74_fu_408_p1);
+assign add_ln15_1_fu_445_p2 = (add_ln15_fu_440_p2 + p_cast77_fu_408_p1);
 
-assign add_ln15_2_fu_535_p2 = (add_ln15_reg_1126 + p_cast75_fu_510_p1);
+assign add_ln15_2_fu_535_p2 = (add_ln15_reg_1126 + p_cast78_fu_510_p1);
 
 assign add_ln15_3_fu_554_p2 = (add_ln15_reg_1126 + zext_ln13_fu_521_p1);
 
@@ -2247,9 +2247,9 @@ assign or_ln24_fu_825_p2 = (icmp_ln24_fu_715_p2 | icmp_ln18_fu_710_p2);
 
 assign or_ln_fu_1018_p3 = {{select_ln71_1_fu_1012_p3}, {select_ln10_2_fu_991_p3}};
 
-assign p_cast74_fu_408_p1 = empty_fu_402_p2;
+assign p_cast77_fu_408_p1 = empty_fu_402_p2;
 
-assign p_cast75_fu_510_p1 = tmp_2_fu_503_p3;
+assign p_cast78_fu_510_p1 = tmp_2_fu_503_p3;
 
 assign p_shl16_fu_398_p1 = tmp_fu_390_p3;
 

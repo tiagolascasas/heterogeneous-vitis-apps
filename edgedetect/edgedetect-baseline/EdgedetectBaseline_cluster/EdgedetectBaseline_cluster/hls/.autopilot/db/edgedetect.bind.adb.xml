@@ -1960,10 +1960,10 @@ entry:38 %empty_51 = trunc i64 %filter_read
 
 <Node id="95" bw="58" op_0_bw="58" op_1_bw="64" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-entry:87 %trunc_ln5 = partselect i58 @_ssdm_op_PartSelect.i58.i64.i32.i32, i64 %temp_buf_read, i32 6, i32 63
+entry:87 %trunc_ln7 = partselect i58 @_ssdm_op_PartSelect.i58.i64.i32.i32, i64 %temp_buf_read, i32 6, i32 63
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln5"/></StgValue>
+<StgValue><ssdm name="trunc_ln7"/></StgValue>
 </operation>
 
 <operation id="310" st_id="1" stage="1" lat="1">
@@ -1975,10 +1975,10 @@ entry:87 %trunc_ln5 = partselect i58 @_ssdm_op_PartSelect.i58.i64.i32.i32, i64 %
 
 <Node id="96" bw="58" op_0_bw="58" op_1_bw="64" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-entry:88 %trunc_ln162_1 = partselect i58 @_ssdm_op_PartSelect.i58.i64.i32.i32, i64 %output_r_read, i32 6, i32 63
+entry:88 %trunc_ln165_1 = partselect i58 @_ssdm_op_PartSelect.i58.i64.i32.i32, i64 %output_r_read, i32 6, i32 63
 
 ]]></Node>
-<StgValue><ssdm name="trunc_ln162_1"/></StgValue>
+<StgValue><ssdm name="trunc_ln165_1"/></StgValue>
 </operation>
 </state>
 
@@ -5002,10 +5002,10 @@ entry:73 %empty_68 = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i512, i512 %gmem_add
 
 <Node id="82" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="512" op_3_bw="64" op_4_bw="0">
 <![CDATA[
-entry:74 %write_ln69 = write void @_ssdm_op_Write.m_axi.p1i512, i512 %gmem_addr_1, i512 18518522396055503103, i64 511
+entry:74 %write_ln70 = write void @_ssdm_op_Write.m_axi.p1i512, i512 %gmem_addr_1, i512 18518522396055503103, i64 511
 
 ]]></Node>
-<StgValue><ssdm name="write_ln69"/></StgValue>
+<StgValue><ssdm name="write_ln70"/></StgValue>
 </operation>
 </state>
 
@@ -6244,7 +6244,7 @@ entry:75 %empty_69 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_a
 
 <Node id="84" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="64" op_3_bw="12" op_4_bw="0" op_5_bw="0">
 <![CDATA[
-entry:76 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_5_loc
+entry:76 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_5_loc
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -6262,7 +6262,7 @@ entry:76 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_8
 
 <Node id="84" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="64" op_3_bw="12" op_4_bw="0" op_5_bw="0">
 <![CDATA[
-entry:76 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_5_loc
+entry:76 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_5_loc
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -6295,10 +6295,10 @@ entry:77 %normal_factor_5_loc_load = load i12 %normal_factor_5_loc
 
 <Node id="86" bw="1" op_0_bw="12" op_1_bw="12">
 <![CDATA[
-entry:78 %icmp_ln92 = icmp_eq  i12 %normal_factor_5_loc_load, i12 0
+entry:78 %icmp_ln93 = icmp_eq  i12 %normal_factor_5_loc_load, i12 0
 
 ]]></Node>
-<StgValue><ssdm name="icmp_ln92"/></StgValue>
+<StgValue><ssdm name="icmp_ln93"/></StgValue>
 </operation>
 
 <operation id="569" st_id="151" stage="2" lat="2">
@@ -6310,7 +6310,7 @@ entry:78 %icmp_ln92 = icmp_eq  i12 %normal_factor_5_loc_load, i12 0
 
 <Node id="87" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="58" op_3_bw="58" op_4_bw="58" op_5_bw="58" op_6_bw="58" op_7_bw="58" op_8_bw="58" op_9_bw="58" op_10_bw="58" op_11_bw="64" op_12_bw="9" op_13_bw="9" op_14_bw="9" op_15_bw="9" op_16_bw="9" op_17_bw="9" op_18_bw="9" op_19_bw="9" op_20_bw="9" op_21_bw="12" op_22_bw="1" op_23_bw="64" op_24_bw="0" op_25_bw="0">
 <![CDATA[
-entry:79 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_5_loc_load, i1 %icmp_ln92, i64 %image_gray_read
+entry:79 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_5_loc_load, i1 %icmp_ln93, i64 %image_gray_read
 
 ]]></Node>
 <StgValue><ssdm name="call_ln26"/></StgValue>
@@ -6328,7 +6328,7 @@ entry:79 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_
 
 <Node id="87" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="58" op_3_bw="58" op_4_bw="58" op_5_bw="58" op_6_bw="58" op_7_bw="58" op_8_bw="58" op_9_bw="58" op_10_bw="58" op_11_bw="64" op_12_bw="9" op_13_bw="9" op_14_bw="9" op_15_bw="9" op_16_bw="9" op_17_bw="9" op_18_bw="9" op_19_bw="9" op_20_bw="9" op_21_bw="12" op_22_bw="1" op_23_bw="64" op_24_bw="0" op_25_bw="0">
 <![CDATA[
-entry:79 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_5_loc_load, i1 %icmp_ln92, i64 %image_gray_read
+entry:79 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_5_loc_load, i1 %icmp_ln93, i64 %image_gray_read
 
 ]]></Node>
 <StgValue><ssdm name="call_ln26"/></StgValue>
@@ -6364,10 +6364,10 @@ entry:80 %empty_70 = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i512, i512 %gmem_add
 
 <Node id="89" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="512" op_3_bw="64" op_4_bw="0">
 <![CDATA[
-entry:81 %write_ln112 = write void @_ssdm_op_Write.m_axi.p1i512, i512 %gmem_addr_1, i512 4722294143800630641153, i64 511
+entry:81 %write_ln114 = write void @_ssdm_op_Write.m_axi.p1i512, i512 %gmem_addr_1, i512 4722294143800630641153, i64 511
 
 ]]></Node>
-<StgValue><ssdm name="write_ln112"/></StgValue>
+<StgValue><ssdm name="write_ln114"/></StgValue>
 </operation>
 </state>
 
@@ -7606,7 +7606,7 @@ entry:82 %empty_71 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_a
 
 <Node id="91" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="64" op_3_bw="12" op_4_bw="0" op_5_bw="0">
 <![CDATA[
-entry:83 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_8_loc
+entry:83 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_8_loc
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -7624,7 +7624,7 @@ entry:83 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_
 
 <Node id="91" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="64" op_3_bw="12" op_4_bw="0" op_5_bw="0">
 <![CDATA[
-entry:83 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_8_loc
+entry:83 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2, i512 %gmem, i64 %filter_read, i12 %normal_factor_8_loc
 
 ]]></Node>
 <StgValue><ssdm name="call_ln0"/></StgValue>
@@ -7657,10 +7657,10 @@ entry:84 %normal_factor_8_loc_load = load i12 %normal_factor_8_loc
 
 <Node id="93" bw="1" op_0_bw="12" op_1_bw="12">
 <![CDATA[
-entry:85 %icmp_ln135 = icmp_eq  i12 %normal_factor_8_loc_load, i12 0
+entry:85 %icmp_ln137 = icmp_eq  i12 %normal_factor_8_loc_load, i12 0
 
 ]]></Node>
-<StgValue><ssdm name="icmp_ln135"/></StgValue>
+<StgValue><ssdm name="icmp_ln137"/></StgValue>
 </operation>
 
 <operation id="645" st_id="225" stage="2" lat="2">
@@ -7672,7 +7672,7 @@ entry:85 %icmp_ln135 = icmp_eq  i12 %normal_factor_8_loc_load, i12 0
 
 <Node id="94" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="58" op_3_bw="58" op_4_bw="58" op_5_bw="58" op_6_bw="58" op_7_bw="58" op_8_bw="58" op_9_bw="58" op_10_bw="58" op_11_bw="64" op_12_bw="9" op_13_bw="9" op_14_bw="9" op_15_bw="9" op_16_bw="9" op_17_bw="9" op_18_bw="9" op_19_bw="9" op_20_bw="9" op_21_bw="12" op_22_bw="1" op_23_bw="64" op_24_bw="0" op_25_bw="0">
 <![CDATA[
-entry:86 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_8_loc_load, i1 %icmp_ln135, i64 %temp_buf_read
+entry:86 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_8_loc_load, i1 %icmp_ln137, i64 %temp_buf_read
 
 ]]></Node>
 <StgValue><ssdm name="call_ln26"/></StgValue>
@@ -7690,7 +7690,7 @@ entry:86 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP
 
 <Node id="94" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="58" op_3_bw="58" op_4_bw="58" op_5_bw="58" op_6_bw="58" op_7_bw="58" op_8_bw="58" op_9_bw="58" op_10_bw="58" op_11_bw="64" op_12_bw="9" op_13_bw="9" op_14_bw="9" op_15_bw="9" op_16_bw="9" op_17_bw="9" op_18_bw="9" op_19_bw="9" op_20_bw="9" op_21_bw="12" op_22_bw="1" op_23_bw="64" op_24_bw="0" op_25_bw="0">
 <![CDATA[
-entry:86 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_8_loc_load, i1 %icmp_ln135, i64 %temp_buf_read
+entry:86 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4, i512 %gmem, i58 %trunc_ln1, i58 %p_cast, i58 %p_cast1, i58 %p_cast2, i58 %p_cast3, i58 %p_cast4, i58 %p_cast5, i58 %p_cast6, i58 %p_cast7, i64 %output_r_read, i9 %tmp_s, i9 %tmp_7, i9 %tmp_8, i9 %tmp_9, i9 %tmp_10, i9 %tmp_11, i9 %tmp_12, i9 %tmp_13, i9 %tmp_14, i12 %normal_factor_8_loc_load, i1 %icmp_ln137, i64 %temp_buf_read
 
 ]]></Node>
 <StgValue><ssdm name="call_ln26"/></StgValue>
@@ -7708,10 +7708,10 @@ entry:86 %call_ln26 = call void @edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP
 
 <Node id="97" bw="64" op_0_bw="58">
 <![CDATA[
-entry:89 %sext_ln162_1 = sext i58 %trunc_ln162_1
+entry:89 %sext_ln165_1 = sext i58 %trunc_ln165_1
 
 ]]></Node>
-<StgValue><ssdm name="sext_ln162_1"/></StgValue>
+<StgValue><ssdm name="sext_ln165_1"/></StgValue>
 </operation>
 
 <operation id="648" st_id="227" stage="1" lat="1">
@@ -7723,7 +7723,7 @@ entry:89 %sext_ln162_1 = sext i58 %trunc_ln162_1
 
 <Node id="98" bw="512" op_0_bw="512" op_1_bw="64">
 <![CDATA[
-entry:90 %gmem_addr_35 = getelementptr i512 %gmem, i64 %sext_ln162_1
+entry:90 %gmem_addr_35 = getelementptr i512 %gmem, i64 %sext_ln165_1
 
 ]]></Node>
 <StgValue><ssdm name="gmem_addr_35"/></StgValue>
@@ -7756,10 +7756,10 @@ entry:91 %empty_72 = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i512, i512 %gmem_add
 
 <Node id="100" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="58" op_3_bw="58" op_4_bw="58" op_5_bw="0" op_6_bw="0">
 <![CDATA[
-entry:92 %call_ln162 = call void @edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2, i512 %gmem, i58 %trunc_ln162_1, i58 %trunc_ln, i58 %trunc_ln5
+entry:92 %call_ln165 = call void @edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2, i512 %gmem, i58 %trunc_ln165_1, i58 %trunc_ln, i58 %trunc_ln7
 
 ]]></Node>
-<StgValue><ssdm name="call_ln162"/></StgValue>
+<StgValue><ssdm name="call_ln165"/></StgValue>
 </operation>
 </state>
 
@@ -7774,10 +7774,10 @@ entry:92 %call_ln162 = call void @edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOO
 
 <Node id="100" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="58" op_3_bw="58" op_4_bw="58" op_5_bw="0" op_6_bw="0">
 <![CDATA[
-entry:92 %call_ln162 = call void @edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2, i512 %gmem, i58 %trunc_ln162_1, i58 %trunc_ln, i58 %trunc_ln5
+entry:92 %call_ln165 = call void @edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2, i512 %gmem, i58 %trunc_ln165_1, i58 %trunc_ln, i58 %trunc_ln7
 
 ]]></Node>
-<StgValue><ssdm name="call_ln162"/></StgValue>
+<StgValue><ssdm name="call_ln165"/></StgValue>
 </operation>
 </state>
 
@@ -8998,10 +8998,10 @@ entry:93 %empty_73 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_a
 
 <Node id="16" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-entry:8 %spectopmodule_ln214 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_6
+entry:8 %spectopmodule_ln217 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_6
 
 ]]></Node>
-<StgValue><ssdm name="spectopmodule_ln214"/></StgValue>
+<StgValue><ssdm name="spectopmodule_ln217"/></StgValue>
 </operation>
 
 <operation id="720" st_id="297" stage="1" lat="1">
@@ -9013,10 +9013,10 @@ entry:8 %spectopmodule_ln214 = spectopmodule void @_ssdm_op_SpecTopModule, void 
 
 <Node id="17" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32">
 <![CDATA[
-entry:9 %specinterface_ln214 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_9, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7, i32 4294967295, i32 0, i32 0
+entry:9 %specinterface_ln217 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_9, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7, i32 4294967295, i32 0, i32 0
 
 ]]></Node>
-<StgValue><ssdm name="specinterface_ln214"/></StgValue>
+<StgValue><ssdm name="specinterface_ln217"/></StgValue>
 </operation>
 
 <operation id="721" st_id="297" stage="1" lat="1">
@@ -9238,10 +9238,10 @@ entry:93 %empty_73 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_a
 
 <Node id="102" bw="0">
 <![CDATA[
-entry:94 %ret_ln236 = ret
+entry:94 %ret_ln239 = ret
 
 ]]></Node>
-<StgValue><ssdm name="ret_ln236"/></StgValue>
+<StgValue><ssdm name="ret_ln239"/></StgValue>
 </operation>
 </state>
 </state_list>
@@ -9318,21 +9318,21 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1065" from="filter_read" to="empty_51" fromId="299" toId="308">
 </dataflow>
-<dataflow id="1066" from="_ssdm_op_PartSelect.i58.i64.i32.i32" to="trunc_ln5" fromId="1054" toId="309">
+<dataflow id="1066" from="_ssdm_op_PartSelect.i58.i64.i32.i32" to="trunc_ln7" fromId="1054" toId="309">
 </dataflow>
-<dataflow id="1067" from="temp_buf_read" to="trunc_ln5" fromId="300" toId="309">
+<dataflow id="1067" from="temp_buf_read" to="trunc_ln7" fromId="300" toId="309">
 </dataflow>
-<dataflow id="1068" from="StgValue_1057" to="trunc_ln5" fromId="1057" toId="309">
+<dataflow id="1068" from="StgValue_1057" to="trunc_ln7" fromId="1057" toId="309">
 </dataflow>
-<dataflow id="1069" from="StgValue_1059" to="trunc_ln5" fromId="1059" toId="309">
+<dataflow id="1069" from="StgValue_1059" to="trunc_ln7" fromId="1059" toId="309">
 </dataflow>
-<dataflow id="1070" from="_ssdm_op_PartSelect.i58.i64.i32.i32" to="trunc_ln162_1" fromId="1054" toId="310">
+<dataflow id="1070" from="_ssdm_op_PartSelect.i58.i64.i32.i32" to="trunc_ln165_1" fromId="1054" toId="310">
 </dataflow>
-<dataflow id="1071" from="output_r_read" to="trunc_ln162_1" fromId="298" toId="310">
+<dataflow id="1071" from="output_r_read" to="trunc_ln165_1" fromId="298" toId="310">
 </dataflow>
-<dataflow id="1072" from="StgValue_1057" to="trunc_ln162_1" fromId="1057" toId="310">
+<dataflow id="1072" from="StgValue_1057" to="trunc_ln165_1" fromId="1057" toId="310">
 </dataflow>
-<dataflow id="1073" from="StgValue_1059" to="trunc_ln162_1" fromId="1059" toId="310">
+<dataflow id="1073" from="StgValue_1059" to="trunc_ln165_1" fromId="1059" toId="310">
 </dataflow>
 <dataflow id="1074" from="trunc_ln" to="sext_ln10" fromId="306" toId="311">
 </dataflow>
@@ -10220,13 +10220,13 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1535" from="StgValue_1050" to="empty_68" fromId="1050" toId="495">
 </dataflow>
-<dataflow id="1536" from="_ssdm_op_Write.m_axi.p1i512" to="write_ln69" fromId="1104" toId="496">
+<dataflow id="1536" from="_ssdm_op_Write.m_axi.p1i512" to="write_ln70" fromId="1104" toId="496">
 </dataflow>
-<dataflow id="1537" from="gmem_addr_1" to="write_ln69" fromId="318" toId="496">
+<dataflow id="1537" from="gmem_addr_1" to="write_ln70" fromId="318" toId="496">
 </dataflow>
-<dataflow id="1539" from="StgValue_1538" to="write_ln69" fromId="1538" toId="496">
+<dataflow id="1539" from="StgValue_1538" to="write_ln70" fromId="1538" toId="496">
 </dataflow>
-<dataflow id="1540" from="StgValue_1109" to="write_ln69" fromId="1109" toId="496">
+<dataflow id="1540" from="StgValue_1109" to="write_ln70" fromId="1109" toId="496">
 </dataflow>
 <dataflow id="1541" from="_ssdm_op_WriteResp.m_axi.p1i512" to="empty_69" fromId="1093" toId="497">
 </dataflow>
@@ -10500,7 +10500,7 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1676" from="gmem_addr_1" to="empty_69" fromId="318" toId="564">
 </dataflow>
-<dataflow id="1678" from="edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2" to="call_ln0" fromId="1677" toId="565">
+<dataflow id="1678" from="edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2" to="call_ln0" fromId="1677" toId="565">
 </dataflow>
 <dataflow id="1679" from="gmem" to="call_ln0" fromId="1032" toId="565">
 </dataflow>
@@ -10508,7 +10508,7 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1681" from="normal_factor_5_loc" to="call_ln0" fromId="304" toId="565">
 </dataflow>
-<dataflow id="1682" from="edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2" to="call_ln0" fromId="1677" toId="566">
+<dataflow id="1682" from="edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2" to="call_ln0" fromId="1677" toId="566">
 </dataflow>
 <dataflow id="1683" from="gmem" to="call_ln0" fromId="1032" toId="566">
 </dataflow>
@@ -10518,11 +10518,11 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1686" from="normal_factor_5_loc" to="normal_factor_5_loc_load" fromId="304" toId="567">
 </dataflow>
-<dataflow id="1687" from="normal_factor_5_loc_load" to="icmp_ln92" fromId="567" toId="568">
+<dataflow id="1687" from="normal_factor_5_loc_load" to="icmp_ln93" fromId="567" toId="568">
 </dataflow>
-<dataflow id="1688" from="StgValue_1390" to="icmp_ln92" fromId="1390" toId="568">
+<dataflow id="1688" from="StgValue_1390" to="icmp_ln93" fromId="1390" toId="568">
 </dataflow>
-<dataflow id="1690" from="edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4" to="call_ln26" fromId="1689" toId="569">
+<dataflow id="1690" from="edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4" to="call_ln26" fromId="1689" toId="569">
 </dataflow>
 <dataflow id="1691" from="gmem" to="call_ln26" fromId="1032" toId="569">
 </dataflow>
@@ -10566,11 +10566,11 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1711" from="normal_factor_5_loc_load" to="call_ln26" fromId="567" toId="569">
 </dataflow>
-<dataflow id="1712" from="icmp_ln92" to="call_ln26" fromId="568" toId="569">
+<dataflow id="1712" from="icmp_ln93" to="call_ln26" fromId="568" toId="569">
 </dataflow>
 <dataflow id="1713" from="image_gray_read" to="call_ln26" fromId="301" toId="569">
 </dataflow>
-<dataflow id="1714" from="edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4" to="call_ln26" fromId="1689" toId="570">
+<dataflow id="1714" from="edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4" to="call_ln26" fromId="1689" toId="570">
 </dataflow>
 <dataflow id="1715" from="gmem" to="call_ln26" fromId="1032" toId="570">
 </dataflow>
@@ -10614,7 +10614,7 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1735" from="normal_factor_5_loc_load" to="call_ln26" fromId="567" toId="570">
 </dataflow>
-<dataflow id="1736" from="icmp_ln92" to="call_ln26" fromId="568" toId="570">
+<dataflow id="1736" from="icmp_ln93" to="call_ln26" fromId="568" toId="570">
 </dataflow>
 <dataflow id="1737" from="image_gray_read" to="call_ln26" fromId="301" toId="570">
 </dataflow>
@@ -10624,13 +10624,13 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1740" from="StgValue_1050" to="empty_70" fromId="1050" toId="571">
 </dataflow>
-<dataflow id="1741" from="_ssdm_op_Write.m_axi.p1i512" to="write_ln112" fromId="1104" toId="572">
+<dataflow id="1741" from="_ssdm_op_Write.m_axi.p1i512" to="write_ln114" fromId="1104" toId="572">
 </dataflow>
-<dataflow id="1742" from="gmem_addr_1" to="write_ln112" fromId="318" toId="572">
+<dataflow id="1742" from="gmem_addr_1" to="write_ln114" fromId="318" toId="572">
 </dataflow>
-<dataflow id="1744" from="StgValue_1743" to="write_ln112" fromId="1743" toId="572">
+<dataflow id="1744" from="StgValue_1743" to="write_ln114" fromId="1743" toId="572">
 </dataflow>
-<dataflow id="1745" from="StgValue_1109" to="write_ln112" fromId="1109" toId="572">
+<dataflow id="1745" from="StgValue_1109" to="write_ln114" fromId="1109" toId="572">
 </dataflow>
 <dataflow id="1746" from="_ssdm_op_WriteResp.m_axi.p1i512" to="empty_71" fromId="1093" toId="573">
 </dataflow>
@@ -10904,7 +10904,7 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1881" from="gmem_addr_1" to="empty_71" fromId="318" toId="640">
 </dataflow>
-<dataflow id="1883" from="edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2" to="call_ln0" fromId="1882" toId="641">
+<dataflow id="1883" from="edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2" to="call_ln0" fromId="1882" toId="641">
 </dataflow>
 <dataflow id="1884" from="gmem" to="call_ln0" fromId="1032" toId="641">
 </dataflow>
@@ -10912,7 +10912,7 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1886" from="normal_factor_8_loc" to="call_ln0" fromId="303" toId="641">
 </dataflow>
-<dataflow id="1887" from="edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2" to="call_ln0" fromId="1882" toId="642">
+<dataflow id="1887" from="edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2" to="call_ln0" fromId="1882" toId="642">
 </dataflow>
 <dataflow id="1888" from="gmem" to="call_ln0" fromId="1032" toId="642">
 </dataflow>
@@ -10922,11 +10922,11 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1891" from="normal_factor_8_loc" to="normal_factor_8_loc_load" fromId="303" toId="643">
 </dataflow>
-<dataflow id="1892" from="normal_factor_8_loc_load" to="icmp_ln135" fromId="643" toId="644">
+<dataflow id="1892" from="normal_factor_8_loc_load" to="icmp_ln137" fromId="643" toId="644">
 </dataflow>
-<dataflow id="1893" from="StgValue_1390" to="icmp_ln135" fromId="1390" toId="644">
+<dataflow id="1893" from="StgValue_1390" to="icmp_ln137" fromId="1390" toId="644">
 </dataflow>
-<dataflow id="1895" from="edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4" to="call_ln26" fromId="1894" toId="645">
+<dataflow id="1895" from="edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4" to="call_ln26" fromId="1894" toId="645">
 </dataflow>
 <dataflow id="1896" from="gmem" to="call_ln26" fromId="1032" toId="645">
 </dataflow>
@@ -10970,11 +10970,11 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1916" from="normal_factor_8_loc_load" to="call_ln26" fromId="643" toId="645">
 </dataflow>
-<dataflow id="1917" from="icmp_ln135" to="call_ln26" fromId="644" toId="645">
+<dataflow id="1917" from="icmp_ln137" to="call_ln26" fromId="644" toId="645">
 </dataflow>
 <dataflow id="1918" from="temp_buf_read" to="call_ln26" fromId="300" toId="645">
 </dataflow>
-<dataflow id="1919" from="edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4" to="call_ln26" fromId="1894" toId="646">
+<dataflow id="1919" from="edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4" to="call_ln26" fromId="1894" toId="646">
 </dataflow>
 <dataflow id="1920" from="gmem" to="call_ln26" fromId="1032" toId="646">
 </dataflow>
@@ -11018,15 +11018,15 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1940" from="normal_factor_8_loc_load" to="call_ln26" fromId="643" toId="646">
 </dataflow>
-<dataflow id="1941" from="icmp_ln135" to="call_ln26" fromId="644" toId="646">
+<dataflow id="1941" from="icmp_ln137" to="call_ln26" fromId="644" toId="646">
 </dataflow>
 <dataflow id="1942" from="temp_buf_read" to="call_ln26" fromId="300" toId="646">
 </dataflow>
-<dataflow id="1943" from="trunc_ln162_1" to="sext_ln162_1" fromId="310" toId="647">
+<dataflow id="1943" from="trunc_ln165_1" to="sext_ln165_1" fromId="310" toId="647">
 </dataflow>
 <dataflow id="1944" from="gmem" to="gmem_addr_35" fromId="1032" toId="648">
 </dataflow>
-<dataflow id="1945" from="sext_ln162_1" to="gmem_addr_35" fromId="647" toId="648">
+<dataflow id="1945" from="sext_ln165_1" to="gmem_addr_35" fromId="647" toId="648">
 </dataflow>
 <dataflow id="1946" from="_ssdm_op_WriteReq.m_axi.p1i512" to="empty_72" fromId="1077" toId="649">
 </dataflow>
@@ -11034,25 +11034,25 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="1948" from="StgValue_1080" to="empty_72" fromId="1080" toId="649">
 </dataflow>
-<dataflow id="1950" from="edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2" to="call_ln162" fromId="1949" toId="650">
+<dataflow id="1950" from="edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2" to="call_ln165" fromId="1949" toId="650">
 </dataflow>
-<dataflow id="1951" from="gmem" to="call_ln162" fromId="1032" toId="650">
+<dataflow id="1951" from="gmem" to="call_ln165" fromId="1032" toId="650">
 </dataflow>
-<dataflow id="1952" from="trunc_ln162_1" to="call_ln162" fromId="310" toId="650">
+<dataflow id="1952" from="trunc_ln165_1" to="call_ln165" fromId="310" toId="650">
 </dataflow>
-<dataflow id="1953" from="trunc_ln" to="call_ln162" fromId="306" toId="650">
+<dataflow id="1953" from="trunc_ln" to="call_ln165" fromId="306" toId="650">
 </dataflow>
-<dataflow id="1954" from="trunc_ln5" to="call_ln162" fromId="309" toId="650">
+<dataflow id="1954" from="trunc_ln7" to="call_ln165" fromId="309" toId="650">
 </dataflow>
-<dataflow id="1955" from="edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2" to="call_ln162" fromId="1949" toId="651">
+<dataflow id="1955" from="edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2" to="call_ln165" fromId="1949" toId="651">
 </dataflow>
-<dataflow id="1956" from="gmem" to="call_ln162" fromId="1032" toId="651">
+<dataflow id="1956" from="gmem" to="call_ln165" fromId="1032" toId="651">
 </dataflow>
-<dataflow id="1957" from="trunc_ln162_1" to="call_ln162" fromId="310" toId="651">
+<dataflow id="1957" from="trunc_ln165_1" to="call_ln165" fromId="310" toId="651">
 </dataflow>
-<dataflow id="1958" from="trunc_ln" to="call_ln162" fromId="306" toId="651">
+<dataflow id="1958" from="trunc_ln" to="call_ln165" fromId="306" toId="651">
 </dataflow>
-<dataflow id="1959" from="trunc_ln5" to="call_ln162" fromId="309" toId="651">
+<dataflow id="1959" from="trunc_ln7" to="call_ln165" fromId="309" toId="651">
 </dataflow>
 <dataflow id="1960" from="_ssdm_op_WriteResp.m_axi.p1i512" to="empty_73" fromId="1093" toId="652">
 </dataflow>
@@ -11322,49 +11322,49 @@ entry:94 %ret_ln236 = ret
 </dataflow>
 <dataflow id="2093" from="gmem_addr_35" to="empty_73" fromId="648" toId="718">
 </dataflow>
-<dataflow id="2095" from="_ssdm_op_SpecTopModule" to="spectopmodule_ln214" fromId="2094" toId="719">
+<dataflow id="2095" from="_ssdm_op_SpecTopModule" to="spectopmodule_ln217" fromId="2094" toId="719">
 </dataflow>
-<dataflow id="2097" from="empty_6" to="spectopmodule_ln214" fromId="2096" toId="719">
+<dataflow id="2097" from="empty_6" to="spectopmodule_ln217" fromId="2096" toId="719">
 </dataflow>
-<dataflow id="2099" from="_ssdm_op_SpecInterface" to="specinterface_ln214" fromId="2098" toId="720">
+<dataflow id="2099" from="_ssdm_op_SpecInterface" to="specinterface_ln217" fromId="2098" toId="720">
 </dataflow>
-<dataflow id="2101" from="StgValue_2100" to="specinterface_ln214" fromId="2100" toId="720">
+<dataflow id="2101" from="StgValue_2100" to="specinterface_ln217" fromId="2100" toId="720">
 </dataflow>
-<dataflow id="2103" from="empty_9" to="specinterface_ln214" fromId="2102" toId="720">
+<dataflow id="2103" from="empty_9" to="specinterface_ln217" fromId="2102" toId="720">
 </dataflow>
-<dataflow id="2104" from="StgValue_2100" to="specinterface_ln214" fromId="2100" toId="720">
+<dataflow id="2104" from="StgValue_2100" to="specinterface_ln217" fromId="2100" toId="720">
 </dataflow>
-<dataflow id="2105" from="StgValue_2100" to="specinterface_ln214" fromId="2100" toId="720">
+<dataflow id="2105" from="StgValue_2100" to="specinterface_ln217" fromId="2100" toId="720">
 </dataflow>
-<dataflow id="2107" from="empty_7" to="specinterface_ln214" fromId="2106" toId="720">
+<dataflow id="2107" from="empty_7" to="specinterface_ln217" fromId="2106" toId="720">
 </dataflow>
-<dataflow id="2108" from="StgValue_2100" to="specinterface_ln214" fromId="2100" toId="720">
+<dataflow id="2108" from="StgValue_2100" to="specinterface_ln217" fromId="2100" toId="720">
 </dataflow>
-<dataflow id="2109" from="StgValue_2100" to="specinterface_ln214" fromId="2100" toId="720">
+<dataflow id="2109" from="StgValue_2100" to="specinterface_ln217" fromId="2100" toId="720">
 </dataflow>
-<dataflow id="2110" from="empty_7" to="specinterface_ln214" fromId="2106" toId="720">
+<dataflow id="2110" from="empty_7" to="specinterface_ln217" fromId="2106" toId="720">
 </dataflow>
-<dataflow id="2111" from="empty_7" to="specinterface_ln214" fromId="2106" toId="720">
+<dataflow id="2111" from="empty_7" to="specinterface_ln217" fromId="2106" toId="720">
 </dataflow>
-<dataflow id="2112" from="empty_7" to="specinterface_ln214" fromId="2106" toId="720">
+<dataflow id="2112" from="empty_7" to="specinterface_ln217" fromId="2106" toId="720">
 </dataflow>
-<dataflow id="2113" from="StgValue_2100" to="specinterface_ln214" fromId="2100" toId="720">
+<dataflow id="2113" from="StgValue_2100" to="specinterface_ln217" fromId="2100" toId="720">
 </dataflow>
-<dataflow id="2114" from="StgValue_2100" to="specinterface_ln214" fromId="2100" toId="720">
+<dataflow id="2114" from="StgValue_2100" to="specinterface_ln217" fromId="2100" toId="720">
 </dataflow>
-<dataflow id="2115" from="StgValue_2100" to="specinterface_ln214" fromId="2100" toId="720">
+<dataflow id="2115" from="StgValue_2100" to="specinterface_ln217" fromId="2100" toId="720">
 </dataflow>
-<dataflow id="2116" from="StgValue_2100" to="specinterface_ln214" fromId="2100" toId="720">
+<dataflow id="2116" from="StgValue_2100" to="specinterface_ln217" fromId="2100" toId="720">
 </dataflow>
-<dataflow id="2117" from="empty_7" to="specinterface_ln214" fromId="2106" toId="720">
+<dataflow id="2117" from="empty_7" to="specinterface_ln217" fromId="2106" toId="720">
 </dataflow>
-<dataflow id="2118" from="empty_7" to="specinterface_ln214" fromId="2106" toId="720">
+<dataflow id="2118" from="empty_7" to="specinterface_ln217" fromId="2106" toId="720">
 </dataflow>
-<dataflow id="2120" from="StgValue_2119" to="specinterface_ln214" fromId="2119" toId="720">
+<dataflow id="2120" from="StgValue_2119" to="specinterface_ln217" fromId="2119" toId="720">
 </dataflow>
-<dataflow id="2121" from="StgValue_2100" to="specinterface_ln214" fromId="2100" toId="720">
+<dataflow id="2121" from="StgValue_2100" to="specinterface_ln217" fromId="2100" toId="720">
 </dataflow>
-<dataflow id="2122" from="StgValue_2100" to="specinterface_ln214" fromId="2100" toId="720">
+<dataflow id="2122" from="StgValue_2100" to="specinterface_ln217" fromId="2100" toId="720">
 </dataflow>
 <dataflow id="2123" from="_ssdm_op_SpecInterface" to="specinterface_ln0" fromId="2098" toId="721">
 </dataflow>

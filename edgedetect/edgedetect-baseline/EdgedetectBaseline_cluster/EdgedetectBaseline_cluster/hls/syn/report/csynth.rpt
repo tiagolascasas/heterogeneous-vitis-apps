@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'edgedetect'
 ================================================================
 + General Information: 
-    * Date:           Fri Sep 20 02:12:02 2024
+    * Date:           Fri Sep 20 21:58:50 2024
     * Version:        2024.1 (Build 5069499 on May 21 2024)
     * Project:        EdgedetectBaseline_cluster
     * Solution:       hls (Vitis Kernel Flow Target)
@@ -19,23 +19,23 @@
     |                          Modules                         | Issue|      | Latency  |  Latency  | Iteration|          |  Trip  |          |         |          |             |              |     |
     |                          & Loops                         | Type | Slack| (cycles) |    (ns)   |  Latency | Interval |  Count | Pipelined|  BRAM   |    DSP   |      FF     |      LUT     | URAM|
     +----------------------------------------------------------+------+------+----------+-----------+----------+----------+--------+----------+---------+----------+-------------+--------------+-----+
-    |+ edgedetect                                              |     -|  0.00|  18005295|  1.200e+08|         -|  18005296|       -|        no|  60 (3%)|   29 (1%)|  93251 (17%)|  159639 (58%)|    -|
+    |+ edgedetect                                              |     -|  0.00|  18005295|  1.200e+08|         -|  18005296|       -|        no|  60 (3%)|   29 (1%)|  93257 (17%)|  159750 (58%)|    -|
     | + edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2    |     -|  0.00|    921709|  6.145e+06|         -|    921709|       -|        no|  2 (~0%)|  14 (~0%)|   5357 (~0%)|    10869 (3%)|    -|
     |  o VITIS_LOOP_10_1_VITIS_LOOP_13_2                       |    II|  4.87|    921707|  6.145e+06|       111|         3|  307200|       yes|        -|         -|            -|             -|    -|
     | + edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2    |     -|  0.00|        83|    553.361|         -|        83|       -|        no|        -|         -|    872 (~0%)|    2592 (~0%)|    -|
     |  o VITIS_LOOP_41_1_VITIS_LOOP_43_2                       |     -|  4.87|        81|    540.027|        74|         1|       9|       yes|        -|         -|            -|             -|    -|
-    | + edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4    |     -|  0.00|   5489522|  3.660e+07|         -|   5489522|       -|        no|        -|   5 (~0%)|   13395 (2%)|   44273 (16%)|    -|
+    | + edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4    |     -|  0.00|   5489522|  3.660e+07|         -|   5489522|       -|        no|        -|   5 (~0%)|   13397 (2%)|   44310 (16%)|    -|
     |  o VITIS_LOOP_52_3_VITIS_LOOP_54_4                       |    II|  4.87|   5489520|  3.660e+07|       187|        18|  304964|       yes|        -|         -|            -|             -|    -|
-    | + edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2    |     -|  0.00|        83|    553.361|         -|        83|       -|        no|        -|         -|    872 (~0%)|    2592 (~0%)|    -|
-    |  o VITIS_LOOP_84_1_VITIS_LOOP_86_2                       |     -|  4.87|        81|    540.027|        74|         1|       9|       yes|        -|         -|            -|             -|    -|
-    | + edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4    |     -|  0.00|   5489522|  3.660e+07|         -|   5489522|       -|        no|        -|   5 (~0%)|   13395 (2%)|   44273 (16%)|    -|
-    |  o VITIS_LOOP_95_3_VITIS_LOOP_97_4                       |    II|  4.87|   5489520|  3.660e+07|       187|        18|  304964|       yes|        -|         -|            -|             -|    -|
-    | + edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2  |     -|  0.00|        83|    553.361|         -|        83|       -|        no|        -|         -|    872 (~0%)|    2592 (~0%)|    -|
-    |  o VITIS_LOOP_127_1_VITIS_LOOP_129_2                     |     -|  4.87|        81|    540.027|        74|         1|       9|       yes|        -|         -|            -|             -|    -|
-    | + edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4  |     -|  0.00|   5489522|  3.660e+07|         -|   5489522|       -|        no|        -|   5 (~0%)|   13395 (2%)|   44273 (16%)|    -|
-    |  o VITIS_LOOP_138_3_VITIS_LOOP_140_4                     |    II|  4.87|   5489520|  3.660e+07|       187|        18|  304964|       yes|        -|         -|            -|             -|    -|
-    | + edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2  |     -|  0.00|    614475|  4.097e+06|         -|    614475|       -|        no|        -|         -|   41528 (7%)|     3075 (1%)|    -|
-    |  o VITIS_LOOP_162_1_VITIS_LOOP_164_2                     |    II|  4.87|    614473|  4.097e+06|        76|         2|  307200|       yes|        -|         -|            -|             -|    -|
+    | + edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2    |     -|  0.00|        83|    553.361|         -|        83|       -|        no|        -|         -|    872 (~0%)|    2592 (~0%)|    -|
+    |  o VITIS_LOOP_85_1_VITIS_LOOP_87_2                       |     -|  4.87|        81|    540.027|        74|         1|       9|       yes|        -|         -|            -|             -|    -|
+    | + edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4    |     -|  0.00|   5489522|  3.660e+07|         -|   5489522|       -|        no|        -|   5 (~0%)|   13397 (2%)|   44310 (16%)|    -|
+    |  o VITIS_LOOP_96_3_VITIS_LOOP_98_4                       |    II|  4.87|   5489520|  3.660e+07|       187|        18|  304964|       yes|        -|         -|            -|             -|    -|
+    | + edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2  |     -|  0.00|        83|    553.361|         -|        83|       -|        no|        -|         -|    872 (~0%)|    2592 (~0%)|    -|
+    |  o VITIS_LOOP_129_1_VITIS_LOOP_131_2                     |     -|  4.87|        81|    540.027|        74|         1|       9|       yes|        -|         -|            -|             -|    -|
+    | + edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4  |     -|  0.00|   5489522|  3.660e+07|         -|   5489522|       -|        no|        -|   5 (~0%)|   13397 (2%)|   44310 (16%)|    -|
+    |  o VITIS_LOOP_140_3_VITIS_LOOP_142_4                     |    II|  4.87|   5489520|  3.660e+07|       187|        18|  304964|       yes|        -|         -|            -|             -|    -|
+    | + edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2  |     -|  0.00|    614475|  4.097e+06|         -|    614475|       -|        no|        -|         -|   41528 (7%)|     3075 (1%)|    -|
+    |  o VITIS_LOOP_165_1_VITIS_LOOP_167_2                     |    II|  4.87|    614473|  4.097e+06|        76|         2|  307200|       yes|        -|         -|            -|             -|    -|
     +----------------------------------------------------------+------+------+----------+-----------+----------+----------+--------+----------+---------+----------+-------------+--------------+-----+
 
 
@@ -137,115 +137,115 @@
 +--------------+-----------+--------+-------+
 
 * All M_AXI Variable Accesses
-+--------------+------------+------------------------------+-----------+--------------+--------+------------------+------------------------------+------------+----------------------------------------------------------------------------------------+
-| HW Interface | Variable   | Access Location              | Direction | Burst Status | Length | Loop             | Loop Location                | Resolution | Problem                                                                                |
-+--------------+------------+------------------------------+-----------+--------------+--------+------------------+------------------------------+------------+----------------------------------------------------------------------------------------+
-| m_axi_gmem   | image_rgb  | ../src/edgedetect.cpp:15:31  | read      | Inferred     | 921600 | VITIS_LOOP_10_1  | ../src/edgedetect.cpp:10:22  |            |                                                                                        |
-| m_axi_gmem   | image_rgb  | ../src/edgedetect.cpp:16:31  | read      | Inferred     | 921600 | VITIS_LOOP_10_1  | ../src/edgedetect.cpp:10:22  |            |                                                                                        |
-| m_axi_gmem   | image_rgb  | ../src/edgedetect.cpp:17:31  | read      | Inferred     | 921600 | VITIS_LOOP_10_1  | ../src/edgedetect.cpp:10:22  |            |                                                                                        |
-| m_axi_gmem   | image_gray | ../src/edgedetect.cpp:21:39  | write     | Widened      | 4800   | VITIS_LOOP_13_2  | ../src/edgedetect.cpp:13:26  |            |                                                                                        |
-| m_axi_gmem   | image_gray | ../src/edgedetect.cpp:21:39  | write     | Inferred     | 307200 | VITIS_LOOP_10_1  | ../src/edgedetect.cpp:10:22  |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:45:34  | read      | Widen Fail   |        | VITIS_LOOP_43_2  | ../src/edgedetect.cpp:43:26  | 214-235    | Start index of the access is unaligned                                                 |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:45:34  | read      | Widen Fail   |        | VITIS_LOOP_43_2  | ../src/edgedetect.cpp:43:26  | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:45:34  | read      | Inferred     | 9      | VITIS_LOOP_41_1  | ../src/edgedetect.cpp:41:22  |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:61:67  | read      | Widen Fail   |        | VITIS_LOOP_59_6  | ../src/edgedetect.cpp:59:34  | 214-235    | Start index of the access is unaligned                                                 |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:61:67  | read      | Widen Fail   |        | VITIS_LOOP_59_6  | ../src/edgedetect.cpp:59:34  | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | image_gray | ../src/edgedetect.cpp:61:28  | read      | Widen Fail   |        | VITIS_LOOP_59_6  | ../src/edgedetect.cpp:59:34  | 214-307    | Could not widen since type i8 size is greater than or equal to alignment 1(bytes)      |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:61:67  | read      | Fail         |        | VITIS_LOOP_54_4  | ../src/edgedetect.cpp:54:26  | 214-229    | Could not analyze pattern                                                              |
-| m_axi_gmem   | image_gray | ../src/edgedetect.cpp:61:28  | read      | Fail         |        | VITIS_LOOP_57_5  | ../src/edgedetect.cpp:57:30  | 214-230    | Stride is incompatible                                                                 |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:61:67  | read      | Inferred     | 9      | VITIS_LOOP_57_5  | ../src/edgedetect.cpp:57:30  |            |                                                                                        |
-| m_axi_gmem   | image_gray | ../src/edgedetect.cpp:61:28  | read      | Inferred     | 3      | VITIS_LOOP_59_6  | ../src/edgedetect.cpp:59:34  |            |                                                                                        |
-| m_axi_gmem   | output     | ../src/edgedetect.cpp:64:67  | write     | Widen Fail   |        | VITIS_LOOP_54_4  | ../src/edgedetect.cpp:54:26  | 214-307    | Could not widen since type i8 size is greater than or equal to alignment 1(bytes)      |
-| m_axi_gmem   | output     | ../src/edgedetect.cpp:64:67  | write     | Fail         |        | VITIS_LOOP_52_3  | ../src/edgedetect.cpp:52:22  | 214-230    | Stride is incompatible                                                                 |
-| m_axi_gmem   | output     | ../src/edgedetect.cpp:64:67  | write     | Inferred     | 638    | VITIS_LOOP_54_4  | ../src/edgedetect.cpp:54:26  |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:88:34  | read      | Widen Fail   |        | VITIS_LOOP_86_2  | ../src/edgedetect.cpp:86:26  | 214-235    | Start index of the access is unaligned                                                 |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:88:34  | read      | Widen Fail   |        | VITIS_LOOP_86_2  | ../src/edgedetect.cpp:86:26  | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:88:34  | read      | Inferred     | 9      | VITIS_LOOP_84_1  | ../src/edgedetect.cpp:84:22  |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:104:67 | read      | Widen Fail   |        | VITIS_LOOP_102_6 | ../src/edgedetect.cpp:102:35 | 214-235    | Start index of the access is unaligned                                                 |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:104:67 | read      | Widen Fail   |        | VITIS_LOOP_102_6 | ../src/edgedetect.cpp:102:35 | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | output     | ../src/edgedetect.cpp:104:28 | read      | Widen Fail   |        | VITIS_LOOP_102_6 | ../src/edgedetect.cpp:102:35 | 214-307    | Could not widen since type i8 size is greater than or equal to alignment 1(bytes)      |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:104:67 | read      | Fail         |        | VITIS_LOOP_97_4  | ../src/edgedetect.cpp:97:26  | 214-229    | Could not analyze pattern                                                              |
-| m_axi_gmem   | output     | ../src/edgedetect.cpp:104:28 | read      | Fail         |        | VITIS_LOOP_100_5 | ../src/edgedetect.cpp:100:31 | 214-230    | Stride is incompatible                                                                 |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:104:67 | read      | Inferred     | 9      | VITIS_LOOP_100_5 | ../src/edgedetect.cpp:100:31 |            |                                                                                        |
-| m_axi_gmem   | output     | ../src/edgedetect.cpp:104:28 | read      | Inferred     | 3      | VITIS_LOOP_102_6 | ../src/edgedetect.cpp:102:35 |            |                                                                                        |
-| m_axi_gmem   | image_gray | ../src/edgedetect.cpp:107:67 | write     | Widen Fail   |        | VITIS_LOOP_97_4  | ../src/edgedetect.cpp:97:26  | 214-307    | Could not widen since type i8 size is greater than or equal to alignment 1(bytes)      |
-| m_axi_gmem   | image_gray | ../src/edgedetect.cpp:107:67 | write     | Fail         |        | VITIS_LOOP_95_3  | ../src/edgedetect.cpp:95:22  | 214-230    | Stride is incompatible                                                                 |
-| m_axi_gmem   | image_gray | ../src/edgedetect.cpp:107:67 | write     | Inferred     | 638    | VITIS_LOOP_97_4  | ../src/edgedetect.cpp:97:26  |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:131:34 | read      | Widen Fail   |        | VITIS_LOOP_129_2 | ../src/edgedetect.cpp:129:27 | 214-235    | Start index of the access is unaligned                                                 |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:131:34 | read      | Widen Fail   |        | VITIS_LOOP_129_2 | ../src/edgedetect.cpp:129:27 | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:131:34 | read      | Inferred     | 9      | VITIS_LOOP_127_1 | ../src/edgedetect.cpp:127:23 |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:147:67 | read      | Widen Fail   |        | VITIS_LOOP_145_6 | ../src/edgedetect.cpp:145:35 | 214-235    | Start index of the access is unaligned                                                 |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:147:67 | read      | Widen Fail   |        | VITIS_LOOP_145_6 | ../src/edgedetect.cpp:145:35 | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | output     | ../src/edgedetect.cpp:147:28 | read      | Widen Fail   |        | VITIS_LOOP_145_6 | ../src/edgedetect.cpp:145:35 | 214-307    | Could not widen since type i8 size is greater than or equal to alignment 1(bytes)      |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:147:67 | read      | Fail         |        | VITIS_LOOP_140_4 | ../src/edgedetect.cpp:140:27 | 214-229    | Could not analyze pattern                                                              |
-| m_axi_gmem   | output     | ../src/edgedetect.cpp:147:28 | read      | Fail         |        | VITIS_LOOP_143_5 | ../src/edgedetect.cpp:143:31 | 214-230    | Stride is incompatible                                                                 |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:147:67 | read      | Inferred     | 9      | VITIS_LOOP_143_5 | ../src/edgedetect.cpp:143:31 |            |                                                                                        |
-| m_axi_gmem   | output     | ../src/edgedetect.cpp:147:28 | read      | Inferred     | 3      | VITIS_LOOP_145_6 | ../src/edgedetect.cpp:145:35 |            |                                                                                        |
-| m_axi_gmem   | temp_buf   | ../src/edgedetect.cpp:150:67 | write     | Widen Fail   |        | VITIS_LOOP_140_4 | ../src/edgedetect.cpp:140:27 | 214-307    | Could not widen since type i8 size is greater than or equal to alignment 1(bytes)      |
-| m_axi_gmem   | temp_buf   | ../src/edgedetect.cpp:150:67 | write     | Fail         |        | VITIS_LOOP_138_3 | ../src/edgedetect.cpp:138:23 | 214-230    | Stride is incompatible                                                                 |
-| m_axi_gmem   | temp_buf   | ../src/edgedetect.cpp:150:67 | write     | Inferred     | 638    | VITIS_LOOP_140_4 | ../src/edgedetect.cpp:140:27 |            |                                                                                        |
-| m_axi_gmem   |            | ../src/edgedetect.cpp:162:23 | read      | Fail         |        |                  |                              | 214-224    | Could not burst due to multiple potential reads to the same bundle in the same region. |
-| m_axi_gmem   | image_gray | ../src/edgedetect.cpp:167:14 | read      | Widened      | 4800   | VITIS_LOOP_164_2 | ../src/edgedetect.cpp:164:27 |            |                                                                                        |
-| m_axi_gmem   | image_gray | ../src/edgedetect.cpp:167:14 | read      | Inferred     | 307200 | VITIS_LOOP_162_1 | ../src/edgedetect.cpp:162:23 |            |                                                                                        |
-| m_axi_gmem   | temp_buf   | ../src/edgedetect.cpp:168:25 | read      | Widened      | 4800   | VITIS_LOOP_164_2 | ../src/edgedetect.cpp:164:27 |            |                                                                                        |
-| m_axi_gmem   | temp_buf   | ../src/edgedetect.cpp:168:25 | read      | Inferred     | 307200 | VITIS_LOOP_162_1 | ../src/edgedetect.cpp:162:23 |            |                                                                                        |
-| m_axi_gmem   | output     | ../src/edgedetect.cpp:170:33 | write     | Widened      | 4800   | VITIS_LOOP_164_2 | ../src/edgedetect.cpp:164:27 |            |                                                                                        |
-| m_axi_gmem   | output     | ../src/edgedetect.cpp:170:33 | write     | Inferred     | 307200 | VITIS_LOOP_162_1 | ../src/edgedetect.cpp:162:23 |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:177:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:177:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:178:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:178:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:179:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:179:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:180:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:180:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:181:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:181:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:182:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:182:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:183:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:183:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:184:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:184:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:185:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:185:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:190:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:190:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:191:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:191:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:192:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:192:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:193:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:193:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:194:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:194:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:195:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:195:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:196:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:196:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:197:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:197:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:198:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:198:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:203:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:203:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:204:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:204:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:205:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:205:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:206:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:206:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:207:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:207:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:208:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:208:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:209:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:209:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:210:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:210:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:211:15 | write     | Widen Fail   |        |                  |                              | 214-234    | Sequential access length is not divisible by 2                                         |
-| m_axi_gmem   | filter     | ../src/edgedetect.cpp:211:15 | write     | Inferred     | 9      |                  |                              |            |                                                                                        |
-+--------------+------------+------------------------------+-----------+--------------+--------+------------------+------------------------------+------------+----------------------------------------------------------------------------------------+
++--------------+------------+------------------------------------------------------+-----------+--------------+--------+------------------+------------------------------------------------------+------------+----------------------------------------------------------------------------------------+
+| HW Interface | Variable   | Access Location                                      | Direction | Burst Status | Length | Loop             | Loop Location                                        | Resolution | Problem                                                                                |
++--------------+------------+------------------------------------------------------+-----------+--------------+--------+------------------+------------------------------------------------------+------------+----------------------------------------------------------------------------------------+
+| m_axi_gmem   | image_rgb  | ../EdgedetectBaseline_host/src/edgedetect.cpp:15:31  | read      | Inferred     | 921600 | VITIS_LOOP_10_1  | ../EdgedetectBaseline_host/src/edgedetect.cpp:10:22  |            |                                                                                        |
+| m_axi_gmem   | image_rgb  | ../EdgedetectBaseline_host/src/edgedetect.cpp:16:31  | read      | Inferred     | 921600 | VITIS_LOOP_10_1  | ../EdgedetectBaseline_host/src/edgedetect.cpp:10:22  |            |                                                                                        |
+| m_axi_gmem   | image_rgb  | ../EdgedetectBaseline_host/src/edgedetect.cpp:17:31  | read      | Inferred     | 921600 | VITIS_LOOP_10_1  | ../EdgedetectBaseline_host/src/edgedetect.cpp:10:22  |            |                                                                                        |
+| m_axi_gmem   | image_gray | ../EdgedetectBaseline_host/src/edgedetect.cpp:21:39  | write     | Widened      | 4800   | VITIS_LOOP_13_2  | ../EdgedetectBaseline_host/src/edgedetect.cpp:13:26  |            |                                                                                        |
+| m_axi_gmem   | image_gray | ../EdgedetectBaseline_host/src/edgedetect.cpp:21:39  | write     | Inferred     | 307200 | VITIS_LOOP_10_1  | ../EdgedetectBaseline_host/src/edgedetect.cpp:10:22  |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:45:34  | read      | Widen Fail   |        | VITIS_LOOP_43_2  | ../EdgedetectBaseline_host/src/edgedetect.cpp:43:26  | 214-235    | Start index of the access is unaligned                                                 |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:45:34  | read      | Widen Fail   |        | VITIS_LOOP_43_2  | ../EdgedetectBaseline_host/src/edgedetect.cpp:43:26  | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:45:34  | read      | Inferred     | 9      | VITIS_LOOP_41_1  | ../EdgedetectBaseline_host/src/edgedetect.cpp:41:22  |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:61:67  | read      | Widen Fail   |        | VITIS_LOOP_59_6  | ../EdgedetectBaseline_host/src/edgedetect.cpp:59:34  | 214-235    | Start index of the access is unaligned                                                 |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:61:67  | read      | Widen Fail   |        | VITIS_LOOP_59_6  | ../EdgedetectBaseline_host/src/edgedetect.cpp:59:34  | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | image_gray | ../EdgedetectBaseline_host/src/edgedetect.cpp:61:28  | read      | Widen Fail   |        | VITIS_LOOP_59_6  | ../EdgedetectBaseline_host/src/edgedetect.cpp:59:34  | 214-307    | Could not widen since type i8 size is greater than or equal to alignment 1(bytes)      |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:61:67  | read      | Fail         |        | VITIS_LOOP_54_4  | ../EdgedetectBaseline_host/src/edgedetect.cpp:54:26  | 214-229    | Could not analyze pattern                                                              |
+| m_axi_gmem   | image_gray | ../EdgedetectBaseline_host/src/edgedetect.cpp:61:28  | read      | Fail         |        | VITIS_LOOP_57_5  | ../EdgedetectBaseline_host/src/edgedetect.cpp:57:30  | 214-230    | Stride is incompatible                                                                 |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:61:67  | read      | Inferred     | 9      | VITIS_LOOP_57_5  | ../EdgedetectBaseline_host/src/edgedetect.cpp:57:30  |            |                                                                                        |
+| m_axi_gmem   | image_gray | ../EdgedetectBaseline_host/src/edgedetect.cpp:61:28  | read      | Inferred     | 3      | VITIS_LOOP_59_6  | ../EdgedetectBaseline_host/src/edgedetect.cpp:59:34  |            |                                                                                        |
+| m_axi_gmem   | output     | ../EdgedetectBaseline_host/src/edgedetect.cpp:65:67  | write     | Widen Fail   |        | VITIS_LOOP_54_4  | ../EdgedetectBaseline_host/src/edgedetect.cpp:54:26  | 214-307    | Could not widen since type i8 size is greater than or equal to alignment 1(bytes)      |
+| m_axi_gmem   | output     | ../EdgedetectBaseline_host/src/edgedetect.cpp:65:67  | write     | Fail         |        | VITIS_LOOP_52_3  | ../EdgedetectBaseline_host/src/edgedetect.cpp:52:22  | 214-230    | Stride is incompatible                                                                 |
+| m_axi_gmem   | output     | ../EdgedetectBaseline_host/src/edgedetect.cpp:65:67  | write     | Inferred     | 638    | VITIS_LOOP_54_4  | ../EdgedetectBaseline_host/src/edgedetect.cpp:54:26  |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:89:34  | read      | Widen Fail   |        | VITIS_LOOP_87_2  | ../EdgedetectBaseline_host/src/edgedetect.cpp:87:26  | 214-235    | Start index of the access is unaligned                                                 |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:89:34  | read      | Widen Fail   |        | VITIS_LOOP_87_2  | ../EdgedetectBaseline_host/src/edgedetect.cpp:87:26  | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:89:34  | read      | Inferred     | 9      | VITIS_LOOP_85_1  | ../EdgedetectBaseline_host/src/edgedetect.cpp:85:22  |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:105:67 | read      | Widen Fail   |        | VITIS_LOOP_103_6 | ../EdgedetectBaseline_host/src/edgedetect.cpp:103:35 | 214-235    | Start index of the access is unaligned                                                 |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:105:67 | read      | Widen Fail   |        | VITIS_LOOP_103_6 | ../EdgedetectBaseline_host/src/edgedetect.cpp:103:35 | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | output     | ../EdgedetectBaseline_host/src/edgedetect.cpp:105:28 | read      | Widen Fail   |        | VITIS_LOOP_103_6 | ../EdgedetectBaseline_host/src/edgedetect.cpp:103:35 | 214-307    | Could not widen since type i8 size is greater than or equal to alignment 1(bytes)      |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:105:67 | read      | Fail         |        | VITIS_LOOP_98_4  | ../EdgedetectBaseline_host/src/edgedetect.cpp:98:26  | 214-229    | Could not analyze pattern                                                              |
+| m_axi_gmem   | output     | ../EdgedetectBaseline_host/src/edgedetect.cpp:105:28 | read      | Fail         |        | VITIS_LOOP_101_5 | ../EdgedetectBaseline_host/src/edgedetect.cpp:101:31 | 214-230    | Stride is incompatible                                                                 |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:105:67 | read      | Inferred     | 9      | VITIS_LOOP_101_5 | ../EdgedetectBaseline_host/src/edgedetect.cpp:101:31 |            |                                                                                        |
+| m_axi_gmem   | output     | ../EdgedetectBaseline_host/src/edgedetect.cpp:105:28 | read      | Inferred     | 3      | VITIS_LOOP_103_6 | ../EdgedetectBaseline_host/src/edgedetect.cpp:103:35 |            |                                                                                        |
+| m_axi_gmem   | image_gray | ../EdgedetectBaseline_host/src/edgedetect.cpp:109:67 | write     | Widen Fail   |        | VITIS_LOOP_98_4  | ../EdgedetectBaseline_host/src/edgedetect.cpp:98:26  | 214-307    | Could not widen since type i8 size is greater than or equal to alignment 1(bytes)      |
+| m_axi_gmem   | image_gray | ../EdgedetectBaseline_host/src/edgedetect.cpp:109:67 | write     | Fail         |        | VITIS_LOOP_96_3  | ../EdgedetectBaseline_host/src/edgedetect.cpp:96:22  | 214-230    | Stride is incompatible                                                                 |
+| m_axi_gmem   | image_gray | ../EdgedetectBaseline_host/src/edgedetect.cpp:109:67 | write     | Inferred     | 638    | VITIS_LOOP_98_4  | ../EdgedetectBaseline_host/src/edgedetect.cpp:98:26  |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:133:34 | read      | Widen Fail   |        | VITIS_LOOP_131_2 | ../EdgedetectBaseline_host/src/edgedetect.cpp:131:27 | 214-235    | Start index of the access is unaligned                                                 |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:133:34 | read      | Widen Fail   |        | VITIS_LOOP_131_2 | ../EdgedetectBaseline_host/src/edgedetect.cpp:131:27 | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:133:34 | read      | Inferred     | 9      | VITIS_LOOP_129_1 | ../EdgedetectBaseline_host/src/edgedetect.cpp:129:23 |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:149:67 | read      | Widen Fail   |        | VITIS_LOOP_147_6 | ../EdgedetectBaseline_host/src/edgedetect.cpp:147:35 | 214-235    | Start index of the access is unaligned                                                 |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:149:67 | read      | Widen Fail   |        | VITIS_LOOP_147_6 | ../EdgedetectBaseline_host/src/edgedetect.cpp:147:35 | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | output     | ../EdgedetectBaseline_host/src/edgedetect.cpp:149:28 | read      | Widen Fail   |        | VITIS_LOOP_147_6 | ../EdgedetectBaseline_host/src/edgedetect.cpp:147:35 | 214-307    | Could not widen since type i8 size is greater than or equal to alignment 1(bytes)      |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:149:67 | read      | Fail         |        | VITIS_LOOP_142_4 | ../EdgedetectBaseline_host/src/edgedetect.cpp:142:27 | 214-229    | Could not analyze pattern                                                              |
+| m_axi_gmem   | output     | ../EdgedetectBaseline_host/src/edgedetect.cpp:149:28 | read      | Fail         |        | VITIS_LOOP_145_5 | ../EdgedetectBaseline_host/src/edgedetect.cpp:145:31 | 214-230    | Stride is incompatible                                                                 |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:149:67 | read      | Inferred     | 9      | VITIS_LOOP_145_5 | ../EdgedetectBaseline_host/src/edgedetect.cpp:145:31 |            |                                                                                        |
+| m_axi_gmem   | output     | ../EdgedetectBaseline_host/src/edgedetect.cpp:149:28 | read      | Inferred     | 3      | VITIS_LOOP_147_6 | ../EdgedetectBaseline_host/src/edgedetect.cpp:147:35 |            |                                                                                        |
+| m_axi_gmem   | temp_buf   | ../EdgedetectBaseline_host/src/edgedetect.cpp:153:67 | write     | Widen Fail   |        | VITIS_LOOP_142_4 | ../EdgedetectBaseline_host/src/edgedetect.cpp:142:27 | 214-307    | Could not widen since type i8 size is greater than or equal to alignment 1(bytes)      |
+| m_axi_gmem   | temp_buf   | ../EdgedetectBaseline_host/src/edgedetect.cpp:153:67 | write     | Fail         |        | VITIS_LOOP_140_3 | ../EdgedetectBaseline_host/src/edgedetect.cpp:140:23 | 214-230    | Stride is incompatible                                                                 |
+| m_axi_gmem   | temp_buf   | ../EdgedetectBaseline_host/src/edgedetect.cpp:153:67 | write     | Inferred     | 638    | VITIS_LOOP_142_4 | ../EdgedetectBaseline_host/src/edgedetect.cpp:142:27 |            |                                                                                        |
+| m_axi_gmem   |            | ../EdgedetectBaseline_host/src/edgedetect.cpp:165:23 | read      | Fail         |        |                  |                                                      | 214-224    | Could not burst due to multiple potential reads to the same bundle in the same region. |
+| m_axi_gmem   | image_gray | ../EdgedetectBaseline_host/src/edgedetect.cpp:170:14 | read      | Widened      | 4800   | VITIS_LOOP_167_2 | ../EdgedetectBaseline_host/src/edgedetect.cpp:167:27 |            |                                                                                        |
+| m_axi_gmem   | image_gray | ../EdgedetectBaseline_host/src/edgedetect.cpp:170:14 | read      | Inferred     | 307200 | VITIS_LOOP_165_1 | ../EdgedetectBaseline_host/src/edgedetect.cpp:165:23 |            |                                                                                        |
+| m_axi_gmem   | temp_buf   | ../EdgedetectBaseline_host/src/edgedetect.cpp:171:25 | read      | Widened      | 4800   | VITIS_LOOP_167_2 | ../EdgedetectBaseline_host/src/edgedetect.cpp:167:27 |            |                                                                                        |
+| m_axi_gmem   | temp_buf   | ../EdgedetectBaseline_host/src/edgedetect.cpp:171:25 | read      | Inferred     | 307200 | VITIS_LOOP_165_1 | ../EdgedetectBaseline_host/src/edgedetect.cpp:165:23 |            |                                                                                        |
+| m_axi_gmem   | output     | ../EdgedetectBaseline_host/src/edgedetect.cpp:173:33 | write     | Widened      | 4800   | VITIS_LOOP_167_2 | ../EdgedetectBaseline_host/src/edgedetect.cpp:167:27 |            |                                                                                        |
+| m_axi_gmem   | output     | ../EdgedetectBaseline_host/src/edgedetect.cpp:173:33 | write     | Inferred     | 307200 | VITIS_LOOP_165_1 | ../EdgedetectBaseline_host/src/edgedetect.cpp:165:23 |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:180:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:180:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:181:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:181:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:182:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:182:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:183:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:183:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:184:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:184:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:185:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:185:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:186:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:186:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:187:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:187:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:188:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:188:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:193:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:193:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:194:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:194:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:195:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:195:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:196:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:196:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:197:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:197:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:198:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:198:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:199:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:199:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:200:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:200:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:201:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:201:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:206:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:206:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:207:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:207:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:208:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:208:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:209:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:209:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:210:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:210:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:211:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:211:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:212:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:212:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:213:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:213:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:214:15 | write     | Widen Fail   |        |                  |                                                      | 214-234    | Sequential access length is not divisible by 2                                         |
+| m_axi_gmem   | filter     | ../EdgedetectBaseline_host/src/edgedetect.cpp:214:15 | write     | Inferred     | 9      |                  |                                                      |            |                                                                                        |
++--------------+------------+------------------------------------------------------+-----------+--------------+--------+------------------+------------------------------------------------------+------------+----------------------------------------------------------------------------------------+
 
     * Resolution URL: docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=XXX-YYY.html (replace XXX-YYY with column value)
 
@@ -265,8 +265,8 @@
 |   empty_62_fu_568_p2                                     |     |        | empty_62                     | add       | fabric    | 0       |
 |   empty_64_fu_597_p2                                     |     |        | empty_64                     | add       | fabric    | 0       |
 |   empty_66_fu_626_p2                                     |     |        | empty_66                     | add       | fabric    | 0       |
-|   icmp_ln92_fu_659_p2                                    |     |        | icmp_ln92                    | seteq     | auto      | 0       |
-|   icmp_ln135_fu_670_p2                                   |     |        | icmp_ln135                   | seteq     | auto      | 0       |
+|   icmp_ln93_fu_659_p2                                    |     |        | icmp_ln93                    | seteq     | auto      | 0       |
+|   icmp_ln137_fu_670_p2                                   |     |        | icmp_ln137                   | seteq     | auto      | 0       |
 |  + edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2   | 14  |        |                              |           |           |         |
 |    icmp_ln10_fu_325_p2                                   |     |        | icmp_ln10                    | seteq     | auto      | 0       |
 |    add_ln10_fu_331_p2                                    |     |        | add_ln10                     | add       | fabric    | 0       |
@@ -337,43 +337,43 @@
 |    normal_factor_fu_316_p2                               |     |        | normal_factor                | add       | fabric    | 0       |
 |    add_ln43_fu_238_p2                                    |     |        | add_ln43                     | add       | fabric    | 0       |
 |  + edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4   | 5   |        |                              |           |           |         |
-|    icmp_ln52_fu_607_p2                                   |     |        | icmp_ln52                    | seteq     | auto      | 0       |
-|    add_ln52_fu_613_p2                                    |     |        | add_ln52                     | add       | fabric    | 0       |
-|    icmp_ln54_fu_625_p2                                   |     |        | icmp_ln54                    | seteq     | auto      | 0       |
-|    select_ln31_fu_631_p3                                 |     |        | select_ln31                  | select    | auto_sel  | 0       |
-|    indvars_iv_next25_i_dup443_fu_639_p2                  |     |        | indvars_iv_next25_i_dup443   | add       | fabric    | 0       |
-|    select_ln52_fu_645_p3                                 |     |        | select_ln52                  | select    | auto_sel  | 0       |
-|    empty_fu_677_p2                                       |     |        | empty                        | add       | fabric    | 0       |
-|    add_ln57_fu_687_p2                                    |     |        | add_ln57                     | add       | fabric    | 0       |
-|    empty_36_fu_697_p2                                    |     |        | empty_36                     | add       | fabric    | 0       |
-|    lshr_ln61_fu_1062_p2                                  |     |        | lshr_ln61                    | lshr      | auto_pipe | 0       |
-|    lshr_ln61_1_fu_1074_p2                                |     |        | lshr_ln61_1                  | lshr      | auto_pipe | 0       |
-|    add_ln61_fu_753_p2                                    |     |        | add_ln61                     | add       | fabric    | 0       |
-|    lshr_ln61_2_fu_1097_p2                                |     |        | lshr_ln61_2                  | lshr      | auto_pipe | 0       |
-|    lshr_ln61_3_fu_1109_p2                                |     |        | lshr_ln61_3                  | lshr      | auto_pipe | 0       |
-|    add_ln61_1_fu_788_p2                                  |     |        | add_ln61_1                   | add       | fabric    | 0       |
-|    lshr_ln61_4_fu_1142_p2                                |     |        | lshr_ln61_4                  | lshr      | auto_pipe | 0       |
-|    lshr_ln61_5_fu_1154_p2                                |     |        | lshr_ln61_5                  | lshr      | auto_pipe | 0       |
-|    tmp7_fu_823_p2                                        |     |        | tmp7                         | add       | fabric    | 0       |
-|    empty_37_fu_832_p2                                    |     |        | empty_37                     | add       | fabric    | 0       |
-|    lshr_ln61_6_fu_1183_p2                                |     |        | lshr_ln61_6                  | lshr      | auto_pipe | 0       |
-|    lshr_ln61_7_fu_1195_p2                                |     |        | lshr_ln61_7                  | lshr      | auto_pipe | 0       |
-|    add_ln61_2_fu_867_p2                                  |     |        | add_ln61_2                   | add       | fabric    | 0       |
-|    lshr_ln61_8_fu_1218_p2                                |     |        | lshr_ln61_8                  | lshr      | auto_pipe | 0       |
-|    lshr_ln61_9_fu_1230_p2                                |     |        | lshr_ln61_9                  | lshr      | auto_pipe | 0       |
-|    add_ln61_3_fu_902_p2                                  |     |        | add_ln61_3                   | add       | fabric    | 0       |
-|    lshr_ln61_10_fu_1262_p2                               |     |        | lshr_ln61_10                 | lshr      | auto_pipe | 0       |
-|    lshr_ln61_11_fu_1286_p2                               |     |        | lshr_ln61_11                 | lshr      | auto_pipe | 0       |
-|    tmp8_fu_937_p2                                        |     |        | tmp8                         | add       | fabric    | 0       |
-|    empty_38_fu_946_p2                                    |     |        | empty_38                     | add       | fabric    | 0       |
-|    lshr_ln61_12_fu_1309_p2                               |     |        | lshr_ln61_12                 | lshr      | auto_pipe | 0       |
-|    lshr_ln61_13_fu_1318_p2                               |     |        | lshr_ln61_13                 | lshr      | auto_pipe | 0       |
-|    add_ln61_4_fu_981_p2                                  |     |        | add_ln61_4                   | add       | fabric    | 0       |
-|    lshr_ln61_14_fu_1340_p2                               |     |        | lshr_ln61_14                 | lshr      | auto_pipe | 0       |
-|    lshr_ln61_15_fu_1352_p2                               |     |        | lshr_ln61_15                 | lshr      | auto_pipe | 0       |
-|    add_ln61_5_fu_1016_p2                                 |     |        | add_ln61_5                   | add       | fabric    | 0       |
-|    lshr_ln61_16_fu_1381_p2                               |     |        | lshr_ln61_16                 | lshr      | auto_pipe | 0       |
-|    lshr_ln61_17_fu_1393_p2                               |     |        | lshr_ln61_17                 | lshr      | auto_pipe | 0       |
+|    icmp_ln52_fu_615_p2                                   |     |        | icmp_ln52                    | seteq     | auto      | 0       |
+|    add_ln52_fu_621_p2                                    |     |        | add_ln52                     | add       | fabric    | 0       |
+|    icmp_ln54_fu_633_p2                                   |     |        | icmp_ln54                    | seteq     | auto      | 0       |
+|    select_ln31_fu_639_p3                                 |     |        | select_ln31                  | select    | auto_sel  | 0       |
+|    indvars_iv_next25_i_dup443_fu_647_p2                  |     |        | indvars_iv_next25_i_dup443   | add       | fabric    | 0       |
+|    select_ln52_fu_653_p3                                 |     |        | select_ln52                  | select    | auto_sel  | 0       |
+|    empty_fu_685_p2                                       |     |        | empty                        | add       | fabric    | 0       |
+|    add_ln57_fu_695_p2                                    |     |        | add_ln57                     | add       | fabric    | 0       |
+|    empty_36_fu_705_p2                                    |     |        | empty_36                     | add       | fabric    | 0       |
+|    lshr_ln61_fu_1070_p2                                  |     |        | lshr_ln61                    | lshr      | auto_pipe | 0       |
+|    lshr_ln61_1_fu_1082_p2                                |     |        | lshr_ln61_1                  | lshr      | auto_pipe | 0       |
+|    add_ln61_fu_761_p2                                    |     |        | add_ln61                     | add       | fabric    | 0       |
+|    lshr_ln61_2_fu_1105_p2                                |     |        | lshr_ln61_2                  | lshr      | auto_pipe | 0       |
+|    lshr_ln61_3_fu_1117_p2                                |     |        | lshr_ln61_3                  | lshr      | auto_pipe | 0       |
+|    add_ln61_1_fu_796_p2                                  |     |        | add_ln61_1                   | add       | fabric    | 0       |
+|    lshr_ln61_4_fu_1150_p2                                |     |        | lshr_ln61_4                  | lshr      | auto_pipe | 0       |
+|    lshr_ln61_5_fu_1162_p2                                |     |        | lshr_ln61_5                  | lshr      | auto_pipe | 0       |
+|    tmp7_fu_831_p2                                        |     |        | tmp7                         | add       | fabric    | 0       |
+|    empty_37_fu_840_p2                                    |     |        | empty_37                     | add       | fabric    | 0       |
+|    lshr_ln61_6_fu_1191_p2                                |     |        | lshr_ln61_6                  | lshr      | auto_pipe | 0       |
+|    lshr_ln61_7_fu_1203_p2                                |     |        | lshr_ln61_7                  | lshr      | auto_pipe | 0       |
+|    add_ln61_2_fu_875_p2                                  |     |        | add_ln61_2                   | add       | fabric    | 0       |
+|    lshr_ln61_8_fu_1226_p2                                |     |        | lshr_ln61_8                  | lshr      | auto_pipe | 0       |
+|    lshr_ln61_9_fu_1238_p2                                |     |        | lshr_ln61_9                  | lshr      | auto_pipe | 0       |
+|    add_ln61_3_fu_910_p2                                  |     |        | add_ln61_3                   | add       | fabric    | 0       |
+|    lshr_ln61_10_fu_1270_p2                               |     |        | lshr_ln61_10                 | lshr      | auto_pipe | 0       |
+|    lshr_ln61_11_fu_1294_p2                               |     |        | lshr_ln61_11                 | lshr      | auto_pipe | 0       |
+|    tmp8_fu_945_p2                                        |     |        | tmp8                         | add       | fabric    | 0       |
+|    empty_38_fu_954_p2                                    |     |        | empty_38                     | add       | fabric    | 0       |
+|    lshr_ln61_12_fu_1317_p2                               |     |        | lshr_ln61_12                 | lshr      | auto_pipe | 0       |
+|    lshr_ln61_13_fu_1326_p2                               |     |        | lshr_ln61_13                 | lshr      | auto_pipe | 0       |
+|    add_ln61_4_fu_989_p2                                  |     |        | add_ln61_4                   | add       | fabric    | 0       |
+|    lshr_ln61_14_fu_1348_p2                               |     |        | lshr_ln61_14                 | lshr      | auto_pipe | 0       |
+|    lshr_ln61_15_fu_1360_p2                               |     |        | lshr_ln61_15                 | lshr      | auto_pipe | 0       |
+|    add_ln61_5_fu_1024_p2                                 |     |        | add_ln61_5                   | add       | fabric    | 0       |
+|    lshr_ln61_16_fu_1389_p2                               |     |        | lshr_ln61_16                 | lshr      | auto_pipe | 0       |
+|    lshr_ln61_17_fu_1401_p2                               |     |        | lshr_ln61_17                 | lshr      | auto_pipe | 0       |
 |    mul_8ns_8ns_16_1_1_U23                                |     |        | mul_ln61                     | mul       | auto      | 0       |
 |    mac_muladd_8ns_8ns_16ns_17_4_1_U28                    | 1   |        | mul_ln61_1                   | mul       | dsp_slice | 3       |
 |    mac_muladd_8ns_8ns_16ns_17_4_1_U28                    | 1   |        | zext_ln61_26                 | zext      | dsp_slice | 3       |
@@ -390,203 +390,212 @@
 |    mac_muladd_8ns_8ns_16ns_17_4_1_U25                    | 1   |        | zext_ln61_33                 | zext      | dsp_slice | 3       |
 |    mac_muladd_8ns_8ns_16ns_17_4_1_U25                    | 1   |        | add_ln61_6                   | add       | dsp_slice | 3       |
 |    mac_muladd_8ns_8ns_16ns_17_4_1_U26                    | 1   |        | add_ln61_7                   | add       | dsp_slice | 3       |
-|    add_ln61_8_fu_1277_p2                                 |     |        | add_ln61_8                   | add       | fabric    | 0       |
+|    add_ln61_8_fu_1285_p2                                 |     |        | add_ln61_8                   | add       | fabric    | 0       |
 |    mac_muladd_8ns_8ns_16ns_17_4_1_U27                    | 1   |        | add_ln61_9                   | add       | dsp_slice | 3       |
 |    mac_muladd_8ns_8ns_16ns_17_4_1_U28                    | 1   |        | add_ln61_10                  | add       | dsp_slice | 3       |
 |    mac_muladd_8ns_8ns_17ns_18_4_1_U29                    | 1   |        | add_ln61_11                  | add       | dsp_slice | 3       |
-|    add_ln61_12_fu_1426_p2                                |     |        | add_ln61_12                  | add       | fabric    | 0       |
-|    grp_fu_1452_p0                                        |     |        | sum                          | add       | fabric    | 0       |
-|    select_ln64_fu_1442_p3                                |     |        | select_ln64                  | select    | auto_sel  | 0       |
+|    add_ln61_12_fu_1434_p2                                |     |        | add_ln61_12                  | add       | fabric    | 0       |
+|    sum_fu_1444_p2                                        |     |        | sum                          | add       | fabric    | 0       |
+|    select_ln64_fu_1450_p3                                |     |        | select_ln64                  | select    | auto_sel  | 0       |
 |    udiv_20ns_12ns_8_24_1_U24                             |     |        | udiv_ln64                    | udiv      | auto      | 23      |
-|    add_ln64_fu_716_p2                                    |     |        | add_ln64                     | add       | fabric    | 0       |
-|    add_ln64_3_fu_1469_p2                                 |     |        | add_ln64_3                   | add       | fabric    | 0       |
-|    shl_ln64_fu_1493_p2                                   |     |        | shl_ln64                     | shl       | auto_pipe | 0       |
-|    shl_ln64_2_fu_1528_p2                                 |     |        | shl_ln64_2                   | shl       | auto_pipe | 0       |
-|  + edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2   | 0   |        |                              |           |           |         |
-|    icmp_ln84_fu_140_p2                                   |     |        | icmp_ln84                    | seteq     | auto      | 0       |
-|    add_ln84_fu_146_p2                                    |     |        | add_ln84                     | add       | fabric    | 0       |
-|    icmp_ln86_fu_158_p2                                   |     |        | icmp_ln86                    | seteq     | auto      | 0       |
-|    select_ln74_fu_164_p3                                 |     |        | select_ln74                  | select    | auto_sel  | 0       |
-|    add_ln84_1_fu_172_p2                                  |     |        | add_ln84_1                   | add       | fabric    | 0       |
-|    select_ln84_fu_178_p3                                 |     |        | select_ln84                  | select    | auto_sel  | 0       |
+|    icmp_ln64_fu_1474_p2                                  |     |        | icmp_ln64                    | setlt     | auto      | 0       |
+|    xor_ln64_fu_1531_p2                                   |     |        | xor_ln64                     | xor       | auto      | 0       |
+|    pixel_fu_1540_p3                                      |     |        | pixel                        | select    | auto_sel  | 0       |
+|    add_ln65_fu_724_p2                                    |     |        | add_ln65                     | add       | fabric    | 0       |
+|    add_ln65_3_fu_1491_p2                                 |     |        | add_ln65_3                   | add       | fabric    | 0       |
+|    shl_ln65_fu_1515_p2                                   |     |        | shl_ln65                     | shl       | auto_pipe | 0       |
+|    shl_ln65_2_fu_1563_p2                                 |     |        | shl_ln65_2                   | shl       | auto_pipe | 0       |
+|  + edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2   | 0   |        |                              |           |           |         |
+|    icmp_ln85_fu_140_p2                                   |     |        | icmp_ln85                    | seteq     | auto      | 0       |
+|    add_ln85_fu_146_p2                                    |     |        | add_ln85                     | add       | fabric    | 0       |
+|    icmp_ln87_fu_158_p2                                   |     |        | icmp_ln87                    | seteq     | auto      | 0       |
+|    select_ln75_fu_164_p3                                 |     |        | select_ln75                  | select    | auto_sel  | 0       |
+|    add_ln85_1_fu_172_p2                                  |     |        | add_ln85_1                   | add       | fabric    | 0       |
+|    select_ln85_fu_178_p3                                 |     |        | select_ln85                  | select    | auto_sel  | 0       |
 |    empty_fu_198_p2                                       |     |        | empty                        | sub       | fabric    | 0       |
-|    lshr_ln88_fu_283_p2                                   |     |        | lshr_ln88                    | lshr      | auto_pipe | 0       |
+|    lshr_ln89_fu_283_p2                                   |     |        | lshr_ln89                    | lshr      | auto_pipe | 0       |
 |    neg2_fu_292_p2                                        |     |        | neg2                         | sub       | fabric    | 0       |
 |    abscond3_fu_298_p2                                    |     |        | abscond3                     | setne     | auto      | 0       |
 |    abs4_fu_304_p3                                        |     |        | abs4                         | select    | auto_sel  | 0       |
 |    normal_factor_2_fu_316_p2                             |     |        | normal_factor_2              | add       | fabric    | 0       |
-|    add_ln86_fu_238_p2                                    |     |        | add_ln86                     | add       | fabric    | 0       |
-|  + edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4   | 5   |        |                              |           |           |         |
-|    icmp_ln95_fu_607_p2                                   |     |        | icmp_ln95                    | seteq     | auto      | 0       |
-|    add_ln95_fu_613_p2                                    |     |        | add_ln95                     | add       | fabric    | 0       |
-|    icmp_ln97_fu_625_p2                                   |     |        | icmp_ln97                    | seteq     | auto      | 0       |
-|    select_ln74_fu_631_p3                                 |     |        | select_ln74                  | select    | auto_sel  | 0       |
-|    indvars_iv_next25_i33_dup449_fu_639_p2                |     |        | indvars_iv_next25_i33_dup449 | add       | fabric    | 0       |
-|    select_ln95_fu_645_p3                                 |     |        | select_ln95                  | select    | auto_sel  | 0       |
-|    empty_fu_677_p2                                       |     |        | empty                        | add       | fabric    | 0       |
-|    add_ln100_fu_687_p2                                   |     |        | add_ln100                    | add       | fabric    | 0       |
-|    empty_31_fu_697_p2                                    |     |        | empty_31                     | add       | fabric    | 0       |
-|    lshr_ln104_fu_1062_p2                                 |     |        | lshr_ln104                   | lshr      | auto_pipe | 0       |
-|    lshr_ln104_1_fu_1074_p2                               |     |        | lshr_ln104_1                 | lshr      | auto_pipe | 0       |
-|    add_ln104_fu_753_p2                                   |     |        | add_ln104                    | add       | fabric    | 0       |
-|    lshr_ln104_2_fu_1097_p2                               |     |        | lshr_ln104_2                 | lshr      | auto_pipe | 0       |
-|    lshr_ln104_3_fu_1109_p2                               |     |        | lshr_ln104_3                 | lshr      | auto_pipe | 0       |
-|    add_ln104_1_fu_788_p2                                 |     |        | add_ln104_1                  | add       | fabric    | 0       |
-|    lshr_ln104_4_fu_1142_p2                               |     |        | lshr_ln104_4                 | lshr      | auto_pipe | 0       |
-|    lshr_ln104_5_fu_1154_p2                               |     |        | lshr_ln104_5                 | lshr      | auto_pipe | 0       |
-|    tmp20_fu_823_p2                                       |     |        | tmp20                        | add       | fabric    | 0       |
-|    empty_32_fu_832_p2                                    |     |        | empty_32                     | add       | fabric    | 0       |
-|    lshr_ln104_6_fu_1183_p2                               |     |        | lshr_ln104_6                 | lshr      | auto_pipe | 0       |
-|    lshr_ln104_7_fu_1195_p2                               |     |        | lshr_ln104_7                 | lshr      | auto_pipe | 0       |
-|    add_ln104_2_fu_867_p2                                 |     |        | add_ln104_2                  | add       | fabric    | 0       |
-|    lshr_ln104_8_fu_1218_p2                               |     |        | lshr_ln104_8                 | lshr      | auto_pipe | 0       |
-|    lshr_ln104_9_fu_1230_p2                               |     |        | lshr_ln104_9                 | lshr      | auto_pipe | 0       |
-|    add_ln104_3_fu_902_p2                                 |     |        | add_ln104_3                  | add       | fabric    | 0       |
-|    lshr_ln104_10_fu_1262_p2                              |     |        | lshr_ln104_10                | lshr      | auto_pipe | 0       |
-|    lshr_ln104_11_fu_1286_p2                              |     |        | lshr_ln104_11                | lshr      | auto_pipe | 0       |
-|    tmp21_fu_937_p2                                       |     |        | tmp21                        | add       | fabric    | 0       |
-|    empty_33_fu_946_p2                                    |     |        | empty_33                     | add       | fabric    | 0       |
-|    lshr_ln104_12_fu_1309_p2                              |     |        | lshr_ln104_12                | lshr      | auto_pipe | 0       |
-|    lshr_ln104_13_fu_1318_p2                              |     |        | lshr_ln104_13                | lshr      | auto_pipe | 0       |
-|    add_ln104_4_fu_981_p2                                 |     |        | add_ln104_4                  | add       | fabric    | 0       |
-|    lshr_ln104_14_fu_1340_p2                              |     |        | lshr_ln104_14                | lshr      | auto_pipe | 0       |
-|    lshr_ln104_15_fu_1352_p2                              |     |        | lshr_ln104_15                | lshr      | auto_pipe | 0       |
-|    add_ln104_5_fu_1016_p2                                |     |        | add_ln104_5                  | add       | fabric    | 0       |
-|    lshr_ln104_16_fu_1381_p2                              |     |        | lshr_ln104_16                | lshr      | auto_pipe | 0       |
-|    lshr_ln104_17_fu_1393_p2                              |     |        | lshr_ln104_17                | lshr      | auto_pipe | 0       |
-|    mul_8ns_8ns_16_1_1_U63                                |     |        | mul_ln104                    | mul       | auto      | 0       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U68                    | 1   |        | mul_ln104_1                  | mul       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U68                    | 1   |        | zext_ln104_26                | zext      | dsp_slice | 3       |
-|    mul_8ns_8ns_16_1_1_U61                                |     |        | mul_ln104_2                  | mul       | auto      | 0       |
-|    mul_8ns_8ns_16_1_1_U60                                |     |        | mul_ln104_3                  | mul       | auto      | 0       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U67                    | 1   |        | mul_ln104_4                  | mul       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U67                    | 1   |        | zext_ln104_29                | zext      | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U66                    | 1   |        | mul_ln104_5                  | mul       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U66                    | 1   |        | zext_ln104_30                | zext      | dsp_slice | 3       |
-|    mul_8ns_8ns_16_1_1_U62                                |     |        | mul_ln104_6                  | mul       | auto      | 0       |
-|    mac_muladd_8ns_8ns_17ns_18_4_1_U69                    | 1   |        | mul_ln104_7                  | mul       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_17ns_18_4_1_U69                    | 1   |        | zext_ln104_32                | zext      | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U65                    | 1   |        | mul_ln104_8                  | mul       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U65                    | 1   |        | zext_ln104_33                | zext      | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U65                    | 1   |        | add_ln104_6                  | add       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U66                    | 1   |        | add_ln104_7                  | add       | dsp_slice | 3       |
-|    add_ln104_8_fu_1277_p2                                |     |        | add_ln104_8                  | add       | fabric    | 0       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U67                    | 1   |        | add_ln104_9                  | add       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U68                    | 1   |        | add_ln104_10                 | add       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_17ns_18_4_1_U69                    | 1   |        | add_ln104_11                 | add       | dsp_slice | 3       |
-|    add_ln104_12_fu_1426_p2                               |     |        | add_ln104_12                 | add       | fabric    | 0       |
-|    grp_fu_1452_p0                                        |     |        | sum                          | add       | fabric    | 0       |
-|    select_ln107_fu_1442_p3                               |     |        | select_ln107                 | select    | auto_sel  | 0       |
-|    udiv_20ns_12ns_8_24_1_U64                             |     |        | udiv_ln107                   | udiv      | auto      | 23      |
-|    add_ln107_fu_716_p2                                   |     |        | add_ln107                    | add       | fabric    | 0       |
-|    add_ln107_3_fu_1469_p2                                |     |        | add_ln107_3                  | add       | fabric    | 0       |
-|    shl_ln107_fu_1493_p2                                  |     |        | shl_ln107                    | shl       | auto_pipe | 0       |
-|    shl_ln107_2_fu_1528_p2                                |     |        | shl_ln107_2                  | shl       | auto_pipe | 0       |
-|  + edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2 | 0   |        |                              |           |           |         |
-|    icmp_ln127_fu_140_p2                                  |     |        | icmp_ln127                   | seteq     | auto      | 0       |
-|    add_ln127_fu_146_p2                                   |     |        | add_ln127                    | add       | fabric    | 0       |
-|    icmp_ln129_fu_158_p2                                  |     |        | icmp_ln129                   | seteq     | auto      | 0       |
-|    select_ln117_fu_164_p3                                |     |        | select_ln117                 | select    | auto_sel  | 0       |
-|    add_ln127_1_fu_172_p2                                 |     |        | add_ln127_1                  | add       | fabric    | 0       |
-|    select_ln127_fu_178_p3                                |     |        | select_ln127                 | select    | auto_sel  | 0       |
+|    add_ln87_fu_238_p2                                    |     |        | add_ln87                     | add       | fabric    | 0       |
+|  + edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4   | 5   |        |                              |           |           |         |
+|    icmp_ln96_fu_615_p2                                   |     |        | icmp_ln96                    | seteq     | auto      | 0       |
+|    add_ln96_fu_621_p2                                    |     |        | add_ln96                     | add       | fabric    | 0       |
+|    icmp_ln98_fu_633_p2                                   |     |        | icmp_ln98                    | seteq     | auto      | 0       |
+|    select_ln75_fu_639_p3                                 |     |        | select_ln75                  | select    | auto_sel  | 0       |
+|    indvars_iv_next25_i33_dup449_fu_647_p2                |     |        | indvars_iv_next25_i33_dup449 | add       | fabric    | 0       |
+|    select_ln96_fu_653_p3                                 |     |        | select_ln96                  | select    | auto_sel  | 0       |
+|    empty_fu_685_p2                                       |     |        | empty                        | add       | fabric    | 0       |
+|    add_ln101_fu_695_p2                                   |     |        | add_ln101                    | add       | fabric    | 0       |
+|    empty_31_fu_705_p2                                    |     |        | empty_31                     | add       | fabric    | 0       |
+|    lshr_ln105_fu_1070_p2                                 |     |        | lshr_ln105                   | lshr      | auto_pipe | 0       |
+|    lshr_ln105_1_fu_1082_p2                               |     |        | lshr_ln105_1                 | lshr      | auto_pipe | 0       |
+|    add_ln105_fu_761_p2                                   |     |        | add_ln105                    | add       | fabric    | 0       |
+|    lshr_ln105_2_fu_1105_p2                               |     |        | lshr_ln105_2                 | lshr      | auto_pipe | 0       |
+|    lshr_ln105_3_fu_1117_p2                               |     |        | lshr_ln105_3                 | lshr      | auto_pipe | 0       |
+|    add_ln105_1_fu_796_p2                                 |     |        | add_ln105_1                  | add       | fabric    | 0       |
+|    lshr_ln105_4_fu_1150_p2                               |     |        | lshr_ln105_4                 | lshr      | auto_pipe | 0       |
+|    lshr_ln105_5_fu_1162_p2                               |     |        | lshr_ln105_5                 | lshr      | auto_pipe | 0       |
+|    tmp20_fu_831_p2                                       |     |        | tmp20                        | add       | fabric    | 0       |
+|    empty_32_fu_840_p2                                    |     |        | empty_32                     | add       | fabric    | 0       |
+|    lshr_ln105_6_fu_1191_p2                               |     |        | lshr_ln105_6                 | lshr      | auto_pipe | 0       |
+|    lshr_ln105_7_fu_1203_p2                               |     |        | lshr_ln105_7                 | lshr      | auto_pipe | 0       |
+|    add_ln105_2_fu_875_p2                                 |     |        | add_ln105_2                  | add       | fabric    | 0       |
+|    lshr_ln105_8_fu_1226_p2                               |     |        | lshr_ln105_8                 | lshr      | auto_pipe | 0       |
+|    lshr_ln105_9_fu_1238_p2                               |     |        | lshr_ln105_9                 | lshr      | auto_pipe | 0       |
+|    add_ln105_3_fu_910_p2                                 |     |        | add_ln105_3                  | add       | fabric    | 0       |
+|    lshr_ln105_10_fu_1270_p2                              |     |        | lshr_ln105_10                | lshr      | auto_pipe | 0       |
+|    lshr_ln105_11_fu_1294_p2                              |     |        | lshr_ln105_11                | lshr      | auto_pipe | 0       |
+|    tmp21_fu_945_p2                                       |     |        | tmp21                        | add       | fabric    | 0       |
+|    empty_33_fu_954_p2                                    |     |        | empty_33                     | add       | fabric    | 0       |
+|    lshr_ln105_12_fu_1317_p2                              |     |        | lshr_ln105_12                | lshr      | auto_pipe | 0       |
+|    lshr_ln105_13_fu_1326_p2                              |     |        | lshr_ln105_13                | lshr      | auto_pipe | 0       |
+|    add_ln105_4_fu_989_p2                                 |     |        | add_ln105_4                  | add       | fabric    | 0       |
+|    lshr_ln105_14_fu_1348_p2                              |     |        | lshr_ln105_14                | lshr      | auto_pipe | 0       |
+|    lshr_ln105_15_fu_1360_p2                              |     |        | lshr_ln105_15                | lshr      | auto_pipe | 0       |
+|    add_ln105_5_fu_1024_p2                                |     |        | add_ln105_5                  | add       | fabric    | 0       |
+|    lshr_ln105_16_fu_1389_p2                              |     |        | lshr_ln105_16                | lshr      | auto_pipe | 0       |
+|    lshr_ln105_17_fu_1401_p2                              |     |        | lshr_ln105_17                | lshr      | auto_pipe | 0       |
+|    mul_8ns_8ns_16_1_1_U63                                |     |        | mul_ln105                    | mul       | auto      | 0       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U68                    | 1   |        | mul_ln105_1                  | mul       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U68                    | 1   |        | zext_ln105_26                | zext      | dsp_slice | 3       |
+|    mul_8ns_8ns_16_1_1_U61                                |     |        | mul_ln105_2                  | mul       | auto      | 0       |
+|    mul_8ns_8ns_16_1_1_U60                                |     |        | mul_ln105_3                  | mul       | auto      | 0       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U67                    | 1   |        | mul_ln105_4                  | mul       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U67                    | 1   |        | zext_ln105_29                | zext      | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U66                    | 1   |        | mul_ln105_5                  | mul       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U66                    | 1   |        | zext_ln105_30                | zext      | dsp_slice | 3       |
+|    mul_8ns_8ns_16_1_1_U62                                |     |        | mul_ln105_6                  | mul       | auto      | 0       |
+|    mac_muladd_8ns_8ns_17ns_18_4_1_U69                    | 1   |        | mul_ln105_7                  | mul       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_17ns_18_4_1_U69                    | 1   |        | zext_ln105_32                | zext      | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U65                    | 1   |        | mul_ln105_8                  | mul       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U65                    | 1   |        | zext_ln105_33                | zext      | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U65                    | 1   |        | add_ln105_6                  | add       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U66                    | 1   |        | add_ln105_7                  | add       | dsp_slice | 3       |
+|    add_ln105_8_fu_1285_p2                                |     |        | add_ln105_8                  | add       | fabric    | 0       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U67                    | 1   |        | add_ln105_9                  | add       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U68                    | 1   |        | add_ln105_10                 | add       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_17ns_18_4_1_U69                    | 1   |        | add_ln105_11                 | add       | dsp_slice | 3       |
+|    add_ln105_12_fu_1434_p2                               |     |        | add_ln105_12                 | add       | fabric    | 0       |
+|    sum_fu_1444_p2                                        |     |        | sum                          | add       | fabric    | 0       |
+|    select_ln108_fu_1450_p3                               |     |        | select_ln108                 | select    | auto_sel  | 0       |
+|    udiv_20ns_12ns_8_24_1_U64                             |     |        | udiv_ln108                   | udiv      | auto      | 23      |
+|    icmp_ln108_fu_1474_p2                                 |     |        | icmp_ln108                   | setlt     | auto      | 0       |
+|    xor_ln108_fu_1531_p2                                  |     |        | xor_ln108                    | xor       | auto      | 0       |
+|    pixel_fu_1540_p3                                      |     |        | pixel                        | select    | auto_sel  | 0       |
+|    add_ln109_fu_724_p2                                   |     |        | add_ln109                    | add       | fabric    | 0       |
+|    add_ln109_3_fu_1491_p2                                |     |        | add_ln109_3                  | add       | fabric    | 0       |
+|    shl_ln109_fu_1515_p2                                  |     |        | shl_ln109                    | shl       | auto_pipe | 0       |
+|    shl_ln109_2_fu_1563_p2                                |     |        | shl_ln109_2                  | shl       | auto_pipe | 0       |
+|  + edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2 | 0   |        |                              |           |           |         |
+|    icmp_ln129_fu_140_p2                                  |     |        | icmp_ln129                   | seteq     | auto      | 0       |
+|    add_ln129_fu_146_p2                                   |     |        | add_ln129                    | add       | fabric    | 0       |
+|    icmp_ln131_fu_158_p2                                  |     |        | icmp_ln131                   | seteq     | auto      | 0       |
+|    select_ln119_fu_164_p3                                |     |        | select_ln119                 | select    | auto_sel  | 0       |
+|    add_ln129_1_fu_172_p2                                 |     |        | add_ln129_1                  | add       | fabric    | 0       |
+|    select_ln129_fu_178_p3                                |     |        | select_ln129                 | select    | auto_sel  | 0       |
 |    empty_fu_198_p2                                       |     |        | empty                        | sub       | fabric    | 0       |
-|    lshr_ln131_fu_283_p2                                  |     |        | lshr_ln131                   | lshr      | auto_pipe | 0       |
+|    lshr_ln133_fu_283_p2                                  |     |        | lshr_ln133                   | lshr      | auto_pipe | 0       |
 |    neg5_fu_292_p2                                        |     |        | neg5                         | sub       | fabric    | 0       |
 |    abscond6_fu_298_p2                                    |     |        | abscond6                     | setne     | auto      | 0       |
 |    abs7_fu_304_p3                                        |     |        | abs7                         | select    | auto_sel  | 0       |
 |    normal_factor_4_fu_316_p2                             |     |        | normal_factor_4              | add       | fabric    | 0       |
-|    add_ln129_fu_238_p2                                   |     |        | add_ln129                    | add       | fabric    | 0       |
-|  + edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4 | 5   |        |                              |           |           |         |
-|    icmp_ln138_fu_607_p2                                  |     |        | icmp_ln138                   | seteq     | auto      | 0       |
-|    add_ln138_fu_613_p2                                   |     |        | add_ln138                    | add       | fabric    | 0       |
-|    icmp_ln140_fu_625_p2                                  |     |        | icmp_ln140                   | seteq     | auto      | 0       |
-|    select_ln117_fu_631_p3                                |     |        | select_ln117                 | select    | auto_sel  | 0       |
-|    indvars_iv_next25_i85_dup455_fu_639_p2                |     |        | indvars_iv_next25_i85_dup455 | add       | fabric    | 0       |
-|    select_ln138_fu_645_p3                                |     |        | select_ln138                 | select    | auto_sel  | 0       |
-|    empty_fu_677_p2                                       |     |        | empty                        | add       | fabric    | 0       |
-|    add_ln143_fu_687_p2                                   |     |        | add_ln143                    | add       | fabric    | 0       |
-|    empty_43_fu_697_p2                                    |     |        | empty_43                     | add       | fabric    | 0       |
-|    lshr_ln147_fu_1062_p2                                 |     |        | lshr_ln147                   | lshr      | auto_pipe | 0       |
-|    lshr_ln147_1_fu_1074_p2                               |     |        | lshr_ln147_1                 | lshr      | auto_pipe | 0       |
-|    add_ln147_fu_753_p2                                   |     |        | add_ln147                    | add       | fabric    | 0       |
-|    lshr_ln147_2_fu_1097_p2                               |     |        | lshr_ln147_2                 | lshr      | auto_pipe | 0       |
-|    lshr_ln147_3_fu_1109_p2                               |     |        | lshr_ln147_3                 | lshr      | auto_pipe | 0       |
-|    add_ln147_1_fu_788_p2                                 |     |        | add_ln147_1                  | add       | fabric    | 0       |
-|    lshr_ln147_4_fu_1142_p2                               |     |        | lshr_ln147_4                 | lshr      | auto_pipe | 0       |
-|    lshr_ln147_5_fu_1154_p2                               |     |        | lshr_ln147_5                 | lshr      | auto_pipe | 0       |
-|    tmp33_fu_823_p2                                       |     |        | tmp33                        | add       | fabric    | 0       |
-|    empty_44_fu_832_p2                                    |     |        | empty_44                     | add       | fabric    | 0       |
-|    lshr_ln147_6_fu_1183_p2                               |     |        | lshr_ln147_6                 | lshr      | auto_pipe | 0       |
-|    lshr_ln147_7_fu_1195_p2                               |     |        | lshr_ln147_7                 | lshr      | auto_pipe | 0       |
-|    add_ln147_2_fu_867_p2                                 |     |        | add_ln147_2                  | add       | fabric    | 0       |
-|    lshr_ln147_8_fu_1218_p2                               |     |        | lshr_ln147_8                 | lshr      | auto_pipe | 0       |
-|    lshr_ln147_9_fu_1230_p2                               |     |        | lshr_ln147_9                 | lshr      | auto_pipe | 0       |
-|    add_ln147_3_fu_902_p2                                 |     |        | add_ln147_3                  | add       | fabric    | 0       |
-|    lshr_ln147_10_fu_1262_p2                              |     |        | lshr_ln147_10                | lshr      | auto_pipe | 0       |
-|    lshr_ln147_11_fu_1286_p2                              |     |        | lshr_ln147_11                | lshr      | auto_pipe | 0       |
-|    tmp34_fu_937_p2                                       |     |        | tmp34                        | add       | fabric    | 0       |
-|    empty_45_fu_946_p2                                    |     |        | empty_45                     | add       | fabric    | 0       |
-|    lshr_ln147_12_fu_1309_p2                              |     |        | lshr_ln147_12                | lshr      | auto_pipe | 0       |
-|    lshr_ln147_13_fu_1318_p2                              |     |        | lshr_ln147_13                | lshr      | auto_pipe | 0       |
-|    add_ln147_4_fu_981_p2                                 |     |        | add_ln147_4                  | add       | fabric    | 0       |
-|    lshr_ln147_14_fu_1340_p2                              |     |        | lshr_ln147_14                | lshr      | auto_pipe | 0       |
-|    lshr_ln147_15_fu_1352_p2                              |     |        | lshr_ln147_15                | lshr      | auto_pipe | 0       |
-|    add_ln147_5_fu_1016_p2                                |     |        | add_ln147_5                  | add       | fabric    | 0       |
-|    lshr_ln147_16_fu_1381_p2                              |     |        | lshr_ln147_16                | lshr      | auto_pipe | 0       |
-|    lshr_ln147_17_fu_1393_p2                              |     |        | lshr_ln147_17                | lshr      | auto_pipe | 0       |
-|    mul_8ns_8ns_16_1_1_U99                                |     |        | mul_ln147                    | mul       | auto      | 0       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U104                   | 1   |        | mul_ln147_1                  | mul       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U104                   | 1   |        | zext_ln147_26                | zext      | dsp_slice | 3       |
-|    mul_8ns_8ns_16_1_1_U97                                |     |        | mul_ln147_2                  | mul       | auto      | 0       |
-|    mul_8ns_8ns_16_1_1_U96                                |     |        | mul_ln147_3                  | mul       | auto      | 0       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U103                   | 1   |        | mul_ln147_4                  | mul       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U103                   | 1   |        | zext_ln147_29                | zext      | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U102                   | 1   |        | mul_ln147_5                  | mul       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U102                   | 1   |        | zext_ln147_30                | zext      | dsp_slice | 3       |
-|    mul_8ns_8ns_16_1_1_U98                                |     |        | mul_ln147_6                  | mul       | auto      | 0       |
-|    mac_muladd_8ns_8ns_17ns_18_4_1_U105                   | 1   |        | mul_ln147_7                  | mul       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_17ns_18_4_1_U105                   | 1   |        | zext_ln147_32                | zext      | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U101                   | 1   |        | mul_ln147_8                  | mul       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U101                   | 1   |        | zext_ln147_33                | zext      | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U101                   | 1   |        | add_ln147_6                  | add       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U102                   | 1   |        | add_ln147_7                  | add       | dsp_slice | 3       |
-|    add_ln147_8_fu_1277_p2                                |     |        | add_ln147_8                  | add       | fabric    | 0       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U103                   | 1   |        | add_ln147_9                  | add       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_16ns_17_4_1_U104                   | 1   |        | add_ln147_10                 | add       | dsp_slice | 3       |
-|    mac_muladd_8ns_8ns_17ns_18_4_1_U105                   | 1   |        | add_ln147_11                 | add       | dsp_slice | 3       |
-|    add_ln147_12_fu_1426_p2                               |     |        | add_ln147_12                 | add       | fabric    | 0       |
-|    grp_fu_1452_p0                                        |     |        | sum                          | add       | fabric    | 0       |
-|    select_ln150_fu_1442_p3                               |     |        | select_ln150                 | select    | auto_sel  | 0       |
-|    udiv_20ns_12ns_8_24_1_U100                            |     |        | udiv_ln150                   | udiv      | auto      | 23      |
-|    add_ln150_fu_716_p2                                   |     |        | add_ln150                    | add       | fabric    | 0       |
-|    add_ln150_3_fu_1469_p2                                |     |        | add_ln150_3                  | add       | fabric    | 0       |
-|    shl_ln150_fu_1493_p2                                  |     |        | shl_ln150                    | shl       | auto_pipe | 0       |
-|    shl_ln150_2_fu_1528_p2                                |     |        | shl_ln150_2                  | shl       | auto_pipe | 0       |
-|  + edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2 | 0   |        |                              |           |           |         |
-|    icmp_ln162_fu_243_p2                                  |     |        | icmp_ln162                   | seteq     | auto      | 0       |
-|    add_ln162_fu_249_p2                                   |     |        | add_ln162                    | add       | fabric    | 0       |
-|    icmp_ln164_fu_261_p2                                  |     |        | icmp_ln164                   | seteq     | auto      | 0       |
-|    select_ln157_fu_267_p3                                |     |        | select_ln157                 | select    | auto_sel  | 0       |
-|    select_ln157_1_fu_419_p3                              |     |        | select_ln157_1               | select    | auto_sel  | 0       |
-|    select_ln157_2_fu_426_p3                              |     |        | select_ln157_2               | select    | auto_sel  | 0       |
-|    select_ln157_3_fu_433_p3                              |     |        | select_ln157_3               | select    | auto_sel  | 0       |
-|    add_ln162_1_fu_275_p2                                 |     |        | add_ln162_1                  | add       | fabric    | 0       |
-|    select_ln162_fu_281_p3                                |     |        | select_ln162                 | select    | auto_sel  | 0       |
-|    icmp_ln167_fu_347_p2                                  |     |        | icmp_ln167                   | seteq     | auto      | 0       |
-|    add_ln167_1_fu_353_p2                                 |     |        | add_ln167_1                  | add       | fabric    | 0       |
-|    add_ln168_fu_358_p2                                   |     |        | add_ln168                    | add       | fabric    | 0       |
+|    add_ln131_fu_238_p2                                   |     |        | add_ln131                    | add       | fabric    | 0       |
+|  + edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4 | 5   |        |                              |           |           |         |
+|    icmp_ln140_fu_615_p2                                  |     |        | icmp_ln140                   | seteq     | auto      | 0       |
+|    add_ln140_fu_621_p2                                   |     |        | add_ln140                    | add       | fabric    | 0       |
+|    icmp_ln142_fu_633_p2                                  |     |        | icmp_ln142                   | seteq     | auto      | 0       |
+|    select_ln119_fu_639_p3                                |     |        | select_ln119                 | select    | auto_sel  | 0       |
+|    indvars_iv_next25_i87_dup455_fu_647_p2                |     |        | indvars_iv_next25_i87_dup455 | add       | fabric    | 0       |
+|    select_ln140_fu_653_p3                                |     |        | select_ln140                 | select    | auto_sel  | 0       |
+|    empty_fu_685_p2                                       |     |        | empty                        | add       | fabric    | 0       |
+|    add_ln145_fu_695_p2                                   |     |        | add_ln145                    | add       | fabric    | 0       |
+|    empty_43_fu_705_p2                                    |     |        | empty_43                     | add       | fabric    | 0       |
+|    lshr_ln149_fu_1070_p2                                 |     |        | lshr_ln149                   | lshr      | auto_pipe | 0       |
+|    lshr_ln149_1_fu_1082_p2                               |     |        | lshr_ln149_1                 | lshr      | auto_pipe | 0       |
+|    add_ln149_fu_761_p2                                   |     |        | add_ln149                    | add       | fabric    | 0       |
+|    lshr_ln149_2_fu_1105_p2                               |     |        | lshr_ln149_2                 | lshr      | auto_pipe | 0       |
+|    lshr_ln149_3_fu_1117_p2                               |     |        | lshr_ln149_3                 | lshr      | auto_pipe | 0       |
+|    add_ln149_1_fu_796_p2                                 |     |        | add_ln149_1                  | add       | fabric    | 0       |
+|    lshr_ln149_4_fu_1150_p2                               |     |        | lshr_ln149_4                 | lshr      | auto_pipe | 0       |
+|    lshr_ln149_5_fu_1162_p2                               |     |        | lshr_ln149_5                 | lshr      | auto_pipe | 0       |
+|    tmp33_fu_831_p2                                       |     |        | tmp33                        | add       | fabric    | 0       |
+|    empty_44_fu_840_p2                                    |     |        | empty_44                     | add       | fabric    | 0       |
+|    lshr_ln149_6_fu_1191_p2                               |     |        | lshr_ln149_6                 | lshr      | auto_pipe | 0       |
+|    lshr_ln149_7_fu_1203_p2                               |     |        | lshr_ln149_7                 | lshr      | auto_pipe | 0       |
+|    add_ln149_2_fu_875_p2                                 |     |        | add_ln149_2                  | add       | fabric    | 0       |
+|    lshr_ln149_8_fu_1226_p2                               |     |        | lshr_ln149_8                 | lshr      | auto_pipe | 0       |
+|    lshr_ln149_9_fu_1238_p2                               |     |        | lshr_ln149_9                 | lshr      | auto_pipe | 0       |
+|    add_ln149_3_fu_910_p2                                 |     |        | add_ln149_3                  | add       | fabric    | 0       |
+|    lshr_ln149_10_fu_1270_p2                              |     |        | lshr_ln149_10                | lshr      | auto_pipe | 0       |
+|    lshr_ln149_11_fu_1294_p2                              |     |        | lshr_ln149_11                | lshr      | auto_pipe | 0       |
+|    tmp34_fu_945_p2                                       |     |        | tmp34                        | add       | fabric    | 0       |
+|    empty_45_fu_954_p2                                    |     |        | empty_45                     | add       | fabric    | 0       |
+|    lshr_ln149_12_fu_1317_p2                              |     |        | lshr_ln149_12                | lshr      | auto_pipe | 0       |
+|    lshr_ln149_13_fu_1326_p2                              |     |        | lshr_ln149_13                | lshr      | auto_pipe | 0       |
+|    add_ln149_4_fu_989_p2                                 |     |        | add_ln149_4                  | add       | fabric    | 0       |
+|    lshr_ln149_14_fu_1348_p2                              |     |        | lshr_ln149_14                | lshr      | auto_pipe | 0       |
+|    lshr_ln149_15_fu_1360_p2                              |     |        | lshr_ln149_15                | lshr      | auto_pipe | 0       |
+|    add_ln149_5_fu_1024_p2                                |     |        | add_ln149_5                  | add       | fabric    | 0       |
+|    lshr_ln149_16_fu_1389_p2                              |     |        | lshr_ln149_16                | lshr      | auto_pipe | 0       |
+|    lshr_ln149_17_fu_1401_p2                              |     |        | lshr_ln149_17                | lshr      | auto_pipe | 0       |
+|    mul_8ns_8ns_16_1_1_U99                                |     |        | mul_ln149                    | mul       | auto      | 0       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U104                   | 1   |        | mul_ln149_1                  | mul       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U104                   | 1   |        | zext_ln149_26                | zext      | dsp_slice | 3       |
+|    mul_8ns_8ns_16_1_1_U97                                |     |        | mul_ln149_2                  | mul       | auto      | 0       |
+|    mul_8ns_8ns_16_1_1_U96                                |     |        | mul_ln149_3                  | mul       | auto      | 0       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U103                   | 1   |        | mul_ln149_4                  | mul       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U103                   | 1   |        | zext_ln149_29                | zext      | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U102                   | 1   |        | mul_ln149_5                  | mul       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U102                   | 1   |        | zext_ln149_30                | zext      | dsp_slice | 3       |
+|    mul_8ns_8ns_16_1_1_U98                                |     |        | mul_ln149_6                  | mul       | auto      | 0       |
+|    mac_muladd_8ns_8ns_17ns_18_4_1_U105                   | 1   |        | mul_ln149_7                  | mul       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_17ns_18_4_1_U105                   | 1   |        | zext_ln149_32                | zext      | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U101                   | 1   |        | mul_ln149_8                  | mul       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U101                   | 1   |        | zext_ln149_33                | zext      | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U101                   | 1   |        | add_ln149_6                  | add       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U102                   | 1   |        | add_ln149_7                  | add       | dsp_slice | 3       |
+|    add_ln149_8_fu_1285_p2                                |     |        | add_ln149_8                  | add       | fabric    | 0       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U103                   | 1   |        | add_ln149_9                  | add       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_16ns_17_4_1_U104                   | 1   |        | add_ln149_10                 | add       | dsp_slice | 3       |
+|    mac_muladd_8ns_8ns_17ns_18_4_1_U105                   | 1   |        | add_ln149_11                 | add       | dsp_slice | 3       |
+|    add_ln149_12_fu_1434_p2                               |     |        | add_ln149_12                 | add       | fabric    | 0       |
+|    sum_fu_1444_p2                                        |     |        | sum                          | add       | fabric    | 0       |
+|    select_ln152_fu_1450_p3                               |     |        | select_ln152                 | select    | auto_sel  | 0       |
+|    udiv_20ns_12ns_8_24_1_U100                            |     |        | udiv_ln152                   | udiv      | auto      | 23      |
+|    icmp_ln152_fu_1474_p2                                 |     |        | icmp_ln152                   | setlt     | auto      | 0       |
+|    xor_ln152_fu_1531_p2                                  |     |        | xor_ln152                    | xor       | auto      | 0       |
+|    pixel_fu_1540_p3                                      |     |        | pixel                        | select    | auto_sel  | 0       |
+|    add_ln153_fu_724_p2                                   |     |        | add_ln153                    | add       | fabric    | 0       |
+|    add_ln153_3_fu_1491_p2                                |     |        | add_ln153_3                  | add       | fabric    | 0       |
+|    shl_ln153_fu_1515_p2                                  |     |        | shl_ln153                    | shl       | auto_pipe | 0       |
+|    shl_ln153_2_fu_1563_p2                                |     |        | shl_ln153_2                  | shl       | auto_pipe | 0       |
+|  + edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2 | 0   |        |                              |           |           |         |
+|    icmp_ln165_fu_243_p2                                  |     |        | icmp_ln165                   | seteq     | auto      | 0       |
+|    add_ln165_fu_249_p2                                   |     |        | add_ln165                    | add       | fabric    | 0       |
+|    icmp_ln167_fu_261_p2                                  |     |        | icmp_ln167                   | seteq     | auto      | 0       |
+|    select_ln160_fu_267_p3                                |     |        | select_ln160                 | select    | auto_sel  | 0       |
+|    select_ln160_1_fu_419_p3                              |     |        | select_ln160_1               | select    | auto_sel  | 0       |
+|    select_ln160_2_fu_426_p3                              |     |        | select_ln160_2               | select    | auto_sel  | 0       |
+|    select_ln160_3_fu_433_p3                              |     |        | select_ln160_3               | select    | auto_sel  | 0       |
+|    add_ln165_1_fu_275_p2                                 |     |        | add_ln165_1                  | add       | fabric    | 0       |
+|    select_ln165_fu_281_p3                                |     |        | select_ln165                 | select    | auto_sel  | 0       |
+|    icmp_ln170_fu_347_p2                                  |     |        | icmp_ln170                   | seteq     | auto      | 0       |
+|    add_ln170_1_fu_353_p2                                 |     |        | add_ln170_1                  | add       | fabric    | 0       |
+|    add_ln171_fu_358_p2                                   |     |        | add_ln171                    | add       | fabric    | 0       |
 |    neg8_fu_462_p2                                        |     |        | neg8                         | sub       | fabric    | 0       |
 |    abscond9_fu_468_p2                                    |     |        | abscond9                     | setne     | auto      | 0       |
 |    temp1_fu_474_p3                                       |     |        | temp1                        | select    | auto_sel  | 0       |
 |    neg11_fu_496_p2                                       |     |        | neg11                        | sub       | fabric    | 0       |
 |    abscond12_fu_502_p2                                   |     |        | abscond12                    | setne     | auto      | 0       |
 |    temp2_fu_508_p3                                       |     |        | temp2                        | select    | auto_sel  | 0       |
-|    icmp_ln169_fu_516_p2                                  |     |        | icmp_ln169                   | setgt     | auto      | 0       |
+|    icmp_ln172_fu_516_p2                                  |     |        | icmp_ln172                   | setgt     | auto      | 0       |
 |    temp3_fu_522_p3                                       |     |        | temp3                        | select    | auto_sel  | 0       |
-|    icmp_ln170_fu_530_p2                                  |     |        | icmp_ln170                   | setgt     | auto      | 0       |
-|    icmp_ln170_1_fu_363_p2                                |     |        | icmp_ln170_1                 | seteq     | auto      | 0       |
-|    add_ln164_fu_369_p2                                   |     |        | add_ln164                    | add       | fabric    | 0       |
-|    select_ln170_fu_557_p3                                |     |        | select_ln170                 | select    | auto_sel  | 0       |
+|    icmp_ln173_fu_530_p2                                  |     |        | icmp_ln173                   | setgt     | auto      | 0       |
+|    icmp_ln173_1_fu_363_p2                                |     |        | icmp_ln173_1                 | seteq     | auto      | 0       |
+|    add_ln167_fu_369_p2                                   |     |        | add_ln167                    | add       | fabric    | 0       |
+|    select_ln173_fu_557_p3                                |     |        | select_ln173                 | select    | auto_sel  | 0       |
 +----------------------------------------------------------+-----+--------+------------------------------+-----------+-----------+---------+
 
 
@@ -609,10 +618,10 @@
 == Pragma Report
 ================================================================
 * Valid Pragma Syntax
-+----------+---------+--------------------------------------------+
-| Type     | Options | Location                                   |
-+----------+---------+--------------------------------------------+
-| pipeline |         | ../src/edgedetect.cpp:166 in combthreshold |
-+----------+---------+--------------------------------------------+
++----------+---------+--------------------------------------------------------------------+
+| Type     | Options | Location                                                           |
++----------+---------+--------------------------------------------------------------------+
+| pipeline |         | ../EdgedetectBaseline_host/src/edgedetect.cpp:169 in combthreshold |
++----------+---------+--------------------------------------------------------------------+
 
 

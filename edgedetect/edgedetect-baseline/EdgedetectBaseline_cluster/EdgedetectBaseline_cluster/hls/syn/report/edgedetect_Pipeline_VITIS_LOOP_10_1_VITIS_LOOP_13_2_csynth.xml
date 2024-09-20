@@ -46,13 +46,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../src/edgedetect.cpp:13~../src/edgedetect.cpp:221</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:13~../EdgedetectBaseline_host/src/edgedetect.cpp:224</SourceLocation>
 <SummaryOfLoopViolations>
 <VITIS_LOOP_10_1_VITIS_LOOP_13_2>
 <Name>VITIS_LOOP_10_1_VITIS_LOOP_13_2</Name>
 <IssueType>II Violation</IssueType>
 <ViolationType>Resource Limitation</ViolationType>
-<SourceLocation>../src/edgedetect.cpp:10~../src/edgedetect.cpp:221</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:10~../EdgedetectBaseline_host/src/edgedetect.cpp:224</SourceLocation>
 </VITIS_LOOP_10_1_VITIS_LOOP_13_2>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>

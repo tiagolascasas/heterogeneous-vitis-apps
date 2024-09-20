@@ -3,10 +3,10 @@
     "basicblocks": 42,
     "calls": "1",
     "file": "edgedetect.cpp",
-    "fileloc": 214,
-    "instructions": 833,
+    "fileloc": 217,
+    "instructions": 839,
     "name": "edgedetect",
-    "total_instructions": 878
+    "total_instructions": 884
   },
   "1": {
     "basicblocks": 9,

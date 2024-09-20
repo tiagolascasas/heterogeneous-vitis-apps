@@ -85,85 +85,85 @@
             <obj_property name="Value_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4_fu_231/grp_edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4_fu_231_activity.dataflowTxWaveData.OutStanding</obj_property>
             <obj_property name="Detail_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4_fu_231/grp_edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4_fu_231_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259/grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259_activity">
-            <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259/grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259_activity">
+            <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259_activity</obj_property>
+            <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259/grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259/grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259/grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259/grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259/grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259/grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267/grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267_activity">
-            <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267/grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267_activity">
+            <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267_activity</obj_property>
+            <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267/grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267/grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267/grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267/grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267/grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267/grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295/grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295_activity">
-            <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295/grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295_activity">
+            <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295_activity</obj_property>
+            <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295/grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295/grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295/grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295/grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295/grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295/grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303/grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303_activity">
-            <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303/grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303_activity">
+            <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303_activity</obj_property>
+            <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303/grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303/grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303/grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303/grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303/grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303/grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331/grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331_activity">
-            <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331/grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331_activity">
+            <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331_activity</obj_property>
+            <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331/grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331/grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331/grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331/grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331/grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331/grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
       </wvobject>
    </wvobject>
@@ -186,25 +186,25 @@
          <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4_fu_231_activity</obj_property>
          <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4_fu_231_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259/grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259_activity">
-         <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259/grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259_activity">
+         <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267/grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267_activity">
-         <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267/grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267_activity">
+         <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295/grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295_activity">
-         <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295/grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295_activity">
+         <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303/grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303_activity">
-         <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303/grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303_activity">
+         <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331/grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331_activity">
-         <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331/grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331_activity">
+         <obj_property name="ElementShortName">grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331_activity</obj_property>
       </wvobject>
       <wvobject type="group" fp_name="AESL_inst_edgedetect_Handshake_group">
          <obj_property name="label">Block-level handshake</obj_property>
@@ -286,101 +286,101 @@
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259_group">
-         <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259</obj_property>
+      <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259_group">
+         <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259_Handshake_group">
+         <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259/ap_start">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2_fu_259/ap_done">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2_fu_259/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267_group">
-         <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267</obj_property>
+      <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267_group">
+         <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267_Handshake_group">
+         <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267/ap_start">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4_fu_267/ap_done">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4_fu_267/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295_group">
-         <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295</obj_property>
+      <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295_group">
+         <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295_Handshake_group">
+         <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295/ap_start">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2_fu_295/ap_done">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2_fu_295/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303_group">
-         <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303</obj_property>
+      <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303_group">
+         <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303_Handshake_group">
+         <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303/ap_start">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4_fu_303/ap_done">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4_fu_303/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331_group">
-         <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331</obj_property>
+      <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331_group">
+         <obj_property name="label">grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331_Handshake_group">
+         <wvobject type="group" fp_name="grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331/ap_start">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2_fu_331/ap_done">
+            <wvobject type="logic" fp_name="/apatb_edgedetect_top/AESL_inst_edgedetect/grp_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2_fu_331/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>

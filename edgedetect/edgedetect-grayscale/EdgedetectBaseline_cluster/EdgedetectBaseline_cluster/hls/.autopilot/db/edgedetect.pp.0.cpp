@@ -1,4 +1,4 @@
-# 1 "../src/edgedetect.cpp"
+# 1 "../EdgedetectBaseline_host/src/edgedetect.cpp"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 376 "<built-in>" 3
@@ -152,7 +152,7 @@ extern "C" {
 
 }
 # 2 "<built-in>" 2
-# 1 "../src/edgedetect.cpp" 2
+# 1 "../EdgedetectBaseline_host/src/edgedetect.cpp" 2
 # 1 "/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath" 1 3
 # 40 "/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath" 3
 
@@ -6649,25 +6649,23 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 2 "../src/edgedetect.cpp" 2
+# 2 "../EdgedetectBaseline_host/src/edgedetect.cpp" 2
 
 
 
 
 
 
-__attribute__((sdx_kernel("edgedetect", 0))) void edgedetect(unsigned char input_image[480 * 640 * 3],
-                 unsigned char output_image[480 * 640])
+__attribute__((sdx_kernel("edgedetect", 0))) void edgedetect(unsigned char input_image[480 * 640 * 3], unsigned char output_image[480 * 640])
 {
 #line 1 "directive"
 #pragma HLSDIRECTIVE TOP name=edgedetect
-# 10 "../src/edgedetect.cpp"
+# 9 "../EdgedetectBaseline_host/src/edgedetect.cpp"
 
-
-    VITIS_LOOP_12_1: for (int i = 0; i < 480; i++)
+    VITIS_LOOP_10_1: for (int i = 0; i < 480; i++)
     {
         int jj = 0;
-        VITIS_LOOP_15_2: for (int j = 0; j < 640; j++)
+        VITIS_LOOP_13_2: for (int j = 0; j < 640; j++)
         {
             unsigned char r = input_image[i * 640 * 3 + jj];
             unsigned char g = input_image[i * 640 * 3 + jj + 1];

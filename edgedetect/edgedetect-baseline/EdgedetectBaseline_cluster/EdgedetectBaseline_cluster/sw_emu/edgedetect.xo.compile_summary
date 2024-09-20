@@ -9,13 +9,13 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "Fri Sep 20 02:12:29 2024",
- "timestampMillis": "1726794749842",
+ "dateTimestamp": "Fri Sep 20 21:56:23 2024",
+ "timestampMillis": "1726865783251",
  "buildStep": {
-  "cmdId": "77c892c4-1a20-489f-908a-e484c91296c9",
+  "cmdId": "fd67b1ce-16c7-4f68-a632-9cc22e9c0e86",
   "name": "v++",
   "logFile": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect.steps.log",
-  "commandLine": "/tools/Xilinx/Vitis/2024.1/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -c -k edgedetect --target sw_emu -g /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/src/edgedetect.cpp --platform /tools/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_202410_1/xilinx_zcu102_base_202410_1.xpfm --temp_dir /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect.xo ",
+  "commandLine": "/tools/Xilinx/Vitis/2024.1/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -c -k edgedetect --target sw_emu -g /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp --platform /tools/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_202410_1/xilinx_zcu102_base_202410_1.xpfm --temp_dir /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect.xo ",
   "args": [
    "-c",
    "-k",
@@ -23,7 +23,7 @@
    "--target",
    "sw_emu",
    "-g",
-   "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/src/edgedetect.cpp",
+   "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp",
    "--platform",
    "/tools/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_202410_1/xilinx_zcu102_base_202410_1.xpfm",
    "--temp_dir",
@@ -39,10 +39,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri Sep 20 02:12:29 2024",
- "timestampMillis": "1726794749842",
+ "dateTimestamp": "Fri Sep 20 21:56:23 2024",
+ "timestampMillis": "1726865783251",
  "status": {
-  "cmdId": "77c892c4-1a20-489f-908a-e484c91296c9",
+  "cmdId": "fd67b1ce-16c7-4f68-a632-9cc22e9c0e86",
   "state": "CS_RUNNING"
  }
 }
@@ -50,8 +50,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "Fri Sep 20 02:12:30 2024",
- "timestampMillis": "1726794750273",
+ "dateTimestamp": "Fri Sep 20 21:56:23 2024",
+ "timestampMillis": "1726865783669",
  "buildSummary": {
   "hardwarePlatform": "xilinx_zcu102_base_202410_1.xpfm",
   "hardwareDsa": "hw.xsa",
@@ -70,7 +70,7 @@
      "uuid": ""
     },
     "sources": [
-     "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/src/edgedetect.cpp"
+     "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp"
     ],
     "psSources": [],
     "cuNames": [],
@@ -86,10 +86,10 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "Fri Sep 20 02:12:30 2024",
- "timestampMillis": "1726794750283",
+ "dateTimestamp": "Fri Sep 20 21:56:23 2024",
+ "timestampMillis": "1726865783671",
  "buildStep": {
-  "cmdId": "c8f497d4-622d-4f66-bded-6907680620c8",
+  "cmdId": "c5a1e08d-8b81-4f0d-a447-07648ef55b90",
   "name": "vitis_hls",
   "logFile": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/vitis_hls.log",
   "commandLine": "vitis_hls -f /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect.tcl -messageDb vitis_hls.pb",
@@ -108,10 +108,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri Sep 20 02:12:30 2024",
- "timestampMillis": "1726794750284",
+ "dateTimestamp": "Fri Sep 20 21:56:23 2024",
+ "timestampMillis": "1726865783672",
  "status": {
-  "cmdId": "c8f497d4-622d-4f66-bded-6907680620c8",
+  "cmdId": "c5a1e08d-8b81-4f0d-a447-07648ef55b90",
   "state": "CS_RUNNING"
  }
 }
@@ -119,10 +119,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri Sep 20 02:12:43 2024",
- "timestampMillis": "1726794763728",
+ "dateTimestamp": "Fri Sep 20 21:56:37 2024",
+ "timestampMillis": "1726865797137",
  "status": {
-  "cmdId": "c8f497d4-622d-4f66-bded-6907680620c8",
+  "cmdId": "c5a1e08d-8b81-4f0d-a447-07648ef55b90",
   "state": "CS_PASSED"
  }
 }
@@ -130,10 +130,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri Sep 20 02:12:43 2024",
- "timestampMillis": "1726794763741",
+ "dateTimestamp": "Fri Sep 20 21:56:37 2024",
+ "timestampMillis": "1726865797158",
  "status": {
-  "cmdId": "77c892c4-1a20-489f-908a-e484c91296c9",
+  "cmdId": "fd67b1ce-16c7-4f68-a632-9cc22e9c0e86",
   "state": "CS_PASSED"
  }
 }
@@ -141,8 +141,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri Sep 20 02:12:43 2024",
- "timestampMillis": "1726794763793",
+ "dateTimestamp": "Fri Sep 20 21:56:37 2024",
+ "timestampMillis": "1726865797210",
  "report": {
   "path": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/reports/edgedetect/v++_compile_edgedetect_guidance.html",
   "name": "",
@@ -155,8 +155,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri Sep 20 02:12:43 2024",
- "timestampMillis": "1726794763793",
+ "dateTimestamp": "Fri Sep 20 21:56:37 2024",
+ "timestampMillis": "1726865797211",
  "report": {
   "path": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/v++_compile_edgedetect_guidance.pb3",
   "name": "",

@@ -118,9 +118,10 @@ endif()
 
 target_sources(EdgedetectBaseline_host
 PRIVATE
-    main.cpp
-    util.cpp
-    edgedetect_cpu.cpp
+    src/edgedetect_fpga.cpp
+    src/main.cpp
+    src/util.cpp
+    src/edgedetect_cpu.cpp
 )
 # Below compile definitions are derived from the application template used to
 # create this project.Update them to suite your requirement. They will not be

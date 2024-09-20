@@ -10,7 +10,7 @@
 <Module>
 <Name>edgedetect</Name>
 <Loops>
-<VITIS_LOOP_12_1_VITIS_LOOP_15_2></VITIS_LOOP_12_1_VITIS_LOOP_15_2>
+<VITIS_LOOP_10_1_VITIS_LOOP_13_2></VITIS_LOOP_10_1_VITIS_LOOP_13_2>
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
@@ -29,8 +29,8 @@
 <PipelineType>loop auto-rewind (delay=108 clock cycles(s))</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_12_1_VITIS_LOOP_15_2>
-<Name>VITIS_LOOP_12_1_VITIS_LOOP_15_2</Name>
+<VITIS_LOOP_10_1_VITIS_LOOP_13_2>
+<Name>VITIS_LOOP_10_1_VITIS_LOOP_13_2</Name>
 <Slack>4.87</Slack>
 <TripCount>307200</TripCount>
 <Latency>921774</Latency>
@@ -40,19 +40,19 @@
 <PipelineType>yes</PipelineType>
 <InstanceList>
 </InstanceList>
-</VITIS_LOOP_12_1_VITIS_LOOP_15_2>
+</VITIS_LOOP_10_1_VITIS_LOOP_13_2>
 </SummaryOfLoopLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../src/edgedetect.cpp:8</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:8</SourceLocation>
 <SummaryOfLoopViolations>
-<VITIS_LOOP_12_1_VITIS_LOOP_15_2>
-<Name>VITIS_LOOP_12_1_VITIS_LOOP_15_2</Name>
+<VITIS_LOOP_10_1_VITIS_LOOP_13_2>
+<Name>VITIS_LOOP_10_1_VITIS_LOOP_13_2</Name>
 <IssueType>II Violation</IssueType>
 <ViolationType>Resource Limitation</ViolationType>
-<SourceLocation>../src/edgedetect.cpp:15</SourceLocation>
-</VITIS_LOOP_12_1_VITIS_LOOP_15_2>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:13</SourceLocation>
+</VITIS_LOOP_10_1_VITIS_LOOP_13_2>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
 </PerformanceEstimates>

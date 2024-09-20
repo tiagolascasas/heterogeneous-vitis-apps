@@ -1,4 +1,4 @@
-# 1 "../src/edgedetect.cpp"
+# 1 "../EdgedetectBaseline_host/src/edgedetect.cpp"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 376 "<built-in>" 3
@@ -152,7 +152,7 @@ extern "C" {
 
 }
 # 2 "<built-in>" 2
-# 1 "../src/edgedetect.cpp" 2
+# 1 "../EdgedetectBaseline_host/src/edgedetect.cpp" 2
 # 1 "/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath" 1 3
 # 40 "/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath" 3
 
@@ -6649,7 +6649,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 2 "../src/edgedetect.cpp" 2
+# 2 "../EdgedetectBaseline_host/src/edgedetect.cpp" 2
 
 
 
@@ -6712,7 +6712,8 @@ void convolve2d_smoothing(unsigned char input_image[480 * 640], unsigned char fi
                     sum += input_image[(r + i) * 640 + (c + j)] * filter[i * 3 + j];
                 }
             }
-            output_image[(r + dead_rows) * 640 + (c + dead_cols)] = (sum / normal_factor);
+            unsigned char pixel = (sum / normal_factor) > 255 ? 255 : (sum / normal_factor);
+            output_image[(r + dead_rows) * 640 + (c + dead_cols)] = pixel;
         }
     }
 }
@@ -6732,9 +6733,9 @@ void convolve2d_vertical(unsigned char input_image[480 * 640], unsigned char fil
     dead_cols = 3 / 2;
 
     normal_factor = 0;
-    VITIS_LOOP_84_1: for (r = 0; r < 3; r++)
+    VITIS_LOOP_85_1: for (r = 0; r < 3; r++)
     {
-        VITIS_LOOP_86_2: for (c = 0; c < 3; c++)
+        VITIS_LOOP_87_2: for (c = 0; c < 3; c++)
         {
             normal_factor += abs(filter[r * 3 + c]);
         }
@@ -6743,19 +6744,20 @@ void convolve2d_vertical(unsigned char input_image[480 * 640], unsigned char fil
     if (normal_factor == 0)
         normal_factor = 1;
 
-    VITIS_LOOP_95_3: for (r = 0; r < 480 - 3 + 1; r++)
+    VITIS_LOOP_96_3: for (r = 0; r < 480 - 3 + 1; r++)
     {
-        VITIS_LOOP_97_4: for (c = 0; c < 640 - 3 + 1; c++)
+        VITIS_LOOP_98_4: for (c = 0; c < 640 - 3 + 1; c++)
         {
             sum = 0;
-            VITIS_LOOP_100_5: for (i = 0; i < 3; i++)
+            VITIS_LOOP_101_5: for (i = 0; i < 3; i++)
             {
-                VITIS_LOOP_102_6: for (j = 0; j < 3; j++)
+                VITIS_LOOP_103_6: for (j = 0; j < 3; j++)
                 {
                     sum += input_image[(r + i) * 640 + (c + j)] * filter[i * 3 + j];
                 }
             }
-            output_image[(r + dead_rows) * 640 + (c + dead_cols)] = (sum / normal_factor);
+            unsigned char pixel = (sum / normal_factor) > 255 ? 255 : (sum / normal_factor);
+            output_image[(r + dead_rows) * 640 + (c + dead_cols)] = pixel;
         }
     }
 }
@@ -6775,9 +6777,9 @@ void convolve2d_horizontal(unsigned char input_image[480 * 640], unsigned char f
     dead_cols = 3 / 2;
 
     normal_factor = 0;
-    VITIS_LOOP_127_1: for (r = 0; r < 3; r++)
+    VITIS_LOOP_129_1: for (r = 0; r < 3; r++)
     {
-        VITIS_LOOP_129_2: for (c = 0; c < 3; c++)
+        VITIS_LOOP_131_2: for (c = 0; c < 3; c++)
         {
             normal_factor += abs(filter[r * 3 + c]);
         }
@@ -6786,19 +6788,20 @@ void convolve2d_horizontal(unsigned char input_image[480 * 640], unsigned char f
     if (normal_factor == 0)
         normal_factor = 1;
 
-    VITIS_LOOP_138_3: for (r = 0; r < 480 - 3 + 1; r++)
+    VITIS_LOOP_140_3: for (r = 0; r < 480 - 3 + 1; r++)
     {
-        VITIS_LOOP_140_4: for (c = 0; c < 640 - 3 + 1; c++)
+        VITIS_LOOP_142_4: for (c = 0; c < 640 - 3 + 1; c++)
         {
             sum = 0;
-            VITIS_LOOP_143_5: for (i = 0; i < 3; i++)
+            VITIS_LOOP_145_5: for (i = 0; i < 3; i++)
             {
-                VITIS_LOOP_145_6: for (j = 0; j < 3; j++)
+                VITIS_LOOP_147_6: for (j = 0; j < 3; j++)
                 {
                     sum += input_image[(r + i) * 640 + (c + j)] * filter[i * 3 + j];
                 }
             }
-            output_image[(r + dead_rows) * 640 + (c + dead_cols)] = (sum / normal_factor);
+            unsigned char pixel = (sum / normal_factor) > 255 ? 255 : (sum / normal_factor);
+            output_image[(r + dead_rows) * 640 + (c + dead_cols)] = pixel;
         }
     }
 }
@@ -6810,9 +6813,9 @@ void combthreshold(unsigned char image_gray[480 * 640], unsigned char temp_buf[4
     int temp2;
     int temp3;
 
-    VITIS_LOOP_162_1: for (i = 0; i < 480; i++)
+    VITIS_LOOP_165_1: for (i = 0; i < 480; i++)
     {
-        VITIS_LOOP_164_2: for (j = 0; j < 640; ++j)
+        VITIS_LOOP_167_2: for (j = 0; j < 640; ++j)
         {
 #pragma HLS pipeline
  temp1 = abs(image_gray[i * 640 + j]);
@@ -6870,7 +6873,7 @@ __attribute__((sdx_kernel("edgedetect", 0))) void edgedetect(unsigned char image
 {
 #line 1 "directive"
 #pragma HLSDIRECTIVE TOP name=edgedetect
-# 219 "../src/edgedetect.cpp"
+# 222 "../EdgedetectBaseline_host/src/edgedetect.cpp"
 
 
     rgbToGrayscale(image_rgb, image_gray);

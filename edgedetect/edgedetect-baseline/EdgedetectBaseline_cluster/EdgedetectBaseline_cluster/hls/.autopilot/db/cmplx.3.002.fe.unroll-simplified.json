@@ -1,19 +1,64 @@
 {
   "0": {
     "basicblocks": 1,
-    "calls": "17 5 3 15 1 21 19 13",
+    "calls": "7 18 16 5 13 10 9 3",
     "file": "edgedetect.cpp",
-    "fileloc": 214,
+    "fileloc": 217,
     "instructions": 9,
     "name": "edgedetect",
-    "total_instructions": 552
+    "total_instructions": 558
   },
   "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 485,
+    "instructions": 4,
+    "loads": {
+      "L": 1
+    },
+    "name": "expv",
+    "total_instructions": 4
+  },
+  "10": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "edgedetect.cpp",
+    "fileloc": 204,
+    "instructions": 18,
+    "name": "set_horizontal_filter",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 18
+  },
+  "11": {
+    "basicblocks": 1,
+    "calls": "22",
+    "file": "x_hls_utils.h",
+    "fileloc": 509,
+    "instructions": 2,
+    "name": "to_ieee",
+    "total_instructions": 16
+  },
+  "12": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 456,
+    "instructions": 8,
+    "name": "fp_struct",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 8
+  },
+  "13": {
     "basicblocks": 13,
     "calls": "",
     "file": "edgedetect.cpp",
-    "fileloc": 69,
-    "instructions": 68,
+    "fileloc": 70,
+    "instructions": 70,
     "loads": {
       "L": 3
     },
@@ -21,148 +66,9 @@
     "stores": {
       "L": 1
     },
-    "total_instructions": 68
-  },
-  "10": {
-    "basicblocks": 1,
-    "calls": "2",
-    "file": "x_hls_utils.h",
-    "fileloc": 509,
-    "instructions": 2,
-    "name": "to_ieee",
-    "total_instructions": 16
-  },
-  "11": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "x_hls_utils.h",
-    "fileloc": 475,
-    "instructions": 9,
-    "loads": {
-      "L": 3
-    },
-    "name": "data",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 9
-  },
-  "12": {
-    "basicblocks": 9,
-    "calls": "4 7 9 7 11 16 10",
-    "file": "hls_floor.h",
-    "fileloc": 13,
-    "instructions": 63,
-    "loads": {
-      "G": 1,
-      "L": 7
-    },
-    "name": "generic_floor<double>",
-    "stores": {
-      "L": 4
-    },
-    "total_instructions": 153
-  },
-  "13": {
-    "basicblocks": 5,
-    "calls": "",
-    "file": "edgedetect.cpp",
-    "fileloc": 155,
-    "instructions": 28,
-    "loads": {
-      "L": 2
-    },
-    "name": "combthreshold",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 28
+    "total_instructions": 70
   },
   "14": {
-    "basicblocks": 1,
-    "calls": "6",
-    "file": "hls_case_IEEE754.h",
-    "fileloc": 116,
-    "instructions": 2,
-    "name": "generic_cast_IEEE754<unsigned char, double>",
-    "total_instructions": 54
-  },
-  "15": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "edgedetect.cpp",
-    "fileloc": 188,
-    "instructions": 18,
-    "name": "set_vertical_filter",
-    "stores": {
-      "L": 9
-    },
-    "total_instructions": 18
-  },
-  "16": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "x_hls_utils.h",
-    "fileloc": 464,
-    "instructions": 7,
-    "name": "fp_struct",
-    "stores": {
-      "L": 3
-    },
-    "total_instructions": 7
-  },
-  "17": {
-    "basicblocks": 5,
-    "calls": "8 18",
-    "file": "edgedetect.cpp",
-    "fileloc": 8,
-    "instructions": 46,
-    "loads": {
-      "L": 3
-    },
-    "name": "rgbToGrayscale",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 257
-  },
-  "18": {
-    "basicblocks": 1,
-    "calls": "14",
-    "file": "lib_floatconversion.cpp",
-    "fileloc": 67,
-    "instructions": 2,
-    "name": "__hls_fptoui_double_i8",
-    "total_instructions": 56
-  },
-  "19": {
-    "basicblocks": 13,
-    "calls": "",
-    "file": "edgedetect.cpp",
-    "fileloc": 112,
-    "instructions": 68,
-    "loads": {
-      "L": 3
-    },
-    "name": "convolve2d_horizontal",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 68
-  },
-  "2": {
-    "basicblocks": 1,
-    "calls": "11",
-    "file": "x_hls_utils.h",
-    "fileloc": 494,
-    "instructions": 5,
-    "loads": {
-      "L": 1
-    },
-    "name": "to_double",
-    "total_instructions": 14
-  },
-  "20": {
     "basicblocks": 1,
     "calls": "",
     "file": "x_hls_utils.h",
@@ -177,36 +83,27 @@
     },
     "total_instructions": 6
   },
-  "21": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "edgedetect.cpp",
-    "fileloc": 201,
-    "instructions": 18,
-    "name": "set_horizontal_filter",
-    "stores": {
-      "L": 9
-    },
-    "total_instructions": 18
-  },
-  "22": {
+  "15": {
     "basicblocks": 1,
     "calls": "",
     "file": "x_hls_utils.h",
-    "fileloc": 485,
-    "instructions": 4,
+    "fileloc": 475,
+    "instructions": 9,
     "loads": {
+      "L": 3
+    },
+    "name": "data",
+    "stores": {
       "L": 1
     },
-    "name": "expv",
-    "total_instructions": 4
+    "total_instructions": 9
   },
-  "3": {
+  "16": {
     "basicblocks": 13,
     "calls": "",
     "file": "edgedetect.cpp",
     "fileloc": 26,
-    "instructions": 68,
+    "instructions": 70,
     "loads": {
       "L": 3
     },
@@ -214,25 +111,25 @@
     "stores": {
       "L": 1
     },
-    "total_instructions": 68
+    "total_instructions": 70
   },
-  "4": {
+  "17": {
     "basicblocks": 1,
     "calls": "",
     "file": "x_hls_utils.h",
-    "fileloc": 456,
-    "instructions": 8,
+    "fileloc": 464,
+    "instructions": 7,
     "name": "fp_struct",
     "stores": {
       "L": 3
     },
-    "total_instructions": 8
+    "total_instructions": 7
   },
-  "5": {
+  "18": {
     "basicblocks": 1,
     "calls": "",
     "file": "edgedetect.cpp",
-    "fileloc": 175,
+    "fileloc": 178,
     "instructions": 18,
     "name": "set_smoothing_filter",
     "stores": {
@@ -240,9 +137,9 @@
     },
     "total_instructions": 18
   },
-  "6": {
+  "19": {
     "basicblocks": 4,
-    "calls": "4 20 22",
+    "calls": "12 14 1",
     "file": "hls_case_IEEE754.h",
     "fileloc": 65,
     "instructions": 34,
@@ -252,30 +149,34 @@
     "name": "generic_cast_IEEE754<unsigned char, AP_TRN_ZERO, double>",
     "total_instructions": 52
   },
-  "7": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "x_hls_utils.h",
-    "fileloc": 512,
-    "instructions": 3,
+  "2": {
+    "basicblocks": 9,
+    "calls": "12 6 21 6 15 17 11",
+    "file": "hls_floor.h",
+    "fileloc": 13,
+    "instructions": 63,
     "loads": {
-      "L": 1
+      "G": 1,
+      "L": 7
     },
-    "name": "__signbit",
-    "total_instructions": 3
+    "name": "generic_floor<double>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 153
   },
-  "8": {
+  "20": {
     "basicblocks": 1,
-    "calls": "12",
+    "calls": "2",
     "file": "floordouble.cpp",
     "fileloc": 6,
     "instructions": 2,
     "name": "floor",
     "total_instructions": 155
   },
-  "9": {
+  "21": {
     "basicblocks": 1,
-    "calls": "4 4 10",
+    "calls": "12 12 11",
     "file": "hls_copysign.h",
     "fileloc": 10,
     "instructions": 12,
@@ -287,5 +188,104 @@
       "L": 1
     },
     "total_instructions": 44
+  },
+  "22": {
+    "basicblocks": 1,
+    "calls": "15",
+    "file": "x_hls_utils.h",
+    "fileloc": 494,
+    "instructions": 5,
+    "loads": {
+      "L": 1
+    },
+    "name": "to_double",
+    "total_instructions": 14
+  },
+  "3": {
+    "basicblocks": 5,
+    "calls": "",
+    "file": "edgedetect.cpp",
+    "fileloc": 158,
+    "instructions": 28,
+    "loads": {
+      "L": 2
+    },
+    "name": "combthreshold",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 28
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "19",
+    "file": "hls_case_IEEE754.h",
+    "fileloc": 116,
+    "instructions": 2,
+    "name": "generic_cast_IEEE754<unsigned char, double>",
+    "total_instructions": 54
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "edgedetect.cpp",
+    "fileloc": 191,
+    "instructions": 18,
+    "name": "set_vertical_filter",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 18
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 512,
+    "instructions": 3,
+    "loads": {
+      "L": 1
+    },
+    "name": "__signbit",
+    "total_instructions": 3
+  },
+  "7": {
+    "basicblocks": 5,
+    "calls": "20 8",
+    "file": "edgedetect.cpp",
+    "fileloc": 8,
+    "instructions": 46,
+    "loads": {
+      "L": 3
+    },
+    "name": "rgbToGrayscale",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 257
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "4",
+    "file": "lib_floatconversion.cpp",
+    "fileloc": 67,
+    "instructions": 2,
+    "name": "__hls_fptoui_double_i8",
+    "total_instructions": 56
+  },
+  "9": {
+    "basicblocks": 13,
+    "calls": "",
+    "file": "edgedetect.cpp",
+    "fileloc": 114,
+    "instructions": 70,
+    "loads": {
+      "L": 3
+    },
+    "name": "convolve2d_horizontal",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 70
   }
 }

@@ -3,13 +3,13 @@
     "basicblocks": 56,
     "calls": "1",
     "file": "edgedetect.cpp",
-    "fileloc": 214,
-    "instructions": 382,
+    "fileloc": 217,
+    "instructions": 388,
     "name": "edgedetect",
     "stores": {
       "T": 3
     },
-    "total_instructions": 427
+    "total_instructions": 433
   },
   "1": {
     "basicblocks": 9,

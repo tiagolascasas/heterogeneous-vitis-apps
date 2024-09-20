@@ -542,3 +542,234 @@ Fri Sep 20 05:33:34 2024: SERVER: destructor for server bound to port 39509
 Fri Sep 20 05:33:34 2024: XCD main fifo: Good unlink of /tmp/xcdmaindbdf37ef-4892-4e10-aa62-7fbf037d1eb2
 Fri Sep 20 05:33:34 2024: Server exiting with status 0.
 Fri Sep 20 05:33:34 2024: Closing log file.
+Fri Sep 20 14:32:05 2024: Running xcd server. This server was built by gradle.
+Fri Sep 20 14:32:05 2024: Server was asked to start on port: '41789'
+Fri Sep 20 14:32:05 2024: Server is using token UUID: 'f074e2b3-7247-476c-a2d5-aac015fe2344'
+Fri Sep 20 14:32:05 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Sep 20 14:32:05 2024: Attempting to start server on port '41789'
+Fri Sep 20 14:32:05 2024: XCD main fifo: created main fifo '/tmp/xcdmainf074e2b3-7247-476c-a2d5-aac015fe2344', fd read = 13
+Fri Sep 20 14:32:05 2024: Running Dispatch Server
+Fri Sep 20 14:32:05 2024: Version 2.2.0
+Fri Sep 20 14:32:06 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 14:32:06 2024: Starting Socket connection
+Fri Sep 20 14:32:06 2024: EXCHANGE_TOKEN received, server token: f074e2b3-7247-476c-a2d5-aac015fe2344, passed token: f074e2b3-7247-476c-a2d5-aac015fe2344
+Fri Sep 20 14:32:07 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Sep 20 14:32:07 2024: SESSION_MGR: creating session with session uuid: '4a0b7ace-adda-4a86-b615-edd026817a82' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:07 2024: KERNEL_SVC: creating session with uuid: '4a0b7ace-adda-4a86-b615-edd026817a82' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:07 2024: GUIDANCE_SMGR: creating guidance session with uuid: '4a0b7ace-adda-4a86-b615-edd026817a82' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:07 2024: SYSTEM_DIAGRAM: creating session with uuid: '4a0b7ace-adda-4a86-b615-edd026817a82' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:11 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 14:32:11 2024: Starting Socket connection
+Fri Sep 20 14:32:21 2024: SESSION_MGR: closing session for UUID '4a0b7ace-adda-4a86-b615-edd026817a82' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:21 2024: KERNEL_SVC: closing session for UUID '4a0b7ace-adda-4a86-b615-edd026817a82' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:21 2024: GUIDANCE_SMGR: closing session for UUID '4a0b7ace-adda-4a86-b615-edd026817a82' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:21 2024: SYSTEM_DIAGRAM: closing session for UUID '4a0b7ace-adda-4a86-b615-edd026817a82' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:21 2024: STOP_SERVER received, server token: f074e2b3-7247-476c-a2d5-aac015fe2344, passed token: f074e2b3-7247-476c-a2d5-aac015fe2344
+Fri Sep 20 14:32:21 2024: Socket received request to stop server.
+Fri Sep 20 14:32:21 2024: Dispatch Server: do_await_stop
+Fri Sep 20 14:32:21 2024: Dispatch Server: stopping mainFifo_
+Fri Sep 20 14:32:21 2024: XCD main fifo: Stopping
+Fri Sep 20 14:32:21 2024: XCD main fifo: do_read error code: Operation canceled
+Fri Sep 20 14:32:21 2024: XCD main fifo: bytes_transferred: 0
+Fri Sep 20 14:32:21 2024: SERVER: destructor for server bound to port 41789
+Fri Sep 20 14:32:21 2024: XCD main fifo: Good unlink of /tmp/xcdmainf074e2b3-7247-476c-a2d5-aac015fe2344
+Fri Sep 20 14:32:21 2024: Server exiting with status 0.
+Fri Sep 20 14:32:21 2024: Closing log file.
+Fri Sep 20 14:32:23 2024: Running xcd server. This server was built by gradle.
+Fri Sep 20 14:32:23 2024: Server was asked to start on port: '32907'
+Fri Sep 20 14:32:23 2024: Server is using token UUID: 'e81536eb-38d5-44e5-9830-dd26d08c5af6'
+Fri Sep 20 14:32:23 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Sep 20 14:32:23 2024: Attempting to start server on port '32907'
+Fri Sep 20 14:32:23 2024: XCD main fifo: created main fifo '/tmp/xcdmaine81536eb-38d5-44e5-9830-dd26d08c5af6', fd read = 13
+Fri Sep 20 14:32:23 2024: Running Dispatch Server
+Fri Sep 20 14:32:23 2024: Version 2.2.0
+Fri Sep 20 14:32:24 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 14:32:24 2024: Starting Socket connection
+Fri Sep 20 14:32:24 2024: EXCHANGE_TOKEN received, server token: e81536eb-38d5-44e5-9830-dd26d08c5af6, passed token: e81536eb-38d5-44e5-9830-dd26d08c5af6
+Fri Sep 20 14:32:25 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Sep 20 14:32:25 2024: SESSION_MGR: creating session with session uuid: 'df081320-b0d0-4043-ae48-7166543e9522' and name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:25 2024: KERNEL_SVC: creating session with uuid: 'df081320-b0d0-4043-ae48-7166543e9522' and name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:25 2024: GUIDANCE_SMGR: creating guidance session with uuid: 'df081320-b0d0-4043-ae48-7166543e9522' and name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:25 2024: SYSTEM_DIAGRAM: creating session with uuid: 'df081320-b0d0-4043-ae48-7166543e9522' and name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:29 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 14:32:29 2024: Starting Socket connection
+Fri Sep 20 14:32:48 2024: SESSION_MGR: closing session for UUID 'df081320-b0d0-4043-ae48-7166543e9522' with name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:48 2024: KERNEL_SVC: closing session for UUID 'df081320-b0d0-4043-ae48-7166543e9522' with name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:48 2024: GUIDANCE_SMGR: closing session for UUID 'df081320-b0d0-4043-ae48-7166543e9522' with name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:48 2024: SYSTEM_DIAGRAM: closing session for UUID 'df081320-b0d0-4043-ae48-7166543e9522' with name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 14:32:48 2024: STOP_SERVER received, server token: e81536eb-38d5-44e5-9830-dd26d08c5af6, passed token: e81536eb-38d5-44e5-9830-dd26d08c5af6
+Fri Sep 20 14:32:48 2024: Socket received request to stop server.
+Fri Sep 20 14:32:48 2024: Dispatch Server: do_await_stop
+Fri Sep 20 14:32:48 2024: Dispatch Server: stopping mainFifo_
+Fri Sep 20 14:32:48 2024: XCD main fifo: Stopping
+Fri Sep 20 14:32:48 2024: XCD main fifo: do_read error code: Operation canceled
+Fri Sep 20 14:32:48 2024: XCD main fifo: bytes_transferred: 0
+Fri Sep 20 14:32:48 2024: SERVER: destructor for server bound to port 32907
+Fri Sep 20 14:32:48 2024: XCD main fifo: Good unlink of /tmp/xcdmaine81536eb-38d5-44e5-9830-dd26d08c5af6
+Fri Sep 20 14:32:48 2024: Server exiting with status 0.
+Fri Sep 20 14:32:48 2024: Closing log file.
+Fri Sep 20 15:15:34 2024: Running xcd server. This server was built by gradle.
+Fri Sep 20 15:15:34 2024: Server was asked to start on port: '34217'
+Fri Sep 20 15:15:34 2024: Server is using token UUID: '9b5c8cb6-5a8f-42d4-a29b-6179ba51e6d3'
+Fri Sep 20 15:15:34 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Sep 20 15:15:34 2024: Attempting to start server on port '34217'
+Fri Sep 20 15:15:34 2024: XCD main fifo: created main fifo '/tmp/xcdmain9b5c8cb6-5a8f-42d4-a29b-6179ba51e6d3', fd read = 13
+Fri Sep 20 15:15:34 2024: Running Dispatch Server
+Fri Sep 20 15:15:34 2024: Version 2.2.0
+Fri Sep 20 15:15:36 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 15:15:36 2024: Starting Socket connection
+Fri Sep 20 15:15:36 2024: EXCHANGE_TOKEN received, server token: 9b5c8cb6-5a8f-42d4-a29b-6179ba51e6d3, passed token: 9b5c8cb6-5a8f-42d4-a29b-6179ba51e6d3
+Fri Sep 20 15:15:36 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Sep 20 15:15:36 2024: SESSION_MGR: creating session with session uuid: 'eb3e282b-ef29-464d-9db5-89fcaf9f76a3' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:15:36 2024: KERNEL_SVC: creating session with uuid: 'eb3e282b-ef29-464d-9db5-89fcaf9f76a3' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:15:36 2024: GUIDANCE_SMGR: creating guidance session with uuid: 'eb3e282b-ef29-464d-9db5-89fcaf9f76a3' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:15:36 2024: SYSTEM_DIAGRAM: creating session with uuid: 'eb3e282b-ef29-464d-9db5-89fcaf9f76a3' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:15:40 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 15:15:40 2024: Starting Socket connection
+Fri Sep 20 15:15:50 2024: SESSION_MGR: closing session for UUID 'eb3e282b-ef29-464d-9db5-89fcaf9f76a3' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:15:50 2024: KERNEL_SVC: closing session for UUID 'eb3e282b-ef29-464d-9db5-89fcaf9f76a3' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:15:50 2024: GUIDANCE_SMGR: closing session for UUID 'eb3e282b-ef29-464d-9db5-89fcaf9f76a3' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:15:50 2024: SYSTEM_DIAGRAM: closing session for UUID 'eb3e282b-ef29-464d-9db5-89fcaf9f76a3' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:15:50 2024: STOP_SERVER received, server token: 9b5c8cb6-5a8f-42d4-a29b-6179ba51e6d3, passed token: 9b5c8cb6-5a8f-42d4-a29b-6179ba51e6d3
+Fri Sep 20 15:15:50 2024: Socket received request to stop server.
+Fri Sep 20 15:15:50 2024: Dispatch Server: do_await_stop
+Fri Sep 20 15:15:50 2024: Dispatch Server: stopping mainFifo_
+Fri Sep 20 15:15:50 2024: XCD main fifo: Stopping
+Fri Sep 20 15:15:50 2024: XCD main fifo: do_read error code: Operation canceled
+Fri Sep 20 15:15:50 2024: XCD main fifo: bytes_transferred: 0
+Fri Sep 20 15:15:50 2024: SERVER: destructor for server bound to port 34217
+Fri Sep 20 15:15:50 2024: XCD main fifo: Good unlink of /tmp/xcdmain9b5c8cb6-5a8f-42d4-a29b-6179ba51e6d3
+Fri Sep 20 15:15:50 2024: Server exiting with status 0.
+Fri Sep 20 15:15:50 2024: Closing log file.
+Fri Sep 20 15:15:52 2024: Running xcd server. This server was built by gradle.
+Fri Sep 20 15:15:52 2024: Server was asked to start on port: '37183'
+Fri Sep 20 15:15:52 2024: Server is using token UUID: '18fb8988-d1b3-4047-ab9f-f612b5816630'
+Fri Sep 20 15:15:52 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Sep 20 15:15:52 2024: Attempting to start server on port '37183'
+Fri Sep 20 15:15:52 2024: XCD main fifo: created main fifo '/tmp/xcdmain18fb8988-d1b3-4047-ab9f-f612b5816630', fd read = 13
+Fri Sep 20 15:15:52 2024: Running Dispatch Server
+Fri Sep 20 15:15:52 2024: Version 2.2.0
+Fri Sep 20 15:15:54 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 15:15:54 2024: Starting Socket connection
+Fri Sep 20 15:15:54 2024: EXCHANGE_TOKEN received, server token: 18fb8988-d1b3-4047-ab9f-f612b5816630, passed token: 18fb8988-d1b3-4047-ab9f-f612b5816630
+Fri Sep 20 15:15:54 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Sep 20 15:15:54 2024: SESSION_MGR: creating session with session uuid: '99fb53ff-1592-4082-80b7-ac40caa136b9' and name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:15:54 2024: KERNEL_SVC: creating session with uuid: '99fb53ff-1592-4082-80b7-ac40caa136b9' and name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:15:54 2024: GUIDANCE_SMGR: creating guidance session with uuid: '99fb53ff-1592-4082-80b7-ac40caa136b9' and name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:15:54 2024: SYSTEM_DIAGRAM: creating session with uuid: '99fb53ff-1592-4082-80b7-ac40caa136b9' and name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:15:58 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 15:15:58 2024: Starting Socket connection
+Fri Sep 20 15:16:16 2024: SESSION_MGR: closing session for UUID '99fb53ff-1592-4082-80b7-ac40caa136b9' with name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:16:16 2024: KERNEL_SVC: closing session for UUID '99fb53ff-1592-4082-80b7-ac40caa136b9' with name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:16:16 2024: GUIDANCE_SMGR: closing session for UUID '99fb53ff-1592-4082-80b7-ac40caa136b9' with name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:16:16 2024: SYSTEM_DIAGRAM: closing session for UUID '99fb53ff-1592-4082-80b7-ac40caa136b9' with name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:16:16 2024: STOP_SERVER received, server token: 18fb8988-d1b3-4047-ab9f-f612b5816630, passed token: 18fb8988-d1b3-4047-ab9f-f612b5816630
+Fri Sep 20 15:16:16 2024: Socket received request to stop server.
+Fri Sep 20 15:16:16 2024: Dispatch Server: do_await_stop
+Fri Sep 20 15:16:16 2024: Dispatch Server: stopping mainFifo_
+Fri Sep 20 15:16:16 2024: XCD main fifo: Stopping
+Fri Sep 20 15:16:16 2024: XCD main fifo: do_read error code: Operation canceled
+Fri Sep 20 15:16:16 2024: XCD main fifo: bytes_transferred: 0
+Fri Sep 20 15:16:16 2024: SERVER: destructor for server bound to port 37183
+Fri Sep 20 15:16:16 2024: XCD main fifo: Good unlink of /tmp/xcdmain18fb8988-d1b3-4047-ab9f-f612b5816630
+Fri Sep 20 15:16:16 2024: Server exiting with status 0.
+Fri Sep 20 15:16:16 2024: Closing log file.
+Fri Sep 20 15:28:28 2024: Running xcd server. This server was built by gradle.
+Fri Sep 20 15:28:28 2024: Server was asked to start on port: '39015'
+Fri Sep 20 15:28:28 2024: Server is using token UUID: '8f1a1ac1-f0e7-4ce5-8919-387bb4d0ca50'
+Fri Sep 20 15:28:28 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Sep 20 15:28:28 2024: Attempting to start server on port '39015'
+Fri Sep 20 15:28:28 2024: XCD main fifo: created main fifo '/tmp/xcdmain8f1a1ac1-f0e7-4ce5-8919-387bb4d0ca50', fd read = 13
+Fri Sep 20 15:28:28 2024: Running Dispatch Server
+Fri Sep 20 15:28:28 2024: Version 2.2.0
+Fri Sep 20 15:28:30 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 15:28:30 2024: Starting Socket connection
+Fri Sep 20 15:28:30 2024: EXCHANGE_TOKEN received, server token: 8f1a1ac1-f0e7-4ce5-8919-387bb4d0ca50, passed token: 8f1a1ac1-f0e7-4ce5-8919-387bb4d0ca50
+Fri Sep 20 15:28:30 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Sep 20 15:28:30 2024: SESSION_MGR: creating session with session uuid: '534aac94-5247-4a0f-95a7-0fdd3d78c0a0' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:28:30 2024: KERNEL_SVC: creating session with uuid: '534aac94-5247-4a0f-95a7-0fdd3d78c0a0' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:28:30 2024: GUIDANCE_SMGR: creating guidance session with uuid: '534aac94-5247-4a0f-95a7-0fdd3d78c0a0' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:28:30 2024: SYSTEM_DIAGRAM: creating session with uuid: '534aac94-5247-4a0f-95a7-0fdd3d78c0a0' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:28:34 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 15:28:34 2024: Starting Socket connection
+Fri Sep 20 15:28:44 2024: SESSION_MGR: closing session for UUID '534aac94-5247-4a0f-95a7-0fdd3d78c0a0' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:28:44 2024: KERNEL_SVC: closing session for UUID '534aac94-5247-4a0f-95a7-0fdd3d78c0a0' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:28:44 2024: GUIDANCE_SMGR: closing session for UUID '534aac94-5247-4a0f-95a7-0fdd3d78c0a0' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:28:44 2024: SYSTEM_DIAGRAM: closing session for UUID '534aac94-5247-4a0f-95a7-0fdd3d78c0a0' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:28:44 2024: STOP_SERVER received, server token: 8f1a1ac1-f0e7-4ce5-8919-387bb4d0ca50, passed token: 8f1a1ac1-f0e7-4ce5-8919-387bb4d0ca50
+Fri Sep 20 15:28:44 2024: Socket received request to stop server.
+Fri Sep 20 15:28:44 2024: Dispatch Server: do_await_stop
+Fri Sep 20 15:28:44 2024: Dispatch Server: stopping mainFifo_
+Fri Sep 20 15:28:44 2024: XCD main fifo: Stopping
+Fri Sep 20 15:28:44 2024: XCD main fifo: do_read error code: Operation canceled
+Fri Sep 20 15:28:44 2024: XCD main fifo: bytes_transferred: 0
+Fri Sep 20 15:28:44 2024: SERVER: destructor for server bound to port 39015
+Fri Sep 20 15:28:44 2024: XCD main fifo: Good unlink of /tmp/xcdmain8f1a1ac1-f0e7-4ce5-8919-387bb4d0ca50
+Fri Sep 20 15:28:44 2024: Server exiting with status 0.
+Fri Sep 20 15:28:44 2024: Closing log file.
+Fri Sep 20 15:28:46 2024: Running xcd server. This server was built by gradle.
+Fri Sep 20 15:28:46 2024: Server was asked to start on port: '35511'
+Fri Sep 20 15:28:46 2024: Server is using token UUID: 'abbb1f20-93e6-4c9d-bb49-11b01eedc04d'
+Fri Sep 20 15:28:46 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Sep 20 15:28:46 2024: Attempting to start server on port '35511'
+Fri Sep 20 15:28:46 2024: XCD main fifo: created main fifo '/tmp/xcdmainabbb1f20-93e6-4c9d-bb49-11b01eedc04d', fd read = 13
+Fri Sep 20 15:28:46 2024: Running Dispatch Server
+Fri Sep 20 15:28:46 2024: Version 2.2.0
+Fri Sep 20 15:28:47 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 15:28:47 2024: Starting Socket connection
+Fri Sep 20 15:28:47 2024: EXCHANGE_TOKEN received, server token: abbb1f20-93e6-4c9d-bb49-11b01eedc04d, passed token: abbb1f20-93e6-4c9d-bb49-11b01eedc04d
+Fri Sep 20 15:28:48 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Sep 20 15:28:48 2024: SESSION_MGR: creating session with session uuid: '6d3e0681-5f98-4f0a-b8be-75849846b4c1' and name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:28:48 2024: KERNEL_SVC: creating session with uuid: '6d3e0681-5f98-4f0a-b8be-75849846b4c1' and name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:28:48 2024: GUIDANCE_SMGR: creating guidance session with uuid: '6d3e0681-5f98-4f0a-b8be-75849846b4c1' and name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:28:48 2024: SYSTEM_DIAGRAM: creating session with uuid: '6d3e0681-5f98-4f0a-b8be-75849846b4c1' and name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:28:52 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 15:28:52 2024: Starting Socket connection
+Fri Sep 20 15:29:10 2024: SESSION_MGR: closing session for UUID '6d3e0681-5f98-4f0a-b8be-75849846b4c1' with name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:29:10 2024: KERNEL_SVC: closing session for UUID '6d3e0681-5f98-4f0a-b8be-75849846b4c1' with name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:29:10 2024: GUIDANCE_SMGR: closing session for UUID '6d3e0681-5f98-4f0a-b8be-75849846b4c1' with name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:29:10 2024: SYSTEM_DIAGRAM: closing session for UUID '6d3e0681-5f98-4f0a-b8be-75849846b4c1' with name 'vitis-run_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 15:29:10 2024: STOP_SERVER received, server token: abbb1f20-93e6-4c9d-bb49-11b01eedc04d, passed token: abbb1f20-93e6-4c9d-bb49-11b01eedc04d
+Fri Sep 20 15:29:10 2024: Socket received request to stop server.
+Fri Sep 20 15:29:10 2024: Dispatch Server: do_await_stop
+Fri Sep 20 15:29:10 2024: Dispatch Server: stopping mainFifo_
+Fri Sep 20 15:29:10 2024: XCD main fifo: Stopping
+Fri Sep 20 15:29:10 2024: XCD main fifo: do_read error code: Operation canceled
+Fri Sep 20 15:29:10 2024: XCD main fifo: bytes_transferred: 0
+Fri Sep 20 15:29:10 2024: SERVER: destructor for server bound to port 35511
+Fri Sep 20 15:29:10 2024: XCD main fifo: Good unlink of /tmp/xcdmainabbb1f20-93e6-4c9d-bb49-11b01eedc04d
+Fri Sep 20 15:29:10 2024: Server exiting with status 0.
+Fri Sep 20 15:29:10 2024: Closing log file.
+Fri Sep 20 21:19:55 2024: Running xcd server. This server was built by gradle.
+Fri Sep 20 21:19:55 2024: Server was asked to start on port: '44699'
+Fri Sep 20 21:19:55 2024: Server is using token UUID: '7ce9d17a-f5de-4405-8f5b-f2d3864c6d8b'
+Fri Sep 20 21:19:55 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Sep 20 21:19:55 2024: Attempting to start server on port '44699'
+Fri Sep 20 21:19:55 2024: XCD main fifo: created main fifo '/tmp/xcdmain7ce9d17a-f5de-4405-8f5b-f2d3864c6d8b', fd read = 13
+Fri Sep 20 21:19:55 2024: Running Dispatch Server
+Fri Sep 20 21:19:55 2024: Version 2.2.0
+Fri Sep 20 21:19:56 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 21:19:56 2024: Starting Socket connection
+Fri Sep 20 21:19:56 2024: EXCHANGE_TOKEN received, server token: 7ce9d17a-f5de-4405-8f5b-f2d3864c6d8b, passed token: 7ce9d17a-f5de-4405-8f5b-f2d3864c6d8b
+Fri Sep 20 21:19:56 2024: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Fri Sep 20 21:19:56 2024: SESSION_MGR: creating session with session uuid: '50163363-acf4-403f-95f8-b8a5bb9d3714' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 21:19:56 2024: KERNEL_SVC: creating session with uuid: '50163363-acf4-403f-95f8-b8a5bb9d3714' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 21:19:56 2024: GUIDANCE_SMGR: creating guidance session with uuid: '50163363-acf4-403f-95f8-b8a5bb9d3714' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 21:19:56 2024: SYSTEM_DIAGRAM: creating session with uuid: '50163363-acf4-403f-95f8-b8a5bb9d3714' and name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 21:20:00 2024: Dispatch Server: Accepted socket connection from client
+Fri Sep 20 21:20:00 2024: Starting Socket connection
+Fri Sep 20 21:20:10 2024: SESSION_MGR: closing session for UUID '50163363-acf4-403f-95f8-b8a5bb9d3714' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 21:20:10 2024: KERNEL_SVC: closing session for UUID '50163363-acf4-403f-95f8-b8a5bb9d3714' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 21:20:10 2024: GUIDANCE_SMGR: closing session for UUID '50163363-acf4-403f-95f8-b8a5bb9d3714' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 21:20:10 2024: SYSTEM_DIAGRAM: closing session for UUID '50163363-acf4-403f-95f8-b8a5bb9d3714' with name 'v++_compile_EdgedetectBaseline_cluster'
+Fri Sep 20 21:20:10 2024: STOP_SERVER received, server token: 7ce9d17a-f5de-4405-8f5b-f2d3864c6d8b, passed token: 7ce9d17a-f5de-4405-8f5b-f2d3864c6d8b
+Fri Sep 20 21:20:10 2024: Socket received request to stop server.
+Fri Sep 20 21:20:10 2024: Dispatch Server: do_await_stop
+Fri Sep 20 21:20:10 2024: Dispatch Server: stopping mainFifo_
+Fri Sep 20 21:20:10 2024: XCD main fifo: Stopping
+Fri Sep 20 21:20:10 2024: XCD main fifo: do_read error code: Operation canceled
+Fri Sep 20 21:20:10 2024: XCD main fifo: bytes_transferred: 0
+Fri Sep 20 21:20:10 2024: SERVER: destructor for server bound to port 44699
+Fri Sep 20 21:20:10 2024: XCD main fifo: Good unlink of /tmp/xcdmain7ce9d17a-f5de-4405-8f5b-f2d3864c6d8b
+Fri Sep 20 21:20:10 2024: Server exiting with status 0.
+Fri Sep 20 21:20:10 2024: Closing log file.

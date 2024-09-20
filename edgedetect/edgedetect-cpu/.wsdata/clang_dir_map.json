@@ -1,8 +1,7 @@
 {
   "workspaceRoot": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-cpu",
   "mapping": {
-    "src/edgedetect.cpp": "EdgedetectBaseline_cluster",
-    "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/src/edgedetect.cpp": "EdgedetectBaseline_cluster",
+    "EdgedetectBaseline_host/src/edgedetect_fpga.cpp": "EdgedetectBaseline_cluster",
     "src/edgedetect_fpga.cpp": "EdgedetectBaseline_cluster"
   }
 }

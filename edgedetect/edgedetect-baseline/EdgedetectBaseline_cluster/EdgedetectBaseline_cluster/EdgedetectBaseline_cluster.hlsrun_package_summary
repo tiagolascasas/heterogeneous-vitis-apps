@@ -1,6 +1,6 @@
 <ENTRY>
 {
- "thisFile": "/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster.hlsrun_package_summary",
+ "thisFile": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster.hlsrun_package_summary",
  "connectId": "",
  "serverToken": "",
  "timestamp": "0"
@@ -9,34 +9,34 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "Sat Sep 14 02:48:38 2024",
- "timestampMillis": "1726278518218",
+ "dateTimestamp": "Fri Sep 20 21:58:55 2024",
+ "timestampMillis": "1726865935000",
  "buildStep": {
-  "cmdId": "5274e7bc-ad8f-498f-8be4-8a1c17fcf50e",
+  "cmdId": "cb71a37e-b9bc-48a3-a19d-b03565fbb22c",
   "name": "vitis-run",
-  "logFile": "/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/logs/EdgedetectBaseline_cluster.steps.log",
-  "commandLine": "/tools/Xilinx/Vitis/2024.1/bin/unwrapped/lnx64.o/vitis-run  --mode hls --package --config /home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/hls_config.cfg --work_dir EdgedetectBaseline_cluster ",
+  "logFile": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/logs/EdgedetectBaseline_cluster.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2024.1/bin/unwrapped/lnx64.o/vitis-run  --mode hls --package --config /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg --work_dir EdgedetectBaseline_cluster ",
   "args": [
    "--mode",
    "hls",
    "--package",
    "--config",
-   "/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/hls_config.cfg",
+   "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg",
    "--work_dir",
    "EdgedetectBaseline_cluster"
   ],
   "iniFiles": [],
-  "cwd": "/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster"
+  "cwd": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Sat Sep 14 02:48:38 2024",
- "timestampMillis": "1726278518218",
+ "dateTimestamp": "Fri Sep 20 21:58:55 2024",
+ "timestampMillis": "1726865935000",
  "status": {
-  "cmdId": "5274e7bc-ad8f-498f-8be4-8a1c17fcf50e",
+  "cmdId": "cb71a37e-b9bc-48a3-a19d-b03565fbb22c",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "Sat Sep 14 02:48:42 2024",
- "timestampMillis": "1726278522523",
+ "dateTimestamp": "Fri Sep 20 21:58:59 2024",
+ "timestampMillis": "1726865939373",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -59,12 +59,12 @@
     "base": {
      "type": "KERNEL",
      "name": "edgedetect",
-     "file": "/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/edgedetect.xo",
+     "file": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/edgedetect.xo",
      "reports": [],
      "uuid": ""
     },
     "sources": [
-     "/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/edgedetect.cpp"
+     "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp"
     ],
     "psSources": [],
     "cuNames": [],
@@ -80,29 +80,29 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "Sat Sep 14 02:48:42 2024",
- "timestampMillis": "1726278522523",
+ "dateTimestamp": "Fri Sep 20 21:58:59 2024",
+ "timestampMillis": "1726865939373",
  "buildStep": {
-  "cmdId": "15b16598-11e0-426d-aff9-f03eb50a2232",
+  "cmdId": "299f4891-9c44-4897-90d9-4d5e124f7de0",
   "name": "export_design",
-  "logFile": "/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/hls.log",
+  "logFile": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/hls.log",
   "commandLine": "export_design -flow none",
   "args": [
    "-flow",
    "none"
   ],
   "iniFiles": [],
-  "cwd": "/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster"
+  "cwd": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Sat Sep 14 02:48:42 2024",
- "timestampMillis": "1726278522524",
+ "dateTimestamp": "Fri Sep 20 21:58:59 2024",
+ "timestampMillis": "1726865939374",
  "status": {
-  "cmdId": "15b16598-11e0-426d-aff9-f03eb50a2232",
+  "cmdId": "299f4891-9c44-4897-90d9-4d5e124f7de0",
   "state": "CS_RUNNING"
  }
 }
@@ -110,10 +110,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Sat Sep 14 02:49:09 2024",
- "timestampMillis": "1726278549529",
+ "dateTimestamp": "Fri Sep 20 21:59:20 2024",
+ "timestampMillis": "1726865960089",
  "status": {
-  "cmdId": "15b16598-11e0-426d-aff9-f03eb50a2232",
+  "cmdId": "299f4891-9c44-4897-90d9-4d5e124f7de0",
   "state": "CS_PASSED"
  }
 }
@@ -121,10 +121,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Sat Sep 14 02:49:09 2024",
- "timestampMillis": "1726278549708",
+ "dateTimestamp": "Fri Sep 20 21:59:20 2024",
+ "timestampMillis": "1726865960272",
  "status": {
-  "cmdId": "5274e7bc-ad8f-498f-8be4-8a1c17fcf50e",
+  "cmdId": "cb71a37e-b9bc-48a3-a19d-b03565fbb22c",
   "state": "CS_PASSED"
  }
 }
@@ -132,8 +132,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Sat Sep 14 02:49:09 2024",
- "timestampMillis": "1726278549708",
+ "dateTimestamp": "Fri Sep 20 21:59:20 2024",
+ "timestampMillis": "1726865960273",
  "report": {
   "path": "",
   "name": "",
@@ -146,8 +146,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Sat Sep 14 02:49:09 2024",
- "timestampMillis": "1726278549709",
+ "dateTimestamp": "Fri Sep 20 21:59:20 2024",
+ "timestampMillis": "1726865960273",
  "report": {
   "path": "",
   "name": "",

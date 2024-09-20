@@ -1,0 +1,4 @@
+ERROR: [v++ 60-602] Source file does not exist: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/src/edgedetect.cpp
+ERROR: [v++ 60-602] Source file does not exist: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/src/edgedetect.cpp
+INFO: [v++ 60-1662] Stopping dispatch session having empty uuid.
+INFO: [v++ 60-1653] Closing dispatch client.

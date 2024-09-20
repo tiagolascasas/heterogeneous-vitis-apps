@@ -3407,7 +3407,7 @@ window.onload = function () { addSorting(); }
 <center><h1>Design Guidance Report</h1></center><center><table class="header" border="0">
 <tr><td><b>Copyright</b></td><td>Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.</td></tr>
 <tr><td><b>Tool Version</b></td><td>xcd v.2024.1 (lin64) Build 0 </td></tr>
-<tr><td><b>Date</b></td><td>Fri Sep 20 02:12:03 2024</td></tr>
+<tr><td><b>Date</b></td><td>Fri Sep 20 21:58:51 2024</td></tr>
 <tr><td><b>Host</b></td><td>tls-Legion-5-15ACH6H running 64-bit Ubuntu 22.04.5 LTS</td></tr>
 <tr><td><b>Command</b></td><td>/tools/Xilinx/Vitis/2024.1/bin/unwrapped/lnx64.o/v++  -c --mode hls --config /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg --work_dir EdgedetectBaseline_cluster </td></tr>
 </table></center><br>
@@ -3434,57 +3434,13 @@ window.onload = function () { addSorting(); }
 <th align="left" width="380">Resolution</th>
 </tr>
 <tr>
-<td align="left">7</td>
-<td align="left">Kernel</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_5_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">13</td>
-<td align="left">Kernel</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_21_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) due to limited memory ports (II = 17). Please consider using a memory core with more ports or partitioning the array.
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">19</td>
-<td align="left">Kernel</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4' (loop 'VITIS_LOOP_95_3_VITIS_LOOP_97_4'): Unable to schedule bus request operation ('gmem_load_27_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array.
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">25</td>
-<td align="left">Kernel</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4' (loop 'VITIS_LOOP_138_3_VITIS_LOOP_140_4'): Unable to schedule bus request operation ('gmem_load_43_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
 <td align="left">4</td>
 <td align="left">Kernel</td>
 <td align="left">WARNING</td>
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2' (loop 'VITIS_LOOP_10_1_VITIS_LOOP_13_2'): Unable to schedule bus request operation ('gmem_load_2_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=15">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=221">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=15">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=221">edgedetect.cpp</a>) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2' (loop 'VITIS_LOOP_10_1_VITIS_LOOP_13_2'): Unable to schedule bus request operation ('gmem_load_2_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=15">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=224">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=15">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=224">edgedetect.cpp</a>) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3495,7 +3451,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_8_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_8_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3506,84 +3462,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4' (loop 'VITIS_LOOP_95_3_VITIS_LOOP_97_4'): Unable to schedule bus request operation ('gmem_load_24_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">5</td>
-<td align="left">Throughput</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.edgedetect.Throughput</td>
-<td align="left">Pipelining result : Target II = NA, Final II = 3, Depth = 112, loop 'VITIS_LOOP_10_1_VITIS_LOOP_13_2'
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">11</td>
-<td align="left">Kernel</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_15_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) due to limited memory ports (II = 11). Please consider using a memory core with more ports or partitioning the array.
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">17</td>
-<td align="left">Kernel</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4' (loop 'VITIS_LOOP_95_3_VITIS_LOOP_97_4'): Unable to schedule bus request operation ('gmem_load_25_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">2</td>
-<td align="left">Interface</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Interface Related</td>
-<td align="left">Accelerator.edgedetect.Interface</td>
-<td align="left">Multiple burst writes of length 4800 and bit width 512 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=162">edgedetect.cpp</a>)
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">8</td>
-<td align="left">Kernel</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_6_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">30</td>
-<td align="left">Kernel</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4' (loop 'VITIS_LOOP_138_3_VITIS_LOOP_140_4'): Unable to schedule bus request operation ('gmem_load_57_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) due to limited memory ports (II = 15). Please consider using a memory core with more ports or partitioning the array.
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">36</td>
-<td align="left">Kernel</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">**** Loop Constraint Status: All loop constraints were NOT satisfied.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4' (loop 'VITIS_LOOP_96_3_VITIS_LOOP_98_4'): Unable to schedule bus request operation ('gmem_load_24_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3594,7 +3473,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2' (loop 'VITIS_LOOP_10_1_VITIS_LOOP_13_2'): Unable to schedule bus request operation ('gmem_load_1_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=15">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=221">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=15">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=221">edgedetect.cpp</a>) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2' (loop 'VITIS_LOOP_10_1_VITIS_LOOP_13_2'): Unable to schedule bus request operation ('gmem_load_1_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=15">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=224">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=15">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=224">edgedetect.cpp</a>) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3605,7 +3484,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_7_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_7_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3616,7 +3495,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4' (loop 'VITIS_LOOP_138_3_VITIS_LOOP_140_4'): Unable to schedule bus request operation ('gmem_load_59_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) due to limited memory ports (II = 17). Please consider using a memory core with more ports or partitioning the array.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4' (loop 'VITIS_LOOP_140_3_VITIS_LOOP_142_4'): Unable to schedule bus request operation ('gmem_load_59_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) due to limited memory ports (II = 17). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3632,35 +3511,46 @@ window.onload = function () { addSorting(); }
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
-<td align="left">22</td>
-<td align="left">Kernel</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4' (loop 'VITIS_LOOP_95_3_VITIS_LOOP_97_4'): Unable to schedule bus request operation ('gmem_load_40_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) due to limited memory ports (II = 17). Please consider using a memory core with more ports or partitioning the array.
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">28</td>
-<td align="left">Kernel</td>
-<td align="left">WARNING</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Kernel Related</td>
-<td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4' (loop 'VITIS_LOOP_138_3_VITIS_LOOP_140_4'): Unable to schedule bus request operation ('gmem_load_46_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array.
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">34</td>
-<td align="left">Throughput</td>
+<td align="left">2</td>
+<td align="left">Interface</td>
 <td align="left">ADVISORY</td>
 <td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.edgedetect.Throughput</td>
-<td align="left">Pipelining result : Target II = NA, Final II = 2, Depth = 77, loop 'VITIS_LOOP_162_1_VITIS_LOOP_164_2'
+<td align="left">HLS Interface Related</td>
+<td align="left">Accelerator.edgedetect.Interface</td>
+<td align="left">Multiple burst writes of length 4800 and bit width 512 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=165">edgedetect.cpp</a>)
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">8</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.edgedetect.Kernel</td>
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_6_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">30</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.edgedetect.Kernel</td>
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4' (loop 'VITIS_LOOP_140_3_VITIS_LOOP_142_4'): Unable to schedule bus request operation ('gmem_load_57_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) due to limited memory ports (II = 15). Please consider using a memory core with more ports or partitioning the array.
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">36</td>
+<td align="left">Kernel</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.edgedetect.Kernel</td>
+<td align="left">**** Loop Constraint Status: All loop constraints were NOT satisfied.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3671,7 +3561,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Interface Related</td>
 <td align="left">Accelerator.edgedetect.Interface</td>
-<td align="left">Multiple burst writes of length 4800 and bit width 512 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=10">edgedetect.cpp</a>)
+<td align="left">Multiple burst writes of length 4800 and bit width 512 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=10">edgedetect.cpp</a>)
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3682,7 +3572,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Throughput Related</td>
 <td align="left">Accelerator.edgedetect.Throughput</td>
-<td align="left">Pipelining result : Target II = NA, Final II = 18, Depth = 188, loop 'VITIS_LOOP_95_3_VITIS_LOOP_97_4'
+<td align="left">Pipelining result : Target II = NA, Final II = 18, Depth = 188, loop 'VITIS_LOOP_96_3_VITIS_LOOP_98_4'
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3693,7 +3583,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4' (loop 'VITIS_LOOP_138_3_VITIS_LOOP_140_4'): Unable to schedule bus request operation ('gmem_load_53_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) due to limited memory ports (II = 11). Please consider using a memory core with more ports or partitioning the array.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4' (loop 'VITIS_LOOP_140_3_VITIS_LOOP_142_4'): Unable to schedule bus request operation ('gmem_load_53_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) due to limited memory ports (II = 11). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3705,6 +3595,83 @@ window.onload = function () { addSorting(); }
 <td align="left">HLS Interface Related</td>
 <td align="left">Accelerator.edgedetect.Interface</td>
 <td align="left">Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">22</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.edgedetect.Kernel</td>
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4' (loop 'VITIS_LOOP_96_3_VITIS_LOOP_98_4'): Unable to schedule bus request operation ('gmem_load_40_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) due to limited memory ports (II = 17). Please consider using a memory core with more ports or partitioning the array.
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">28</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.edgedetect.Kernel</td>
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4' (loop 'VITIS_LOOP_140_3_VITIS_LOOP_142_4'): Unable to schedule bus request operation ('gmem_load_46_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array.
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">34</td>
+<td align="left">Throughput</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.edgedetect.Throughput</td>
+<td align="left">Pipelining result : Target II = NA, Final II = 2, Depth = 77, loop 'VITIS_LOOP_165_1_VITIS_LOOP_167_2'
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">15</td>
+<td align="left">Throughput</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.edgedetect.Throughput</td>
+<td align="left">Pipelining result : Target II = NA, Final II = 1, Depth = 74, loop 'VITIS_LOOP_85_1_VITIS_LOOP_87_2'
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">21</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.edgedetect.Kernel</td>
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4' (loop 'VITIS_LOOP_96_3_VITIS_LOOP_98_4'): Unable to schedule bus request operation ('gmem_load_38_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) due to limited memory ports (II = 15). Please consider using a memory core with more ports or partitioning the array.
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">27</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.edgedetect.Kernel</td>
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4' (loop 'VITIS_LOOP_140_3_VITIS_LOOP_142_4'): Unable to schedule bus request operation ('gmem_load_45_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array.
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">33</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.edgedetect.Kernel</td>
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2' (loop 'VITIS_LOOP_165_1_VITIS_LOOP_167_2'): Unable to schedule bus request operation ('gmem_load_61_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=171">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=238">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=171">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=238">edgedetect.cpp</a>) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3726,7 +3693,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4' (loop 'VITIS_LOOP_95_3_VITIS_LOOP_97_4'): Unable to schedule bus request operation ('gmem_load_34_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) due to limited memory ports (II = 11). Please consider using a memory core with more ports or partitioning the array.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4' (loop 'VITIS_LOOP_96_3_VITIS_LOOP_98_4'): Unable to schedule bus request operation ('gmem_load_34_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) due to limited memory ports (II = 11). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3737,7 +3704,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4' (loop 'VITIS_LOOP_138_3_VITIS_LOOP_140_4'): Unable to schedule bus request operation ('gmem_load_44_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4' (loop 'VITIS_LOOP_140_3_VITIS_LOOP_142_4'): Unable to schedule bus request operation ('gmem_load_44_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3748,51 +3715,51 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Throughput Related</td>
 <td align="left">Accelerator.edgedetect.Throughput</td>
-<td align="left">Pipelining result : Target II = NA, Final II = 18, Depth = 188, loop 'VITIS_LOOP_138_3_VITIS_LOOP_140_4'
+<td align="left">Pipelining result : Target II = NA, Final II = 18, Depth = 188, loop 'VITIS_LOOP_140_3_VITIS_LOOP_142_4'
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
-<td align="left">15</td>
-<td align="left">Throughput</td>
-<td align="left">ADVISORY</td>
-<td align="left"><undefined></td>
-<td align="left">HLS Throughput Related</td>
-<td align="left">Accelerator.edgedetect.Throughput</td>
-<td align="left">Pipelining result : Target II = NA, Final II = 1, Depth = 74, loop 'VITIS_LOOP_84_1_VITIS_LOOP_86_2'
-</td>
-<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
-</tr>
-<tr>
-<td align="left">21</td>
+<td align="left">7</td>
 <td align="left">Kernel</td>
 <td align="left">WARNING</td>
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4' (loop 'VITIS_LOOP_95_3_VITIS_LOOP_97_4'): Unable to schedule bus request operation ('gmem_load_38_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) due to limited memory ports (II = 15). Please consider using a memory core with more ports or partitioning the array.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_5_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
-<td align="left">27</td>
+<td align="left">13</td>
 <td align="left">Kernel</td>
 <td align="left">WARNING</td>
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4' (loop 'VITIS_LOOP_138_3_VITIS_LOOP_140_4'): Unable to schedule bus request operation ('gmem_load_45_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=147">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=233">edgedetect.cpp</a>) due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_21_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) due to limited memory ports (II = 17). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
 <tr>
-<td align="left">33</td>
+<td align="left">19</td>
 <td align="left">Kernel</td>
 <td align="left">WARNING</td>
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2' (loop 'VITIS_LOOP_162_1_VITIS_LOOP_164_2'): Unable to schedule bus request operation ('gmem_load_61_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=168">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=235">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=168">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=235">edgedetect.cpp</a>) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4' (loop 'VITIS_LOOP_96_3_VITIS_LOOP_98_4'): Unable to schedule bus request operation ('gmem_load_27_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array.
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">25</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.edgedetect.Kernel</td>
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4' (loop 'VITIS_LOOP_140_3_VITIS_LOOP_142_4'): Unable to schedule bus request operation ('gmem_load_43_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=149">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=236">edgedetect.cpp</a>) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3814,7 +3781,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_19_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=225">edgedetect.cpp</a>) due to limited memory ports (II = 15). Please consider using a memory core with more ports or partitioning the array.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_19_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) due to limited memory ports (II = 15). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3825,7 +3792,7 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Kernel Related</td>
 <td align="left">Accelerator.edgedetect.Kernel</td>
-<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4' (loop 'VITIS_LOOP_95_3_VITIS_LOOP_97_4'): Unable to schedule bus request operation ('gmem_load_26_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=104">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../src/edgedetect.cpp#line=229">edgedetect.cpp</a>) due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array.
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4' (loop 'VITIS_LOOP_96_3_VITIS_LOOP_98_4'): Unable to schedule bus request operation ('gmem_load_26_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>
@@ -3836,7 +3803,40 @@ window.onload = function () { addSorting(); }
 <td align="left"><undefined></td>
 <td align="left">HLS Throughput Related</td>
 <td align="left">Accelerator.edgedetect.Throughput</td>
-<td align="left">Pipelining result : Target II = NA, Final II = 1, Depth = 74, loop 'VITIS_LOOP_127_1_VITIS_LOOP_129_2'
+<td align="left">Pipelining result : Target II = NA, Final II = 1, Depth = 74, loop 'VITIS_LOOP_129_1_VITIS_LOOP_131_2'
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">5</td>
+<td align="left">Throughput</td>
+<td align="left">ADVISORY</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Throughput Related</td>
+<td align="left">Accelerator.edgedetect.Throughput</td>
+<td align="left">Pipelining result : Target II = NA, Final II = 3, Depth = 112, loop 'VITIS_LOOP_10_1_VITIS_LOOP_13_2'
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">11</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.edgedetect.Kernel</td>
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_15_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=61">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=228">edgedetect.cpp</a>) due to limited memory ports (II = 11). Please consider using a memory core with more ports or partitioning the array.
+</td>
+<td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
+</tr>
+<tr>
+<td align="left">17</td>
+<td align="left">Kernel</td>
+<td align="left">WARNING</td>
+<td align="left"><undefined></td>
+<td align="left">HLS Kernel Related</td>
+<td align="left">Accelerator.edgedetect.Kernel</td>
+<td align="left">The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4' (loop 'VITIS_LOOP_96_3_VITIS_LOOP_98_4'): Unable to schedule bus request operation ('gmem_load_25_req', <a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) on port 'gmem' (<a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=105">edgedetect.cpp</a>-><a href="file:///home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/../EdgedetectBaseline_host/src/edgedetect.cpp#line=232">edgedetect.cpp</a>) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
 </td>
 <td align="left"><a href="http:///docs.xilinx.com/access/sources/dita/map?Doc_Version=2024.1%20English&url=ug1399-vitis-hls">Vitis HLS User Guide (UG1399)</a></td>
 </tr>

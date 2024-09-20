@@ -1,116 +1,8 @@
 {
     "1": {
-        "name": "edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4",
-        "file": "..\/src\/edgedetect.cpp",
-        "fileloc": "225",
-        "instructions": "298",
-        "total_instructions": "298",
-        "calls": "",
-        "basicblocks": "4",
-        "loads": {
-            "L": "3"
-        },
-        "stores": {
-            "L": "6"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
-    "2": {
-        "name": "edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2",
-        "file": "..\/src\/edgedetect.cpp",
-        "fileloc": "225",
-        "instructions": "57",
-        "total_instructions": "57",
-        "calls": "",
-        "basicblocks": "4",
-        "loads": {
-            "L": "5"
-        },
-        "stores": {
-            "L": "8"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
-    "3": {
-        "name": "edgedetect_Pipeline_VITIS_LOOP_162_1_VITIS_LOOP_164_2",
-        "file": "..\/src\/edgedetect.cpp",
-        "fileloc": "235",
-        "instructions": "101",
-        "total_instructions": "101",
-        "calls": "",
-        "basicblocks": "8",
-        "loads": {
-            "L": "6"
-        },
-        "stores": {
-            "L": "12"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
-    "4": {
-        "name": "edgedetect_Pipeline_VITIS_LOOP_138_3_VITIS_LOOP_140_4",
-        "file": "..\/src\/edgedetect.cpp",
-        "fileloc": "225",
-        "instructions": "298",
-        "total_instructions": "298",
-        "calls": "",
-        "basicblocks": "4",
-        "loads": {
-            "L": "3"
-        },
-        "stores": {
-            "L": "6"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
-    "5": {
-        "name": "edgedetect_Pipeline_VITIS_LOOP_95_3_VITIS_LOOP_97_4",
-        "file": "..\/src\/edgedetect.cpp",
-        "fileloc": "225",
-        "instructions": "298",
-        "total_instructions": "298",
-        "calls": "",
-        "basicblocks": "4",
-        "loads": {
-            "L": "3"
-        },
-        "stores": {
-            "L": "6"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
-    "6": {
-        "name": "edgedetect_Pipeline_VITIS_LOOP_127_1_VITIS_LOOP_129_2",
-        "file": "..\/src\/edgedetect.cpp",
-        "fileloc": "233",
-        "instructions": "57",
-        "total_instructions": "57",
-        "calls": "",
-        "basicblocks": "4",
-        "loads": {
-            "L": "5"
-        },
-        "stores": {
-            "L": "8"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
-    "7": {
         "name": "edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2",
-        "file": "..\/src\/edgedetect.cpp",
-        "fileloc": "221",
+        "file": "..\/EdgedetectBaseline_host\/src\/edgedetect.cpp",
+        "fileloc": "224",
         "instructions": "166",
         "total_instructions": "166",
         "calls": "",
@@ -129,19 +21,37 @@
     "0": {
         "name": "edgedetect",
         "file": "edgedetect.cpp",
-        "fileloc": "214",
+        "fileloc": "217",
         "instructions": "95",
-        "total_instructions": "1427",
-        "calls": "7 2 1 8 5 6 4 3",
+        "total_instructions": "1439",
+        "calls": "1 5 8 7 6 3 4 2",
         "basicblocks": "1",
         "loads": {
             "L": "3"
         }
     },
-    "8": {
-        "name": "edgedetect_Pipeline_VITIS_LOOP_84_1_VITIS_LOOP_86_2",
-        "file": "..\/src\/edgedetect.cpp",
-        "fileloc": "229",
+    "2": {
+        "name": "edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2",
+        "file": "..\/EdgedetectBaseline_host\/src\/edgedetect.cpp",
+        "fileloc": "238",
+        "instructions": "101",
+        "total_instructions": "101",
+        "calls": "",
+        "basicblocks": "8",
+        "loads": {
+            "L": "6"
+        },
+        "stores": {
+            "L": "12"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "3": {
+        "name": "edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2",
+        "file": "..\/EdgedetectBaseline_host\/src\/edgedetect.cpp",
+        "fileloc": "236",
         "instructions": "57",
         "total_instructions": "57",
         "calls": "",
@@ -151,6 +61,96 @@
         },
         "stores": {
             "L": "8"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "4": {
+        "name": "edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4",
+        "file": "..\/EdgedetectBaseline_host\/src\/edgedetect.cpp",
+        "fileloc": "228",
+        "instructions": "302",
+        "total_instructions": "302",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "5": {
+        "name": "edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2",
+        "file": "..\/EdgedetectBaseline_host\/src\/edgedetect.cpp",
+        "fileloc": "228",
+        "instructions": "57",
+        "total_instructions": "57",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "5"
+        },
+        "stores": {
+            "L": "8"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "6": {
+        "name": "edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4",
+        "file": "..\/EdgedetectBaseline_host\/src\/edgedetect.cpp",
+        "fileloc": "228",
+        "instructions": "302",
+        "total_instructions": "302",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "7": {
+        "name": "edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2",
+        "file": "..\/EdgedetectBaseline_host\/src\/edgedetect.cpp",
+        "fileloc": "232",
+        "instructions": "57",
+        "total_instructions": "57",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "5"
+        },
+        "stores": {
+            "L": "8"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "8": {
+        "name": "edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4",
+        "file": "..\/EdgedetectBaseline_host\/src\/edgedetect.cpp",
+        "fileloc": "228",
+        "instructions": "302",
+        "total_instructions": "302",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "6"
         },
         "loops": {
             "L": "1"
