@@ -1,0 +1,13 @@
+../EdgedetectBaseline_host/src/edgedetect.cpp:188:10: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
+ temp1 = abs(image_gray[i * 640 + j]);
+         ^
+../EdgedetectBaseline_host/src/edgedetect.cpp:188:10: note: remove the call to 'abs' since unsigned values cannot be negative
+ temp1 = abs(image_gray[i * 640 + j]);
+         ^~~
+../EdgedetectBaseline_host/src/edgedetect.cpp:189:21: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
+            temp2 = abs(temp_buf[i * 640 + j]);
+                    ^
+../EdgedetectBaseline_host/src/edgedetect.cpp:189:21: note: remove the call to 'abs' since unsigned values cannot be negative
+            temp2 = abs(temp_buf[i * 640 + j]);
+                    ^~~
+2 warnings generated.

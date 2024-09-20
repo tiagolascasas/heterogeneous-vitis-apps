@@ -1,0 +1,166 @@
+
+
+================================================================
+== Vitis HLS Report for 'edgedetect_Pipeline_1'
+================================================================
+* Date:           Fri Sep 20 23:14:17 2024
+
+* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Project:        EdgedetectBaseline_cluster
+* Solution:       hls (Vitis Kernel Flow Target)
+* Product family: zynquplus
+* Target device:  xczu9eg-ffvb1156-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  6.67 ns|  2.556 ns|     1.80 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+--------+--------+-----------------------------------------------+
+    |  Latency (cycles) |  Latency (absolute) |     Interval    |                    Pipeline                   |
+    |   min   |   max   |    min   |    max   |   min  |   max  |                      Type                     |
+    +---------+---------+----------+----------+--------+--------+-----------------------------------------------+
+    |   307202|   307202|  2.048 ms|  2.048 ms|  307201|  307201|  loop auto-rewind stp(delay=0 clock cycles(s))|
+    +---------+---------+----------+----------+--------+--------+-----------------------------------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+--------+----------+
+        |          |  Latency (cycles) | Iteration|  Initiation Interval  |  Trip  |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  |  Count | Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+--------+----------+
+        |- Loop 1  |   307200|   307200|         1|          1|          1|  307200|       yes|
+        +----------+---------+---------+----------+-----------+-----------+--------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|     169|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|     -|       -|       -|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       0|      45|    -|
+|Register         |        -|     -|      79|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     0|      79|     214|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |     1824|  2520|  548160|  274080|    0|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|     0|      ~0|      ~0|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------------+----------+----+---+----+------------+------------+
+    |     Variable Name     | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------------+----------+----+---+----+------------+------------+
+    |empty_39_fu_181_p2     |         +|   0|  0|  26|          19|           1|
+    |next_mul_fu_190_p2     |         +|   0|  0|  45|          38|          20|
+    |next_urem_fu_220_p2    |         +|   0|  0|  26|          19|           1|
+    |empty_40_fu_226_p2     |      icmp|   0|  0|  26|          19|           3|
+    |exitcond317_fu_175_p2  |      icmp|   0|  0|  26|          19|          19|
+    |idx_urem_fu_232_p3     |    select|   0|  0|  18|           1|          19|
+    |ap_enable_pp0          |       xor|   0|  0|   2|           1|           2|
+    +-----------------------+----------+----+---+----+------------+------------+
+    |Total                  |          |   0|  0| 169|         116|          65|
+    +-----------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |ap_done_int              |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
+    |empty_fu_66              |   9|          2|   19|         38|
+    |phi_mul_fu_62            |   9|          2|   38|         76|
+    |phi_urem_fu_58           |   9|          2|   19|         38|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    |  45|         10|   78|        156|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------------+----+----+-----+-----------+
+    |           Name          | FF | LUT| Bits| Const Bits|
+    +-------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                |   1|   0|    1|          0|
+    |ap_done_reg              |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1  |   1|   0|    1|          0|
+    |empty_fu_66              |  19|   0|   19|          0|
+    |phi_mul_fu_62            |  38|   0|   38|          0|
+    |phi_urem_fu_58           |  19|   0|   19|          0|
+    +-------------------------+----+----+-----+-----------+
+    |Total                    |  79|   0|   79|          0|
+    +-------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+-----+------------+-----------------------+--------------+
+|       RTL Ports       | Dir | Bits|  Protocol  |     Source Object     |    C Type    |
++-----------------------+-----+-----+------------+-----------------------+--------------+
+|ap_clk                 |   in|    1|  ap_ctrl_hs|  edgedetect_Pipeline_1|  return value|
+|ap_rst                 |   in|    1|  ap_ctrl_hs|  edgedetect_Pipeline_1|  return value|
+|ap_start               |   in|    1|  ap_ctrl_hs|  edgedetect_Pipeline_1|  return value|
+|ap_done                |  out|    1|  ap_ctrl_hs|  edgedetect_Pipeline_1|  return value|
+|ap_idle                |  out|    1|  ap_ctrl_hs|  edgedetect_Pipeline_1|  return value|
+|ap_ready               |  out|    1|  ap_ctrl_hs|  edgedetect_Pipeline_1|  return value|
+|image_gray_5_address0  |  out|   16|   ap_memory|           image_gray_5|         array|
+|image_gray_5_ce0       |  out|    1|   ap_memory|           image_gray_5|         array|
+|image_gray_5_we0       |  out|    1|   ap_memory|           image_gray_5|         array|
+|image_gray_5_d0        |  out|    8|   ap_memory|           image_gray_5|         array|
+|image_gray_4_address0  |  out|   16|   ap_memory|           image_gray_4|         array|
+|image_gray_4_ce0       |  out|    1|   ap_memory|           image_gray_4|         array|
+|image_gray_4_we0       |  out|    1|   ap_memory|           image_gray_4|         array|
+|image_gray_4_d0        |  out|    8|   ap_memory|           image_gray_4|         array|
+|image_gray_3_address0  |  out|   16|   ap_memory|           image_gray_3|         array|
+|image_gray_3_ce0       |  out|    1|   ap_memory|           image_gray_3|         array|
+|image_gray_3_we0       |  out|    1|   ap_memory|           image_gray_3|         array|
+|image_gray_3_d0        |  out|    8|   ap_memory|           image_gray_3|         array|
+|image_gray_2_address0  |  out|   16|   ap_memory|           image_gray_2|         array|
+|image_gray_2_ce0       |  out|    1|   ap_memory|           image_gray_2|         array|
+|image_gray_2_we0       |  out|    1|   ap_memory|           image_gray_2|         array|
+|image_gray_2_d0        |  out|    8|   ap_memory|           image_gray_2|         array|
+|image_gray_1_address0  |  out|   16|   ap_memory|           image_gray_1|         array|
+|image_gray_1_ce0       |  out|    1|   ap_memory|           image_gray_1|         array|
+|image_gray_1_we0       |  out|    1|   ap_memory|           image_gray_1|         array|
+|image_gray_1_d0        |  out|    8|   ap_memory|           image_gray_1|         array|
+|image_gray_address0    |  out|   16|   ap_memory|             image_gray|         array|
+|image_gray_ce0         |  out|    1|   ap_memory|             image_gray|         array|
+|image_gray_we0         |  out|    1|   ap_memory|             image_gray|         array|
+|image_gray_d0          |  out|    8|   ap_memory|             image_gray|         array|
++-----------------------+-----+-----+------------+-----------------------+--------------+
+

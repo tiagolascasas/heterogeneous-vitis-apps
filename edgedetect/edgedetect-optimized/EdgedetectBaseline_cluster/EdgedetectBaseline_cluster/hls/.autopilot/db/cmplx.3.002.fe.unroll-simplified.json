@@ -1,0 +1,261 @@
+{
+  "0": {
+    "basicblocks": 5,
+    "calls": "11 2 16 10 6",
+    "file": "edgedetect.cpp",
+    "fileloc": 196,
+    "instructions": 24,
+    "name": "edgedetect",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 519
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 475,
+    "instructions": 9,
+    "loads": {
+      "L": 3
+    },
+    "name": "data",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 9
+  },
+  "10": {
+    "basicblocks": 13,
+    "calls": "",
+    "file": "edgedetect.cpp",
+    "fileloc": 126,
+    "instructions": 70,
+    "loads": {
+      "G": 2,
+      "L": 1
+    },
+    "name": "convolve2d_horizontal",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 70
+  },
+  "11": {
+    "basicblocks": 5,
+    "calls": "4 3",
+    "file": "edgedetect.cpp",
+    "fileloc": 8,
+    "instructions": 46,
+    "loads": {
+      "L": 3
+    },
+    "name": "rgbToGrayscale",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 257
+  },
+  "12": {
+    "basicblocks": 1,
+    "calls": "9 9 19",
+    "file": "hls_copysign.h",
+    "fileloc": 10,
+    "instructions": 12,
+    "loads": {
+      "L": 1
+    },
+    "name": "generic_copysign<double>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 44
+  },
+  "13": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 485,
+    "instructions": 4,
+    "loads": {
+      "L": 1
+    },
+    "name": "expv",
+    "total_instructions": 4
+  },
+  "14": {
+    "basicblocks": 1,
+    "calls": "1",
+    "file": "x_hls_utils.h",
+    "fileloc": 494,
+    "instructions": 5,
+    "loads": {
+      "L": 1
+    },
+    "name": "to_double",
+    "total_instructions": 14
+  },
+  "15": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 464,
+    "instructions": 7,
+    "name": "fp_struct",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 7
+  },
+  "16": {
+    "basicblocks": 13,
+    "calls": "",
+    "file": "edgedetect.cpp",
+    "fileloc": 76,
+    "instructions": 70,
+    "loads": {
+      "G": 2,
+      "L": 1
+    },
+    "name": "convolve2d_vertical",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 70
+  },
+  "17": {
+    "basicblocks": 1,
+    "calls": "7",
+    "file": "hls_case_IEEE754.h",
+    "fileloc": 116,
+    "instructions": 2,
+    "name": "generic_cast_IEEE754<unsigned char, double>",
+    "total_instructions": 54
+  },
+  "18": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 503,
+    "instructions": 6,
+    "loads": {
+      "L": 1
+    },
+    "name": "mantissa",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 6
+  },
+  "19": {
+    "basicblocks": 1,
+    "calls": "14",
+    "file": "x_hls_utils.h",
+    "fileloc": 509,
+    "instructions": 2,
+    "name": "to_ieee",
+    "total_instructions": 16
+  },
+  "2": {
+    "basicblocks": 13,
+    "calls": "",
+    "file": "edgedetect.cpp",
+    "fileloc": 26,
+    "instructions": 70,
+    "loads": {
+      "G": 2,
+      "L": 1
+    },
+    "name": "convolve2d_smoothing",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 70
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "17",
+    "file": "lib_floatconversion.cpp",
+    "fileloc": 67,
+    "instructions": 2,
+    "name": "__hls_fptoui_double_i8",
+    "total_instructions": 56
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "5",
+    "file": "floordouble.cpp",
+    "fileloc": 6,
+    "instructions": 2,
+    "name": "floor",
+    "total_instructions": 155
+  },
+  "5": {
+    "basicblocks": 9,
+    "calls": "9 8 12 8 1 15 19",
+    "file": "hls_floor.h",
+    "fileloc": 13,
+    "instructions": 63,
+    "loads": {
+      "G": 1,
+      "L": 7
+    },
+    "name": "generic_floor<double>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 153
+  },
+  "6": {
+    "basicblocks": 5,
+    "calls": "",
+    "file": "edgedetect.cpp",
+    "fileloc": 176,
+    "instructions": 28,
+    "loads": {
+      "L": 2
+    },
+    "name": "combthreshold",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 28
+  },
+  "7": {
+    "basicblocks": 4,
+    "calls": "9 18 13",
+    "file": "hls_case_IEEE754.h",
+    "fileloc": 65,
+    "instructions": 34,
+    "loads": {
+      "L": 1
+    },
+    "name": "generic_cast_IEEE754<unsigned char, AP_TRN_ZERO, double>",
+    "total_instructions": 52
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 512,
+    "instructions": 3,
+    "loads": {
+      "L": 1
+    },
+    "name": "__signbit",
+    "total_instructions": 3
+  },
+  "9": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 456,
+    "instructions": 8,
+    "name": "fp_struct",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 8
+  }
+}

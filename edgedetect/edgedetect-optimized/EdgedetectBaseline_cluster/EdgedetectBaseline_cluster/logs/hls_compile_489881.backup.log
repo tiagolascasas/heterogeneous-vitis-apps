@@ -1,0 +1,57 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster.hlscompile_summary, at Fri Sep 20 23:06:11 2024
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster -config /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/hls_config.cfg -cmdlineconfig /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Fri Sep 20 23:06:12 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'tls' on host 'tls-Legion-5-15ACH6H' (Linux_x86_64 version 6.8.0-40-generic) on Fri Sep 20 23:06:13 WEST 2024
+INFO: [HLS 200-10] On os Ubuntu 22.04.5 LTS
+INFO: [HLS 200-10] In directory '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster'
+INFO: [HLS 200-2005] Using work_dir /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=edgedetect' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1465] Applying ini 'part=xczu9eg-ffvb1156-2-e' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [HLS 200-1465] Applying ini 'clock=150MHz' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 6.667ns.
+INFO: [HLS 200-1465] Applying ini 'package.output.format=xo' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 3.05 seconds. CPU system time: 0.45 seconds. Elapsed time: 3.34 seconds; current allocated memory: 351.258 MB.
+INFO: [HLS 200-10] Analyzing design file '../EdgedetectBaseline_host/src/edgedetect.cpp' ... 
+WARNING: [HLS 207-5276] taking the absolute value of unsigned type 'unsigned char' has no effect (../EdgedetectBaseline_host/src/edgedetect.cpp:51:30)
+INFO: [HLS 207-4496] remove the call to 'abs' since unsigned values cannot be negative (../EdgedetectBaseline_host/src/edgedetect.cpp:51:30)
+ERROR: [HLS 207-3953] constant expression evaluates to -1 which cannot be narrowed to type 'unsigned char' (../EdgedetectBaseline_host/src/edgedetect.cpp:88:9)
+INFO: [HLS 207-4265] insert an explicit cast to silence this issue (../EdgedetectBaseline_host/src/edgedetect.cpp:88:9)
+ERROR: [HLS 207-3953] constant expression evaluates to -2 which cannot be narrowed to type 'unsigned char' (../EdgedetectBaseline_host/src/edgedetect.cpp:89:9)
+INFO: [HLS 207-4265] insert an explicit cast to silence this issue (../EdgedetectBaseline_host/src/edgedetect.cpp:89:9)
+WARNING: [HLS 207-5276] taking the absolute value of unsigned type 'unsigned char' has no effect (../EdgedetectBaseline_host/src/edgedetect.cpp:101:30)
+INFO: [HLS 207-4496] remove the call to 'abs' since unsigned values cannot be negative (../EdgedetectBaseline_host/src/edgedetect.cpp:101:30)
+ERROR: [HLS 207-3953] constant expression evaluates to -1 which cannot be narrowed to type 'unsigned char' (../EdgedetectBaseline_host/src/edgedetect.cpp:140:9)
+INFO: [HLS 207-4265] insert an explicit cast to silence this issue (../EdgedetectBaseline_host/src/edgedetect.cpp:140:9)
+ERROR: [HLS 207-3953] constant expression evaluates to -2 which cannot be narrowed to type 'unsigned char' (../EdgedetectBaseline_host/src/edgedetect.cpp:140:13)
+INFO: [HLS 207-4265] insert an explicit cast to silence this issue (../EdgedetectBaseline_host/src/edgedetect.cpp:140:13)
+ERROR: [HLS 207-3953] constant expression evaluates to -1 which cannot be narrowed to type 'unsigned char' (../EdgedetectBaseline_host/src/edgedetect.cpp:140:17)
+INFO: [HLS 207-4265] insert an explicit cast to silence this issue (../EdgedetectBaseline_host/src/edgedetect.cpp:140:17)
+WARNING: [HLS 207-5276] taking the absolute value of unsigned type 'unsigned char' has no effect (../EdgedetectBaseline_host/src/edgedetect.cpp:151:30)
+INFO: [HLS 207-4496] remove the call to 'abs' since unsigned values cannot be negative (../EdgedetectBaseline_host/src/edgedetect.cpp:151:30)
+WARNING: [HLS 207-5276] taking the absolute value of unsigned type 'unsigned char' has no effect (../EdgedetectBaseline_host/src/edgedetect.cpp:188:10)
+INFO: [HLS 207-4496] remove the call to 'abs' since unsigned values cannot be negative (../EdgedetectBaseline_host/src/edgedetect.cpp:188:10)
+WARNING: [HLS 207-5276] taking the absolute value of unsigned type 'unsigned char' has no effect (../EdgedetectBaseline_host/src/edgedetect.cpp:189:21)
+INFO: [HLS 207-4496] remove the call to 'abs' since unsigned values cannot be negative (../EdgedetectBaseline_host/src/edgedetect.cpp:189:21)
+ERROR:  
+INFO: [HLS 200-112] Total CPU user time: 3.29 seconds. Total CPU system time: 0.74 seconds. Total elapsed time: 3.86 seconds; peak allocated memory: 352.727 MB.

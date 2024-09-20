@@ -1,0 +1,116 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Fri Sep 20 23:11:24 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'tls' on host 'tls-Legion-5-15ACH6H' (Linux_x86_64 version 6.8.0-40-generic) on Fri Sep 20 23:11:26 WEST 2024
+INFO: [HLS 200-10] On os Ubuntu 22.04.5 LTS
+INFO: [HLS 200-10] In directory '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect'
+WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'edgedetect.tcl'
+INFO: [HLS 200-1510] Running: open_project edgedetect 
+INFO: [HLS 200-10] Creating and opening project '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect'.
+INFO: [HLS 200-1510] Running: set_top edgedetect 
+INFO: [HLS 200-1510] Running: add_files /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp -cflags  -g 
+INFO: [HLS 200-10] Adding design file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution -flow_target vitis solution 
+INFO: [HLS 200-10] Creating and opening solution '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution'.
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1510] Running: set_part xczu9eg-ffvb1156-2-e 
+INFO: [HLS 200-1611] Setting target device to 'xczu9eg-ffvb1156-2-e'
+INFO: [HLS 200-1510] Running: create_clock -period 150.000000MHz -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 6.667ns.
+INFO: [HLS 200-1510] Running: config_rtl -kernel_profile 
+INFO: [HLS 200-1510] Running: config_dataflow -strict_mode warning 
+INFO: [HLS 200-1510] Running: config_debug -enable 
+INFO: [HLS 200-1510] Running: config_rtl -deadlock_detection none 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_conservative_mode=1 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_auto_max_ports=0 
+INFO: [HLS 200-1510] Running: config_export -format xo -ipname edgedetect 
+INFO: [HLS 200-1510] Running: csynth_design -synthesis_check 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 361.062 MB.
+INFO: [HLS 200-10] Analyzing design file '../../../../../EdgedetectBaseline_host/src/edgedetect.cpp' ... 
+WARNING: [HLS 207-5276] taking the absolute value of unsigned type 'unsigned char' has no effect (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:188:10)
+INFO: [HLS 207-4496] remove the call to 'abs' since unsigned values cannot be negative (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:188:10)
+WARNING: [HLS 207-5276] taking the absolute value of unsigned type 'unsigned char' has no effect (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:189:21)
+INFO: [HLS 207-4496] remove the call to 'abs' since unsigned values cannot be negative (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:189:21)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.4 seconds. CPU system time: 0.51 seconds. Elapsed time: 0.9 seconds; current allocated memory: 362.578 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
+INFO: [HLS 200-1995] There were 5,063 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 677 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 523 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 470 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 400 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 361 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 361 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 361 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 361 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 373 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 373 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 402 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 402 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 402 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 400 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 415 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/sw_emu/edgedetect/edgedetect/edgedetect/solution/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::data() const' into 'fp_struct<double>::to_double() const' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:494:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::to_double() const' into 'fp_struct<double>::to_ieee() const' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:509:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'double generic_copysign<double>(double, double)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h:10:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::to_ieee() const' into 'double generic_copysign<double>(double, double)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h:10:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'double generic_floor<double>(double)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h:14:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::__signbit() const' into 'double generic_floor<double>(double)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h:14:0)
+INFO: [HLS 214-178] Inlining function 'double generic_copysign<double>(double, double)' into 'double generic_floor<double>(double)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h:14:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::data() const' into 'double generic_floor<double>(double)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h:14:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(ap_uint<64>)' into 'double generic_floor<double>(double)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h:14:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::to_ieee() const' into 'double generic_floor<double>(double)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h:14:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'unsigned char generic_cast_IEEE754<unsigned char, (ap_q_mode)6, double>(double, bool, hls::enable_if<!(std::numeric_limits<unsigned char>::is_signed), bool>::type)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:65:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::mantissa() const' into 'unsigned char generic_cast_IEEE754<unsigned char, (ap_q_mode)6, double>(double, bool, hls::enable_if<!(std::numeric_limits<unsigned char>::is_signed), bool>::type)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:65:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<double>::expv() const' into 'unsigned char generic_cast_IEEE754<unsigned char, (ap_q_mode)6, double>(double, bool, hls::enable_if<!(std::numeric_limits<unsigned char>::is_signed), bool>::type)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:65:0)
+INFO: [HLS 214-178] Inlining function 'unsigned char generic_cast_IEEE754<unsigned char, (ap_q_mode)6, double>(double, bool, hls::enable_if<!(std::numeric_limits<unsigned char>::is_signed), bool>::type)' into 'unsigned char generic_cast_IEEE754<unsigned char, double>(double, bool)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:116:0)
+INFO: [HLS 214-178] Inlining function 'unsigned char generic_cast_IEEE754<unsigned char, double>(double, bool)' into '__hls_fptoui_double_i8' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/src/lib_floatconversion.cpp:67:0)
+INFO: [HLS 214-178] Inlining function 'floor' into 'rgbToGrayscale(unsigned char*, unsigned char*)' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:9:0)
+INFO: [HLS 214-178] Inlining function '__hls_fptoui_double_i8' into 'rgbToGrayscale(unsigned char*, unsigned char*)' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:9:0)
+INFO: [HLS 214-178] Inlining function 'rgbToGrayscale(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+INFO: [HLS 214-178] Inlining function 'convolve2d_smoothing(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+INFO: [HLS 214-178] Inlining function 'convolve2d_vertical(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+INFO: [HLS 214-178] Inlining function 'convolve2d_horizontal(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+INFO: [HLS 214-178] Inlining function 'combthreshold(unsigned char*, unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at  
+INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at ../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:13:9 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at ../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:49:9 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at ../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:60:9 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at ../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:99:9 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at ../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:110:9 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at ../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:149:9 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at ../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:160:9 
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:163:13)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:165:17)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:113:13)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:115:17)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:63:13)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:65:17)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:163:13) in function 'edgedetect' completely with a factor of 3 (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:165:17) in function 'edgedetect' completely with a factor of 3 (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:113:13) in function 'edgedetect' completely with a factor of 3 (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:115:17) in function 'edgedetect' completely with a factor of 3 (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:63:13) in function 'edgedetect' completely with a factor of 3 (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:65:17) in function 'edgedetect' completely with a factor of 3 (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'image_rgb' since this interface mode only supports scalar types (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'output' since this interface mode only supports scalar types (../../../../../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.19 seconds. CPU system time: 0.57 seconds. Elapsed time: 7.2 seconds; current allocated memory: 373.332 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 373.332 MB.
+INFO: [HLS 200-1493] Running only source code synthesis checks, skipping scheduling and RTL generation.
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:08; Allocated memory: 12.270 MB.
+INFO: [HLS 200-1510] Running: close_project 
+HLS completed successfully
+INFO: [HLS 200-112] Total CPU user time: 5.41 seconds. Total CPU system time: 1.51 seconds. Total elapsed time: 11.18 seconds; peak allocated memory: 373.332 MB.

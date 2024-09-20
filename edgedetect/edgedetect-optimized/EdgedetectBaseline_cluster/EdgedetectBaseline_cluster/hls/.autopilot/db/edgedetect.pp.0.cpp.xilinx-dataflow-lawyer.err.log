@@ -1,0 +1,5 @@
+taking the absolute value of unsigned type 'unsigned char' has no effect
+remove the call to 'abs' since unsigned values cannot be negative
+taking the absolute value of unsigned type 'unsigned char' has no effect
+remove the call to 'abs' since unsigned values cannot be negative
+2 warnings generated.
