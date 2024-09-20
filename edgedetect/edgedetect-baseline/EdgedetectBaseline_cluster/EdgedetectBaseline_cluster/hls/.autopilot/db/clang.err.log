@@ -1,31 +1,31 @@
-edgedetect.cpp:45:30: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
+../src/edgedetect.cpp:45:30: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
             normal_factor += abs(filter[r * 3 + c]);
                              ^
-edgedetect.cpp:45:30: note: remove the call to 'abs' since unsigned values cannot be negative
+../src/edgedetect.cpp:45:30: note: remove the call to 'abs' since unsigned values cannot be negative
             normal_factor += abs(filter[r * 3 + c]);
                              ^~~
-edgedetect.cpp:88:30: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
+../src/edgedetect.cpp:88:30: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
             normal_factor += abs(filter[r * 3 + c]);
                              ^
-edgedetect.cpp:88:30: note: remove the call to 'abs' since unsigned values cannot be negative
+../src/edgedetect.cpp:88:30: note: remove the call to 'abs' since unsigned values cannot be negative
             normal_factor += abs(filter[r * 3 + c]);
                              ^~~
-edgedetect.cpp:131:30: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
+../src/edgedetect.cpp:131:30: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
             normal_factor += abs(filter[r * 3 + c]);
                              ^
-edgedetect.cpp:131:30: note: remove the call to 'abs' since unsigned values cannot be negative
+../src/edgedetect.cpp:131:30: note: remove the call to 'abs' since unsigned values cannot be negative
             normal_factor += abs(filter[r * 3 + c]);
                              ^~~
-edgedetect.cpp:167:10: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
+../src/edgedetect.cpp:167:10: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
  temp1 = abs(image_gray[i * 640 + j]);
          ^
-edgedetect.cpp:167:10: note: remove the call to 'abs' since unsigned values cannot be negative
+../src/edgedetect.cpp:167:10: note: remove the call to 'abs' since unsigned values cannot be negative
  temp1 = abs(image_gray[i * 640 + j]);
          ^~~
-edgedetect.cpp:168:21: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
+../src/edgedetect.cpp:168:21: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
             temp2 = abs(temp_buf[i * 640 + j]);
                     ^
-edgedetect.cpp:168:21: note: remove the call to 'abs' since unsigned values cannot be negative
+../src/edgedetect.cpp:168:21: note: remove the call to 'abs' since unsigned values cannot be negative
             temp2 = abs(temp_buf[i * 640 + j]);
                     ^~~
 5 warnings generated.

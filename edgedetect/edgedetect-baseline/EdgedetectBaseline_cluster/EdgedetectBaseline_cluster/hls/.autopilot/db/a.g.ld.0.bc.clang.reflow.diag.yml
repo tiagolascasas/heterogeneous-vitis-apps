@@ -256,7 +256,7 @@ Args:
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: edgedetect.cpp, Line: 9, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 9, Column: 0 }
 Function:        _Z14rgbToGrayscalePhS_
 Args:            
   - String:          'Inlining function '''
@@ -265,13 +265,13 @@ Args:
                        Line: 6, Column: 0 }
   - String:          ''' into '''
   - Caller:          'rgbToGrayscale(unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 9, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 9, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: edgedetect.cpp, Line: 9, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 9, Column: 0 }
 Function:        _Z14rgbToGrayscalePhS_
 Args:            
   - String:          'Inlining function '''
@@ -280,125 +280,125 @@ Args:
                        Line: 67, Column: 0 }
   - String:          ''' into '''
   - Caller:          'rgbToGrayscale(unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 9, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 9, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Inlining function '''
   - Callee:          'rgbToGrayscale(unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 9, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 9, Column: 0 }
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Inlining function '''
   - Callee:          'set_smoothing_filter(unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 176, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 176, Column: 0 }
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Inlining function '''
   - Callee:          'convolve2d_smoothing(unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 27, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 27, Column: 0 }
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Inlining function '''
   - Callee:          'set_vertical_filter(unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 189, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 189, Column: 0 }
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Inlining function '''
   - Callee:          'convolve2d_vertical(unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 70, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 70, Column: 0 }
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Inlining function '''
   - Callee:          'set_horizontal_filter(unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 202, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 202, Column: 0 }
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Inlining function '''
   - Callee:          'convolve2d_horizontal(unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 113, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 113, Column: 0 }
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Inlining function '''
   - Callee:          'combthreshold(unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 156, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 156, Column: 0 }
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 10, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -414,29 +414,29 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_10_1
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:10:22'
+  - LoopLoc:         '../src/edgedetect.cpp:10:22'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 15, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 15, Column: 31 }
   - OrigDirection:   read
   - OrigID:          for.inc.i.load.12
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 16, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 16, Column: 31 }
   - OrigDirection:   read
   - OrigID:          for.inc.i.load.16
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 17, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 17, Column: 31 }
   - OrigDirection:   read
   - OrigID:          for.inc.i.load.20
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 10, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -452,21 +452,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_10_1
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:10:22'
+  - LoopLoc:         '../src/edgedetect.cpp:10:22'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 21, Column: 39 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 21, Column: 39 }
   - OrigDirection:   write
   - OrigID:          __hls_fptoui_double_i8.exit.i.store.8
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 26, Column: 41 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 26, Column: 41 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -481,50 +481,50 @@ Args:
   - BundleName:      gmem
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 177, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 177, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.6
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 178, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 178, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.8
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 179, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 179, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.10
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 180, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 180, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.12
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 181, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 181, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.14
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 182, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 182, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.16
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 183, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 183, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.18
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 184, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 184, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.20
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 185, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 185, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.22
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 41, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 41, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -540,21 +540,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_41_1
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:41:22'
+  - LoopLoc:         '../src/edgedetect.cpp:41:22'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 45, Column: 34 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 45, Column: 34 }
   - OrigDirection:   read
   - OrigID:          for.inc.i3.load.8
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -570,21 +570,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_59_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:59:34'
+  - LoopLoc:         '../src/edgedetect.cpp:59:34'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 61, Column: 28 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 61, Column: 28 }
   - OrigDirection:   read
   - OrigID:          for.inc35.i.load.8
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -600,21 +600,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_57_5
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:57:30'
+  - LoopLoc:         '../src/edgedetect.cpp:57:30'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 61, Column: 67 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 61, Column: 67 }
   - OrigDirection:   read
   - OrigID:          for.inc35.i.load.14
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 54, Column: 26 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 54, Column: 26 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -630,21 +630,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_54_4
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:54:26'
+  - LoopLoc:         '../src/edgedetect.cpp:54:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 64, Column: 67 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 64, Column: 67 }
   - OrigDirection:   write
   - OrigID:          for.inc48.i.store.8
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 69, Column: 40 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 69, Column: 40 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -659,50 +659,50 @@ Args:
   - BundleName:      gmem
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 190, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 190, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.1
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 191, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 191, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.2
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 192, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 192, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.3
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 193, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 193, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.4
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 194, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 194, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.5
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 195, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 195, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.6
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 196, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 196, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.7
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 197, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 197, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.8
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 198, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 198, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.9
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 84, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 84, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -718,21 +718,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_84_1
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:84:22'
+  - LoopLoc:         '../src/edgedetect.cpp:84:22'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 88, Column: 34 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 88, Column: 34 }
   - OrigDirection:   read
   - OrigID:          for.inc.i25.load.8
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -748,21 +748,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_102_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:102:35'
+  - LoopLoc:         '../src/edgedetect.cpp:102:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 104, Column: 28 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 104, Column: 28 }
   - OrigDirection:   read
   - OrigID:          for.inc35.i47.load.8
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -778,21 +778,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_100_5
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:100:31'
+  - LoopLoc:         '../src/edgedetect.cpp:100:31'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 104, Column: 67 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 104, Column: 67 }
   - OrigDirection:   read
   - OrigID:          for.inc35.i47.load.14
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 97, Column: 26 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 97, Column: 26 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -808,21 +808,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_97_4
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:97:26'
+  - LoopLoc:         '../src/edgedetect.cpp:97:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 107, Column: 67 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 107, Column: 67 }
   - OrigDirection:   write
   - OrigID:          for.inc48.i56.store.8
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 112, Column: 42 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 112, Column: 42 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -837,50 +837,50 @@ Args:
   - BundleName:      gmem
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 203, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 203, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.1
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 204, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 204, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.2
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 205, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 205, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.3
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 206, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 206, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.4
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 207, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 207, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.5
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 208, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 208, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.6
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 209, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 209, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.7
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 210, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 210, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.8
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 211, Column: 15 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 211, Column: 15 }
   - OrigDirection:   write
   - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.9
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 127, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 127, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -896,21 +896,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_127_1
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:127:23'
+  - LoopLoc:         '../src/edgedetect.cpp:127:23'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 131, Column: 34 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 131, Column: 34 }
   - OrigDirection:   read
   - OrigID:          for.inc.i77.load.8
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -926,21 +926,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_145_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:145:35'
+  - LoopLoc:         '../src/edgedetect.cpp:145:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 147, Column: 28 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 147, Column: 28 }
   - OrigDirection:   read
   - OrigID:          for.inc35.i99.load.8
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -956,21 +956,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_143_5
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:143:31'
+  - LoopLoc:         '../src/edgedetect.cpp:143:31'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 147, Column: 67 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 147, Column: 67 }
   - OrigDirection:   read
   - OrigID:          for.inc35.i99.load.14
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 140, Column: 27 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 140, Column: 27 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -986,21 +986,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_140_4
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:140:27'
+  - LoopLoc:         '../src/edgedetect.cpp:140:27'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 150, Column: 67 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 150, Column: 67 }
   - OrigDirection:   write
   - OrigID:          for.inc48.i108.store.8
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 162, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 162, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -1016,21 +1016,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_162_1
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:162:23'
+  - LoopLoc:         '../src/edgedetect.cpp:162:23'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 167, Column: 14 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 167, Column: 14 }
   - OrigDirection:   read
   - OrigID:          for.body3.i.load.6
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 162, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 162, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -1046,21 +1046,21 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_162_1
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:162:23'
+  - LoopLoc:         '../src/edgedetect.cpp:162:23'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: edgedetect.cpp, Line: 168, Column: 25 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 168, Column: 25 }
   - OrigDirection:   read
   - OrigID:          for.body3.i.load.13
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: edgedetect.cpp, Line: 162, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 162, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -1076,27 +1076,27 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_162_1
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:162:23'
+  - LoopLoc:         '../src/edgedetect.cpp:162:23'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: edgedetect.cpp, Line: 170, Column: 33 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 170, Column: 33 }
   - OrigDirection:   write
   - OrigID:          for.body3.i.store.25
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            IncompatibleStride
-DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Stride is incompatible
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
   - OrigDirection:   read
   - OrigID:          scevgepseq
   - ArrayName:       image_gray
@@ -1105,22 +1105,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_57_5
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:57:30'
+  - LoopLoc:         '../src/edgedetect.cpp:57:30'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            CouldNotAnalyzePattern
-DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Could not analyze pattern
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
   - OrigDirection:   read
   - OrigID:          filter31seq33
   - ArrayName:       filter
@@ -1129,22 +1129,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_54_4
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:54:26'
+  - LoopLoc:         '../src/edgedetect.cpp:54:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            IncompatibleStride
-DebugLoc:        { File: edgedetect.cpp, Line: 54, Column: 26 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 54, Column: 26 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Stride is incompatible
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 54, Column: 26 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 54, Column: 26 }
   - OrigDirection:   write
   - OrigID:          scevgep34seq
   - ArrayName:       output
@@ -1153,22 +1153,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_52_3
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:52:22'
+  - LoopLoc:         '../src/edgedetect.cpp:52:22'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            IncompatibleStride
-DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Stride is incompatible
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
   - OrigDirection:   read
   - OrigID:          scevgep37seq
   - ArrayName:       output
@@ -1177,22 +1177,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_100_5
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:100:31'
+  - LoopLoc:         '../src/edgedetect.cpp:100:31'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            CouldNotAnalyzePattern
-DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Could not analyze pattern
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
   - OrigDirection:   read
   - OrigID:          filter31seq38
   - ArrayName:       filter
@@ -1201,22 +1201,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_97_4
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:97:26'
+  - LoopLoc:         '../src/edgedetect.cpp:97:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            IncompatibleStride
-DebugLoc:        { File: edgedetect.cpp, Line: 97, Column: 26 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 97, Column: 26 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Stride is incompatible
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 97, Column: 26 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 97, Column: 26 }
   - OrigDirection:   write
   - OrigID:          scevgep39seq
   - ArrayName:       image_gray
@@ -1225,22 +1225,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_95_3
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:95:22'
+  - LoopLoc:         '../src/edgedetect.cpp:95:22'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            IncompatibleStride
-DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Stride is incompatible
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
   - OrigDirection:   read
   - OrigID:          scevgep42seq
   - ArrayName:       output
@@ -1249,22 +1249,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_143_5
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:143:31'
+  - LoopLoc:         '../src/edgedetect.cpp:143:31'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            CouldNotAnalyzePattern
-DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Could not analyze pattern
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
   - OrigDirection:   read
   - OrigID:          filter31seq43
   - ArrayName:       filter
@@ -1273,22 +1273,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_140_4
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:140:27'
+  - LoopLoc:         '../src/edgedetect.cpp:140:27'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            IncompatibleStride
-DebugLoc:        { File: edgedetect.cpp, Line: 140, Column: 27 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 140, Column: 27 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Stride is incompatible
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 140, Column: 27 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 140, Column: 27 }
   - OrigDirection:   write
   - OrigID:          scevgep44seq
   - ArrayName:       temp_buf
@@ -1297,16 +1297,16 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_138_3
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:138:23'
+  - LoopLoc:         '../src/edgedetect.cpp:138:23'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-burst-widen
 Name:            BurstWidened
-DebugLoc:        { File: edgedetect.cpp, Line: 162, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 162, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -1324,7 +1324,7 @@ Args:
   - String:          bit words
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 162, Column: 23 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 162, Column: 23 }
   - OrigDirection:   read
   - OrigID:          image_gray30seq45
   - String:          ' _XLX_SEP_ '
@@ -1335,16 +1335,16 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_164_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:164:27'
+  - LoopLoc:         '../src/edgedetect.cpp:164:27'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-burst-widen
 Name:            BurstWidened
-DebugLoc:        { File: edgedetect.cpp, Line: 162, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 162, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -1362,7 +1362,7 @@ Args:
   - String:          bit words
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 162, Column: 23 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 162, Column: 23 }
   - OrigDirection:   read
   - OrigID:          temp_buf46seq
   - String:          ' _XLX_SEP_ '
@@ -1373,16 +1373,16 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_164_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:164:27'
+  - LoopLoc:         '../src/edgedetect.cpp:164:27'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-burst-widen
 Name:            BurstWidened
-DebugLoc:        { File: edgedetect.cpp, Line: 162, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 162, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -1400,7 +1400,7 @@ Args:
   - String:          bit words
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 162, Column: 23 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 162, Column: 23 }
   - OrigDirection:   write
   - OrigID:          output47seq
   - String:          ' _XLX_SEP_ '
@@ -1411,16 +1411,16 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_164_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:164:27'
+  - LoopLoc:         '../src/edgedetect.cpp:164:27'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 140, Column: 27 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 140, Column: 27 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Could not widen since type '
@@ -1430,7 +1430,7 @@ Args:
   - String:          '(bytes)'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 140, Column: 27 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 140, Column: 27 }
   - OrigDirection:   write
   - OrigID:          scevgep44seq
   - ArrayName:       temp_buf
@@ -1439,16 +1439,16 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_140_4
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:140:27'
+  - LoopLoc:         '../src/edgedetect.cpp:140:27'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Could not widen since type '
@@ -1458,7 +1458,7 @@ Args:
   - String:          '(bytes)'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
   - OrigDirection:   read
   - OrigID:          scevgep42seq
   - ArrayName:       output
@@ -1467,22 +1467,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_145_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:145:35'
+  - LoopLoc:         '../src/edgedetect.cpp:145:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
   - OrigDirection:   read
   - OrigID:          filter31seq43
   - ArrayName:       filter
@@ -1491,22 +1491,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_145_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:145:35'
+  - LoopLoc:         '../src/edgedetect.cpp:145:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadStartIndexAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Start index of the access is unaligned
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
   - OrigDirection:   read
   - OrigID:          filter31seq43
   - ArrayName:       filter
@@ -1515,22 +1515,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_145_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:145:35'
+  - LoopLoc:         '../src/edgedetect.cpp:145:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 127, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 127, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 127, Column: 23 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 127, Column: 23 }
   - OrigDirection:   read
   - OrigID:          filter31seq41
   - ArrayName:       filter
@@ -1539,22 +1539,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_129_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:129:27'
+  - LoopLoc:         '../src/edgedetect.cpp:129:27'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadStartIndexAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 127, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 127, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Start index of the access is unaligned
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 127, Column: 23 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 127, Column: 23 }
   - OrigDirection:   read
   - OrigID:          filter31seq41
   - ArrayName:       filter
@@ -1563,22 +1563,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_129_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:129:27'
+  - LoopLoc:         '../src/edgedetect.cpp:129:27'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 112, Column: 42 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 112, Column: 42 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 112, Column: 42 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 112, Column: 42 }
   - OrigDirection:   write
   - OrigID:          filter31seq40
   - ArrayName:       filter
@@ -1586,13 +1586,13 @@ Args:
   - BundleName:      gmem
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 97, Column: 26 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 97, Column: 26 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Could not widen since type '
@@ -1602,7 +1602,7 @@ Args:
   - String:          '(bytes)'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 97, Column: 26 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 97, Column: 26 }
   - OrigDirection:   write
   - OrigID:          scevgep39seq
   - ArrayName:       image_gray
@@ -1611,16 +1611,16 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_97_4
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:97:26'
+  - LoopLoc:         '../src/edgedetect.cpp:97:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Could not widen since type '
@@ -1630,7 +1630,7 @@ Args:
   - String:          '(bytes)'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
   - OrigDirection:   read
   - OrigID:          scevgep37seq
   - ArrayName:       output
@@ -1639,22 +1639,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_102_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:102:35'
+  - LoopLoc:         '../src/edgedetect.cpp:102:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
   - OrigDirection:   read
   - OrigID:          filter31seq38
   - ArrayName:       filter
@@ -1663,22 +1663,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_102_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:102:35'
+  - LoopLoc:         '../src/edgedetect.cpp:102:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadStartIndexAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Start index of the access is unaligned
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
   - OrigDirection:   read
   - OrigID:          filter31seq38
   - ArrayName:       filter
@@ -1687,22 +1687,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_102_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:102:35'
+  - LoopLoc:         '../src/edgedetect.cpp:102:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 84, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 84, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 84, Column: 22 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 84, Column: 22 }
   - OrigDirection:   read
   - OrigID:          filter31seq36
   - ArrayName:       filter
@@ -1711,22 +1711,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_86_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:86:26'
+  - LoopLoc:         '../src/edgedetect.cpp:86:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadStartIndexAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 84, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 84, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Start index of the access is unaligned
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 84, Column: 22 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 84, Column: 22 }
   - OrigDirection:   read
   - OrigID:          filter31seq36
   - ArrayName:       filter
@@ -1735,22 +1735,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_86_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:86:26'
+  - LoopLoc:         '../src/edgedetect.cpp:86:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 69, Column: 40 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 69, Column: 40 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 69, Column: 40 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 69, Column: 40 }
   - OrigDirection:   write
   - OrigID:          filter31seq35
   - ArrayName:       filter
@@ -1758,13 +1758,13 @@ Args:
   - BundleName:      gmem
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 54, Column: 26 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 54, Column: 26 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Could not widen since type '
@@ -1774,7 +1774,7 @@ Args:
   - String:          '(bytes)'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 54, Column: 26 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 54, Column: 26 }
   - OrigDirection:   write
   - OrigID:          scevgep34seq
   - ArrayName:       output
@@ -1783,16 +1783,16 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_54_4
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:54:26'
+  - LoopLoc:         '../src/edgedetect.cpp:54:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Could not widen since type '
@@ -1802,7 +1802,7 @@ Args:
   - String:          '(bytes)'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
   - OrigDirection:   read
   - OrigID:          scevgepseq
   - ArrayName:       image_gray
@@ -1811,22 +1811,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_59_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:59:34'
+  - LoopLoc:         '../src/edgedetect.cpp:59:34'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
   - OrigDirection:   read
   - OrigID:          filter31seq33
   - ArrayName:       filter
@@ -1835,22 +1835,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_59_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:59:34'
+  - LoopLoc:         '../src/edgedetect.cpp:59:34'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadStartIndexAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Start index of the access is unaligned
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
   - OrigDirection:   read
   - OrigID:          filter31seq33
   - ArrayName:       filter
@@ -1859,22 +1859,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_59_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:59:34'
+  - LoopLoc:         '../src/edgedetect.cpp:59:34'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 41, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 41, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 41, Column: 22 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 41, Column: 22 }
   - OrigDirection:   read
   - OrigID:          filter31seq32
   - ArrayName:       filter
@@ -1883,22 +1883,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_43_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:43:26'
+  - LoopLoc:         '../src/edgedetect.cpp:43:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadStartIndexAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 41, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 41, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Start index of the access is unaligned
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 41, Column: 22 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 41, Column: 22 }
   - OrigDirection:   read
   - OrigID:          filter31seq32
   - ArrayName:       filter
@@ -1907,22 +1907,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_43_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:43:26'
+  - LoopLoc:         '../src/edgedetect.cpp:43:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 26, Column: 41 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 26, Column: 41 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 26, Column: 41 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 26, Column: 41 }
   - OrigDirection:   write
   - OrigID:          filter31seq
   - ArrayName:       filter
@@ -1930,13 +1930,13 @@ Args:
   - BundleName:      gmem
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-burst-widen
 Name:            BurstWidened
-DebugLoc:        { File: edgedetect.cpp, Line: 10, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Sequential '
@@ -1954,7 +1954,7 @@ Args:
   - String:          bit words
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 10, Column: 22 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 22 }
   - OrigDirection:   write
   - OrigID:          image_gray30seq
   - String:          ' _XLX_SEP_ '
@@ -1965,16 +1965,16 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_13_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:13:26'
+  - LoopLoc:         '../src/edgedetect.cpp:13:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 140, Column: 27 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 140, Column: 27 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Could not widen since type '
@@ -1984,7 +1984,7 @@ Args:
   - String:          '(bytes)'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 140, Column: 27 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 140, Column: 27 }
   - OrigDirection:   write
   - OrigID:          scevgep44seq
   - ArrayName:       temp_buf
@@ -1993,16 +1993,16 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_140_4
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:140:27'
+  - LoopLoc:         '../src/edgedetect.cpp:140:27'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Could not widen since type '
@@ -2012,7 +2012,7 @@ Args:
   - String:          '(bytes)'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
   - OrigDirection:   read
   - OrigID:          scevgep42seq
   - ArrayName:       output
@@ -2021,22 +2021,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_145_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:145:35'
+  - LoopLoc:         '../src/edgedetect.cpp:145:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
   - OrigDirection:   read
   - OrigID:          filter31seq43
   - ArrayName:       filter
@@ -2045,22 +2045,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_145_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:145:35'
+  - LoopLoc:         '../src/edgedetect.cpp:145:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadStartIndexAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Start index of the access is unaligned
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
   - OrigDirection:   read
   - OrigID:          filter31seq43
   - ArrayName:       filter
@@ -2069,22 +2069,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_145_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:145:35'
+  - LoopLoc:         '../src/edgedetect.cpp:145:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 127, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 127, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 127, Column: 23 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 127, Column: 23 }
   - OrigDirection:   read
   - OrigID:          filter31seq41
   - ArrayName:       filter
@@ -2093,22 +2093,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_129_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:129:27'
+  - LoopLoc:         '../src/edgedetect.cpp:129:27'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadStartIndexAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 127, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 127, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Start index of the access is unaligned
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 127, Column: 23 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 127, Column: 23 }
   - OrigDirection:   read
   - OrigID:          filter31seq41
   - ArrayName:       filter
@@ -2117,16 +2117,16 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_129_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:129:27'
+  - LoopLoc:         '../src/edgedetect.cpp:129:27'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 97, Column: 26 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 97, Column: 26 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Could not widen since type '
@@ -2136,7 +2136,7 @@ Args:
   - String:          '(bytes)'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 97, Column: 26 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 97, Column: 26 }
   - OrigDirection:   write
   - OrigID:          scevgep39seq
   - ArrayName:       image_gray
@@ -2145,16 +2145,16 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_97_4
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:97:26'
+  - LoopLoc:         '../src/edgedetect.cpp:97:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Could not widen since type '
@@ -2164,7 +2164,7 @@ Args:
   - String:          '(bytes)'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
   - OrigDirection:   read
   - OrigID:          scevgep37seq
   - ArrayName:       output
@@ -2173,22 +2173,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_102_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:102:35'
+  - LoopLoc:         '../src/edgedetect.cpp:102:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
   - OrigDirection:   read
   - OrigID:          filter31seq38
   - ArrayName:       filter
@@ -2197,22 +2197,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_102_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:102:35'
+  - LoopLoc:         '../src/edgedetect.cpp:102:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadStartIndexAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Start index of the access is unaligned
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
   - OrigDirection:   read
   - OrigID:          filter31seq38
   - ArrayName:       filter
@@ -2221,22 +2221,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_102_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:102:35'
+  - LoopLoc:         '../src/edgedetect.cpp:102:35'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 84, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 84, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 84, Column: 22 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 84, Column: 22 }
   - OrigDirection:   read
   - OrigID:          filter31seq36
   - ArrayName:       filter
@@ -2245,22 +2245,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_86_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:86:26'
+  - LoopLoc:         '../src/edgedetect.cpp:86:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadStartIndexAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 84, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 84, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Start index of the access is unaligned
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 84, Column: 22 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 84, Column: 22 }
   - OrigDirection:   read
   - OrigID:          filter31seq36
   - ArrayName:       filter
@@ -2269,16 +2269,16 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_86_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:86:26'
+  - LoopLoc:         '../src/edgedetect.cpp:86:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 54, Column: 26 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 54, Column: 26 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Could not widen since type '
@@ -2288,7 +2288,7 @@ Args:
   - String:          '(bytes)'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 54, Column: 26 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 54, Column: 26 }
   - OrigDirection:   write
   - OrigID:          scevgep34seq
   - ArrayName:       output
@@ -2297,16 +2297,16 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_54_4
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:54:26'
+  - LoopLoc:         '../src/edgedetect.cpp:54:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Could not widen since type '
@@ -2316,7 +2316,7 @@ Args:
   - String:          '(bytes)'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
   - OrigDirection:   read
   - OrigID:          scevgepseq
   - ArrayName:       image_gray
@@ -2325,22 +2325,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_59_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:59:34'
+  - LoopLoc:         '../src/edgedetect.cpp:59:34'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
   - OrigDirection:   read
   - OrigID:          filter31seq33
   - ArrayName:       filter
@@ -2349,22 +2349,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_59_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:59:34'
+  - LoopLoc:         '../src/edgedetect.cpp:59:34'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadStartIndexAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Start index of the access is unaligned
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
   - OrigDirection:   read
   - OrigID:          filter31seq33
   - ArrayName:       filter
@@ -2373,22 +2373,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_59_6
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:59:34'
+  - LoopLoc:         '../src/edgedetect.cpp:59:34'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadAccessLen
-DebugLoc:        { File: edgedetect.cpp, Line: 41, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 41, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Sequential access length is not divisible by 2
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 41, Column: 22 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 41, Column: 22 }
   - OrigDirection:   read
   - OrigID:          filter31seq32
   - ArrayName:       filter
@@ -2397,22 +2397,22 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_43_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:43:26'
+  - LoopLoc:         '../src/edgedetect.cpp:43:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            BadStartIndexAlignment
-DebugLoc:        { File: edgedetect.cpp, Line: 41, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 41, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Start index of the access is unaligned
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 41, Column: 22 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 41, Column: 22 }
   - OrigDirection:   read
   - OrigID:          filter31seq32
   - ArrayName:       filter
@@ -2421,10 +2421,10 @@ Args:
   - String:          ' '
   - LoopName:        VITIS_LOOP_43_2
   - String:          ' '
-  - LoopLoc:         'edgedetect.cpp:43:26'
+  - LoopLoc:         '../src/edgedetect.cpp:43:26'
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !HLSReportInfo
@@ -2434,7 +2434,7 @@ Args:
   - String:          'automatically set the pipeline for Loop< '
   - LoopName:        VITIS_LOOP_13_2
   - String:          '> at '
-  - LoopLoc:         'edgedetect.cpp:13:26'
+  - LoopLoc:         '../src/edgedetect.cpp:13:26'
   - String:          ' '
 ...
 --- !HLSReportInfo
@@ -2444,7 +2444,7 @@ Args:
   - String:          'automatically set the pipeline for Loop< '
   - LoopName:        VITIS_LOOP_43_2
   - String:          '> at '
-  - LoopLoc:         'edgedetect.cpp:43:26'
+  - LoopLoc:         '../src/edgedetect.cpp:43:26'
   - String:          ' '
 ...
 --- !HLSReportInfo
@@ -2454,7 +2454,7 @@ Args:
   - String:          'automatically set the pipeline for Loop< '
   - LoopName:        VITIS_LOOP_54_4
   - String:          '> at '
-  - LoopLoc:         'edgedetect.cpp:54:26'
+  - LoopLoc:         '../src/edgedetect.cpp:54:26'
   - String:          ' '
 ...
 --- !HLSReportInfo
@@ -2464,7 +2464,7 @@ Args:
   - String:          'automatically set the pipeline for Loop< '
   - LoopName:        VITIS_LOOP_86_2
   - String:          '> at '
-  - LoopLoc:         'edgedetect.cpp:86:26'
+  - LoopLoc:         '../src/edgedetect.cpp:86:26'
   - String:          ' '
 ...
 --- !HLSReportInfo
@@ -2474,7 +2474,7 @@ Args:
   - String:          'automatically set the pipeline for Loop< '
   - LoopName:        VITIS_LOOP_97_4
   - String:          '> at '
-  - LoopLoc:         'edgedetect.cpp:97:26'
+  - LoopLoc:         '../src/edgedetect.cpp:97:26'
   - String:          ' '
 ...
 --- !HLSReportInfo
@@ -2484,7 +2484,7 @@ Args:
   - String:          'automatically set the pipeline for Loop< '
   - LoopName:        VITIS_LOOP_129_2
   - String:          '> at '
-  - LoopLoc:         'edgedetect.cpp:129:27'
+  - LoopLoc:         '../src/edgedetect.cpp:129:27'
   - String:          ' '
 ...
 --- !HLSReportInfo
@@ -2494,13 +2494,13 @@ Args:
   - String:          'automatically set the pipeline for Loop< '
   - LoopName:        VITIS_LOOP_140_4
   - String:          '> at '
-  - LoopLoc:         'edgedetect.cpp:140:27'
+  - LoopLoc:         '../src/edgedetect.cpp:140:27'
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Loop '''
@@ -2510,7 +2510,7 @@ Args:
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Loop '''
@@ -2520,7 +2520,7 @@ Args:
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Loop '''
@@ -2530,7 +2530,7 @@ Args:
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Loop '''
@@ -2540,7 +2540,7 @@ Args:
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Loop '''
@@ -2550,7 +2550,7 @@ Args:
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Loop '''
@@ -2560,13 +2560,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_143_5
   - String:          ''' ('
-  - LoopLoc:         'edgedetect.cpp:143:31'
+  - LoopLoc:         '../src/edgedetect.cpp:143:31'
   - String:          ') '
   - String:          'in function '''
   - String:          edgedetect
@@ -2576,13 +2576,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_145_6
   - String:          ''' ('
-  - LoopLoc:         'edgedetect.cpp:145:35'
+  - LoopLoc:         '../src/edgedetect.cpp:145:35'
   - String:          ') '
   - String:          'in function '''
   - String:          edgedetect
@@ -2592,13 +2592,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_145_6
   - String:          ''' ('
-  - LoopLoc:         'edgedetect.cpp:145:35'
+  - LoopLoc:         '../src/edgedetect.cpp:145:35'
   - String:          ') '
   - String:          'in function '''
   - String:          edgedetect
@@ -2608,13 +2608,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_145_6
   - String:          ''' ('
-  - LoopLoc:         'edgedetect.cpp:145:35'
+  - LoopLoc:         '../src/edgedetect.cpp:145:35'
   - String:          ') '
   - String:          'in function '''
   - String:          edgedetect
@@ -2624,13 +2624,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_100_5
   - String:          ''' ('
-  - LoopLoc:         'edgedetect.cpp:100:31'
+  - LoopLoc:         '../src/edgedetect.cpp:100:31'
   - String:          ') '
   - String:          'in function '''
   - String:          edgedetect
@@ -2640,13 +2640,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_102_6
   - String:          ''' ('
-  - LoopLoc:         'edgedetect.cpp:102:35'
+  - LoopLoc:         '../src/edgedetect.cpp:102:35'
   - String:          ') '
   - String:          'in function '''
   - String:          edgedetect
@@ -2656,13 +2656,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_102_6
   - String:          ''' ('
-  - LoopLoc:         'edgedetect.cpp:102:35'
+  - LoopLoc:         '../src/edgedetect.cpp:102:35'
   - String:          ') '
   - String:          'in function '''
   - String:          edgedetect
@@ -2672,13 +2672,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_102_6
   - String:          ''' ('
-  - LoopLoc:         'edgedetect.cpp:102:35'
+  - LoopLoc:         '../src/edgedetect.cpp:102:35'
   - String:          ') '
   - String:          'in function '''
   - String:          edgedetect
@@ -2688,13 +2688,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_57_5
   - String:          ''' ('
-  - LoopLoc:         'edgedetect.cpp:57:30'
+  - LoopLoc:         '../src/edgedetect.cpp:57:30'
   - String:          ') '
   - String:          'in function '''
   - String:          edgedetect
@@ -2704,13 +2704,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_59_6
   - String:          ''' ('
-  - LoopLoc:         'edgedetect.cpp:59:34'
+  - LoopLoc:         '../src/edgedetect.cpp:59:34'
   - String:          ') '
   - String:          'in function '''
   - String:          edgedetect
@@ -2720,13 +2720,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_59_6
   - String:          ''' ('
-  - LoopLoc:         'edgedetect.cpp:59:34'
+  - LoopLoc:         '../src/edgedetect.cpp:59:34'
   - String:          ') '
   - String:          'in function '''
   - String:          edgedetect
@@ -2736,13 +2736,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        VITIS_LOOP_59_6
   - String:          ''' ('
-  - LoopLoc:         'edgedetect.cpp:59:34'
+  - LoopLoc:         '../src/edgedetect.cpp:59:34'
   - String:          ') '
   - String:          'in function '''
   - String:          edgedetect
@@ -2752,7 +2752,7 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Cannot apply interface mode '''
@@ -2765,7 +2765,7 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Cannot apply interface mode '''
@@ -2778,7 +2778,7 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Cannot apply interface mode '''
@@ -2791,7 +2791,7 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Cannot apply interface mode '''
@@ -2804,7 +2804,7 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Cannot apply interface mode '''
@@ -2817,13 +2817,13 @@ Args:
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 10, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 10, Column: 22 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 22 }
   - OrigDirection:   read
   - OrigID:          image_rgb29seq
   - ArrayName:       ''
@@ -2831,19 +2831,19 @@ Args:
   - BundleName:      image_rgb
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 41, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 41, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 41, Column: 22 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 41, Column: 22 }
   - OrigDirection:   read
   - OrigID:          filter31seq32
   - ArrayName:       ''
@@ -2851,19 +2851,19 @@ Args:
   - BundleName:      filter
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 54, Column: 26 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 54, Column: 26 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 54, Column: 26 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 54, Column: 26 }
   - OrigDirection:   write
   - OrigID:          scevgep34seq
   - ArrayName:       ''
@@ -2871,19 +2871,19 @@ Args:
   - BundleName:      output_r
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 57, Column: 30 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 57, Column: 30 }
   - OrigDirection:   read
   - OrigID:          filter31seq33
   - ArrayName:       ''
@@ -2891,19 +2891,19 @@ Args:
   - BundleName:      filter
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
   - OrigDirection:   read
   - OrigID:          scevgepseq
   - ArrayName:       ''
@@ -2911,19 +2911,19 @@ Args:
   - BundleName:      image_gray
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
   - OrigDirection:   read
   - OrigID:          scevgepseq.1
   - ArrayName:       ''
@@ -2931,19 +2931,19 @@ Args:
   - BundleName:      image_gray
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 59, Column: 34 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 59, Column: 34 }
   - OrigDirection:   read
   - OrigID:          scevgepseq.2
   - ArrayName:       ''
@@ -2951,19 +2951,19 @@ Args:
   - BundleName:      image_gray
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 84, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 84, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 84, Column: 22 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 84, Column: 22 }
   - OrigDirection:   read
   - OrigID:          filter31seq36
   - ArrayName:       ''
@@ -2971,19 +2971,19 @@ Args:
   - BundleName:      filter
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 97, Column: 26 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 97, Column: 26 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 97, Column: 26 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 97, Column: 26 }
   - OrigDirection:   write
   - OrigID:          scevgep39seq
   - ArrayName:       ''
@@ -2991,19 +2991,19 @@ Args:
   - BundleName:      image_gray
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 100, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 100, Column: 31 }
   - OrigDirection:   read
   - OrigID:          filter31seq38
   - ArrayName:       ''
@@ -3011,19 +3011,19 @@ Args:
   - BundleName:      filter
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
   - OrigDirection:   read
   - OrigID:          scevgep37seq
   - ArrayName:       ''
@@ -3031,19 +3031,19 @@ Args:
   - BundleName:      output_r
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
   - OrigDirection:   read
   - OrigID:          scevgep37seq.1
   - ArrayName:       ''
@@ -3051,19 +3051,19 @@ Args:
   - BundleName:      output_r
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 102, Column: 35 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 102, Column: 35 }
   - OrigDirection:   read
   - OrigID:          scevgep37seq.2
   - ArrayName:       ''
@@ -3071,19 +3071,19 @@ Args:
   - BundleName:      output_r
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 127, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 127, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 127, Column: 23 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 127, Column: 23 }
   - OrigDirection:   read
   - OrigID:          filter31seq41
   - ArrayName:       ''
@@ -3091,19 +3091,19 @@ Args:
   - BundleName:      filter
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 140, Column: 27 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 140, Column: 27 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 140, Column: 27 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 140, Column: 27 }
   - OrigDirection:   write
   - OrigID:          scevgep44seq
   - ArrayName:       ''
@@ -3111,19 +3111,19 @@ Args:
   - BundleName:      temp_buf
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 143, Column: 31 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 143, Column: 31 }
   - OrigDirection:   read
   - OrigID:          filter31seq43
   - ArrayName:       ''
@@ -3131,19 +3131,19 @@ Args:
   - BundleName:      filter
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
   - OrigDirection:   read
   - OrigID:          scevgep42seq
   - ArrayName:       ''
@@ -3151,19 +3151,19 @@ Args:
   - BundleName:      output_r
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
   - OrigDirection:   read
   - OrigID:          scevgep42seq.1
   - ArrayName:       ''
@@ -3171,19 +3171,19 @@ Args:
   - BundleName:      output_r
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
-DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 145, Column: 35 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 145, Column: 35 }
   - OrigDirection:   read
   - OrigID:          scevgep42seq.2
   - ArrayName:       ''
@@ -3191,13 +3191,13 @@ Args:
   - BundleName:      output_r
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            BurstConflict
-DebugLoc:        { File: edgedetect.cpp, Line: 162, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 162, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Could not burst due to multiple potential '
@@ -3205,7 +3205,7 @@ Args:
   - String:          ' to the same bundle in the same region.'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: edgedetect.cpp, Line: 162, Column: 23 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 162, Column: 23 }
   - OrigDirection:   read
   - OrigID:          seq1
   - ArrayName:       ''
@@ -3213,13 +3213,13 @@ Args:
   - BundleName:      gmem
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: edgedetect.cpp, Line: 10, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Multiple burst '
@@ -3237,13 +3237,13 @@ Args:
   - BundleName:      gmem
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: edgedetect.cpp, Line: 10, Column: 22 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 10, Column: 22 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Multiple burst '
@@ -3260,7 +3260,7 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: edgedetect.cpp, Line: 162, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 162, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Multiple burst '
@@ -3278,13 +3278,13 @@ Args:
   - BundleName:      gmem
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
-    DebugLoc:        { File: edgedetect.cpp, Line: 219, Column: 0 }
+    DebugLoc:        { File: ../src/edgedetect.cpp, Line: 219, Column: 0 }
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: edgedetect.cpp, Line: 162, Column: 23 }
+DebugLoc:        { File: ../src/edgedetect.cpp, Line: 162, Column: 23 }
 Function:        _Z10edgedetectPhS_S_S_S_
 Args:            
   - String:          'Multiple burst '

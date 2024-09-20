@@ -34,7 +34,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>edgedetect.cpp:214</SourceLocation>
+<SourceLocation>../src/edgedetect.cpp:214</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 

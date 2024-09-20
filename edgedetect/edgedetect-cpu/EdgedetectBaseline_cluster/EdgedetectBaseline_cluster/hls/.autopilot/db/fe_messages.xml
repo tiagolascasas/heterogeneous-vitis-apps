@@ -1,0 +1,36 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="../src/edgedetect_fpga.cpp:8:76" msg_body="unused parameter 'image_rgb'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="../src/edgedetect_fpga.cpp:9:32" msg_body="unused parameter 'image_gray'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="../src/edgedetect_fpga.cpp:10:32" msg_body="unused parameter 'temp_buf'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="../src/edgedetect_fpga.cpp:11:32" msg_body="unused parameter 'filter'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="../src/edgedetect_fpga.cpp:12:32" msg_body="unused parameter 'output'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="edgedetect" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=edgedetect" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="../src/edgedetect_fpga.cpp:13:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'image_rgb' since this interface mode only supports scalar types">
+        <args Name="image_rgb"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="../src/edgedetect_fpga.cpp:13:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'image_gray' since this interface mode only supports scalar types">
+        <args Name="image_gray"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="../src/edgedetect_fpga.cpp:13:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'temp_buf' since this interface mode only supports scalar types">
+        <args Name="temp_buf"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="../src/edgedetect_fpga.cpp:13:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'filter' since this interface mode only supports scalar types">
+        <args Name="filter"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="../src/edgedetect_fpga.cpp:13:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'output' since this interface mode only supports scalar types">
+        <args Name="output"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

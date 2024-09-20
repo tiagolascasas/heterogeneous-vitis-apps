@@ -118,8 +118,8 @@ endif()
 
 target_sources(EdgedetectBaseline_host
 PRIVATE
-    src/main.cpp
-    src/util.cpp
+    main.cpp
+    util.cpp
 )
 # Below compile definitions are derived from the application template used to
 # create this project.Update them to suite your requirement. They will not be

@@ -129,7 +129,7 @@
               <type>0</type>
               <id>4</id>
               <name>normal_factor</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>118</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -138,20 +138,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>2</count>
                     <item_version>0</item_version>
                     <item class_id="12" tracking_level="0" version="0">
                       <first class_id="13" tracking_level="0" version="0">
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>118</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -192,7 +192,7 @@
               <type>0</type>
               <id>5</id>
               <name>c</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>116</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -201,20 +201,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>116</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -255,7 +255,7 @@
               <type>0</type>
               <id>6</id>
               <name>r</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>117</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -264,20 +264,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>117</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -446,7 +446,7 @@
               <type>0</type>
               <id>11</id>
               <name>r_write_ln117</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>117</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -455,20 +455,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>117</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -510,7 +510,7 @@
               <type>0</type>
               <id>12</id>
               <name>c_write_ln116</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>116</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -519,20 +519,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>116</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -574,7 +574,7 @@
               <type>0</type>
               <id>13</id>
               <name>normal_factor_write_ln118</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>118</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -583,20 +583,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>118</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -680,7 +680,7 @@
               <type>0</type>
               <id>16</id>
               <name>indvar_flatten418_load</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>127</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -689,20 +689,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>127</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -744,7 +744,7 @@
               <type>0</type>
               <id>18</id>
               <name>icmp_ln127</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>127</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -753,20 +753,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>127</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -808,7 +808,7 @@
               <type>0</type>
               <id>19</id>
               <name>add_ln127</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>127</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -817,20 +817,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>127</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -872,7 +872,7 @@
               <type>0</type>
               <id>20</id>
               <name>br_ln127</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>127</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -881,20 +881,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>127</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -937,7 +937,7 @@
               <type>0</type>
               <id>22</id>
               <name>normal_factor_load_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -946,20 +946,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1001,7 +1001,7 @@
               <type>0</type>
               <id>23</id>
               <name>c_load</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>129</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1010,20 +1010,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>129</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1065,7 +1065,7 @@
               <type>0</type>
               <id>24</id>
               <name>r_load</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>127</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1074,20 +1074,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>127</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1129,7 +1129,7 @@
               <type>0</type>
               <id>27</id>
               <name>icmp_ln129</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>129</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1138,20 +1138,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>129</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1193,7 +1193,7 @@
               <type>0</type>
               <id>28</id>
               <name>select_ln117</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>117</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1202,20 +1202,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>117</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1258,7 +1258,7 @@
               <type>0</type>
               <id>29</id>
               <name>add_ln127_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>127</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1267,20 +1267,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>127</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1322,7 +1322,7 @@
               <type>0</type>
               <id>30</id>
               <name>select_ln127</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>127</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1331,20 +1331,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>127</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1387,7 +1387,7 @@
               <type>0</type>
               <id>31</id>
               <name>zext_ln127</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>127</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1396,20 +1396,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>127</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1450,7 +1450,7 @@
               <type>0</type>
               <id>32</id>
               <name>p_shl</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>127</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1459,20 +1459,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>127</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1515,7 +1515,7 @@
               <type>0</type>
               <id>33</id>
               <name>empty</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>127</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1524,20 +1524,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>127</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1579,7 +1579,7 @@
               <type>0</type>
               <id>34</id>
               <name>zext_ln129</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>129</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1588,20 +1588,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>129</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1642,7 +1642,7 @@
               <type>0</type>
               <id>35</id>
               <name>zext_ln129_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>129</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1651,20 +1651,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>129</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1705,7 +1705,7 @@
               <type>0</type>
               <id>37</id>
               <name>add_ln131</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1714,20 +1714,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1769,7 +1769,7 @@
               <type>0</type>
               <id>38</id>
               <name>add_ln131_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1778,20 +1778,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1833,7 +1833,7 @@
               <type>0</type>
               <id>39</id>
               <name>trunc_ln131_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1842,20 +1842,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1899,7 +1899,7 @@
               <type>0</type>
               <id>40</id>
               <name>sext_ln131</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1908,20 +1908,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -1962,7 +1962,7 @@
               <type>0</type>
               <id>41</id>
               <name>gmem_addr_36</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -1971,20 +1971,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2026,7 +2026,7 @@
               <type>0</type>
               <id>42</id>
               <name>gmem_load_41_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2035,20 +2035,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2091,7 +2091,7 @@
               <type>0</type>
               <id>43</id>
               <name>gmem_addr_36_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2100,20 +2100,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2156,7 +2156,7 @@
               <type>0</type>
               <id>44</id>
               <name>trunc_ln131</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2165,20 +2165,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2219,7 +2219,7 @@
               <type>0</type>
               <id>45</id>
               <name>shl_ln5</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2228,20 +2228,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2284,7 +2284,7 @@
               <type>0</type>
               <id>46</id>
               <name>zext_ln131</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2293,20 +2293,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2347,7 +2347,7 @@
               <type>0</type>
               <id>47</id>
               <name>lshr_ln131</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2356,20 +2356,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2411,7 +2411,7 @@
               <type>0</type>
               <id>48</id>
               <name>trunc_ln131_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2420,20 +2420,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2474,7 +2474,7 @@
               <type>0</type>
               <id>49</id>
               <name>neg5</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2483,20 +2483,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2538,7 +2538,7 @@
               <type>0</type>
               <id>50</id>
               <name>abscond6</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2547,20 +2547,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2602,7 +2602,7 @@
               <type>0</type>
               <id>51</id>
               <name>abs7</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2611,20 +2611,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2667,7 +2667,7 @@
               <type>0</type>
               <id>52</id>
               <name>zext_ln131_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2676,20 +2676,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2730,7 +2730,7 @@
               <type>0</type>
               <id>53</id>
               <name>normal_factor_4</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>131</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2739,20 +2739,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>131</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2794,7 +2794,7 @@
               <type>0</type>
               <id>54</id>
               <name>add_ln129</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>129</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2803,20 +2803,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>129</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2858,7 +2858,7 @@
               <type>0</type>
               <id>55</id>
               <name>indvar_flatten418_write_ln127</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>127</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2867,20 +2867,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>127</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2924,7 +2924,7 @@
               <type>0</type>
               <id>56</id>
               <name>r_write_ln117</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>117</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2933,20 +2933,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>117</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -2990,7 +2990,7 @@
               <type>0</type>
               <id>57</id>
               <name>c_write_ln116</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>116</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -2999,20 +2999,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>116</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -3056,7 +3056,7 @@
               <type>0</type>
               <id>58</id>
               <name>normal_factor_write_ln118</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>118</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -3065,20 +3065,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>118</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>
@@ -3122,7 +3122,7 @@
               <type>0</type>
               <id>59</id>
               <name>br_ln129</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>129</lineNumber>
               <contextFuncName>convolve2d_horizontal</contextFuncName>
@@ -3131,20 +3131,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_horizontal</second>
                       </first>
                       <second>129</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>233</second>

@@ -1,0 +1,65 @@
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: ../src/edgedetect_fpga.cpp, Line: 13, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            image_rgb
+  - String:          ''' since this interface mode only supports scalar types'
+...
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: ../src/edgedetect_fpga.cpp, Line: 13, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            image_gray
+  - String:          ''' since this interface mode only supports scalar types'
+...
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: ../src/edgedetect_fpga.cpp, Line: 13, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            temp_buf
+  - String:          ''' since this interface mode only supports scalar types'
+...
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: ../src/edgedetect_fpga.cpp, Line: 13, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            filter
+  - String:          ''' since this interface mode only supports scalar types'
+...
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: ../src/edgedetect_fpga.cpp, Line: 13, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            output
+  - String:          ''' since this interface mode only supports scalar types'
+...

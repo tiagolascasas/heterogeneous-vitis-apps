@@ -1,110 +1,110 @@
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6740:5: warning: Added loop label VITIS_LOOP_10_1:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6661:5: warning: Added loop label VITIS_LOOP_10_1:   [xilinx-label-all-loops]
     for (int i = 0; i < 480; i++)
     ^~~
     VITIS_LOOP_10_1: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6740:5: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6743:9: warning: Added loop label VITIS_LOOP_13_2:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6661:5: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6664:9: warning: Added loop label VITIS_LOOP_13_2:   [xilinx-label-all-loops]
         for (int j = 0; j < 640; j++)
         ^~~
         VITIS_LOOP_13_2: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6743:9: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6771:5: warning: Added loop label VITIS_LOOP_41_1:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6664:9: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6692:5: warning: Added loop label VITIS_LOOP_41_1:   [xilinx-label-all-loops]
     for (r = 0; r < 3; r++)
     ^~~
     VITIS_LOOP_41_1: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6771:5: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6773:9: warning: Added loop label VITIS_LOOP_43_2:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6692:5: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6694:9: warning: Added loop label VITIS_LOOP_43_2:   [xilinx-label-all-loops]
         for (c = 0; c < 3; c++)
         ^~~
         VITIS_LOOP_43_2: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6773:9: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6782:5: warning: Added loop label VITIS_LOOP_52_3:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6694:9: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6703:5: warning: Added loop label VITIS_LOOP_52_3:   [xilinx-label-all-loops]
     for (r = 0; r < 480 - 3 + 1; r++)
     ^~~
     VITIS_LOOP_52_3: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6782:5: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6784:9: warning: Added loop label VITIS_LOOP_54_4:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6703:5: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6705:9: warning: Added loop label VITIS_LOOP_54_4:   [xilinx-label-all-loops]
         for (c = 0; c < 640 - 3 + 1; c++)
         ^~~
         VITIS_LOOP_54_4: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6784:9: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6787:13: warning: Added loop label VITIS_LOOP_57_5:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6705:9: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6708:13: warning: Added loop label VITIS_LOOP_57_5:   [xilinx-label-all-loops]
             for (i = 0; i < 3; i++)
             ^~~
             VITIS_LOOP_57_5: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6787:13: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6789:17: warning: Added loop label VITIS_LOOP_59_6:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6708:13: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6710:17: warning: Added loop label VITIS_LOOP_59_6:   [xilinx-label-all-loops]
                 for (j = 0; j < 3; j++)
                 ^~~
                 VITIS_LOOP_59_6: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6789:17: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6814:5: warning: Added loop label VITIS_LOOP_84_1:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6710:17: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6735:5: warning: Added loop label VITIS_LOOP_84_1:   [xilinx-label-all-loops]
     for (r = 0; r < 3; r++)
     ^~~
     VITIS_LOOP_84_1: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6814:5: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6816:9: warning: Added loop label VITIS_LOOP_86_2:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6735:5: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6737:9: warning: Added loop label VITIS_LOOP_86_2:   [xilinx-label-all-loops]
         for (c = 0; c < 3; c++)
         ^~~
         VITIS_LOOP_86_2: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6816:9: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6825:5: warning: Added loop label VITIS_LOOP_95_3:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6737:9: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6746:5: warning: Added loop label VITIS_LOOP_95_3:   [xilinx-label-all-loops]
     for (r = 0; r < 480 - 3 + 1; r++)
     ^~~
     VITIS_LOOP_95_3: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6825:5: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6827:9: warning: Added loop label VITIS_LOOP_97_4:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6746:5: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6748:9: warning: Added loop label VITIS_LOOP_97_4:   [xilinx-label-all-loops]
         for (c = 0; c < 640 - 3 + 1; c++)
         ^~~
         VITIS_LOOP_97_4: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6827:9: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6830:13: warning: Added loop label VITIS_LOOP_100_5:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6748:9: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6751:13: warning: Added loop label VITIS_LOOP_100_5:   [xilinx-label-all-loops]
             for (i = 0; i < 3; i++)
             ^~~
             VITIS_LOOP_100_5: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6830:13: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6832:17: warning: Added loop label VITIS_LOOP_102_6:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6751:13: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6753:17: warning: Added loop label VITIS_LOOP_102_6:   [xilinx-label-all-loops]
                 for (j = 0; j < 3; j++)
                 ^~~
                 VITIS_LOOP_102_6: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6832:17: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6857:5: warning: Added loop label VITIS_LOOP_127_1:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6753:17: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6778:5: warning: Added loop label VITIS_LOOP_127_1:   [xilinx-label-all-loops]
     for (r = 0; r < 3; r++)
     ^~~
     VITIS_LOOP_127_1: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6857:5: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6859:9: warning: Added loop label VITIS_LOOP_129_2:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6778:5: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6780:9: warning: Added loop label VITIS_LOOP_129_2:   [xilinx-label-all-loops]
         for (c = 0; c < 3; c++)
         ^~~
         VITIS_LOOP_129_2: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6859:9: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6868:5: warning: Added loop label VITIS_LOOP_138_3:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6780:9: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6789:5: warning: Added loop label VITIS_LOOP_138_3:   [xilinx-label-all-loops]
     for (r = 0; r < 480 - 3 + 1; r++)
     ^~~
     VITIS_LOOP_138_3: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6868:5: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6870:9: warning: Added loop label VITIS_LOOP_140_4:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6789:5: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6791:9: warning: Added loop label VITIS_LOOP_140_4:   [xilinx-label-all-loops]
         for (c = 0; c < 640 - 3 + 1; c++)
         ^~~
         VITIS_LOOP_140_4: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6870:9: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6873:13: warning: Added loop label VITIS_LOOP_143_5:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6791:9: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6794:13: warning: Added loop label VITIS_LOOP_143_5:   [xilinx-label-all-loops]
             for (i = 0; i < 3; i++)
             ^~~
             VITIS_LOOP_143_5: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6873:13: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6875:17: warning: Added loop label VITIS_LOOP_145_6:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6794:13: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6796:17: warning: Added loop label VITIS_LOOP_145_6:   [xilinx-label-all-loops]
                 for (j = 0; j < 3; j++)
                 ^~~
                 VITIS_LOOP_145_6: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6875:17: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6892:5: warning: Added loop label VITIS_LOOP_162_1:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6796:17: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6813:5: warning: Added loop label VITIS_LOOP_162_1:   [xilinx-label-all-loops]
     for (i = 0; i < 480; i++)
     ^~~
     VITIS_LOOP_162_1: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6892:5: note: FIX-IT applied suggested code changes
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6894:9: warning: Added loop label VITIS_LOOP_164_2:   [xilinx-label-all-loops]
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6813:5: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6815:9: warning: Added loop label VITIS_LOOP_164_2:   [xilinx-label-all-loops]
         for (j = 0; j < 640; ++j)
         ^~~
         VITIS_LOOP_164_2: 
-/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6894:9: note: FIX-IT applied suggested code changes
+/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp:6815:9: note: FIX-IT applied suggested code changes

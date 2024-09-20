@@ -42,7 +42,7 @@ set SCTraceFileName mytrace
 set SCTraceFileFormat vcd
 set SCTraceOption all
 set TargetInfo xczu9eg:-ffvb1156:-2-e
-set SourceFiles {sc {} c ../../edgedetect.cpp}
+set SourceFiles {sc {} c ../../../src/edgedetect.cpp}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile {}
 set TBFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

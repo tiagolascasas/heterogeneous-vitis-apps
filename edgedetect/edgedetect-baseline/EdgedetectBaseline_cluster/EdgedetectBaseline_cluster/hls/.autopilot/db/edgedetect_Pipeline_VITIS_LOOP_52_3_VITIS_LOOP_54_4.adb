@@ -849,7 +849,7 @@
               <type>0</type>
               <id>24</id>
               <name>c</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>30</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -858,20 +858,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>2</count>
                     <item_version>0</item_version>
                     <item class_id="12" tracking_level="0" version="0">
                       <first class_id="13" tracking_level="0" version="0">
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>30</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -912,7 +912,7 @@
               <type>0</type>
               <id>25</id>
               <name>r</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>31</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -921,20 +921,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>31</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -2762,7 +2762,7 @@
               <type>0</type>
               <id>69</id>
               <name>r_write_ln31</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>31</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -2771,20 +2771,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>31</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -2826,7 +2826,7 @@
               <type>0</type>
               <id>70</id>
               <name>c_write_ln30</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>30</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -2835,20 +2835,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>30</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -2932,7 +2932,7 @@
               <type>0</type>
               <id>73</id>
               <name>indvar_flatten397_load</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>52</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -2941,20 +2941,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>52</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -2996,7 +2996,7 @@
               <type>0</type>
               <id>75</id>
               <name>icmp_ln52</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>52</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -3005,20 +3005,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>52</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -3060,7 +3060,7 @@
               <type>0</type>
               <id>76</id>
               <name>add_ln52</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>52</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -3069,20 +3069,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>52</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -3124,7 +3124,7 @@
               <type>0</type>
               <id>77</id>
               <name>br_ln52</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>52</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -3133,20 +3133,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>52</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -3189,7 +3189,7 @@
               <type>0</type>
               <id>79</id>
               <name>c_load</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>54</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -3198,20 +3198,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>54</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -3296,7 +3296,7 @@
               <type>0</type>
               <id>81</id>
               <name>gmem_addr</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>26</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -3305,20 +3305,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>26</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -3704,7 +3704,7 @@
               <type>0</type>
               <id>92</id>
               <name>icmp_ln54</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>54</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -3713,20 +3713,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>54</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -3768,7 +3768,7 @@
               <type>0</type>
               <id>93</id>
               <name>select_ln31</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>31</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -3777,20 +3777,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>31</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -3876,7 +3876,7 @@
               <type>0</type>
               <id>95</id>
               <name>select_ln52</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>52</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -3885,20 +3885,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>52</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -3941,7 +3941,7 @@
               <type>0</type>
               <id>96</id>
               <name>tmp</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>52</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -3950,20 +3950,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>52</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4006,7 +4006,7 @@
               <type>0</type>
               <id>97</id>
               <name>p_shl</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>52</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4015,20 +4015,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>52</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4069,7 +4069,7 @@
               <type>0</type>
               <id>98</id>
               <name>tmp_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>52</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4078,20 +4078,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>52</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4134,7 +4134,7 @@
               <type>0</type>
               <id>99</id>
               <name>p_shl83</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>52</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4143,20 +4143,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>52</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4197,7 +4197,7 @@
               <type>0</type>
               <id>100</id>
               <name>empty</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>52</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4206,20 +4206,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>52</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4261,7 +4261,7 @@
               <type>0</type>
               <id>101</id>
               <name>zext_ln54</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>54</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4270,20 +4270,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>54</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4324,7 +4324,7 @@
               <type>0</type>
               <id>102</id>
               <name>zext_ln54_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>54</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4333,20 +4333,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>54</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4387,7 +4387,7 @@
               <type>0</type>
               <id>103</id>
               <name>zext_ln54_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>54</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4396,20 +4396,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>54</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4450,7 +4450,7 @@
               <type>0</type>
               <id>105</id>
               <name>add_ln57</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>57</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4459,20 +4459,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>57</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4514,7 +4514,7 @@
               <type>0</type>
               <id>106</id>
               <name>add_ln57_cast</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>57</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4523,20 +4523,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>57</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4577,7 +4577,7 @@
               <type>0</type>
               <id>107</id>
               <name>empty_36</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>57</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4586,20 +4586,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>57</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4641,7 +4641,7 @@
               <type>0</type>
               <id>108</id>
               <name>trunc_ln61_s</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4650,20 +4650,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4707,7 +4707,7 @@
               <type>0</type>
               <id>109</id>
               <name>sext_ln61</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4716,20 +4716,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4770,7 +4770,7 @@
               <type>0</type>
               <id>110</id>
               <name>gmem_addr_14</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4779,20 +4779,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4834,7 +4834,7 @@
               <type>0</type>
               <id>111</id>
               <name>gmem_load_4_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4843,20 +4843,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4899,7 +4899,7 @@
               <type>0</type>
               <id>112</id>
               <name>gmem_addr_14_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4908,20 +4908,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -4964,7 +4964,7 @@
               <type>0</type>
               <id>113</id>
               <name>trunc_ln61</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -4973,20 +4973,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5027,7 +5027,7 @@
               <type>0</type>
               <id>114</id>
               <name>shl_ln2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5036,20 +5036,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5092,7 +5092,7 @@
               <type>0</type>
               <id>115</id>
               <name>zext_ln61</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5101,20 +5101,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5155,7 +5155,7 @@
               <type>0</type>
               <id>116</id>
               <name>lshr_ln61</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5164,20 +5164,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5219,7 +5219,7 @@
               <type>0</type>
               <id>117</id>
               <name>trunc_ln61_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5228,20 +5228,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5282,7 +5282,7 @@
               <type>0</type>
               <id>118</id>
               <name>zext_ln61_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5291,20 +5291,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5345,7 +5345,7 @@
               <type>0</type>
               <id>119</id>
               <name>gmem_load_5_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5354,20 +5354,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5411,7 +5411,7 @@
               <type>0</type>
               <id>120</id>
               <name>gmem_addr_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5420,20 +5420,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5477,7 +5477,7 @@
               <type>0</type>
               <id>121</id>
               <name>lshr_ln61_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5486,20 +5486,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5541,7 +5541,7 @@
               <type>0</type>
               <id>122</id>
               <name>trunc_ln61_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5550,20 +5550,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5604,7 +5604,7 @@
               <type>0</type>
               <id>123</id>
               <name>zext_ln61_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5613,20 +5613,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5667,7 +5667,7 @@
               <type>0</type>
               <id>124</id>
               <name>add_ln61</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5676,20 +5676,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5731,7 +5731,7 @@
               <type>0</type>
               <id>125</id>
               <name>trunc_ln61_3</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5740,20 +5740,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5797,7 +5797,7 @@
               <type>0</type>
               <id>126</id>
               <name>sext_ln61_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5806,20 +5806,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5860,7 +5860,7 @@
               <type>0</type>
               <id>127</id>
               <name>gmem_addr_15</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5869,20 +5869,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5924,7 +5924,7 @@
               <type>0</type>
               <id>128</id>
               <name>gmem_load_6_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5933,20 +5933,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -5990,7 +5990,7 @@
               <type>0</type>
               <id>129</id>
               <name>gmem_addr_15_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -5999,20 +5999,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6056,7 +6056,7 @@
               <type>0</type>
               <id>130</id>
               <name>trunc_ln61_4</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6065,20 +6065,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6119,7 +6119,7 @@
               <type>0</type>
               <id>131</id>
               <name>shl_ln61_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6128,20 +6128,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6184,7 +6184,7 @@
               <type>0</type>
               <id>132</id>
               <name>zext_ln61_3</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6193,20 +6193,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6247,7 +6247,7 @@
               <type>0</type>
               <id>133</id>
               <name>lshr_ln61_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6256,20 +6256,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6311,7 +6311,7 @@
               <type>0</type>
               <id>134</id>
               <name>trunc_ln61_5</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6320,20 +6320,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6374,7 +6374,7 @@
               <type>0</type>
               <id>135</id>
               <name>zext_ln61_4</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6383,20 +6383,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6437,7 +6437,7 @@
               <type>0</type>
               <id>136</id>
               <name>gmem_load_7_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6446,20 +6446,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6503,7 +6503,7 @@
               <type>0</type>
               <id>137</id>
               <name>gmem_addr_24_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6512,20 +6512,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6569,7 +6569,7 @@
               <type>0</type>
               <id>138</id>
               <name>lshr_ln61_3</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6578,20 +6578,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6633,7 +6633,7 @@
               <type>0</type>
               <id>139</id>
               <name>trunc_ln61_7</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6642,20 +6642,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6696,7 +6696,7 @@
               <type>0</type>
               <id>140</id>
               <name>zext_ln61_5</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6705,20 +6705,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6759,7 +6759,7 @@
               <type>0</type>
               <id>141</id>
               <name>add_ln61_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6768,20 +6768,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6823,7 +6823,7 @@
               <type>0</type>
               <id>142</id>
               <name>trunc_ln61_6</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6832,20 +6832,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6889,7 +6889,7 @@
               <type>0</type>
               <id>143</id>
               <name>sext_ln61_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6898,20 +6898,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -6952,7 +6952,7 @@
               <type>0</type>
               <id>144</id>
               <name>gmem_addr_16</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -6961,20 +6961,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7016,7 +7016,7 @@
               <type>0</type>
               <id>145</id>
               <name>gmem_load_8_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7025,20 +7025,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7082,7 +7082,7 @@
               <type>0</type>
               <id>146</id>
               <name>gmem_addr_16_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7091,20 +7091,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7148,7 +7148,7 @@
               <type>0</type>
               <id>147</id>
               <name>trunc_ln61_8</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7157,20 +7157,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7211,7 +7211,7 @@
               <type>0</type>
               <id>148</id>
               <name>shl_ln61_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7220,20 +7220,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7276,7 +7276,7 @@
               <type>0</type>
               <id>149</id>
               <name>zext_ln61_6</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7285,20 +7285,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7339,7 +7339,7 @@
               <type>0</type>
               <id>150</id>
               <name>lshr_ln61_4</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7348,20 +7348,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7403,7 +7403,7 @@
               <type>0</type>
               <id>151</id>
               <name>trunc_ln61_10</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7412,20 +7412,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7466,7 +7466,7 @@
               <type>0</type>
               <id>152</id>
               <name>zext_ln61_7</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7475,20 +7475,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7529,7 +7529,7 @@
               <type>0</type>
               <id>153</id>
               <name>gmem_load_9_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7538,20 +7538,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7595,7 +7595,7 @@
               <type>0</type>
               <id>154</id>
               <name>gmem_addr_25_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7604,20 +7604,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7661,7 +7661,7 @@
               <type>0</type>
               <id>155</id>
               <name>lshr_ln61_5</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7670,20 +7670,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7725,7 +7725,7 @@
               <type>0</type>
               <id>156</id>
               <name>trunc_ln61_11</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7734,20 +7734,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7788,7 +7788,7 @@
               <type>0</type>
               <id>157</id>
               <name>trunc_ln61_8_cast</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7797,20 +7797,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7851,7 +7851,7 @@
               <type>0</type>
               <id>158</id>
               <name>tmp7</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>57</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7860,20 +7860,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>57</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7915,7 +7915,7 @@
               <type>0</type>
               <id>159</id>
               <name>tmp7_cast</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>57</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7924,20 +7924,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>57</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -7978,7 +7978,7 @@
               <type>0</type>
               <id>160</id>
               <name>empty_37</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>57</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -7987,20 +7987,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>57</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8042,7 +8042,7 @@
               <type>0</type>
               <id>161</id>
               <name>trunc_ln61_9</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8051,20 +8051,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8108,7 +8108,7 @@
               <type>0</type>
               <id>162</id>
               <name>sext_ln61_3</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8117,20 +8117,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8171,7 +8171,7 @@
               <type>0</type>
               <id>163</id>
               <name>gmem_addr_17</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8180,20 +8180,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8235,7 +8235,7 @@
               <type>0</type>
               <id>164</id>
               <name>gmem_load_10_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8244,20 +8244,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8301,7 +8301,7 @@
               <type>0</type>
               <id>165</id>
               <name>gmem_addr_17_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8310,20 +8310,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8367,7 +8367,7 @@
               <type>0</type>
               <id>166</id>
               <name>trunc_ln61_13</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8376,20 +8376,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8430,7 +8430,7 @@
               <type>0</type>
               <id>167</id>
               <name>shl_ln61_3</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8439,20 +8439,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8495,7 +8495,7 @@
               <type>0</type>
               <id>168</id>
               <name>zext_ln61_8</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8504,20 +8504,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8558,7 +8558,7 @@
               <type>0</type>
               <id>169</id>
               <name>lshr_ln61_6</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8567,20 +8567,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8622,7 +8622,7 @@
               <type>0</type>
               <id>170</id>
               <name>trunc_ln61_14</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8631,20 +8631,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8685,7 +8685,7 @@
               <type>0</type>
               <id>171</id>
               <name>zext_ln61_9</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8694,20 +8694,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8748,7 +8748,7 @@
               <type>0</type>
               <id>172</id>
               <name>gmem_load_11_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8757,20 +8757,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8814,7 +8814,7 @@
               <type>0</type>
               <id>173</id>
               <name>gmem_addr_26_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8823,20 +8823,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8880,7 +8880,7 @@
               <type>0</type>
               <id>174</id>
               <name>lshr_ln61_7</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8889,20 +8889,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -8944,7 +8944,7 @@
               <type>0</type>
               <id>175</id>
               <name>trunc_ln61_16</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -8953,20 +8953,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9007,7 +9007,7 @@
               <type>0</type>
               <id>176</id>
               <name>zext_ln61_10</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9016,20 +9016,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9070,7 +9070,7 @@
               <type>0</type>
               <id>177</id>
               <name>add_ln61_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9079,20 +9079,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9134,7 +9134,7 @@
               <type>0</type>
               <id>178</id>
               <name>trunc_ln61_12</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9143,20 +9143,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9200,7 +9200,7 @@
               <type>0</type>
               <id>179</id>
               <name>sext_ln61_4</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9209,20 +9209,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9263,7 +9263,7 @@
               <type>0</type>
               <id>180</id>
               <name>gmem_addr_18</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9272,20 +9272,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9327,7 +9327,7 @@
               <type>0</type>
               <id>181</id>
               <name>gmem_load_12_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9336,20 +9336,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9393,7 +9393,7 @@
               <type>0</type>
               <id>182</id>
               <name>gmem_addr_18_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9402,20 +9402,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9459,7 +9459,7 @@
               <type>0</type>
               <id>183</id>
               <name>trunc_ln61_17</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9468,20 +9468,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9522,7 +9522,7 @@
               <type>0</type>
               <id>184</id>
               <name>shl_ln61_4</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9531,20 +9531,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9587,7 +9587,7 @@
               <type>0</type>
               <id>185</id>
               <name>zext_ln61_11</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9596,20 +9596,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9650,7 +9650,7 @@
               <type>0</type>
               <id>186</id>
               <name>lshr_ln61_8</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9659,20 +9659,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9714,7 +9714,7 @@
               <type>0</type>
               <id>187</id>
               <name>trunc_ln61_19</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9723,20 +9723,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9777,7 +9777,7 @@
               <type>0</type>
               <id>188</id>
               <name>zext_ln61_12</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9786,20 +9786,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9840,7 +9840,7 @@
               <type>0</type>
               <id>189</id>
               <name>gmem_load_13_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9849,20 +9849,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9906,7 +9906,7 @@
               <type>0</type>
               <id>190</id>
               <name>gmem_addr_27_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9915,20 +9915,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -9972,7 +9972,7 @@
               <type>0</type>
               <id>191</id>
               <name>lshr_ln61_9</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -9981,20 +9981,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10036,7 +10036,7 @@
               <type>0</type>
               <id>192</id>
               <name>trunc_ln61_20</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10045,20 +10045,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10099,7 +10099,7 @@
               <type>0</type>
               <id>193</id>
               <name>zext_ln61_13</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10108,20 +10108,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10162,7 +10162,7 @@
               <type>0</type>
               <id>194</id>
               <name>add_ln61_3</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10171,20 +10171,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10226,7 +10226,7 @@
               <type>0</type>
               <id>195</id>
               <name>trunc_ln61_15</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10235,20 +10235,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10292,7 +10292,7 @@
               <type>0</type>
               <id>196</id>
               <name>sext_ln61_5</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10301,20 +10301,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10355,7 +10355,7 @@
               <type>0</type>
               <id>197</id>
               <name>gmem_addr_19</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10364,20 +10364,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10419,7 +10419,7 @@
               <type>0</type>
               <id>198</id>
               <name>gmem_load_14_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10428,20 +10428,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10485,7 +10485,7 @@
               <type>0</type>
               <id>199</id>
               <name>gmem_addr_19_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10494,20 +10494,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10551,7 +10551,7 @@
               <type>0</type>
               <id>200</id>
               <name>trunc_ln61_22</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10560,20 +10560,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10614,7 +10614,7 @@
               <type>0</type>
               <id>201</id>
               <name>shl_ln61_5</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10623,20 +10623,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10679,7 +10679,7 @@
               <type>0</type>
               <id>202</id>
               <name>zext_ln61_14</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10688,20 +10688,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10742,7 +10742,7 @@
               <type>0</type>
               <id>203</id>
               <name>lshr_ln61_10</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10751,20 +10751,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10806,7 +10806,7 @@
               <type>0</type>
               <id>204</id>
               <name>trunc_ln61_23</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10815,20 +10815,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10869,7 +10869,7 @@
               <type>0</type>
               <id>205</id>
               <name>zext_ln61_15</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10878,20 +10878,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10932,7 +10932,7 @@
               <type>0</type>
               <id>206</id>
               <name>gmem_load_15_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -10941,20 +10941,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -10998,7 +10998,7 @@
               <type>0</type>
               <id>207</id>
               <name>gmem_addr_28_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11007,20 +11007,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11064,7 +11064,7 @@
               <type>0</type>
               <id>208</id>
               <name>lshr_ln61_11</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11073,20 +11073,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11128,7 +11128,7 @@
               <type>0</type>
               <id>209</id>
               <name>trunc_ln61_25</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11137,20 +11137,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11191,7 +11191,7 @@
               <type>0</type>
               <id>210</id>
               <name>trunc_ln61_17_cast</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11200,20 +11200,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11254,7 +11254,7 @@
               <type>0</type>
               <id>211</id>
               <name>tmp8</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>57</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11263,20 +11263,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>57</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11318,7 +11318,7 @@
               <type>0</type>
               <id>212</id>
               <name>tmp8_cast</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>57</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11327,20 +11327,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>57</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11381,7 +11381,7 @@
               <type>0</type>
               <id>213</id>
               <name>empty_38</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>57</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11390,20 +11390,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>57</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11445,7 +11445,7 @@
               <type>0</type>
               <id>214</id>
               <name>trunc_ln61_18</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11454,20 +11454,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11511,7 +11511,7 @@
               <type>0</type>
               <id>215</id>
               <name>sext_ln61_6</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11520,20 +11520,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11574,7 +11574,7 @@
               <type>0</type>
               <id>216</id>
               <name>gmem_addr_20</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11583,20 +11583,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11638,7 +11638,7 @@
               <type>0</type>
               <id>217</id>
               <name>gmem_load_16_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11647,20 +11647,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11704,7 +11704,7 @@
               <type>0</type>
               <id>218</id>
               <name>gmem_addr_20_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11713,20 +11713,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11770,7 +11770,7 @@
               <type>0</type>
               <id>219</id>
               <name>trunc_ln61_26</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11779,20 +11779,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11833,7 +11833,7 @@
               <type>0</type>
               <id>220</id>
               <name>shl_ln61_6</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11842,20 +11842,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11898,7 +11898,7 @@
               <type>0</type>
               <id>221</id>
               <name>zext_ln61_16</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11907,20 +11907,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -11961,7 +11961,7 @@
               <type>0</type>
               <id>222</id>
               <name>lshr_ln61_12</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -11970,20 +11970,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12025,7 +12025,7 @@
               <type>0</type>
               <id>223</id>
               <name>trunc_ln61_27</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12034,20 +12034,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12088,7 +12088,7 @@
               <type>0</type>
               <id>224</id>
               <name>zext_ln61_17</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12097,20 +12097,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12151,7 +12151,7 @@
               <type>0</type>
               <id>225</id>
               <name>gmem_load_17_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12160,20 +12160,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12217,7 +12217,7 @@
               <type>0</type>
               <id>226</id>
               <name>gmem_addr_29_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12226,20 +12226,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12283,7 +12283,7 @@
               <type>0</type>
               <id>227</id>
               <name>lshr_ln61_13</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12292,20 +12292,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12347,7 +12347,7 @@
               <type>0</type>
               <id>228</id>
               <name>trunc_ln61_28</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12356,20 +12356,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12410,7 +12410,7 @@
               <type>0</type>
               <id>229</id>
               <name>zext_ln61_18</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12419,20 +12419,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12473,7 +12473,7 @@
               <type>0</type>
               <id>230</id>
               <name>add_ln61_4</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12482,20 +12482,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12537,7 +12537,7 @@
               <type>0</type>
               <id>231</id>
               <name>trunc_ln61_21</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12546,20 +12546,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12603,7 +12603,7 @@
               <type>0</type>
               <id>232</id>
               <name>sext_ln61_7</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12612,20 +12612,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12666,7 +12666,7 @@
               <type>0</type>
               <id>233</id>
               <name>gmem_addr_21</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12675,20 +12675,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12730,7 +12730,7 @@
               <type>0</type>
               <id>234</id>
               <name>gmem_load_18_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12739,20 +12739,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12796,7 +12796,7 @@
               <type>0</type>
               <id>235</id>
               <name>gmem_addr_21_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12805,20 +12805,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12862,7 +12862,7 @@
               <type>0</type>
               <id>236</id>
               <name>trunc_ln61_29</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12871,20 +12871,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12925,7 +12925,7 @@
               <type>0</type>
               <id>237</id>
               <name>shl_ln61_7</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12934,20 +12934,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -12990,7 +12990,7 @@
               <type>0</type>
               <id>238</id>
               <name>zext_ln61_19</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -12999,20 +12999,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13053,7 +13053,7 @@
               <type>0</type>
               <id>239</id>
               <name>lshr_ln61_14</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13062,20 +13062,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13117,7 +13117,7 @@
               <type>0</type>
               <id>240</id>
               <name>trunc_ln61_30</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13126,20 +13126,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13180,7 +13180,7 @@
               <type>0</type>
               <id>241</id>
               <name>zext_ln61_20</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13189,20 +13189,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13243,7 +13243,7 @@
               <type>0</type>
               <id>242</id>
               <name>gmem_load_19_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13252,20 +13252,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13309,7 +13309,7 @@
               <type>0</type>
               <id>243</id>
               <name>gmem_addr_30_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13318,20 +13318,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13375,7 +13375,7 @@
               <type>0</type>
               <id>244</id>
               <name>lshr_ln61_15</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13384,20 +13384,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13439,7 +13439,7 @@
               <type>0</type>
               <id>245</id>
               <name>trunc_ln61_31</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13448,20 +13448,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13502,7 +13502,7 @@
               <type>0</type>
               <id>246</id>
               <name>zext_ln61_21</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13511,20 +13511,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13565,7 +13565,7 @@
               <type>0</type>
               <id>247</id>
               <name>add_ln61_5</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13574,20 +13574,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13629,7 +13629,7 @@
               <type>0</type>
               <id>248</id>
               <name>trunc_ln61_24</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13638,20 +13638,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13695,7 +13695,7 @@
               <type>0</type>
               <id>249</id>
               <name>sext_ln61_8</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13704,20 +13704,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13758,7 +13758,7 @@
               <type>0</type>
               <id>250</id>
               <name>gmem_addr_22</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13767,20 +13767,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13822,7 +13822,7 @@
               <type>0</type>
               <id>251</id>
               <name>gmem_load_20_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13831,20 +13831,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13888,7 +13888,7 @@
               <type>0</type>
               <id>252</id>
               <name>gmem_addr_22_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13897,20 +13897,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -13954,7 +13954,7 @@
               <type>0</type>
               <id>253</id>
               <name>trunc_ln61_32</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -13963,20 +13963,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14017,7 +14017,7 @@
               <type>0</type>
               <id>254</id>
               <name>shl_ln61_8</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14026,20 +14026,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14082,7 +14082,7 @@
               <type>0</type>
               <id>255</id>
               <name>zext_ln61_22</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14091,20 +14091,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14145,7 +14145,7 @@
               <type>0</type>
               <id>256</id>
               <name>lshr_ln61_16</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14154,20 +14154,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14209,7 +14209,7 @@
               <type>0</type>
               <id>257</id>
               <name>trunc_ln61_33</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14218,20 +14218,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14272,7 +14272,7 @@
               <type>0</type>
               <id>258</id>
               <name>zext_ln61_23</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14281,20 +14281,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14335,7 +14335,7 @@
               <type>0</type>
               <id>259</id>
               <name>gmem_load_21_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14344,20 +14344,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14401,7 +14401,7 @@
               <type>0</type>
               <id>260</id>
               <name>gmem_addr_31_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14410,20 +14410,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14467,7 +14467,7 @@
               <type>0</type>
               <id>261</id>
               <name>lshr_ln61_17</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14476,20 +14476,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14531,7 +14531,7 @@
               <type>0</type>
               <id>262</id>
               <name>trunc_ln61_34</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14540,20 +14540,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14594,7 +14594,7 @@
               <type>0</type>
               <id>263</id>
               <name>zext_ln61_24</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14603,20 +14603,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14657,7 +14657,7 @@
               <type>0</type>
               <id>264</id>
               <name>mul_ln61</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14666,20 +14666,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14721,7 +14721,7 @@
               <type>0</type>
               <id>265</id>
               <name>zext_ln61_25</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14730,20 +14730,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14784,7 +14784,7 @@
               <type>0</type>
               <id>266</id>
               <name>mul_ln61_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14793,20 +14793,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14848,7 +14848,7 @@
               <type>0</type>
               <id>267</id>
               <name>zext_ln61_26</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14857,20 +14857,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14911,7 +14911,7 @@
               <type>0</type>
               <id>268</id>
               <name>mul_ln61_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14920,20 +14920,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -14975,7 +14975,7 @@
               <type>0</type>
               <id>269</id>
               <name>zext_ln61_27</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -14984,20 +14984,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15038,7 +15038,7 @@
               <type>0</type>
               <id>270</id>
               <name>mul_ln61_3</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15047,20 +15047,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15102,7 +15102,7 @@
               <type>0</type>
               <id>271</id>
               <name>zext_ln61_28</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15111,20 +15111,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15165,7 +15165,7 @@
               <type>0</type>
               <id>272</id>
               <name>mul_ln61_4</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15174,20 +15174,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15229,7 +15229,7 @@
               <type>0</type>
               <id>273</id>
               <name>zext_ln61_29</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15238,20 +15238,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15292,7 +15292,7 @@
               <type>0</type>
               <id>274</id>
               <name>mul_ln61_5</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15301,20 +15301,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15356,7 +15356,7 @@
               <type>0</type>
               <id>275</id>
               <name>zext_ln61_30</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15365,20 +15365,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15419,7 +15419,7 @@
               <type>0</type>
               <id>276</id>
               <name>mul_ln61_6</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15428,20 +15428,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15483,7 +15483,7 @@
               <type>0</type>
               <id>277</id>
               <name>zext_ln61_31</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15492,20 +15492,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15546,7 +15546,7 @@
               <type>0</type>
               <id>278</id>
               <name>mul_ln61_7</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15555,20 +15555,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15610,7 +15610,7 @@
               <type>0</type>
               <id>279</id>
               <name>zext_ln61_32</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15619,20 +15619,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15673,7 +15673,7 @@
               <type>0</type>
               <id>280</id>
               <name>mul_ln61_8</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15682,20 +15682,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15737,7 +15737,7 @@
               <type>0</type>
               <id>281</id>
               <name>zext_ln61_33</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15746,20 +15746,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15800,7 +15800,7 @@
               <type>0</type>
               <id>282</id>
               <name>add_ln61_6</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15809,20 +15809,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15864,7 +15864,7 @@
               <type>0</type>
               <id>283</id>
               <name>zext_ln61_34</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15873,20 +15873,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15927,7 +15927,7 @@
               <type>0</type>
               <id>284</id>
               <name>add_ln61_7</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -15936,20 +15936,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -15991,7 +15991,7 @@
               <type>0</type>
               <id>285</id>
               <name>zext_ln61_35</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16000,20 +16000,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16054,7 +16054,7 @@
               <type>0</type>
               <id>286</id>
               <name>add_ln61_8</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16063,20 +16063,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16118,7 +16118,7 @@
               <type>0</type>
               <id>287</id>
               <name>zext_ln61_36</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16127,20 +16127,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16181,7 +16181,7 @@
               <type>0</type>
               <id>288</id>
               <name>add_ln61_9</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16190,20 +16190,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16245,7 +16245,7 @@
               <type>0</type>
               <id>289</id>
               <name>zext_ln61_37</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16254,20 +16254,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16308,7 +16308,7 @@
               <type>0</type>
               <id>290</id>
               <name>add_ln61_10</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16317,20 +16317,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16372,7 +16372,7 @@
               <type>0</type>
               <id>291</id>
               <name>zext_ln61_38</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16381,20 +16381,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16435,7 +16435,7 @@
               <type>0</type>
               <id>292</id>
               <name>add_ln61_11</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16444,20 +16444,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16499,7 +16499,7 @@
               <type>0</type>
               <id>293</id>
               <name>zext_ln61_39</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16508,20 +16508,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16562,7 +16562,7 @@
               <type>0</type>
               <id>294</id>
               <name>add_ln61_12</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16571,20 +16571,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16626,7 +16626,7 @@
               <type>0</type>
               <id>295</id>
               <name>zext_ln61_40</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16635,20 +16635,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16689,7 +16689,7 @@
               <type>0</type>
               <id>296</id>
               <name>sum</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>61</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16698,20 +16698,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16753,7 +16753,7 @@
               <type>0</type>
               <id>297</id>
               <name>select_ln64</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16762,20 +16762,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16818,7 +16818,7 @@
               <type>0</type>
               <id>298</id>
               <name>zext_ln64_3</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16827,20 +16827,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16881,7 +16881,7 @@
               <type>0</type>
               <id>299</id>
               <name>udiv_ln64</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16890,20 +16890,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -16945,7 +16945,7 @@
               <type>0</type>
               <id>300</id>
               <name>trunc_ln64</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -16954,20 +16954,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17008,7 +17008,7 @@
               <type>0</type>
               <id>301</id>
               <name>add_ln64</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17017,20 +17017,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17072,7 +17072,7 @@
               <type>0</type>
               <id>302</id>
               <name>add_ln64_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17081,20 +17081,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17136,7 +17136,7 @@
               <type>0</type>
               <id>303</id>
               <name>add_ln64_3</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17145,20 +17145,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17200,7 +17200,7 @@
               <type>0</type>
               <id>304</id>
               <name>zext_ln64_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17209,20 +17209,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17263,7 +17263,7 @@
               <type>0</type>
               <id>305</id>
               <name>add_ln64_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17272,20 +17272,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17327,7 +17327,7 @@
               <type>0</type>
               <id>306</id>
               <name>zext_ln64</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17336,20 +17336,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17390,7 +17390,7 @@
               <type>0</type>
               <id>307</id>
               <name>trunc_ln64_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17399,20 +17399,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17453,7 +17453,7 @@
               <type>0</type>
               <id>308</id>
               <name>zext_ln64_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17462,20 +17462,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17516,7 +17516,7 @@
               <type>0</type>
               <id>309</id>
               <name>shl_ln64</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17525,20 +17525,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17580,7 +17580,7 @@
               <type>0</type>
               <id>310</id>
               <name>shl_ln64_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17589,20 +17589,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17645,7 +17645,7 @@
               <type>0</type>
               <id>311</id>
               <name>zext_ln64_4</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17654,20 +17654,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17708,7 +17708,7 @@
               <type>0</type>
               <id>312</id>
               <name>shl_ln64_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17717,20 +17717,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17772,7 +17772,7 @@
               <type>0</type>
               <id>313</id>
               <name>trunc_ln64_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17781,20 +17781,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17838,7 +17838,7 @@
               <type>0</type>
               <id>314</id>
               <name>sext_ln64</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17847,20 +17847,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17901,7 +17901,7 @@
               <type>0</type>
               <id>315</id>
               <name>gmem_addr_23</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17910,20 +17910,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -17965,7 +17965,7 @@
               <type>0</type>
               <id>316</id>
               <name>empty_39</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -17974,20 +17974,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -18030,7 +18030,7 @@
               <type>0</type>
               <id>317</id>
               <name>gmem_addr_23_write_ln64</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -18039,20 +18039,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -18115,7 +18115,7 @@
               <type>0</type>
               <id>318</id>
               <name>empty_40</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>64</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -18124,20 +18124,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>64</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -18180,7 +18180,7 @@
               <type>0</type>
               <id>319</id>
               <name>indvar_flatten397_write_ln52</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>52</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -18189,20 +18189,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>52</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -18246,7 +18246,7 @@
               <type>0</type>
               <id>320</id>
               <name>r_write_ln31</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>31</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -18255,20 +18255,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>31</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -18312,7 +18312,7 @@
               <type>0</type>
               <id>321</id>
               <name>c_write_ln30</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>30</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -18321,20 +18321,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>30</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>
@@ -18378,7 +18378,7 @@
               <type>0</type>
               <id>322</id>
               <name>br_ln54</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>54</lineNumber>
               <contextFuncName>convolve2d_smoothing</contextFuncName>
@@ -18387,20 +18387,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>convolve2d_smoothing</second>
                       </first>
                       <second>54</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>225</second>

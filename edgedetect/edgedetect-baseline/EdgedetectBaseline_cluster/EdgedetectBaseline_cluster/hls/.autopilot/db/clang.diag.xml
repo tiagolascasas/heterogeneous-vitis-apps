@@ -1,13 +1,13 @@
 <dict>
   <key>main-file</key>
-  <string>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp</string>
+  <string>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp</string>
   <key>diagnostics</key>
   <array>
     <dict>
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>edgedetect.cpp</string>
+      <string>../src/edgedetect.cpp</string>
       <key>line</key>
       <integer>45</integer>
       <key>column</key>
@@ -23,7 +23,7 @@
       <key>level</key>
       <string>note</string>
       <key>filename</key>
-      <string>edgedetect.cpp</string>
+      <string>../src/edgedetect.cpp</string>
       <key>line</key>
       <integer>45</integer>
       <key>column</key>
@@ -37,7 +37,7 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>edgedetect.cpp</string>
+      <string>../src/edgedetect.cpp</string>
       <key>line</key>
       <integer>88</integer>
       <key>column</key>
@@ -53,7 +53,7 @@
       <key>level</key>
       <string>note</string>
       <key>filename</key>
-      <string>edgedetect.cpp</string>
+      <string>../src/edgedetect.cpp</string>
       <key>line</key>
       <integer>88</integer>
       <key>column</key>
@@ -67,7 +67,7 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>edgedetect.cpp</string>
+      <string>../src/edgedetect.cpp</string>
       <key>line</key>
       <integer>131</integer>
       <key>column</key>
@@ -83,7 +83,7 @@
       <key>level</key>
       <string>note</string>
       <key>filename</key>
-      <string>edgedetect.cpp</string>
+      <string>../src/edgedetect.cpp</string>
       <key>line</key>
       <integer>131</integer>
       <key>column</key>
@@ -97,7 +97,7 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>edgedetect.cpp</string>
+      <string>../src/edgedetect.cpp</string>
       <key>line</key>
       <integer>167</integer>
       <key>column</key>
@@ -113,7 +113,7 @@
       <key>level</key>
       <string>note</string>
       <key>filename</key>
-      <string>edgedetect.cpp</string>
+      <string>../src/edgedetect.cpp</string>
       <key>line</key>
       <integer>167</integer>
       <key>column</key>
@@ -127,7 +127,7 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>edgedetect.cpp</string>
+      <string>../src/edgedetect.cpp</string>
       <key>line</key>
       <integer>168</integer>
       <key>column</key>
@@ -143,7 +143,7 @@
       <key>level</key>
       <string>note</string>
       <key>filename</key>
-      <string>edgedetect.cpp</string>
+      <string>../src/edgedetect.cpp</string>
       <key>line</key>
       <integer>168</integer>
       <key>column</key>

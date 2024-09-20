@@ -1,0 +1,11 @@
+{
+    "0": {
+        "name": "edgedetect",
+        "file": "edgedetect_fpga.cpp",
+        "fileloc": "8",
+        "instructions": "16",
+        "total_instructions": "16",
+        "calls": "",
+        "basicblocks": "1"
+    }
+}

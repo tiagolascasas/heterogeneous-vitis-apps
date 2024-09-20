@@ -291,7 +291,7 @@
               <type>0</type>
               <id>8</id>
               <name>j</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>157</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -300,20 +300,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="11" tracking_level="0" version="0">
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second class_id="12" tracking_level="0" version="0">
                     <count>2</count>
                     <item_version>0</item_version>
                     <item class_id="13" tracking_level="0" version="0">
                       <first class_id="14" tracking_level="0" version="0">
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>157</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -354,7 +354,7 @@
               <type>0</type>
               <id>9</id>
               <name>i</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>157</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -363,20 +363,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>157</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -757,7 +757,7 @@
               <type>0</type>
               <id>19</id>
               <name>i_write_ln157</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>157</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -766,20 +766,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>157</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -821,7 +821,7 @@
               <type>0</type>
               <id>20</id>
               <name>j_write_ln157</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>157</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -830,20 +830,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>157</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1056,7 +1056,7 @@
               <type>0</type>
               <id>26</id>
               <name>indvar_flatten432_load</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1065,20 +1065,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1120,7 +1120,7 @@
               <type>0</type>
               <id>28</id>
               <name>icmp_ln162</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1129,20 +1129,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1184,7 +1184,7 @@
               <type>0</type>
               <id>29</id>
               <name>add_ln162</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1193,20 +1193,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1248,7 +1248,7 @@
               <type>0</type>
               <id>30</id>
               <name>br_ln162</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1257,20 +1257,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1313,7 +1313,7 @@
               <type>0</type>
               <id>32</id>
               <name>phi_ln170_load</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>157</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1322,20 +1322,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>157</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1377,7 +1377,7 @@
               <type>0</type>
               <id>33</id>
               <name>shiftreg49_load</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>157</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1386,20 +1386,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>157</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1441,7 +1441,7 @@
               <type>0</type>
               <id>34</id>
               <name>shiftreg_load</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>157</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1450,20 +1450,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>157</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1505,7 +1505,7 @@
               <type>0</type>
               <id>35</id>
               <name>j_load</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>164</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1514,20 +1514,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>164</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1569,7 +1569,7 @@
               <type>0</type>
               <id>36</id>
               <name>i_load</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1578,20 +1578,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1633,7 +1633,7 @@
               <type>0</type>
               <id>37</id>
               <name>gmem_addr</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1642,20 +1642,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1697,7 +1697,7 @@
               <type>0</type>
               <id>40</id>
               <name>icmp_ln164</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>164</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1706,20 +1706,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>164</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1761,7 +1761,7 @@
               <type>0</type>
               <id>41</id>
               <name>select_ln157</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>157</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1770,20 +1770,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>157</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1826,7 +1826,7 @@
               <type>0</type>
               <id>42</id>
               <name>select_ln157_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>157</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1835,20 +1835,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>157</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1891,7 +1891,7 @@
               <type>0</type>
               <id>43</id>
               <name>select_ln157_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>157</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1900,20 +1900,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>157</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -1956,7 +1956,7 @@
               <type>0</type>
               <id>44</id>
               <name>select_ln157_3</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>157</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -1965,20 +1965,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>157</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2021,7 +2021,7 @@
               <type>0</type>
               <id>45</id>
               <name>sext_ln162_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2030,20 +2030,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2084,7 +2084,7 @@
               <type>0</type>
               <id>46</id>
               <name>add_ln162_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2093,20 +2093,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2148,7 +2148,7 @@
               <type>0</type>
               <id>47</id>
               <name>select_ln162</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2157,20 +2157,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2213,7 +2213,7 @@
               <type>0</type>
               <id>48</id>
               <name>tmp</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2222,20 +2222,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2278,7 +2278,7 @@
               <type>0</type>
               <id>49</id>
               <name>p_shl</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2287,20 +2287,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2341,7 +2341,7 @@
               <type>0</type>
               <id>50</id>
               <name>tmp_3</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2350,20 +2350,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2406,7 +2406,7 @@
               <type>0</type>
               <id>51</id>
               <name>p_shl12</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2415,20 +2415,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2469,7 +2469,7 @@
               <type>0</type>
               <id>52</id>
               <name>zext_ln164</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>164</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2478,20 +2478,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>164</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2532,7 +2532,7 @@
               <type>0</type>
               <id>53</id>
               <name>zext_ln164_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>164</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2541,20 +2541,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>164</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2595,7 +2595,7 @@
               <type>0</type>
               <id>54</id>
               <name>zext_ln164_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>164</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2604,20 +2604,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>164</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2658,7 +2658,7 @@
               <type>0</type>
               <id>56</id>
               <name>empty_42</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2667,20 +2667,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2722,7 +2722,7 @@
               <type>0</type>
               <id>57</id>
               <name>add_ln167</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2731,20 +2731,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2786,7 +2786,7 @@
               <type>0</type>
               <id>58</id>
               <name>trunc_ln167</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2795,20 +2795,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2849,7 +2849,7 @@
               <type>0</type>
               <id>59</id>
               <name>lshr_ln</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2858,20 +2858,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2915,7 +2915,7 @@
               <type>0</type>
               <id>60</id>
               <name>zext_ln167</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2924,20 +2924,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -2978,7 +2978,7 @@
               <type>0</type>
               <id>61</id>
               <name>icmp_ln167</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -2987,20 +2987,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3042,7 +3042,7 @@
               <type>0</type>
               <id>62</id>
               <name>br_ln167</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3051,20 +3051,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3107,7 +3107,7 @@
               <type>0</type>
               <id>64</id>
               <name>add_ln167_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3116,20 +3116,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3171,7 +3171,7 @@
               <type>0</type>
               <id>65</id>
               <name>sext_ln167</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3180,20 +3180,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3234,7 +3234,7 @@
               <type>0</type>
               <id>66</id>
               <name>gmem_addr_32</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3243,20 +3243,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3298,7 +3298,7 @@
               <type>0</type>
               <id>67</id>
               <name>gmem_load_60_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3307,20 +3307,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3363,7 +3363,7 @@
               <type>0</type>
               <id>68</id>
               <name>gmem_addr_32_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3372,20 +3372,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3428,7 +3428,7 @@
               <type>0</type>
               <id>69</id>
               <name>add_ln168</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>168</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3437,20 +3437,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>168</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3492,7 +3492,7 @@
               <type>0</type>
               <id>70</id>
               <name>sext_ln168</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>168</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3501,20 +3501,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>168</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3555,7 +3555,7 @@
               <type>0</type>
               <id>71</id>
               <name>gmem_addr_33</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>168</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3564,20 +3564,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>168</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3619,7 +3619,7 @@
               <type>0</type>
               <id>72</id>
               <name>gmem_load_61_req</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>168</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3628,20 +3628,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>168</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3685,7 +3685,7 @@
               <type>0</type>
               <id>73</id>
               <name>gmem_addr_33_read</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>168</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3694,20 +3694,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>168</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3751,7 +3751,7 @@
               <type>0</type>
               <id>74</id>
               <name>br_ln168</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>168</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3760,20 +3760,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>168</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3814,7 +3814,7 @@
               <type>0</type>
               <id>76</id>
               <name>empty</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3823,20 +3823,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3880,7 +3880,7 @@
               <type>0</type>
               <id>77</id>
               <name>empty_41</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>168</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3889,20 +3889,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>168</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -3946,7 +3946,7 @@
               <type>0</type>
               <id>78</id>
               <name>trunc_ln167_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -3955,20 +3955,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4009,7 +4009,7 @@
               <type>0</type>
               <id>79</id>
               <name>trunc_ln167_2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4018,20 +4018,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4075,7 +4075,7 @@
               <type>0</type>
               <id>80</id>
               <name>neg8</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4084,20 +4084,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4139,7 +4139,7 @@
               <type>0</type>
               <id>81</id>
               <name>abscond9</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4148,20 +4148,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4203,7 +4203,7 @@
               <type>0</type>
               <id>82</id>
               <name>temp1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4212,20 +4212,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4268,7 +4268,7 @@
               <type>0</type>
               <id>83</id>
               <name>trunc_ln168</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>168</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4277,20 +4277,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>168</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4331,7 +4331,7 @@
               <type>0</type>
               <id>84</id>
               <name>trunc_ln168_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>168</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4340,20 +4340,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>168</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4397,7 +4397,7 @@
               <type>0</type>
               <id>85</id>
               <name>neg11</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>168</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4406,20 +4406,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>168</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4461,7 +4461,7 @@
               <type>0</type>
               <id>86</id>
               <name>abscond12</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>168</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4470,20 +4470,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>168</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4525,7 +4525,7 @@
               <type>0</type>
               <id>87</id>
               <name>temp2</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>168</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4534,20 +4534,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>168</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4590,7 +4590,7 @@
               <type>0</type>
               <id>88</id>
               <name>icmp_ln169</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>169</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4599,20 +4599,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>169</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4654,7 +4654,7 @@
               <type>0</type>
               <id>89</id>
               <name>temp3</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>169</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4663,20 +4663,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>169</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4719,7 +4719,7 @@
               <type>0</type>
               <id>90</id>
               <name>icmp_ln170</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>170</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4728,20 +4728,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>170</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4783,7 +4783,7 @@
               <type>0</type>
               <id>91</id>
               <name>icmp_ln170_1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>170</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4792,20 +4792,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>170</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4847,7 +4847,7 @@
               <type>0</type>
               <id>92</id>
               <name>or_ln1</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>170</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4856,20 +4856,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>170</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4912,7 +4912,7 @@
               <type>0</type>
               <id>93</id>
               <name>sext_ln170</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>170</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4921,20 +4921,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>170</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -4975,7 +4975,7 @@
               <type>0</type>
               <id>94</id>
               <name>br_ln170</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>170</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -4984,20 +4984,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>170</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5040,7 +5040,7 @@
               <type>0</type>
               <id>96</id>
               <name>gmem_addr_write_ln170</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>170</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5049,20 +5049,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>170</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5108,7 +5108,7 @@
               <type>0</type>
               <id>97</id>
               <name>br_ln170</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>170</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5117,20 +5117,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>170</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5171,7 +5171,7 @@
               <type>0</type>
               <id>99</id>
               <name>add_ln164</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>164</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5180,20 +5180,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>164</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5235,7 +5235,7 @@
               <type>0</type>
               <id>100</id>
               <name>tmp_4</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>164</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5244,20 +5244,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>164</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5301,7 +5301,7 @@
               <type>0</type>
               <id>101</id>
               <name>sext_ln164</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>164</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5310,20 +5310,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>164</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5364,7 +5364,7 @@
               <type>0</type>
               <id>102</id>
               <name>tmp_s</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>164</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5373,20 +5373,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>164</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5429,7 +5429,7 @@
               <type>0</type>
               <id>103</id>
               <name>select_ln170</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>170</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5438,20 +5438,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>170</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5494,7 +5494,7 @@
               <type>0</type>
               <id>104</id>
               <name>indvar_flatten432_write_ln162</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>162</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5503,20 +5503,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>162</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5560,7 +5560,7 @@
               <type>0</type>
               <id>105</id>
               <name>i_write_ln157</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>157</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5569,20 +5569,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>157</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5626,7 +5626,7 @@
               <type>0</type>
               <id>106</id>
               <name>j_write_ln157</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>157</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5635,20 +5635,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>157</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5692,7 +5692,7 @@
               <type>0</type>
               <id>107</id>
               <name>shiftreg_write_ln167</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>167</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5701,20 +5701,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>167</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5758,7 +5758,7 @@
               <type>0</type>
               <id>108</id>
               <name>shiftreg49_write_ln168</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>168</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5767,20 +5767,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>168</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5824,7 +5824,7 @@
               <type>0</type>
               <id>109</id>
               <name>phi_ln170_write_ln170</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>170</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5833,20 +5833,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>170</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>
@@ -5890,7 +5890,7 @@
               <type>0</type>
               <id>110</id>
               <name>br_ln164</name>
-              <fileName>edgedetect.cpp</fileName>
+              <fileName>../src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>164</lineNumber>
               <contextFuncName>combthreshold</contextFuncName>
@@ -5899,20 +5899,20 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/tls/Dev/wonderland/AmdVitisEdgedetect/EdgedetectBaseline/EdgedetectBaseline_cluster</first>
+                  <first>/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>combthreshold</second>
                       </first>
                       <second>164</second>
                     </item>
                     <item>
                       <first>
-                        <first>edgedetect.cpp</first>
+                        <first>../src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
                       <second>235</second>

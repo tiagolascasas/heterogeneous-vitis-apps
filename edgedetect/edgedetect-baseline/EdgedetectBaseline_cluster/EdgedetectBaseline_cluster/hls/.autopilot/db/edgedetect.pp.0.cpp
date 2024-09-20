@@ -1,4 +1,4 @@
-# 1 "edgedetect.cpp"
+# 1 "../src/edgedetect.cpp"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 376 "<built-in>" 3
@@ -152,7 +152,7 @@ extern "C" {
 
 }
 # 2 "<built-in>" 2
-# 1 "edgedetect.cpp" 2
+# 1 "../src/edgedetect.cpp" 2
 # 1 "/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath" 1 3
 # 40 "/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/cmath" 3
 
@@ -180,7 +180,7 @@ namespace __gnu_cxx
 # 1 "/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/os_defines.h" 1 3
 # 39 "/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/os_defines.h" 3
 # 1 "/usr/include/features.h" 1 3 4
-# 394 "/usr/include/features.h" 3 4
+# 392 "/usr/include/features.h" 3 4
 # 1 "/usr/include/features-time64.h" 1 3 4
 # 20 "/usr/include/features-time64.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
@@ -190,24 +190,24 @@ namespace __gnu_cxx
 # 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
 # 20 "/usr/include/x86_64-linux-gnu/bits/timesize.h" 2 3 4
 # 22 "/usr/include/features-time64.h" 2 3 4
-# 395 "/usr/include/features.h" 2 3 4
-# 480 "/usr/include/features.h" 3 4
+# 393 "/usr/include/features.h" 2 3 4
+# 464 "/usr/include/features.h" 3 4
 # 1 "/usr/include/stdc-predef.h" 1 3 4
-# 481 "/usr/include/features.h" 2 3 4
-# 502 "/usr/include/features.h" 3 4
+# 465 "/usr/include/features.h" 2 3 4
+# 486 "/usr/include/features.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 1 3 4
-# 576 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 3 4
+# 559 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 577 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
+# 560 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4
-# 578 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
-# 503 "/usr/include/features.h" 2 3 4
-# 526 "/usr/include/features.h" 3 4
+# 561 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
+# 487 "/usr/include/features.h" 2 3 4
+# 510 "/usr/include/features.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 1 3 4
 # 10 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/gnu/stubs-64.h" 1 3 4
 # 11 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 2 3 4
-# 527 "/usr/include/features.h" 2 3 4
+# 511 "/usr/include/features.h" 2 3 4
 # 40 "/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/os_defines.h" 2 3
 # 509 "/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu/bits/c++config.h" 2 3
 
@@ -3616,7 +3616,7 @@ enum
 
       4
   };
-# 1055 "/usr/include/math.h" 3 4
+# 1054 "/usr/include/math.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/iscanonical.h" 1 3 4
 # 23 "/usr/include/x86_64-linux-gnu/bits/iscanonical.h" 3 4
 extern int __iscanonicall (long double __x)
@@ -3630,8 +3630,8 @@ inline int iscanonical (long double __val) { return __iscanonicall (__val); }
 
 
 }
-# 1056 "/usr/include/math.h" 2 3 4
-# 1067 "/usr/include/math.h" 3 4
+# 1055 "/usr/include/math.h" 2 3 4
+# 1066 "/usr/include/math.h" 3 4
 extern "C++" {
 inline int issignaling (float __val) { return __issignalingf (__val); }
 inline int issignaling (double __val) { return __issignaling (__val); }
@@ -3650,9 +3650,9 @@ issignaling (long double __val)
 
 
 }
-# 1098 "/usr/include/math.h" 3 4
+# 1097 "/usr/include/math.h" 3 4
 extern "C++" {
-# 1129 "/usr/include/math.h" 3 4
+# 1128 "/usr/include/math.h" 3 4
 template <class __T> inline bool
 iszero (__T __val)
 {
@@ -3660,7 +3660,7 @@ iszero (__T __val)
 }
 
 }
-# 1364 "/usr/include/math.h" 3 4
+# 1363 "/usr/include/math.h" 3 4
 extern "C++" {
 template<typename> struct __iseqsig_type;
 
@@ -3691,7 +3691,7 @@ template<> struct __iseqsig_type<long double>
 
   }
 };
-# 1455 "/usr/include/math.h" 3 4
+# 1406 "/usr/include/math.h" 3 4
 template<typename _T1, typename _T2>
 inline int
 iseqsig (_T1 __x, _T2 __y) throw ()
@@ -3857,42 +3857,6 @@ extern unsigned long long int strtoull (const char *__restrict __nptr,
 
 
 
-
-
-extern long int strtol (const char *__restrict __nptr, char **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_strtol")
-
-
-     __attribute__ ((__nonnull__ (1)));
-extern unsigned long int strtoul (const char *__restrict __nptr, char **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_strtoul")
-
-
-
-     __attribute__ ((__nonnull__ (1)));
-
-__extension__
-extern long long int strtoq (const char *__restrict __nptr, char **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_strtoll")
-
-
-     __attribute__ ((__nonnull__ (1)));
-__extension__
-extern unsigned long long int strtouq (const char *__restrict __nptr, char **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_strtoull")
-
-
-
-     __attribute__ ((__nonnull__ (1)));
-
-__extension__
-extern long long int strtoll (const char *__restrict __nptr, char **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_strtoll")
-
-
-     __attribute__ ((__nonnull__ (1)));
-__extension__
-extern unsigned long long int strtoull (const char *__restrict __nptr, char **__restrict __endptr, int __base) noexcept (true) __asm__ ("" "__isoc23_strtoull")
-
-
-
-     __attribute__ ((__nonnull__ (1)));
-# 278 "/usr/include/stdlib.h" 3 4
 extern int strfromd (char *__dest, size_t __size, const char *__format,
        double __f)
      noexcept (true) __attribute__ ((__nonnull__ (3)));
@@ -3904,7 +3868,7 @@ extern int strfromf (char *__dest, size_t __size, const char *__format,
 extern int strfroml (char *__dest, size_t __size, const char *__format,
        long double __f)
      noexcept (true) __attribute__ ((__nonnull__ (3)));
-# 298 "/usr/include/stdlib.h" 3 4
+# 233 "/usr/include/stdlib.h" 3 4
 extern int strfromf32 (char *__dest, size_t __size, const char * __format,
          _Float32 __f)
      noexcept (true) __attribute__ ((__nonnull__ (3)));
@@ -3914,7 +3878,7 @@ extern int strfromf32 (char *__dest, size_t __size, const char * __format,
 extern int strfromf64 (char *__dest, size_t __size, const char * __format,
          _Float64 __f)
      noexcept (true) __attribute__ ((__nonnull__ (3)));
-# 316 "/usr/include/stdlib.h" 3 4
+# 251 "/usr/include/stdlib.h" 3 4
 extern int strfromf32x (char *__dest, size_t __size, const char * __format,
    _Float32x __f)
      noexcept (true) __attribute__ ((__nonnull__ (3)));
@@ -3924,7 +3888,7 @@ extern int strfromf32x (char *__dest, size_t __size, const char * __format,
 extern int strfromf64x (char *__dest, size_t __size, const char * __format,
    _Float64x __f)
      noexcept (true) __attribute__ ((__nonnull__ (3)));
-# 338 "/usr/include/stdlib.h" 3 4
+# 273 "/usr/include/stdlib.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 1 3 4
 # 22 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h" 1 3 4
@@ -3947,7 +3911,7 @@ typedef struct __locale_struct *__locale_t;
 # 23 "/usr/include/x86_64-linux-gnu/bits/types/locale_t.h" 2 3 4
 
 typedef __locale_t locale_t;
-# 339 "/usr/include/stdlib.h" 2 3 4
+# 274 "/usr/include/stdlib.h" 2 3 4
 
 extern long int strtol_l (const char *__restrict __nptr,
      char **__restrict __endptr, int __base,
@@ -3970,36 +3934,6 @@ extern unsigned long long int strtoull_l (const char *__restrict __nptr,
        int __base, locale_t __loc)
      noexcept (true) __attribute__ ((__nonnull__ (1, 4)));
 
-
-
-
-
-extern long int strtol_l (const char *__restrict __nptr, char **__restrict __endptr, int __base, locale_t __loc) noexcept (true) __asm__ ("" "__isoc23_strtol_l")
-
-
-
-     __attribute__ ((__nonnull__ (1, 4)));
-extern unsigned long int strtoul_l (const char *__restrict __nptr, char **__restrict __endptr, int __base, locale_t __loc) noexcept (true) __asm__ ("" "__isoc23_strtoul_l")
-
-
-
-
-     __attribute__ ((__nonnull__ (1, 4)));
-__extension__
-extern long long int strtoll_l (const char *__restrict __nptr, char **__restrict __endptr, int __base, locale_t __loc) noexcept (true) __asm__ ("" "__isoc23_strtoll_l")
-
-
-
-
-     __attribute__ ((__nonnull__ (1, 4)));
-__extension__
-extern unsigned long long int strtoull_l (const char *__restrict __nptr, char **__restrict __endptr, int __base, locale_t __loc) noexcept (true) __asm__ ("" "__isoc23_strtoull_l")
-
-
-
-
-     __attribute__ ((__nonnull__ (1, 4)));
-# 415 "/usr/include/stdlib.h" 3 4
 extern double strtod_l (const char *__restrict __nptr,
    char **__restrict __endptr, locale_t __loc)
      noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
@@ -4012,7 +3946,7 @@ extern long double strtold_l (const char *__restrict __nptr,
          char **__restrict __endptr,
          locale_t __loc)
      noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
-# 436 "/usr/include/stdlib.h" 3 4
+# 317 "/usr/include/stdlib.h" 3 4
 extern _Float32 strtof32_l (const char *__restrict __nptr,
        char **__restrict __endptr,
        locale_t __loc)
@@ -4024,7 +3958,7 @@ extern _Float64 strtof64_l (const char *__restrict __nptr,
        char **__restrict __endptr,
        locale_t __loc)
      noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
-# 457 "/usr/include/stdlib.h" 3 4
+# 338 "/usr/include/stdlib.h" 3 4
 extern _Float32x strtof32x_l (const char *__restrict __nptr,
          char **__restrict __endptr,
          locale_t __loc)
@@ -4036,7 +3970,7 @@ extern _Float64x strtof64x_l (const char *__restrict __nptr,
          char **__restrict __endptr,
          locale_t __loc)
      noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
-# 505 "/usr/include/stdlib.h" 3 4
+# 386 "/usr/include/stdlib.h" 3 4
 extern char *l64a (long int __n) noexcept (true) ;
 
 
@@ -4633,7 +4567,7 @@ typedef union
 
 
 }
-# 515 "/usr/include/stdlib.h" 2 3 4
+# 396 "/usr/include/stdlib.h" 2 3 4
 
 
 
@@ -4776,19 +4710,6 @@ extern int lcong48_r (unsigned short int __param[7],
      noexcept (true) __attribute__ ((__nonnull__ (1, 2)));
 
 
-extern __uint32_t arc4random (void)
-     noexcept (true) ;
-
-
-extern void arc4random_buf (void *__buf, size_t __size)
-     noexcept (true) __attribute__ ((__nonnull__ (1)));
-
-
-
-extern __uint32_t arc4random_uniform (__uint32_t __upper_bound)
-     noexcept (true) ;
-
-
 
 
 extern void *malloc (size_t __size) noexcept (true) __attribute__ ((__malloc__))
@@ -4844,7 +4765,7 @@ extern void *alloca (size_t __size) noexcept (true);
 
 
 }
-# 707 "/usr/include/stdlib.h" 2 3 4
+# 575 "/usr/include/stdlib.h" 2 3 4
 
 
 
@@ -4879,7 +4800,7 @@ extern int atexit (void (*__func) (void)) noexcept (true) __attribute__ ((__nonn
 
 extern "C++" int at_quick_exit (void (*__func) (void))
      noexcept (true) __asm ("at_quick_exit") __attribute__ ((__nonnull__ (1)));
-# 749 "/usr/include/stdlib.h" 3 4
+# 617 "/usr/include/stdlib.h" 3 4
 extern int on_exit (void (*__func) (int __status, void *__arg), void *__arg)
      noexcept (true) __attribute__ ((__nonnull__ (1)));
 
@@ -4935,30 +4856,30 @@ extern int unsetenv (const char *__name) noexcept (true) __attribute__ ((__nonnu
 
 
 extern int clearenv (void) noexcept (true);
-# 814 "/usr/include/stdlib.h" 3 4
+# 682 "/usr/include/stdlib.h" 3 4
 extern char *mktemp (char *__template) noexcept (true) __attribute__ ((__nonnull__ (1)));
-# 827 "/usr/include/stdlib.h" 3 4
+# 695 "/usr/include/stdlib.h" 3 4
 extern int mkstemp (char *__template) __attribute__ ((__nonnull__ (1))) ;
-# 837 "/usr/include/stdlib.h" 3 4
+# 705 "/usr/include/stdlib.h" 3 4
 extern int mkstemp64 (char *__template) __attribute__ ((__nonnull__ (1))) ;
-# 849 "/usr/include/stdlib.h" 3 4
+# 717 "/usr/include/stdlib.h" 3 4
 extern int mkstemps (char *__template, int __suffixlen) __attribute__ ((__nonnull__ (1))) ;
-# 859 "/usr/include/stdlib.h" 3 4
+# 727 "/usr/include/stdlib.h" 3 4
 extern int mkstemps64 (char *__template, int __suffixlen)
      __attribute__ ((__nonnull__ (1))) ;
-# 870 "/usr/include/stdlib.h" 3 4
+# 738 "/usr/include/stdlib.h" 3 4
 extern char *mkdtemp (char *__template) noexcept (true) __attribute__ ((__nonnull__ (1))) ;
-# 881 "/usr/include/stdlib.h" 3 4
+# 749 "/usr/include/stdlib.h" 3 4
 extern int mkostemp (char *__template, int __flags) __attribute__ ((__nonnull__ (1))) ;
-# 891 "/usr/include/stdlib.h" 3 4
+# 759 "/usr/include/stdlib.h" 3 4
 extern int mkostemp64 (char *__template, int __flags) __attribute__ ((__nonnull__ (1))) ;
-# 901 "/usr/include/stdlib.h" 3 4
+# 769 "/usr/include/stdlib.h" 3 4
 extern int mkostemps (char *__template, int __suffixlen, int __flags)
      __attribute__ ((__nonnull__ (1))) ;
-# 913 "/usr/include/stdlib.h" 3 4
+# 781 "/usr/include/stdlib.h" 3 4
 extern int mkostemps64 (char *__template, int __suffixlen, int __flags)
      __attribute__ ((__nonnull__ (1))) ;
-# 923 "/usr/include/stdlib.h" 3 4
+# 791 "/usr/include/stdlib.h" 3 4
 extern int system (const char *__command) ;
 
 
@@ -4968,7 +4889,7 @@ extern int system (const char *__command) ;
 extern char *canonicalize_file_name (const char *__name)
      noexcept (true) __attribute__ ((__nonnull__ (1))) __attribute__ ((__malloc__))
                               ;
-# 940 "/usr/include/stdlib.h" 3 4
+# 808 "/usr/include/stdlib.h" 3 4
 extern char *realpath (const char *__restrict __name,
          char *__restrict __resolved) noexcept (true) ;
 
@@ -5030,7 +4951,7 @@ extern ldiv_t ldiv (long int __numer, long int __denom)
 __extension__ extern lldiv_t lldiv (long long int __numer,
         long long int __denom)
      noexcept (true) __attribute__ ((__const__)) ;
-# 1012 "/usr/include/stdlib.h" 3 4
+# 880 "/usr/include/stdlib.h" 3 4
 extern char *ecvt (double __value, int __ndigit, int *__restrict __decpt,
      int *__restrict __sign) noexcept (true) __attribute__ ((__nonnull__ (3, 4))) ;
 
@@ -5108,7 +5029,7 @@ extern size_t wcstombs (char *__restrict __s,
 
 
 extern int rpmatch (const char *__response) noexcept (true) __attribute__ ((__nonnull__ (1))) ;
-# 1099 "/usr/include/stdlib.h" 3 4
+# 967 "/usr/include/stdlib.h" 3 4
 extern int getsubopt (char **__restrict __optionp,
         char *const *__restrict __tokens,
         char **__restrict __valuep)
@@ -5157,10 +5078,10 @@ extern int getpt (void);
 
 extern int getloadavg (double __loadavg[], int __nelem)
      noexcept (true) __attribute__ ((__nonnull__ (1)));
-# 1155 "/usr/include/stdlib.h" 3 4
+# 1023 "/usr/include/stdlib.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/stdlib-float.h" 1 3 4
-# 1156 "/usr/include/stdlib.h" 2 3 4
-# 1167 "/usr/include/stdlib.h" 3 4
+# 1024 "/usr/include/stdlib.h" 2 3 4
+# 1035 "/usr/include/stdlib.h" 3 4
 }
 # 39 "/tools/Xilinx/Vitis_HLS/2024.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/bits/std_abs.h" 2 3
 
@@ -6728,7 +6649,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 2 "edgedetect.cpp" 2
+# 2 "../src/edgedetect.cpp" 2
 
 
 
@@ -6949,7 +6870,7 @@ __attribute__((sdx_kernel("edgedetect", 0))) void edgedetect(unsigned char image
 {
 #line 1 "directive"
 #pragma HLSDIRECTIVE TOP name=edgedetect
-# 219 "edgedetect.cpp"
+# 219 "../src/edgedetect.cpp"
 
 
     rgbToGrayscale(image_rgb, image_gray);
