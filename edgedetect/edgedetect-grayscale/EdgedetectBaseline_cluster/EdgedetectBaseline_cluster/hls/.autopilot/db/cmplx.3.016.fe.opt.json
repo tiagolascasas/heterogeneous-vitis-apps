@@ -1,0 +1,26 @@
+{
+  "0": {
+    "basicblocks": 11,
+    "calls": "1",
+    "file": "edgedetect.cpp",
+    "fileloc": 8,
+    "instructions": 113,
+    "loads": {
+      "T": 3
+    },
+    "name": "edgedetect",
+    "total_instructions": 158
+  },
+  "1": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "hls_floor.h",
+    "fileloc": 13,
+    "instructions": 45,
+    "loads": {
+      "G": 1
+    },
+    "name": "generic_floor<double>",
+    "total_instructions": 45
+  }
+}

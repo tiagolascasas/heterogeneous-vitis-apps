@@ -1,0 +1,21 @@
+{
+    "0": {
+        "name": "edgedetect",
+        "file": "edgedetect.cpp",
+        "fileloc": "8",
+        "instructions": "186",
+        "total_instructions": "186",
+        "calls": "",
+        "basicblocks": "9",
+        "loads": {
+            "G": "1",
+            "L": "7"
+        },
+        "stores": {
+            "L": "12"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

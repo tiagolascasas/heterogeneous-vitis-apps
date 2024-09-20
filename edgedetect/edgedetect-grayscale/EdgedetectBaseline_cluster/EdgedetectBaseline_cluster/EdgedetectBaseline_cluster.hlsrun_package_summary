@@ -1,0 +1,159 @@
+<ENTRY>
+{
+ "thisFile": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri Sep 20 05:33:04 2024",
+ "timestampMillis": "1726806784019",
+ "buildStep": {
+  "cmdId": "d971adfc-36af-4e28-b903-e00ec876cef0",
+  "name": "vitis-run",
+  "logFile": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/logs/EdgedetectBaseline_cluster.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2024.1/bin/unwrapped/lnx64.o/vitis-run  --mode hls --package --config /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/hls_config.cfg --work_dir EdgedetectBaseline_cluster ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/hls_config.cfg",
+   "--work_dir",
+   "EdgedetectBaseline_cluster"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Sep 20 05:33:04 2024",
+ "timestampMillis": "1726806784019",
+ "status": {
+  "cmdId": "d971adfc-36af-4e28-b903-e00ec876cef0",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Fri Sep 20 05:33:08 2024",
+ "timestampMillis": "1726806788333",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_XO",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "edgedetect",
+     "file": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/edgedetect.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/src/edgedetect.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Sep 20 05:33:08 2024",
+ "timestampMillis": "1726806788334",
+ "buildStep": {
+  "cmdId": "b47c7131-443d-405d-b002-3e30ce843809",
+  "name": "export_design",
+  "logFile": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/hls.log",
+  "commandLine": "export_design -flow none",
+  "args": [
+   "-flow",
+   "none"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Sep 20 05:33:08 2024",
+ "timestampMillis": "1726806788334",
+ "status": {
+  "cmdId": "b47c7131-443d-405d-b002-3e30ce843809",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Sep 20 05:33:33 2024",
+ "timestampMillis": "1726806813891",
+ "status": {
+  "cmdId": "b47c7131-443d-405d-b002-3e30ce843809",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Sep 20 05:33:34 2024",
+ "timestampMillis": "1726806814085",
+ "status": {
+  "cmdId": "d971adfc-36af-4e28-b903-e00ec876cef0",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Sep 20 05:33:34 2024",
+ "timestampMillis": "1726806814085",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Sep 20 05:33:34 2024",
+ "timestampMillis": "1726806814085",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

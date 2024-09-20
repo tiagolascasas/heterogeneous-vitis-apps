@@ -1,0 +1,7 @@
+{
+  "workspaceRoot": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale",
+  "mapping": {
+    "src/edgedetect.cpp": "EdgedetectBaseline_cluster",
+    "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/src/edgedetect.cpp": "EdgedetectBaseline_cluster"
+  }
+}
