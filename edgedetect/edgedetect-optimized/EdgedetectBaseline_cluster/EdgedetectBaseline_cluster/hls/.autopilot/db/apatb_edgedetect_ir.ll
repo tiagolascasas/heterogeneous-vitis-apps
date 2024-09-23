@@ -3,43 +3,36 @@ source_filename = "llvm-link"
 target datalayout = "e-m:e-i64:64-i128:128-i256:256-i512:512-i1024:1024-i2048:2048-i4096:4096-n8:16:32:64-S128-v16:16-v24:32-v32:32-v48:64-v96:128-v192:256-v256:256-v512:512-v1024:1024"
 target triple = "fpga64-xilinx-none"
 
-; Function Attrs: noinline
-define void @apatb_edgedetect_ir(i8* noalias nocapture nonnull readonly "fpga.decayed.dim.hint"="921600" %image_rgb, i8* noalias nocapture nonnull "fpga.decayed.dim.hint"="307200" %output) local_unnamed_addr #0 {
+; Function Attrs: argmemonly noinline willreturn
+define void @apatb_edgedetect_ir(i8* noalias nocapture nonnull readonly %image_rgb, i8* noalias nocapture nonnull %output) local_unnamed_addr #0 {
 entry:
-  %malloccall = tail call i8* @malloc(i64 921600)
-  %image_rgb_copy = bitcast i8* %malloccall to [921600 x i8]*
-  %malloccall1 = tail call i8* @malloc(i64 307200)
-  %output_copy = bitcast i8* %malloccall1 to [307200 x i8]*
-  %0 = bitcast i8* %image_rgb to [921600 x i8]*
-  %1 = bitcast i8* %output to [307200 x i8]*
-  call fastcc void @copy_in([921600 x i8]* nonnull %0, [921600 x i8]* %image_rgb_copy, [307200 x i8]* nonnull %1, [307200 x i8]* %output_copy)
-  call void @apatb_edgedetect_hw([921600 x i8]* %image_rgb_copy, [307200 x i8]* %output_copy)
-  call void @copy_back([921600 x i8]* %0, [921600 x i8]* %image_rgb_copy, [307200 x i8]* %1, [307200 x i8]* %output_copy)
-  tail call void @free(i8* %malloccall)
-  tail call void @free(i8* %malloccall1)
-  ret void
-}
-
-declare noalias i8* @malloc(i64) local_unnamed_addr
-
-; Function Attrs: argmemonly noinline norecurse willreturn
-define internal fastcc void @copy_in([921600 x i8]* noalias readonly, [921600 x i8]* noalias, [307200 x i8]* noalias readonly, [307200 x i8]* noalias) unnamed_addr #1 {
-entry:
-  call fastcc void @onebyonecpy_hls.p0a921600i8([921600 x i8]* %1, [921600 x i8]* %0)
-  call fastcc void @onebyonecpy_hls.p0a307200i8([307200 x i8]* %3, [307200 x i8]* %2)
+  %image_rgb_copy = alloca i8, align 512
+  %output_copy = alloca i8, align 512
+  call fastcc void @copy_in(i8* nonnull %image_rgb, i8* nonnull align 512 %image_rgb_copy, i8* nonnull %output, i8* nonnull align 512 %output_copy)
+  call void @apatb_edgedetect_hw(i8* %image_rgb_copy, i8* %output_copy)
+  call void @copy_back(i8* %image_rgb, i8* %image_rgb_copy, i8* %output, i8* %output_copy)
   ret void
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define internal fastcc void @onebyonecpy_hls.p0a921600i8([921600 x i8]* noalias %dst, [921600 x i8]* noalias readonly %src) unnamed_addr #2 {
+define internal fastcc void @copy_in(i8* noalias readonly, i8* noalias align 512, i8* noalias readonly, i8* noalias align 512) unnamed_addr #1 {
 entry:
-  %0 = icmp eq [921600 x i8]* %dst, null
-  %1 = icmp eq [921600 x i8]* %src, null
+  call fastcc void @onebyonecpy_hls.p0i8(i8* align 512 %1, i8* %0)
+  call fastcc void @onebyonecpy_hls.p0i8(i8* align 512 %3, i8* %2)
+  ret void
+}
+
+; Function Attrs: argmemonly noinline norecurse willreturn
+define internal fastcc void @onebyonecpy_hls.p0i8(i8* noalias align 512 %dst, i8* noalias readonly %src) unnamed_addr #2 {
+entry:
+  %0 = icmp eq i8* %dst, null
+  %1 = icmp eq i8* %src, null
   %2 = or i1 %0, %1
   br i1 %2, label %ret, label %copy
 
 copy:                                             ; preds = %entry
-  call void @arraycpy_hls.p0a921600i8([921600 x i8]* nonnull %dst, [921600 x i8]* nonnull %src, i64 921600)
+  %3 = load i8, i8* %src, align 1
+  store i8 %3, i8* %dst, align 512
   br label %ret
 
 ret:                                              ; preds = %copy, %entry
@@ -47,122 +40,37 @@ ret:                                              ; preds = %copy, %entry
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define void @arraycpy_hls.p0a921600i8([921600 x i8]* %dst, [921600 x i8]* readonly %src, i64 %num) local_unnamed_addr #3 {
+define internal fastcc void @copy_out(i8* noalias, i8* noalias readonly align 512, i8* noalias, i8* noalias readonly align 512) unnamed_addr #3 {
 entry:
-  %0 = icmp eq [921600 x i8]* %src, null
-  %1 = icmp eq [921600 x i8]* %dst, null
-  %2 = or i1 %1, %0
-  br i1 %2, label %ret, label %copy
-
-copy:                                             ; preds = %entry
-  %for.loop.cond1 = icmp sgt i64 %num, 0
-  br i1 %for.loop.cond1, label %for.loop.lr.ph, label %copy.split
-
-for.loop.lr.ph:                                   ; preds = %copy
-  br label %for.loop
-
-for.loop:                                         ; preds = %for.loop, %for.loop.lr.ph
-  %for.loop.idx2 = phi i64 [ 0, %for.loop.lr.ph ], [ %for.loop.idx.next, %for.loop ]
-  %dst.addr = getelementptr [921600 x i8], [921600 x i8]* %dst, i64 0, i64 %for.loop.idx2
-  %src.addr = getelementptr [921600 x i8], [921600 x i8]* %src, i64 0, i64 %for.loop.idx2
-  %3 = load i8, i8* %src.addr, align 1
-  store i8 %3, i8* %dst.addr, align 1
-  %for.loop.idx.next = add nuw nsw i64 %for.loop.idx2, 1
-  %exitcond = icmp ne i64 %for.loop.idx.next, %num
-  br i1 %exitcond, label %for.loop, label %copy.split
-
-copy.split:                                       ; preds = %for.loop, %copy
-  br label %ret
-
-ret:                                              ; preds = %copy.split, %entry
+  call fastcc void @onebyonecpy_hls.p0i8(i8* %0, i8* align 512 %1)
+  call fastcc void @onebyonecpy_hls.p0i8(i8* %2, i8* align 512 %3)
   ret void
 }
+
+declare void @apatb_edgedetect_hw(i8*, i8*)
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define internal fastcc void @onebyonecpy_hls.p0a307200i8([307200 x i8]* noalias %dst, [307200 x i8]* noalias readonly %src) unnamed_addr #2 {
+define internal fastcc void @copy_back(i8* noalias, i8* noalias readonly align 512, i8* noalias, i8* noalias readonly align 512) unnamed_addr #3 {
 entry:
-  %0 = icmp eq [307200 x i8]* %dst, null
-  %1 = icmp eq [307200 x i8]* %src, null
-  %2 = or i1 %0, %1
-  br i1 %2, label %ret, label %copy
-
-copy:                                             ; preds = %entry
-  call void @arraycpy_hls.p0a307200i8([307200 x i8]* nonnull %dst, [307200 x i8]* nonnull %src, i64 307200)
-  br label %ret
-
-ret:                                              ; preds = %copy, %entry
+  call fastcc void @onebyonecpy_hls.p0i8(i8* %2, i8* align 512 %3)
   ret void
 }
 
-; Function Attrs: argmemonly noinline norecurse willreturn
-define void @arraycpy_hls.p0a307200i8([307200 x i8]* %dst, [307200 x i8]* readonly %src, i64 %num) local_unnamed_addr #3 {
+define void @edgedetect_hw_stub_wrapper(i8*, i8*) #4 {
 entry:
-  %0 = icmp eq [307200 x i8]* %src, null
-  %1 = icmp eq [307200 x i8]* %dst, null
-  %2 = or i1 %1, %0
-  br i1 %2, label %ret, label %copy
-
-copy:                                             ; preds = %entry
-  %for.loop.cond1 = icmp sgt i64 %num, 0
-  br i1 %for.loop.cond1, label %for.loop.lr.ph, label %copy.split
-
-for.loop.lr.ph:                                   ; preds = %copy
-  br label %for.loop
-
-for.loop:                                         ; preds = %for.loop, %for.loop.lr.ph
-  %for.loop.idx2 = phi i64 [ 0, %for.loop.lr.ph ], [ %for.loop.idx.next, %for.loop ]
-  %dst.addr = getelementptr [307200 x i8], [307200 x i8]* %dst, i64 0, i64 %for.loop.idx2
-  %src.addr = getelementptr [307200 x i8], [307200 x i8]* %src, i64 0, i64 %for.loop.idx2
-  %3 = load i8, i8* %src.addr, align 1
-  store i8 %3, i8* %dst.addr, align 1
-  %for.loop.idx.next = add nuw nsw i64 %for.loop.idx2, 1
-  %exitcond = icmp ne i64 %for.loop.idx.next, %num
-  br i1 %exitcond, label %for.loop, label %copy.split
-
-copy.split:                                       ; preds = %for.loop, %copy
-  br label %ret
-
-ret:                                              ; preds = %copy.split, %entry
-  ret void
-}
-
-; Function Attrs: argmemonly noinline norecurse willreturn
-define internal fastcc void @copy_out([921600 x i8]* noalias, [921600 x i8]* noalias readonly, [307200 x i8]* noalias, [307200 x i8]* noalias readonly) unnamed_addr #4 {
-entry:
-  call fastcc void @onebyonecpy_hls.p0a921600i8([921600 x i8]* %0, [921600 x i8]* %1)
-  call fastcc void @onebyonecpy_hls.p0a307200i8([307200 x i8]* %2, [307200 x i8]* %3)
-  ret void
-}
-
-declare void @free(i8*) local_unnamed_addr
-
-declare void @apatb_edgedetect_hw([921600 x i8]*, [307200 x i8]*)
-
-; Function Attrs: argmemonly noinline norecurse willreturn
-define internal fastcc void @copy_back([921600 x i8]* noalias, [921600 x i8]* noalias readonly, [307200 x i8]* noalias, [307200 x i8]* noalias readonly) unnamed_addr #4 {
-entry:
-  call fastcc void @onebyonecpy_hls.p0a307200i8([307200 x i8]* %2, [307200 x i8]* %3)
-  ret void
-}
-
-define void @edgedetect_hw_stub_wrapper([921600 x i8]*, [307200 x i8]*) #5 {
-entry:
-  call void @copy_out([921600 x i8]* null, [921600 x i8]* %0, [307200 x i8]* null, [307200 x i8]* %1)
-  %2 = bitcast [921600 x i8]* %0 to i8*
-  %3 = bitcast [307200 x i8]* %1 to i8*
-  call void @edgedetect_hw_stub(i8* %2, i8* %3)
-  call void @copy_in([921600 x i8]* null, [921600 x i8]* %0, [307200 x i8]* null, [307200 x i8]* %1)
+  call void @copy_out(i8* null, i8* %0, i8* null, i8* %1)
+  call void @edgedetect_hw_stub(i8* %0, i8* %1)
+  call void @copy_in(i8* null, i8* %0, i8* null, i8* %1)
   ret void
 }
 
 declare void @edgedetect_hw_stub(i8* noalias nocapture nonnull readonly, i8* noalias nocapture nonnull)
 
-attributes #0 = { noinline "fpga.wrapper.func"="wrapper" }
+attributes #0 = { argmemonly noinline willreturn "fpga.wrapper.func"="wrapper" }
 attributes #1 = { argmemonly noinline norecurse willreturn "fpga.wrapper.func"="copyin" }
 attributes #2 = { argmemonly noinline norecurse willreturn "fpga.wrapper.func"="onebyonecpy_hls" }
-attributes #3 = { argmemonly noinline norecurse willreturn "fpga.wrapper.func"="arraycpy_hls" }
-attributes #4 = { argmemonly noinline norecurse willreturn "fpga.wrapper.func"="copyout" }
-attributes #5 = { "fpga.wrapper.func"="stub" }
+attributes #3 = { argmemonly noinline norecurse willreturn "fpga.wrapper.func"="copyout" }
+attributes #4 = { "fpga.wrapper.func"="stub" }
 
 !llvm.dbg.cu = !{}
 !llvm.ident = !{!0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0}

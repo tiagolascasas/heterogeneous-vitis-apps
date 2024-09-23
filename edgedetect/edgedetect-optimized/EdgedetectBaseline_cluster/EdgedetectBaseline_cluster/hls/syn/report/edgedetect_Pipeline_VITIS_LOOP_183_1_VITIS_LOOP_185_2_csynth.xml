@@ -46,13 +46,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:178~../EdgedetectBaseline_host/src/edgedetect.cpp:212</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:178~../EdgedetectBaseline_host/src/edgedetect.cpp:209</SourceLocation>
 <SummaryOfLoopViolations>
 <VITIS_LOOP_183_1_VITIS_LOOP_185_2>
 <Name>VITIS_LOOP_183_1_VITIS_LOOP_185_2</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:183~../EdgedetectBaseline_host/src/edgedetect.cpp:212</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:183~../EdgedetectBaseline_host/src/edgedetect.cpp:209</SourceLocation>
 </VITIS_LOOP_183_1_VITIS_LOOP_185_2>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>

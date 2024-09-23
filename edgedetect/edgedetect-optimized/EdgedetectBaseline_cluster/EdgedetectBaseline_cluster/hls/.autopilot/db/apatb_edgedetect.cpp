@@ -1217,10 +1217,10 @@ void apatb_edgedetect_hw(void* __xlx_apatb_param_image_rgb, void* __xlx_apatb_pa
 #endif
   };
   __xlx_offset_byte_param_image_rgb = 0*64;
-  __xlx_offset_byte_param_output_r = 14400*64;
+  __xlx_offset_byte_param_output_r = 1*64;
   port2.param = { __xlx_apatb_param_image_rgb, __xlx_apatb_param_output_r };
-  port2.nbytes = { 921600, 307200 };
-  port2.offset = { 0, 14400 };
+  port2.nbytes = { 0, 0 };
+  port2.offset = { 0, 1 };
   port2.hasWrite = { true, true };
 
   try {

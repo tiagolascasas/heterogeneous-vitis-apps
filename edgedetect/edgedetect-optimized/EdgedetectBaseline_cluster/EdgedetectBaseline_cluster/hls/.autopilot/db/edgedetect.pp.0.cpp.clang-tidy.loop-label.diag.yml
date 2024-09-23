@@ -25,7 +25,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          199756
+        Offset:          199736
         Length:          0
         ReplacementText: 'VITIS_LOOP_47_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -34,7 +34,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          199794
+        Offset:          199774
         Length:          0
         ReplacementText: 'VITIS_LOOP_49_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -43,7 +43,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          199958
+        Offset:          199938
         Length:          0
         ReplacementText: 'VITIS_LOOP_58_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -52,7 +52,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          200006
+        Offset:          199986
         Length:          0
         ReplacementText: 'VITIS_LOOP_60_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -61,7 +61,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          200083
+        Offset:          200063
         Length:          0
         ReplacementText: 'VITIS_LOOP_63_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -70,7 +70,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          200137
+        Offset:          200117
         Length:          0
         ReplacementText: 'VITIS_LOOP_65_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -79,7 +79,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          200870
+        Offset:          200830
         Length:          0
         ReplacementText: 'VITIS_LOOP_97_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -88,7 +88,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          200908
+        Offset:          200868
         Length:          0
         ReplacementText: 'VITIS_LOOP_99_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -97,7 +97,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          201072
+        Offset:          201032
         Length:          0
         ReplacementText: 'VITIS_LOOP_108_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -106,7 +106,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          201120
+        Offset:          201080
         Length:          0
         ReplacementText: 'VITIS_LOOP_110_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -115,7 +115,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          201197
+        Offset:          201157
         Length:          0
         ReplacementText: 'VITIS_LOOP_113_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -124,7 +124,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          201251
+        Offset:          201211
         Length:          0
         ReplacementText: 'VITIS_LOOP_115_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -133,7 +133,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          201987
+        Offset:          201927
         Length:          0
         ReplacementText: 'VITIS_LOOP_147_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -142,7 +142,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          202025
+        Offset:          201965
         Length:          0
         ReplacementText: 'VITIS_LOOP_149_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -151,7 +151,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          202189
+        Offset:          202129
         Length:          0
         ReplacementText: 'VITIS_LOOP_158_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -160,7 +160,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          202237
+        Offset:          202177
         Length:          0
         ReplacementText: 'VITIS_LOOP_160_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -169,7 +169,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          202314
+        Offset:          202254
         Length:          0
         ReplacementText: 'VITIS_LOOP_163_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -178,7 +178,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          202368
+        Offset:          202308
         Length:          0
         ReplacementText: 'VITIS_LOOP_165_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -187,7 +187,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          202904
+        Offset:          202814
         Length:          0
         ReplacementText: 'VITIS_LOOP_183_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -196,7 +196,7 @@ Diagnostics:
     FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_host/src/edgedetect.cpp
     Replacements:    
       - FilePath:        /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp
-        Offset:          202944
+        Offset:          202854
         Length:          0
         ReplacementText: 'VITIS_LOOP_185_2: '
 ...

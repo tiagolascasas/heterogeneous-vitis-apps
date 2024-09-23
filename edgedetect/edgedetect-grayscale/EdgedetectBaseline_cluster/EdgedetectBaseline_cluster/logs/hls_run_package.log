@@ -1,24 +1,24 @@
-INFO: [vitis-run 60-1548] Creating build summary session with primary output /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster.hlsrun_package_summary, at Fri Sep 20 15:28:48 2024
+INFO: [vitis-run 60-1548] Creating build summary session with primary output /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster.hlsrun_package_summary, at Sat Sep 21 01:19:02 2024
 INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run package -work_dir /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster -config /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/hls_config.cfg -cmdlineconfig /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/config.cmdline
 
 ****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
   **** SW Build 5069499 on May 21 2024
   **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Fri Sep 20 15:28:48 2024
+  **** Start of session at: Sat Sep 21 01:19:03 2024
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source /tools/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
-INFO: [HLS 200-10] For user 'tls' on host 'tls-Legion-5-15ACH6H' (Linux_x86_64 version 6.8.0-40-generic) on Fri Sep 20 15:28:50 WEST 2024
+INFO: [HLS 200-10] For user 'tls' on host 'tls-Legion-5-15ACH6H' (Linux_x86_64 version 6.8.0-40-generic) on Sat Sep 21 01:19:05 WEST 2024
 INFO: [HLS 200-10] On os Ubuntu 22.04.5 LTS
 INFO: [HLS 200-10] In directory '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster'
 INFO: [HLS 200-2005] Using work_dir /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster 
 INFO: [HLS 200-1611] Setting target device to 'xczu9eg-ffvb1156-2-e'
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
 Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
-INFO: [HLS 200-1465] Applying ini 'syn.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/src/edgedetect.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/hls_config.cfg(9)
-INFO: [HLS 200-10] Adding design file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/src/edgedetect.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_host/src/edgedetect.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_host/src/edgedetect.cpp' to the project
 INFO: [HLS 200-1465] Applying ini 'syn.top=edgedetect' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/hls_config.cfg(8)
 INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/hls_config.cfg(4)
 INFO: [HLS 200-1505] Using flow_target 'vitis'
@@ -37,7 +37,7 @@ INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
   **** SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
   **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Fri Sep 20 15:28:53 2024
+  **** Start of session at: Sat Sep 21 01:19:08 2024
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -91,9 +91,9 @@ INFO: Calling post_process_sysgen to specialize IP
 Generating sysgen info xml from json file
 INFO: Created IP /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/impl/ip/component.xml
 Generating XO file: edgedetect.xo in directory /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/..
-Running: package_xo -xo_path /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/../edgedetect.xo -kernel_xml /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/kernel.xml -kernel_name edgedetect -ip_directory /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/impl/ip -kernel_files /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/../../../src/edgedetect.cpp -hls_directory /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/impl/misc/hls_files -kernel_json /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/hls_data.json
+Running: package_xo -xo_path /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/../edgedetect.xo -kernel_xml /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/kernel.xml -kernel_name edgedetect -ip_directory /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/impl/ip -kernel_files /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/../../../EdgedetectBaseline_host/src/edgedetect.cpp -hls_directory /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/impl/misc/hls_files -kernel_json /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/hls_data.json
 INFO: Created IP archive /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/impl/ip/xilinx_com_hls_edgedetect_1_0.zip
-INFO: [Common 17-206] Exiting Vivado at Fri Sep 20 15:29:06 2024...
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 21 01:19:22 2024...
 INFO: [HLS 200-802] Generated output file EdgedetectBaseline_cluster/edgedetect.xo
-INFO: [HLS 200-112] Total CPU user time: 17.68 seconds. Total CPU system time: 1.45 seconds. Total elapsed time: 21.09 seconds; peak allocated memory: 409.332 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 24s
+INFO: [HLS 200-112] Total CPU user time: 18.26 seconds. Total CPU system time: 1.62 seconds. Total elapsed time: 21.88 seconds; peak allocated memory: 409.152 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 25s

@@ -36,9 +36,9 @@ void wrapped_edgedetect(unsigned char image_rgb[H * W * 3],
   auto kernel = xrt::kernel(device, uuid, "edgedetect");
 
   auto bo_image_rgb = xrt::bo(device, H * W * 3, kernel.group_id(0));
-  auto bo_image_gray = xrt::bo(device, H * W, kernel.group_id(1));
-  auto bo_temp_buf = xrt::bo(device, H * W, kernel.group_id(2));
-  auto bo_filter = xrt::bo(device, K * K, kernel.group_id(3));
+  auto bo_image_gray = xrt::bo(device, H * W, kernel.group_id(0));
+  auto bo_temp_buf = xrt::bo(device, H * W, kernel.group_id(0));
+  auto bo_filter = xrt::bo(device, K * K, kernel.group_id(0));
   auto bo_output = xrt::bo(device, H * W, kernel.group_id(0));
 
   unsigned char *host_ptr_image_rgb = bo_image_rgb.map<unsigned char *>();
@@ -105,6 +105,12 @@ int main(int argc, char **argv) {
     writeBMPGrayscale("./gray.bmp", image_gray, W, H);
     writeBMPGrayscale("./temp.bmp", temp_buf, W, H);
     writeBMPGrayscale("./output.bmp", output, W, H);
+
+    std::cout << "Filter: [" << std::endl;
+    std::cout << "         " << filter[0] << ", " << filter[1] << ", " << filter[2] << std::endl; 
+    std::cout << "         " << filter[3] << ", " << filter[4] << ", " << filter[5] << std::endl; 
+    std::cout << "         " << filter[6] << ", " << filter[7] << ", " << filter[8] << std::endl; 
+    std::cout << "]" << std::endl;
 
     unsigned char chk = checksum(output, H * W);
     unsigned char expected = 0;

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4'" level="0">
-<item name = "Date">Fri Sep 20 21:58:47 2024
+<item name = "Date">Sat Sep 21 01:38:28 2024
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">EdgedetectBaseline_cluster</item>

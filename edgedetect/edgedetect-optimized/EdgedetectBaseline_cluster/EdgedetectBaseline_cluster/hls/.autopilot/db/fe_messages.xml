@@ -17,12 +17,6 @@
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
         <args ARG_PragmaContext="directive" ARG_PragmaFunction="edgedetect" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=edgedetect" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:200:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'image_rgb' since this interface mode only supports scalar types">
-        <args Name="image_rgb"/>
-    </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:200:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'output' since this interface mode only supports scalar types">
-        <args Name="output"/>
-    </msg>
     <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:494:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::data() const (.7.28.38.47.58)' into 'fp_struct&lt;double&gt;::to_double() const (.25.35.44.55)'">
         <args Callee="fp_struct&lt;double&gt;::data() const (.7.28.38.47.58)" Callee-DebugLoc="File /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 475 Column 0" Caller="fp_struct&lt;double&gt;::to_double() const (.25.35.44.55)" Caller-DebugLoc="File /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h Line 494 Column 0"/>
     </msg>
@@ -74,20 +68,20 @@
     <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:9:0" msg_body="Inlining function '__hls_fptoui_double_i8' into 'rgbToGrayscale(unsigned char*, unsigned char*)'">
         <args Callee="__hls_fptoui_double_i8" Callee-DebugLoc="File /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/src/lib_floatconversion.cpp Line 67 Column 0" Caller="rgbToGrayscale(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 9 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:200:0" msg_body="Inlining function 'rgbToGrayscale(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)'">
-        <args Callee="rgbToGrayscale(unsigned char*, unsigned char*)" Callee-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 9 Column 0" Caller="edgedetect(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 200 Column 0"/>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:197:0" msg_body="Inlining function 'rgbToGrayscale(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)'">
+        <args Callee="rgbToGrayscale(unsigned char*, unsigned char*)" Callee-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 9 Column 0" Caller="edgedetect(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 197 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:200:0" msg_body="Inlining function 'convolve2d_smoothing(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)'">
-        <args Callee="convolve2d_smoothing(unsigned char*, unsigned char*)" Callee-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 27 Column 0" Caller="edgedetect(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 200 Column 0"/>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:197:0" msg_body="Inlining function 'convolve2d_smoothing(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)'">
+        <args Callee="convolve2d_smoothing(unsigned char*, unsigned char*)" Callee-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 27 Column 0" Caller="edgedetect(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 197 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:200:0" msg_body="Inlining function 'convolve2d_vertical(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)'">
-        <args Callee="convolve2d_vertical(unsigned char*, unsigned char*)" Callee-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 77 Column 0" Caller="edgedetect(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 200 Column 0"/>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:197:0" msg_body="Inlining function 'convolve2d_vertical(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)'">
+        <args Callee="convolve2d_vertical(unsigned char*, unsigned char*)" Callee-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 77 Column 0" Caller="edgedetect(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 197 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:200:0" msg_body="Inlining function 'convolve2d_horizontal(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)'">
-        <args Callee="convolve2d_horizontal(unsigned char*, unsigned char*)" Callee-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 127 Column 0" Caller="edgedetect(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 200 Column 0"/>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:197:0" msg_body="Inlining function 'convolve2d_horizontal(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)'">
+        <args Callee="convolve2d_horizontal(unsigned char*, unsigned char*)" Callee-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 127 Column 0" Caller="edgedetect(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 197 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:200:0" msg_body="Inlining function 'combthreshold(unsigned char*, unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)'">
-        <args Callee="combthreshold(unsigned char*, unsigned char*, unsigned char*)" Callee-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 177 Column 0" Caller="edgedetect(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 200 Column 0"/>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:197:0" msg_body="Inlining function 'combthreshold(unsigned char*, unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)'">
+        <args Callee="combthreshold(unsigned char*, unsigned char*, unsigned char*)" Callee-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 177 Column 0" Caller="edgedetect(unsigned char*, unsigned char*)" Caller-DebugLoc="File ../EdgedetectBaseline_host/src/edgedetect.cpp Line 197 Column 0"/>
     </msg>
     <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:163:31" msg_body="Loop 'VITIS_LOOP_163_5' is marked as complete unroll implied by the pipeline pragma">
         <args LoopName="VITIS_LOOP_163_5"/>
@@ -107,31 +101,31 @@
     <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:65:34" msg_body="Loop 'VITIS_LOOP_65_6' is marked as complete unroll implied by the pipeline pragma">
         <args LoopName="VITIS_LOOP_65_6"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:200:0" msg_body="Unrolling loop 'VITIS_LOOP_163_5' (../EdgedetectBaseline_host/src/edgedetect.cpp:163:31) in function 'edgedetect' completely with a factor of 3">
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:197:0" msg_body="Unrolling loop 'VITIS_LOOP_163_5' (../EdgedetectBaseline_host/src/edgedetect.cpp:163:31) in function 'edgedetect' completely with a factor of 3">
         <args Factor="3" LoopLoc="../EdgedetectBaseline_host/src/edgedetect.cpp:163:31" LoopName="VITIS_LOOP_163_5"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:200:0" msg_body="Unrolling loop 'VITIS_LOOP_165_6' (../EdgedetectBaseline_host/src/edgedetect.cpp:165:35) in function 'edgedetect' completely with a factor of 3">
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:197:0" msg_body="Unrolling loop 'VITIS_LOOP_165_6' (../EdgedetectBaseline_host/src/edgedetect.cpp:165:35) in function 'edgedetect' completely with a factor of 3">
         <args Factor="3" LoopLoc="../EdgedetectBaseline_host/src/edgedetect.cpp:165:35" LoopName="VITIS_LOOP_165_6"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:200:0" msg_body="Unrolling loop 'VITIS_LOOP_113_5' (../EdgedetectBaseline_host/src/edgedetect.cpp:113:31) in function 'edgedetect' completely with a factor of 3">
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:197:0" msg_body="Unrolling loop 'VITIS_LOOP_113_5' (../EdgedetectBaseline_host/src/edgedetect.cpp:113:31) in function 'edgedetect' completely with a factor of 3">
         <args Factor="3" LoopLoc="../EdgedetectBaseline_host/src/edgedetect.cpp:113:31" LoopName="VITIS_LOOP_113_5"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:200:0" msg_body="Unrolling loop 'VITIS_LOOP_115_6' (../EdgedetectBaseline_host/src/edgedetect.cpp:115:35) in function 'edgedetect' completely with a factor of 3">
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:197:0" msg_body="Unrolling loop 'VITIS_LOOP_115_6' (../EdgedetectBaseline_host/src/edgedetect.cpp:115:35) in function 'edgedetect' completely with a factor of 3">
         <args Factor="3" LoopLoc="../EdgedetectBaseline_host/src/edgedetect.cpp:115:35" LoopName="VITIS_LOOP_115_6"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:200:0" msg_body="Unrolling loop 'VITIS_LOOP_63_5' (../EdgedetectBaseline_host/src/edgedetect.cpp:63:30) in function 'edgedetect' completely with a factor of 3">
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:197:0" msg_body="Unrolling loop 'VITIS_LOOP_63_5' (../EdgedetectBaseline_host/src/edgedetect.cpp:63:30) in function 'edgedetect' completely with a factor of 3">
         <args Factor="3" LoopLoc="../EdgedetectBaseline_host/src/edgedetect.cpp:63:30" LoopName="VITIS_LOOP_63_5"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:200:0" msg_body="Unrolling loop 'VITIS_LOOP_65_6' (../EdgedetectBaseline_host/src/edgedetect.cpp:65:34) in function 'edgedetect' completely with a factor of 3">
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:197:0" msg_body="Unrolling loop 'VITIS_LOOP_65_6' (../EdgedetectBaseline_host/src/edgedetect.cpp:65:34) in function 'edgedetect' completely with a factor of 3">
         <args Factor="3" LoopLoc="../EdgedetectBaseline_host/src/edgedetect.cpp:65:34" LoopName="VITIS_LOOP_65_6"/>
     </msg>
-    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:201:19" msg_body="array_partition dim=1 type=cyclic factor=6 variable=image_gray 1 edgedetect ../EdgedetectBaseline_host/src/edgedetect.cpp:201:19 image_gray">
-        <args PragmaFunction="edgedetect" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=6 variable=image_gray" PragmaType="array_partition" VarName="image_gray" varLoc="../EdgedetectBaseline_host/src/edgedetect.cpp:201:19"/>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:198:19" msg_body="array_partition dim=1 type=cyclic factor=6 variable=image_gray 1 edgedetect ../EdgedetectBaseline_host/src/edgedetect.cpp:198:19 image_gray">
+        <args PragmaFunction="edgedetect" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=6 variable=image_gray" PragmaType="array_partition" VarName="image_gray" varLoc="../EdgedetectBaseline_host/src/edgedetect.cpp:198:19"/>
     </msg>
-    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:201:19" msg_body="Inferring pragma 'array_partition type=cyclic factor=6 dim=1' for array 'image_gray' due to pipeline pragma">
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:198:19" msg_body="Inferring pragma 'array_partition type=cyclic factor=6 dim=1' for array 'image_gray' due to pipeline pragma">
         <args Dim="1" Factor="6" Mode="cyclic" Name="image_gray" PragmaType="array_partition"/>
     </msg>
-    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:201:19" msg_body="Applying array_partition to 'image_gray': Cyclic partitioning with factor 6 on dimension 1.">
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../EdgedetectBaseline_host/src/edgedetect.cpp:198:19" msg_body="Applying array_partition to 'image_gray': Cyclic partitioning with factor 6 on dimension 1.">
         <args Dim="1" Factor="6" Mode="Cyclic" UOName="image_gray"/>
     </msg>
 </xilinx:hls_fe_msgs>

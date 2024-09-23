@@ -689,13 +689,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:13~../EdgedetectBaseline_host/src/edgedetect.cpp:204</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:13~../EdgedetectBaseline_host/src/edgedetect.cpp:201</SourceLocation>
 <SummaryOfLoopViolations>
 <VITIS_LOOP_10_1_VITIS_LOOP_13_2>
 <Name>VITIS_LOOP_10_1_VITIS_LOOP_13_2</Name>
 <IssueType>II Violation</IssueType>
 <ViolationType>Resource Limitation</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:10~../EdgedetectBaseline_host/src/edgedetect.cpp:204</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:10~../EdgedetectBaseline_host/src/edgedetect.cpp:201</SourceLocation>
 </VITIS_LOOP_10_1_VITIS_LOOP_13_2>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -1607,13 +1607,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:32~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:32~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
 <SummaryOfLoopViolations>
 <VITIS_LOOP_47_1_VITIS_LOOP_49_2>
 <Name>VITIS_LOOP_47_1_VITIS_LOOP_49_2</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:47~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:47~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
 </VITIS_LOOP_47_1_VITIS_LOOP_49_2>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -1766,13 +1766,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:30~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:30~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
 <SummaryOfLoopViolations>
 <VITIS_LOOP_60_4>
 <Name>VITIS_LOOP_60_4</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:67~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:67~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
 </VITIS_LOOP_60_4>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -2882,13 +2882,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:82~../EdgedetectBaseline_host/src/edgedetect.cpp:208</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:82~../EdgedetectBaseline_host/src/edgedetect.cpp:205</SourceLocation>
 <SummaryOfLoopViolations>
 <VITIS_LOOP_97_1_VITIS_LOOP_99_2>
 <Name>VITIS_LOOP_97_1_VITIS_LOOP_99_2</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:97~../EdgedetectBaseline_host/src/edgedetect.cpp:208</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:97~../EdgedetectBaseline_host/src/edgedetect.cpp:205</SourceLocation>
 </VITIS_LOOP_97_1_VITIS_LOOP_99_2>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -3041,13 +3041,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:80~../EdgedetectBaseline_host/src/edgedetect.cpp:208</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:80~../EdgedetectBaseline_host/src/edgedetect.cpp:205</SourceLocation>
 <SummaryOfLoopViolations>
 <VITIS_LOOP_108_3_VITIS_LOOP_110_4>
 <Name>VITIS_LOOP_108_3_VITIS_LOOP_110_4</Name>
 <IssueType>II Violation</IssueType>
 <ViolationType>Resource Limitation</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:108~../EdgedetectBaseline_host/src/edgedetect.cpp:208</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:108~../EdgedetectBaseline_host/src/edgedetect.cpp:205</SourceLocation>
 </VITIS_LOOP_108_3_VITIS_LOOP_110_4>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -3981,13 +3981,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:132~../EdgedetectBaseline_host/src/edgedetect.cpp:210</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:132~../EdgedetectBaseline_host/src/edgedetect.cpp:207</SourceLocation>
 <SummaryOfLoopViolations>
 <VITIS_LOOP_147_1_VITIS_LOOP_149_2>
 <Name>VITIS_LOOP_147_1_VITIS_LOOP_149_2</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:147~../EdgedetectBaseline_host/src/edgedetect.cpp:210</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:147~../EdgedetectBaseline_host/src/edgedetect.cpp:207</SourceLocation>
 </VITIS_LOOP_147_1_VITIS_LOOP_149_2>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -4140,13 +4140,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:130~../EdgedetectBaseline_host/src/edgedetect.cpp:210</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:130~../EdgedetectBaseline_host/src/edgedetect.cpp:207</SourceLocation>
 <SummaryOfLoopViolations>
 <VITIS_LOOP_158_3_VITIS_LOOP_160_4>
 <Name>VITIS_LOOP_158_3_VITIS_LOOP_160_4</Name>
 <IssueType>II Violation</IssueType>
 <ViolationType>Resource Limitation</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:158~../EdgedetectBaseline_host/src/edgedetect.cpp:210</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:158~../EdgedetectBaseline_host/src/edgedetect.cpp:207</SourceLocation>
 </VITIS_LOOP_158_3_VITIS_LOOP_160_4>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -4860,13 +4860,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:178~../EdgedetectBaseline_host/src/edgedetect.cpp:212</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:178~../EdgedetectBaseline_host/src/edgedetect.cpp:209</SourceLocation>
 <SummaryOfLoopViolations>
 <VITIS_LOOP_183_1_VITIS_LOOP_185_2>
 <Name>VITIS_LOOP_183_1_VITIS_LOOP_185_2</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:183~../EdgedetectBaseline_host/src/edgedetect.cpp:212</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:183~../EdgedetectBaseline_host/src/edgedetect.cpp:209</SourceLocation>
 </VITIS_LOOP_183_1_VITIS_LOOP_185_2>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -5746,13 +5746,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:31~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:31~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
 <SummaryOfLoopViolations>
 <VITIS_LOOP_58_3>
 <Name>VITIS_LOOP_58_3</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:31~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+<SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:31~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
 </VITIS_LOOP_58_3>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -5765,7 +5765,7 @@
 <DSP>26</DSP>
 <AVAIL_DSP>2520</AVAIL_DSP>
 <UTIL_DSP>1</UTIL_DSP>
-<FF>22690</FF>
+<FF>22562</FF>
 <AVAIL_FF>548160</AVAIL_FF>
 <UTIL_FF>4</UTIL_FF>
 <LUT>49682</LUT>

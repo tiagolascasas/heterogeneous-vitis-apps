@@ -146,9 +146,9 @@ bool writeBMPColor(const std::string &filename, const unsigned char *pixels, int
             unsigned char g = pixels[i * actual_width + j + 1];
             unsigned char b = pixels[i * actual_width + j + 2];
             
-            row[j] = b; // Blue
+            row[j] = r; // Blue
             row[j + 1] = g; // Green
-            row[j + 2] = r; // Red
+            row[j + 2] = b; // Red
         }
         file.write(reinterpret_cast<char *>(row.data()), row_padded);
     }

@@ -41,13 +41,13 @@
         <SummaryOfViolations>
             <IssueType>-</IssueType>
             <ViolationType>-</ViolationType>
-            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:31~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:31~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
             <SummaryOfLoopViolations>
                 <VITIS_LOOP_58_3>
                     <Name>VITIS_LOOP_58_3</Name>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:31~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:31~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
                 </VITIS_LOOP_58_3>
             </SummaryOfLoopViolations>
         </SummaryOfViolations>
@@ -56,7 +56,7 @@
         <Resources>
             <BRAM_18K>380</BRAM_18K>
             <DSP>26</DSP>
-            <FF>22690</FF>
+            <FF>22562</FF>
             <LUT>49682</LUT>
             <URAM>0</URAM>
         </Resources>
@@ -1094,13 +1094,13 @@
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:13~../EdgedetectBaseline_host/src/edgedetect.cpp:204</SourceLocation>
+                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:13~../EdgedetectBaseline_host/src/edgedetect.cpp:201</SourceLocation>
                     <SummaryOfLoopViolations>
                         <VITIS_LOOP_10_1_VITIS_LOOP_13_2>
                             <Name>VITIS_LOOP_10_1_VITIS_LOOP_13_2</Name>
                             <IssueType>II Violation</IssueType>
                             <ViolationType>Resource Limitation</ViolationType>
-                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:10~../EdgedetectBaseline_host/src/edgedetect.cpp:204</SourceLocation>
+                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:10~../EdgedetectBaseline_host/src/edgedetect.cpp:201</SourceLocation>
                         </VITIS_LOOP_10_1_VITIS_LOOP_13_2>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
@@ -1218,13 +1218,13 @@
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:32~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:32~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
                     <SummaryOfLoopViolations>
                         <VITIS_LOOP_47_1_VITIS_LOOP_49_2>
                             <Name>VITIS_LOOP_47_1_VITIS_LOOP_49_2</Name>
                             <IssueType>-</IssueType>
                             <ViolationType>-</ViolationType>
-                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:47~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:47~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
                         </VITIS_LOOP_47_1_VITIS_LOOP_49_2>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
@@ -1297,13 +1297,13 @@
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:30~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:30~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
                     <SummaryOfLoopViolations>
                         <VITIS_LOOP_60_4>
                             <Name>VITIS_LOOP_60_4</Name>
                             <IssueType>-</IssueType>
                             <ViolationType>-</ViolationType>
-                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:67~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:67~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
                         </VITIS_LOOP_60_4>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
@@ -1412,13 +1412,13 @@
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:82~../EdgedetectBaseline_host/src/edgedetect.cpp:208</SourceLocation>
+                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:82~../EdgedetectBaseline_host/src/edgedetect.cpp:205</SourceLocation>
                     <SummaryOfLoopViolations>
                         <VITIS_LOOP_97_1_VITIS_LOOP_99_2>
                             <Name>VITIS_LOOP_97_1_VITIS_LOOP_99_2</Name>
                             <IssueType>-</IssueType>
                             <ViolationType>-</ViolationType>
-                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:97~../EdgedetectBaseline_host/src/edgedetect.cpp:208</SourceLocation>
+                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:97~../EdgedetectBaseline_host/src/edgedetect.cpp:205</SourceLocation>
                         </VITIS_LOOP_97_1_VITIS_LOOP_99_2>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
@@ -1494,13 +1494,13 @@
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:80~../EdgedetectBaseline_host/src/edgedetect.cpp:208</SourceLocation>
+                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:80~../EdgedetectBaseline_host/src/edgedetect.cpp:205</SourceLocation>
                     <SummaryOfLoopViolations>
                         <VITIS_LOOP_108_3_VITIS_LOOP_110_4>
                             <Name>VITIS_LOOP_108_3_VITIS_LOOP_110_4</Name>
                             <IssueType>II Violation</IssueType>
                             <ViolationType>Resource Limitation</ViolationType>
-                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:108~../EdgedetectBaseline_host/src/edgedetect.cpp:208</SourceLocation>
+                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:108~../EdgedetectBaseline_host/src/edgedetect.cpp:205</SourceLocation>
                         </VITIS_LOOP_108_3_VITIS_LOOP_110_4>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
@@ -1597,13 +1597,13 @@
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:132~../EdgedetectBaseline_host/src/edgedetect.cpp:210</SourceLocation>
+                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:132~../EdgedetectBaseline_host/src/edgedetect.cpp:207</SourceLocation>
                     <SummaryOfLoopViolations>
                         <VITIS_LOOP_147_1_VITIS_LOOP_149_2>
                             <Name>VITIS_LOOP_147_1_VITIS_LOOP_149_2</Name>
                             <IssueType>-</IssueType>
                             <ViolationType>-</ViolationType>
-                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:147~../EdgedetectBaseline_host/src/edgedetect.cpp:210</SourceLocation>
+                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:147~../EdgedetectBaseline_host/src/edgedetect.cpp:207</SourceLocation>
                         </VITIS_LOOP_147_1_VITIS_LOOP_149_2>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
@@ -1679,13 +1679,13 @@
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:130~../EdgedetectBaseline_host/src/edgedetect.cpp:210</SourceLocation>
+                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:130~../EdgedetectBaseline_host/src/edgedetect.cpp:207</SourceLocation>
                     <SummaryOfLoopViolations>
                         <VITIS_LOOP_158_3_VITIS_LOOP_160_4>
                             <Name>VITIS_LOOP_158_3_VITIS_LOOP_160_4</Name>
                             <IssueType>II Violation</IssueType>
                             <ViolationType>Resource Limitation</ViolationType>
-                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:158~../EdgedetectBaseline_host/src/edgedetect.cpp:210</SourceLocation>
+                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:158~../EdgedetectBaseline_host/src/edgedetect.cpp:207</SourceLocation>
                         </VITIS_LOOP_158_3_VITIS_LOOP_160_4>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
@@ -1781,13 +1781,13 @@
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:178~../EdgedetectBaseline_host/src/edgedetect.cpp:212</SourceLocation>
+                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:178~../EdgedetectBaseline_host/src/edgedetect.cpp:209</SourceLocation>
                     <SummaryOfLoopViolations>
                         <VITIS_LOOP_183_1_VITIS_LOOP_185_2>
                             <Name>VITIS_LOOP_183_1_VITIS_LOOP_185_2</Name>
                             <IssueType>-</IssueType>
                             <ViolationType>-</ViolationType>
-                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:183~../EdgedetectBaseline_host/src/edgedetect.cpp:212</SourceLocation>
+                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:183~../EdgedetectBaseline_host/src/edgedetect.cpp:209</SourceLocation>
                         </VITIS_LOOP_183_1_VITIS_LOOP_185_2>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
@@ -1875,13 +1875,13 @@
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:31~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+                    <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:31~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
                     <SummaryOfLoopViolations>
                         <VITIS_LOOP_58_3>
                             <Name>VITIS_LOOP_58_3</Name>
                             <IssueType>-</IssueType>
                             <ViolationType>-</ViolationType>
-                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:31~../EdgedetectBaseline_host/src/edgedetect.cpp:206</SourceLocation>
+                            <SourceLocation>../EdgedetectBaseline_host/src/edgedetect.cpp:31~../EdgedetectBaseline_host/src/edgedetect.cpp:203</SourceLocation>
                         </VITIS_LOOP_58_3>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
@@ -1894,7 +1894,7 @@
                     <DSP>26</DSP>
                     <AVAIL_DSP>2520</AVAIL_DSP>
                     <UTIL_DSP>1</UTIL_DSP>
-                    <FF>22690</FF>
+                    <FF>22562</FF>
                     <AVAIL_FF>548160</AVAIL_FF>
                     <UTIL_FF>4</UTIL_FF>
                     <LUT>49682</LUT>
@@ -1906,13 +1906,13 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="storage" BRAM="28" BUNDLEDNAME="" DISPNAME="bind_storage rom_np" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_np" PRAGMA="" RTLNAME="image_gray_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:201" STORAGESIZE="8 51200 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_np array" URAM="0" VARIABLE="image_gray" VISIBLE="true"/>
-                <BindNode BINDTYPE="storage" BRAM="28" BUNDLEDNAME="" DISPNAME="bind_storage rom_np" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_np" PRAGMA="" RTLNAME="image_gray_1_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:201" STORAGESIZE="8 51200 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_np array" URAM="0" VARIABLE="image_gray_1" VISIBLE="true"/>
-                <BindNode BINDTYPE="storage" BRAM="28" BUNDLEDNAME="" DISPNAME="bind_storage rom_np" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_np" PRAGMA="" RTLNAME="image_gray_2_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:201" STORAGESIZE="8 51200 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_np array" URAM="0" VARIABLE="image_gray_2" VISIBLE="true"/>
-                <BindNode BINDTYPE="storage" BRAM="28" BUNDLEDNAME="" DISPNAME="bind_storage rom_np" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_np" PRAGMA="" RTLNAME="image_gray_3_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:201" STORAGESIZE="8 51200 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_np array" URAM="0" VARIABLE="image_gray_3" VISIBLE="true"/>
-                <BindNode BINDTYPE="storage" BRAM="28" BUNDLEDNAME="" DISPNAME="bind_storage rom_np" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_np" PRAGMA="" RTLNAME="image_gray_4_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:201" STORAGESIZE="8 51200 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_np array" URAM="0" VARIABLE="image_gray_4" VISIBLE="true"/>
-                <BindNode BINDTYPE="storage" BRAM="28" BUNDLEDNAME="" DISPNAME="bind_storage rom_np" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_np" PRAGMA="" RTLNAME="image_gray_5_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:201" STORAGESIZE="8 51200 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_np array" URAM="0" VARIABLE="image_gray_5" VISIBLE="true"/>
-                <BindNode BINDTYPE="storage" BRAM="152" BUNDLEDNAME="" DISPNAME="bind_storage ram_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_1p" PRAGMA="" RTLNAME="temp_buf_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:202" STORAGESIZE="8 307200 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_1p array" URAM="0" VARIABLE="temp_buf" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="28" BUNDLEDNAME="" DISPNAME="bind_storage rom_np" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_np" PRAGMA="" RTLNAME="image_gray_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:198" STORAGESIZE="8 51200 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_np array" URAM="0" VARIABLE="image_gray" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="28" BUNDLEDNAME="" DISPNAME="bind_storage rom_np" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_np" PRAGMA="" RTLNAME="image_gray_1_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:198" STORAGESIZE="8 51200 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_np array" URAM="0" VARIABLE="image_gray_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="28" BUNDLEDNAME="" DISPNAME="bind_storage rom_np" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_np" PRAGMA="" RTLNAME="image_gray_2_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:198" STORAGESIZE="8 51200 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_np array" URAM="0" VARIABLE="image_gray_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="28" BUNDLEDNAME="" DISPNAME="bind_storage rom_np" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_np" PRAGMA="" RTLNAME="image_gray_3_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:198" STORAGESIZE="8 51200 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_np array" URAM="0" VARIABLE="image_gray_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="28" BUNDLEDNAME="" DISPNAME="bind_storage rom_np" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_np" PRAGMA="" RTLNAME="image_gray_4_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:198" STORAGESIZE="8 51200 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_np array" URAM="0" VARIABLE="image_gray_4" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="28" BUNDLEDNAME="" DISPNAME="bind_storage rom_np" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="rom_np" PRAGMA="" RTLNAME="image_gray_5_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:198" STORAGESIZE="8 51200 1" STORAGESUBTYPE="" STORAGEUSAGE="rom_np array" URAM="0" VARIABLE="image_gray_5" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="152" BUNDLEDNAME="" DISPNAME="bind_storage ram_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_1p" PRAGMA="" RTLNAME="temp_buf_U" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:199" STORAGESIZE="8 307200 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_1p array" URAM="0" VARIABLE="temp_buf" VISIBLE="true"/>
                 <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln55_fu_307_p2" SOURCE="../EdgedetectBaseline_host/src/edgedetect.cpp:55" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln55" VISIBLE="false"/>
                 <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_58_3" OPTYPE="add" PRAGMA="" RTLNAME="empty_fu_340_p2" SOURCE="" STORAGESUBTYPE="" URAM="0" VARIABLE="empty" VISIBLE="true"/>
                 <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_58_3" OPTYPE="add" PRAGMA="" RTLNAME="empty_43_fu_363_p2" SOURCE="" STORAGESUBTYPE="" URAM="0" VARIABLE="empty_43" VISIBLE="true"/>

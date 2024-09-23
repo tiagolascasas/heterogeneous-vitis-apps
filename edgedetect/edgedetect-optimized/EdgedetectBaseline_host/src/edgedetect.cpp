@@ -23,7 +23,7 @@ void rgbToGrayscale(unsigned char input_image[H * W * 3], unsigned char output_i
     }
 }
 
-void convolve2d_smoothing(unsigned char input_image[H * W], unsigned char output_image[H * W])
+void convolve2d_smoothing(unsigned char *input_image,  unsigned char *output_image)
 {
     int i;
     int j;
@@ -73,7 +73,7 @@ void convolve2d_smoothing(unsigned char input_image[H * W], unsigned char output
     }
 }
 
-void convolve2d_vertical(unsigned char input_image[H * W], unsigned char output_image[H * W])
+void convolve2d_vertical(unsigned char *input_image,  unsigned char *output_image)
 {
     int i;
     int j;
@@ -123,7 +123,7 @@ void convolve2d_vertical(unsigned char input_image[H * W], unsigned char output_
     }
 }
 
-void convolve2d_horizontal(unsigned char input_image[H * W],  unsigned char output_image[H * W])
+void convolve2d_horizontal(unsigned char *input_image,  unsigned char *output_image)
 {
     int i;
     int j;
@@ -173,7 +173,7 @@ void convolve2d_horizontal(unsigned char input_image[H * W],  unsigned char outp
     }
 }
 
-void combthreshold(unsigned char image_gray[H * W], unsigned char temp_buf[H * W], unsigned char output[H * W])
+void combthreshold(unsigned char *image_gray, unsigned char *temp_buf, unsigned char *output)
 {
     int i, j;
     int temp1;
@@ -193,10 +193,7 @@ void combthreshold(unsigned char image_gray[H * W], unsigned char temp_buf[H * W
     }
 }
 
-void edgedetect(unsigned char image_rgb[H * W * 3],
-                 //unsigned char image_gray[H * W],
-                 //unsigned char temp_buf[H * W],
-                 unsigned char output[H * W])
+void edgedetect(unsigned char *image_rgb, unsigned char *output)
 {
     unsigned char image_gray[H * W] = {0};
     unsigned char temp_buf[H * W] = {0};

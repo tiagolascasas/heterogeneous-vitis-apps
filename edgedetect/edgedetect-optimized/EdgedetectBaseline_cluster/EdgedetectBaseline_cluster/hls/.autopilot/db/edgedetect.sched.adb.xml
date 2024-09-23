@@ -793,30 +793,15 @@ entry:25 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_47_1_VITIS_LOOP_4
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="9" bw="64" op_0_bw="64" op_1_bw="64">
-<![CDATA[
-entry:1 %output_r_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %output_r
-
-]]></Node>
-<StgValue><ssdm name="output_r_read"/></StgValue>
-</operation>
-
-<operation id="103" st_id="3" stage="1" lat="1">
-<core>s_axilite</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
 <Node id="10" bw="64" op_0_bw="64" op_1_bw="64">
 <![CDATA[
-entry:2 %image_rgb_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %image_rgb
+entry:2 %image_rgb_read = read i64 @_ssdm_op_Read.ap_none.i64, i64 %image_rgb
 
 ]]></Node>
 <StgValue><ssdm name="image_rgb_read"/></StgValue>
 </operation>
 
-<operation id="104" st_id="3" stage="2" lat="2">
+<operation id="103" st_id="3" stage="2" lat="2">
 <core></core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -833,6 +818,21 @@ entry:24 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_1
 </state>
 
 <state id="4" st_id="4">
+
+<operation id="104" st_id="4" stage="1" lat="1">
+<core>s_axilite</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="9" bw="64" op_0_bw="64" op_1_bw="64">
+<![CDATA[
+entry:1 %output_r_read = read i64 @_ssdm_op_Read.ap_none.i64, i64 %output_r
+
+]]></Node>
+<StgValue><ssdm name="output_r_read"/></StgValue>
+</operation>
 
 <operation id="105" st_id="4" stage="1" lat="1">
 <core>NULL</core>
@@ -2807,10 +2807,10 @@ for.inc.i20.preheader:13 %empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i5
 
 <Node id="69" bw="0">
 <![CDATA[
-for.inc.i20.preheader:14 %ret_ln213 = ret
+for.inc.i20.preheader:14 %ret_ln210 = ret
 
 ]]></Node>
-<StgValue><ssdm name="ret_ln213"/></StgValue>
+<StgValue><ssdm name="ret_ln210"/></StgValue>
 </operation>
 </state>
 </state_list>

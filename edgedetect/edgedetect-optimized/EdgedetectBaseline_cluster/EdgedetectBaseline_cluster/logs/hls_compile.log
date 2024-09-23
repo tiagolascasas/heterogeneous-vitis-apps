@@ -1,16 +1,16 @@
-INFO: [v++ 60-1548] Creating build summary session with primary output /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster.hlscompile_summary, at Fri Sep 20 23:14:02 2024
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster.hlscompile_summary, at Sat Sep 21 02:17:09 2024
 INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster -config /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/hls_config.cfg -cmdlineconfig /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/config.cmdline
 
 ****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
   **** SW Build 5069499 on May 21 2024
   **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Fri Sep 20 23:14:03 2024
+  **** Start of session at: Sat Sep 21 02:17:10 2024
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source /tools/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
-INFO: [HLS 200-10] For user 'tls' on host 'tls-Legion-5-15ACH6H' (Linux_x86_64 version 6.8.0-40-generic) on Fri Sep 20 23:14:05 WEST 2024
+INFO: [HLS 200-10] For user 'tls' on host 'tls-Legion-5-15ACH6H' (Linux_x86_64 version 6.8.0-40-generic) on Sat Sep 21 02:17:11 WEST 2024
 INFO: [HLS 200-10] On os Ubuntu 22.04.5 LTS
 INFO: [HLS 200-10] In directory '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster'
 INFO: [HLS 200-2005] Using work_dir /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster 
@@ -31,28 +31,28 @@ INFO: [HLS 200-1611] Setting target device to 'xczu9eg-ffvb1156-2-e'
 INFO: [HLS 200-1465] Applying ini 'clock=150MHz' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/hls_config.cfg(7)
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 6.667ns.
 INFO: [HLS 200-1465] Applying ini 'package.output.format=xo' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/hls_config.cfg(5)
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2.85 seconds. CPU system time: 0.43 seconds. Elapsed time: 3.1 seconds; current allocated memory: 354.242 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2.92 seconds. CPU system time: 0.42 seconds. Elapsed time: 3.16 seconds; current allocated memory: 354.242 MB.
 INFO: [HLS 200-10] Analyzing design file '../EdgedetectBaseline_host/src/edgedetect.cpp' ... 
 WARNING: [HLS 207-5276] taking the absolute value of unsigned type 'unsigned char' has no effect (../EdgedetectBaseline_host/src/edgedetect.cpp:188:10)
 INFO: [HLS 207-4496] remove the call to 'abs' since unsigned values cannot be negative (../EdgedetectBaseline_host/src/edgedetect.cpp:188:10)
 WARNING: [HLS 207-5276] taking the absolute value of unsigned type 'unsigned char' has no effect (../EdgedetectBaseline_host/src/edgedetect.cpp:189:21)
 INFO: [HLS 207-4496] remove the call to 'abs' since unsigned values cannot be negative (../EdgedetectBaseline_host/src/edgedetect.cpp:189:21)
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.48 seconds. CPU system time: 0.53 seconds. Elapsed time: 1.01 seconds; current allocated memory: 356.473 MB.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.54 seconds. CPU system time: 0.56 seconds. Elapsed time: 1.1 seconds; current allocated memory: 356.473 MB.
 INFO: [HLS 200-777] Using interface defaults for 'Vitis' flow target.
 INFO: [HLS 200-1995] There were 5,085 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
 INFO: [HLS 200-1995] There were 699 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
 INFO: [HLS 200-1995] There were 519 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
 INFO: [HLS 200-1995] There were 498 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
 INFO: [HLS 200-1995] There were 361 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 363 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 363 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 363 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 363 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 395 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 395 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 424 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 717 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 662 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 361 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 361 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 361 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 361 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 391 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 393 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 422 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 715 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 660 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
 INFO: [HLS 200-1995] There were 754 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
 INFO: [HLS 200-1995] There were 808 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/report/csynth_design_size.rpt
 INFO: [HLS 214-178] Inlining function 'fp_struct<double>::data() const (.7.28.38.47.58)' into 'fp_struct<double>::to_double() const (.25.35.44.55)' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:494:0)
@@ -72,11 +72,11 @@ INFO: [HLS 214-178] Inlining function 'unsigned char generic_cast_IEEE754<unsign
 INFO: [HLS 214-178] Inlining function 'unsigned char generic_cast_IEEE754<unsigned char, double>(double, bool)' into '__hls_fptoui_double_i8' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/src/lib_floatconversion.cpp:67:0)
 INFO: [HLS 214-178] Inlining function 'floor' into 'rgbToGrayscale(unsigned char*, unsigned char*)' (../EdgedetectBaseline_host/src/edgedetect.cpp:9:0)
 INFO: [HLS 214-178] Inlining function '__hls_fptoui_double_i8' into 'rgbToGrayscale(unsigned char*, unsigned char*)' (../EdgedetectBaseline_host/src/edgedetect.cpp:9:0)
-INFO: [HLS 214-178] Inlining function 'rgbToGrayscale(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
-INFO: [HLS 214-178] Inlining function 'convolve2d_smoothing(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
-INFO: [HLS 214-178] Inlining function 'convolve2d_vertical(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
-INFO: [HLS 214-178] Inlining function 'convolve2d_horizontal(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
-INFO: [HLS 214-178] Inlining function 'combthreshold(unsigned char*, unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+INFO: [HLS 214-178] Inlining function 'rgbToGrayscale(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../EdgedetectBaseline_host/src/edgedetect.cpp:197:0)
+INFO: [HLS 214-178] Inlining function 'convolve2d_smoothing(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../EdgedetectBaseline_host/src/edgedetect.cpp:197:0)
+INFO: [HLS 214-178] Inlining function 'convolve2d_vertical(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../EdgedetectBaseline_host/src/edgedetect.cpp:197:0)
+INFO: [HLS 214-178] Inlining function 'convolve2d_horizontal(unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../EdgedetectBaseline_host/src/edgedetect.cpp:197:0)
+INFO: [HLS 214-178] Inlining function 'combthreshold(unsigned char*, unsigned char*, unsigned char*)' into 'edgedetect(unsigned char*, unsigned char*)' (../EdgedetectBaseline_host/src/edgedetect.cpp:197:0)
 INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at  
 INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_13_2> at ../EdgedetectBaseline_host/src/edgedetect.cpp:13:26 
 INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_49_2> at ../EdgedetectBaseline_host/src/edgedetect.cpp:49:26 
@@ -91,27 +91,25 @@ INFO: [HLS 214-291] Loop 'VITIS_LOOP_113_5' is marked as complete unroll implied
 INFO: [HLS 214-291] Loop 'VITIS_LOOP_115_6' is marked as complete unroll implied by the pipeline pragma (../EdgedetectBaseline_host/src/edgedetect.cpp:115:35)
 INFO: [HLS 214-291] Loop 'VITIS_LOOP_63_5' is marked as complete unroll implied by the pipeline pragma (../EdgedetectBaseline_host/src/edgedetect.cpp:63:30)
 INFO: [HLS 214-291] Loop 'VITIS_LOOP_65_6' is marked as complete unroll implied by the pipeline pragma (../EdgedetectBaseline_host/src/edgedetect.cpp:65:34)
-INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_163_5' (../EdgedetectBaseline_host/src/edgedetect.cpp:163:31) in function 'edgedetect' completely with a factor of 3 (../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
-INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_165_6' (../EdgedetectBaseline_host/src/edgedetect.cpp:165:35) in function 'edgedetect' completely with a factor of 3 (../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
-INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_113_5' (../EdgedetectBaseline_host/src/edgedetect.cpp:113:31) in function 'edgedetect' completely with a factor of 3 (../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
-INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_115_6' (../EdgedetectBaseline_host/src/edgedetect.cpp:115:35) in function 'edgedetect' completely with a factor of 3 (../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
-INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_63_5' (../EdgedetectBaseline_host/src/edgedetect.cpp:63:30) in function 'edgedetect' completely with a factor of 3 (../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
-INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_65_6' (../EdgedetectBaseline_host/src/edgedetect.cpp:65:34) in function 'edgedetect' completely with a factor of 3 (../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
-INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=6 dim=1' for array 'image_gray' due to pipeline pragma (../EdgedetectBaseline_host/src/edgedetect.cpp:201:19)
-INFO: [HLS 214-248] Applying array_partition to 'image_gray': Cyclic partitioning with factor 6 on dimension 1. (../EdgedetectBaseline_host/src/edgedetect.cpp:201:19)
-WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'image_rgb' since this interface mode only supports scalar types (../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
-WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'output' since this interface mode only supports scalar types (../EdgedetectBaseline_host/src/edgedetect.cpp:200:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_163_5' (../EdgedetectBaseline_host/src/edgedetect.cpp:163:31) in function 'edgedetect' completely with a factor of 3 (../EdgedetectBaseline_host/src/edgedetect.cpp:197:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_165_6' (../EdgedetectBaseline_host/src/edgedetect.cpp:165:35) in function 'edgedetect' completely with a factor of 3 (../EdgedetectBaseline_host/src/edgedetect.cpp:197:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_113_5' (../EdgedetectBaseline_host/src/edgedetect.cpp:113:31) in function 'edgedetect' completely with a factor of 3 (../EdgedetectBaseline_host/src/edgedetect.cpp:197:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_115_6' (../EdgedetectBaseline_host/src/edgedetect.cpp:115:35) in function 'edgedetect' completely with a factor of 3 (../EdgedetectBaseline_host/src/edgedetect.cpp:197:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_63_5' (../EdgedetectBaseline_host/src/edgedetect.cpp:63:30) in function 'edgedetect' completely with a factor of 3 (../EdgedetectBaseline_host/src/edgedetect.cpp:197:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_65_6' (../EdgedetectBaseline_host/src/edgedetect.cpp:65:34) in function 'edgedetect' completely with a factor of 3 (../EdgedetectBaseline_host/src/edgedetect.cpp:197:0)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=6 dim=1' for array 'image_gray' due to pipeline pragma (../EdgedetectBaseline_host/src/edgedetect.cpp:198:19)
+INFO: [HLS 214-248] Applying array_partition to 'image_gray': Cyclic partitioning with factor 6 on dimension 1. (../EdgedetectBaseline_host/src/edgedetect.cpp:198:19)
 INFO: [HLS 214-115] Multiple burst writes of length 4800 and bit width 512 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../EdgedetectBaseline_host/src/edgedetect.cpp:183:23)
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.59 seconds. CPU system time: 0.8 seconds. Elapsed time: 7.5 seconds; current allocated memory: 358.891 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 358.891 MB.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.54 seconds. CPU system time: 0.82 seconds. Elapsed time: 7.47 seconds; current allocated memory: 358.848 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 358.848 MB.
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 361.836 MB.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 361.793 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 365.012 MB.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 364.949 MB.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h:13:19) to (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h:42:1) in function 'generic_floor<double>'... converting 9 basic blocks.
-INFO: [XFORM 203-602] Inlining function 'generic_floor<double>' into 'edgedetect' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/src/c/floordouble.cpp:7->../EdgedetectBaseline_host/src/edgedetect.cpp:21->../EdgedetectBaseline_host/src/edgedetect.cpp:204) automatically.
-INFO: [XFORM 203-11] Balancing expressions in function 'edgedetect' (../EdgedetectBaseline_host/src/edgedetect.cpp:10:27)...14 expression(s) balanced.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.19 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.22 seconds; current allocated memory: 393.402 MB.
+INFO: [XFORM 203-602] Inlining function 'generic_floor<double>' into 'edgedetect' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/src/c/floordouble.cpp:7->../EdgedetectBaseline_host/src/edgedetect.cpp:21->../EdgedetectBaseline_host/src/edgedetect.cpp:201) automatically.
+INFO: [XFORM 203-11] Balancing expressions in function 'edgedetect' (../EdgedetectBaseline_host/src/edgedetect.cpp:196)...14 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.18 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.19 seconds; current allocated memory: 393.336 MB.
 INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_10_1'(../EdgedetectBaseline_host/src/edgedetect.cpp:10:22) and 'VITIS_LOOP_13_2'(../EdgedetectBaseline_host/src/edgedetect.cpp:13:26) in function 'edgedetect' into perfectly nested loops.
 INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_47_1'(../EdgedetectBaseline_host/src/edgedetect.cpp:47:22) and 'VITIS_LOOP_49_2'(../EdgedetectBaseline_host/src/edgedetect.cpp:49:26) in function 'edgedetect' into perfectly nested loops.
 INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_97_1'(../EdgedetectBaseline_host/src/edgedetect.cpp:97:22) and 'VITIS_LOOP_99_2'(../EdgedetectBaseline_host/src/edgedetect.cpp:99:26) in function 'edgedetect' into perfectly nested loops.
@@ -128,7 +126,7 @@ INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_108_3' (../EdgedetectBa
 INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_147_1' (../EdgedetectBaseline_host/src/edgedetect.cpp:147:23) in function 'edgedetect'.
 INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_158_3' (../EdgedetectBaseline_host/src/edgedetect.cpp:158:23) in function 'edgedetect'.
 INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_183_1' (../EdgedetectBaseline_host/src/edgedetect.cpp:183:23) in function 'edgedetect'.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.2 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.23 seconds; current allocated memory: 484.910 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.18 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.22 seconds; current allocated memory: 484.844 MB.
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'edgedetect' ...
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -144,13 +142,13 @@ INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for
 INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'Loop 1'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.1 seconds; current allocated memory: 485.914 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.09 seconds; current allocated memory: 485.848 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 485.914 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 485.848 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'edgedetect_Pipeline_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -158,13 +156,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'Loop 1'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 485.914 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 485.848 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 485.914 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 485.848 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -176,19 +174,19 @@ INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for
 INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'image_gray_3'. Use bind_storage pragma to override this type.
 INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'image_gray_4'. Use bind_storage pragma to override this type.
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_10_1_VITIS_LOOP_13_2'.
-WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2' (loop 'VITIS_LOOP_10_1_VITIS_LOOP_13_2'): Unable to schedule bus request operation ('gmem_load_1_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:15->../EdgedetectBaseline_host/src/edgedetect.cpp:204) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:15->../EdgedetectBaseline_host/src/edgedetect.cpp:204) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
+WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2' (loop 'VITIS_LOOP_10_1_VITIS_LOOP_13_2'): Unable to schedule bus request operation ('gmem_load_1_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:15->../EdgedetectBaseline_host/src/edgedetect.cpp:201) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:15->../EdgedetectBaseline_host/src/edgedetect.cpp:201) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
 Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
-WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2' (loop 'VITIS_LOOP_10_1_VITIS_LOOP_13_2'): Unable to schedule bus request operation ('gmem_load_2_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:15->../EdgedetectBaseline_host/src/edgedetect.cpp:204) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:15->../EdgedetectBaseline_host/src/edgedetect.cpp:204) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
+WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2' (loop 'VITIS_LOOP_10_1_VITIS_LOOP_13_2'): Unable to schedule bus request operation ('gmem_load_2_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:15->../EdgedetectBaseline_host/src/edgedetect.cpp:201) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:15->../EdgedetectBaseline_host/src/edgedetect.cpp:201) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
 Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 3, Depth = 111, loop 'VITIS_LOOP_10_1_VITIS_LOOP_13_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.17 seconds; current allocated memory: 486.191 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.16 seconds; current allocated memory: 486.125 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 486.191 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 486.125 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'edgedetect_Pipeline_VITIS_LOOP_47_1_VITIS_LOOP_49_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -196,13 +194,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_47_1_VITIS_LOOP_49_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_47_1_VITIS_LOOP_49_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 486.957 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 486.922 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 486.957 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 486.922 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'edgedetect_Pipeline_VITIS_LOOP_60_4' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -216,13 +214,13 @@ INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_60_4'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 110, loop 'VITIS_LOOP_60_4'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.17 seconds. CPU system time: 0 seconds. Elapsed time: 0.17 seconds; current allocated memory: 489.430 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.16 seconds; current allocated memory: 489.391 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 489.430 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 489.391 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'edgedetect_Pipeline_VITIS_LOOP_97_1_VITIS_LOOP_99_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -230,13 +228,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_97_1_VITIS_LOOP_99_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_97_1_VITIS_LOOP_99_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 489.926 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 489.895 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 489.926 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 489.895 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -248,23 +246,23 @@ INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for
 INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'image_gray_3'. Use bind_storage pragma to override this type.
 INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for array 'image_gray_5'. Use bind_storage pragma to override this type.
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_108_3_VITIS_LOOP_110_4'.
-WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4' (loop 'VITIS_LOOP_108_3_VITIS_LOOP_110_4'): Unable to schedule bus request operation ('gmem_load_4_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:208) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:208) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
+WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4' (loop 'VITIS_LOOP_108_3_VITIS_LOOP_110_4'): Unable to schedule bus request operation ('gmem_load_4_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:205) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:205) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
 Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
-WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4' (loop 'VITIS_LOOP_108_3_VITIS_LOOP_110_4'): Unable to schedule bus request operation ('gmem_load_5_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:208) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:208) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
+WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4' (loop 'VITIS_LOOP_108_3_VITIS_LOOP_110_4'): Unable to schedule bus request operation ('gmem_load_5_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:205) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:205) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
 Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
-WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4' (loop 'VITIS_LOOP_108_3_VITIS_LOOP_110_4'): Unable to schedule bus request operation ('gmem_load_6_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:208) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:208) due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array.
+WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4' (loop 'VITIS_LOOP_108_3_VITIS_LOOP_110_4'): Unable to schedule bus request operation ('gmem_load_6_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:205) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:205) due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array.
 Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
-WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4' (loop 'VITIS_LOOP_108_3_VITIS_LOOP_110_4'): Unable to schedule bus request operation ('gmem_load_7_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:208) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:208) due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array.
+WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4' (loop 'VITIS_LOOP_108_3_VITIS_LOOP_110_4'): Unable to schedule bus request operation ('gmem_load_7_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:205) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:117->../EdgedetectBaseline_host/src/edgedetect.cpp:205) due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array.
 Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 5, Depth = 93, loop 'VITIS_LOOP_108_3_VITIS_LOOP_110_4'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.12 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.13 seconds; current allocated memory: 491.324 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.12 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.12 seconds; current allocated memory: 491.379 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 491.520 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 491.488 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'edgedetect_Pipeline_VITIS_LOOP_147_1_VITIS_LOOP_149_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -272,37 +270,37 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_147_1_VITIS_LOOP_149_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_147_1_VITIS_LOOP_149_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 492.746 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 492.715 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 492.746 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 492.715 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_158_3_VITIS_LOOP_160_4'.
-WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4' (loop 'VITIS_LOOP_158_3_VITIS_LOOP_160_4'): Unable to schedule bus request operation ('gmem_load_9_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:210) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:210) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
+WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4' (loop 'VITIS_LOOP_158_3_VITIS_LOOP_160_4'): Unable to schedule bus request operation ('gmem_load_9_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:207) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:207) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
 Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
-WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4' (loop 'VITIS_LOOP_158_3_VITIS_LOOP_160_4'): Unable to schedule bus request operation ('gmem_load_10_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:210) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:210) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
+WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4' (loop 'VITIS_LOOP_158_3_VITIS_LOOP_160_4'): Unable to schedule bus request operation ('gmem_load_10_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:207) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:207) due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array.
 Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
-WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4' (loop 'VITIS_LOOP_158_3_VITIS_LOOP_160_4'): Unable to schedule bus request operation ('gmem_load_11_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:210) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:210) due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array.
+WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4' (loop 'VITIS_LOOP_158_3_VITIS_LOOP_160_4'): Unable to schedule bus request operation ('gmem_load_11_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:207) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:207) due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array.
 Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
-WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4' (loop 'VITIS_LOOP_158_3_VITIS_LOOP_160_4'): Unable to schedule bus request operation ('gmem_load_12_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:210) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:210) due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array.
+WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4' (loop 'VITIS_LOOP_158_3_VITIS_LOOP_160_4'): Unable to schedule bus request operation ('gmem_load_12_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:207) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:207) due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array.
 Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
-WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4' (loop 'VITIS_LOOP_158_3_VITIS_LOOP_160_4'): Unable to schedule bus request operation ('gmem_load_13_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:210) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:210) due to limited memory ports (II = 5). Please consider using a memory core with more ports or partitioning the array.
+WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4' (loop 'VITIS_LOOP_158_3_VITIS_LOOP_160_4'): Unable to schedule bus request operation ('gmem_load_13_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:207) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:167->../EdgedetectBaseline_host/src/edgedetect.cpp:207) due to limited memory ports (II = 5). Please consider using a memory core with more ports or partitioning the array.
 Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 6, Depth = 95, loop 'VITIS_LOOP_158_3_VITIS_LOOP_160_4'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.11 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 494.176 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.13 seconds; current allocated memory: 494.000 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 494.430 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 494.430 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'edgedetect_Pipeline_VITIS_LOOP_183_1_VITIS_LOOP_185_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -316,36 +314,36 @@ INFO: [HLS 200-1457] Automatically inferring inferring RAM_1WNR storage type for
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_183_1_VITIS_LOOP_185_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 26, loop 'VITIS_LOOP_183_1_VITIS_LOOP_185_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.13 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.13 seconds; current allocated memory: 495.785 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.13 seconds. CPU system time: 0 seconds. Elapsed time: 0.14 seconds; current allocated memory: 495.684 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 495.785 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 495.684 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'edgedetect' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 496.570 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 496.559 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 496.570 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 496.559 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'edgedetect_Pipeline_1' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'edgedetect_Pipeline_1' pipeline 'Loop 1' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_1'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 496.891 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 496.848 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'edgedetect_Pipeline_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 497.922 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 497.883 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -360,7 +358,7 @@ INFO: [RTGEN 206-100] Generating core module 'sparsemux_9_3_64_1_1': 1 instance(
 INFO: [RTGEN 206-100] Generating core module 'urem_19ns_4ns_3_23_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2'.
 INFO: [RTMG 210-279] Implementing memory 'edgedetect_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_mask_table_ROM_AUTO_1R' using auto ROMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 500.906 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.12 seconds; current allocated memory: 500.867 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'edgedetect_Pipeline_VITIS_LOOP_47_1_VITIS_LOOP_49_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -368,7 +366,7 @@ INFO: [SYN 201-210] Renamed object name 'edgedetect_Pipeline_VITIS_LOOP_47_1_VIT
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'edgedetect_Pipeline_VITIS_LOOP_47_1_VITIS_LOOP_49_2' pipeline 'VITIS_LOOP_47_1_VITIS_LOOP_49_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_47_1_VITIS_LOOP_49_2'.
 INFO: [RTMG 210-279] Implementing memory 'edgedetect_edgedetect_Pipeline_VITIS_LOOP_47_1_VITIS_LOOP_49_2_convolve2d_smoothing_unsibkb' using auto ROMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.14 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.16 seconds; current allocated memory: 505.207 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.14 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.16 seconds; current allocated memory: 505.160 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'edgedetect_Pipeline_VITIS_LOOP_60_4' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -378,7 +376,7 @@ INFO: [RTGEN 206-100] Generating core module 'sparsemux_13_3_8_1_1': 9 instance(
 INFO: [RTGEN 206-100] Generating core module 'udiv_12ns_6ns_8_16_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'urem_19ns_4ns_3_23_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_60_4'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.12 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.13 seconds; current allocated memory: 509.938 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.12 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.14 seconds; current allocated memory: 509.887 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'edgedetect_Pipeline_VITIS_LOOP_97_1_VITIS_LOOP_99_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -386,7 +384,7 @@ INFO: [SYN 201-210] Renamed object name 'edgedetect_Pipeline_VITIS_LOOP_97_1_VIT
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'edgedetect_Pipeline_VITIS_LOOP_97_1_VITIS_LOOP_99_2' pipeline 'VITIS_LOOP_97_1_VITIS_LOOP_99_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_97_1_VITIS_LOOP_99_2'.
 INFO: [RTMG 210-279] Implementing memory 'edgedetect_edgedetect_Pipeline_VITIS_LOOP_97_1_VITIS_LOOP_99_2_convolve2d_vertical_unsigcud' using auto ROMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.14 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.15 seconds; current allocated memory: 515.742 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.15 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.16 seconds; current allocated memory: 515.734 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -395,7 +393,7 @@ INFO: [RTGEN 206-100] Generating core module 'mul_19ns_21ns_39_1_1': 1 instance(
 INFO: [RTGEN 206-100] Generating core module 'sdiv_11s_6ns_8_15_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'urem_19ns_4ns_3_23_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.1 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 518.008 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 517.992 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'edgedetect_Pipeline_VITIS_LOOP_147_1_VITIS_LOOP_149_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -403,14 +401,14 @@ INFO: [SYN 201-210] Renamed object name 'edgedetect_Pipeline_VITIS_LOOP_147_1_VI
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'edgedetect_Pipeline_VITIS_LOOP_147_1_VITIS_LOOP_149_2' pipeline 'VITIS_LOOP_147_1_VITIS_LOOP_149_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_147_1_VITIS_LOOP_149_2'.
 INFO: [RTMG 210-279] Implementing memory 'edgedetect_edgedetect_Pipeline_VITIS_LOOP_147_1_VITIS_LOOP_149_2_convolve2d_horizontal_udEe' using auto ROMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.13 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.14 seconds; current allocated memory: 521.738 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.14 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.15 seconds; current allocated memory: 521.734 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4' pipeline 'VITIS_LOOP_158_3_VITIS_LOOP_160_4' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Generating core module 'sdiv_11s_6ns_8_15_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 524.332 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 524.332 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'edgedetect_Pipeline_VITIS_LOOP_183_1_VITIS_LOOP_185_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -432,7 +430,7 @@ INFO: [RTGEN 206-100] Generating core module 'mul_19ns_21ns_39_1_1': 1 instance(
 INFO: [RTGEN 206-100] Generating core module 'sparsemux_13_3_8_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'urem_19ns_4ns_3_23_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_183_1_VITIS_LOOP_185_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.19 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.22 seconds; current allocated memory: 529.023 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.17 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.19 seconds; current allocated memory: 528.996 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'edgedetect' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -448,13 +446,13 @@ INFO: [RTGEN 206-100] Bundling port 'image_rgb', 'output_r' and 'return' to AXI-
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect'.
 INFO: [RTMG 210-278] Implementing memory 'edgedetect_image_gray_RAM_1WNR_AUTO_1R1W' using auto RAMs.
 INFO: [RTMG 210-278] Implementing memory 'edgedetect_temp_buf_RAM_AUTO_1R1W' using auto RAMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.13 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.15 seconds; current allocated memory: 534.418 MB.
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.3 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.35 seconds; current allocated memory: 537.629 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.12 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.13 seconds; current allocated memory: 534.395 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.3 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.35 seconds; current allocated memory: 537.742 MB.
 INFO: [HLS 200-1603] Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.67 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.7 seconds; current allocated memory: 549.840 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.68 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.72 seconds; current allocated memory: 549.750 MB.
 INFO: [VHDL 208-304] Generating VHDL RTL for edgedetect.
 INFO: [VLOG 209-307] Generating Verilog RTL for edgedetect.
 INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
 INFO: [HLS 200-789] **** Estimated Fmax: 205.47 MHz
-INFO: [HLS 200-112] Total CPU user time: 10.15 seconds. Total CPU system time: 2.14 seconds. Total elapsed time: 16.23 seconds; peak allocated memory: 549.840 MB.
+INFO: [HLS 200-112] Total CPU user time: 10.12 seconds. Total CPU system time: 2.17 seconds. Total elapsed time: 16.23 seconds; peak allocated memory: 549.750 MB.
 INFO: [v++ 60-791] Total elapsed time: 0h 0m 19s

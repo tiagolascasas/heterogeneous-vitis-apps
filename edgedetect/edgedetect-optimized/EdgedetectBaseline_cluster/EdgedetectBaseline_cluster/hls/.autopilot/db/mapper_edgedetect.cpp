@@ -249,18 +249,18 @@ extern "C" void apatb_edgedetect_hw(volatile void * __xlx_apatb_param_image_rgb,
 using hls::sim::createStream;
   // Collect __xlx_image_rgb_output_r__tmp_vec
 std::vector<Byte<64>> __xlx_image_rgb_output_r__tmp_vec;
-for (size_t i = 0; i < 14400; ++i){
+for (size_t i = 0; i < 1; ++i){
 __xlx_image_rgb_output_r__tmp_vec.push_back(((Byte<64>*)__xlx_apatb_param_image_rgb)[i]);
 }
-  int __xlx_size_param_image_rgb = 14400;
+  int __xlx_size_param_image_rgb = 1;
   int __xlx_offset_param_image_rgb = 0;
   int __xlx_offset_byte_param_image_rgb = 0*64;
-for (size_t i = 0; i < 4800; ++i){
+for (size_t i = 0; i < 1; ++i){
 __xlx_image_rgb_output_r__tmp_vec.push_back(((Byte<64>*)__xlx_apatb_param_output_r)[i]);
 }
-  int __xlx_size_param_output_r = 4800;
-  int __xlx_offset_param_output_r = 14400;
-  int __xlx_offset_byte_param_output_r = 14400*64;
+  int __xlx_size_param_output_r = 1;
+  int __xlx_offset_param_output_r = 1;
+  int __xlx_offset_byte_param_output_r = 1*64;
   // DUT call
   edgedetect(__xlx_image_rgb_output_r__tmp_vec.data(), __xlx_offset_byte_param_image_rgb, __xlx_offset_byte_param_output_r);
 // print __xlx_apatb_param_image_rgb

@@ -6674,7 +6674,7 @@ void rgbToGrayscale(unsigned char input_image[480 * 640 * 3], unsigned char outp
     }
 }
 
-void convolve2d_smoothing(unsigned char input_image[480 * 640], unsigned char output_image[480 * 640])
+void convolve2d_smoothing(unsigned char *input_image, unsigned char *output_image)
 {
     int i;
     int j;
@@ -6724,7 +6724,7 @@ void convolve2d_smoothing(unsigned char input_image[480 * 640], unsigned char ou
     }
 }
 
-void convolve2d_vertical(unsigned char input_image[480 * 640], unsigned char output_image[480 * 640])
+void convolve2d_vertical(unsigned char *input_image, unsigned char *output_image)
 {
     int i;
     int j;
@@ -6774,7 +6774,7 @@ void convolve2d_vertical(unsigned char input_image[480 * 640], unsigned char out
     }
 }
 
-void convolve2d_horizontal(unsigned char input_image[480 * 640], unsigned char output_image[480 * 640])
+void convolve2d_horizontal(unsigned char *input_image, unsigned char *output_image)
 {
     int i;
     int j;
@@ -6824,7 +6824,7 @@ void convolve2d_horizontal(unsigned char input_image[480 * 640], unsigned char o
     }
 }
 
-void combthreshold(unsigned char image_gray[480 * 640], unsigned char temp_buf[480 * 640], unsigned char output[480 * 640])
+void combthreshold(unsigned char *image_gray, unsigned char *temp_buf, unsigned char *output)
 {
     int i, j;
     int temp1;
@@ -6844,14 +6844,11 @@ void combthreshold(unsigned char image_gray[480 * 640], unsigned char temp_buf[4
     }
 }
 
-__attribute__((sdx_kernel("edgedetect", 0))) void edgedetect(unsigned char image_rgb[480 * 640 * 3],
-
-
-                 unsigned char output[480 * 640])
+__attribute__((sdx_kernel("edgedetect", 0))) void edgedetect(unsigned char *image_rgb, unsigned char *output)
 {
 #line 1 "directive"
 #pragma HLSDIRECTIVE TOP name=edgedetect
-# 200 "../EdgedetectBaseline_host/src/edgedetect.cpp"
+# 197 "../EdgedetectBaseline_host/src/edgedetect.cpp"
 
     unsigned char image_gray[480 * 640] = {0};
     unsigned char temp_buf[480 * 640] = {0};

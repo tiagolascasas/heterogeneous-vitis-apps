@@ -154,7 +154,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>206</second>
+                      <second>203</second>
                     </item>
                   </second>
                 </item>
@@ -201,7 +201,7 @@
                 <count>0</count>
                 <item_version>0</item_version>
               </inlineStackInfo>
-              <originalName/>
+              <originalName>output</originalName>
               <rtlName/>
               <control>auto</control>
               <opType>adapter</opType>
@@ -226,7 +226,7 @@
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
           <m_delay>1.00</m_delay>
-          <m_topoIndex>16</m_topoIndex>
+          <m_topoIndex>18</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
         <item class_id_reference="9" object_id="_6">
@@ -244,7 +244,7 @@
                 <count>0</count>
                 <item_version>0</item_version>
               </inlineStackInfo>
-              <originalName/>
+              <originalName>image_rgb</originalName>
               <rtlName/>
               <control>auto</control>
               <opType>adapter</opType>
@@ -269,7 +269,7 @@
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
           <m_delay>1.00</m_delay>
-          <m_topoIndex>17</m_topoIndex>
+          <m_topoIndex>16</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
         <item class_id_reference="9" object_id="_7">
@@ -406,7 +406,7 @@
               <name>image_gray</name>
               <fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>201</lineNumber>
+              <lineNumber>198</lineNumber>
               <contextFuncName>edgedetect</contextFuncName>
               <contextNormFuncName>edgedetect</contextNormFuncName>
               <inlineStackInfo>
@@ -422,7 +422,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>201</second>
+                      <second>198</second>
                     </item>
                   </second>
                 </item>
@@ -462,7 +462,7 @@
               <name>image_gray_1</name>
               <fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>201</lineNumber>
+              <lineNumber>198</lineNumber>
               <contextFuncName>edgedetect</contextFuncName>
               <contextNormFuncName>edgedetect</contextNormFuncName>
               <inlineStackInfo>
@@ -478,7 +478,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>201</second>
+                      <second>198</second>
                     </item>
                   </second>
                 </item>
@@ -518,7 +518,7 @@
               <name>image_gray_2</name>
               <fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>201</lineNumber>
+              <lineNumber>198</lineNumber>
               <contextFuncName>edgedetect</contextFuncName>
               <contextNormFuncName>edgedetect</contextNormFuncName>
               <inlineStackInfo>
@@ -534,7 +534,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>201</second>
+                      <second>198</second>
                     </item>
                   </second>
                 </item>
@@ -574,7 +574,7 @@
               <name>image_gray_3</name>
               <fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>201</lineNumber>
+              <lineNumber>198</lineNumber>
               <contextFuncName>edgedetect</contextFuncName>
               <contextNormFuncName>edgedetect</contextNormFuncName>
               <inlineStackInfo>
@@ -590,7 +590,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>201</second>
+                      <second>198</second>
                     </item>
                   </second>
                 </item>
@@ -630,7 +630,7 @@
               <name>image_gray_4</name>
               <fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>201</lineNumber>
+              <lineNumber>198</lineNumber>
               <contextFuncName>edgedetect</contextFuncName>
               <contextNormFuncName>edgedetect</contextNormFuncName>
               <inlineStackInfo>
@@ -646,7 +646,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>201</second>
+                      <second>198</second>
                     </item>
                   </second>
                 </item>
@@ -686,7 +686,7 @@
               <name>image_gray_5</name>
               <fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>201</lineNumber>
+              <lineNumber>198</lineNumber>
               <contextFuncName>edgedetect</contextFuncName>
               <contextNormFuncName>edgedetect</contextNormFuncName>
               <inlineStackInfo>
@@ -702,7 +702,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>201</second>
+                      <second>198</second>
                     </item>
                   </second>
                 </item>
@@ -742,7 +742,7 @@
               <name>temp_buf</name>
               <fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>202</lineNumber>
+              <lineNumber>199</lineNumber>
               <contextFuncName>edgedetect</contextFuncName>
               <contextNormFuncName>edgedetect</contextNormFuncName>
               <inlineStackInfo>
@@ -758,7 +758,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>202</second>
+                      <second>199</second>
                     </item>
                   </second>
                 </item>
@@ -931,7 +931,7 @@
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
           <m_delay>0.00</m_delay>
-          <m_topoIndex>18</m_topoIndex>
+          <m_topoIndex>17</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
         <item class_id_reference="9" object_id="_20">
@@ -1052,7 +1052,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>206</second>
+                      <second>203</second>
                     </item>
                   </second>
                 </item>
@@ -1116,7 +1116,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>206</second>
+                      <second>203</second>
                     </item>
                   </second>
                 </item>
@@ -1180,7 +1180,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>206</second>
+                      <second>203</second>
                     </item>
                   </second>
                 </item>
@@ -1630,7 +1630,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>206</second>
+                      <second>203</second>
                     </item>
                   </second>
                 </item>
@@ -1710,7 +1710,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>206</second>
+                      <second>203</second>
                     </item>
                   </second>
                 </item>
@@ -1774,7 +1774,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>206</second>
+                      <second>203</second>
                     </item>
                   </second>
                 </item>
@@ -1840,7 +1840,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>206</second>
+                      <second>203</second>
                     </item>
                   </second>
                 </item>
@@ -1992,7 +1992,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>208</second>
+                      <second>205</second>
                     </item>
                   </second>
                 </item>
@@ -2056,7 +2056,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>208</second>
+                      <second>205</second>
                     </item>
                   </second>
                 </item>
@@ -2222,7 +2222,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>210</second>
+                      <second>207</second>
                     </item>
                   </second>
                 </item>
@@ -2286,7 +2286,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>210</second>
+                      <second>207</second>
                     </item>
                   </second>
                 </item>
@@ -2360,7 +2360,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>212</second>
+                      <second>209</second>
                     </item>
                   </second>
                 </item>
@@ -2426,7 +2426,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>212</second>
+                      <second>209</second>
                     </item>
                   </second>
                 </item>
@@ -2489,7 +2489,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>212</second>
+                      <second>209</second>
                     </item>
                   </second>
                 </item>
@@ -2553,7 +2553,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>212</second>
+                      <second>209</second>
                     </item>
                   </second>
                 </item>
@@ -2621,7 +2621,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>212</second>
+                      <second>209</second>
                     </item>
                   </second>
                 </item>
@@ -2679,7 +2679,7 @@
               <name>empty_47</name>
               <fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>213</lineNumber>
+              <lineNumber>210</lineNumber>
               <contextFuncName>edgedetect</contextFuncName>
               <contextNormFuncName>edgedetect</contextNormFuncName>
               <inlineStackInfo>
@@ -2695,7 +2695,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>213</second>
+                      <second>210</second>
                     </item>
                   </second>
                 </item>
@@ -2736,10 +2736,10 @@
             <Obj>
               <type>0</type>
               <id>69</id>
-              <name>_ln213</name>
+              <name>_ln210</name>
               <fileName>../EdgedetectBaseline_host/src/edgedetect.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>213</lineNumber>
+              <lineNumber>210</lineNumber>
               <contextFuncName>edgedetect</contextFuncName>
               <contextNormFuncName>edgedetect</contextNormFuncName>
               <inlineStackInfo>
@@ -2755,7 +2755,7 @@
                         <first>../EdgedetectBaseline_host/src/edgedetect.cpp</first>
                         <second>edgedetect</second>
                       </first>
-                      <second>213</second>
+                      <second>210</second>
                     </item>
                   </second>
                 </item>
@@ -5030,30 +5030,30 @@
         <item class_id_reference="26" object_id="_271">
           <id>3</id>
           <operations>
-            <count>3</count>
+            <count>2</count>
             <item_version>0</item_version>
             <item class_id_reference="28" object_id="_272">
-              <id>9</id>
-              <stage>1</stage>
-              <latency>1</latency>
-            </item>
-            <item class_id_reference="28" object_id="_273">
               <id>10</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_274">
+            <item class_id_reference="28" object_id="_273">
               <id>32</id>
               <stage>2</stage>
               <latency>2</latency>
             </item>
           </operations>
         </item>
-        <item class_id_reference="26" object_id="_275">
+        <item class_id_reference="26" object_id="_274">
           <id>4</id>
           <operations>
-            <count>13</count>
+            <count>14</count>
             <item_version>0</item_version>
+            <item class_id_reference="28" object_id="_275">
+              <id>9</id>
+              <stage>1</stage>
+              <latency>1</latency>
+            </item>
             <item class_id_reference="28" object_id="_276">
               <id>14</id>
               <stage>1</stage>
@@ -9580,7 +9580,7 @@
         </item>
       </dp_multiplexer_resource>
       <dp_register_resource>
-        <count>26</count>
+        <count>24</count>
         <item_version>0</item_version>
         <item>
           <first>ap_CS_fsm</first>
@@ -10001,44 +10001,6 @@
           </second>
         </item>
         <item>
-          <first>image_rgb_read_reg_449</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>64</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>64</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>output_r_read_reg_441</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>64</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>64</second>
-            </item>
-          </second>
-        </item>
-        <item>
           <first>r_fu_118</first>
           <second>
             <count>3</count>
@@ -10395,7 +10357,7 @@
       <item>
         <first>9</first>
         <second>
-          <first>2</first>
+          <first>3</first>
           <second>0</second>
         </second>
       </item>
@@ -10854,7 +10816,7 @@
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>9</item>
+          <item>10</item>
         </second>
       </item>
       <item>
@@ -10862,7 +10824,7 @@
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>10</item>
+          <item>9</item>
         </second>
       </item>
       <item>
@@ -11586,7 +11548,7 @@
         </second>
       </item>
       <item>
-        <first>image_rgb_read_read_fu_168</first>
+        <first>image_rgb_read_read_fu_162</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11618,7 +11580,7 @@
         </second>
       </item>
       <item>
-        <first>output_r_read_read_fu_162</first>
+        <first>output_r_read_read_fu_168</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11742,15 +11704,15 @@
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>9</item>
+          <item>10</item>
         </second>
       </item>
       <item>
-        <first>449</first>
+        <first>446</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>10</item>
+          <item>9</item>
         </second>
       </item>
       <item>
@@ -11894,7 +11856,7 @@
         </second>
       </item>
       <item>
-        <first>image_rgb_read_reg_449</first>
+        <first>image_rgb_read_reg_441</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11926,7 +11888,7 @@
         </second>
       </item>
       <item>
-        <first>output_r_read_reg_441</first>
+        <first>output_r_read_reg_446</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

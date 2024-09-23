@@ -15,17 +15,17 @@
 |               | (4) simplification          |   361        | simplification of applied user inline pragmas                                          |
 |               |                             |              |                                                                                        |
 | Array/Struct  |                             |              | After user array partition and struct aggregate/disaggregate pragmas are applied       |
-|               | (1) array partition         |   363        | user array partition pragmas are applied                                               |
-|               | (2) simplification          |   363        | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
-|               | (3) aggregate/disaggregate  |   363        | user struct aggregate/disaggregate pragmas are applied                                 |
-|               | (4) array reshape           |   363        | apply array reshape pragmas                                                            |
-|               | (5) access patterns         |   395        | array access pattern optmizations                                                      |
+|               | (1) array partition         |   361        | user array partition pragmas are applied                                               |
+|               | (2) simplification          |   361        | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
+|               | (3) aggregate/disaggregate  |   361        | user struct aggregate/disaggregate pragmas are applied                                 |
+|               | (4) array reshape           |   361        | apply array reshape pragmas                                                            |
+|               | (5) access patterns         |   391        | array access pattern optmizations                                                      |
 |               |                             |              |                                                                                        |
 | Performance   |                             |              | After transformations are applied to meet performance pragma targets                   |
-|               | (1) loop simplification     |   395        | loop and instruction simplification                                                    |
-|               | (2) parallelization         |   424        | loops are unrolled or pipelined to meet performance targets                            |
-|               | (3) array partition         |   717        | arrays are partitioned to meet performance targets                                     |
-|               | (4) simplification          |   662        | simplification of design after performance transformations                             |
+|               | (1) loop simplification     |   393        | loop and instruction simplification                                                    |
+|               | (2) parallelization         |   422        | loops are unrolled or pipelined to meet performance targets                            |
+|               | (3) array partition         |   715        | arrays are partitioned to meet performance targets                                     |
+|               | (4) simplification          |   660        | simplification of design after performance transformations                             |
 |               |                             |              |                                                                                        |
 | HW Transforms |                             |              | After hardware transfomations                                                          |
 |               | (1) lowering                |   754        | initial conversion to HW specific instructions                                         |
@@ -36,7 +36,7 @@
 +--------------------------------+--------------------+----------------+---------------+--------------+-------------+---------------+
 | Function                       | Location           | Compile/Link   | Unroll/Inline | Array/Struct | Performance | HW Transforms |
 +--------------------------------+--------------------+----------------+---------------+--------------+-------------+---------------+
-| + edgedetect                   | edgedetect.cpp:196 | 5,085          | 361           | 395          | 662         | 808           |
+| + edgedetect                   | edgedetect.cpp:196 | 5,085          | 361           | 391          | 660         | 808           |
 |  + rgbToGrayscale              | edgedetect.cpp:8   | 4,705          |               |              |             |               |
 |   + floor                      | floordouble.cpp:6  | 2,677          |               |              |             |               |
 |    + generic_floor<double>     | hls_floor.h:13     | 2,675          |               |              |             |               |

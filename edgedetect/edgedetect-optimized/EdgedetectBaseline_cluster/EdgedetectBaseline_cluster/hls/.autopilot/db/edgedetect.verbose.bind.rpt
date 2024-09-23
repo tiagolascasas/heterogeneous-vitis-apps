@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'edgedetect'
 ================================================================
-* Date:           Fri Sep 20 23:14:17 2024
+* Date:           Sat Sep 21 02:17:23 2024
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        EdgedetectBaseline_cluster
@@ -176,21 +176,21 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 1.23>
-ST_1 : Operation 84 [1/1] (0.00ns)   --->   "%r = alloca i32 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:31->../EdgedetectBaseline_host/src/edgedetect.cpp:206]   --->   Operation 84 'alloca' 'r' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 84 [1/1] (0.00ns)   --->   "%r = alloca i32 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:31->../EdgedetectBaseline_host/src/edgedetect.cpp:203]   --->   Operation 84 'alloca' 'r' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 85 [1/1] (0.00ns)   --->   "%normal_factor_8_loc = alloca i64 1"   --->   Operation 85 'alloca' 'normal_factor_8_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 86 [1/1] (0.00ns)   --->   "%normal_factor_5_loc = alloca i64 1"   --->   Operation 86 'alloca' 'normal_factor_5_loc' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 87 [1/1] (0.00ns)   --->   "%normal_factor_2_loc = alloca i64 1"   --->   Operation 87 'alloca' 'normal_factor_2_loc' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 88 [1/1] (1.23ns)   --->   "%image_gray = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:201]   --->   Operation 88 'alloca' 'image_gray' <Predicate = true> <Delay = 1.23>
-ST_1 : Operation 89 [1/1] (1.23ns)   --->   "%image_gray_1 = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:201]   --->   Operation 89 'alloca' 'image_gray_1' <Predicate = true> <Delay = 1.23>
-ST_1 : Operation 90 [1/1] (1.23ns)   --->   "%image_gray_2 = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:201]   --->   Operation 90 'alloca' 'image_gray_2' <Predicate = true> <Delay = 1.23>
-ST_1 : Operation 91 [1/1] (1.23ns)   --->   "%image_gray_3 = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:201]   --->   Operation 91 'alloca' 'image_gray_3' <Predicate = true> <Delay = 1.23>
-ST_1 : Operation 92 [1/1] (1.23ns)   --->   "%image_gray_4 = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:201]   --->   Operation 92 'alloca' 'image_gray_4' <Predicate = true> <Delay = 1.23>
-ST_1 : Operation 93 [1/1] (1.23ns)   --->   "%image_gray_5 = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:201]   --->   Operation 93 'alloca' 'image_gray_5' <Predicate = true> <Delay = 1.23>
-ST_1 : Operation 94 [1/1] (1.23ns)   --->   "%temp_buf = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:202]   --->   Operation 94 'alloca' 'temp_buf' <Predicate = true> <Delay = 1.23>
+ST_1 : Operation 88 [1/1] (1.23ns)   --->   "%image_gray = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:198]   --->   Operation 88 'alloca' 'image_gray' <Predicate = true> <Delay = 1.23>
+ST_1 : Operation 89 [1/1] (1.23ns)   --->   "%image_gray_1 = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:198]   --->   Operation 89 'alloca' 'image_gray_1' <Predicate = true> <Delay = 1.23>
+ST_1 : Operation 90 [1/1] (1.23ns)   --->   "%image_gray_2 = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:198]   --->   Operation 90 'alloca' 'image_gray_2' <Predicate = true> <Delay = 1.23>
+ST_1 : Operation 91 [1/1] (1.23ns)   --->   "%image_gray_3 = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:198]   --->   Operation 91 'alloca' 'image_gray_3' <Predicate = true> <Delay = 1.23>
+ST_1 : Operation 92 [1/1] (1.23ns)   --->   "%image_gray_4 = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:198]   --->   Operation 92 'alloca' 'image_gray_4' <Predicate = true> <Delay = 1.23>
+ST_1 : Operation 93 [1/1] (1.23ns)   --->   "%image_gray_5 = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:198]   --->   Operation 93 'alloca' 'image_gray_5' <Predicate = true> <Delay = 1.23>
+ST_1 : Operation 94 [1/1] (1.23ns)   --->   "%temp_buf = alloca i64 1" [../EdgedetectBaseline_host/src/edgedetect.cpp:199]   --->   Operation 94 'alloca' 'temp_buf' <Predicate = true> <Delay = 1.23>
 ST_1 : Operation 95 [2/2] (0.00ns)   --->   "%call_ln0 = call void @edgedetect_Pipeline_1, i8 %image_gray_5, i8 %image_gray_4, i8 %image_gray_3, i8 %image_gray_2, i8 %image_gray_1, i8 %image_gray"   --->   Operation 95 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_1 : Operation 96 [2/2] (0.00ns)   --->   "%call_ln0 = call void @edgedetect_Pipeline_2, i8 %temp_buf"   --->   Operation 96 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_1 : Operation 97 [2/2] (0.00ns)   --->   "%call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_47_1_VITIS_LOOP_49_2, i6 %normal_factor_2_loc, i8 %convolve2d_smoothing_unsigned_char_unsigned_char_filter"   --->   Operation 97 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_1 : Operation 98 [1/1] (0.42ns)   --->   "%store_ln31 = store i9 0, i9 %r" [../EdgedetectBaseline_host/src/edgedetect.cpp:31->../EdgedetectBaseline_host/src/edgedetect.cpp:206]   --->   Operation 98 'store' 'store_ln31' <Predicate = true> <Delay = 0.42>
+ST_1 : Operation 98 [1/1] (0.42ns)   --->   "%store_ln31 = store i9 0, i9 %r" [../EdgedetectBaseline_host/src/edgedetect.cpp:31->../EdgedetectBaseline_host/src/edgedetect.cpp:203]   --->   Operation 98 'store' 'store_ln31' <Predicate = true> <Delay = 0.42>
 
 State 2 <SV = 1> <Delay = 1.73>
 ST_2 : Operation 99 [1/2] (1.31ns)   --->   "%call_ln0 = call void @edgedetect_Pipeline_1, i8 %image_gray_5, i8 %image_gray_4, i8 %image_gray_3, i8 %image_gray_2, i8 %image_gray_1, i8 %image_gray"   --->   Operation 99 'call' 'call_ln0' <Predicate = true> <Delay = 1.31> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
@@ -198,11 +198,11 @@ ST_2 : Operation 100 [1/2] (1.73ns)   --->   "%call_ln0 = call void @edgedetect_
 ST_2 : Operation 101 [1/2] (1.65ns)   --->   "%call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_47_1_VITIS_LOOP_49_2, i6 %normal_factor_2_loc, i8 %convolve2d_smoothing_unsigned_char_unsigned_char_filter"   --->   Operation 101 'call' 'call_ln0' <Predicate = true> <Delay = 1.65> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 1.00>
-ST_3 : Operation 102 [1/1] (1.00ns)   --->   "%output_r_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %output_r"   --->   Operation 102 'read' 'output_r_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 120 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
-ST_3 : Operation 103 [1/1] (1.00ns)   --->   "%image_rgb_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %image_rgb"   --->   Operation 103 'read' 'image_rgb_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 120 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
-ST_3 : Operation 104 [2/2] (0.00ns)   --->   "%call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2, i512 %gmem, i8 %image_gray_5, i8 %image_gray_4, i8 %image_gray_3, i8 %image_gray_2, i8 %image_gray_1, i8 %image_gray, i64 %image_rgb_read, i52 %mask_table"   --->   Operation 104 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_3 : Operation 102 [1/1] (1.00ns)   --->   "%image_rgb_read = read i64 @_ssdm_op_Read.ap_none.i64, i64 %image_rgb"   --->   Operation 102 'read' 'image_rgb_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 120 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_3 : Operation 103 [2/2] (0.00ns)   --->   "%call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2, i512 %gmem, i8 %image_gray_5, i8 %image_gray_4, i8 %image_gray_3, i8 %image_gray_2, i8 %image_gray_1, i8 %image_gray, i64 %image_rgb_read, i52 %mask_table"   --->   Operation 103 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
-State 4 <SV = 3> <Delay = 0.78>
+State 4 <SV = 3> <Delay = 1.00>
+ST_4 : Operation 104 [1/1] (1.00ns)   --->   "%output_r_read = read i64 @_ssdm_op_Read.ap_none.i64, i64 %output_r"   --->   Operation 104 'read' 'output_r_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 120 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
 ST_4 : Operation 105 [1/1] (0.00ns)   --->   "%spectopmodule_ln196 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_9" [../EdgedetectBaseline_host/src/edgedetect.cpp:196]   --->   Operation 105 'spectopmodule' 'spectopmodule_ln196' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 106 [1/1] (0.00ns)   --->   "%specinterface_ln196 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0" [../EdgedetectBaseline_host/src/edgedetect.cpp:196]   --->   Operation 106 'specinterface' 'specinterface_ln196' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 107 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem, void @empty_0, i32 0, i32 0, void @empty_1, i32 64, i32 0, void @empty_2, void @empty_3, void @empty_1, i32 16, i32 16, i32 16, i32 16, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0"   --->   Operation 107 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
@@ -214,8 +214,8 @@ ST_4 : Operation 112 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface
 ST_4 : Operation 113 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_4, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_5, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0"   --->   Operation 113 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 114 [1/2] (0.00ns)   --->   "%call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2, i512 %gmem, i8 %image_gray_5, i8 %image_gray_4, i8 %image_gray_3, i8 %image_gray_2, i8 %image_gray_1, i8 %image_gray, i64 %image_rgb_read, i52 %mask_table"   --->   Operation 114 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_4 : Operation 115 [1/1] (0.00ns)   --->   "%normal_factor_2_loc_load = load i6 %normal_factor_2_loc"   --->   Operation 115 'load' 'normal_factor_2_loc_load' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 116 [1/1] (0.78ns)   --->   "%icmp_ln55 = icmp_eq  i6 %normal_factor_2_loc_load, i6 0" [../EdgedetectBaseline_host/src/edgedetect.cpp:55->../EdgedetectBaseline_host/src/edgedetect.cpp:206]   --->   Operation 116 'icmp' 'icmp_ln55' <Predicate = true> <Delay = 0.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_4 : Operation 117 [1/1] (0.00ns)   --->   "%br_ln58 = br void %VITIS_LOOP_60_4.i" [../EdgedetectBaseline_host/src/edgedetect.cpp:58->../EdgedetectBaseline_host/src/edgedetect.cpp:206]   --->   Operation 117 'br' 'br_ln58' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 116 [1/1] (0.78ns)   --->   "%icmp_ln55 = icmp_eq  i6 %normal_factor_2_loc_load, i6 0" [../EdgedetectBaseline_host/src/edgedetect.cpp:55->../EdgedetectBaseline_host/src/edgedetect.cpp:203]   --->   Operation 116 'icmp' 'icmp_ln55' <Predicate = true> <Delay = 0.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 117 [1/1] (0.00ns)   --->   "%br_ln58 = br void %VITIS_LOOP_60_4.i" [../EdgedetectBaseline_host/src/edgedetect.cpp:58->../EdgedetectBaseline_host/src/edgedetect.cpp:203]   --->   Operation 117 'br' 'br_ln58' <Predicate = true> <Delay = 0.00>
 
 State 5 <SV = 4> <Delay = 1.20>
 ST_5 : Operation 118 [1/1] (0.00ns)   --->   "%r_1 = load i9 %r"   --->   Operation 118 'load' 'r_1' <Predicate = true> <Delay = 0.00>
@@ -225,19 +225,19 @@ ST_5 : Operation 121 [1/1] (0.00ns)   --->   "%tmp_32 = bitconcatenate i16 @_ssd
 ST_5 : Operation 122 [1/1] (0.00ns)   --->   "%p_shl150 = zext i16 %tmp_32"   --->   Operation 122 'zext' 'p_shl150' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 123 [1/1] (0.87ns)   --->   "%empty = add i19 %p_shl, i19 %p_shl150"   --->   Operation 123 'add' 'empty' <Predicate = true> <Delay = 0.87> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.87> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_5 : Operation 124 [1/1] (0.77ns)   --->   "%empty_44 = add i9 %r_1, i9 1"   --->   Operation 124 'add' 'empty_44' <Predicate = true> <Delay = 0.77> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_5 : Operation 125 [1/1] (0.77ns)   --->   "%icmp_ln58 = icmp_eq  i9 %r_1, i9 477" [../EdgedetectBaseline_host/src/edgedetect.cpp:58->../EdgedetectBaseline_host/src/edgedetect.cpp:206]   --->   Operation 125 'icmp' 'icmp_ln58' <Predicate = true> <Delay = 0.77> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_5 : Operation 126 [1/1] (0.42ns)   --->   "%store_ln31 = store i9 %empty_44, i9 %r" [../EdgedetectBaseline_host/src/edgedetect.cpp:31->../EdgedetectBaseline_host/src/edgedetect.cpp:206]   --->   Operation 126 'store' 'store_ln31' <Predicate = true> <Delay = 0.42>
+ST_5 : Operation 125 [1/1] (0.77ns)   --->   "%icmp_ln58 = icmp_eq  i9 %r_1, i9 477" [../EdgedetectBaseline_host/src/edgedetect.cpp:58->../EdgedetectBaseline_host/src/edgedetect.cpp:203]   --->   Operation 125 'icmp' 'icmp_ln58' <Predicate = true> <Delay = 0.77> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 126 [1/1] (0.42ns)   --->   "%store_ln31 = store i9 %empty_44, i9 %r" [../EdgedetectBaseline_host/src/edgedetect.cpp:31->../EdgedetectBaseline_host/src/edgedetect.cpp:203]   --->   Operation 126 'store' 'store_ln31' <Predicate = true> <Delay = 0.42>
 
 State 6 <SV = 5> <Delay = 4.32>
 ST_6 : Operation 127 [1/1] (0.88ns)   --->   "%empty_43 = add i19 %empty, i19 1280"   --->   Operation 127 'add' 'empty_43' <Predicate = true> <Delay = 0.88> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.88> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 128 [1/1] (0.88ns)   --->   "%empty_45 = add i19 %empty, i19 640"   --->   Operation 128 'add' 'empty_45' <Predicate = true> <Delay = 0.88> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.88> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 129 [2/2] (3.44ns)   --->   "%call_ln55 = call void @edgedetect_Pipeline_VITIS_LOOP_60_4, i512 %gmem, i19 %empty, i8 %image_gray, i8 %image_gray_1, i8 %image_gray_2, i8 %image_gray_3, i8 %image_gray_4, i8 %image_gray_5, i19 %empty_45, i19 %empty_43, i6 %normal_factor_2_loc_load, i1 %icmp_ln55, i19 %empty, i64 %output_r_read" [../EdgedetectBaseline_host/src/edgedetect.cpp:55->../EdgedetectBaseline_host/src/edgedetect.cpp:206]   --->   Operation 129 'call' 'call_ln55' <Predicate = true> <Delay = 3.44> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_6 : Operation 129 [2/2] (3.44ns)   --->   "%call_ln55 = call void @edgedetect_Pipeline_VITIS_LOOP_60_4, i512 %gmem, i19 %empty, i8 %image_gray, i8 %image_gray_1, i8 %image_gray_2, i8 %image_gray_3, i8 %image_gray_4, i8 %image_gray_5, i19 %empty_45, i19 %empty_43, i6 %normal_factor_2_loc_load, i1 %icmp_ln55, i19 %empty, i64 %output_r_read" [../EdgedetectBaseline_host/src/edgedetect.cpp:55->../EdgedetectBaseline_host/src/edgedetect.cpp:203]   --->   Operation 129 'call' 'call_ln55' <Predicate = true> <Delay = 3.44> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 7 <SV = 6> <Delay = 0.00>
-ST_7 : Operation 130 [1/1] (0.00ns)   --->   "%speclooptripcount_ln31 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 478, i64 478, i64 478" [../EdgedetectBaseline_host/src/edgedetect.cpp:31->../EdgedetectBaseline_host/src/edgedetect.cpp:206]   --->   Operation 130 'speclooptripcount' 'speclooptripcount_ln31' <Predicate = true> <Delay = 0.00>
-ST_7 : Operation 131 [1/1] (0.00ns)   --->   "%specloopname_ln58 = specloopname void @_ssdm_op_SpecLoopName, void @empty_10" [../EdgedetectBaseline_host/src/edgedetect.cpp:58->../EdgedetectBaseline_host/src/edgedetect.cpp:206]   --->   Operation 131 'specloopname' 'specloopname_ln58' <Predicate = true> <Delay = 0.00>
-ST_7 : Operation 132 [1/2] (0.00ns)   --->   "%call_ln55 = call void @edgedetect_Pipeline_VITIS_LOOP_60_4, i512 %gmem, i19 %empty, i8 %image_gray, i8 %image_gray_1, i8 %image_gray_2, i8 %image_gray_3, i8 %image_gray_4, i8 %image_gray_5, i19 %empty_45, i19 %empty_43, i6 %normal_factor_2_loc_load, i1 %icmp_ln55, i19 %empty, i64 %output_r_read" [../EdgedetectBaseline_host/src/edgedetect.cpp:55->../EdgedetectBaseline_host/src/edgedetect.cpp:206]   --->   Operation 132 'call' 'call_ln55' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_7 : Operation 133 [1/1] (0.00ns)   --->   "%br_ln58 = br i1 %icmp_ln58, void %VITIS_LOOP_60_4.i, void %for.inc.i20.preheader" [../EdgedetectBaseline_host/src/edgedetect.cpp:58->../EdgedetectBaseline_host/src/edgedetect.cpp:206]   --->   Operation 133 'br' 'br_ln58' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 130 [1/1] (0.00ns)   --->   "%speclooptripcount_ln31 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 478, i64 478, i64 478" [../EdgedetectBaseline_host/src/edgedetect.cpp:31->../EdgedetectBaseline_host/src/edgedetect.cpp:203]   --->   Operation 130 'speclooptripcount' 'speclooptripcount_ln31' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 131 [1/1] (0.00ns)   --->   "%specloopname_ln58 = specloopname void @_ssdm_op_SpecLoopName, void @empty_10" [../EdgedetectBaseline_host/src/edgedetect.cpp:58->../EdgedetectBaseline_host/src/edgedetect.cpp:203]   --->   Operation 131 'specloopname' 'specloopname_ln58' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 132 [1/2] (0.00ns)   --->   "%call_ln55 = call void @edgedetect_Pipeline_VITIS_LOOP_60_4, i512 %gmem, i19 %empty, i8 %image_gray, i8 %image_gray_1, i8 %image_gray_2, i8 %image_gray_3, i8 %image_gray_4, i8 %image_gray_5, i19 %empty_45, i19 %empty_43, i6 %normal_factor_2_loc_load, i1 %icmp_ln55, i19 %empty, i64 %output_r_read" [../EdgedetectBaseline_host/src/edgedetect.cpp:55->../EdgedetectBaseline_host/src/edgedetect.cpp:203]   --->   Operation 132 'call' 'call_ln55' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_7 : Operation 133 [1/1] (0.00ns)   --->   "%br_ln58 = br i1 %icmp_ln58, void %VITIS_LOOP_60_4.i, void %for.inc.i20.preheader" [../EdgedetectBaseline_host/src/edgedetect.cpp:58->../EdgedetectBaseline_host/src/edgedetect.cpp:203]   --->   Operation 133 'br' 'br_ln58' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 134 [2/2] (0.00ns)   --->   "%call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_97_1_VITIS_LOOP_99_2, i5 %normal_factor_5_loc, i8 %convolve2d_vertical_unsigned_char_unsigned_char_filter"   --->   Operation 134 'call' 'call_ln0' <Predicate = (icmp_ln58)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_7 : Operation 135 [2/2] (0.00ns)   --->   "%call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_147_1_VITIS_LOOP_149_2, i5 %normal_factor_8_loc, i8 %convolve2d_horizontal_unsigned_char_unsigned_char_filter"   --->   Operation 135 'call' 'call_ln0' <Predicate = (icmp_ln58)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
@@ -247,236 +247,236 @@ ST_8 : Operation 137 [1/2] (1.65ns)   --->   "%call_ln0 = call void @edgedetect_
 
 State 9 <SV = 8> <Delay = 0.78>
 ST_9 : Operation 138 [1/1] (0.00ns)   --->   "%normal_factor_5_loc_load = load i5 %normal_factor_5_loc"   --->   Operation 138 'load' 'normal_factor_5_loc_load' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 139 [1/1] (0.78ns)   --->   "%icmp_ln105 = icmp_eq  i5 %normal_factor_5_loc_load, i5 0" [../EdgedetectBaseline_host/src/edgedetect.cpp:105->../EdgedetectBaseline_host/src/edgedetect.cpp:208]   --->   Operation 139 'icmp' 'icmp_ln105' <Predicate = true> <Delay = 0.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_9 : Operation 140 [2/2] (0.00ns)   --->   "%call_ln105 = call void @edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4, i512 %gmem, i8 %image_gray_5, i8 %image_gray_4, i8 %image_gray_3, i8 %image_gray_2, i8 %image_gray_1, i8 %image_gray, i64 %output_r_read, i5 %normal_factor_5_loc_load, i1 %icmp_ln105" [../EdgedetectBaseline_host/src/edgedetect.cpp:105->../EdgedetectBaseline_host/src/edgedetect.cpp:208]   --->   Operation 140 'call' 'call_ln105' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_9 : Operation 139 [1/1] (0.78ns)   --->   "%icmp_ln105 = icmp_eq  i5 %normal_factor_5_loc_load, i5 0" [../EdgedetectBaseline_host/src/edgedetect.cpp:105->../EdgedetectBaseline_host/src/edgedetect.cpp:205]   --->   Operation 139 'icmp' 'icmp_ln105' <Predicate = true> <Delay = 0.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 140 [2/2] (0.00ns)   --->   "%call_ln105 = call void @edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4, i512 %gmem, i8 %image_gray_5, i8 %image_gray_4, i8 %image_gray_3, i8 %image_gray_2, i8 %image_gray_1, i8 %image_gray, i64 %output_r_read, i5 %normal_factor_5_loc_load, i1 %icmp_ln105" [../EdgedetectBaseline_host/src/edgedetect.cpp:105->../EdgedetectBaseline_host/src/edgedetect.cpp:205]   --->   Operation 140 'call' 'call_ln105' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 10 <SV = 9> <Delay = 0.00>
-ST_10 : Operation 141 [1/2] (0.00ns)   --->   "%call_ln105 = call void @edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4, i512 %gmem, i8 %image_gray_5, i8 %image_gray_4, i8 %image_gray_3, i8 %image_gray_2, i8 %image_gray_1, i8 %image_gray, i64 %output_r_read, i5 %normal_factor_5_loc_load, i1 %icmp_ln105" [../EdgedetectBaseline_host/src/edgedetect.cpp:105->../EdgedetectBaseline_host/src/edgedetect.cpp:208]   --->   Operation 141 'call' 'call_ln105' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_10 : Operation 141 [1/2] (0.00ns)   --->   "%call_ln105 = call void @edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4, i512 %gmem, i8 %image_gray_5, i8 %image_gray_4, i8 %image_gray_3, i8 %image_gray_2, i8 %image_gray_1, i8 %image_gray, i64 %output_r_read, i5 %normal_factor_5_loc_load, i1 %icmp_ln105" [../EdgedetectBaseline_host/src/edgedetect.cpp:105->../EdgedetectBaseline_host/src/edgedetect.cpp:205]   --->   Operation 141 'call' 'call_ln105' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 11 <SV = 10> <Delay = 0.78>
 ST_11 : Operation 142 [1/1] (0.00ns)   --->   "%normal_factor_8_loc_load = load i5 %normal_factor_8_loc"   --->   Operation 142 'load' 'normal_factor_8_loc_load' <Predicate = true> <Delay = 0.00>
-ST_11 : Operation 143 [1/1] (0.78ns)   --->   "%icmp_ln155 = icmp_eq  i5 %normal_factor_8_loc_load, i5 0" [../EdgedetectBaseline_host/src/edgedetect.cpp:155->../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 143 'icmp' 'icmp_ln155' <Predicate = true> <Delay = 0.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_11 : Operation 144 [2/2] (0.00ns)   --->   "%call_ln155 = call void @edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4, i512 %gmem, i64 %output_r_read, i5 %normal_factor_8_loc_load, i1 %icmp_ln155, i8 %temp_buf" [../EdgedetectBaseline_host/src/edgedetect.cpp:155->../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 144 'call' 'call_ln155' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_11 : Operation 145 [1/1] (0.00ns)   --->   "%trunc_ln8 = partselect i58 @_ssdm_op_PartSelect.i58.i64.i32.i32, i64 %output_r_read, i32 6, i32 63" [../EdgedetectBaseline_host/src/edgedetect.cpp:183->../EdgedetectBaseline_host/src/edgedetect.cpp:212]   --->   Operation 145 'partselect' 'trunc_ln8' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 143 [1/1] (0.78ns)   --->   "%icmp_ln155 = icmp_eq  i5 %normal_factor_8_loc_load, i5 0" [../EdgedetectBaseline_host/src/edgedetect.cpp:155->../EdgedetectBaseline_host/src/edgedetect.cpp:207]   --->   Operation 143 'icmp' 'icmp_ln155' <Predicate = true> <Delay = 0.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 144 [2/2] (0.00ns)   --->   "%call_ln155 = call void @edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4, i512 %gmem, i64 %output_r_read, i5 %normal_factor_8_loc_load, i1 %icmp_ln155, i8 %temp_buf" [../EdgedetectBaseline_host/src/edgedetect.cpp:155->../EdgedetectBaseline_host/src/edgedetect.cpp:207]   --->   Operation 144 'call' 'call_ln155' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_11 : Operation 145 [1/1] (0.00ns)   --->   "%trunc_ln8 = partselect i58 @_ssdm_op_PartSelect.i58.i64.i32.i32, i64 %output_r_read, i32 6, i32 63" [../EdgedetectBaseline_host/src/edgedetect.cpp:183->../EdgedetectBaseline_host/src/edgedetect.cpp:209]   --->   Operation 145 'partselect' 'trunc_ln8' <Predicate = true> <Delay = 0.00>
 
 State 12 <SV = 11> <Delay = 0.00>
-ST_12 : Operation 146 [1/2] (0.00ns)   --->   "%call_ln155 = call void @edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4, i512 %gmem, i64 %output_r_read, i5 %normal_factor_8_loc_load, i1 %icmp_ln155, i8 %temp_buf" [../EdgedetectBaseline_host/src/edgedetect.cpp:155->../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 146 'call' 'call_ln155' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_12 : Operation 146 [1/2] (0.00ns)   --->   "%call_ln155 = call void @edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4, i512 %gmem, i64 %output_r_read, i5 %normal_factor_8_loc_load, i1 %icmp_ln155, i8 %temp_buf" [../EdgedetectBaseline_host/src/edgedetect.cpp:155->../EdgedetectBaseline_host/src/edgedetect.cpp:207]   --->   Operation 146 'call' 'call_ln155' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 13 <SV = 12> <Delay = 4.86>
-ST_13 : Operation 147 [1/1] (0.00ns)   --->   "%sext_ln183 = sext i58 %trunc_ln8" [../EdgedetectBaseline_host/src/edgedetect.cpp:183->../EdgedetectBaseline_host/src/edgedetect.cpp:212]   --->   Operation 147 'sext' 'sext_ln183' <Predicate = true> <Delay = 0.00>
-ST_13 : Operation 148 [1/1] (0.00ns)   --->   "%gmem_addr = getelementptr i512 %gmem, i64 %sext_ln183" [../EdgedetectBaseline_host/src/edgedetect.cpp:183->../EdgedetectBaseline_host/src/edgedetect.cpp:212]   --->   Operation 148 'getelementptr' 'gmem_addr' <Predicate = true> <Delay = 0.00>
-ST_13 : Operation 149 [1/1] (4.86ns)   --->   "%empty_46 = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i512, i512 %gmem_addr, i64 4800" [../EdgedetectBaseline_host/src/edgedetect.cpp:183->../EdgedetectBaseline_host/src/edgedetect.cpp:212]   --->   Operation 149 'writereq' 'empty_46' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_13 : Operation 147 [1/1] (0.00ns)   --->   "%sext_ln183 = sext i58 %trunc_ln8" [../EdgedetectBaseline_host/src/edgedetect.cpp:183->../EdgedetectBaseline_host/src/edgedetect.cpp:209]   --->   Operation 147 'sext' 'sext_ln183' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 148 [1/1] (0.00ns)   --->   "%gmem_addr = getelementptr i512 %gmem, i64 %sext_ln183" [../EdgedetectBaseline_host/src/edgedetect.cpp:183->../EdgedetectBaseline_host/src/edgedetect.cpp:209]   --->   Operation 148 'getelementptr' 'gmem_addr' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 149 [1/1] (4.86ns)   --->   "%empty_46 = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i512, i512 %gmem_addr, i64 4800" [../EdgedetectBaseline_host/src/edgedetect.cpp:183->../EdgedetectBaseline_host/src/edgedetect.cpp:209]   --->   Operation 149 'writereq' 'empty_46' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 14 <SV = 13> <Delay = 0.00>
-ST_14 : Operation 150 [2/2] (0.00ns)   --->   "%call_ln183 = call void @edgedetect_Pipeline_VITIS_LOOP_183_1_VITIS_LOOP_185_2, i512 %gmem, i58 %trunc_ln8, i8 %image_gray, i8 %image_gray_1, i8 %image_gray_2, i8 %image_gray_3, i8 %image_gray_4, i8 %image_gray_5, i8 %temp_buf" [../EdgedetectBaseline_host/src/edgedetect.cpp:183->../EdgedetectBaseline_host/src/edgedetect.cpp:212]   --->   Operation 150 'call' 'call_ln183' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_14 : Operation 150 [2/2] (0.00ns)   --->   "%call_ln183 = call void @edgedetect_Pipeline_VITIS_LOOP_183_1_VITIS_LOOP_185_2, i512 %gmem, i58 %trunc_ln8, i8 %image_gray, i8 %image_gray_1, i8 %image_gray_2, i8 %image_gray_3, i8 %image_gray_4, i8 %image_gray_5, i8 %temp_buf" [../EdgedetectBaseline_host/src/edgedetect.cpp:183->../EdgedetectBaseline_host/src/edgedetect.cpp:209]   --->   Operation 150 'call' 'call_ln183' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 15 <SV = 14> <Delay = 0.00>
-ST_15 : Operation 151 [1/2] (0.00ns)   --->   "%call_ln183 = call void @edgedetect_Pipeline_VITIS_LOOP_183_1_VITIS_LOOP_185_2, i512 %gmem, i58 %trunc_ln8, i8 %image_gray, i8 %image_gray_1, i8 %image_gray_2, i8 %image_gray_3, i8 %image_gray_4, i8 %image_gray_5, i8 %temp_buf" [../EdgedetectBaseline_host/src/edgedetect.cpp:183->../EdgedetectBaseline_host/src/edgedetect.cpp:212]   --->   Operation 151 'call' 'call_ln183' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_15 : Operation 151 [1/2] (0.00ns)   --->   "%call_ln183 = call void @edgedetect_Pipeline_VITIS_LOOP_183_1_VITIS_LOOP_185_2, i512 %gmem, i58 %trunc_ln8, i8 %image_gray, i8 %image_gray_1, i8 %image_gray_2, i8 %image_gray_3, i8 %image_gray_4, i8 %image_gray_5, i8 %temp_buf" [../EdgedetectBaseline_host/src/edgedetect.cpp:183->../EdgedetectBaseline_host/src/edgedetect.cpp:209]   --->   Operation 151 'call' 'call_ln183' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 16 <SV = 15> <Delay = 4.86>
-ST_16 : Operation 152 [68/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 152 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_16 : Operation 152 [68/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 152 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 17 <SV = 16> <Delay = 4.86>
-ST_17 : Operation 153 [67/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 153 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_17 : Operation 153 [67/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 153 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 18 <SV = 17> <Delay = 4.86>
-ST_18 : Operation 154 [66/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 154 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_18 : Operation 154 [66/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 154 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 19 <SV = 18> <Delay = 4.86>
-ST_19 : Operation 155 [65/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 155 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_19 : Operation 155 [65/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 155 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 20 <SV = 19> <Delay = 4.86>
-ST_20 : Operation 156 [64/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 156 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_20 : Operation 156 [64/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 156 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 21 <SV = 20> <Delay = 4.86>
-ST_21 : Operation 157 [63/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 157 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_21 : Operation 157 [63/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 157 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 22 <SV = 21> <Delay = 4.86>
-ST_22 : Operation 158 [62/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 158 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_22 : Operation 158 [62/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 158 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 23 <SV = 22> <Delay = 4.86>
-ST_23 : Operation 159 [61/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 159 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_23 : Operation 159 [61/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 159 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 24 <SV = 23> <Delay = 4.86>
-ST_24 : Operation 160 [60/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 160 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_24 : Operation 160 [60/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 160 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 25 <SV = 24> <Delay = 4.86>
-ST_25 : Operation 161 [59/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 161 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_25 : Operation 161 [59/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 161 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 26 <SV = 25> <Delay = 4.86>
-ST_26 : Operation 162 [58/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 162 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_26 : Operation 162 [58/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 162 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 27 <SV = 26> <Delay = 4.86>
-ST_27 : Operation 163 [57/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 163 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_27 : Operation 163 [57/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 163 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 28 <SV = 27> <Delay = 4.86>
-ST_28 : Operation 164 [56/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 164 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_28 : Operation 164 [56/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 164 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 29 <SV = 28> <Delay = 4.86>
-ST_29 : Operation 165 [55/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 165 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_29 : Operation 165 [55/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 165 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 30 <SV = 29> <Delay = 4.86>
-ST_30 : Operation 166 [54/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 166 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_30 : Operation 166 [54/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 166 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 31 <SV = 30> <Delay = 4.86>
-ST_31 : Operation 167 [53/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 167 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_31 : Operation 167 [53/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 167 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 32 <SV = 31> <Delay = 4.86>
-ST_32 : Operation 168 [52/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 168 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_32 : Operation 168 [52/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 168 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 33 <SV = 32> <Delay = 4.86>
-ST_33 : Operation 169 [51/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 169 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_33 : Operation 169 [51/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 169 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 34 <SV = 33> <Delay = 4.86>
-ST_34 : Operation 170 [50/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 170 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_34 : Operation 170 [50/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 170 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 35 <SV = 34> <Delay = 4.86>
-ST_35 : Operation 171 [49/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 171 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_35 : Operation 171 [49/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 171 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 36 <SV = 35> <Delay = 4.86>
-ST_36 : Operation 172 [48/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 172 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_36 : Operation 172 [48/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 172 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 37 <SV = 36> <Delay = 4.86>
-ST_37 : Operation 173 [47/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 173 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_37 : Operation 173 [47/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 173 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 38 <SV = 37> <Delay = 4.86>
-ST_38 : Operation 174 [46/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 174 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_38 : Operation 174 [46/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 174 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 39 <SV = 38> <Delay = 4.86>
-ST_39 : Operation 175 [45/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 175 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_39 : Operation 175 [45/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 175 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 40 <SV = 39> <Delay = 4.86>
-ST_40 : Operation 176 [44/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 176 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_40 : Operation 176 [44/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 176 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 41 <SV = 40> <Delay = 4.86>
-ST_41 : Operation 177 [43/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 177 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_41 : Operation 177 [43/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 177 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 42 <SV = 41> <Delay = 4.86>
-ST_42 : Operation 178 [42/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 178 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_42 : Operation 178 [42/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 178 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 43 <SV = 42> <Delay = 4.86>
-ST_43 : Operation 179 [41/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 179 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_43 : Operation 179 [41/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 179 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 44 <SV = 43> <Delay = 4.86>
-ST_44 : Operation 180 [40/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 180 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_44 : Operation 180 [40/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 180 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 45 <SV = 44> <Delay = 4.86>
-ST_45 : Operation 181 [39/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 181 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_45 : Operation 181 [39/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 181 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 46 <SV = 45> <Delay = 4.86>
-ST_46 : Operation 182 [38/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 182 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_46 : Operation 182 [38/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 182 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 47 <SV = 46> <Delay = 4.86>
-ST_47 : Operation 183 [37/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 183 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_47 : Operation 183 [37/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 183 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 48 <SV = 47> <Delay = 4.86>
-ST_48 : Operation 184 [36/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 184 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_48 : Operation 184 [36/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 184 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 49 <SV = 48> <Delay = 4.86>
-ST_49 : Operation 185 [35/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 185 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_49 : Operation 185 [35/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 185 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 50 <SV = 49> <Delay = 4.86>
-ST_50 : Operation 186 [34/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 186 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_50 : Operation 186 [34/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 186 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 51 <SV = 50> <Delay = 4.86>
-ST_51 : Operation 187 [33/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 187 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_51 : Operation 187 [33/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 187 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 52 <SV = 51> <Delay = 4.86>
-ST_52 : Operation 188 [32/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 188 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_52 : Operation 188 [32/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 188 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 53 <SV = 52> <Delay = 4.86>
-ST_53 : Operation 189 [31/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 189 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_53 : Operation 189 [31/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 189 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 54 <SV = 53> <Delay = 4.86>
-ST_54 : Operation 190 [30/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 190 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_54 : Operation 190 [30/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 190 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 55 <SV = 54> <Delay = 4.86>
-ST_55 : Operation 191 [29/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 191 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_55 : Operation 191 [29/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 191 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 56 <SV = 55> <Delay = 4.86>
-ST_56 : Operation 192 [28/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 192 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_56 : Operation 192 [28/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 192 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 57 <SV = 56> <Delay = 4.86>
-ST_57 : Operation 193 [27/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 193 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_57 : Operation 193 [27/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 193 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 58 <SV = 57> <Delay = 4.86>
-ST_58 : Operation 194 [26/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 194 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_58 : Operation 194 [26/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 194 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 59 <SV = 58> <Delay = 4.86>
-ST_59 : Operation 195 [25/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 195 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_59 : Operation 195 [25/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 195 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 60 <SV = 59> <Delay = 4.86>
-ST_60 : Operation 196 [24/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 196 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_60 : Operation 196 [24/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 196 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 61 <SV = 60> <Delay = 4.86>
-ST_61 : Operation 197 [23/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 197 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_61 : Operation 197 [23/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 197 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 62 <SV = 61> <Delay = 4.86>
-ST_62 : Operation 198 [22/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 198 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_62 : Operation 198 [22/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 198 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 63 <SV = 62> <Delay = 4.86>
-ST_63 : Operation 199 [21/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 199 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_63 : Operation 199 [21/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 199 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 64 <SV = 63> <Delay = 4.86>
-ST_64 : Operation 200 [20/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 200 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_64 : Operation 200 [20/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 200 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 65 <SV = 64> <Delay = 4.86>
-ST_65 : Operation 201 [19/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 201 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_65 : Operation 201 [19/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 201 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 66 <SV = 65> <Delay = 4.86>
-ST_66 : Operation 202 [18/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 202 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_66 : Operation 202 [18/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 202 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 67 <SV = 66> <Delay = 4.86>
-ST_67 : Operation 203 [17/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 203 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_67 : Operation 203 [17/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 203 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 68 <SV = 67> <Delay = 4.86>
-ST_68 : Operation 204 [16/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 204 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_68 : Operation 204 [16/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 204 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 69 <SV = 68> <Delay = 4.86>
-ST_69 : Operation 205 [15/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 205 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_69 : Operation 205 [15/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 205 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 70 <SV = 69> <Delay = 4.86>
-ST_70 : Operation 206 [14/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 206 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_70 : Operation 206 [14/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 206 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 71 <SV = 70> <Delay = 4.86>
-ST_71 : Operation 207 [13/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 207 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_71 : Operation 207 [13/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 207 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 72 <SV = 71> <Delay = 4.86>
-ST_72 : Operation 208 [12/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 208 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_72 : Operation 208 [12/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 208 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 73 <SV = 72> <Delay = 4.86>
-ST_73 : Operation 209 [11/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 209 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_73 : Operation 209 [11/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 209 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 74 <SV = 73> <Delay = 4.86>
-ST_74 : Operation 210 [10/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 210 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_74 : Operation 210 [10/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 210 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 75 <SV = 74> <Delay = 4.86>
-ST_75 : Operation 211 [9/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 211 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_75 : Operation 211 [9/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 211 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 76 <SV = 75> <Delay = 4.86>
-ST_76 : Operation 212 [8/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 212 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_76 : Operation 212 [8/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 212 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 77 <SV = 76> <Delay = 4.86>
-ST_77 : Operation 213 [7/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 213 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_77 : Operation 213 [7/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 213 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 78 <SV = 77> <Delay = 4.86>
-ST_78 : Operation 214 [6/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 214 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_78 : Operation 214 [6/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 214 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 79 <SV = 78> <Delay = 4.86>
-ST_79 : Operation 215 [5/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 215 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_79 : Operation 215 [5/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 215 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 80 <SV = 79> <Delay = 4.86>
-ST_80 : Operation 216 [4/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 216 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_80 : Operation 216 [4/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 216 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 81 <SV = 80> <Delay = 4.86>
-ST_81 : Operation 217 [3/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 217 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_81 : Operation 217 [3/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 217 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 82 <SV = 81> <Delay = 4.86>
-ST_82 : Operation 218 [2/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 218 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_82 : Operation 218 [2/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 218 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 83 <SV = 82> <Delay = 4.86>
-ST_83 : Operation 219 [1/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 219 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
-ST_83 : Operation 220 [1/1] (0.00ns)   --->   "%ret_ln213 = ret" [../EdgedetectBaseline_host/src/edgedetect.cpp:213]   --->   Operation 220 'ret' 'ret_ln213' <Predicate = true> <Delay = 0.00>
+ST_83 : Operation 219 [1/68] (4.86ns)   --->   "%empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i512, i512 %gmem_addr" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 219 'writeresp' 'empty_47' <Predicate = true> <Delay = 4.86> <CoreInst = "m_axi">   --->   Core 119 'm_axi' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_83 : Operation 220 [1/1] (0.00ns)   --->   "%ret_ln210 = ret" [../EdgedetectBaseline_host/src/edgedetect.cpp:210]   --->   Operation 220 'ret' 'ret_ln210' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -518,8 +518,8 @@ store_ln31               (store            ) [ 000000000000000000000000000000000
 call_ln0                 (call             ) [ 000000000000000000000000000000000000000000000000000000000000000000000000000000000000]
 call_ln0                 (call             ) [ 000000000000000000000000000000000000000000000000000000000000000000000000000000000000]
 call_ln0                 (call             ) [ 000000000000000000000000000000000000000000000000000000000000000000000000000000000000]
-output_r_read            (read             ) [ 000011111111100000000000000000000000000000000000000000000000000000000000000000000000]
 image_rgb_read           (read             ) [ 000010000000000000000000000000000000000000000000000000000000000000000000000000000000]
+output_r_read            (read             ) [ 000001111111100000000000000000000000000000000000000000000000000000000000000000000000]
 spectopmodule_ln196      (spectopmodule    ) [ 000000000000000000000000000000000000000000000000000000000000000000000000000000000000]
 specinterface_ln196      (specinterface    ) [ 000000000000000000000000000000000000000000000000000000000000000000000000000000000000]
 specinterface_ln0        (specinterface    ) [ 000000000000000000000000000000000000000000000000000000000000000000000000000000000000]
@@ -562,7 +562,7 @@ gmem_addr                (getelementptr    ) [ 000000000000001111111111111111111
 empty_46                 (writereq         ) [ 000000000000000000000000000000000000000000000000000000000000000000000000000000000000]
 call_ln183               (call             ) [ 000000000000000000000000000000000000000000000000000000000000000000000000000000000000]
 empty_47                 (writeresp        ) [ 000000000000000000000000000000000000000000000000000000000000000000000000000000000000]
-ret_ln213                (ret              ) [ 000000000000000000000000000000000000000000000000000000000000000000000000000000000000]
+ret_ln210                (ret              ) [ 000000000000000000000000000000000000000000000000000000000000000000000000000000000000]
 </LifeTime>
 
 <model>
@@ -694,7 +694,7 @@ ret_ln213                (ret              ) [ 000000000000000000000000000000000
 <pin id="27" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="_ssdm_op_Read.s_axilite.i64"/></StgValue>
+<StgValue><ssdm name="_ssdm_op_Read.ap_none.i64"/></StgValue>
 </bind>
 </comp>
 
@@ -1224,27 +1224,27 @@ ret_ln213                (ret              ) [ 000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="162" class="1004" name="output_r_read_read_fu_162">
+<comp id="162" class="1004" name="image_rgb_read_read_fu_162">
 <pin_list>
 <pin id="163" dir="0" index="0" bw="64" slack="0"/>
 <pin id="164" dir="0" index="1" bw="64" slack="0"/>
-<pin id="165" dir="1" index="2" bw="64" slack="3"/>
-</pin_list>
-<bind>
-<opcode="read(1150) " fcode="read"/>
-<opset="output_r_read/3 "/>
-</bind>
-</comp>
-
-<comp id="168" class="1004" name="image_rgb_read_read_fu_168">
-<pin_list>
-<pin id="169" dir="0" index="0" bw="64" slack="0"/>
-<pin id="170" dir="0" index="1" bw="64" slack="0"/>
-<pin id="171" dir="1" index="2" bw="64" slack="0"/>
+<pin id="165" dir="1" index="2" bw="64" slack="0"/>
 </pin_list>
 <bind>
 <opcode="read(1150) " fcode="read"/>
 <opset="image_rgb_read/3 "/>
+</bind>
+</comp>
+
+<comp id="168" class="1004" name="output_r_read_read_fu_168">
+<pin_list>
+<pin id="169" dir="0" index="0" bw="64" slack="0"/>
+<pin id="170" dir="0" index="1" bw="64" slack="0"/>
+<pin id="171" dir="1" index="2" bw="64" slack="2"/>
+</pin_list>
+<bind>
+<opcode="read(1150) " fcode="read"/>
+<opset="output_r_read/4 "/>
 </bind>
 </comp>
 
@@ -1339,7 +1339,7 @@ ret_ln213                (ret              ) [ 000000000000000000000000000000000
 <pin id="239" dir="0" index="11" bw="6" slack="2147483647"/>
 <pin id="240" dir="0" index="12" bw="1" slack="2"/>
 <pin id="241" dir="0" index="13" bw="19" slack="1"/>
-<pin id="242" dir="0" index="14" bw="64" slack="3"/>
+<pin id="242" dir="0" index="14" bw="64" slack="2"/>
 <pin id="243" dir="1" index="15" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
@@ -1384,7 +1384,7 @@ ret_ln213                (ret              ) [ 000000000000000000000000000000000
 <pin id="266" dir="0" index="5" bw="8" slack="2147483647"/>
 <pin id="267" dir="0" index="6" bw="8" slack="2147483647"/>
 <pin id="268" dir="0" index="7" bw="8" slack="2147483647"/>
-<pin id="269" dir="0" index="8" bw="64" slack="6"/>
+<pin id="269" dir="0" index="8" bw="64" slack="5"/>
 <pin id="270" dir="0" index="9" bw="5" slack="0"/>
 <pin id="271" dir="0" index="10" bw="1" slack="0"/>
 <pin id="272" dir="1" index="11" bw="0" slack="2147483647"/>
@@ -1399,7 +1399,7 @@ ret_ln213                (ret              ) [ 000000000000000000000000000000000
 <pin_list>
 <pin id="276" dir="0" index="0" bw="0" slack="0"/>
 <pin id="277" dir="0" index="1" bw="512" slack="0"/>
-<pin id="278" dir="0" index="2" bw="64" slack="8"/>
+<pin id="278" dir="0" index="2" bw="64" slack="7"/>
 <pin id="279" dir="0" index="3" bw="5" slack="0"/>
 <pin id="280" dir="0" index="4" bw="1" slack="0"/>
 <pin id="281" dir="0" index="5" bw="8" slack="2147483647"/>
@@ -1646,7 +1646,7 @@ ret_ln213                (ret              ) [ 000000000000000000000000000000000
 <comp id="397" class="1004" name="trunc_ln8_fu_397">
 <pin_list>
 <pin id="398" dir="0" index="0" bw="58" slack="0"/>
-<pin id="399" dir="0" index="1" bw="64" slack="8"/>
+<pin id="399" dir="0" index="1" bw="64" slack="7"/>
 <pin id="400" dir="0" index="2" bw="4" slack="0"/>
 <pin id="401" dir="0" index="3" bw="7" slack="0"/>
 <pin id="402" dir="1" index="4" bw="58" slack="2"/>
@@ -1720,23 +1720,23 @@ ret_ln213                (ret              ) [ 000000000000000000000000000000000
 </bind>
 </comp>
 
-<comp id="441" class="1005" name="output_r_read_reg_441">
+<comp id="441" class="1005" name="image_rgb_read_reg_441">
 <pin_list>
-<pin id="442" dir="0" index="0" bw="64" slack="3"/>
-<pin id="443" dir="1" index="1" bw="64" slack="3"/>
-</pin_list>
-<bind>
-<opset="output_r_read "/>
-</bind>
-</comp>
-
-<comp id="449" class="1005" name="image_rgb_read_reg_449">
-<pin_list>
-<pin id="450" dir="0" index="0" bw="64" slack="1"/>
-<pin id="451" dir="1" index="1" bw="64" slack="1"/>
+<pin id="442" dir="0" index="0" bw="64" slack="1"/>
+<pin id="443" dir="1" index="1" bw="64" slack="1"/>
 </pin_list>
 <bind>
 <opset="image_rgb_read "/>
+</bind>
+</comp>
+
+<comp id="446" class="1005" name="output_r_read_reg_446">
+<pin_list>
+<pin id="447" dir="0" index="0" bw="64" slack="2"/>
+<pin id="448" dir="1" index="1" bw="64" slack="2"/>
+</pin_list>
+<bind>
+<opset="output_r_read "/>
 </bind>
 </comp>
 
@@ -1857,11 +1857,11 @@ ret_ln213                (ret              ) [ 000000000000000000000000000000000
 
 <net id="166"><net_src comp="26" pin="0"/><net_sink comp="162" pin=0"/></net>
 
-<net id="167"><net_src comp="4" pin="0"/><net_sink comp="162" pin=1"/></net>
+<net id="167"><net_src comp="2" pin="0"/><net_sink comp="162" pin=1"/></net>
 
 <net id="172"><net_src comp="26" pin="0"/><net_sink comp="168" pin=0"/></net>
 
-<net id="173"><net_src comp="2" pin="0"/><net_sink comp="168" pin=1"/></net>
+<net id="173"><net_src comp="4" pin="0"/><net_sink comp="168" pin=1"/></net>
 
 <net id="179"><net_src comp="110" pin="0"/><net_sink comp="174" pin=0"/></net>
 
@@ -1895,7 +1895,7 @@ ret_ln213                (ret              ) [ 000000000000000000000000000000000
 
 <net id="224"><net_src comp="0" pin="0"/><net_sink comp="211" pin=1"/></net>
 
-<net id="225"><net_src comp="168" pin="2"/><net_sink comp="211" pin=8"/></net>
+<net id="225"><net_src comp="162" pin="2"/><net_sink comp="211" pin=8"/></net>
 
 <net id="226"><net_src comp="6" pin="0"/><net_sink comp="211" pin=9"/></net>
 
@@ -2023,17 +2023,17 @@ ret_ln213                (ret              ) [ 000000000000000000000000000000000
 
 <net id="444"><net_src comp="162" pin="2"/><net_sink comp="441" pin=0"/></net>
 
-<net id="445"><net_src comp="441" pin="1"/><net_sink comp="227" pin=14"/></net>
+<net id="445"><net_src comp="441" pin="1"/><net_sink comp="211" pin=8"/></net>
 
-<net id="446"><net_src comp="441" pin="1"/><net_sink comp="260" pin=8"/></net>
+<net id="449"><net_src comp="168" pin="2"/><net_sink comp="446" pin=0"/></net>
 
-<net id="447"><net_src comp="441" pin="1"/><net_sink comp="275" pin=2"/></net>
+<net id="450"><net_src comp="446" pin="1"/><net_sink comp="227" pin=14"/></net>
 
-<net id="448"><net_src comp="441" pin="1"/><net_sink comp="397" pin=1"/></net>
+<net id="451"><net_src comp="446" pin="1"/><net_sink comp="260" pin=8"/></net>
 
-<net id="452"><net_src comp="168" pin="2"/><net_sink comp="449" pin=0"/></net>
+<net id="452"><net_src comp="446" pin="1"/><net_sink comp="275" pin=2"/></net>
 
-<net id="453"><net_src comp="449" pin="1"/><net_sink comp="211" pin=8"/></net>
+<net id="453"><net_src comp="446" pin="1"/><net_sink comp="397" pin=1"/></net>
 
 <net id="460"><net_src comp="307" pin="2"/><net_sink comp="457" pin=0"/></net>
 
@@ -2088,7 +2088,7 @@ ret_ln213                (ret              ) [ 000000000000000000000000000000000
  - Input state : 
 	Port: edgedetect : gmem | {3 4 9 10 11 12 }
 	Port: edgedetect : image_rgb | {3 }
-	Port: edgedetect : output_r | {3 }
+	Port: edgedetect : output_r | {4 }
 	Port: edgedetect : mask_table | {3 4 }
 	Port: edgedetect : convolve2d_smoothing_unsigned_char_unsigned_char_filter | {1 2 }
 	Port: edgedetect : convolve2d_vertical_unsigned_char_unsigned_char_filter | {7 8 }
@@ -2228,8 +2228,8 @@ ret_ln213                (ret              ) [ 000000000000000000000000000000000
 |          |                         icmp_ln105_fu_379                        |    0    |    0    |    0    |    12   |
 |          |                         icmp_ln155_fu_390                        |    0    |    0    |    0    |    12   |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
-|   read   |                     output_r_read_read_fu_162                    |    0    |    0    |    0    |    0    |
-|          |                    image_rgb_read_read_fu_168                    |    0    |    0    |    0    |    0    |
+|   read   |                    image_rgb_read_read_fu_162                    |    0    |    0    |    0    |    0    |
+|          |                     output_r_read_read_fu_168                    |    0    |    0    |    0    |    0    |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
 | writeresp|                       grp_writeresp_fu_174                       |    0    |    0    |    0    |    0    |
 |----------|------------------------------------------------------------------|---------|---------|---------|---------|
@@ -2277,11 +2277,11 @@ Memories:
 |     icmp_ln155_reg_495    |    1   |
 |     icmp_ln55_reg_457     |    1   |
 |     icmp_ln58_reg_470     |    1   |
-|   image_rgb_read_reg_449  |   64   |
+|   image_rgb_read_reg_441  |   64   |
 |normal_factor_2_loc_reg_435|    6   |
 |normal_factor_5_loc_reg_429|    5   |
 |normal_factor_8_loc_reg_423|    5   |
-|   output_r_read_reg_441   |   64   |
+|   output_r_read_reg_446   |   64   |
 |         r_reg_416         |    9   |
 |     trunc_ln8_reg_500     |   58   |
 +---------------------------+--------+

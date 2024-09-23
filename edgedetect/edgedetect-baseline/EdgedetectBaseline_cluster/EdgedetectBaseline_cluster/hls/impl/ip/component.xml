@@ -3340,8 +3340,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Edgedetect</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2113743539</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2024-09-20T20:59:16Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2113743758</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2024-09-21T00:39:00Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>

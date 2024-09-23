@@ -95,7 +95,7 @@ end;
 architecture behav of edgedetect is 
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
-    "edgedetect_edgedetect,hls_ip_2024_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xczu9eg-ffvb1156-2-e,HLS_INPUT_CLOCK=6.667000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=4.866910,HLS_SYN_LAT=5249984,HLS_SYN_TPT=none,HLS_SYN_MEM=380,HLS_SYN_DSP=0,HLS_SYN_FF=22690,HLS_SYN_LUT=49682,HLS_VERSION=2024_1}";
+    "edgedetect_edgedetect,hls_ip_2024_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xczu9eg-ffvb1156-2-e,HLS_INPUT_CLOCK=6.667000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=4.866910,HLS_SYN_LAT=5249984,HLS_SYN_TPT=none,HLS_SYN_MEM=380,HLS_SYN_DSP=0,HLS_SYN_FF=22562,HLS_SYN_LUT=49682,HLS_VERSION=2024_1}";
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant ap_const_logic_0 : STD_LOGIC := '0';
     constant ap_ST_fsm_state1 : STD_LOGIC_VECTOR (82 downto 0) := "00000000000000000000000000000000000000000000000000000000000000000000000000000000001";
@@ -242,15 +242,13 @@ attribute shreg_extract of ap_rst_n_inv : signal is "no";
     signal gmem_blk_n_B : STD_LOGIC;
     signal ap_CS_fsm_state83 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state83 : signal is "none";
-    signal output_r_read_reg_441 : STD_LOGIC_VECTOR (63 downto 0);
     signal ap_CS_fsm_state3 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state3 : signal is "none";
-    signal image_rgb_read_reg_449 : STD_LOGIC_VECTOR (63 downto 0);
-    signal icmp_ln55_fu_307_p2 : STD_LOGIC_VECTOR (0 downto 0);
-    signal icmp_ln55_reg_457 : STD_LOGIC_VECTOR (0 downto 0);
     signal ap_CS_fsm_state4 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state4 : signal is "none";
     signal grp_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_fu_211_ap_done : STD_LOGIC;
+    signal icmp_ln55_fu_307_p2 : STD_LOGIC_VECTOR (0 downto 0);
+    signal icmp_ln55_reg_457 : STD_LOGIC_VECTOR (0 downto 0);
     signal empty_fu_340_p2 : STD_LOGIC_VECTOR (18 downto 0);
     signal empty_reg_462 : STD_LOGIC_VECTOR (18 downto 0);
     signal ap_CS_fsm_state5 : STD_LOGIC;
@@ -1698,7 +1696,7 @@ begin
         image_gray_ce0 => grp_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_fu_211_image_gray_ce0,
         image_gray_we0 => grp_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_fu_211_image_gray_we0,
         image_gray_d0 => grp_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_fu_211_image_gray_d0,
-        image_rgb => image_rgb_read_reg_449);
+        image_rgb => image_rgb);
 
     grp_edgedetect_Pipeline_VITIS_LOOP_60_4_fu_227 : component edgedetect_edgedetect_Pipeline_VITIS_LOOP_60_4
     port map (
@@ -1796,7 +1794,7 @@ begin
         normal_factor_2_reload => grp_edgedetect_Pipeline_VITIS_LOOP_47_1_VITIS_LOOP_49_2_fu_204_normal_factor_2_out,
         icmp_ln55 => icmp_ln55_reg_457,
         p_cast42 => empty_reg_462,
-        output_r => output_r_read_reg_441);
+        output_r => output_r);
 
     grp_edgedetect_Pipeline_VITIS_LOOP_97_1_VITIS_LOOP_99_2_fu_246 : component edgedetect_edgedetect_Pipeline_VITIS_LOOP_97_1_VITIS_LOOP_99_2
     port map (
@@ -1898,7 +1896,7 @@ begin
         image_gray_ce0 => grp_edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4_fu_260_image_gray_ce0,
         image_gray_we0 => grp_edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4_fu_260_image_gray_we0,
         image_gray_d0 => grp_edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4_fu_260_image_gray_d0,
-        output_r => output_r_read_reg_441,
+        output_r => output_r,
         normal_factor_5_reload => grp_edgedetect_Pipeline_VITIS_LOOP_97_1_VITIS_LOOP_99_2_fu_246_normal_factor_5_out,
         icmp_ln105 => icmp_ln105_reg_487);
 
@@ -1956,7 +1954,7 @@ begin
         m_axi_gmem_BRESP => ap_const_lv2_0,
         m_axi_gmem_BID => ap_const_lv1_0,
         m_axi_gmem_BUSER => ap_const_lv1_0,
-        output_r => output_r_read_reg_441,
+        output_r => output_r,
         normal_factor_8_reload => grp_edgedetect_Pipeline_VITIS_LOOP_147_1_VITIS_LOOP_149_2_fu_253_normal_factor_8_out,
         icmp_ln155 => icmp_ln155_reg_495,
         temp_buf_address0 => grp_edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4_fu_275_temp_buf_address0,
@@ -2419,7 +2417,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if ((ap_const_logic_1 = ap_CS_fsm_state11)) then
                 icmp_ln155_reg_495 <= icmp_ln155_fu_390_p2;
-                trunc_ln8_reg_500 <= output_r_read_reg_441(63 downto 6);
+                trunc_ln8_reg_500 <= output_r(63 downto 6);
             end if;
         end if;
     end process;
@@ -2428,15 +2426,6 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_logic_1 = ap_CS_fsm_state4) and (grp_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_fu_211_ap_done = ap_const_logic_1))) then
                 icmp_ln55_reg_457 <= icmp_ln55_fu_307_p2;
-            end if;
-        end if;
-    end process;
-    process (ap_clk)
-    begin
-        if (ap_clk'event and ap_clk = '1') then
-            if ((ap_const_logic_1 = ap_CS_fsm_state3)) then
-                image_rgb_read_reg_449 <= image_rgb;
-                output_r_read_reg_441 <= output_r;
             end if;
         end if;
     end process;

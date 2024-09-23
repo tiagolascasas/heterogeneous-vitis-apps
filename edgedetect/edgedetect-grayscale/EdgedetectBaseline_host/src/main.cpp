@@ -32,24 +32,24 @@ void wrapped_rgbToGrayscale(unsigned char image_rgb[H * W * 3],
   auto kernel = xrt::kernel(device, uuid, "edgedetect");
 
   auto bo_image_rgb = xrt::bo(device, H * W * 3, kernel.group_id(0));
-  auto bo_image_gray = xrt::bo(device, H * W, kernel.group_id(1));
+  auto bo_image_gray = xrt::bo(device, H * W, kernel.group_id(0));
 
   unsigned char *host_ptr_image_rgb = bo_image_rgb.map<unsigned char *>();
   unsigned char *host_ptr_image_gray = bo_image_gray.map<unsigned char *>();
 
   std::memcpy(host_ptr_image_rgb, image_rgb, H * W * 3);
-  //std::memcpy(host_ptr_image_gray, image_gray, H * W);
+  std::memcpy(host_ptr_image_gray, image_gray, H * W);
 
   bo_image_rgb.sync(XCL_BO_SYNC_BO_TO_DEVICE);
-  //bo_image_gray.sync(XCL_BO_SYNC_BO_TO_DEVICE);
+  bo_image_gray.sync(XCL_BO_SYNC_BO_TO_DEVICE);
 
   auto kernel_execution = kernel(bo_image_rgb, bo_image_gray);
-  kernel_execution.wait();
+  kernel_execution.wait(3000);
 
-  //bo_image_rgb.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
+  bo_image_rgb.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
   bo_image_gray.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
 
-  //std::memcpy(image_rgb, host_ptr_image_rgb, H * W * 3);
+  std::memcpy(image_rgb, host_ptr_image_rgb, H * W * 3);
   std::memcpy(image_gray, host_ptr_image_gray, H * W);
 }
 

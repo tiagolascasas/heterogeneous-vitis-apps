@@ -277,3 +277,31 @@ Fri Sep 20 21:56:37 2024: SERVER: destructor for server bound to port 36903
 Fri Sep 20 21:56:37 2024: XCD main fifo: Good unlink of /tmp/xcdmain56a73156-b4bd-4169-93da-15d970dfade8
 Fri Sep 20 21:56:37 2024: Server exiting with status 0.
 Fri Sep 20 21:56:37 2024: Closing log file.
+Sat Sep 21 01:29:49 2024: Running xcd server. This server was built by gradle.
+Sat Sep 21 01:29:49 2024: Server was asked to start on port: '51023'
+Sat Sep 21 01:29:49 2024: Server is using token UUID: '9c3a8bac-77b0-11ef-a262-47be80f5c439'
+Sat Sep 21 01:29:49 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Sat Sep 21 01:29:49 2024: Attempting to start server on port '51023'
+Sat Sep 21 01:29:49 2024: XCD main fifo: created main fifo '/tmp/xcdmain9c3a8bac-77b0-11ef-a262-47be80f5c439', fd read = 11
+Sat Sep 21 01:29:49 2024: Running Dispatch Server
+Sat Sep 21 01:29:49 2024: Version 2.2.0
+Sat Sep 21 01:29:50 2024: Dispatch Server: Accepted socket connection from client
+Sat Sep 21 01:29:50 2024: Starting Socket connection
+Sat Sep 21 01:29:50 2024: EXCHANGE_TOKEN received, server token: 9c3a8bac-77b0-11ef-a262-47be80f5c439, passed token: 9c3a8bac-77b0-11ef-a262-47be80f5c439
+Sat Sep 21 01:29:50 2024: SESSION_MGR: creating session with session uuid: 'ef9d180c-f524-45d8-8570-74f4260d20fd' and name 'Code Analyzer'
+Sat Sep 21 01:29:50 2024: KERNEL_SVC: creating session with uuid: 'ef9d180c-f524-45d8-8570-74f4260d20fd' and name 'Code Analyzer'
+Sat Sep 21 01:29:50 2024: GUIDANCE_SMGR: creating guidance session with uuid: 'ef9d180c-f524-45d8-8570-74f4260d20fd' and name 'Code Analyzer'
+Sat Sep 21 01:29:51 2024: SESSION_MGR: closing session for UUID 'ef9d180c-f524-45d8-8570-74f4260d20fd' with name ''
+Sat Sep 21 01:29:51 2024: KERNEL_SVC: closing session for UUID 'ef9d180c-f524-45d8-8570-74f4260d20fd' with name ''
+Sat Sep 21 01:29:51 2024: GUIDANCE_SMGR: closing session for UUID 'ef9d180c-f524-45d8-8570-74f4260d20fd' with name ''
+Sat Sep 21 01:29:51 2024: STOP_SERVER received, server token: 9c3a8bac-77b0-11ef-a262-47be80f5c439, passed token: 9c3a8bac-77b0-11ef-a262-47be80f5c439
+Sat Sep 21 01:29:51 2024: Socket received request to stop server.
+Sat Sep 21 01:29:51 2024: Dispatch Server: do_await_stop
+Sat Sep 21 01:29:51 2024: Dispatch Server: stopping mainFifo_
+Sat Sep 21 01:29:51 2024: XCD main fifo: Stopping
+Sat Sep 21 01:29:51 2024: XCD main fifo: do_read error code: Operation canceled
+Sat Sep 21 01:29:51 2024: XCD main fifo: bytes_transferred: 0
+Sat Sep 21 01:29:51 2024: SERVER: destructor for server bound to port 51023
+Sat Sep 21 01:29:51 2024: XCD main fifo: Good unlink of /tmp/xcdmain9c3a8bac-77b0-11ef-a262-47be80f5c439
+Sat Sep 21 01:29:51 2024: Server exiting with status 0.
+Sat Sep 21 01:29:51 2024: Closing log file.

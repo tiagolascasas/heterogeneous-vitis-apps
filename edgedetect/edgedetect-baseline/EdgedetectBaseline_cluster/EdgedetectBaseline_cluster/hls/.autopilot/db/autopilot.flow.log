@@ -1,11 +1,31 @@
-INFO-FLOW: Workspace /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls opened at Fri Sep 20 21:58:34 WEST 2024
+INFO-FLOW: Workspace /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls opened at Sat Sep 21 01:38:15 WEST 2024
 Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
 Execute   apply_ini /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg 
-Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(9) 
-INFO: [HLS 200-1465] Applying ini 'syn.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(9)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(15)
 Execute     add_files /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp 
 INFO: [HLS 200-10] Adding design file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/config.h' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/config.h' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(10)
+Execute     add_files -tb /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/config.h 
+INFO: [HLS 200-10] Adding test bench file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/config.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.h' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.h' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(11)
+Execute     add_files -tb /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.h 
+INFO: [HLS 200-10] Adding test bench file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/main.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/main.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(12)
+Execute     add_files -tb /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/main.cpp 
+INFO: [HLS 200-10] Adding test bench file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/main.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(13)
+Execute     add_files -tb /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.cpp 
+INFO: [HLS 200-10] Adding test bench file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.h' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.h' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(14)
+Execute     add_files -tb /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.h 
+INFO: [HLS 200-10] Adding test bench file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.h' to the project
 Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=edgedetect' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(8) 
 INFO: [HLS 200-1465] Applying ini 'syn.top=edgedetect' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(8)
 Execute     set_top edgedetect 
@@ -35,7 +55,7 @@ DBG:HLSDevice: Trying to load device library: /tools/Xilinx/Vitis_HLS/2024.1/lib
 DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /tools/Xilinx/Vivado/2024.1/data/parts/arch.xml
 DBG:HLSDevice: init success
 INFO: [HLS 200-1611] Setting target device to 'xczu9eg-ffvb1156-2-e'
-Command       create_platform done; 1.2 sec.
+Command       create_platform done; 1.11 sec.
 Execute       source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
 Execute         source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
 Execute         source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
@@ -50,16 +70,19 @@ Execute         source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/i
 Execute         source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
 Execute       ap_part_info -name xczu9eg-ffvb1156-2-e -data info 
 Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 1.33 sec.
+Command     set_part done; 1.22 sec.
 Execute     send_msg_by_id INFO @200-1465@%s 'clock=150MHz' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(7) 
 INFO: [HLS 200-1465] Applying ini 'clock=150MHz' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(7)
 Execute     create_clock -period 150MHz 
 Execute       ap_set_clock -name default -period 6.667 -unit ns -default=false 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 6.667ns.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=0' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(9)
+Execute     config_csim -code_analyzer=0 
 Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=xo' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(5) 
 INFO: [HLS 200-1465] Applying ini 'package.output.format=xo' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(5)
 Execute     config_export -format=xo 
-Command   apply_ini done; 1.36 sec.
+Command   apply_ini done; 1.26 sec.
 Execute   apply_ini /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/config.cmdline 
 Execute   csynth_design 
 Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
@@ -67,7 +90,7 @@ Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
 Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
 INFO-FLOW: Running SLX 'csynth' proc: ::SLX::run_csynth
 Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 3.08 seconds. CPU system time: 0.48 seconds. Elapsed time: 3.4 seconds; current allocated memory: 354.238 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2.96 seconds. CPU system time: 0.46 seconds. Elapsed time: 3.23 seconds; current allocated memory: 354.305 MB.
 Execute       set_directive_top edgedetect -name=edgedetect 
 Execute       source /tools/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
 Execute       source /tools/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
@@ -102,12 +125,12 @@ INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ...
 Execute       clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp std=gnu++14 -target fpga  
 INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2024.1/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp.clang-tidy.loop-label.out.log 2> /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp.clang-tidy.loop-label.err.log
 Execute         source /tools/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
-Command       clang_tidy done; 0.16 sec.
+Command       clang_tidy done; 0.15 sec.
 INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2024.1/lnx64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp.xilinx-dataflow-lawyer.err.log
 Execute       ap_part_info -name xczu9eg-ffvb1156-2-e -data info 
 INFO-FLOW: compiling source code to llvm bc
 INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2024.1/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing -hls-emit-hint-scope /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=6.667 -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot -I /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.bc -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/platform.db -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_1824.000000_DSP_2520.000000_FF_548160.000000_LUT_274080.000000_SLICE_34260.000000_URAM_0.000000 -device-name-info=xczu9eg-ffvb1156-2-e > /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp.clang.out.log 2> /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.pp.0.cpp.clang.err.log
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.57 seconds. CPU system time: 0.52 seconds. Elapsed time: 1.1 seconds; current allocated memory: 356.539 MB.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.54 seconds. CPU system time: 0.53 seconds. Elapsed time: 1.09 seconds; current allocated memory: 356.695 MB.
 INFO-FLOW: Linking Debug ...
 INFO-FLOW: Linking dut bc code.
 Execute       run_link_or_opt -out /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.0.bc -args  "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.g.bc"  
@@ -122,13 +145,13 @@ INFO-FLOW: Linking math bc lib
 Execute       run_link_or_opt -out /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.2.m1.bc -args /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed /tools/Xilinx/Vitis_HLS/2024.1/lnx64/lib/libhlsm_39.bc /tools/Xilinx/Vitis_HLS/2024.1/lnx64/lib/libhlsmc++_39.bc 
 INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2024.1/lnx64/tools/clang-3.9-csynth/bin/llvm-link /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed /tools/Xilinx/Vitis_HLS/2024.1/lnx64/lib/libhlsm_39.bc /tools/Xilinx/Vitis_HLS/2024.1/lnx64/lib/libhlsmc++_39.bc -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.2.m1.bc > /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log
 INFO-FLOW: 
-Command       run_link_or_opt done; 1.26 sec.
+Command       run_link_or_opt done; 1.24 sec.
 Execute       run_link_or_opt -opt -out /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.3.fpc.bc -args /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=edgedetect -reflow-float-conversion 
 INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2024.1/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=edgedetect -reflow-float-conversion -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.3.fpc.bc > /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log
 INFO-FLOW: 
 INFO-FLOW: Running: gen_design_size_report post-opt
 INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
-Command       run_link_or_opt done; 0.52 sec.
+Command       run_link_or_opt done; 0.55 sec.
 Execute       run_link_or_opt -out /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.4.m2.bc -args /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /tools/Xilinx/Vitis_HLS/2024.1/lnx64/lib/libfloatconversion_39.bc 
 INFO-FLOW: run_clang exec: /tools/Xilinx/Vitis_HLS/2024.1/lnx64/tools/clang-3.9-csynth/bin/llvm-link /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /tools/Xilinx/Vitis_HLS/2024.1/lnx64/lib/libfloatconversion_39.bc -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.4.m2.bc > /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log
 INFO-FLOW: 
@@ -226,31 +249,32 @@ WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argumen
 INFO: [HLS 214-115] Multiple burst writes of length 4800 and bit width 512 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../EdgedetectBaseline_host/src/edgedetect.cpp:10:22)
 INFO: [HLS 214-115] Multiple burst writes of length 4800 and bit width 512 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../EdgedetectBaseline_host/src/edgedetect.cpp:165:23)
 INFO-FLOW: DBG:PUTS: copy_raw_kernel_xml ap_link_39: copying raw kernel.xml: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/../../kernel.xml -> /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/kernel.internal.xml
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3.17 seconds. CPU system time: 0.83 seconds. Elapsed time: 7.97 seconds; current allocated memory: 360.531 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 360.531 MB.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3.36 seconds. CPU system time: 0.88 seconds. Elapsed time: 8.23 seconds; current allocated memory: 360.488 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 360.488 MB.
 Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
 Execute         cleanup_all_models 
 INFO: [HLS 200-10] Starting code transformations ...
 INFO-FLOW: Running Standard Transforms...
 Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top edgedetect -deadargelim -mem2reg -instcombine -dce -presyn-prepare -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -promote-dbg-pointer -norm-name /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.0.bc -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.1.bc -f -phase std-opt 
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 363.688 MB.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 363.836 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO-FLOW: Checking Synthesizability 1/2..
 Execute         transform -hls -syn-check -check-rec-only -scalarrepl -norm-name -dce -mem2reg -instcombine -directive-preproc -mem2reg -dse -dce -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -directive-preproc -mem2reg -dse -dce -globaldce /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.1.bc -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.2.prechk.bc -f 
 INFO-FLOW: Checking Synthesizability 2/2..
 Execute         transform -syn-check /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.2.prechk.bc -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.2.bc -f -phase syn-check 
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 366.645 MB.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 366.812 MB.
 INFO-FLOW: Compiler optimizing ...
 INFO-FLOW: Share syncheck's 1.bc for syn flow: copy /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.g.1.bc to /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.o.1.bc
 INFO-FLOW: Presyn 1...
 Execute         transform -hls -tmp /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db -interface-port-rename -directive-preproc -mem2reg -dse -dce -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -dce -resource-proc -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -ptrArgReplace -mem2reg -dce -array-seg-normalize -deadargelim -instcombine -dce -directive-preproc -mem2reg -dse -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -loop-simplify -loop-bound -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -prepare-dynamic-array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -dce -global-constprop -deadargelim -mem2reg -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -lcssa -loop-simplify -phi-select-elim -promote-global-argument -ptrArgReplace -mem2reg -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -dce -norm-name -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -accesses-merge -function-inline -complex-op-raise -inst-simplify -globaldce -func-legal -dce -loop-bound -arraycheck -bitwidthmin2 -bitwidthmin2 -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -duplicate-dataflow-processes -check-dataflow-syntax -legalize-stream-variable -globaldce -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -hls-dead-arg-elim -deadargelim -directive-preproc -canonicalize-dataflow -dce -globaldce -scalar-preprocessing -scalar-propagation2 -scalar-stream -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -clean-array-spec -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -hls-display -norm-name /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.o.1.bc -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.o.1.tmp.bc -f 
-Command         transform done; 0.14 sec.
+Command         transform done; 0.15 sec.
 INFO-FLOW: Presyn 2...
 Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -barrier -norm-name /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.o.1.tmp.bc -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.o.2.bc -f -phase presyn 
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h:13:19) to (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h:42:1) in function 'generic_floor<double>'... converting 9 basic blocks.
 INFO: [XFORM 203-602] Inlining function 'generic_floor<double>' into 'edgedetect' (/wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/src/c/floordouble.cpp:7->../EdgedetectBaseline_host/src/edgedetect.cpp:21->../EdgedetectBaseline_host/src/edgedetect.cpp:224) automatically.
 INFO: [XFORM 203-11] Balancing expressions in function 'edgedetect' (../EdgedetectBaseline_host/src/edgedetect.cpp:10:27)...33 expression(s) balanced.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.2 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.21 seconds; current allocated memory: 396.434 MB.
+Command         transform done; 0.11 sec.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.23 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.26 seconds; current allocated memory: 396.660 MB.
 Execute         transform -hls -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -loop-sink-hoist -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg-lite -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -inst-simplify -cfgopt -simplifycfg-lite -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -deadargelim -dce -canonicalize-dataflow -dce -deadargelim -globaldce -mem2reg -bram-byte-enable -inst-simplify -inst-rectify -instcombine -adce -deadargelim -load-elim -read-loop-dep -loop-simplify -loop-extract-inner -directive-preproc -bitwidthmin2 -bitwidthmin2 -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable-spec-prop -mul2addshift -deadargelim -inst-simplify -dce -mem2reg -instcombine -gvn -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg-lite -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -float-op-raise -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg-lite -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg-lite -loop-simplify -mergereturn -inst-simplify -inst-rectify -globaldce -dce -load-elim -bitop-lower -float-op-raise -fma-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -recurrence-min -dce -share-scalar-alloca -deadargelim -dce -check-stream -norm-name -legalize -inst-clarity -bitwidth -dce -validate-dataflow -dump-loop-dep-to-ir -check-all-ssdm -dump-complexity-metric /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.o.2.bc -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
 INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_10_1'(../EdgedetectBaseline_host/src/edgedetect.cpp:10:22) and 'VITIS_LOOP_13_2'(../EdgedetectBaseline_host/src/edgedetect.cpp:13:26) in function 'edgedetect' into perfectly nested loops.
 INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_41_1'(../EdgedetectBaseline_host/src/edgedetect.cpp:41:22) and 'VITIS_LOOP_43_2'(../EdgedetectBaseline_host/src/edgedetect.cpp:43:26) in function 'edgedetect' into perfectly nested loops.
@@ -269,13 +293,13 @@ INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_129_1' (../EdgedetectBa
 INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_140_3' (../EdgedetectBaseline_host/src/edgedetect.cpp:140:23) in function 'edgedetect'.
 INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_165_1' (../EdgedetectBaseline_host/src/edgedetect.cpp:165:23) in function 'edgedetect'.
 Execute           auto_get_db
-Command         transform done; 0.18 sec.
+Command         transform done; 0.19 sec.
 INFO-FLOW: Building ssdm...
 Execute         transform -hls -cdfg-build /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.o.3.bc -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.22 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.26 seconds; current allocated memory: 468.750 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.25 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.28 seconds; current allocated memory: 468.930 MB.
 INFO-FLOW: Finish building internal data model.
-Command       opt_and_import_c done; 0.57 sec.
-Command     elaborate done; 9.64 sec.
+Command       opt_and_import_c done; 0.65 sec.
+Command     elaborate done; 9.97 sec.
 Execute     ap_eval exec zip -j /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/dut.hcp $dbDir/a.o.3.bc $dbDir/${topname}.rtl_wrap.cfg.tcl $dbDir/apatb_${topname}.cpp $dbDir/apatb_${topname}_util.cpp $dbDir/apatb_${topname}_ir.ll $dbDir/mapper_${topname}.cpp $dbDir/top-io-fe.xml $dbDir/kernel.internal.xml $workdir/../hls.app 
 Execute     autosyn -from_csynth_design=1 
 INFO: [HLS 200-10] Starting hardware synthesis ...
@@ -371,7 +395,7 @@ WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOO
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 3, Depth = 112, loop 'VITIS_LOOP_10_1_VITIS_LOOP_13_2'
 INFO: [SCHED 204-11] Finished scheduling.
 Command       schedule done; 0.15 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.18 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.21 seconds; current allocated memory: 469.293 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.18 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.22 seconds; current allocated memory: 469.473 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2.verbose.sched.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -385,7 +409,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 469.293 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 469.473 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2.verbose.bind.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -401,7 +425,7 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_41_1_VITIS_LOOP_43_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 74, loop 'VITIS_LOOP_41_1_VITIS_LOOP_43_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 470.043 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.1 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 470.148 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2.verbose.sched.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -415,7 +439,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 470.043 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 470.148 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2.verbose.bind.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -443,13 +467,13 @@ WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOO
 WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4' (loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'): Unable to schedule bus request operation ('gmem_load_21_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:61->../EdgedetectBaseline_host/src/edgedetect.cpp:228) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:61->../EdgedetectBaseline_host/src/edgedetect.cpp:228) due to limited memory ports (II = 17). Please consider using a memory core with more ports or partitioning the array.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 18, Depth = 188, loop 'VITIS_LOOP_52_3_VITIS_LOOP_54_4'
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.23 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.26 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.27 seconds; current allocated memory: 474.016 MB.
+Command       schedule done; 0.26 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.27 seconds. CPU system time: 0 seconds. Elapsed time: 0.28 seconds; current allocated memory: 474.121 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4.verbose.sched.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
 Execute           ap_part_info -quiet -name xczu9eg-ffvb1156-2-e -data family 
-Command       syn_report done; 0.13 sec.
+Command       syn_report done; 0.16 sec.
 Execute       db_write -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4.sched.adb -f 
 INFO-FLOW: Finish scheduling edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4.
 Execute       set_default_model edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4 
@@ -459,7 +483,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.18 seconds. CPU system time: 0 seconds. Elapsed time: 0.18 seconds; current allocated memory: 475.566 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.2 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.22 seconds; current allocated memory: 475.668 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4.verbose.bind.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -476,7 +500,7 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_85_1_VITIS_LOOP_87_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 74, loop 'VITIS_LOOP_85_1_VITIS_LOOP_87_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.17 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.18 seconds; current allocated memory: 476.996 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.17 seconds. CPU system time: 0 seconds. Elapsed time: 0.18 seconds; current allocated memory: 477.156 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2.verbose.sched.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -490,7 +514,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 476.996 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 477.156 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2.verbose.bind.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -519,12 +543,12 @@ WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOO
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 18, Depth = 188, loop 'VITIS_LOOP_96_3_VITIS_LOOP_98_4'
 INFO: [SCHED 204-11] Finished scheduling.
 Command       schedule done; 0.22 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.24 seconds. CPU system time: 0 seconds. Elapsed time: 0.25 seconds; current allocated memory: 480.980 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.24 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.25 seconds; current allocated memory: 481.141 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4.verbose.sched.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
 Execute           ap_part_info -quiet -name xczu9eg-ffvb1156-2-e -data family 
-Command       syn_report done; 0.15 sec.
+Command       syn_report done; 0.14 sec.
 Execute       db_write -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4.sched.adb -f 
 INFO-FLOW: Finish scheduling edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4.
 Execute       set_default_model edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4 
@@ -534,7 +558,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.19 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.2 seconds; current allocated memory: 482.555 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.18 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.19 seconds; current allocated memory: 482.691 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4.verbose.bind.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -551,7 +575,7 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_129_1_VITIS_LOOP_131_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 74, loop 'VITIS_LOOP_129_1_VITIS_LOOP_131_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.18 seconds. CPU system time: 0 seconds. Elapsed time: 0.18 seconds; current allocated memory: 483.902 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.18 seconds. CPU system time: 0 seconds. Elapsed time: 0.19 seconds; current allocated memory: 484.039 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2.verbose.sched.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -565,7 +589,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 483.902 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 484.039 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2.verbose.bind.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -594,7 +618,7 @@ WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOO
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 18, Depth = 188, loop 'VITIS_LOOP_140_3_VITIS_LOOP_142_4'
 INFO: [SCHED 204-11] Finished scheduling.
 Command       schedule done; 0.24 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.26 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.26 seconds; current allocated memory: 488.066 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.26 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.27 seconds; current allocated memory: 488.176 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4.verbose.sched.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -609,12 +633,12 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.19 seconds. CPU system time: 0 seconds. Elapsed time: 0.19 seconds; current allocated memory: 489.613 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.19 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.2 seconds; current allocated memory: 489.754 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4.verbose.bind.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
 Execute           ap_part_info -quiet -name xczu9eg-ffvb1156-2-e -data family 
-Command       syn_report done; 0.14 sec.
+Command       syn_report done; 0.15 sec.
 Execute       db_write -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4.bind.adb -f 
 INFO-FLOW: Finish binding edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -627,7 +651,7 @@ INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_165_1_VITIS_LOOP_167_2'.
 WARNING: [HLS 200-885] The II Violation in module 'edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2' (loop 'VITIS_LOOP_165_1_VITIS_LOOP_167_2'): Unable to schedule bus request operation ('gmem_load_61_req', ../EdgedetectBaseline_host/src/edgedetect.cpp:171->../EdgedetectBaseline_host/src/edgedetect.cpp:238) on port 'gmem' (../EdgedetectBaseline_host/src/edgedetect.cpp:171->../EdgedetectBaseline_host/src/edgedetect.cpp:238) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
 INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 2, Depth = 77, loop 'VITIS_LOOP_165_1_VITIS_LOOP_167_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.21 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.22 seconds; current allocated memory: 491.551 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.23 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.24 seconds; current allocated memory: 491.703 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2.verbose.sched.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -641,7 +665,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 491.551 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 491.703 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2.verbose.bind.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -655,7 +679,7 @@ Execute       set_default_model edgedetect
 Execute       schedule -model edgedetect 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 492.863 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 493.020 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.verbose.sched.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -669,7 +693,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 493.758 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 493.902 MB.
 Execute       syn_report -verbosereport -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.verbose.bind.rpt 
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
@@ -714,7 +738,7 @@ INFO: [RTGEN 206-100] Generating core module 'sitodp_32ns_64_5_no_dsp_1': 1 inst
 INFO: [RTGEN 206-100] Generating core module 'sparsemux_9_3_64_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2'.
 INFO: [RTMG 210-279] Implementing memory 'edgedetect_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_mask_table_ROM_AUTO_1R' using auto ROMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.17 seconds; current allocated memory: 496.438 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.17 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.18 seconds; current allocated memory: 496.609 MB.
 Execute       source /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.rtl_wrap.cfg.tcl 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2 -style xilinx -f -lang vhdl -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/vhdl/edgedetect_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2 -style xilinx -f -lang vlog -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/verilog/edgedetect_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2 
@@ -739,7 +763,7 @@ INFO: [HLS 200-10] -------------------------------------------------------------
 Execute       create_rtl_model edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2 -top_prefix edgedetect_ -sub_prefix edgedetect_ -mg_file /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2.compgen.tcl 
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2' pipeline 'VITIS_LOOP_41_1_VITIS_LOOP_43_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.18 seconds; current allocated memory: 501.859 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.17 seconds; current allocated memory: 501.984 MB.
 Execute       source /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.rtl_wrap.cfg.tcl 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2 -style xilinx -f -lang vhdl -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/vhdl/edgedetect_edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2 -style xilinx -f -lang vlog -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/verilog/edgedetect_edgedetect_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_43_2 
@@ -769,7 +793,7 @@ INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8ns_8ns_17ns_18_4_1': 1
 INFO: [RTGEN 206-100] Generating core module 'mul_8ns_8ns_16_1_1': 4 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'udiv_20ns_12ns_8_24_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.16 seconds; current allocated memory: 506.922 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.17 seconds; current allocated memory: 507.004 MB.
 Execute       source /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.rtl_wrap.cfg.tcl 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4 -style xilinx -f -lang vhdl -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/vhdl/edgedetect_edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4 -style xilinx -f -lang vlog -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/verilog/edgedetect_edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4 
@@ -785,7 +809,7 @@ Execute       syn_report -verbosereport -model edgedetect_Pipeline_VITIS_LOOP_52
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
 Execute           ap_part_info -quiet -name xczu9eg-ffvb1156-2-e -data family 
-Command       syn_report done; 0.14 sec.
+Command       syn_report done; 0.15 sec.
 Execute       db_write -model edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4 -f -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4.adb 
 Execute       db_write -model edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4 -bindview -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/design.bindinfo.xml 
 Execute       gen_tb_info edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4 -p /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_52_3_VITIS_LOOP_54_4 
@@ -795,7 +819,7 @@ INFO: [HLS 200-10] -------------------------------------------------------------
 Execute       create_rtl_model edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2 -top_prefix edgedetect_ -sub_prefix edgedetect_ -mg_file /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2.compgen.tcl 
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2' pipeline 'VITIS_LOOP_85_1_VITIS_LOOP_87_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.28 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.29 seconds; current allocated memory: 514.961 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.28 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.31 seconds; current allocated memory: 515.117 MB.
 Execute       source /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.rtl_wrap.cfg.tcl 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2 -style xilinx -f -lang vhdl -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/vhdl/edgedetect_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2 -style xilinx -f -lang vlog -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/verilog/edgedetect_edgedetect_Pipeline_VITIS_LOOP_85_1_VITIS_LOOP_87_2 
@@ -825,7 +849,7 @@ INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8ns_8ns_17ns_18_4_1': 1
 INFO: [RTGEN 206-100] Generating core module 'mul_8ns_8ns_16_1_1': 4 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'udiv_20ns_12ns_8_24_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0 seconds. Elapsed time: 0.17 seconds; current allocated memory: 519.914 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.15 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.17 seconds; current allocated memory: 520.086 MB.
 Execute       source /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.rtl_wrap.cfg.tcl 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4 -style xilinx -f -lang vhdl -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/vhdl/edgedetect_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4 -style xilinx -f -lang vlog -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/verilog/edgedetect_edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4 
@@ -841,7 +865,7 @@ Execute       syn_report -verbosereport -model edgedetect_Pipeline_VITIS_LOOP_96
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
 Execute           ap_part_info -quiet -name xczu9eg-ffvb1156-2-e -data family 
-Command       syn_report done; 0.14 sec.
+Command       syn_report done; 0.15 sec.
 Execute       db_write -model edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4 -f -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4.adb 
 Execute       db_write -model edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4 -bindview -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/design.bindinfo.xml 
 Execute       gen_tb_info edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4 -p /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_96_3_VITIS_LOOP_98_4 
@@ -851,7 +875,7 @@ INFO: [HLS 200-10] -------------------------------------------------------------
 Execute       create_rtl_model edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2 -top_prefix edgedetect_ -sub_prefix edgedetect_ -mg_file /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2.compgen.tcl 
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2' pipeline 'VITIS_LOOP_129_1_VITIS_LOOP_131_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.28 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.3 seconds; current allocated memory: 527.969 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.28 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.32 seconds; current allocated memory: 528.141 MB.
 Execute       source /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.rtl_wrap.cfg.tcl 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2 -style xilinx -f -lang vhdl -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/vhdl/edgedetect_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2 -style xilinx -f -lang vlog -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/verilog/edgedetect_edgedetect_Pipeline_VITIS_LOOP_129_1_VITIS_LOOP_131_2 
@@ -881,7 +905,7 @@ INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8ns_8ns_17ns_18_4_1': 1
 INFO: [RTGEN 206-100] Generating core module 'mul_8ns_8ns_16_1_1': 4 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'udiv_20ns_12ns_8_24_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.18 seconds; current allocated memory: 532.895 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.17 seconds; current allocated memory: 533.074 MB.
 Execute       source /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.rtl_wrap.cfg.tcl 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4 -style xilinx -f -lang vhdl -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/vhdl/edgedetect_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4 -style xilinx -f -lang vlog -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/verilog/edgedetect_edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4 
@@ -897,7 +921,7 @@ Execute       syn_report -verbosereport -model edgedetect_Pipeline_VITIS_LOOP_14
 Execute         list_part -family xczu9eg-ffvb1156-2-e 
 Execute           ap_family_info -name xczu9eg-ffvb1156-2-e -data names 
 Execute           ap_part_info -quiet -name xczu9eg-ffvb1156-2-e -data family 
-Command       syn_report done; 0.15 sec.
+Command       syn_report done; 0.16 sec.
 Execute       db_write -model edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4 -f -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4.adb 
 Execute       db_write -model edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4 -bindview -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/design.bindinfo.xml 
 Execute       gen_tb_info edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4 -p /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_140_3_VITIS_LOOP_142_4 
@@ -920,7 +944,7 @@ WARNING: [RTGEN 206-101] Setting dangling out port 'edgedetect_Pipeline_VITIS_LO
 WARNING: [RTGEN 206-101] Setting dangling out port 'edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2/m_axi_gmem_AWUSER' to 0.
 WARNING: [RTGEN 206-101] Setting dangling out port 'edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2/m_axi_gmem_BREADY' to 0.
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.35 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.37 seconds; current allocated memory: 541.527 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.37 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.4 seconds; current allocated memory: 541.715 MB.
 Execute       source /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.rtl_wrap.cfg.tcl 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2 -style xilinx -f -lang vhdl -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/vhdl/edgedetect_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2 
 Execute       gen_rtl edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2 -style xilinx -f -lang vlog -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/verilog/edgedetect_edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2 
@@ -953,7 +977,7 @@ INFO: [RTGEN 206-500] Setting interface mode on port 'edgedetect/output_r' to 's
 INFO: [RTGEN 206-500] Setting interface mode on function 'edgedetect' to 's_axilite & ap_ctrl_chain'.
 INFO: [RTGEN 206-100] Bundling port 'image_rgb', 'image_gray', 'temp_buf', 'filter', 'output_r' and 'return' to AXI-Lite port control.
 INFO: [RTGEN 206-100] Finished creating RTL model for 'edgedetect'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.18 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.2 seconds; current allocated memory: 550.074 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.18 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.21 seconds; current allocated memory: 550.254 MB.
 Execute       source /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.rtl_wrap.cfg.tcl 
 Execute       gen_rtl edgedetect -istop -style xilinx -f -lang vhdl -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/vhdl/edgedetect 
 Execute       gen_rtl edgedetect -istop -style xilinx -f -lang vlog -o /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/syn/verilog/edgedetect 
@@ -1159,7 +1183,7 @@ Execute       source /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-ba
 Execute       source /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect_Pipeline_VITIS_LOOP_165_1_VITIS_LOOP_167_2.compgen.tcl 
 Execute       source /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/edgedetect.compgen.tcl 
 Execute         source ./control.slave.tcl 
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.34 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.38 seconds; current allocated memory: 554.504 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.37 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.41 seconds; current allocated memory: 554.539 MB.
 INFO-FLOW: DBG:PROC: ::HLSREPORTS::create_csynth_xml bind_info_var='bind_info' RtlSubPrefix='edgedetect_' outfile=''
 INFO-FLOW: Running: create_csynth_xml read xml data
 INFO-FLOW: Done: create_csynth_xml read xml data time: 0 seconds per iteration
@@ -1237,19 +1261,19 @@ INFO-FLOW: Running: gen_csynth_sec_pragma
 INFO-FLOW: Done: gen_csynth_sec_pragma time: 0 seconds per iteration
 INFO-FLOW: DBG:PUTS:      update_csynth_reports wrote xml
 INFO-FLOW: DBG:PUTS:      update_csynth_reports appended to csynth rpt file
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.79 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.83 seconds; current allocated memory: 567.957 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.86 seconds. CPU system time: 0.05 seconds. Elapsed time: 0.91 seconds; current allocated memory: 568.387 MB.
 INFO: [VHDL 208-304] Generating VHDL RTL for edgedetect.
 INFO: [VLOG 209-307] Generating Verilog RTL for edgedetect.
 Execute       syn_report -model edgedetect -printsummary 
 INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
 INFO: [HLS 200-789] **** Estimated Fmax: 205.47 MHz
-Command     autosyn done; 5.82 sec.
-Command   csynth_design done; 15.55 sec.
+Command     autosyn done; 6.13 sec.
+Command   csynth_design done; 16.2 sec.
 Execute   close_project 
 Execute     close_solution 
 Execute       cleanup_all 
 Execute       cleanup_all 
-INFO-FLOW: Workspace /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls opened at Fri Sep 20 21:58:57 WEST 2024
+INFO-FLOW: Workspace /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls opened at Sat Sep 21 01:38:39 WEST 2024
 Execute     source /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/.autopilot/db/global.setting.tcl 
 Execute     set_part xczu9eg-ffvb1156-2-e 
 Execute       create_platform xczu9eg-ffvb1156-2-e -board  
@@ -1257,7 +1281,7 @@ DBG:HLSDevice: Trying to load device library: /tools/Xilinx/Vitis_HLS/2024.1/lib
 DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /tools/Xilinx/Vivado/2024.1/data/parts/arch.xml
 DBG:HLSDevice: init success
 INFO: [HLS 200-1611] Setting target device to 'xczu9eg-ffvb1156-2-e'
-Command       create_platform done; 1.18 sec.
+Command       create_platform done; 1.15 sec.
 Execute       source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
 Execute         source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
 Execute         source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
@@ -1272,15 +1296,35 @@ Execute         source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/i
 Execute         source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
 Execute       ap_part_info -name xczu9eg-ffvb1156-2-e -data info 
 Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 1.31 sec.
+Command     set_part done; 1.28 sec.
 Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
-Command   open_solution done; 1.32 sec.
+Command   open_solution done; 1.29 sec.
 Execute   apply_ini /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg 
-Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(9) 
-INFO: [HLS 200-1465] Applying ini 'syn.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(9)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(15)
 Execute     add_files /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp 
 INFO: [HLS 200-10] Adding design file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/config.h' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/config.h' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(10)
+Execute     add_files -tb /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/config.h 
+INFO: [HLS 200-10] Adding test bench file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/config.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.h' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.h' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(11)
+Execute     add_files -tb /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.h 
+INFO: [HLS 200-10] Adding test bench file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/main.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/main.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(12)
+Execute     add_files -tb /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/main.cpp 
+INFO: [HLS 200-10] Adding test bench file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/main.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.cpp' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(13)
+Execute     add_files -tb /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.cpp 
+INFO: [HLS 200-10] Adding test bench file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.h' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.h' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(14)
+Execute     add_files -tb /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.h 
+INFO: [HLS 200-10] Adding test bench file '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/util.h' to the project
 Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=edgedetect' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(8) 
 INFO: [HLS 200-1465] Applying ini 'syn.top=edgedetect' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(8)
 Execute     set_top edgedetect 
@@ -1306,7 +1350,7 @@ Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu9eg-ffvb1156-2-e' from /h
 INFO: [HLS 200-1465] Applying ini 'part=xczu9eg-ffvb1156-2-e' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(1)
 Execute     set_part xczu9eg-ffvb1156-2-e 
 Execute       create_platform xczu9eg-ffvb1156-2-e -board  
-Command       create_platform done; 0.15 sec.
+Command       create_platform done; 0.16 sec.
 Execute       source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
 Execute         source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
 Execute         source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
@@ -1321,16 +1365,19 @@ Execute         source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/i
 Execute         source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
 Execute       ap_part_info -name xczu9eg-ffvb1156-2-e -data info 
 Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 0.25 sec.
+Command     set_part done; 0.28 sec.
 Execute     send_msg_by_id INFO @200-1465@%s 'clock=150MHz' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(7) 
 INFO: [HLS 200-1465] Applying ini 'clock=150MHz' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(7)
 Execute     create_clock -period 150MHz 
 Execute       ap_set_clock -name default -period 6.667 -unit ns -default=false 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 6.667ns.
+Execute     send_msg_by_id INFO @200-1465@%s 'csim.code_analyzer=0' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=0' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(9)
+Execute     config_csim -code_analyzer=0 
 Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=xo' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(5) 
 INFO: [HLS 200-1465] Applying ini 'package.output.format=xo' from /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/hls_config.cfg(5)
 Execute     config_export -format=xo 
-Command   apply_ini done; 0.27 sec.
+Command   apply_ini done; 0.31 sec.
 Execute   apply_ini /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/config.cmdline 
 Execute   export_design -flow none 
 Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
@@ -1478,12 +1525,11 @@ Execute       source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/
 Execute       source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
 Execute       source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
 Execute       source /tools/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
-Command     ap_source done; 0.11 sec.
 INFO-FLOW: DBG:PUTS:     IP package: exec /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/impl/ip/pack.sh
 INFO-FLOW: DBG:PUTS:     IP package: success /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/impl/ip/pack.sh
 Execute     send_msg_by_id INFO @200-802@%s EdgedetectBaseline_cluster/edgedetect.xo 
 INFO: [HLS 200-802] Generated output file EdgedetectBaseline_cluster/edgedetect.xo
-Command   export_design done; 20.72 sec.
+Command   export_design done; 22.17 sec.
 Execute   close_project 
 Execute     close_solution 
 Execute       cleanup_all 

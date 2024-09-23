@@ -291,7 +291,7 @@ Args:
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Inlining function '''
@@ -301,14 +301,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Inlining function '''
@@ -318,14 +318,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Inlining function '''
@@ -335,14 +335,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Inlining function '''
@@ -352,14 +352,14 @@ Args:
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Inlining function '''
@@ -369,7 +369,7 @@ Args:
   - String:          ''' into '''
   - Caller:          'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
@@ -385,7 +385,7 @@ Args:
   - Length:          '921600'
   - String:          ' has been inferred'
   - String:          ' _XLX_SEP_ '
-  - AccessID:        image_rgb8seq
+  - AccessID:        image_rgbseq
   - ArrayName:       image_rgb
   - String:          ' '
   - BundleName:      gmem
@@ -396,7 +396,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
@@ -439,7 +439,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
@@ -461,7 +461,7 @@ Args:
   - Length:          '3'
   - String:          ' has been inferred'
   - String:          ' _XLX_SEP_ '
-  - AccessID:        scevgep9seq
+  - AccessID:        scevgep116seq
   - ArrayName:       output
   - String:          ' '
   - BundleName:      gmem
@@ -472,7 +472,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
@@ -494,7 +494,7 @@ Args:
   - Length:          '3'
   - String:          ' has been inferred'
   - String:          ' _XLX_SEP_ '
-  - AccessID:        scevgep10seq
+  - AccessID:        scevgep117seq
   - ArrayName:       output
   - String:          ' '
   - BundleName:      gmem
@@ -505,7 +505,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
@@ -527,7 +527,7 @@ Args:
   - Length:          '307200'
   - String:          ' has been inferred'
   - String:          ' _XLX_SEP_ '
-  - AccessID:        output11seq
+  - AccessID:        outputseq
   - ArrayName:       output
   - String:          ' '
   - BundleName:      gmem
@@ -538,7 +538,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
@@ -571,7 +571,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -587,7 +587,7 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 115, Column: 35 }
   - OrigDirection:   read
-  - OrigID:          scevgep9seq
+  - OrigID:          scevgep116seq
   - ArrayName:       output
   - String:          ' '
   - BundleName:      gmem
@@ -598,7 +598,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -614,7 +614,7 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 165, Column: 35 }
   - OrigDirection:   read
-  - OrigID:          scevgep10seq
+  - OrigID:          scevgep117seq
   - ArrayName:       output
   - String:          ' '
   - BundleName:      gmem
@@ -625,7 +625,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Passed
@@ -653,7 +653,7 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 183, Column: 23 }
   - OrigDirection:   write
-  - OrigID:          output11seq
+  - OrigID:          outputseq
   - String:          ' _XLX_SEP_ '
   - AccessID:        wseq
   - ArrayName:       output
@@ -666,7 +666,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -686,7 +686,7 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 165, Column: 35 }
   - OrigDirection:   read
-  - OrigID:          scevgep10seq
+  - OrigID:          scevgep117seq
   - ArrayName:       output
   - String:          ' '
   - BundleName:      gmem
@@ -697,7 +697,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -717,7 +717,7 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 115, Column: 35 }
   - OrigDirection:   read
-  - OrigID:          scevgep9seq
+  - OrigID:          scevgep116seq
   - ArrayName:       output
   - String:          ' '
   - BundleName:      gmem
@@ -728,7 +728,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -759,7 +759,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -779,7 +779,7 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 165, Column: 35 }
   - OrigDirection:   read
-  - OrigID:          scevgep10seq
+  - OrigID:          scevgep117seq
   - ArrayName:       output
   - String:          ' '
   - BundleName:      gmem
@@ -790,7 +790,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -810,7 +810,7 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 115, Column: 35 }
   - OrigDirection:   read
-  - OrigID:          scevgep9seq
+  - OrigID:          scevgep116seq
   - ArrayName:       output
   - String:          ' '
   - BundleName:      gmem
@@ -821,7 +821,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -852,7 +852,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !HLSReportInfo
@@ -1015,7 +1015,7 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Unrolling loop '''
@@ -1032,7 +1032,7 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Unrolling loop '''
@@ -1049,7 +1049,7 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Unrolling loop '''
@@ -1066,7 +1066,7 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Unrolling loop '''
@@ -1083,7 +1083,7 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Unrolling loop '''
@@ -1100,7 +1100,7 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Unrolling loop '''
@@ -1117,7 +1117,7 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Unrolling loop '''
@@ -1134,7 +1134,7 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Unrolling loop '''
@@ -1151,7 +1151,7 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Unrolling loop '''
@@ -1168,7 +1168,7 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Unrolling loop '''
@@ -1185,7 +1185,7 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Unrolling loop '''
@@ -1202,7 +1202,7 @@ Args:
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
+                   Line: 197, Column: 0 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Unrolling loop '''
@@ -1219,7 +1219,7 @@ Args:
 Pass:            reflow-auto-array-partition
 Name:            AutoParallelPerformanceDrivenVerbosePassed
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 201, Column: 19 }
+                   Line: 198, Column: 19 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - PragmaType:      array_partition
@@ -1230,7 +1230,7 @@ Args:
   - String:          ' '
   - PragmaFunction:  edgedetect
   - String:          ' '
-  - varLoc:          '../EdgedetectBaseline_host/src/edgedetect.cpp:201:19'
+  - varLoc:          '../EdgedetectBaseline_host/src/edgedetect.cpp:198:19'
   - String:          ' '
   - VarName:         image_gray
   - String:          ' '
@@ -1239,7 +1239,7 @@ Args:
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayXform
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 201, Column: 19 }
+                   Line: 198, Column: 19 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Inferring pragma '''
@@ -1261,7 +1261,7 @@ Args:
 Pass:            reflow-array-partition
 Name:            ArrayXform
 DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 201, Column: 19 }
+                   Line: 198, Column: 19 }
 Function:        _Z10edgedetectPhS_
 Args:            
   - String:          'Applying '
@@ -1278,34 +1278,6 @@ Args:
   - Dim:             '1'
   - String:          .
 ...
---- !Failure
-Pass:            reflow-interface-check
-Name:            UnspportedNonScalarType
-DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
-Function:        _Z10edgedetectPhS_
-Args:            
-  - String:          'Cannot apply interface mode '''
-  - String:          ap_none
-  - String:          ''' '
-  - String:          'on function argument '''
-  - Name:            image_rgb
-  - String:          ''' since this interface mode only supports scalar types'
-...
---- !Failure
-Pass:            reflow-interface-check
-Name:            UnspportedNonScalarType
-DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                   Line: 200, Column: 0 }
-Function:        _Z10edgedetectPhS_
-Args:            
-  - String:          'Cannot apply interface mode '''
-  - String:          ap_none
-  - String:          ''' '
-  - String:          'on function argument '''
-  - Name:            output
-  - String:          ''' since this interface mode only supports scalar types'
-...
 --- !Missed
 Pass:            reflow-supported-subset
 Name:            MismatchPortAndBurstAccessWidth
@@ -1319,14 +1291,14 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 10, Column: 22 }
   - OrigDirection:   read
-  - OrigID:          image_rgb8seq
+  - OrigID:          image_rgbseq
   - ArrayName:       ''
   - String:          ' '
   - BundleName:      image_rgb
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -1349,7 +1321,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -1365,14 +1337,14 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 115, Column: 35 }
   - OrigDirection:   read
-  - OrigID:          scevgep9seq
+  - OrigID:          scevgep116seq
   - ArrayName:       ''
   - String:          ' '
   - BundleName:      output_r
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -1388,14 +1360,14 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 115, Column: 35 }
   - OrigDirection:   read
-  - OrigID:          scevgep9seq.1
+  - OrigID:          scevgep116seq.1
   - ArrayName:       ''
   - String:          ' '
   - BundleName:      output_r
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -1411,14 +1383,14 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 115, Column: 35 }
   - OrigDirection:   read
-  - OrigID:          scevgep9seq.2
+  - OrigID:          scevgep116seq.2
   - ArrayName:       ''
   - String:          ' '
   - BundleName:      output_r
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -1434,14 +1406,14 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 165, Column: 35 }
   - OrigDirection:   read
-  - OrigID:          scevgep10seq
+  - OrigID:          scevgep117seq
   - ArrayName:       ''
   - String:          ' '
   - BundleName:      output_r
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -1457,14 +1429,14 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 165, Column: 35 }
   - OrigDirection:   read
-  - OrigID:          scevgep10seq.1
+  - OrigID:          scevgep117seq.1
   - ArrayName:       ''
   - String:          ' '
   - BundleName:      output_r
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -1480,14 +1452,14 @@ Args:
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
                        Line: 165, Column: 35 }
   - OrigDirection:   read
-  - OrigID:          scevgep10seq.2
+  - OrigID:          scevgep117seq.2
   - ArrayName:       ''
   - String:          ' '
   - BundleName:      output_r
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Passed
@@ -1513,7 +1485,7 @@ Args:
   - String:          ' '
   - Function:        'edgedetect(unsigned char*, unsigned char*)'
     DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
-                       Line: 200, Column: 0 }
+                       Line: 197, Column: 0 }
   - String:          ' '
 ...
 --- !Passed

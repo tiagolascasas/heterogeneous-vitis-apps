@@ -6,7 +6,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="edgedetect_edgedetect,hls_ip_2024_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xczu9eg-ffvb1156-2-e,HLS_INPUT_CLOCK=6.667000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=4.866910,HLS_SYN_LAT=5249984,HLS_SYN_TPT=none,HLS_SYN_MEM=380,HLS_SYN_DSP=0,HLS_SYN_FF=22690,HLS_SYN_LUT=49682,HLS_VERSION=2024_1}" *)
+(* CORE_GENERATION_INFO="edgedetect_edgedetect,hls_ip_2024_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xczu9eg-ffvb1156-2-e,HLS_INPUT_CLOCK=6.667000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=4.866910,HLS_SYN_LAT=5249984,HLS_SYN_TPT=none,HLS_SYN_MEM=380,HLS_SYN_DSP=0,HLS_SYN_FF=22562,HLS_SYN_LUT=49682,HLS_VERSION=2024_1}" *)
 
 module edgedetect (
         ap_clk,
@@ -263,13 +263,11 @@ reg    gmem_blk_n_AW;
 wire    ap_CS_fsm_state13;
 reg    gmem_blk_n_B;
 wire    ap_CS_fsm_state83;
-reg   [63:0] output_r_read_reg_441;
 wire    ap_CS_fsm_state3;
-reg   [63:0] image_rgb_read_reg_449;
-wire   [0:0] icmp_ln55_fu_307_p2;
-reg   [0:0] icmp_ln55_reg_457;
 wire    ap_CS_fsm_state4;
 wire    grp_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_fu_211_ap_done;
+wire   [0:0] icmp_ln55_fu_307_p2;
+reg   [0:0] icmp_ln55_reg_457;
 wire   [18:0] empty_fu_340_p2;
 reg   [18:0] empty_reg_462;
 wire    ap_CS_fsm_state5;
@@ -1062,7 +1060,7 @@ edgedetect_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2 grp_edgedetect_Pi
     .image_gray_ce0(grp_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_fu_211_image_gray_ce0),
     .image_gray_we0(grp_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_fu_211_image_gray_we0),
     .image_gray_d0(grp_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_fu_211_image_gray_d0),
-    .image_rgb(image_rgb_read_reg_449)
+    .image_rgb(image_rgb)
 );
 
 edgedetect_edgedetect_Pipeline_VITIS_LOOP_60_4 grp_edgedetect_Pipeline_VITIS_LOOP_60_4_fu_227(
@@ -1160,7 +1158,7 @@ edgedetect_edgedetect_Pipeline_VITIS_LOOP_60_4 grp_edgedetect_Pipeline_VITIS_LOO
     .normal_factor_2_reload(grp_edgedetect_Pipeline_VITIS_LOOP_47_1_VITIS_LOOP_49_2_fu_204_normal_factor_2_out),
     .icmp_ln55(icmp_ln55_reg_457),
     .p_cast42(empty_reg_462),
-    .output_r(output_r_read_reg_441)
+    .output_r(output_r)
 );
 
 edgedetect_edgedetect_Pipeline_VITIS_LOOP_97_1_VITIS_LOOP_99_2 grp_edgedetect_Pipeline_VITIS_LOOP_97_1_VITIS_LOOP_99_2_fu_246(
@@ -1262,7 +1260,7 @@ edgedetect_edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4 grp_edgedetect_
     .image_gray_ce0(grp_edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4_fu_260_image_gray_ce0),
     .image_gray_we0(grp_edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4_fu_260_image_gray_we0),
     .image_gray_d0(grp_edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4_fu_260_image_gray_d0),
-    .output_r(output_r_read_reg_441),
+    .output_r(output_r),
     .normal_factor_5_reload(grp_edgedetect_Pipeline_VITIS_LOOP_97_1_VITIS_LOOP_99_2_fu_246_normal_factor_5_out),
     .icmp_ln105(icmp_ln105_reg_487)
 );
@@ -1320,7 +1318,7 @@ edgedetect_edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4 grp_edgedetect_
     .m_axi_gmem_BRESP(2'd0),
     .m_axi_gmem_BID(1'd0),
     .m_axi_gmem_BUSER(1'd0),
-    .output_r(output_r_read_reg_441),
+    .output_r(output_r),
     .normal_factor_8_reload(grp_edgedetect_Pipeline_VITIS_LOOP_147_1_VITIS_LOOP_149_2_fu_253_normal_factor_8_out),
     .icmp_ln155(icmp_ln155_reg_495),
     .temp_buf_address0(grp_edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4_fu_275_temp_buf_address0),
@@ -1713,20 +1711,13 @@ end
 always @ (posedge ap_clk) begin
     if ((1'b1 == ap_CS_fsm_state11)) begin
         icmp_ln155_reg_495 <= icmp_ln155_fu_390_p2;
-        trunc_ln8_reg_500 <= {{output_r_read_reg_441[63:6]}};
+        trunc_ln8_reg_500 <= {{output_r[63:6]}};
     end
 end
 
 always @ (posedge ap_clk) begin
     if (((1'b1 == ap_CS_fsm_state4) & (grp_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_fu_211_ap_done == 1'b1))) begin
         icmp_ln55_reg_457 <= icmp_ln55_fu_307_p2;
-    end
-end
-
-always @ (posedge ap_clk) begin
-    if ((1'b1 == ap_CS_fsm_state3)) begin
-        image_rgb_read_reg_449 <= image_rgb;
-        output_r_read_reg_441 <= output_r;
     end
 end
 

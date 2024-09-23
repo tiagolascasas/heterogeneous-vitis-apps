@@ -4,7 +4,7 @@
     "calls": "1",
     "file": "edgedetect.cpp",
     "fileloc": 196,
-    "instructions": 318,
+    "instructions": 316,
     "loads": {
       "G": 6,
       "L": 3,
@@ -15,7 +15,7 @@
       "L": 5,
       "T": 2
     },
-    "total_instructions": 363
+    "total_instructions": 361
   },
   "1": {
     "basicblocks": 9,

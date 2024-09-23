@@ -800,30 +800,15 @@ entry:25 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_47_1_VITIS_LOOP_4
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="9" bw="64" op_0_bw="64" op_1_bw="64">
-<![CDATA[
-entry:1 %output_r_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %output_r
-
-]]></Node>
-<StgValue><ssdm name="output_r_read"/></StgValue>
-</operation>
-
-<operation id="103" st_id="3" stage="1" lat="1">
-<core>s_axilite</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
 <Node id="10" bw="64" op_0_bw="64" op_1_bw="64">
 <![CDATA[
-entry:2 %image_rgb_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %image_rgb
+entry:2 %image_rgb_read = read i64 @_ssdm_op_Read.ap_none.i64, i64 %image_rgb
 
 ]]></Node>
 <StgValue><ssdm name="image_rgb_read"/></StgValue>
 </operation>
 
-<operation id="104" st_id="3" stage="2" lat="2">
+<operation id="103" st_id="3" stage="2" lat="2">
 <core></core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -840,6 +825,21 @@ entry:24 %call_ln0 = call void @edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_1
 </state>
 
 <state id="4" st_id="4">
+
+<operation id="104" st_id="4" stage="1" lat="1">
+<core>s_axilite</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="9" bw="64" op_0_bw="64" op_1_bw="64">
+<![CDATA[
+entry:1 %output_r_read = read i64 @_ssdm_op_Read.ap_none.i64, i64 %output_r
+
+]]></Node>
+<StgValue><ssdm name="output_r_read"/></StgValue>
+</operation>
 
 <operation id="105" st_id="4" stage="1" lat="1">
 <core>NULL</core>
@@ -2814,10 +2814,10 @@ for.inc.i20.preheader:13 %empty_47 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i5
 
 <Node id="69" bw="0">
 <![CDATA[
-for.inc.i20.preheader:14 %ret_ln213 = ret
+for.inc.i20.preheader:14 %ret_ln210 = ret
 
 ]]></Node>
-<StgValue><ssdm name="ret_ln213"/></StgValue>
+<StgValue><ssdm name="ret_ln210"/></StgValue>
 </operation>
 </state>
 </state_list>
@@ -2927,33 +2927,33 @@ for.inc.i20.preheader:14 %ret_ln213 = ret
 </dataflow>
 <dataflow id="354" from="convolve2d_smoothing_unsigned_char_unsigned_char_filter" to="call_ln0" fromId="309" toId="101">
 </dataflow>
-<dataflow id="356" from="_ssdm_op_Read.s_axilite.i64" to="output_r_read" fromId="355" toId="102">
+<dataflow id="356" from="_ssdm_op_Read.ap_none.i64" to="image_rgb_read" fromId="355" toId="102">
 </dataflow>
-<dataflow id="357" from="output_r" to="output_r_read" fromId="307" toId="102">
+<dataflow id="357" from="image_rgb" to="image_rgb_read" fromId="306" toId="102">
 </dataflow>
-<dataflow id="358" from="_ssdm_op_Read.s_axilite.i64" to="image_rgb_read" fromId="355" toId="103">
+<dataflow id="359" from="edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2" to="call_ln0" fromId="358" toId="103">
 </dataflow>
-<dataflow id="359" from="image_rgb" to="image_rgb_read" fromId="306" toId="103">
+<dataflow id="360" from="gmem" to="call_ln0" fromId="305" toId="103">
 </dataflow>
-<dataflow id="361" from="edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2" to="call_ln0" fromId="360" toId="104">
+<dataflow id="361" from="image_gray_5" to="call_ln0" fromId="93" toId="103">
 </dataflow>
-<dataflow id="362" from="gmem" to="call_ln0" fromId="305" toId="104">
+<dataflow id="362" from="image_gray_4" to="call_ln0" fromId="92" toId="103">
 </dataflow>
-<dataflow id="363" from="image_gray_5" to="call_ln0" fromId="93" toId="104">
+<dataflow id="363" from="image_gray_3" to="call_ln0" fromId="91" toId="103">
 </dataflow>
-<dataflow id="364" from="image_gray_4" to="call_ln0" fromId="92" toId="104">
+<dataflow id="364" from="image_gray_2" to="call_ln0" fromId="90" toId="103">
 </dataflow>
-<dataflow id="365" from="image_gray_3" to="call_ln0" fromId="91" toId="104">
+<dataflow id="365" from="image_gray_1" to="call_ln0" fromId="89" toId="103">
 </dataflow>
-<dataflow id="366" from="image_gray_2" to="call_ln0" fromId="90" toId="104">
+<dataflow id="366" from="image_gray" to="call_ln0" fromId="88" toId="103">
 </dataflow>
-<dataflow id="367" from="image_gray_1" to="call_ln0" fromId="89" toId="104">
+<dataflow id="367" from="image_rgb_read" to="call_ln0" fromId="102" toId="103">
 </dataflow>
-<dataflow id="368" from="image_gray" to="call_ln0" fromId="88" toId="104">
+<dataflow id="368" from="mask_table" to="call_ln0" fromId="308" toId="103">
 </dataflow>
-<dataflow id="369" from="image_rgb_read" to="call_ln0" fromId="103" toId="104">
+<dataflow id="369" from="_ssdm_op_Read.ap_none.i64" to="output_r_read" fromId="355" toId="104">
 </dataflow>
-<dataflow id="370" from="mask_table" to="call_ln0" fromId="308" toId="104">
+<dataflow id="370" from="output_r" to="output_r_read" fromId="307" toId="104">
 </dataflow>
 <dataflow id="372" from="_ssdm_op_SpecTopModule" to="spectopmodule_ln196" fromId="371" toId="105">
 </dataflow>
@@ -3243,7 +3243,7 @@ for.inc.i20.preheader:14 %ret_ln213 = ret
 </dataflow>
 <dataflow id="533" from="StgValue_377" to="specinterface_ln0" fromId="377" toId="113">
 </dataflow>
-<dataflow id="534" from="edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2" to="call_ln0" fromId="360" toId="114">
+<dataflow id="534" from="edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2" to="call_ln0" fromId="358" toId="114">
 </dataflow>
 <dataflow id="535" from="gmem" to="call_ln0" fromId="305" toId="114">
 </dataflow>
@@ -3259,7 +3259,7 @@ for.inc.i20.preheader:14 %ret_ln213 = ret
 </dataflow>
 <dataflow id="541" from="image_gray" to="call_ln0" fromId="88" toId="114">
 </dataflow>
-<dataflow id="542" from="image_rgb_read" to="call_ln0" fromId="103" toId="114">
+<dataflow id="542" from="image_rgb_read" to="call_ln0" fromId="102" toId="114">
 </dataflow>
 <dataflow id="543" from="mask_table" to="call_ln0" fromId="308" toId="114">
 </dataflow>
@@ -3339,7 +3339,7 @@ for.inc.i20.preheader:14 %ret_ln213 = ret
 </dataflow>
 <dataflow id="590" from="empty" to="call_ln55" fromId="123" toId="129">
 </dataflow>
-<dataflow id="591" from="output_r_read" to="call_ln55" fromId="102" toId="129">
+<dataflow id="591" from="output_r_read" to="call_ln55" fromId="104" toId="129">
 </dataflow>
 <dataflow id="593" from="_ssdm_op_SpecLoopTripCount" to="speclooptripcount_ln31" fromId="592" toId="130">
 </dataflow>
@@ -3381,7 +3381,7 @@ for.inc.i20.preheader:14 %ret_ln213 = ret
 </dataflow>
 <dataflow id="615" from="empty" to="call_ln55" fromId="123" toId="132">
 </dataflow>
-<dataflow id="616" from="output_r_read" to="call_ln55" fromId="102" toId="132">
+<dataflow id="616" from="output_r_read" to="call_ln55" fromId="104" toId="132">
 </dataflow>
 <dataflow id="617" from="icmp_ln58" to="br_ln58" fromId="125" toId="133">
 </dataflow>
@@ -3431,7 +3431,7 @@ for.inc.i20.preheader:14 %ret_ln213 = ret
 </dataflow>
 <dataflow id="644" from="image_gray" to="call_ln105" fromId="88" toId="140">
 </dataflow>
-<dataflow id="645" from="output_r_read" to="call_ln105" fromId="102" toId="140">
+<dataflow id="645" from="output_r_read" to="call_ln105" fromId="104" toId="140">
 </dataflow>
 <dataflow id="646" from="normal_factor_5_loc_load" to="call_ln105" fromId="138" toId="140">
 </dataflow>
@@ -3453,7 +3453,7 @@ for.inc.i20.preheader:14 %ret_ln213 = ret
 </dataflow>
 <dataflow id="655" from="image_gray" to="call_ln105" fromId="88" toId="141">
 </dataflow>
-<dataflow id="656" from="output_r_read" to="call_ln105" fromId="102" toId="141">
+<dataflow id="656" from="output_r_read" to="call_ln105" fromId="104" toId="141">
 </dataflow>
 <dataflow id="657" from="normal_factor_5_loc_load" to="call_ln105" fromId="138" toId="141">
 </dataflow>
@@ -3469,7 +3469,7 @@ for.inc.i20.preheader:14 %ret_ln213 = ret
 </dataflow>
 <dataflow id="664" from="gmem" to="call_ln155" fromId="305" toId="144">
 </dataflow>
-<dataflow id="665" from="output_r_read" to="call_ln155" fromId="102" toId="144">
+<dataflow id="665" from="output_r_read" to="call_ln155" fromId="104" toId="144">
 </dataflow>
 <dataflow id="666" from="normal_factor_8_loc_load" to="call_ln155" fromId="142" toId="144">
 </dataflow>
@@ -3479,7 +3479,7 @@ for.inc.i20.preheader:14 %ret_ln213 = ret
 </dataflow>
 <dataflow id="670" from="_ssdm_op_PartSelect.i58.i64.i32.i32" to="trunc_ln8" fromId="669" toId="145">
 </dataflow>
-<dataflow id="671" from="output_r_read" to="trunc_ln8" fromId="102" toId="145">
+<dataflow id="671" from="output_r_read" to="trunc_ln8" fromId="104" toId="145">
 </dataflow>
 <dataflow id="673" from="StgValue_672" to="trunc_ln8" fromId="672" toId="145">
 </dataflow>
@@ -3489,7 +3489,7 @@ for.inc.i20.preheader:14 %ret_ln213 = ret
 </dataflow>
 <dataflow id="677" from="gmem" to="call_ln155" fromId="305" toId="146">
 </dataflow>
-<dataflow id="678" from="output_r_read" to="call_ln155" fromId="102" toId="146">
+<dataflow id="678" from="output_r_read" to="call_ln155" fromId="104" toId="146">
 </dataflow>
 <dataflow id="679" from="normal_factor_8_loc_load" to="call_ln155" fromId="142" toId="146">
 </dataflow>

@@ -9,10 +9,10 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "Fri Sep 20 15:28:47 2024",
- "timestampMillis": "1726842527948",
+ "dateTimestamp": "Sat Sep 21 01:19:02 2024",
+ "timestampMillis": "1726877942600",
  "buildStep": {
-  "cmdId": "c6b6f4ac-a088-4826-a94b-ea4ebbea7bdb",
+  "cmdId": "ae692d79-42cc-460e-96c8-fbd681e11003",
   "name": "vitis-run",
   "logFile": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/logs/EdgedetectBaseline_cluster.steps.log",
   "commandLine": "/tools/Xilinx/Vitis/2024.1/bin/unwrapped/lnx64.o/vitis-run  --mode hls --package --config /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/hls_config.cfg --work_dir EdgedetectBaseline_cluster ",
@@ -33,10 +33,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri Sep 20 15:28:47 2024",
- "timestampMillis": "1726842527949",
+ "dateTimestamp": "Sat Sep 21 01:19:02 2024",
+ "timestampMillis": "1726877942601",
  "status": {
-  "cmdId": "c6b6f4ac-a088-4826-a94b-ea4ebbea7bdb",
+  "cmdId": "ae692d79-42cc-460e-96c8-fbd681e11003",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "Fri Sep 20 15:28:52 2024",
- "timestampMillis": "1726842532058",
+ "dateTimestamp": "Sat Sep 21 01:19:07 2024",
+ "timestampMillis": "1726877947003",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -64,7 +64,7 @@
      "uuid": ""
     },
     "sources": [
-     "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/src/edgedetect.cpp"
+     "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_host/src/edgedetect.cpp"
     ],
     "psSources": [],
     "cuNames": [],
@@ -80,10 +80,10 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "Fri Sep 20 15:28:52 2024",
- "timestampMillis": "1726842532059",
+ "dateTimestamp": "Sat Sep 21 01:19:07 2024",
+ "timestampMillis": "1726877947004",
  "buildStep": {
-  "cmdId": "b3c2c6e5-0b76-41bf-91ea-460f1d7c0fb0",
+  "cmdId": "11f0fdf3-1848-4ca3-9b68-51f44a64721b",
   "name": "export_design",
   "logFile": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-grayscale/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/hls.log",
   "commandLine": "export_design -flow none",
@@ -99,10 +99,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri Sep 20 15:28:52 2024",
- "timestampMillis": "1726842532059",
+ "dateTimestamp": "Sat Sep 21 01:19:07 2024",
+ "timestampMillis": "1726877947004",
  "status": {
-  "cmdId": "b3c2c6e5-0b76-41bf-91ea-460f1d7c0fb0",
+  "cmdId": "11f0fdf3-1848-4ca3-9b68-51f44a64721b",
   "state": "CS_RUNNING"
  }
 }
@@ -110,10 +110,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri Sep 20 15:29:09 2024",
- "timestampMillis": "1726842549977",
+ "dateTimestamp": "Sat Sep 21 01:19:25 2024",
+ "timestampMillis": "1726877965472",
  "status": {
-  "cmdId": "b3c2c6e5-0b76-41bf-91ea-460f1d7c0fb0",
+  "cmdId": "11f0fdf3-1848-4ca3-9b68-51f44a64721b",
   "state": "CS_PASSED"
  }
 }
@@ -121,10 +121,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Fri Sep 20 15:29:10 2024",
- "timestampMillis": "1726842550151",
+ "dateTimestamp": "Sat Sep 21 01:19:25 2024",
+ "timestampMillis": "1726877965669",
  "status": {
-  "cmdId": "c6b6f4ac-a088-4826-a94b-ea4ebbea7bdb",
+  "cmdId": "ae692d79-42cc-460e-96c8-fbd681e11003",
   "state": "CS_PASSED"
  }
 }
@@ -132,8 +132,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri Sep 20 15:29:10 2024",
- "timestampMillis": "1726842550151",
+ "dateTimestamp": "Sat Sep 21 01:19:25 2024",
+ "timestampMillis": "1726877965670",
  "report": {
   "path": "",
   "name": "",
@@ -146,8 +146,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Fri Sep 20 15:29:10 2024",
- "timestampMillis": "1726842550151",
+ "dateTimestamp": "Sat Sep 21 01:19:25 2024",
+ "timestampMillis": "1726877965670",
  "report": {
   "path": "",
   "name": "",

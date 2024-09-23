@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'edgedetect'
 ================================================================
 + General Information: 
-    * Date:           Fri Sep 20 23:14:18 2024
+    * Date:           Sat Sep 21 02:17:25 2024
     * Version:        2024.1 (Build 5069499 on May 21 2024)
     * Project:        EdgedetectBaseline_cluster
     * Solution:       hls (Vitis Kernel Flow Target)
@@ -19,7 +19,7 @@
     |                          Modules                         | Issue|      | Latency |  Latency  | Iteration|         |  Trip  |          |           |          |            |             |     |
     |                          & Loops                         | Type | Slack| (cycles)|    (ns)   |  Latency | Interval|  Count | Pipelined|   BRAM    |    DSP   |     FF     |     LUT     | URAM|
     +----------------------------------------------------------+------+------+---------+-----------+----------+---------+--------+----------+-----------+----------+------------+-------------+-----+
-    |+ edgedetect                                              |     -|  0.00|  5249984|  3.500e+07|         -|  5249985|       -|        no|  380 (20%)|   26 (1%)|  22690 (4%)|  49682 (18%)|    -|
+    |+ edgedetect                                              |     -|  0.00|  5249984|  3.500e+07|         -|  5249985|       -|        no|  380 (20%)|   26 (1%)|  22562 (4%)|  49682 (18%)|    -|
     | + edgedetect_Pipeline_1                                  |     -|  2.31|   307202|  2.048e+06|         -|   307202|       -|        no|          -|         -|    79 (~0%)|    214 (~0%)|    -|
     |  o Loop 1                                                |     -|  4.87|   307200|  2.048e+06|         1|        1|  307200|       yes|          -|         -|           -|            -|    -|
     | + edgedetect_Pipeline_2                                  |     -|  2.32|   307202|  2.048e+06|         -|   307202|       -|        no|          -|         -|    21 (~0%)|     79 (~0%)|    -|

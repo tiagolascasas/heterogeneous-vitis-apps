@@ -45,12 +45,12 @@ set TargetInfo xczu9eg:-ffvb1156:-2-e
 set SourceFiles {sc {} c ../../../EdgedetectBaseline_host/src/edgedetect.cpp}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile {}
-set TBFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
+set TBFiles {verilog {../../../EdgedetectBaseline_host/src/util.h ../../../EdgedetectBaseline_host/src/util.cpp ../../../EdgedetectBaseline_host/src/main.cpp ../../../EdgedetectBaseline_host/src/edgedetect.h ../../../EdgedetectBaseline_host/src/config.h} bc {../../../EdgedetectBaseline_host/src/util.h ../../../EdgedetectBaseline_host/src/util.cpp ../../../EdgedetectBaseline_host/src/main.cpp ../../../EdgedetectBaseline_host/src/edgedetect.h ../../../EdgedetectBaseline_host/src/config.h} vhdl {../../../EdgedetectBaseline_host/src/util.h ../../../EdgedetectBaseline_host/src/util.cpp ../../../EdgedetectBaseline_host/src/main.cpp ../../../EdgedetectBaseline_host/src/edgedetect.h ../../../EdgedetectBaseline_host/src/config.h} sc {../../../EdgedetectBaseline_host/src/util.h ../../../EdgedetectBaseline_host/src/util.cpp ../../../EdgedetectBaseline_host/src/main.cpp ../../../EdgedetectBaseline_host/src/edgedetect.h ../../../EdgedetectBaseline_host/src/config.h} cas {../../../EdgedetectBaseline_host/src/util.h ../../../EdgedetectBaseline_host/src/util.cpp ../../../EdgedetectBaseline_host/src/main.cpp ../../../EdgedetectBaseline_host/src/edgedetect.h ../../../EdgedetectBaseline_host/src/config.h} c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
-set TBTops {bc "" c "" sc "" cas "" vhdl "" verilog ""}
-set TBInstNames {bc "" c "" sc "" cas "" vhdl "" verilog ""}
+set TBTops {verilog {} bc {} vhdl {} sc {} cas {} c {}}
+set TBInstNames {verilog {} bc {} vhdl {} sc {} cas {} c {}}
 set XDCFiles {}
 set ExtraGlobalOptions {"area_timing" 1 "clock_gate" 1 "impl_flow" map "power_gate" 0}
 set TBTVFileNotFound {}

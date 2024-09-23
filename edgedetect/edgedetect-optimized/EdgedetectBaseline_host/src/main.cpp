@@ -33,7 +33,7 @@ void wrapped_edgedetect(unsigned char image_rgb[H * W * 3],
   auto kernel = xrt::kernel(device, uuid, "edgedetect");
 
   auto bo_image_rgb = xrt::bo(device, H * W * 3, kernel.group_id(0));
-  auto bo_output = xrt::bo(device, H * W, kernel.group_id(1));
+  auto bo_output = xrt::bo(device, H * W, kernel.group_id(0));
 
   unsigned char *host_ptr_image_rgb = bo_image_rgb.map<unsigned char *>();
   unsigned char *host_ptr_output = bo_output.map<unsigned char *>();
@@ -43,7 +43,7 @@ void wrapped_edgedetect(unsigned char image_rgb[H * W * 3],
 
   bo_image_rgb.sync(XCL_BO_SYNC_BO_TO_DEVICE);
 
-  auto kernel_execution = kernel(bo_image_rgb, /*bo_image_gray, bo_temp_buf, bo_filter,*/ bo_output);
+  auto kernel_execution = kernel(bo_image_rgb,  bo_output);
   kernel_execution.wait();
 
   bo_output.sync(XCL_BO_SYNC_BO_FROM_DEVICE);

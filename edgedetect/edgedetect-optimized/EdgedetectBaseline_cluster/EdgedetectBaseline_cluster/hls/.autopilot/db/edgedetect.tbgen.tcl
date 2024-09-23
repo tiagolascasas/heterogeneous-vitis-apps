@@ -184,11 +184,11 @@ set RtlHierarchyInfo {[
 					{"Name" : "gmem_blk_n_AW", "Type" : "RtlSignal"},
 					{"Name" : "gmem_blk_n_B", "Type" : "RtlSignal"}],
 				"SubConnect" : [
+					{"ID" : "15", "SubInstance" : "grp_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_fu_211", "Port" : "gmem", "Inst_start_state" : "3", "Inst_end_state" : "4"},
+					{"ID" : "26", "SubInstance" : "grp_edgedetect_Pipeline_VITIS_LOOP_60_4_fu_227", "Port" : "gmem", "Inst_start_state" : "6", "Inst_end_state" : "7"},
 					{"ID" : "54", "SubInstance" : "grp_edgedetect_Pipeline_VITIS_LOOP_108_3_VITIS_LOOP_110_4_fu_260", "Port" : "gmem", "Inst_start_state" : "9", "Inst_end_state" : "10"},
 					{"ID" : "59", "SubInstance" : "grp_edgedetect_Pipeline_VITIS_LOOP_158_3_VITIS_LOOP_160_4_fu_275", "Port" : "gmem", "Inst_start_state" : "11", "Inst_end_state" : "12"},
-					{"ID" : "62", "SubInstance" : "grp_edgedetect_Pipeline_VITIS_LOOP_183_1_VITIS_LOOP_185_2_fu_285", "Port" : "gmem", "Inst_start_state" : "14", "Inst_end_state" : "15"},
-					{"ID" : "15", "SubInstance" : "grp_edgedetect_Pipeline_VITIS_LOOP_10_1_VITIS_LOOP_13_2_fu_211", "Port" : "gmem", "Inst_start_state" : "3", "Inst_end_state" : "4"},
-					{"ID" : "26", "SubInstance" : "grp_edgedetect_Pipeline_VITIS_LOOP_60_4_fu_227", "Port" : "gmem", "Inst_start_state" : "6", "Inst_end_state" : "7"}]},
+					{"ID" : "62", "SubInstance" : "grp_edgedetect_Pipeline_VITIS_LOOP_183_1_VITIS_LOOP_185_2_fu_285", "Port" : "gmem", "Inst_start_state" : "14", "Inst_end_state" : "15"}]},
 			{"Name" : "image_rgb", "Type" : "None", "Direction" : "I"},
 			{"Name" : "output_r", "Type" : "None", "Direction" : "I"},
 			{"Name" : "mask_table", "Type" : "Memory", "Direction" : "I",
@@ -525,7 +525,7 @@ set ArgLastReadFirstWriteLatency {
 	edgedetect {
 		gmem {Type IO LastRead 79 FirstWrite -1}
 		image_rgb {Type I LastRead 2 FirstWrite -1}
-		output_r {Type I LastRead 2 FirstWrite -1}
+		output_r {Type I LastRead 3 FirstWrite -1}
 		mask_table {Type I LastRead -1 FirstWrite -1}
 		convolve2d_smoothing_unsigned_char_unsigned_char_filter {Type I LastRead -1 FirstWrite -1}
 		convolve2d_vertical_unsigned_char_unsigned_char_filter {Type I LastRead -1 FirstWrite -1}

@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Fri Sep 20 21:59:01 2024
-# Process ID: 372984
+# Start of session at: Sat Sep 21 01:38:43 2024
+# Process ID: 801412
 # Current directory: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/impl/ip
 # Command line: vivado -notrace -mode batch -source run_ippack.tcl
 # Log file: /home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/impl/ip/vivado.log
@@ -13,12 +13,12 @@
 # Platform          :Ubuntu
 # Operating System  :Ubuntu 22.04.5 LTS
 # Processor Detail  :AMD Ryzen 5 5600H with Radeon Graphics
-# CPU Frequency     :4191.342 MHz
+# CPU Frequency     :4116.893 MHz
 # CPU Physical cores:6
 # CPU Logical cores :12
 # Host memory       :33497 MB
 # Swap memory       :2147 MB
 # Total Virtual     :35645 MB
-# Available Virtual :28168 MB
+# Available Virtual :22539 MB
 #-----------------------------------------------------------
 source run_ippack.tcl -notrace
