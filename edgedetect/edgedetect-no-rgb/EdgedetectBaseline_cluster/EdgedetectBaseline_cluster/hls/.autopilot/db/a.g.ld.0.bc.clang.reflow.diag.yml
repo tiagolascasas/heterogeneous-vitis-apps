@@ -1,0 +1,3659 @@
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 494, Column: 0 }
+Function:        _ZNK9fp_structIdE9to_doubleEv.25.35.44.55
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::data() const (.7.28.38.47.58)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 475, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'fp_struct<double>::to_double() const (.25.35.44.55)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 494, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                   Line: 509, Column: 0 }
+Function:        _ZNK9fp_structIdE7to_ieeeEv
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::to_double() const (.25.35.44.55)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 494, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'fp_struct<double>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 509, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                   Line: 10, Column: 0 }
+Function:        _Z16generic_copysignIdET_S0_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::fp_struct(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 456, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double generic_copysign<double>(double, double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                       Line: 10, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                   Line: 10, Column: 0 }
+Function:        _Z16generic_copysignIdET_S0_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 509, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double generic_copysign<double>(double, double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                       Line: 10, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h, 
+                   Line: 14, Column: 0 }
+Function:        _Z13generic_floorIdET_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::fp_struct(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 456, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double generic_floor<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h, 
+                       Line: 14, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h, 
+                   Line: 14, Column: 0 }
+Function:        _Z13generic_floorIdET_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::__signbit() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 512, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double generic_floor<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h, 
+                       Line: 14, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h, 
+                   Line: 14, Column: 0 }
+Function:        _Z13generic_floorIdET_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'double generic_copysign<double>(double, double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h, 
+                       Line: 10, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double generic_floor<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h, 
+                       Line: 14, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h, 
+                   Line: 14, Column: 0 }
+Function:        _Z13generic_floorIdET_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::data() const (.7.28.38.47.58)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 475, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double generic_floor<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h, 
+                       Line: 14, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h, 
+                   Line: 14, Column: 0 }
+Function:        _Z13generic_floorIdET_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::fp_struct(ap_uint<64>)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 464, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double generic_floor<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h, 
+                       Line: 14, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h, 
+                   Line: 14, Column: 0 }
+Function:        _Z13generic_floorIdET_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::to_ieee() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 509, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'double generic_floor<double>(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_floor.h, 
+                       Line: 14, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h, 
+                   Line: 65, Column: 0 }
+Function:        _Z20generic_cast_IEEE754IhL9ap_q_mode6EdET_T1_bN3hls9enable_ifIXntsr3std14numeric_limitsIS1_EE9is_signedEbE4typeE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::fp_struct(double)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 456, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'unsigned char generic_cast_IEEE754<unsigned char, (ap_q_mode)6, double>(double, bool, hls::enable_if<!(std::numeric_limits<unsigned char>::is_signed), bool>::type)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h, 
+                       Line: 65, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h, 
+                   Line: 65, Column: 0 }
+Function:        _Z20generic_cast_IEEE754IhL9ap_q_mode6EdET_T1_bN3hls9enable_ifIXntsr3std14numeric_limitsIS1_EE9is_signedEbE4typeE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::mantissa() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 503, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'unsigned char generic_cast_IEEE754<unsigned char, (ap_q_mode)6, double>(double, bool, hls::enable_if<!(std::numeric_limits<unsigned char>::is_signed), bool>::type)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h, 
+                       Line: 65, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h, 
+                   Line: 65, Column: 0 }
+Function:        _Z20generic_cast_IEEE754IhL9ap_q_mode6EdET_T1_bN3hls9enable_ifIXntsr3std14numeric_limitsIS1_EE9is_signedEbE4typeE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<double>::expv() const'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/src/hls/utils/x_hls_utils.h, 
+                       Line: 485, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'unsigned char generic_cast_IEEE754<unsigned char, (ap_q_mode)6, double>(double, bool, hls::enable_if<!(std::numeric_limits<unsigned char>::is_signed), bool>::type)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h, 
+                       Line: 65, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h, 
+                   Line: 116, Column: 0 }
+Function:        _Z20generic_cast_IEEE754IhdET_T0_b
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'unsigned char generic_cast_IEEE754<unsigned char, (ap_q_mode)6, double>(double, bool, hls::enable_if<!(std::numeric_limits<unsigned char>::is_signed), bool>::type)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h, 
+                       Line: 65, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'unsigned char generic_cast_IEEE754<unsigned char, double>(double, bool)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h, 
+                       Line: 116, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/src/lib_floatconversion.cpp, 
+                   Line: 67, Column: 0 }
+Function:        __hls_fptoui_double_i8
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'unsigned char generic_cast_IEEE754<unsigned char, double>(double, bool)'
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h, 
+                       Line: 116, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          __hls_fptoui_double_i8
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/src/lib_floatconversion.cpp, 
+                       Line: 67, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 9, Column: 0 }
+Function:        _Z14rgbToGrayscalePhS_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          floor
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/src/c/floordouble.cpp, 
+                       Line: 6, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'rgbToGrayscale(unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 9, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 9, Column: 0 }
+Function:        _Z14rgbToGrayscalePhS_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          __hls_fptoui_double_i8
+    DebugLoc:        { File: /wrk/ci/prod/2024.1/hls_product/continuous/545/2024.1/src/shared/hls/clib/hlsmath/src/lib_floatconversion.cpp, 
+                       Line: 67, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'rgbToGrayscale(unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 9, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'rgbToGrayscale(unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 9, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'set_smoothing_filter(unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 179, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'convolve2d_smoothing(unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 27, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'set_vertical_filter(unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 192, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'convolve2d_vertical(unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 71, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'set_horizontal_filter(unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 205, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'convolve2d_horizontal(unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 115, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'combthreshold(unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 159, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 10, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '921600'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        image_rgb29seq
+  - ArrayName:       image_rgb
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_10_1
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:10:22'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 15, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          for.inc.i.load.12
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 16, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          for.inc.i.load.16
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 17, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          for.inc.i.load.20
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 10, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of length '
+  - Length:          '307200'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        image_gray30seq
+  - ArrayName:       image_gray
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_10_1
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:10:22'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 21, Column: 39 }
+  - OrigDirection:   write
+  - OrigID:          __hls_fptoui_double_i8.exit.i.store.8
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 26, Column: 41 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of length '
+  - Length:          '9'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        filter31seq
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 180, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.6
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 181, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.8
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 182, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.10
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 183, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.12
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 184, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.14
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 185, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.16
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 186, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.18
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 187, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.20
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 188, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z14rgbToGrayscalePhS_.exit.store.22
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 41, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '9'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        filter31seq32
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_41_1
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:41:22'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 45, Column: 34 }
+  - OrigDirection:   read
+  - OrigID:          for.inc.i3.load.8
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 59, Column: 34 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '3'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        scevgepseq
+  - ArrayName:       image_gray
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_59_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:59:34'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 61, Column: 28 }
+  - OrigDirection:   read
+  - OrigID:          for.inc35.i.load.8
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 57, Column: 30 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '9'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        filter31seq33
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_57_5
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:57:30'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 61, Column: 67 }
+  - OrigDirection:   read
+  - OrigID:          for.inc35.i.load.14
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 54, Column: 26 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of length '
+  - Length:          '638'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        scevgep34seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_54_4
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:54:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 65, Column: 67 }
+  - OrigDirection:   write
+  - OrigID:          for.end40.i.store.11
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 70, Column: 40 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of length '
+  - Length:          '9'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        filter31seq35
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 193, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.1
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 194, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.2
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 195, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.3
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 196, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.4
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 197, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.5
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 198, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.6
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 199, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.7
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 200, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.8
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 201, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z20convolve2d_smoothingPhS_S_.exit.store.9
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 85, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '9'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        filter31seq36
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_85_1
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:85:22'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 89, Column: 34 }
+  - OrigDirection:   read
+  - OrigID:          for.inc.i25.load.8
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 103, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '3'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        scevgep37seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_103_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:103:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 105, Column: 28 }
+  - OrigDirection:   read
+  - OrigID:          for.inc35.i47.load.8
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 101, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '9'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        filter31seq38
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_101_5
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:101:31'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 105, Column: 67 }
+  - OrigDirection:   read
+  - OrigID:          for.inc35.i47.load.14
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 98, Column: 26 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of length '
+  - Length:          '638'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        scevgep39seq
+  - ArrayName:       image_gray
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_98_4
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:98:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 109, Column: 67 }
+  - OrigDirection:   write
+  - OrigID:          for.end40.i58.store.11
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 114, Column: 42 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of length '
+  - Length:          '9'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        filter31seq40
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 206, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.1
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 207, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.2
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 208, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.3
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 209, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.4
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 210, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.5
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 211, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.6
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 212, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.7
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 213, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.8
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 214, Column: 15 }
+  - OrigDirection:   write
+  - OrigID:          _Z19convolve2d_verticalPhS_S_.exit.store.9
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 129, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '9'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        filter31seq41
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_129_1
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:129:23'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 133, Column: 34 }
+  - OrigDirection:   read
+  - OrigID:          for.inc.i79.load.8
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 147, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '3'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        scevgep42seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_147_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:147:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 149, Column: 28 }
+  - OrigDirection:   read
+  - OrigID:          for.inc35.i101.load.8
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 145, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '9'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        filter31seq43
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_145_5
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:145:31'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 149, Column: 67 }
+  - OrigDirection:   read
+  - OrigID:          for.inc35.i101.load.14
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 142, Column: 27 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of length '
+  - Length:          '638'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        scevgep44seq
+  - ArrayName:       temp_buf
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_142_4
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:142:27'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 153, Column: 67 }
+  - OrigDirection:   write
+  - OrigID:          for.end40.i112.store.11
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 165, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '307200'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        image_gray30seq45
+  - ArrayName:       image_gray
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_165_1
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:165:23'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 170, Column: 14 }
+  - OrigDirection:   read
+  - OrigID:          for.body3.i.load.6
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 165, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '307200'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        temp_buf46seq
+  - ArrayName:       temp_buf
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_165_1
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:165:23'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 171, Column: 25 }
+  - OrigDirection:   read
+  - OrigID:          for.body3.i.load.13
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 165, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of length '
+  - Length:          '307200'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        output47seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_165_1
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:165:23'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 173, Column: 33 }
+  - OrigDirection:   write
+  - OrigID:          for.body3.i.store.25
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            IncompatibleStride
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 59, Column: 34 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Stride is incompatible
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 59, Column: 34 }
+  - OrigDirection:   read
+  - OrigID:          scevgepseq
+  - ArrayName:       image_gray
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_57_5
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:57:30'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzePattern
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 57, Column: 30 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Could not analyze pattern
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 57, Column: 30 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq33
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_54_4
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:54:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            IncompatibleStride
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 54, Column: 26 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Stride is incompatible
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 54, Column: 26 }
+  - OrigDirection:   write
+  - OrigID:          scevgep34seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_52_3
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:52:22'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            IncompatibleStride
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 103, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Stride is incompatible
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 103, Column: 35 }
+  - OrigDirection:   read
+  - OrigID:          scevgep37seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_101_5
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:101:31'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzePattern
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 101, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Could not analyze pattern
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 101, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq38
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_98_4
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:98:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            IncompatibleStride
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 98, Column: 26 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Stride is incompatible
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 98, Column: 26 }
+  - OrigDirection:   write
+  - OrigID:          scevgep39seq
+  - ArrayName:       image_gray
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_96_3
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:96:22'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            IncompatibleStride
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 147, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Stride is incompatible
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 147, Column: 35 }
+  - OrigDirection:   read
+  - OrigID:          scevgep42seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_145_5
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:145:31'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzePattern
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 145, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Could not analyze pattern
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 145, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq43
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_142_4
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:142:27'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            IncompatibleStride
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 142, Column: 27 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Stride is incompatible
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 142, Column: 27 }
+  - OrigDirection:   write
+  - OrigID:          scevgep44seq
+  - ArrayName:       temp_buf
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_140_3
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:140:23'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-widen
+Name:            BurstWidened
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 165, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of '
+  - OrigLength:      '307200'
+  - String:          ' x '
+  - OrigWords:       '8'
+  - String:          'bit words has been widened by '
+  - Factor:          '64'
+  - String:          ': '
+  - Length:          '4800'
+  - String:          ' x '
+  - Words:           '512'
+  - String:          bit words
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 165, Column: 23 }
+  - OrigDirection:   read
+  - OrigID:          image_gray30seq45
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        wseq
+  - ArrayName:       image_gray
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_167_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:167:27'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-widen
+Name:            BurstWidened
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 165, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of '
+  - OrigLength:      '307200'
+  - String:          ' x '
+  - OrigWords:       '8'
+  - String:          'bit words has been widened by '
+  - Factor:          '64'
+  - String:          ': '
+  - Length:          '4800'
+  - String:          ' x '
+  - Words:           '512'
+  - String:          bit words
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 165, Column: 23 }
+  - OrigDirection:   read
+  - OrigID:          temp_buf46seq
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        wseq48
+  - ArrayName:       temp_buf
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_167_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:167:27'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-widen
+Name:            BurstWidened
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 165, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of '
+  - OrigLength:      '307200'
+  - String:          ' x '
+  - OrigWords:       '8'
+  - String:          'bit words has been widened by '
+  - Factor:          '64'
+  - String:          ': '
+  - Length:          '4800'
+  - String:          ' x '
+  - Words:           '512'
+  - String:          bit words
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 165, Column: 23 }
+  - OrigDirection:   write
+  - OrigID:          output47seq
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        wseq50
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_167_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:167:27'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 142, Column: 27 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i8
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '1'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 142, Column: 27 }
+  - OrigDirection:   write
+  - OrigID:          scevgep44seq
+  - ArrayName:       temp_buf
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_142_4
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:142:27'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 147, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i8
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '1'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 147, Column: 35 }
+  - OrigDirection:   read
+  - OrigID:          scevgep42seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_147_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:147:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 145, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 145, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq43
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_147_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:147:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 145, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 145, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq43
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_147_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:147:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 129, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 129, Column: 23 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq41
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_131_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:131:27'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 129, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 129, Column: 23 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq41
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_131_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:131:27'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 114, Column: 42 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 114, Column: 42 }
+  - OrigDirection:   write
+  - OrigID:          filter31seq40
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 98, Column: 26 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i8
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '1'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 98, Column: 26 }
+  - OrigDirection:   write
+  - OrigID:          scevgep39seq
+  - ArrayName:       image_gray
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_98_4
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:98:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 103, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i8
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '1'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 103, Column: 35 }
+  - OrigDirection:   read
+  - OrigID:          scevgep37seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_103_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:103:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 101, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 101, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq38
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_103_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:103:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 101, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 101, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq38
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_103_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:103:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 85, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 85, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq36
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_87_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:87:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 85, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 85, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq36
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_87_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:87:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 70, Column: 40 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 70, Column: 40 }
+  - OrigDirection:   write
+  - OrigID:          filter31seq35
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 54, Column: 26 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i8
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '1'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 54, Column: 26 }
+  - OrigDirection:   write
+  - OrigID:          scevgep34seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_54_4
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:54:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 59, Column: 34 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i8
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '1'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 59, Column: 34 }
+  - OrigDirection:   read
+  - OrigID:          scevgepseq
+  - ArrayName:       image_gray
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_59_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:59:34'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 57, Column: 30 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 57, Column: 30 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq33
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_59_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:59:34'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 57, Column: 30 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 57, Column: 30 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq33
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_59_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:59:34'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 41, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 41, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq32
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_43_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:43:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 41, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 41, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq32
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_43_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:43:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 26, Column: 41 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 26, Column: 41 }
+  - OrigDirection:   write
+  - OrigID:          filter31seq
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-widen
+Name:            BurstWidened
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 10, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of '
+  - OrigLength:      '307200'
+  - String:          ' x '
+  - OrigWords:       '8'
+  - String:          'bit words has been widened by '
+  - Factor:          '64'
+  - String:          ': '
+  - Length:          '4800'
+  - String:          ' x '
+  - Words:           '512'
+  - String:          bit words
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 10, Column: 22 }
+  - OrigDirection:   write
+  - OrigID:          image_gray30seq
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        wseq52
+  - ArrayName:       image_gray
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_13_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:13:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 142, Column: 27 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i8
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '1'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 142, Column: 27 }
+  - OrigDirection:   write
+  - OrigID:          scevgep44seq
+  - ArrayName:       temp_buf
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_142_4
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:142:27'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 147, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i8
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '1'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 147, Column: 35 }
+  - OrigDirection:   read
+  - OrigID:          scevgep42seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_147_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:147:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 145, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 145, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq43
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_147_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:147:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 145, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 145, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq43
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_147_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:147:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 129, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 129, Column: 23 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq41
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_131_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:131:27'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 129, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 129, Column: 23 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq41
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_131_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:131:27'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 98, Column: 26 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i8
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '1'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 98, Column: 26 }
+  - OrigDirection:   write
+  - OrigID:          scevgep39seq
+  - ArrayName:       image_gray
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_98_4
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:98:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 103, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i8
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '1'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 103, Column: 35 }
+  - OrigDirection:   read
+  - OrigID:          scevgep37seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_103_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:103:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 101, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 101, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq38
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_103_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:103:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 101, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 101, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq38
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_103_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:103:35'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 85, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 85, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq36
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_87_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:87:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 85, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 85, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq36
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_87_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:87:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 54, Column: 26 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i8
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '1'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 54, Column: 26 }
+  - OrigDirection:   write
+  - OrigID:          scevgep34seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_54_4
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:54:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 59, Column: 34 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i8
+  - String:          ' size is greater than or equal to alignment '
+  - Alignment:       '1'
+  - String:          '(bytes)'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 59, Column: 34 }
+  - OrigDirection:   read
+  - OrigID:          scevgepseq
+  - ArrayName:       image_gray
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_59_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:59:34'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 57, Column: 30 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 57, Column: 30 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq33
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_59_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:59:34'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 57, Column: 30 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 57, Column: 30 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq33
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_59_6
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:59:34'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 41, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 41, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq32
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_43_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:43:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 41, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 41, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq32
+  - ArrayName:       filter
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_43_2
+  - String:          ' '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:43:26'
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_13_2
+  - String:          '> at '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:13:26'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_43_2
+  - String:          '> at '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:43:26'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_54_4
+  - String:          '> at '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:54:26'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_87_2
+  - String:          '> at '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:87:26'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_98_4
+  - String:          '> at '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:98:26'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_131_2
+  - String:          '> at '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:131:27'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_142_4
+  - String:          '> at '
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:142:27'
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 145, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_145_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 147, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_147_6
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 101, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_101_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 103, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_103_6
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 57, Column: 30 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_57_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 59, Column: 34 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_59_6
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_145_5
+  - String:          ''' ('
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:145:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          edgedetect
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_147_6
+  - String:          ''' ('
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:147:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          edgedetect
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_147_6
+  - String:          ''' ('
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:147:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          edgedetect
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_147_6
+  - String:          ''' ('
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:147:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          edgedetect
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_101_5
+  - String:          ''' ('
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:101:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          edgedetect
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_103_6
+  - String:          ''' ('
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:103:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          edgedetect
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_103_6
+  - String:          ''' ('
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:103:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          edgedetect
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_103_6
+  - String:          ''' ('
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:103:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          edgedetect
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_57_5
+  - String:          ''' ('
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:57:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          edgedetect
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_59_6
+  - String:          ''' ('
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:59:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          edgedetect
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_59_6
+  - String:          ''' ('
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:59:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          edgedetect
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_59_6
+  - String:          ''' ('
+  - LoopLoc:         '../EdgedetectBaseline_host/src/edgedetect.cpp:59:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          edgedetect
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            image_rgb
+  - String:          ''' since this interface mode only supports scalar types'
+...
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            image_gray
+  - String:          ''' since this interface mode only supports scalar types'
+...
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            temp_buf
+  - String:          ''' since this interface mode only supports scalar types'
+...
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            filter
+  - String:          ''' since this interface mode only supports scalar types'
+...
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 222, Column: 0 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            output
+  - String:          ''' since this interface mode only supports scalar types'
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 10, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 10, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          image_rgb29seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      image_rgb
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 41, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 41, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq32
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      filter
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 54, Column: 26 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 54, Column: 26 }
+  - OrigDirection:   write
+  - OrigID:          scevgep34seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      output_r
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 57, Column: 30 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 57, Column: 30 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq33
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      filter
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 59, Column: 34 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 59, Column: 34 }
+  - OrigDirection:   read
+  - OrigID:          scevgepseq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      image_gray
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 59, Column: 34 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 59, Column: 34 }
+  - OrigDirection:   read
+  - OrigID:          scevgepseq.1
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      image_gray
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 59, Column: 34 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 59, Column: 34 }
+  - OrigDirection:   read
+  - OrigID:          scevgepseq.2
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      image_gray
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 85, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 85, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq36
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      filter
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 98, Column: 26 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 98, Column: 26 }
+  - OrigDirection:   write
+  - OrigID:          scevgep39seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      image_gray
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 101, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 101, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq38
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      filter
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 103, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 103, Column: 35 }
+  - OrigDirection:   read
+  - OrigID:          scevgep37seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      output_r
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 103, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 103, Column: 35 }
+  - OrigDirection:   read
+  - OrigID:          scevgep37seq.1
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      output_r
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 103, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 103, Column: 35 }
+  - OrigDirection:   read
+  - OrigID:          scevgep37seq.2
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      output_r
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 129, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 129, Column: 23 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq41
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      filter
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 142, Column: 27 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 142, Column: 27 }
+  - OrigDirection:   write
+  - OrigID:          scevgep44seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      temp_buf
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 145, Column: 31 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 145, Column: 31 }
+  - OrigDirection:   read
+  - OrigID:          filter31seq43
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      filter
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 147, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 147, Column: 35 }
+  - OrigDirection:   read
+  - OrigID:          scevgep42seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      output_r
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 147, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 147, Column: 35 }
+  - OrigDirection:   read
+  - OrigID:          scevgep42seq.1
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      output_r
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 147, Column: 35 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 147, Column: 35 }
+  - OrigDirection:   read
+  - OrigID:          scevgep42seq.2
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      output_r
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            BurstConflict
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 165, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Could not burst due to multiple potential '
+  - Direction:       reads
+  - String:          ' to the same bundle in the same region.'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 165, Column: 23 }
+  - OrigDirection:   read
+  - OrigID:          seq1
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 10, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of length '
+  - Length:          '4800'
+  - String:          ' and bit width '
+  - Width:           '512'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 10, Column: 22 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of length '
+  - Length:          '4800'
+  - String:          ' and bit width '
+  - Width:           '512'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      gmem
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 165, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of length '
+  - Length:          '4800'
+  - String:          ' and bit width '
+  - Width:           '512'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq3
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        'edgedetect(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char*)'
+    DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                       Line: 222, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: ../EdgedetectBaseline_host/src/edgedetect.cpp, 
+                   Line: 165, Column: 23 }
+Function:        _Z10edgedetectPhS_S_S_S_
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of length '
+  - Length:          '4800'
+  - String:          ' and bit width '
+  - Width:           '512'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      gmem
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...

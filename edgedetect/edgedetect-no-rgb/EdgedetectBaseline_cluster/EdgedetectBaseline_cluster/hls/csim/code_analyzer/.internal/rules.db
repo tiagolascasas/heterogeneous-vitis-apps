@@ -1,0 +1,44 @@
+{
+    "rules": {
+        "['/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/csim/code_analyzer/.internal/build/edgedetect.cpp.0.o', '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/csim/code_analyzer/.internal/build/edgedetect.cpp.0.o.d']": {
+            "command": [
+                "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang",
+                "-c",
+                "-MD",
+                "-MF",
+                "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/csim/code_analyzer/.internal/build/edgedetect.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/vcxx/data/include",
+                "-vitis-hls=/tools/Xilinx/Vitis_HLS/2024.1",
+                "-fhlstoplevel=edgedetect",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "../EdgedetectBaseline_host/src/edgedetect.cpp",
+                "-o",
+                "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/csim/code_analyzer/.internal/build/edgedetect.cpp.0.o"
+            ],
+            "exectime": 0.19871091842651367,
+            "cwd": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster"
+        },
+        "['/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/csim/code_analyzer/.internal/build/edgedetect.cpp.0.bc', '/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/csim/code_analyzer/.internal/build/edgedetect.cpp.0.bc.d']": {
+            "command": [
+                "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/csim/code_analyzer/.internal/build/edgedetect.cpp.0.bc.d",
+                "-fhls",
+                "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/vcxx/data/autopilot",
+                "-vitis-hls=/tools/Xilinx/Vitis_HLS/2024.1",
+                "-fhlstoplevel=edgedetect",
+                "-fslxtrace",
+                "../EdgedetectBaseline_host/src/edgedetect.cpp",
+                "-o",
+                "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/csim/code_analyzer/.internal/build/edgedetect.cpp.0.bc"
+            ],
+            "exectime": 0.21592092514038086,
+            "cwd": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster"
+        }
+    }
+}

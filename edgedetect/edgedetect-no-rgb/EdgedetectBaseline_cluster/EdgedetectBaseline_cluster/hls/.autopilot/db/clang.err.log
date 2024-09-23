@@ -1,0 +1,31 @@
+../EdgedetectBaseline_host/src/edgedetect.cpp:45:30: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
+            normal_factor += abs(filter[r * 3 + c]);
+                             ^
+../EdgedetectBaseline_host/src/edgedetect.cpp:45:30: note: remove the call to 'abs' since unsigned values cannot be negative
+            normal_factor += abs(filter[r * 3 + c]);
+                             ^~~
+../EdgedetectBaseline_host/src/edgedetect.cpp:89:30: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
+            normal_factor += abs(filter[r * 3 + c]);
+                             ^
+../EdgedetectBaseline_host/src/edgedetect.cpp:89:30: note: remove the call to 'abs' since unsigned values cannot be negative
+            normal_factor += abs(filter[r * 3 + c]);
+                             ^~~
+../EdgedetectBaseline_host/src/edgedetect.cpp:133:30: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
+            normal_factor += abs(filter[r * 3 + c]);
+                             ^
+../EdgedetectBaseline_host/src/edgedetect.cpp:133:30: note: remove the call to 'abs' since unsigned values cannot be negative
+            normal_factor += abs(filter[r * 3 + c]);
+                             ^~~
+../EdgedetectBaseline_host/src/edgedetect.cpp:170:10: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
+ temp1 = abs(image_gray[i * 640 + j]);
+         ^
+../EdgedetectBaseline_host/src/edgedetect.cpp:170:10: note: remove the call to 'abs' since unsigned values cannot be negative
+ temp1 = abs(image_gray[i * 640 + j]);
+         ^~~
+../EdgedetectBaseline_host/src/edgedetect.cpp:171:21: warning: taking the absolute value of unsigned type 'unsigned char' has no effect [-Wabsolute-value]
+            temp2 = abs(temp_buf[i * 640 + j]);
+                    ^
+../EdgedetectBaseline_host/src/edgedetect.cpp:171:21: note: remove the call to 'abs' since unsigned values cannot be negative
+            temp2 = abs(temp_buf[i * 640 + j]);
+                    ^~~
+5 warnings generated.

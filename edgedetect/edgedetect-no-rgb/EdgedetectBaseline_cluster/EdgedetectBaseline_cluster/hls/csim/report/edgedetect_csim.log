@@ -1,0 +1,11 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+   Compiling ../../../../../EdgedetectBaseline_host/src/util.cpp in debug mode
+   Compiling ../../../../../EdgedetectBaseline_host/src/main.cpp in debug mode
+../../../../../EdgedetectBaseline_host/src/main.cpp:8:10: fatal error: 'deprecated/xrt.h' file not found
+#include "deprecated/xrt.h"
+         ^~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [csim.mk:94: obj/main.o] Error 1
+ERR: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************
