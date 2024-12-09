@@ -61,7 +61,7 @@ void convolve2d_smoothing(unsigned char input_image[H * W], unsigned char filter
                     sum += input_image[(r + i) * W + (c + j)] * filter[i * K + j];
                 }
             }
-            unsigned char pixel = (sum / normal_factor) > 255 ? 255 : (sum / normal_factor);            
+            unsigned char pixel = (sum / normal_factor) > 255 ? 255 : (sum / normal_factor);
             output_image[(r + dead_rows) * W + (c + dead_cols)] = pixel;
         }
     }
@@ -105,7 +105,7 @@ void convolve2d_vertical(unsigned char input_image[H * W], unsigned char filter[
                     sum += input_image[(r + i) * W + (c + j)] * filter[i * K + j];
                 }
             }
-            unsigned char pixel = (sum / normal_factor) > 255 ? 255 : (sum / normal_factor);            
+            unsigned char pixel = (sum / normal_factor) > 255 ? 255 : (sum / normal_factor);
             output_image[(r + dead_rows) * W + (c + dead_cols)] = pixel;
         }
     }
@@ -149,7 +149,7 @@ void convolve2d_horizontal(unsigned char input_image[H * W], unsigned char filte
                     sum += input_image[(r + i) * W + (c + j)] * filter[i * K + j];
                 }
             }
-            unsigned char pixel = (sum / normal_factor) > 255 ? 255 : (sum / normal_factor);            
+            unsigned char pixel = (sum / normal_factor) > 255 ? 255 : (sum / normal_factor);
             output_image[(r + dead_rows) * W + (c + dead_cols)] = pixel;
         }
     }
@@ -215,12 +215,11 @@ void set_horizontal_filter(unsigned char filter[K * K])
 }
 
 void edgedetect(unsigned char image_rgb[H * W * 3],
-                 unsigned char image_gray[H * W],
-                 unsigned char temp_buf[H * W],
-                 unsigned char filter[K * K],
-                 unsigned char output[H * W])
+                unsigned char image_gray[H * W],
+                unsigned char temp_buf[H * W],
+                unsigned char filter[K * K],
+                unsigned char output[H * W])
 {
-
     rgbToGrayscale(image_rgb, image_gray);
 
     set_smoothing_filter(filter);
