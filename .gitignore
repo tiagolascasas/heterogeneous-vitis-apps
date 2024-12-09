@@ -33,3 +33,17 @@
 
 logs/
 .cache/
+
+edgedetect/edgedetect-baseline/.vscode/
+
+edgedetect/edgedetect-baseline/.wsdata/
+
+edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/hls/
+
+edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/reports/
+
+edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/edgedetect.xo
+
+edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster.hlscompile_summary
+
+edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster/EdgedetectBaseline_cluster.hlsrun_package_summary
