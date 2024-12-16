@@ -79,8 +79,6 @@ void wrapped_edgedetect(unsigned char *image_rgb,
     kernel_run.set_arg(2, bo_temp_buf);
     kernel_run.set_arg(3, bo_filter);
     kernel_run.set_arg(4, bo_output);
-    kernel_run.set_arg(5, height);
-    kernel_run.set_arg(6, width);
     kernel_run.start();
 
     if (is_debug)
@@ -102,17 +100,11 @@ void wrapped_edgedetect(unsigned char *image_rgb,
     bo_output.read(output);
 }
 
-int main(int argc, char **argv)
+int main()
 {
-    if (argc != 3)
-    {
-        std::cerr << "Usage: " << argv[0] << " <height> <width>" << std::endl;
-        return 1;
-    }
     is_debug = (getenv("DEBUG") != nullptr);
-    int height = atoi(argv[1]);
-    int width = atoi(argv[2]);
-    std::cout << timestamp << "Image size: " << width << "x" << height << std::endl;
+    int height = H;
+    int width = W;
 
     unsigned char *image_rgb;
     try
@@ -144,7 +136,7 @@ int main(int argc, char **argv)
     std::copy(filter, filter + K * K, copy_filter);
     std::copy(output, output + height * width, copy_output);
 
-    edgedetect(copy_image_rgb, copy_image_gray, copy_temp_buf, copy_filter, copy_output, height, width);
+    edgedetect(copy_image_rgb, copy_image_gray, copy_temp_buf, copy_filter, copy_output);
     writeBMPColor("./copy_rgb.bmp", copy_image_rgb, width, height);
     writeBMPGrayscale("./copy_gray.bmp", copy_image_gray, width, height);
     writeBMPGrayscale("./copy_temp.bmp", copy_temp_buf, width, height);
