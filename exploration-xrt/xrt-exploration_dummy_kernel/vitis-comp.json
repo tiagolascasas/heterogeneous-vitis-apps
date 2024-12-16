@@ -1,0 +1,12 @@
+{
+  "name": "xrt-exploration_dummy_kernel",
+  "type": "HLS",
+  "part": "xczu9eg-ffvb1156-2-e",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "dummy_kernel"
+  }
+}
