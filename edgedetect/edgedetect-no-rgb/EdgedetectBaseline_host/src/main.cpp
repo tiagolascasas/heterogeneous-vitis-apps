@@ -25,8 +25,7 @@ unsigned char checksum (unsigned char *ptr, size_t sz) {
     return chk;
 }
 
-void wrapped_edgedetect(unsigned char image_rgb[H * W * 3],
-                        unsigned char image_gray[H * W],
+void wrapped_edgedetect(unsigned char image_gray[H * W],
                         unsigned char temp_buf[H * W],
                         unsigned char filter[K * K],
                         unsigned char output[H * W]) {
@@ -35,40 +34,34 @@ void wrapped_edgedetect(unsigned char image_rgb[H * W * 3],
   auto uuid = device.load_xclbin("./binary_container_1.xclbin");
   auto kernel = xrt::kernel(device, uuid, "edgedetect");
 
-  auto bo_image_rgb = xrt::bo(device, H * W * 3, kernel.group_id(0));
   auto bo_image_gray = xrt::bo(device, H * W, kernel.group_id(0));
   auto bo_temp_buf = xrt::bo(device, H * W, kernel.group_id(0));
   auto bo_filter = xrt::bo(device, K * K, kernel.group_id(0));
   auto bo_output = xrt::bo(device, H * W, kernel.group_id(0));
 
-  unsigned char *host_ptr_image_rgb = bo_image_rgb.map<unsigned char *>();
   unsigned char *host_ptr_image_gray = bo_image_gray.map<unsigned char *>();
   unsigned char *host_ptr_temp_buf = bo_temp_buf.map<unsigned char *>();
   unsigned char *host_ptr_filter = bo_filter.map<unsigned char *>();
   unsigned char *host_ptr_output = bo_output.map<unsigned char *>();
 
-  memcpy(host_ptr_image_rgb, image_rgb, H * W * 3);
   memcpy(host_ptr_image_gray, image_gray, H * W);
   memcpy(host_ptr_temp_buf, temp_buf, H * W);
   memcpy(host_ptr_filter, filter, K * K);
   memcpy(host_ptr_output, output, H * W);
 
-  bo_image_rgb.sync(XCL_BO_SYNC_BO_TO_DEVICE);
   bo_image_gray.sync(XCL_BO_SYNC_BO_TO_DEVICE);
   bo_temp_buf.sync(XCL_BO_SYNC_BO_TO_DEVICE);
   bo_filter.sync(XCL_BO_SYNC_BO_TO_DEVICE);
   bo_output.sync(XCL_BO_SYNC_BO_TO_DEVICE);
 
-  auto kernel_execution = kernel(bo_image_rgb, bo_image_gray, bo_temp_buf, bo_filter, bo_output);
+  auto kernel_execution = kernel(bo_image_gray, bo_temp_buf, bo_filter, bo_output);
   kernel_execution.wait();
 
-  bo_image_rgb.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
   bo_image_gray.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
   bo_temp_buf.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
   bo_filter.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
   bo_output.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
 
-  memcpy(image_rgb, host_ptr_image_rgb, H * W * 3);
   memcpy(image_gray, host_ptr_image_gray, H * W);
   memcpy(temp_buf, host_ptr_temp_buf, H * W);
   memcpy(filter, host_ptr_filter, K * K);
@@ -93,7 +86,21 @@ int main(int argc, char **argv) {
   auto start = std::chrono::high_resolution_clock::now();
   
   for (int i = 0; i < ITER; i++) {
-    wrapped_edgedetect(image_rgb, image_gray, temp_buf, filter, output);
+    for (int i = 0; i < H; i++)
+    {
+        int jj = 0;
+        for (int j = 0; j < W; j++)
+        {
+            unsigned char r = image_rgb[i * W * 3 + jj];
+            unsigned char g = image_rgb[i * W * 3 + jj + 1];
+            unsigned char b = image_rgb[i * W * 3 + jj + 2];
+            jj += 3;
+
+            float gray = 0.299 * r + 0.587 * g + 0.114 * b;
+            image_gray[i * W + j] = (unsigned char)floor(gray);
+        }
+    }
+    wrapped_edgedetect(image_gray, temp_buf, filter, output);
   }
 
   auto stop = std::chrono::high_resolution_clock::now();
