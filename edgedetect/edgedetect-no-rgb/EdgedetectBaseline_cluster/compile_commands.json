@@ -1,6 +1,6 @@
 [
   {
-    "directory": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster",
+    "directory": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-no-rgb/EdgedetectBaseline_cluster",
     "arguments": [
       "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
       "-fhls",
@@ -12,7 +12,7 @@
     "file": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/edgedetect.cpp"
   },
   {
-    "directory": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster",
+    "directory": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-no-rgb/EdgedetectBaseline_cluster",
     "arguments": [
       "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
       "-fhls-tb",
@@ -24,7 +24,7 @@
     "file": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_host/src/main.cpp"
   },
   {
-    "directory": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-baseline/EdgedetectBaseline_cluster",
+    "directory": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-no-rgb/EdgedetectBaseline_cluster",
     "arguments": [
       "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
       "-fhls-tb",
