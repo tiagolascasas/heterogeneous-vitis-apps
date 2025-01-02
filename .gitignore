@@ -79,3 +79,7 @@ edgedetect/edgedetect-rgb-only/EdgedetectBaseline_cluster/EdgedetectBaseline_clu
 amd-vadd/.wsdata/
 
 exploration-xrt/xrt-exploration_dummy_kernel/dummy_kernel/
+
+llama2/llama2-cpu/.theia/
+
+llama2/llama2-cpu/.wsdata/
