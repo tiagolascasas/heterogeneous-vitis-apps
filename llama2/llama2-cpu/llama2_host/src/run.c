@@ -902,9 +902,10 @@ void generate(Transformer *transformer, Tokenizer *tokenizer, Sampler *sampler, 
         fprintf(stderr, "something is wrong, expected at least 1 prompt token\n");
         exit(EXIT_FAILURE);
     }
-
+    
     // start the main loop
-    long start = 0;               // used to time our code, only initialized after first iteration
+    //long start = 0;               // used to time our code, only initialized after first iteration
+    long start = time_in_ms();
     int next;                     // will store the next token in the sequence
     int token = prompt_tokens[0]; // kick off with the first token in the prompt
     int pos = 0;                  // position in the sequence
@@ -938,12 +939,6 @@ void generate(Transformer *transformer, Tokenizer *tokenizer, Sampler *sampler, 
         safe_printf(piece); // same as printf("%s", piece), but skips "unsafe" bytes
         fflush(stdout);
         token = next;
-
-        // init the timer here because the first iteration can be slower
-        if (start == 0)
-        {
-            start = time_in_ms();
-        }
     }
     printf("\n");
 
