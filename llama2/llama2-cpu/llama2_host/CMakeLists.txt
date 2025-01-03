@@ -123,11 +123,10 @@ set(HOST_LINK_OPTIONS
 )
 endif()
 
-target_sources(${CMAKE_PROJECT_NAME}
+target_sources(llama2_host
 PRIVATE
-    libs/common/includes/logger/logger.cpp
-    libs/common/includes/cmdparser/cmdlineparser.cpp
-    src/host.cpp
+    src/cluster.c
+    src/run.c
 )
 # Below compile definitions are derived from the application template used to
 # create this project.Update them to suite your requirement. They will not be

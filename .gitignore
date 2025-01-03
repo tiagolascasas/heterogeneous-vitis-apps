@@ -83,3 +83,5 @@ exploration-xrt/xrt-exploration_dummy_kernel/dummy_kernel/
 llama2/llama2-cpu/.theia/
 
 llama2/llama2-cpu/.wsdata/
+
+llama2/llama2-cpu/llama2_cluster/llama2_cluster/

@@ -4,7 +4,7 @@
   "platform": "/tools/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_202410_1/xilinx_zcu102_base_202410_1.xpfm",
   "externalComponentRefs": [
     "llama2_host",
-    "llama2_vadd"
+    "llama2_cluster"
   ],
   "components": [
     {
@@ -30,15 +30,15 @@
         "componentType": "HW_LINKER",
         "containers": [
           {
-            "name": "vadd",
+            "name": "binary_container_1",
             "kernels": {
-              "vadd": "llama2_vadd"
+              "cluster": "llama2_cluster"
             },
             "userXoKernels": {},
             "aieComponents": [],
             "userAieLibadfList": [],
             "cfgFiles": [
-              "hw_link/vadd-link.cfg"
+              "hw_link/binary_container_1-link.cfg"
             ]
           }
         ],

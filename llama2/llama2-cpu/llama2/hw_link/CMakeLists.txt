@@ -8,7 +8,7 @@ else()
 endif()
 
 set(_CONTAINER_NAMES
-vadd
+binary_container_1
 )
 
 
@@ -19,7 +19,7 @@ set(USER_CONTAINER_LINKER_OPTIONS
 ""
 )
 ####    Add any binary container specific linker options.    ####
-set(USER_vadd_OPTIONS
+set(USER_binary_container_1_OPTIONS
 ""
 )
 ####    END OF USER SETTINGS    ####
@@ -48,37 +48,13 @@ set(_LINK_BUILD_DATAFILES
 # this project. Update them to suite your requirement. They will not be modified
 # further by the tool. If new container specific linker options are needed, they
 # can be added to USER_<binary container name>_OPTIONS listed above.
-set(_vadd_OPTIONS
+set(_binary_container_1_OPTIONS
 ""
 )
 
 
 # Below variables will be auto-updated based on kernels added/removed from the
 # binary container.
-if( ${VITIS_TARGET} STREQUAL sw_emu )
-set(_vadd_KERNEL_XO_PATHS
-llama2_vadd/vadd/sw_emu/vadd.xo
-)
-else()
-set(_vadd_KERNEL_XO_PATHS
-llama2_vadd/vadd/vadd.xo
-)
-endif()
-set(_vadd_USER_KERNEL_PATHS
-""
-)
-set(_vadd_USER_KERNEL_XO_PATHS
-""
-)
-set(_vadd_AIE_LIBADF_PATHS
-""
-)
-set(_vadd_USER_LIBADF_PATHS
-""
-)
-set(_vadd_CFG
-hw_link/vadd-link.cfg
-)
 set(_HW_LINK_PROJ
 hw_link
 )
@@ -89,6 +65,30 @@ set(_BINEXT
 .xclbin
 )
 set (TARGET_OPTION_STRING --target ${VITIS_TARGET})
+if( ${VITIS_TARGET} STREQUAL sw_emu )
+set(_binary_container_1_KERNEL_XO_PATHS
+llama2_cluster/llama2_cluster/sw_emu/cluster.xo
+)
+else()
+set(_binary_container_1_KERNEL_XO_PATHS
+llama2_cluster/llama2_cluster/cluster.xo
+)
+endif()
+set(_binary_container_1_USER_KERNEL_PATHS
+""
+)
+set(_binary_container_1_USER_KERNEL_XO_PATHS
+""
+)
+set(_binary_container_1_AIE_LIBADF_PATHS
+""
+)
+set(_binary_container_1_USER_LIBADF_PATHS
+""
+)
+set(_binary_container_1_CFG
+hw_link/binary_container_1-link.cfg
+)
 
 ##  End of variables auto-updated by the tool ##
 
