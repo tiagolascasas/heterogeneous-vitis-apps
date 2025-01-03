@@ -85,3 +85,9 @@ llama2/llama2-cpu/.theia/
 llama2/llama2-cpu/.wsdata/
 
 llama2/llama2-cpu/llama2_cluster/llama2_cluster/
+
+llama2/llama2-recurrent/.vscode/
+
+llama2/llama2-recurrent/.wsdata/
+
+llama2/llama2-recurrent/llama2_cluster/llama2_cluster/
