@@ -1207,13 +1207,13 @@ int sample_no_struct(int sampler_vocab_size,
 {
     // sample the token given the logits and some hyperparameters
     int next;
-    if (sampler_temperature == 0.0f)
-    {
-        // greedy argmax sampling: take the token with the highest probability
-        next = sample_argmax(logits, sampler_vocab_size);
-    }
-    else
-    {
+    // if (sampler_temperature == 0.0f)
+    // {
+    //     // greedy argmax sampling: take the token with the highest probability
+    //     next = sample_argmax(logits, sampler_vocab_size);
+    // }
+    // else
+    // {
         // apply the temperature to the logits
         for (int q = 0; q < sampler_vocab_size; q++)
         {
@@ -1235,7 +1235,7 @@ int sample_no_struct(int sampler_vocab_size,
             // top-p (nucleus) sampling, clamping the least likely tokens to zero
             next = sample_topp_no_struct(logits, sampler_vocab_size, sampler_topp, sampler_probindex_prob, sampler_probindex_index, coin);
         }
-    }
+    // }
     return next;
 }
 
