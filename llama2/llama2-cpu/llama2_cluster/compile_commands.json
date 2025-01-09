@@ -8,8 +8,8 @@
       "",
       "-g",
       "-c",
-      "/home/tls/heterogeneous-vitis-apps/llama2/llama2-cpu/llama2_cluster/../llama2_host/src/cluster.c"
+      "/home/tls/heterogeneous-vitis-apps/llama2/llama2-cpu/llama2_cluster/../llama2_host/src/run.c"
     ],
-    "file": "/home/tls/heterogeneous-vitis-apps/llama2/llama2-cpu/llama2_cluster/../llama2_host/src/cluster.c"
+    "file": "/home/tls/heterogeneous-vitis-apps/llama2/llama2-cpu/llama2_cluster/../llama2_host/src/run.c"
   }
 ]

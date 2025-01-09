@@ -125,7 +125,6 @@ endif()
 
 target_sources(llama2_host
 PRIVATE
-    src/cluster.c
     src/run.c
 )
 # Below compile definitions are derived from the application template used to
