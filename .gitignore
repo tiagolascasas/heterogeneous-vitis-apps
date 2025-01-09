@@ -91,3 +91,17 @@ llama2/llama2-recurrent/.vscode/
 llama2/llama2-recurrent/.wsdata/
 
 llama2/llama2-recurrent/llama2_cluster/llama2_cluster/
+
+llama2/llama2-instrumented/stories15M.bin
+
+llama2/llama2-instrumented/llama2
+
+llama2/llama2-instrumented/.~lock.loop_iterations_summary.csv#
+
+llama2/llama2-instrumented/tokenizer.bin
+
+llama2/llama2-instrumented/loop_iterations.csv
+
+llama2/llama2-golden/stories15M.bin
+
+llama2/llama2-golden/tokenizer.bin
