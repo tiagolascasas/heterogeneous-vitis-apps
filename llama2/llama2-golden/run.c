@@ -16,8 +16,6 @@
 #include <stdint.h>
 #endif
 
-FILE *loop_iterations;
-
 // ----------------------------------------------------------------------------
 // Transformer model
 
@@ -219,58 +217,49 @@ void rmsnorm(float *o, float *x, float *weight, int size)
 {
     // calculate sum of squares
     float ss = 0.0f;
-    int _iter1 = 0;
+
     for (int j = 0; j < size; j++)
     {
-        _iter1++;
+#pragma HLS loop_tripcount max = 288 min = 288 avg = 288
         ss += x[j] * x[j];
     }
-    fprintf(loop_iterations, "rmsnorm_1,%d\n", _iter1);
     ss /= size;
     ss += 1e-5f;
     ss = 1.0f / sqrtf(ss);
     // normalize and scale
-    int _iter2 = 0;
     for (int j = 0; j < size; j++)
     {
-        _iter2++;
+#pragma HLS loop_tripcount max = 288 min = 288 avg = 288
         o[j] = weight[j] * (ss * x[j]);
     }
-    fprintf(loop_iterations, "rmsnorm_2,%d\n", _iter2);
 }
 
 void softmax(float *x, int size)
 {
     // find max value (for numerical stability)
     float max_val = x[0];
-    int _iter1 = 0;
     for (int i = 1; i < size; i++)
     {
-        _iter1++;
+#pragma HLS loop_tripcount max=31999 min=0 avg=989
         if (x[i] > max_val)
         {
             max_val = x[i];
         }
     }
-    fprintf(loop_iterations, "softmax_1,%d\n", _iter1);
     // exp and sum
     float sum = 0.0f;
-    int _iter2 = 0;
     for (int i = 0; i < size; i++)
     {
-        _iter2++;
+#pragma HLS loop_tripcount max=32000 min=1 avg=990
         x[i] = expf(x[i] - max_val);
         sum += x[i];
     }
-    fprintf(loop_iterations, "softmax_2,%d\n", _iter2);
     // normalize
-    int _iter3 = 0;
     for (int i = 0; i < size; i++)
     {
-        _iter3++;
+#pragma HLS loop_tripcount max=32000 min=1 avg=990
         x[i] /= sum;
     }
-    fprintf(loop_iterations, "softmax_3,%d\n", _iter3);
 }
 
 void matmul(float *xout, float *x, float *w, int n, int d)
@@ -278,22 +267,17 @@ void matmul(float *xout, float *x, float *w, int n, int d)
     // W (d,n) @ x (n,) -> xout (d,)
     // by far the most amount of time is spent inside this little function
     int i;
-#pragma omp parallel for private(i)
-    int _iter1 = 0;
     for (i = 0; i < d; i++)
     {
-        _iter1++;
+#pragma HLS loop_tripcount max=32000 min=288 avg=1159
         float val = 0.0f;
-        int _iter11 = 0;
         for (int j = 0; j < n; j++)
         {
-            _iter11++;
+#pragma HLS loop_tripcount max=768 min=288 avg=305
             val += w[i * n + j] * x[j];
         }
-        fprintf(loop_iterations, "matmul_11,%d\n", _iter11);
         xout[i] = val;
     }
-    fprintf(loop_iterations, "matmul_1,%d\n", _iter1);
 }
 
 float *forward(Transformer *transformer, int token, int pos)
@@ -490,20 +474,16 @@ float *forward_no_struct(
     // copy the token embedding into x
     float *content_row = transformer_weights_token_embedding_table + token * dim;
 
-    int __iter1 = 0;
     for (int i = 0; i < dim; i++)
     {
-        __iter1++;
+#pragma HLS loop_tripcount max=288 min=288 avg=288
         x[i] = content_row[i];
     }
-    fprintf(loop_iterations, "forward_no_struct_1,%d\n", __iter1);
 
     // forward all the layers
-
-    int __iter2 = 0;
     for (unsigned long long l = 0; l < transformer_config_n_layers; l++)
     {
-        __iter2++;
+#pragma HLS loop_tripcount max=6 min=6 avg=6
         // attention rmsnorm
         rmsnorm(transformer_state_xb, x, transformer_weights_rms_att_weight + l * dim, dim);
 
@@ -517,11 +497,10 @@ float *forward_no_struct(
         matmul(transformer_state_k, transformer_state_xb, transformer_weights_wk + l * dim * kv_dim, dim, kv_dim);
         matmul(transformer_state_v, transformer_state_xb, transformer_weights_wv + l * dim * kv_dim, dim, kv_dim);
 
-        int _iter21 = 0;
         // RoPE relative positional encoding: complex-valued rotate q and k in each head
         for (int i = 0; i < dim; i += 2)
         {
-            _iter21++;
+#pragma HLS loop_tripcount max=144 min=144 avg=144
             int head_dim = i % head_size;
             float freq = 1.0f / powf(10000.0f, head_dim / (float)head_size);
             float val = pos * freq;
@@ -529,97 +508,80 @@ float *forward_no_struct(
             float fci = sinf(val);
             int rotn = i < kv_dim ? 2 : 1; // how many vectors? 2 = q & k, 1 = q only
 
-            int _iter211 = 0;
             for (int v = 0; v < rotn; v++)
             {
-                _iter211++;
+#pragma HLS loop_tripcount max=2 min=2 avg=2
                 float *vec = v == 0 ? transformer_state_q : transformer_state_k; // the vector to rotate (query or key)
                 float v0 = vec[i];
                 float v1 = vec[i + 1];
                 vec[i] = v0 * fcr - v1 * fci;
                 vec[i + 1] = v0 * fci + v1 * fcr;
             }
-            fprintf(loop_iterations, "forward_no_struct_211,%d\n", _iter211);
         }
-        fprintf(loop_iterations, "forward_no_struct_21,%d\n", _iter21);
 
         // multihead attention. iterate over all heads
         int h;
-        int _iter22 = 0;
         for (h = 0; h < transformer_config_n_heads; h++)
         {
-            _iter22++;
+#pragma HLS loop_tripcount max=6 min=6 avg=6
             // get the query vector for this head
             float *q = transformer_state_q + h * head_size;
             // attention scores for this head
             float *att = transformer_state_att + h * transformer_config_seq_len;
             // iterate over all timesteps, including the current one
-            int _iter221 = 0;
             for (int t = 0; t <= pos; t++)
             {
-                _iter221++;
+#pragma HLS loop_tripcount max=256 min=1 avg=128
                 // get the key vector for this head and at this timestep
                 float *k = transformer_state_key_cache + loff + t * kv_dim + (h / kv_mul) * head_size;
                 // calculate the attention score as the dot product of q and k
                 float score = 0.0f;
-                int _iter2211 = 0;
                 for (int i = 0; i < head_size; i++)
                 {
-                    _iter2211++;
+#pragma HLS loop_tripcount max=48 min=48 avg=48
                     score += q[i] * k[i];
                 }
-                fprintf(loop_iterations, "forward_no_struct_2211,%d\n", _iter2211);
                 score /= sqrtf(head_size);
                 // save the score to the attention buffer
                 att[t] = score;
             }
-            fprintf(loop_iterations, "forward_no_struct_221,%d\n", _iter221);
 
             // softmax the scores to get attention weights, from 0..pos inclusively
             softmax(att, pos + 1);
 
             // weighted sum of the values, store back into xb
             float *xb = transformer_state_xb + h * head_size;
-            int _iter222 = 0;
             for (int i = 0; i < head_size; i++)
             {
-                _iter222++;
+#pragma HLS loop_tripcount max=48 min=48 avg=48
                 xb[i] = 0;
             }
-            fprintf(loop_iterations, "forward_no_struct_222,%d\n", _iter222);
 
-            int _iter223 = 0;
             for (int t = 0; t <= pos; t++)
             {
-                _iter223++;
+#pragma HLS loop_tripcount max=256 min=1 avg=128
                 // get the value vector for this head and at this timestep
                 float *v = transformer_state_value_cache + loff + t * kv_dim + (h / kv_mul) * head_size;
                 // get the attention weight for this timestep
                 float a = att[t];
                 // accumulate the weighted value into xb
-                int _iter2231 = 0;
                 for (int i = 0; i < head_size; i++)
                 {
-                    _iter2231++;
+#pragma HLS loop_tripcount max=48 min=48 avg=48
                     xb[i] += a * v[i];
                 }
-                fprintf(loop_iterations, "forward_no_struct_2231,%d\n", _iter2231);
             }
-            fprintf(loop_iterations, "forward_no_struct_223,%d\n", _iter223);
         }
-        fprintf(loop_iterations, "forward_no_struct_22,%d\n", _iter22);
 
         // final matmul to get the output of the attention
         matmul(transformer_state_xb2, transformer_state_xb, transformer_weights_wo + l * dim * dim, dim, dim);
 
         // residual connection back into x
-        int _iter23 = 0;
         for (int i = 0; i < dim; i++)
         {
-            _iter23++;
+#pragma HLS loop_tripcount max=288 min=288 avg=288
             x[i] += transformer_state_xb2[i];
         }
-        fprintf(loop_iterations, "forward_no_struct_23,%d\n", _iter23);
 
         // ffn rmsnorm
         rmsnorm(transformer_state_xb, x, transformer_weights_rms_ffn_weight + l * dim, dim);
@@ -630,10 +592,9 @@ float *forward_no_struct(
         matmul(transformer_state_hb2, transformer_state_xb, transformer_weights_w3 + l * dim * hidden_dim, dim, hidden_dim);
 
         // SwiGLU non-linearity
-        int _iter24 = 0;
         for (int i = 0; i < hidden_dim; i++)
         {
-            _iter24++;
+#pragma HLS loop_tripcount max=768 min=768 avg=768
             float val = transformer_state_hb[i];
             // silu(x)=x*σ(x), where σ(x) is the logistic sigmoid
             val *= (1.0f / (1.0f + expf(-val)));
@@ -641,21 +602,17 @@ float *forward_no_struct(
             val *= transformer_state_hb2[i];
             transformer_state_hb[i] = val;
         }
-        fprintf(loop_iterations, "forward_no_struct_24,%d\n", _iter24);
 
         // final matmul to get the output of the ffn
         matmul(transformer_state_xb, transformer_state_hb, transformer_weights_w2 + l * dim * hidden_dim, hidden_dim, dim);
 
         // residual connection
-        int _iter25 = 0;
         for (int i = 0; i < dim; i++)
         {
-            _iter25++;
+#pragma HLS loop_tripcount max=288 min=288 avg=288
             x[i] += transformer_state_xb[i];
         }
-        fprintf(loop_iterations, "forward_no_struct_25,%d\n", _iter25);
     }
-    fprintf(loop_iterations, "forward_no_struct_2,%d\n", __iter2);
 
     // final rmsnorm
     rmsnorm(x, x, transformer_weights_rms_final_weight, dim);
@@ -1016,17 +973,15 @@ int sample_argmax(float *probabilities, int n)
     // return the index that has the highest probability
     int max_i = 0;
     float max_p = probabilities[0];
-    int _iter0 = 0;
     for (int i = 1; i < n; i++)
     {
-        _iter0++;
+#pragma HLS loop_tripcount max=0 min=0 avg=0
         if (probabilities[i] > max_p)
         {
             max_i = i;
             max_p = probabilities[i];
         }
     }
-    fprintf(loop_iterations, "sample_argmax_0,%d\n", _iter0);
     return max_i;
 }
 
@@ -1035,17 +990,15 @@ int sample_mult(float *probabilities, int n, float coin)
     // sample index from probabilities (they must sum to 1!)
     // coin is a random number in [0, 1), usually from random_f32()
     float cdf = 0.0f;
-    int _iter0 = 0;
     for (int i = 0; i < n; i++)
     {
-        _iter0++;
+#pragma HLS loop_tripcount max=0 min=0 avg=0
         cdf += probabilities[i];
         if (coin < cdf)
         {
             return i;
         }
     }
-    fprintf(loop_iterations, "sample_mult_0,%d\n", _iter0);
     return n - 1; // in case of rounding errors
 }
 
@@ -1122,10 +1075,9 @@ int sample_topp_no_struct(float *probabilities, int n, float topp, float *sample
     // values smaller than (1 - topp) / (n - 1) cannot be part of the result
     // so for efficiency we crop these out as candidates before sorting
     const float cutoff = (1.0f - topp) / (n - 1);
-    int _iter0 = 0;
     for (int i = 0; i < n; i++)
     {
-        _iter0++;
+#pragma HLS loop_tripcount max=32000 min=32000 avg=32000
         if (probabilities[i] >= cutoff)
         {
             sampler_probindex_index[n0] = i;
@@ -1133,16 +1085,13 @@ int sample_topp_no_struct(float *probabilities, int n, float topp, float *sample
             n0++;
         }
     }
-    fprintf(loop_iterations, "sample_topp_no_struct_0,%d\n", _iter0);
     // qsort(sampler_probindex_prob, n0, sizeof(ProbIndex), compare);
-    int _iter1 = 0;
     for (size_t i = 0; i < n0 - 1; ++i)
     {
-        _iter1++;
-        int _iter11 = 0;
+#pragma HLS loop_tripcount max=2627 min=0 avg=288
         for (size_t j = 0; j < n0 - i - 1; ++j)
         {
-            _iter11++;
+#pragma HLS loop_tripcount max=2627 min=1 avg=360
             if (sampler_probindex_prob[j] > sampler_probindex_prob[j + 1])
             {
                 float temp = sampler_probindex_prob[j];
@@ -1154,17 +1103,14 @@ int sample_topp_no_struct(float *probabilities, int n, float topp, float *sample
                 sampler_probindex_index[j + 1] = temp1;
             }
         }
-        fprintf(loop_iterations, "sample_topp_no_struct_11,%d\n", _iter11);
     }
-    fprintf(loop_iterations, "sample_topp_no_struct_1,%d\n", _iter1);
 
     // truncate the list where cumulative probability exceeds topp
     float cumulative_prob = 0.0f;
     int last_idx = n0 - 1; // in case of rounding errors consider all elements
-    int _iter2 = 0;
     for (int i = 0; i < n0; i++)
     {
-        _iter2++;
+#pragma HLS loop_tripcount max=2628 min=1 avg=289
         cumulative_prob += sampler_probindex_prob[i];
         if (cumulative_prob > topp)
         {
@@ -1172,23 +1118,19 @@ int sample_topp_no_struct(float *probabilities, int n, float topp, float *sample
             break; // we've exceeded topp by including last_idx
         }
     }
-    fprintf(loop_iterations, "sample_topp_no_struct_2,%d\n", _iter2);
 
     // sample from the truncated list
     float r = coin * cumulative_prob;
     float cdf = 0.0f;
-    int _iter3 = 0;
     for (int i = 0; i <= last_idx; i++)
     {
-        _iter3++;
+#pragma HLS loop_tripcount max=1202 min=1 avg=195
         cdf += sampler_probindex_prob[i];
         if (r < cdf)
         {
-            fprintf(loop_iterations, "sample_topp_no_struct_3,%d\n", _iter3);
             return sampler_probindex_index[i];
         }
     }
-    fprintf(loop_iterations, "sample_topp_no_struct_3,%d\n", _iter3);
     return sampler_probindex_index[last_idx]; // in case of rounding errors
 }
 
@@ -1273,13 +1215,11 @@ int sample_no_struct(int sampler_vocab_size,
     else
     {
         // apply the temperature to the logits
-        int _iter0 = 0;
         for (int q = 0; q < sampler_vocab_size; q++)
         {
-            _iter0++;
+#pragma HLS loop_tripcount max=32000 min=32000 avg=32000
             logits[q] /= sampler_temperature;
         }
-        fprintf(loop_iterations, "sample_no_struct_0,%d\n", _iter0);
         // apply softmax to the logits to get the probabilities for next token
         softmax(logits, sampler_vocab_size);
         // flip a (float) coin (this is our source of entropy for sampling)
@@ -1484,11 +1424,9 @@ void llama2_loop(
     int pos = 0;
     int next;                     // will store the next token in the sequence
     int token = prompt_tokens[0]; // kick off with the first token in the prompt
-    int __loop_counter = 0;
-    // LLAMA2_LOOP_1
     while (pos < steps)
     {
-        __loop_counter++;
+#pragma HLS loop_tripcount max=256 min=256 avg=256
         llama2_iteration(
             // -------------------------
             transformer_config_dim,
@@ -1555,7 +1493,6 @@ void llama2_loop(
             token = next;
         }
     }
-    fprintf(loop_iterations, "LLAMA2_LOOP_1,%d\n", __loop_counter);
     printf("\n");
     *rtr_val = pos;
 }
@@ -1879,7 +1816,6 @@ void error_usage()
 
 int main(int argc, char *argv[])
 {
-    loop_iterations = fopen("loop_iterations.csv", "w");
     // default parameters
     char *checkpoint_path = NULL; // e.g. out/model.bin
     char *tokenizer_path = "tokenizer.bin";
@@ -1998,7 +1934,6 @@ int main(int argc, char *argv[])
     free_tokenizer(&tokenizer);
     free_transformer(&transformer);
 
-    fclose(loop_iterations);
     return 0;
 }
 #endif

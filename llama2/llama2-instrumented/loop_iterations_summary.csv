@@ -19,9 +19,10 @@ rmsnorm_1,288,288,288,#pragma HLS loop_tripcount max=288 min=288 avg=288
 rmsnorm_2,288,288,288,#pragma HLS loop_tripcount max=288 min=288 avg=288
 sample_no_struct_0,32000,32000,32000,#pragma HLS loop_tripcount max=32000 min=32000 avg=32000
 sample_topp_no_struct_0,32000,32000,32000,#pragma HLS loop_tripcount max=32000 min=32000 avg=32000
-sample_topp_no_struct_1,2627,0,288,#pragma HLS loop_tripcount max=2627 min=0 avg=288
-sample_topp_no_struct_11,2627,1,360,#pragma HLS loop_tripcount max=2627 min=1 avg=360
-sample_topp_no_struct_2,2628,1,289,#pragma HLS loop_tripcount max=2628 min=1 avg=289
+sample_topp_no_struct_1,1201,0,194,#pragma HLS loop_tripcount max=1201 min=0 avg=194
+sample_topp_no_struct_11,1201,1,224,#pragma HLS loop_tripcount max=1201 min=1 avg=224
+sample_topp_no_struct_2,1202,1,195,#pragma HLS loop_tripcount max=1202 min=1 avg=195
+sample_topp_no_struct_3,1202,1,195,#pragma HLS loop_tripcount max=1202 min=1 avg=195
 softmax_1,31999,0,989,#pragma HLS loop_tripcount max=31999 min=0 avg=989
 softmax_2,32000,1,990,#pragma HLS loop_tripcount max=32000 min=1 avg=990
 softmax_3,32000,1,990,#pragma HLS loop_tripcount max=32000 min=1 avg=990
