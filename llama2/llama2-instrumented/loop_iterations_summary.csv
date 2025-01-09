@@ -1,0 +1,27 @@
+loop,max,min,avg,directive
+LLAMA2_LOOP_1,256,256,256,#pragma HLS loop_tripcount max=256 min=256 avg=256
+forward_no_struct_1,288,288,288,#pragma HLS loop_tripcount max=288 min=288 avg=288
+forward_no_struct_2,6,6,6,#pragma HLS loop_tripcount max=6 min=6 avg=6
+forward_no_struct_21,144,144,144,#pragma HLS loop_tripcount max=144 min=144 avg=144
+forward_no_struct_211,2,2,2,#pragma HLS loop_tripcount max=2 min=2 avg=2
+forward_no_struct_22,6,6,6,#pragma HLS loop_tripcount max=6 min=6 avg=6
+forward_no_struct_221,256,1,128,#pragma HLS loop_tripcount max=256 min=1 avg=128
+forward_no_struct_2211,48,48,48,#pragma HLS loop_tripcount max=48 min=48 avg=48
+forward_no_struct_222,48,48,48,#pragma HLS loop_tripcount max=48 min=48 avg=48
+forward_no_struct_223,256,1,128,#pragma HLS loop_tripcount max=256 min=1 avg=128
+forward_no_struct_2231,48,48,48,#pragma HLS loop_tripcount max=48 min=48 avg=48
+forward_no_struct_23,288,288,288,#pragma HLS loop_tripcount max=288 min=288 avg=288
+forward_no_struct_24,768,768,768,#pragma HLS loop_tripcount max=768 min=768 avg=768
+forward_no_struct_25,288,288,288,#pragma HLS loop_tripcount max=288 min=288 avg=288
+matmul_1,32000,288,1159,#pragma HLS loop_tripcount max=32000 min=288 avg=1159
+matmul_11,768,288,305,#pragma HLS loop_tripcount max=768 min=288 avg=305
+rmsnorm_1,288,288,288,#pragma HLS loop_tripcount max=288 min=288 avg=288
+rmsnorm_2,288,288,288,#pragma HLS loop_tripcount max=288 min=288 avg=288
+sample_no_struct_0,32000,32000,32000,#pragma HLS loop_tripcount max=32000 min=32000 avg=32000
+sample_topp_no_struct_0,32000,32000,32000,#pragma HLS loop_tripcount max=32000 min=32000 avg=32000
+sample_topp_no_struct_1,2627,0,288,#pragma HLS loop_tripcount max=2627 min=0 avg=288
+sample_topp_no_struct_11,2627,1,360,#pragma HLS loop_tripcount max=2627 min=1 avg=360
+sample_topp_no_struct_2,2628,1,289,#pragma HLS loop_tripcount max=2628 min=1 avg=289
+softmax_1,31999,0,989,#pragma HLS loop_tripcount max=31999 min=0 avg=989
+softmax_2,32000,1,990,#pragma HLS loop_tripcount max=32000 min=1 avg=990
+softmax_3,32000,1,990,#pragma HLS loop_tripcount max=32000 min=1 avg=990
