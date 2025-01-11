@@ -113,3 +113,15 @@ llama2/llama2-everything/.vscode/
 llama2/llama2-everything/.wsdata/
 
 llama2/llama2-everything/llama2_cluster/llama2_cluster/
+
+cortexsuite-disparity/disparity-malloc-region/.theia/
+
+cortexsuite-disparity/disparity-malloc-region/.wsdata/
+
+cortexsuite-disparity/disparity-malloc-region/disparity_cluster/disparity_cluster/
+
+cortexsuite-disparity/disparity-old/.wsdata/
+
+cortexsuite-disparity/disparity-old/.theia/
+
+cortexsuite-disparity/disparity-old/DisparityMalloc_kernel/DisparityMalloc_kernel/
