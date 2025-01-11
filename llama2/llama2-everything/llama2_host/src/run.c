@@ -798,6 +798,38 @@ void safe_printf(char *piece)
     printf("%s", piece);
 }
 
+int reimplemented_isprint(int c) {
+    return (c >= 0x20 && c <= 0x7E);
+}
+
+int reimplemented_isspace(int c) {
+    return (c == ' ' || c == '\t' || c == '\n' || 
+            c == '\v' || c == '\f' || c == '\r');
+}
+
+void safe_printf_modified(char *piece, int8_t *printf_buf, async_kernel_info *info)
+{
+    // piece might be a raw byte token, and we only want to print printable chars or whitespace
+    // because some of the other bytes can be various control codes, backspace, etc.
+    if (piece == NULL)
+    {
+        return;
+    }
+    if (piece[0] == '\0')
+    {
+        return;
+    }
+    if (piece[1] == '\0')
+    {
+        unsigned char byte_val = piece[0];
+        if (!(reimplemented_isprint(byte_val) || reimplemented_isspace(byte_val)))
+        {
+            return; // bad byte, don't print it
+        }
+    }
+    call_async_printf_string(printf_buf, info, false, piece);
+}
+
 int str_lookup(char *str, TokenIndex *sorted_vocab, int vocab_size)
 {
     // efficiently find the perfect match for str in vocab, return its index or -1 if not found
@@ -1427,7 +1459,7 @@ void llama2_loop(
     int8_t *fflush_buf,
     async_kernel_info *fflush_tokens_info,
     int8_t *printf_newline_buf,
-    async_kernel_info printf_newline_info
+    async_kernel_info *printf_newline_info
     )
 {
     int pos = 0;
@@ -1497,12 +1529,14 @@ void llama2_loop(
                 // -------------------------
                 token,
                 next);
-            safe_printf(piece); // same as printf("%s", piece), but skips "unsafe" bytes
-            fflush(stdout);
+            safe_printf_modified(piece, printf_tokens_buf, printf_tokens_info); // same as printf("%s", piece), but skips "unsafe" bytes
+            call_async_fflush(fflush_buf, fflush_tokens_info, true);
             token = next;
         }
     }
-    printf("\n");
+    close_async(printf_tokens_info);
+    call_async_printf(printf_newline_buf, printf_newline_info, true, NULL, 0);
+
     *rtr_val = pos;
 }
 
@@ -1667,7 +1701,15 @@ void generate(Transformer *transformer, Tokenizer *tokenizer, Sampler *sampler, 
         prompt_tokens,
         num_prompt_tokens,
         steps,
-        &rtr_val);
+        &rtr_val,
+        // -------------------------
+        printf_tokens->buffer,
+        printf_tokens->kernel_info,
+        fflush_stdout->buffer,
+        fflush_stdout->kernel_info,
+        printf_newline->buffer,
+        printf_newline->kernel_info
+        );
     // --------------------------------------------------------------------------------------------
     // End of region of interest
     // --------------------------------------------------------------------------------------------

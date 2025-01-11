@@ -107,3 +107,9 @@ llama2/llama2-golden/stories15M.bin
 llama2/llama2-golden/tokenizer.bin
 
 llama2/.vscode/
+
+llama2/llama2-everything/.vscode/
+
+llama2/llama2-everything/.wsdata/
+
+llama2/llama2-everything/llama2_cluster/llama2_cluster/
