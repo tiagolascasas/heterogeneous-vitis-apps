@@ -1,0 +1,28 @@
+[
+  {
+    "directory": "/home/tls/heterogeneous-vitis-apps/cortexsuite-disparity/disparity-malloc-region/disparity_cluster",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
+      "",
+      "-g",
+      "-c",
+      "/home/tls/heterogeneous-vitis-apps/cortexsuite-disparity/disparity-malloc-region/disparity_cluster/../disparity_host/src/bitmap.c"
+    ],
+    "file": "/home/tls/heterogeneous-vitis-apps/cortexsuite-disparity/disparity-malloc-region/disparity_cluster/../disparity_host/src/bitmap.c"
+  },
+  {
+    "directory": "/home/tls/heterogeneous-vitis-apps/cortexsuite-disparity/disparity-malloc-region/disparity_cluster",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
+      "",
+      "-g",
+      "-c",
+      "/home/tls/heterogeneous-vitis-apps/cortexsuite-disparity/disparity-malloc-region/disparity_cluster/../disparity_host/src/disparity.c"
+    ],
+    "file": "/home/tls/heterogeneous-vitis-apps/cortexsuite-disparity/disparity-malloc-region/disparity_cluster/../disparity_host/src/disparity.c"
+  }
+]
