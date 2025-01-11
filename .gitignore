@@ -125,3 +125,9 @@ cortexsuite-disparity/disparity-old/.wsdata/
 cortexsuite-disparity/disparity-old/.theia/
 
 cortexsuite-disparity/disparity-old/DisparityMalloc_kernel/DisparityMalloc_kernel/
+
+cortexsuite-disparity/disparity-malloc-arg/.theia/
+
+cortexsuite-disparity/disparity-malloc-arg/.wsdata/
+
+cortexsuite-disparity/disparity-malloc-arg/disparity_cluster/disparity_cluster/
