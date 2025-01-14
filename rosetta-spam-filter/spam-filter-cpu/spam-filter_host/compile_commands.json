@@ -1,0 +1,22 @@
+[
+  {
+    "directory": "/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/_ide/_build",
+    "command": "/usr/bin/g++ -DVITIS_MAJOR_VERSION\u003d2024 -DVITIS_MINOR_VERSION\u003d1 -DVITIS_VERSION\u003d2024.1 -D__USE_XOPEN2K8 -I/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/../spam-filter_common/libs/common/includes/cmdparser -I/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/../spam-filter_common/libs/common/includes/logger -I/tools/Xilinx/Vitis_HLS/2024.1/include -I/opt/xilinx/xrt/include -g -Wall -Wextra -O0 -g3 -std\u003dc++14 -o CMakeFiles/spam-filter_host.dir/src/utils.cpp.o -c /home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/src/utils.cpp",
+    "file": "/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/src/utils.cpp"
+  },
+  {
+    "directory": "/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/_ide/_build",
+    "command": "/usr/bin/g++ -DVITIS_MAJOR_VERSION\u003d2024 -DVITIS_MINOR_VERSION\u003d1 -DVITIS_VERSION\u003d2024.1 -D__USE_XOPEN2K8 -I/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/../spam-filter_common/libs/common/includes/cmdparser -I/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/../spam-filter_common/libs/common/includes/logger -I/tools/Xilinx/Vitis_HLS/2024.1/include -I/opt/xilinx/xrt/include -g -Wall -Wextra -O0 -g3 -std\u003dc++14 -o CMakeFiles/spam-filter_host.dir/src/check_result.cpp.o -c /home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/src/check_result.cpp",
+    "file": "/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/src/check_result.cpp"
+  },
+  {
+    "directory": "/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/_ide/_build",
+    "command": "/usr/bin/g++ -DVITIS_MAJOR_VERSION\u003d2024 -DVITIS_MINOR_VERSION\u003d1 -DVITIS_VERSION\u003d2024.1 -D__USE_XOPEN2K8 -I/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/../spam-filter_common/libs/common/includes/cmdparser -I/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/../spam-filter_common/libs/common/includes/logger -I/tools/Xilinx/Vitis_HLS/2024.1/include -I/opt/xilinx/xrt/include -g -Wall -Wextra -O0 -g3 -std\u003dc++14 -o CMakeFiles/spam-filter_host.dir/src/spam_filter.cpp.o -c /home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/src/spam_filter.cpp",
+    "file": "/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/src/spam_filter.cpp"
+  },
+  {
+    "directory": "/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/_ide/_build",
+    "command": "/usr/bin/g++ -DVITIS_MAJOR_VERSION\u003d2024 -DVITIS_MINOR_VERSION\u003d1 -DVITIS_VERSION\u003d2024.1 -D__USE_XOPEN2K8 -I/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/../spam-filter_common/libs/common/includes/cmdparser -I/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/../spam-filter_common/libs/common/includes/logger -I/tools/Xilinx/Vitis_HLS/2024.1/include -I/opt/xilinx/xrt/include -g -Wall -Wextra -O0 -g3 -std\u003dc++14 -o CMakeFiles/spam-filter_host.dir/src/sgd_sw.cpp.o -c /home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/src/sgd_sw.cpp",
+    "file": "/home/tls/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-cpu/spam-filter_host/src/sgd_sw.cpp"
+  }
+]
