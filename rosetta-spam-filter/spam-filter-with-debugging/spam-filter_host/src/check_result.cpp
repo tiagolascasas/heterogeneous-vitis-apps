@@ -29,11 +29,7 @@ float dotProduct(FeatureType *param_vector, DataType *data_point_i, const size_t
   for (int i = 0; i < num_features; i++)
     result += param_vector[i] * data_point_i[i];
 
-#ifndef SW
-  return result.to_float();
-#else
   return result;
-#endif
 }
 
 // predict
@@ -90,11 +86,7 @@ void check_results(FeatureType *param_vector, DataType *data_points, LabelType *
   {
     ofile << "\nmain parameter vector: \n";
     for (int i = 0; i < 30; i++)
-#ifndef SW
-      ofile << "m[" << i << "]: " << param_vector[i].to_float() << " | ";
-#else
       ofile << "m[" << i << "]: " << param_vector[i] << " | ";
-#endif
     ofile << std::endl;
 
     // Initialize benchmark variables

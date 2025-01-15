@@ -129,6 +129,8 @@ PRIVATE
     src/check_result.cpp
     src/spam_filter.cpp
     src/sgd_sw.cpp
+    src/async_host.c
+    src/async_kernel.c
 )
 # Below compile definitions are derived from the application template used to
 # create this project.Update them to suite your requirement. They will not be
