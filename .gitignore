@@ -143,3 +143,7 @@ rosetta-spam-filter/spam-filter-cpu/.theia/
 rosetta-spam-filter/spam-filter-cpu/.wsdata/
 
 rosetta-spam-filter/spam-filter-cpu/spam-filter_cluster/spam-filter_cluster/
+
+rosetta-spam-filter/spam-filter-with-debugging/.wsdata/
+
+rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/spam-filter_cluster/
