@@ -1,39 +1,42 @@
 [
   {
-    "directory": "/home/tls/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster",
+    "directory": "/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster",
     "arguments": [
-      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "/tools/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/tools/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0",
       "-fhls",
-      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
-      "",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=llama2_iteration",
+      "-c",
+      "/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster/../llama2_host/src/async_kernel.c"
+    ],
+    "file": "/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster/../llama2_host/src/async_kernel.c"
+  },
+  {
+    "directory": "/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster",
+    "arguments": [
+      "/tools/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/tools/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=llama2_iteration",
       "-g",
       "-c",
-      "/home/tls/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster/../llama2_host/src/run.c"
+      "/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster/../llama2_host/src/run.c"
     ],
-    "file": "/home/tls/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster/../llama2_host/src/run.c"
+    "file": "/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster/../llama2_host/src/run.c"
   },
   {
-    "directory": "/home/tls/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster",
+    "directory": "/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster",
     "arguments": [
-      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "/tools/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/tools/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0",
       "-fhls",
-      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
-      "",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=llama2_iteration",
       "-c",
-      "/home/tls/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster/../llama2_host/src/async_host.c"
+      "/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster/../llama2_host/src/async_host.c"
     ],
-    "file": "/home/tls/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster/../llama2_host/src/async_host.c"
-  },
-  {
-    "directory": "/home/tls/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster",
-    "arguments": [
-      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
-      "-fhls",
-      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
-      "",
-      "-c",
-      "/home/tls/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster/../llama2_host/src/async_kernel.c"
-    ],
-    "file": "/home/tls/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster/../llama2_host/src/async_kernel.c"
+    "file": "/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_cluster/../llama2_host/src/async_host.c"
   }
 ]

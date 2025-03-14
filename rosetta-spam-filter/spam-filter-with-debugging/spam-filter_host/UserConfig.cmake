@@ -29,6 +29,22 @@ set(USER_INCLUDE_DIRECTORIES
 
 # -----------------------------------------
 
+# Add any source below, they will be added sources.
+# Example 1: Adding /proj/data/helloworld.c will pass /proj/data/helloworld.c
+# Example 2: Adding ../../common/helloworld.c will consider the path as relative to this component sources.
+# Example 3: Adding ${CMAKE_SOURCE_DIR}/data/helloworld.c to add data/helloworld.c from this project.
+
+set(USER_COMPILE_SOURCES
+"src/utils.cpp"
+"src/async_kernel.c"
+"src/sgd_sw.cpp"
+"src/spam_filter.cpp"
+"src/check_result.cpp"
+"src/async_host.c"
+)
+
+# -----------------------------------------
+
 # Turn on all optional warnings (-Wall)
 set(USER_COMPILE_WARNINGS_ALL -Wall)
 
@@ -105,7 +121,6 @@ set(USER_LINK_OMIT_ALL_SYMBOL_INFO )
 # Add any libraries to be linked below, they will be added as extra libraries.
 # User need to update USER_LINK_DIRECTORIES below with these library paths.
 set(USER_LINK_LIBRARIES
--lm
 )
 
 # Add any directories to look for the libraries to be linked.

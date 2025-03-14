@@ -240,7 +240,7 @@ void softmax(float *x, int size)
     float max_val = x[0];
     for (int i = 1; i < size; i++)
     {
-#pragma HLS loop_tripcount max=31999 min=0 avg=989
+#pragma HLS loop_tripcount max = 31999 min = 0 avg = 989
         if (x[i] > max_val)
         {
             max_val = x[i];
@@ -250,14 +250,14 @@ void softmax(float *x, int size)
     float sum = 0.0f;
     for (int i = 0; i < size; i++)
     {
-#pragma HLS loop_tripcount max=32000 min=1 avg=990
+#pragma HLS loop_tripcount max = 32000 min = 1 avg = 990
         x[i] = expf(x[i] - max_val);
         sum += x[i];
     }
     // normalize
     for (int i = 0; i < size; i++)
     {
-#pragma HLS loop_tripcount max=32000 min=1 avg=990
+#pragma HLS loop_tripcount max = 32000 min = 1 avg = 990
         x[i] /= sum;
     }
 }
@@ -269,11 +269,11 @@ void matmul(float *xout, float *x, float *w, int n, int d)
     int i;
     for (i = 0; i < d; i++)
     {
-#pragma HLS loop_tripcount max=32000 min=288 avg=1159
+#pragma HLS loop_tripcount max = 32000 min = 288 avg = 1159
         float val = 0.0f;
         for (int j = 0; j < n; j++)
         {
-#pragma HLS loop_tripcount max=768 min=288 avg=305
+#pragma HLS loop_tripcount max = 768 min = 288 avg = 305
             val += w[i * n + j] * x[j];
         }
         xout[i] = val;
@@ -476,14 +476,14 @@ float *forward_no_struct(
 
     for (int i = 0; i < dim; i++)
     {
-#pragma HLS loop_tripcount max=288 min=288 avg=288
+#pragma HLS loop_tripcount max = 288 min = 288 avg = 288
         x[i] = content_row[i];
     }
 
     // forward all the layers
     for (unsigned long long l = 0; l < transformer_config_n_layers; l++)
     {
-#pragma HLS loop_tripcount max=6 min=6 avg=6
+#pragma HLS loop_tripcount max = 6 min = 6 avg = 6
         // attention rmsnorm
         rmsnorm(transformer_state_xb, x, transformer_weights_rms_att_weight + l * dim, dim);
 
@@ -500,7 +500,7 @@ float *forward_no_struct(
         // RoPE relative positional encoding: complex-valued rotate q and k in each head
         for (int i = 0; i < dim; i += 2)
         {
-#pragma HLS loop_tripcount max=144 min=144 avg=144
+#pragma HLS loop_tripcount max = 144 min = 144 avg = 144
             int head_dim = i % head_size;
             float freq = 1.0f / powf(10000.0f, head_dim / (float)head_size);
             float val = pos * freq;
@@ -510,7 +510,7 @@ float *forward_no_struct(
 
             for (int v = 0; v < rotn; v++)
             {
-#pragma HLS loop_tripcount max=2 min=2 avg=2
+#pragma HLS loop_tripcount max = 2 min = 2 avg = 2
                 float *vec = v == 0 ? transformer_state_q : transformer_state_k; // the vector to rotate (query or key)
                 float v0 = vec[i];
                 float v1 = vec[i + 1];
@@ -523,7 +523,7 @@ float *forward_no_struct(
         int h;
         for (h = 0; h < transformer_config_n_heads; h++)
         {
-#pragma HLS loop_tripcount max=6 min=6 avg=6
+#pragma HLS loop_tripcount max = 6 min = 6 avg = 6
             // get the query vector for this head
             float *q = transformer_state_q + h * head_size;
             // attention scores for this head
@@ -531,14 +531,14 @@ float *forward_no_struct(
             // iterate over all timesteps, including the current one
             for (int t = 0; t <= pos; t++)
             {
-#pragma HLS loop_tripcount max=256 min=1 avg=128
+#pragma HLS loop_tripcount max = 256 min = 1 avg = 128
                 // get the key vector for this head and at this timestep
                 float *k = transformer_state_key_cache + loff + t * kv_dim + (h / kv_mul) * head_size;
                 // calculate the attention score as the dot product of q and k
                 float score = 0.0f;
                 for (int i = 0; i < head_size; i++)
                 {
-#pragma HLS loop_tripcount max=48 min=48 avg=48
+#pragma HLS loop_tripcount max = 48 min = 48 avg = 48
                     score += q[i] * k[i];
                 }
                 score /= sqrtf(head_size);
@@ -553,13 +553,13 @@ float *forward_no_struct(
             float *xb = transformer_state_xb + h * head_size;
             for (int i = 0; i < head_size; i++)
             {
-#pragma HLS loop_tripcount max=48 min=48 avg=48
+#pragma HLS loop_tripcount max = 48 min = 48 avg = 48
                 xb[i] = 0;
             }
 
             for (int t = 0; t <= pos; t++)
             {
-#pragma HLS loop_tripcount max=256 min=1 avg=128
+#pragma HLS loop_tripcount max = 256 min = 1 avg = 128
                 // get the value vector for this head and at this timestep
                 float *v = transformer_state_value_cache + loff + t * kv_dim + (h / kv_mul) * head_size;
                 // get the attention weight for this timestep
@@ -567,7 +567,7 @@ float *forward_no_struct(
                 // accumulate the weighted value into xb
                 for (int i = 0; i < head_size; i++)
                 {
-#pragma HLS loop_tripcount max=48 min=48 avg=48
+#pragma HLS loop_tripcount max = 48 min = 48 avg = 48
                     xb[i] += a * v[i];
                 }
             }
@@ -579,7 +579,7 @@ float *forward_no_struct(
         // residual connection back into x
         for (int i = 0; i < dim; i++)
         {
-#pragma HLS loop_tripcount max=288 min=288 avg=288
+#pragma HLS loop_tripcount max = 288 min = 288 avg = 288
             x[i] += transformer_state_xb2[i];
         }
 
@@ -594,7 +594,7 @@ float *forward_no_struct(
         // SwiGLU non-linearity
         for (int i = 0; i < hidden_dim; i++)
         {
-#pragma HLS loop_tripcount max=768 min=768 avg=768
+#pragma HLS loop_tripcount max = 768 min = 768 avg = 768
             float val = transformer_state_hb[i];
             // silu(x)=x*σ(x), where σ(x) is the logistic sigmoid
             val *= (1.0f / (1.0f + expf(-val)));
@@ -609,7 +609,7 @@ float *forward_no_struct(
         // residual connection
         for (int i = 0; i < dim; i++)
         {
-#pragma HLS loop_tripcount max=288 min=288 avg=288
+#pragma HLS loop_tripcount max = 288 min = 288 avg = 288
             x[i] += transformer_state_xb[i];
         }
     }
@@ -975,7 +975,7 @@ int sample_argmax(float *probabilities, int n)
     float max_p = probabilities[0];
     for (int i = 1; i < n; i++)
     {
-#pragma HLS loop_tripcount max=0 min=0 avg=0
+#pragma HLS loop_tripcount max = 0 min = 0 avg = 0
         if (probabilities[i] > max_p)
         {
             max_i = i;
@@ -992,7 +992,7 @@ int sample_mult(float *probabilities, int n, float coin)
     float cdf = 0.0f;
     for (int i = 0; i < n; i++)
     {
-#pragma HLS loop_tripcount max=0 min=0 avg=0
+#pragma HLS loop_tripcount max = 0 min = 0 avg = 0
         cdf += probabilities[i];
         if (coin < cdf)
         {
@@ -1077,7 +1077,7 @@ int sample_topp_no_struct(float *probabilities, int n, float topp, float *sample
     const float cutoff = (1.0f - topp) / (n - 1);
     for (int i = 0; i < n; i++)
     {
-#pragma HLS loop_tripcount max=32000 min=32000 avg=32000
+#pragma HLS loop_tripcount max = 32000 min = 32000 avg = 32000
         if (probabilities[i] >= cutoff)
         {
             sampler_probindex_index[n0] = i;
@@ -1088,10 +1088,10 @@ int sample_topp_no_struct(float *probabilities, int n, float topp, float *sample
     // qsort(sampler_probindex_prob, n0, sizeof(ProbIndex), compare);
     for (size_t i = 0; i < n0 - 1; ++i)
     {
-#pragma HLS loop_tripcount max=2627 min=0 avg=288
+#pragma HLS loop_tripcount max = 2627 min = 0 avg = 288
         for (size_t j = 0; j < n0 - i - 1; ++j)
         {
-#pragma HLS loop_tripcount max=2627 min=1 avg=360
+#pragma HLS loop_tripcount max = 2627 min = 1 avg = 360
             if (sampler_probindex_prob[j] > sampler_probindex_prob[j + 1])
             {
                 float temp = sampler_probindex_prob[j];
@@ -1110,7 +1110,7 @@ int sample_topp_no_struct(float *probabilities, int n, float topp, float *sample
     int last_idx = n0 - 1; // in case of rounding errors consider all elements
     for (int i = 0; i < n0; i++)
     {
-#pragma HLS loop_tripcount max=2628 min=1 avg=289
+#pragma HLS loop_tripcount max = 2628 min = 1 avg = 289
         cumulative_prob += sampler_probindex_prob[i];
         if (cumulative_prob > topp)
         {
@@ -1124,7 +1124,7 @@ int sample_topp_no_struct(float *probabilities, int n, float topp, float *sample
     float cdf = 0.0f;
     for (int i = 0; i <= last_idx; i++)
     {
-#pragma HLS loop_tripcount max=1202 min=1 avg=195
+#pragma HLS loop_tripcount max = 1202 min = 1 avg = 195
         cdf += sampler_probindex_prob[i];
         if (r < cdf)
         {
@@ -1214,27 +1214,27 @@ int sample_no_struct(int sampler_vocab_size,
     // }
     // else
     // {
-        // apply the temperature to the logits
-        for (int q = 0; q < sampler_vocab_size; q++)
-        {
-#pragma HLS loop_tripcount max=32000 min=32000 avg=32000
-            logits[q] /= sampler_temperature;
-        }
-        // apply softmax to the logits to get the probabilities for next token
-        softmax(logits, sampler_vocab_size);
-        // flip a (float) coin (this is our source of entropy for sampling)
-        float coin = random_f32(&sampler_rng_state);
-        // we sample from this distribution to get the next token
-        if (sampler_topp <= 0 || sampler_topp >= 1)
-        {
-            // simply sample from the predicted probability distribution
-            next = sample_mult(logits, sampler_vocab_size, coin);
-        }
-        else
-        {
-            // top-p (nucleus) sampling, clamping the least likely tokens to zero
-            next = sample_topp_no_struct(logits, sampler_vocab_size, sampler_topp, sampler_probindex_prob, sampler_probindex_index, coin);
-        }
+    // apply the temperature to the logits
+    for (int q = 0; q < sampler_vocab_size; q++)
+    {
+#pragma HLS loop_tripcount max = 32000 min = 32000 avg = 32000
+        logits[q] /= sampler_temperature;
+    }
+    // apply softmax to the logits to get the probabilities for next token
+    softmax(logits, sampler_vocab_size);
+    // flip a (float) coin (this is our source of entropy for sampling)
+    float coin = random_f32(&sampler_rng_state);
+    // we sample from this distribution to get the next token
+    if (sampler_topp <= 0 || sampler_topp >= 1)
+    {
+        // simply sample from the predicted probability distribution
+        next = sample_mult(logits, sampler_vocab_size, coin);
+    }
+    else
+    {
+        // top-p (nucleus) sampling, clamping the least likely tokens to zero
+        next = sample_topp_no_struct(logits, sampler_vocab_size, sampler_topp, sampler_probindex_prob, sampler_probindex_index, coin);
+    }
     // }
     return next;
 }
@@ -1255,13 +1255,13 @@ long time_in_ms()
 
 void llama2_iteration(
     // -------------------------
-    int transformer_config_dim,
-    int transformer_config_hidden_dim,
-    int transformer_config_n_layers,
-    int transformer_config_n_heads,
-    int transformer_config_n_kv_heads,
-    int transformer_config_seq_len,
-    int transformer_config_vocab_size,
+    int *transformer_config_dim,
+    int *transformer_config_hidden_dim,
+    int *transformer_config_n_layers,
+    int *transformer_config_n_heads,
+    int *transformer_config_n_kv_heads,
+    int *transformer_config_seq_len,
+    int *transformer_config_vocab_size,
     float *transformer_weights_token_embedding_table,
     float *transformer_weights_rms_att_weight,
     float *transformer_weights_rms_ffn_weight,
@@ -1287,15 +1287,15 @@ void llama2_iteration(
     float *transformer_state_key_cache,
     float *transformer_state_value_cache,
     // -------------------------
-    int sampler_vocab_size,
-    float sampler_temperature,
-    float sampler_topp,
-    unsigned long long sampler_rng_state,
+    int *sampler_vocab_size,
+    float *sampler_temperature,
+    float *sampler_topp,
+    unsigned long long *sampler_rng_state,
     float *sampler_probindex_prob,
     int *sampler_probindex_index,
     // other args
-    int token,
-    int num_prompt_tokens,
+    int *token,
+    int *num_prompt_tokens,
     int *prompt_tokens,
     int *next,
     int *pos)
@@ -1366,16 +1366,13 @@ void llama2_iteration(
 
 void llama2_loop(
     // -------------------------
-    // int transformer_fd,
-    // float *transformer_data,
-    // ssize_t transformer_file_size,
-    int transformer_config_dim,
-    int transformer_config_hidden_dim,
-    int transformer_config_n_layers,
-    int transformer_config_n_heads,
-    int transformer_config_n_kv_heads,
-    int transformer_config_seq_len,
-    int transformer_config_vocab_size,
+    int *transformer_config_dim,
+    int *transformer_config_hidden_dim,
+    int *transformer_config_n_layers,
+    int *transformer_config_n_heads,
+    int *transformer_config_n_kv_heads,
+    int *transformer_config_seq_len,
+    int *transformer_config_vocab_size,
     float *transformer_weights_token_embedding_table,
     float *transformer_weights_rms_att_weight,
     float *transformer_weights_rms_ffn_weight,
@@ -1402,23 +1399,19 @@ void llama2_loop(
     float *transformer_state_value_cache,
     // -------------------------
     char *tokenizer_vocab,
-    // float *tokenizer_vocab_scores,
-    // int tokenizer_vocab_size,
-    unsigned int tokenizer_max_token_length,
+    unsigned int *tokenizer_max_token_length,
     unsigned char *tokenizer_byte_pieces,
-    // char *tokenizer_sorted_vocab_str,
-    // int tokenizer_sorted_vocab_id,
     // -------------------------
-    int sampler_vocab_size,
-    float sampler_temperature,
-    float sampler_topp,
-    unsigned long long sampler_rng_state,
+    int *sampler_vocab_size,
+    float *sampler_temperature,
+    float *sampler_topp,
+    unsigned long long *sampler_rng_state,
     float *sampler_probindex_prob,
     int *sampler_probindex_index,
-    // other args
+    // -------------------------
     int *prompt_tokens,
-    int num_prompt_tokens,
-    int steps,
+    int *num_prompt_tokens,
+    int *steps,
     int *rtr_val)
 {
     int pos = 0;
@@ -1426,7 +1419,7 @@ void llama2_loop(
     int token = prompt_tokens[0]; // kick off with the first token in the prompt
     while (pos < steps)
     {
-#pragma HLS loop_tripcount max=256 min=256 avg=256
+#pragma HLS loop_tripcount max = 256 min = 256 avg = 256
         llama2_iteration(
             // -------------------------
             transformer_config_dim,
@@ -1479,12 +1472,8 @@ void llama2_loop(
             char *piece = decode_no_struct(
                 // -------------------------
                 tokenizer_vocab,
-                // tokenizer_vocab_scores,
-                // tokenizer_vocab_size,
                 tokenizer_max_token_length,
                 tokenizer_byte_pieces,
-                // tokenizer_sorted_vocab_str,
-                // tokenizer_sorted_vocab_id,
                 // -------------------------
                 token,
                 next);
@@ -1526,13 +1515,20 @@ void generate(Transformer *transformer, Tokenizer *tokenizer, Sampler *sampler, 
     ssize_t transformer_file_size = transformer->file_size;
 
     // *transformer_config
-    int transformer_config_dim = transformer_config->dim;
-    int transformer_config_hidden_dim = transformer_config->hidden_dim;
-    int transformer_config_n_layers = transformer_config->n_layers;
-    int transformer_config_n_heads = transformer_config->n_heads;
-    int transformer_config_n_kv_heads = transformer_config->n_kv_heads;
-    int transformer_config_seq_len = transformer_config->seq_len;
-    int transformer_config_vocab_size = transformer_config->vocab_size;
+    int *transformer_config_dim = (int *)malloc(sizeof(int));
+    int *transformer_config_hidden_dim = (int *)malloc(sizeof(int));
+    int *transformer_config_n_layers = (int *)malloc(sizeof(int));
+    int *transformer_config_n_heads = (int *)malloc(sizeof(int));
+    int *transformer_config_n_kv_heads = (int *)malloc(sizeof(int));
+    int *transformer_config_seq_len = (int *)malloc(sizeof(int));
+    int *transformer_config_vocab_size = (int *)malloc(sizeof(int));
+    *transformer_config_dim = transformer_config->dim;
+    *transformer_config_hidden_dim = transformer_config->hidden_dim;
+    *transformer_config_n_layers = transformer_config->n_layers;
+    *transformer_config_n_heads = transformer_config->n_heads;
+    *transformer_config_n_kv_heads = transformer_config->n_kv_heads;
+    *transformer_config_seq_len = transformer_config->seq_len;
+    *transformer_config_vocab_size = transformer_config->vocab_size;
 
     // *transformer_weights
     float *transformer_weights_token_embedding_table = transformer_weights->token_embedding_table;
@@ -1566,12 +1562,13 @@ void generate(Transformer *transformer, Tokenizer *tokenizer, Sampler *sampler, 
     float *tokenizer_vocab_scores = tokenizer->vocab_scores;
     TokenIndex *tokenizer_sorted_vocab = tokenizer->sorted_vocab;
     int tokenizer_vocab_size = tokenizer->vocab_size;
-    unsigned int tokenizer_max_token_length = tokenizer->max_token_length;
+    unsigned int *tokenizer_max_token_length = (unsigned int *)malloc(sizeof(unsigned int));
+    *tokenizer_max_token_length = tokenizer->max_token_length;
     unsigned char *tokenizer_byte_pieces = tokenizer->byte_pieces;
-    char *tokenizer_vocab = calloc(tokenizer_max_token_length * tokenizer_vocab_size, sizeof(char));
+    char *tokenizer_vocab = calloc((*tokenizer_max_token_length) * tokenizer_vocab_size, sizeof(char));
     for (int i = 0; i < tokenizer_vocab_size; i++)
     {
-        int offset = i * tokenizer_max_token_length;
+        int offset = i * (*tokenizer_max_token_length);
         strcpy(tokenizer_vocab + offset, tokenizer->vocab[i]);
     }
 
@@ -1582,8 +1579,10 @@ void generate(Transformer *transformer, Tokenizer *tokenizer, Sampler *sampler, 
     // *sampler
     int sampler_vocab_size = sampler->vocab_size;
     ProbIndex *sampler_probindex = sampler->probindex;
-    float sampler_temperature = sampler->temperature;
-    float sampler_topp = sampler->topp;
+    float *sampler_temperature = (float *)malloc(sizeof(float));
+    *sampler_temperature = sampler->temperature;
+    float *sampler_topp = (float *)malloc(sizeof(float));
+    *sampler_topp = sampler->topp;
     unsigned long long sampler_rng_state = sampler->rng_state;
 
     // *sampler_probindex
@@ -1638,12 +1637,8 @@ void generate(Transformer *transformer, Tokenizer *tokenizer, Sampler *sampler, 
         transformer_state_value_cache,
         // -------------------------
         tokenizer_vocab,
-        // tokenizer_vocab_scores,
-        // tokenizer_vocab_size,
         tokenizer_max_token_length,
         tokenizer_byte_pieces,
-        // tokenizer_sorted_vocab_str,
-        // tokenizer_sorted_vocab_id,
         //  -------------------------
         sampler_vocab_size,
         sampler_temperature,

@@ -9,7 +9,7 @@ C CXX
 
 # Including the cmake modules from the Vitis Install.
 set(CMAKE_MODULE_PATH
-"$ENV{XILINX_VITIS}/vitisng-server/scripts/cmake"
+"$ENV{XILINX_VITIS}/vitis-server/scripts/cmake"
 ${CMAKE_MODULE_PATH}
 )
 find_package(Host REQUIRED)
@@ -28,7 +28,7 @@ set_property(CACHE VITIS_TARGET
 )
 
 set(VITIS_PLATFORM_PATH
-/tools/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_202410_1/xilinx_zcu102_base_202410_1.xpfm
+/tools/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/xilinx_zcu102_base_202420_1.xpfm
 CACHE STRING
 "Vitis Platform"
 )

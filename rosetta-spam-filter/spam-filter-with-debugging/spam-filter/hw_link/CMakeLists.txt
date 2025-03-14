@@ -67,11 +67,11 @@ set(_BINEXT
 set (TARGET_OPTION_STRING --target ${VITIS_TARGET})
 if( ${VITIS_TARGET} STREQUAL sw_emu )
 set(_binary_container_1_KERNEL_XO_PATHS
-spam-filter_cluster/spam-filter_cluster/sw_emu/cluster.xo
+spam-filter_cluster/spam-filter_cluster/sw_emu/SgdLR_sw_with_debugging.xo
 )
 else()
 set(_binary_container_1_KERNEL_XO_PATHS
-spam-filter_cluster/spam-filter_cluster/cluster.xo
+spam-filter_cluster/spam-filter_cluster/SgdLR_sw_with_debugging.xo
 )
 endif()
 set(_binary_container_1_USER_KERNEL_PATHS

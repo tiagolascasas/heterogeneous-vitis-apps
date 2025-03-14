@@ -1,6 +1,7 @@
 {
   "name": "spam-filter_cluster",
   "type": "HLS",
+  "part": "xczu9eg-ffvb1156-2-e",
   "configuration": {
     "componentType": "HLS",
     "configFiles": [

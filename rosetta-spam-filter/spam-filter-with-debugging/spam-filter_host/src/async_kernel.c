@@ -1,7 +1,8 @@
 #include "synthcalls.h"
 
-void call_async_assert(int8_t *buf, async_kernel_info *info, bool is_last, bool condition)
+inline void call_async_assert(int8_t *buf, async_kernel_info *info, bool is_last, bool condition)
 {
+    #pragma HLS inline
     if (info->idx == -1)
     {
         info->idx = 0;
@@ -48,8 +49,9 @@ void call_async_fflush(int8_t *buf, async_kernel_info *info, bool is_last)
     }
 }
 
-void call_async_printf(int8_t *buf, async_kernel_info *info, bool is_last, int64_t *args, size_t n_args)
+inline void call_async_printf(int8_t *buf, async_kernel_info *info, bool is_last, int64_t *args, size_t n_args)
 {
+        #pragma HLS inline
     if (info->idx == -1)
     {
         info->idx = 0;
