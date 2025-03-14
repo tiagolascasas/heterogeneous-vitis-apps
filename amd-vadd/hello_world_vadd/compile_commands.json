@@ -1,15 +1,16 @@
 [
   {
-    "directory": "/home/tls/heterogeneous-vitis-apps/amd-vadd/hello_world_vadd",
+    "directory": "/home/tls/Dev/heterogeneous-vitis-apps/amd-vadd/hello_world_vadd",
     "arguments": [
-      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "/tools/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/tools/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0",
       "-fhls",
-      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
-      "",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=vadd",
       "-g",
       "-c",
-      "/home/tls/heterogeneous-vitis-apps/amd-vadd/hello_world_vadd/src/vadd.cpp"
+      "/home/tls/Dev/heterogeneous-vitis-apps/amd-vadd/hello_world_vadd/src/vadd.cpp"
     ],
-    "file": "/home/tls/heterogeneous-vitis-apps/amd-vadd/hello_world_vadd/src/vadd.cpp"
+    "file": "/home/tls/Dev/heterogeneous-vitis-apps/amd-vadd/hello_world_vadd/src/vadd.cpp"
   }
 ]

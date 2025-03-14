@@ -29,6 +29,19 @@ set(USER_INCLUDE_DIRECTORIES
 
 # -----------------------------------------
 
+# Add any source below, they will be added sources.
+# Example 1: Adding /proj/data/helloworld.c will pass /proj/data/helloworld.c
+# Example 2: Adding ../../common/helloworld.c will consider the path as relative to this component sources.
+# Example 3: Adding ${CMAKE_SOURCE_DIR}/data/helloworld.c to add data/helloworld.c from this project.
+
+set(USER_COMPILE_SOURCES
+"src/host.cpp"
+"libs/common/includes/logger/logger.cpp"
+"libs/common/includes/cmdparser/cmdlineparser.cpp"
+)
+
+# -----------------------------------------
+
 # Turn on all optional warnings (-Wall)
 set(USER_COMPILE_WARNINGS_ALL -Wall)
 

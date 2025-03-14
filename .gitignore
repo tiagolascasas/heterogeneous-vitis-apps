@@ -147,3 +147,5 @@ rosetta-spam-filter/spam-filter-cpu/spam-filter_cluster/spam-filter_cluster/
 rosetta-spam-filter/spam-filter-with-debugging/.wsdata/
 
 rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/spam-filter_cluster/
+
+amd-vadd/hello_world_vadd/vadd/

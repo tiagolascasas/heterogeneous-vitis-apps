@@ -1,0 +1,6 @@
+{
+  "workspaceRoot": "/home/tls/Dev/heterogeneous-vitis-apps/amd-vadd",
+  "mapping": {
+    "hello_world_vadd/src/vadd.cpp": "hello_world_vadd"
+  }
+}
