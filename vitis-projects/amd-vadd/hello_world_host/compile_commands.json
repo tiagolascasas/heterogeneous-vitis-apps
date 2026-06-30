@@ -1,0 +1,7 @@
+[
+  {
+    "command": "/usr/bin/g++ -DVITIS_MAJOR_VERSION\u003d2024 -DVITIS_MINOR_VERSION\u003d2 -DVITIS_VERSION\u003d2024.2 -D__USE_XOPEN2K8 -I/home/tls/dev/heterogeneous-vitis-apps/amd-vadd/hello_world_host/../hello_world_common/libs/common/includes/cmdparser -I/home/tls/dev/heterogeneous-vitis-apps/amd-vadd/hello_world_host/../hello_world_common/libs/common/includes/logger -I/tools/Xilinx/Vitis/2024.2/include -I/opt/xilinx/xrt/include -g -Wall -Wextra -O0 -g3 -std\u003dc++14 -o CMakeFiles/hello_world_host.dir/src/host.cpp.o -c /home/tls/dev/heterogeneous-vitis-apps/amd-vadd/hello_world_host/src/host.cpp",
+    "file": "/home/tls/dev/heterogeneous-vitis-apps/amd-vadd/hello_world_host/src/host.cpp",
+    "directory": "/home/tls/dev/heterogeneous-vitis-apps/amd-vadd/hello_world_host"
+  }
+]

@@ -1,0 +1,18 @@
+{
+ "kernels": [],
+ "computeUnits": [
+  {
+   "id": "",
+   "kernelName": "cluster",
+   "cuName": "cluster_1",
+   "baseAddress": "",
+   "instancePath": "/vitis_design_wrapper/vitis_design_i/cluster_1",
+   "slr": [],
+   "simInstanceName": "inst",
+   "locNames": [],
+   "tileNames": []
+  }
+ ],
+ "plrams": []
+}
+

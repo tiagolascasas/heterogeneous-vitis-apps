@@ -1,0 +1,6 @@
+{
+  "workspaceRoot": "/home/tls/heterogeneous-vitis-apps/exploration-xrt",
+  "mapping": {
+    "xrt-exploration_dummy_kernel/src/dummy_kernel.cpp": "xrt-exploration_dummy_kernel"
+  }
+}

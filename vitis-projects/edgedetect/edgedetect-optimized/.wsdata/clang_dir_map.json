@@ -1,0 +1,6 @@
+{
+  "workspaceRoot": "/home/tls/heterogeneous-vitis-apps/edgedetect/edgedetect-optimized",
+  "mapping": {
+    "EdgedetectBaseline_host/src/edgedetect.cpp": "EdgedetectBaseline_cluster"
+  }
+}

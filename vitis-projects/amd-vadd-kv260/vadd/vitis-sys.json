@@ -1,0 +1,73 @@
+{
+  "modelVersion": "1.0",
+  "projectName": "vadd",
+  "platform": "kv260_bist",
+  "externalComponentRefs": [
+    "vadd_host",
+    "vadd_vadd"
+  ],
+  "components": [
+    {
+      "name": "package",
+      "type": "PACKAGE",
+      "configuration": {
+        "componentType": "PACKAGE",
+        "packageConfigurations": [
+          {
+            "configId": "package.default",
+            "options": []
+          }
+        ],
+        "configFiles": [
+          "package/package.cfg"
+        ]
+      }
+    },
+    {
+      "name": "hw_link",
+      "type": "HW_LINKER",
+      "configuration": {
+        "componentType": "HW_LINKER",
+        "containers": [
+          {
+            "name": "vadd",
+            "kernels": {
+              "vadd": "vadd_vadd"
+            },
+            "userXoKernels": {},
+            "aieComponents": [],
+            "userAieLibadfList": [],
+            "cfgFiles": [
+              "hw_link/vadd-link.cfg"
+            ]
+          }
+        ],
+        "vppLinkerConfigurations": [
+          {
+            "configId": "hw_link.default",
+            "options": [],
+            "containerOptions": {},
+            "buildDatafiles": []
+          }
+        ]
+      }
+    }
+  ],
+  "buildConfigurations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "supportedTargets": [
+        "HW"
+      ],
+      "componentConfigMap": {
+        "package": "package.default",
+        "hw_link": "hw_link.default"
+      }
+    }
+  ],
+  "activeBuildConfigId": "default",
+  "hostMode": "x86",
+  "isDirty": true,
+  "applicationFlow": "EMBEDDED_ACCEL"
+}

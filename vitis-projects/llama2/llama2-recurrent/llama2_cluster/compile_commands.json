@@ -1,0 +1,15 @@
+[
+  {
+    "directory": "/home/tls/heterogeneous-vitis-apps/llama2/llama2-recurrent/llama2_cluster",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
+      "",
+      "-g",
+      "-c",
+      "/home/tls/heterogeneous-vitis-apps/llama2/llama2-recurrent/llama2_cluster/../llama2_host/src/run.c"
+    ],
+    "file": "/home/tls/heterogeneous-vitis-apps/llama2/llama2-recurrent/llama2_cluster/../llama2_host/src/run.c"
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "vadd_hw",
+      "debugType": "tcf_hw",
+      "target": {
+        "targetConnectionId": "Linux Agent",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "file": "${workspaceFolder}/vadd_host/build/hw/vadd_host",
+        "remoteFilePath": "/run/media/mmcblk0p1/vadd_host"
+      },
+      "env": {
+        "XILINX_VITIS": "/run/media/mmcblk0p1",
+        "XILINX_XRT": "/usr",
+        "XRT_INI_PATH": "/run/media/mmcblk0p1/hw_xrt.ini",
+        "LD_LIBRARY_PATH": "/run/media/mmcblk0p1:/tmp:$LD_LIBRARY_PATH"
+      },
+      "copyToTarget": [
+        {
+          "source": "${workspaceFolder}/vadd/build/hw/package/vadd.xclbin",
+          "destination": "/run/media/mmcblk0p1"
+        },
+        {
+          "source": "${workspaceFolder}/vadd/vadd_host/runtime/hw_xrt.ini",
+          "destination": "/run/media/mmcblk0p1"
+        }
+      ],
+      "copyFromTargetOnTermination": [
+        {
+          "pattern": ".txt",
+          "destination": "${workspaceFolder}/vadd/build/hw/vadd_hw"
+        },
+        {
+          "pattern": ".run_summary",
+          "destination": "${workspaceFolder}/vadd/build/hw/vadd_hw"
+        },
+        {
+          "pattern": ".json",
+          "destination": "${workspaceFolder}/vadd/build/hw/vadd_hw"
+        },
+        {
+          "pattern": ".csv",
+          "destination": "${workspaceFolder}/vadd/build/hw/vadd_hw"
+        }
+      ],
+      "pathMap": [
+        {
+          "source": "/home/tls/dev/heterogeneous-vitis-apps/amd-vadd-kv260/vadd/build/hw/hw_link/vadd/vadd/int/xo/vadd/vadd/cpu_sources",
+          "destination": "/home/tls/dev/heterogeneous-vitis-apps/amd-vadd-kv260/vadd_vadd/src"
+        }
+      ],
+      "replaceNativeEnv": false,
+      "arguments": "-x ./vadd.xclbin",
+      "workingDirectory": "/run/media/mmcblk0p1",
+      "stopAtMain": true,
+      "stopAtProgramEntry": false,
+      "autoAttachProcessChildren": false,
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ],
+  "compounds": []
+}

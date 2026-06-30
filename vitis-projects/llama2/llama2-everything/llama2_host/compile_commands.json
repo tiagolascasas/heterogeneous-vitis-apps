@@ -1,0 +1,7 @@
+[
+  {
+    "command": "/usr/bin/gcc -DVITIS_MAJOR_VERSION\u003d2024 -DVITIS_MINOR_VERSION\u003d2 -DVITIS_VERSION\u003d2024.2 -D__USE_XOPEN2K8 -I/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_host/../llama2_common/libs/common/includes/cmdparser -I/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_host/../llama2_common/libs/common/includes/logger -I/tools/Xilinx/Vitis/2024.2/include -I/opt/xilinx/xrt/include -g -Wall -Wextra -O0 -g3 -o CMakeFiles/llama2_host.dir/src/run.c.o -c /home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_host/src/run.c",
+    "file": "/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_host/src/run.c",
+    "directory": "/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything/llama2_host"
+  }
+]

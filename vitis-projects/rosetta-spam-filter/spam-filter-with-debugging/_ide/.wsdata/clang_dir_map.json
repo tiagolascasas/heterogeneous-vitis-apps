@@ -1,0 +1,17 @@
+{
+  "workspaceRoot": "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging",
+  "mapping": {
+    "spam-filter_cluster/../spam-filter_host/src/synthcalls.h": "spam-filter_cluster",
+    "spam-filter_cluster/../spam-filter_host/src/sgd_sw.cpp": "spam-filter_cluster",
+    "spam-filter_cluster/../spam-filter_host/src/async_kernel.c": "spam-filter_cluster",
+    "spam-filter_cluster/../spam-filter_host/src/check_result.cpp": "spam-filter_cluster",
+    "spam-filter_cluster/../spam-filter_host/src/async_host.c": "spam-filter_cluster",
+    "spam-filter_cluster/../spam-filter_host/src/utils.cpp": "spam-filter_cluster",
+    "spam-filter_cluster/../spam-filter_host/src/utils.h": "spam-filter_cluster",
+    "spam-filter_cluster/../spam-filter_host/src/typedefs.h": "spam-filter_cluster",
+    "spam-filter_cluster/../spam-filter_host/src/check_result.h": "spam-filter_cluster",
+    "spam-filter_cluster/../spam-filter_host/src/sgd_sw.h": "spam-filter_cluster",
+    "spam-filter_cluster/../spam-filter_host/src/spam_filter.cpp": "spam-filter_cluster",
+    "spam-filter_cluster/../spam-filter_host/src/lut.h": "spam-filter_cluster"
+  }
+}

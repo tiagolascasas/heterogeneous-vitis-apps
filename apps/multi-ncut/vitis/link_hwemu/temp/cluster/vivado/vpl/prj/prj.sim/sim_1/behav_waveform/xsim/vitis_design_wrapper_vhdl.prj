@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../prj.ip_user_files/bd/vitis_design/ip/vitis_design_axi_intc_0_0/sim/vitis_design_axi_intc_0_0.vhd" \
+"../../../../prj.ip_user_files/bd/vitis_design/ip/vitis_design_proc_sys_reset_0_0/sim/vitis_design_proc_sys_reset_0_0.vhd" \
+"../../../../prj.ip_user_files/bd/vitis_design/ip/vitis_design_proc_sys_reset_1_0/sim/vitis_design_proc_sys_reset_1_0.vhd" \
+"../../../../prj.ip_user_files/bd/vitis_design/ip/vitis_design_proc_sys_reset_2_0/sim/vitis_design_proc_sys_reset_2_0.vhd" \
+"../../../../prj.ip_user_files/bd/vitis_design/ip/vitis_design_proc_sys_reset_3_0/sim/vitis_design_proc_sys_reset_3_0.vhd" \
+"../../../../prj.ip_user_files/bd/vitis_design/ip/vitis_design_proc_sys_reset_4_0/sim/vitis_design_proc_sys_reset_4_0.vhd" \
+"../../../../prj.ip_user_files/bd/vitis_design/ip/vitis_design_proc_sys_reset_5_0/sim/vitis_design_proc_sys_reset_5_0.vhd" \
+"../../../../prj.ip_user_files/bd/vitis_design/ip/vitis_design_proc_sys_reset_6_0/sim/vitis_design_proc_sys_reset_6_0.vhd" \
+
+# Do not sort compile order
+nosort

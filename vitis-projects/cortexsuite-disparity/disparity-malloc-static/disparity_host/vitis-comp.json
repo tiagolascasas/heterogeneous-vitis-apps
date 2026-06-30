@@ -1,0 +1,44 @@
+{
+  "name": "disparity_host",
+  "type": "HOST",
+  "platform": "xilinx_zcu102_base_202420_1",
+  "domain": "xrt",
+  "cpuInstance": "cortex-a53",
+  "cpuType": "cortex-a53",
+  "os": "linux",
+  "sysroot": "/home/tls/zcu102/sysroots/cortexa72-cortexa53-xilinx-linux",
+  "configuration": {
+    "componentType": "HOST",
+    "hostToolchainConfigurations": [
+      {
+        "configId": "default",
+        "compilerSymbols": [],
+        "compilerIncludes": [
+          "../disparity_common/libs/common/includes/cmdparser",
+          "../disparity_common/libs/common/includes/logger"
+        ],
+        "compilerOptions": [],
+        "linkerLibraries": [
+          "uuid",
+          "xrt_coreutil"
+        ],
+        "linkerLibraryPaths": [],
+        "linkerOptions": [],
+        "x86CompilerSymbols": [],
+        "x86CompilerIncludes": [
+          "../disparity_common/libs/common/includes/cmdparser",
+          "../disparity_common/libs/common/includes/logger"
+        ],
+        "x86CompilerOptions": [],
+        "x86LinkerLibraries": [
+          "uuid",
+          "xrt_coreutil"
+        ],
+        "x86LinkerLibraryPaths": [],
+        "x86LinkerOptions": []
+      }
+    ]
+  },
+  "domainRealName": "xrt",
+  "applicationFlow": "EMBEDDED_ACCEL"
+}

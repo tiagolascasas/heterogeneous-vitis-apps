@@ -1,0 +1,1 @@
+set_property CONFIG.FREQ_HZ 150000000 [get_bd_pins /cluster_1/ap_clk]

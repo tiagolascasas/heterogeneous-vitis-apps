@@ -1,0 +1,80 @@
+[
+  {
+    "directory": "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster",
+    "arguments": [
+      "/tools/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/tools/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=call_async_assert",
+      "-c",
+      "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/../spam-filter_host/src/check_result.cpp"
+    ],
+    "file": "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/../spam-filter_host/src/check_result.cpp"
+  },
+  {
+    "directory": "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster",
+    "arguments": [
+      "/tools/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/tools/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=call_async_assert",
+      "-c",
+      "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/../spam-filter_host/src/spam_filter.cpp"
+    ],
+    "file": "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/../spam-filter_host/src/spam_filter.cpp"
+  },
+  {
+    "directory": "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster",
+    "arguments": [
+      "/tools/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/tools/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=call_async_assert",
+      "-c",
+      "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/../spam-filter_host/src/async_kernel.c"
+    ],
+    "file": "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/../spam-filter_host/src/async_kernel.c"
+  },
+  {
+    "directory": "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster",
+    "arguments": [
+      "/tools/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/tools/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=call_async_assert",
+      "-c",
+      "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/../spam-filter_host/src/sgd_sw.cpp"
+    ],
+    "file": "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/../spam-filter_host/src/sgd_sw.cpp"
+  },
+  {
+    "directory": "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster",
+    "arguments": [
+      "/tools/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/tools/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=call_async_assert",
+      "-c",
+      "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/../spam-filter_host/src/async_host.c"
+    ],
+    "file": "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/../spam-filter_host/src/async_host.c"
+  },
+  {
+    "directory": "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster",
+    "arguments": [
+      "/tools/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/tools/Xilinx/Vitis/2024.2/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=call_async_assert",
+      "-c",
+      "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/../spam-filter_host/src/utils.cpp"
+    ],
+    "file": "/home/tls/Dev/heterogeneous-vitis-apps/rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/../spam-filter_host/src/utils.cpp"
+  }
+]

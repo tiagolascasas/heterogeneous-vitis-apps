@@ -1,3 +1,0 @@
-relativeroot=/home/tls/dev/vadd-zcu102/hello_world_vadd
-original_argv=-c --mode hls --config /home/tls/dev/vadd-zcu102/hello_world_vadd/hls_config.cfg --work_dir vadd 
-

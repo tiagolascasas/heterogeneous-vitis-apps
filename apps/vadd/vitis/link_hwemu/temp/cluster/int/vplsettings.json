@@ -1,0 +1,24 @@
+{
+    "kernelContainerValues": [
+        "cluster:xo"
+    ],
+    "profileDataTransferValues": [
+        "all:all:all"
+    ],
+    "profileStallValues": [
+        "all:all:all"
+    ],
+    "compile": "false",
+    "debug": "false",
+    "exportScript": "false",
+    "gccHostCompile": "false",
+    "generateEstimateRpt": "false",
+    "keepSolution": "false",
+    "link": "false",
+    "logDir": "\/home\/tls\/dev\/heterogeneous-vitis-apps\/apps\/vadd\/vitis\/link_hwemu\/logs\/cluster",
+    "package": "false",
+    "reportDir": "\/home\/tls\/dev\/heterogeneous-vitis-apps\/apps\/vadd\/vitis\/link_hwemu\/reports\/cluster",
+    "saveTemps": "false",
+    "verbose": "false",
+    "vplNoIpCache": "false"
+}

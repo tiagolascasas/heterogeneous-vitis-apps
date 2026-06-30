@@ -1,0 +1,12 @@
+{
+  "name": "vadd_vadd",
+  "type": "HLS",
+  "part": "xck26-sfvc784-2LV-c",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "vadd"
+  }
+}

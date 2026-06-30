@@ -430,12 +430,20 @@ int main()
     // Selector between SW and HW bridge calls based on OFFLOAD getenv variable
     if (getenv("OFFLOAD") != ((void *)0))
     {
+        if (getenv("DEBUG") != ((void *)0))
+        {
+            printf("Running in HW offload mode\n");
+        }
         rgbToGrayscale(image_rgb, image_gray);
         edge_detect_out0(filter);
         edge_detect_hw_bridge(image_gray, temp_buf, filter, output);
     }
     else
     {
+        if (getenv("DEBUG") != ((void *)0))
+        {
+            printf("Running in SW mode\n");
+        }
         edge_detect_sw(image_rgb, image_gray, temp_buf, filter, output);
     }
     writeBMP("output.bmp", 1920, 1080, (unsigned char *)output);

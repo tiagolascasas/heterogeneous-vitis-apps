@@ -1,0 +1,8 @@
+{
+  "workspaceRoot": "/home/tls/dev/heterogeneous-vitis-apps/cortexsuite-disparity/disparity-malloc-static",
+  "mapping": {
+    "disparity_cluster/../disparity_host/src/disparity.c": "disparity_cluster",
+    "disparity_cluster/../disparity_host/src/bitmap.c": "disparity_cluster",
+    "disparity_cluster/../disparity_host/src/bitmap.h": "disparity_cluster"
+  }
+}
