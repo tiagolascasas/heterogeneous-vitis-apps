@@ -7,7 +7,7 @@ PLATFORM ?= xilinx_zcu102_base_202420_1
 
 # Common image for hw_emu packaging (rootfs + kernel).
 # Download from AMD/Xilinx downloads page: "ZCU102 Common Image 2024.2"
-COMMON_IMAGE_DIR ?= /home/tls/xilinx/xilinx-zynqmp-common-v2024.2
+COMMON_IMAGE_DIR ?= /home/tls/xilinx/sysroots/xilinx-zynqmp-common-v2024.2
 ROOTFS           ?= $(COMMON_IMAGE_DIR)/rootfs.ext4
 KERNEL_IMAGE     ?= $(COMMON_IMAGE_DIR)/Image
 
@@ -69,8 +69,9 @@ capture_xo: | dirs
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 update_cfg:
-	@echo "Updating top function to $(TOP) in hls_config.cfg"
-	sed -i "s/^syn.top=.*/syn.top=$(TOP)/" hls_config.cfg
+	@echo "Checking top function in hls_config.cfg"
+	@grep -q "^syn.top=$(TOP)$$" hls_config.cfg || sed -i "s/^syn.top=.*/syn.top=$(TOP)/" hls_config.cfg
+
 
 # ── Host build ────────────────────────────────────────────────────────────────
 $(ELF_PATH): $(HOST_SRCS) $(BRIDGE_SRCS) | dirs
@@ -141,11 +142,16 @@ GCC_WRAP_DIR := $(CURDIR)/$(BUILD_DIR)/gcc-wrap
 
 $(GCC_WRAP_DIR)/gcc: | dirs
 	mkdir -p $(GCC_WRAP_DIR)
-	printf '#!/bin/bash\nexec /usr/bin/x86_64-linux-gnu-gcc-15 -std=gnu17 "$$@"\n' > $@
+	printf '#!/bin/bash\nif [[ "$$0" == *"++" ]]; then\n  COMP="/usr/bin/x86_64-linux-gnu-g++-15"\n  FLAGS=""\nelse\n  COMP="/usr/bin/x86_64-linux-gnu-gcc-15"\n  FLAGS="-std=gnu17"\nfi\nexec "$$COMP" $$FLAGS -Wno-error=incompatible-pointer-types -Wno-error=implicit-function-declaration -Wno-error=implicit-int -Wno-error=int-conversion "$$@"\n' > $@
 	chmod +x $@
+	ln -sf gcc $(GCC_WRAP_DIR)/cc
+	ln -sf gcc $(GCC_WRAP_DIR)/g++
+	ln -sf gcc $(GCC_WRAP_DIR)/c++
+	printf '#define _GNU_SOURCE\n#include <dlfcn.h>\n#include <string.h>\n#include <unistd.h>\n#include <stdlib.h>\n#include <spawn.h>\ntypedef int (*execve_func_t)(const char *pathname, char *const argv[], char *const envp[]);\ntypedef int (*execv_func_t)(const char *pathname, char *const argv[]);\ntypedef int (*execvp_func_t)(const char *file, char *const argv[]);\ntypedef int (*posix_spawn_func_t)(pid_t *pid, const char *path, const posix_spawn_file_actions_t *file_actions, const posix_spawnattr_t *attrp, char *const argv[], char *const envp[]);\ntypedef int (*posix_spawnp_func_t)(pid_t *pid, const char *file, const posix_spawn_file_actions_t *file_actions, const posix_spawnattr_t *attrp, char *const argv[], char *const envp[]);\nstatic const char* check_wrap(const char* path) {\n    if (!path) return path;\n    if (strcmp(path, "/usr/bin/gcc") == 0 || strcmp(path, "gcc") == 0 || strcmp(path, "cc") == 0 || strcmp(path, "/usr/bin/cc") == 0) {\n        const char* wrap = getenv("GCC_WRAP_SCRIPT");\n        if (wrap) return wrap;\n    }\n    if (strcmp(path, "/usr/bin/g++") == 0 || strcmp(path, "g++") == 0 || strcmp(path, "c++") == 0 || strcmp(path, "/usr/bin/c++") == 0) {\n        const char* wrap = getenv("CXX_WRAP_SCRIPT");\n        if (wrap) return wrap;\n    }\n    return path;\n}\nint execve(const char *pathname, char *const argv[], char *const envp[]) {\n    execve_func_t old_execve = (execve_func_t)dlsym(RTLD_NEXT, "execve");\n    return old_execve(check_wrap(pathname), argv, envp);\n}\nint execv(const char *pathname, char *const argv[]) {\n    execv_func_t old_execv = (execv_func_t)dlsym(RTLD_NEXT, "execv");\n    return old_execv(check_wrap(pathname), argv);\n}\nint execvp(const char *file, char *const argv[]) {\n    execvp_func_t old_execvp = (execvp_func_t)dlsym(RTLD_NEXT, "execvp");\n    return old_execvp(check_wrap(file), argv);\n}\nint posix_spawn(pid_t *pid, const char *path, const posix_spawn_file_actions_t *file_actions, const posix_spawnattr_t *attrp, char *const argv[], char *const envp[]) {\n    posix_spawn_func_t old_posix_spawn = (posix_spawn_func_t)dlsym(RTLD_NEXT, "posix_spawn");\n    return old_posix_spawn(pid, check_wrap(path), file_actions, attrp, argv, envp);\n}\nint posix_spawnp(pid_t *pid, const char *file, const posix_spawn_file_actions_t *file_actions, const posix_spawnattr_t *attrp, char *const argv[], char *const envp[]) {\n    posix_spawnp_func_t old_posix_spawnp = (posix_spawnp_func_t)dlsym(RTLD_NEXT, "posix_spawnp");\n    return old_posix_spawnp(pid, check_wrap(file), file_actions, attrp, argv, envp);\n}\n' > $(GCC_WRAP_DIR)/intercept.c
+	gcc -shared -fPIC -O2 $(GCC_WRAP_DIR)/intercept.c -o $(GCC_WRAP_DIR)/intercept.so -ldl
 
 $(HW_EMU_XCLBIN): $(XO_PATH) $(GCC_WRAP_DIR)/gcc | dirs
-	PATH="$(GCC_WRAP_DIR):$$PATH" v++ -l -t hw_emu \
+	PATH="$(GCC_WRAP_DIR):$$PATH" LD_PRELOAD="$(GCC_WRAP_DIR)/intercept.so" GCC_WRAP_SCRIPT="$(GCC_WRAP_DIR)/gcc" CXX_WRAP_SCRIPT="$(GCC_WRAP_DIR)/g++" v++ -l -t hw_emu \
 	    --platform $(PLATFORM) \
 	    --temp_dir $(VITIS_DIR)/link_hwemu/temp \
 	    --log_dir $(VITIS_DIR)/link_hwemu/logs \
@@ -206,26 +212,29 @@ setup-hwemu: $(SHARED_EMU_DIR)/emconfig.json
 #           app-specific xclbin and ELF inside the shared FAT image via mcopy.
 #           Run the emulator with: make run-hwemu
 $(SHARED_EMU_DIR)/launch_hw_emu.sh: $(HW_EMU_XCLBIN) host $(SHARED_EMU_DIR)/emconfig.json
+	mkdir -p $(BUILD_DIR)/hw_emu_pkg
+	cp $(HW_EMU_XCLBIN) $(BUILD_DIR)/hw_emu_pkg/cluster.xclbin
+	cp $(BUILD_DIR)/$(APPNAME)-xrt.elf $(BUILD_DIR)/hw_emu_pkg/$(APPNAME).elf
 	v++ -p -t hw_emu \
 	    --platform $(PLATFORM) \
 	    --package.out_dir     $(SHARED_EMU_DIR) \
 	    --package.rootfs      $(ROOTFS) \
 	    --package.kernel_image $(KERNEL_IMAGE) \
-	    --package.sd_file     $(HW_EMU_XCLBIN) \
-	    --package.sd_file     $(ELF_PATH) \
+	    --package.sd_file     $(BUILD_DIR)/hw_emu_pkg/cluster.xclbin \
+	    --package.sd_file     $(BUILD_DIR)/hw_emu_pkg/$(APPNAME).elf \
 	    --package.sd_file     $(SHARED_EMU_DIR)/emconfig.json \
-	    $(HW_EMU_XCLBIN)
+	    $(BUILD_DIR)/hw_emu_pkg/cluster.xclbin
 
 # Inject only the app-specific files into the shared FAT image.
 # Fast: mcopy replaces a few MB without touching the large rootfs.
 # emconfig.json is not re-injected: it is platform-specific, never changes.
 .PHONY: inject-hwemu
-inject-hwemu: $(HW_EMU_XCLBIN) $(ELF_PATH)
+inject-hwemu: $(HW_EMU_XCLBIN) host
 	@sd_img=$$(find "$(SHARED_EMU_DIR)" -maxdepth 1 -name "*.img" 2>/dev/null | head -1); \
 	[ -n "$$sd_img" ] || { echo "ERROR: no .img found in $(SHARED_EMU_DIR)"; exit 1; }; \
 	echo "Injecting app files into $$sd_img ..."; \
-	mcopy -i "$$sd_img" -o $(HW_EMU_XCLBIN) ::/$(notdir $(HW_EMU_XCLBIN)); \
-	mcopy -i "$$sd_img" -o $(ELF_PATH)       ::/$(notdir $(ELF_PATH))
+	mcopy -i "$$sd_img" -o $(HW_EMU_XCLBIN) ::/cluster.xclbin; \
+	mcopy -i "$$sd_img" -o $(BUILD_DIR)/$(APPNAME)-xrt.elf ::/$(APPNAME).elf
 
 package-hwemu: $(SHARED_EMU_DIR)/launch_hw_emu.sh inject-hwemu
 
