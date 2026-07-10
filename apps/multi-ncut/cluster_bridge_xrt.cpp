@@ -9,7 +9,7 @@
 
 #define BUFFER_SIZE 92006
 
-static void fSortIndices_hw_xrt(F2D *input, int dim, I2D *rtr_val)
+static void fSortIndices_hw_xrt(F2D *input, int dim, I2D **rtr_val)
 {
     long checksum = 0;
     for (int i = 0; i < input->width * input->height; i++)
@@ -46,21 +46,22 @@ static void fSortIndices_hw_xrt(F2D *input, int dim, I2D *rtr_val)
     bo_rtr_val_height.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
     bo_rtr_val_data.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
 
-    bo_rtr_val_width.read(&rtr_val->width, sizeof(int), 0);
-    bo_rtr_val_height.read(&rtr_val->height, sizeof(int), 0);
-    bo_rtr_val_data.read(rtr_val->data, BUFFER_SIZE * sizeof(int), 0);
+    bo_rtr_val_width.read(&(*rtr_val)->width, sizeof(int), 0);
+    bo_rtr_val_height.read(&(*rtr_val)->height, sizeof(int), 0);
+    bo_rtr_val_data.read((*rtr_val)->data, BUFFER_SIZE * sizeof(int), 0);
 }
 
-void fSortIndices_hw_bridge(F2D *input, int dim, I2D *rtr_val)
+void fSortIndices_hw_bridge(F2D *input, int dim, I2D **rtr_val)
 {
+    *rtr_val = (I2D *)malloc(BUFFER_SIZE * sizeof(int) + sizeof(I2D));
     fSortIndices_hw_xrt(input, dim, rtr_val);
 
-    std::cout << "Output width: " << rtr_val->width << ", height: " << rtr_val->height << std::endl;
-    for (int i = 0; i < rtr_val->height * rtr_val->width; i++)
+    std::cout << "Output width: " << (*rtr_val)->width << ", height: " << (*rtr_val)->height << std::endl;
+    for (int i = 0; i < (*rtr_val)->height * (*rtr_val)->width; i++)
     {
-        if (rtr_val->data[i] > 0)
+        if ((*rtr_val)->data[i] > 0)
         {
-            std::cout << rtr_val->data[i] << " ";
+            std::cout << (*rtr_val)->data[i] << " ";
         }
     }
 }

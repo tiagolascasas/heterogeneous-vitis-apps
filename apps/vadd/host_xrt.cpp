@@ -24,24 +24,24 @@
 
 int main(int argc, char **argv)
 {
+    std::string binaryFile = "cluster.xclbin";
     int dataSize = 4096;
-    if (argc == 1)
+    if (argc >= 2)
     {
-        // std::cout << "Using default data size of " << dataSize << "\n";
+        binaryFile = argv[1];
     }
-    else if (argc == 2)
+    if (argc >= 3)
     {
-        dataSize = std::stoi(argv[1]);
+        dataSize = std::stoi(argv[2]);
         if (dataSize <= 0)
         {
-            std::cerr << "Invalid data size specified: " << argv[1] << "\n";
+            std::cerr << "Invalid data size specified: " << argv[2] << "\n";
             return 1;
         }
-        // std::cout << "Using data size of " << dataSize << "\n";
     }
-    else
+    if (argc > 3)
     {
-        std::cerr << "Usage: " << argv[0] << " [data_size]\n";
+        std::cerr << "Usage: " << argv[0] << " [xclbin_file] [data_size]\n";
         return 1;
     }
     int *a = new int[dataSize];
@@ -56,7 +56,6 @@ int main(int argc, char **argv)
     }
 
     auto const initEpoch = std::chrono::high_resolution_clock::now();
-    const std::string binaryFile = "cluster.xclbin";
     int device_index = 0;
 
     auto device = xrt::device(device_index);

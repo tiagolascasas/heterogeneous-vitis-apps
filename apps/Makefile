@@ -1,15 +1,33 @@
+# ── Target Selection ──────────────────────────────────────────────────────────
+TARGET ?= zcu102
+
+ifeq ($(TARGET), u250)
+PLATFORM := xilinx_u250_gen3x16_xdma_4_1_202210_1
+PART := xcu250-figd2104-2L-e
+else
+PLATFORM := xilinx_zcu102_base_202420_1
+PART := xczu9eg-ffvb1156-2-e
+endif
+
+ifneq (,$(findstring u250,$(PLATFORM)))
+IS_ALVEO = 1
+else
+IS_ALVEO = 0
+endif
+
 # ── System-dependent flags ────────────────────────────────────────────────────
+ifeq ($(IS_ALVEO), 1)
+HOST_CXX ?= g++
+SYSROOT ?= 
+XRT_PATH ?= /opt/xilinx/xrt
+else
 HOST_CXX ?= /tools/Xilinx/Vitis/2024.2/gnu/aarch64/lin/aarch64-linux/bin/aarch64-linux-gnu-g++
 SYSROOT ?= /home/tls/xilinx/sysroots/xilinx-zynqmp-common-v2024.2/sysroots/cortexa72-cortexa53-xilinx-linux
-
-# ── Platform ──────────────────────────────────────────────────────────────────
-PLATFORM ?= xilinx_zcu102_base_202420_1
-
 # Common image for hw_emu packaging (rootfs + kernel).
-# Download from AMD/Xilinx downloads page: "ZCU102 Common Image 2024.2"
 COMMON_IMAGE_DIR ?= /home/tls/xilinx/sysroots/xilinx-zynqmp-common-v2024.2
 ROOTFS           ?= $(COMMON_IMAGE_DIR)/rootfs.ext4
 KERNEL_IMAGE     ?= $(COMMON_IMAGE_DIR)/Image
+endif
 
 # ── App-specific variables ────────────────────────────────────────────────────
 APPNAME ?= app
@@ -19,19 +37,33 @@ HOST_SRCS ?= $(wildcard *.cpp)
 BRIDGE_SRCS ?=
 HOST_SUFFIX ?=
 HOST_VARIANTS ?=
+COMMON_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))_common
 BUILD_DIR ?= build
 VITIS_DIR ?= vitis
-ELF_PATH ?= $(BUILD_DIR)/$(APPNAME)$(HOST_SUFFIX).elf
-XO_PATH ?= $(BUILD_DIR)/$(TOP).xo
-HW_XCLBIN ?= $(BUILD_DIR)/cluster.xclbin
-HW_EMU_XCLBIN ?= $(BUILD_DIR)/cluster_hw_emu.xclbin
+ELF_PATH ?= $(BUILD_DIR)/$(APPNAME)$(HOST_SUFFIX)_$(TARGET).elf
+XO_PATH ?= $(BUILD_DIR)/$(TOP)_$(TARGET).xo
+HW_XCLBIN ?= $(BUILD_DIR)/$(TOP)_hw_$(TARGET).xclbin
+HW_EMU_XCLBIN ?= $(BUILD_DIR)/$(TOP)_hw_emu_$(TARGET).xclbin
+
+
+ifeq ($(IS_ALVEO), 0)
 # Shared across all apps on the same platform: rootfs + kernel are identical.
-# Placed in apps/ so it lives next to this Makefile, not inside any app subdir.
-SHARED_EMU_DIR ?= $(dir $(abspath $(lastword $(MAKEFILE_LIST))))package_hw_emu_$(PLATFORM)
+SHARED_EMU_DIR ?= $(COMMON_DIR)/package_hw_emu_$(TARGET)
 # Supply any hw_emu xclbin to 'setup-hwemu' to build the full QEMU base image.
 SEED_XCLBIN    ?=
+endif
 
 # ── Compilation flags ─────────────────────────────────────────────────────────
+ifeq ($(IS_ALVEO), 1)
+CXXFLAGS        += -std=c++17 -Wall -O3
+RUNTIME_CXXFLAGS = $(if $(filter opencl,$(RUNTIME)),-DUSE_OPENCL,\
+                   $(if $(filter axi,$(RUNTIME)),-DUSE_AXI,))
+RUNTIME_INCLUDES = $(if $(filter opencl,$(RUNTIME)),-I$(XRT_PATH)/include,\
+                   $(if $(filter axi,$(RUNTIME)),,-I$(XRT_PATH)/include/xrt -I$(XRT_PATH)/include))
+RUNTIME_LIBS     = $(if $(filter opencl,$(RUNTIME)),-L$(XRT_PATH)/lib -lOpenCL -lpthread,\
+                   $(if $(filter axi,$(RUNTIME)),-L$(XRT_PATH)/lib -lpthread,\
+                   -L$(XRT_PATH)/lib -lxrt_coreutil -lpthread))
+else
 CXXFLAGS        += -std=c++17 -Wall -O3 --sysroot=$(SYSROOT)
 RUNTIME_CXXFLAGS = $(if $(filter opencl,$(RUNTIME)),-DUSE_OPENCL,\
                    $(if $(filter axi,$(RUNTIME)),-DUSE_AXI,))
@@ -40,12 +72,46 @@ RUNTIME_INCLUDES = $(if $(filter opencl,$(RUNTIME)),-I$(SYSROOT)/usr/include,\
 RUNTIME_LIBS     = $(if $(filter opencl,$(RUNTIME)),-L$(SYSROOT)/usr/lib -lOpenCL -lpthread,\
                    $(if $(filter axi,$(RUNTIME)),-L$(SYSROOT)/usr/lib -lpthread,\
                    -L$(SYSROOT)/usr/lib -lxrt_coreutil -lpthread))
+endif
 
 HOST_CXXFLAGS ?= $(CXXFLAGS) $(RUNTIME_CXXFLAGS)
 HOST_INCLUDES ?= $(RUNTIME_INCLUDES)
 HOST_LIBS ?= $(RUNTIME_LIBS)
 
 .DEFAULT_GOAL := host
+
+.PHONY: help
+help:
+	@echo "Usage: make [target] [TARGET=zcu102|u250]"
+	@echo "  (Current TARGET: $(TARGET), PLATFORM: $(PLATFORM))"
+	@echo ""
+	@echo "Host Targets:"
+	@echo "  host               Build default host ELF(s) (depends on HOST_VARIANTS)"
+	@echo "  host-<variant>     Build specific host variant (e.g., host-xrt, host-opencl)"
+	@echo ""
+	@echo "Kernel / HLS Targets:"
+	@echo "  synthesis          Run HLS synthesis"
+	@echo "  impl               Run HLS implementation (creates .xo)"
+	@echo ""
+	@echo "Hardware Link Targets:"
+	@echo "  link-hw            Link hardware for board deployment (creates .xclbin)"
+	@echo "  link-hwemu         Link hardware for emulation (creates hw_emu .xclbin)"
+	@echo ""
+	@echo "Hardware Emulation Targets:"
+	@echo "  [Alveo / PCIe Workflow (x86) - Requires TARGET=u250]"
+	@echo "  emconfig           Generate emconfig.json for Alveo emulation"
+	@echo "  run-hwemu          Run host executable natively with XCL_EMULATION_MODE=hw_emu"
+	@echo ""
+	@echo "  [Zynq / Edge Workflow (QEMU) - Requires TARGET=zcu102]"
+	@echo "  setup-hwemu        Build the shared QEMU base image (run once per platform)"
+	@echo "  inject-hwemu       Fast path: inject xclbin/ELF into existing QEMU image offline"
+	@echo "  inject-hwemu-live  Inject xclbin/ELF via SCP to a running QEMU instance"
+	@echo "  package-hwemu      Ensure base image exists and inject app files"
+	@echo "  run-hwemu          Package and run hw_emu in QEMU"
+	@echo ""
+	@echo "Cleanup Targets:"
+	@echo "  clean              Remove app-local build artifacts"
+	@echo "  clean-hwemu-base   Remove the shared QEMU base image (Zynq only)"
 
 dirs:
 	mkdir -p $(BUILD_DIR) $(VITIS_DIR)
@@ -65,12 +131,15 @@ capture_xo: | dirs
 		fi; \
 	fi
 
+HLS_CFG := hls-config-$(TARGET).cfg
+LINK_CFG := cluster-link-$(TARGET).cfg
+
 .PHONY: update_cfg synthesis impl
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 update_cfg:
-	@echo "Checking top function in hls_config.cfg"
-	@grep -q "^syn.top=$(TOP)$$" hls_config.cfg || sed -i "s/^syn.top=.*/syn.top=$(TOP)/" hls_config.cfg
+	@echo "Checking top function in $(HLS_CFG)"
+	@grep -q "^syn.top=$(TOP)$$" $(HLS_CFG) || sed -i "s/^syn.top=.*/syn.top=$(TOP)/" $(HLS_CFG)
 
 
 # ── Host build ────────────────────────────────────────────────────────────────
@@ -106,14 +175,14 @@ host-axi: BRIDGE_SRCS = cluster_bridge_axi.cpp
 host-axi: $(ELF_PATH)
 
 # ── Kernel ────────────────────────────────────────────────────────────────────
-$(VITIS_DIR)/hls/hls_status: hls_config.cfg | update_cfg dirs
-	v++ --compile --mode hls --config hls_config.cfg --work_dir $(VITIS_DIR)/hls
+$(VITIS_DIR)/hls/hls_status: $(HLS_CFG) | update_cfg dirs
+	v++ --compile --mode hls --config $(HLS_CFG) --work_dir $(VITIS_DIR)/hls --part $(PART)
 	mkdir -p $(dir $@) && touch $@
 
 synthesis: $(VITIS_DIR)/hls/hls_status
 
 $(XO_PATH): $(VITIS_DIR)/hls/hls_status
-	vitis-run --mode hls --impl --config hls_config.cfg --work_dir $(VITIS_DIR)/hls
+	vitis-run --mode hls --impl --config $(HLS_CFG) --work_dir $(VITIS_DIR)/hls --part $(PART)
 	$(MAKE) capture_xo
 
 impl: $(XO_PATH)
@@ -125,22 +194,19 @@ $(HW_XCLBIN): $(XO_PATH) | dirs
 	    --temp_dir $(VITIS_DIR)/link_hw/temp \
 	    --log_dir $(VITIS_DIR)/link_hw/logs \
 	    --report_dir $(VITIS_DIR)/link_hw/reports \
-	    --config cluster-link.cfg \
+	    --config $(LINK_CFG) \
 	    $(XO_PATH) \
 	    -o $(HW_XCLBIN)
+	@mkdir -p backups
+	@cp $(HW_XCLBIN) backups/$$(basename $(HW_XCLBIN) .xclbin)_$$(date +%Y%m%d_%H%M%S).xclbin
 
 link-hw: $(HW_XCLBIN)
 
 # ── HW emulation ─────────────────────────────────────────────────────────────
 # Step 1 – link: produces the hw_emu xclbin.
-# Vivado xsim 2024.2 generates C code using old-style empty-argument function
-# declarations (void foo()) that C23 (GCC 15 default) treats as "no arguments",
-# causing incompatible-pointer-type errors when passed as callbacks.  A local
-# gcc wrapper prepended to PATH forces -std=gnu17 only for xelab's internal C
-# compilation; the host ELF build is unaffected because it uses HOST_CXX.
-GCC_WRAP_DIR := $(CURDIR)/$(BUILD_DIR)/gcc-wrap
+GCC_WRAP_DIR := $(COMMON_DIR)/gcc-wrap
 
-$(GCC_WRAP_DIR)/gcc: | dirs
+$(GCC_WRAP_DIR)/gcc:
 	mkdir -p $(GCC_WRAP_DIR)
 	printf '#!/bin/bash\nif [[ "$$0" == *"++" ]]; then\n  COMP="/usr/bin/x86_64-linux-gnu-g++-15"\n  FLAGS=""\nelse\n  COMP="/usr/bin/x86_64-linux-gnu-gcc-15"\n  FLAGS="-std=gnu17"\nfi\nexec "$$COMP" $$FLAGS -Wno-error=incompatible-pointer-types -Wno-error=implicit-function-declaration -Wno-error=implicit-int -Wno-error=int-conversion "$$@"\n' > $@
 	chmod +x $@
@@ -156,16 +222,27 @@ $(HW_EMU_XCLBIN): $(XO_PATH) $(GCC_WRAP_DIR)/gcc | dirs
 	    --temp_dir $(VITIS_DIR)/link_hwemu/temp \
 	    --log_dir $(VITIS_DIR)/link_hwemu/logs \
 	    --report_dir $(VITIS_DIR)/link_hwemu/reports \
-	    --config cluster-link.cfg \
+	    --config $(LINK_CFG) \
 	    $(XO_PATH) \
 	    -o $(HW_EMU_XCLBIN)
+	@mkdir -p backups
+	@cp $(HW_EMU_XCLBIN) backups/$$(basename $(HW_EMU_XCLBIN) .xclbin)_$$(date +%Y%m%d_%H%M%S).xclbin
 
 link-hwemu: $(HW_EMU_XCLBIN)
 
+ifeq ($(IS_ALVEO), 1)
+
+emconfig:
+	emconfigutil --platform $(PLATFORM) --od .
+
+run-hwemu: host link-hwemu emconfig
+	XCL_EMULATION_MODE=hw_emu ./$(ELF_PATH) $(HW_EMU_XCLBIN)
+
+else
+
 # Step 2 – emconfig: XRT reads this at runtime to select the hw_emu path.
-# Stored in SHARED_EMU_DIR because it is platform-specific, not app-specific.
 $(SHARED_EMU_DIR):
-	mkdir -p $@
+	mkdir -p $$@
 
 $(SHARED_EMU_DIR)/emconfig.json: | $(SHARED_EMU_DIR)
 	emconfigutil --platform $(PLATFORM) --od $(SHARED_EMU_DIR)
@@ -173,10 +250,6 @@ $(SHARED_EMU_DIR)/emconfig.json: | $(SHARED_EMU_DIR)
 emconfig: $(SHARED_EMU_DIR)/emconfig.json
 
 # setup-hwemu: build the shared QEMU base image once for the current platform.
-# v++ -p requires an hw_emu xclbin to configure the PL simulation; this target
-# auto-discovers any cluster_hw_emu.xclbin already built under apps/ so you
-# don't have to specify one.  Override with SEED_XCLBIN= if needed.
-# Prerequisite: at least one app linked for hw_emu (make link-hwemu).
 .PHONY: setup-hwemu
 setup-hwemu: $(SHARED_EMU_DIR)/emconfig.json
 	@if [ -f "$(SHARED_EMU_DIR)/launch_hw_emu.sh" ]; then \
@@ -184,8 +257,8 @@ setup-hwemu: $(SHARED_EMU_DIR)/emconfig.json
 	else \
 		seed="$(SEED_XCLBIN)"; \
 		if [ -z "$$seed" ]; then \
-			seed=$$(find "$(dir $(abspath $(lastword $(MAKEFILE_LIST))))" \
-			             -maxdepth 4 -name "cluster_hw_emu.xclbin" 2>/dev/null | head -1); \
+			seed=$$(find "$$(dir $$(abspath $$(lastword $$(MAKEFILE_LIST))))" \
+			             -maxdepth 4 -name "*_hw_emu_$(TARGET).xclbin" 2>/dev/null | head -1); \
 		fi; \
 		[ -n "$$seed" ] || { \
 			echo "ERROR: no hw_emu xclbin found under apps/."; \
@@ -204,17 +277,14 @@ setup-hwemu: $(SHARED_EMU_DIR)/emconfig.json
 		    --package.sd_file     $(SHARED_EMU_DIR)/placeholder.elf \
 		    --package.sd_file     $(SHARED_EMU_DIR)/emconfig.json \
 		    $$seed; \
+		sed -i 's/"$$@"/  -forward-port 1440 22 \\\n"$$@"/' $(SHARED_EMU_DIR)/launch_hw_emu.sh; \
 	fi
 
 # Step 3 – package: assembles rootfs + kernel + ELF + xclbin into a QEMU image
-#           and writes launch_hw_emu.sh into SHARED_EMU_DIR (once per platform).
-#           Subsequent apps skip v++ -p and use inject-hwemu to swap only the
-#           app-specific xclbin and ELF inside the shared FAT image via mcopy.
-#           Run the emulator with: make run-hwemu
 $(SHARED_EMU_DIR)/launch_hw_emu.sh: $(HW_EMU_XCLBIN) host $(SHARED_EMU_DIR)/emconfig.json
 	mkdir -p $(BUILD_DIR)/hw_emu_pkg
 	cp $(HW_EMU_XCLBIN) $(BUILD_DIR)/hw_emu_pkg/cluster.xclbin
-	cp $(BUILD_DIR)/$(APPNAME)-xrt.elf $(BUILD_DIR)/hw_emu_pkg/$(APPNAME).elf
+	cp $(BUILD_DIR)/$(APPNAME)-xrt_$(PLATFORM).elf $(BUILD_DIR)/hw_emu_pkg/$(APPNAME).elf
 	v++ -p -t hw_emu \
 	    --platform $(PLATFORM) \
 	    --package.out_dir     $(SHARED_EMU_DIR) \
@@ -223,18 +293,34 @@ $(SHARED_EMU_DIR)/launch_hw_emu.sh: $(HW_EMU_XCLBIN) host $(SHARED_EMU_DIR)/emco
 	    --package.sd_file     $(BUILD_DIR)/hw_emu_pkg/cluster.xclbin \
 	    --package.sd_file     $(BUILD_DIR)/hw_emu_pkg/$(APPNAME).elf \
 	    --package.sd_file     $(SHARED_EMU_DIR)/emconfig.json \
-	    $(BUILD_DIR)/hw_emu_pkg/cluster.xclbin
+	    $(BUILD_DIR)/hw_emu_pkg/cluster.xclbin; \
+	sed -i 's/"$$@"/  -forward-port 1440 22 \\\n"$$@"/' $(SHARED_EMU_DIR)/launch_hw_emu.sh
 
 # Inject only the app-specific files into the shared FAT image.
-# Fast: mcopy replaces a few MB without touching the large rootfs.
-# emconfig.json is not re-injected: it is platform-specific, never changes.
 .PHONY: inject-hwemu
 inject-hwemu: $(HW_EMU_XCLBIN) host
 	@sd_img=$$(find "$(SHARED_EMU_DIR)" -maxdepth 1 -name "*.img" 2>/dev/null | head -1); \
 	[ -n "$$sd_img" ] || { echo "ERROR: no .img found in $(SHARED_EMU_DIR)"; exit 1; }; \
 	echo "Injecting app files into $$sd_img ..."; \
-	mcopy -i "$$sd_img" -o $(HW_EMU_XCLBIN) ::/cluster.xclbin; \
-	mcopy -i "$$sd_img" -o $(BUILD_DIR)/$(APPNAME)-xrt.elf ::/$(APPNAME).elf
+	mmd -i "$$sd_img@@1048576" ::/$(APPNAME) 2>/dev/null || true; \
+	mcopy -i "$$sd_img@@1048576" -o $(HW_EMU_XCLBIN) ::/$(APPNAME)/cluster.xclbin; \
+	mcopy -i "$$sd_img@@1048576" -o $(BUILD_DIR)/$(APPNAME)-xrt_$(PLATFORM).elf ::/$(APPNAME)/$(APPNAME).elf; \
+	if [ -d "data" ]; then \
+		mmd -i "$$sd_img@@1048576" ::/$(APPNAME)/data 2>/dev/null || true; \
+		mcopy -i "$$sd_img@@1048576" -o -s data/* ::/$(APPNAME)/data/; \
+	fi
+
+.PHONY: inject-hwemu-live
+inject-hwemu-live: $(HW_EMU_XCLBIN) host
+	@echo "Injecting app files into live emulator via SCP (port 1440)..."
+	@echo "Note: Default Petalinux password is usually 'root'."
+	ssh -p 1440 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null root@localhost "mkdir -p /home/root/$(APPNAME)"
+	scp -P 1440 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null $(HW_EMU_XCLBIN) root@localhost:/home/root/$(APPNAME)/cluster.xclbin
+	scp -P 1440 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null $(BUILD_DIR)/$(APPNAME)-xrt_$(PLATFORM).elf root@localhost:/home/root/$(APPNAME)/$(APPNAME).elf
+	@if [ -d "data" ]; then \
+		ssh -p 1440 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null root@localhost "mkdir -p /home/root/$(APPNAME)/data"; \
+		scp -P 1440 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r data/* root@localhost:/home/root/$(APPNAME)/data/; \
+	fi
 
 package-hwemu: $(SHARED_EMU_DIR)/launch_hw_emu.sh inject-hwemu
 
@@ -244,8 +330,17 @@ run-hwemu: package-hwemu
 clean-hwemu-base:
 	rm -rf $(SHARED_EMU_DIR)
 
+endif # IS_ALVEO
+
 # ── Clean ─────────────────────────────────────────────────────────────────────
 clean:
-	rm -rf $(BUILD_DIR) $(VITIS_DIR) \
-	       *.elf *.xclbin *.xo _x .ipcache .Xil hls logs reports \
-	       *.info *.log *_summary *.out cluster/
+	@echo "Cleaning intermediate build files..."
+	rm -rf $(VITIS_DIR) \
+	       *.elf *.xo _x .ipcache .Xil hls logs reports \
+	       *.info *.log *_summary *.out cluster/ emconfig.json xelab.pb \
+		   xcd.log Image boot.scr *.csv *.run_summary *.jou *.str .run/ \
+		   .Xil/ sd_card/ vitis_analyzer* *.txt *.txt.gz _ide/
+
+clean-all: clean
+	@echo "Cleaning all build files and bitstreams..."
+	rm -rf $(BUILD_DIR) *.xclbin

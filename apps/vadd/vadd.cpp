@@ -116,7 +116,12 @@ extern "C"
 
 #pragma HLS INTERFACE m_axi port = in1 bundle = gmem0
 #pragma HLS INTERFACE m_axi port = in2 bundle = gmem1
-#pragma HLS INTERFACE m_axi port = out bundle = gmem0
+#pragma HLS INTERFACE m_axi port = out bundle = gmem2
+#pragma HLS INTERFACE s_axilite port = in1
+#pragma HLS INTERFACE s_axilite port = in2
+#pragma HLS INTERFACE s_axilite port = out
+#pragma HLS INTERFACE s_axilite port = size
+#pragma HLS INTERFACE s_axilite port = return
 
 #pragma HLS dataflow
         // dataflow pragma instruct compiler to run following three APIs in parallel

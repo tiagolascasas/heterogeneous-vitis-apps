@@ -62,7 +62,111 @@ void cluster(int *points_width, int *points_height, float *points_data, int r, i
 #pragma HLS INTERFACE m_axi port = memregion_82_size8_height offset = slave bundle = gmem8
 #pragma HLS INTERFACE m_axi port = memregion_82_size8_data offset = slave bundle = gmem8
 
+#pragma HLS INTERFACE s_axilite port = points_width
+#pragma HLS INTERFACE s_axilite port = points_height
+#pragma HLS INTERFACE s_axilite port = points_data
 #pragma HLS INTERFACE s_axilite port = r
+#pragma HLS INTERFACE s_axilite port = rtr_val_width
+#pragma HLS INTERFACE s_axilite port = rtr_val_height
+#pragma HLS INTERFACE s_axilite port = rtr_val_data
+#pragma HLS INTERFACE s_axilite port = memregion_68_size222452_width
+#pragma HLS INTERFACE s_axilite port = memregion_68_size222452_height
+#pragma HLS INTERFACE s_axilite port = memregion_68_size222452_data
+#pragma HLS INTERFACE s_axilite port = memregion_69_size222452_width
+#pragma HLS INTERFACE s_axilite port = memregion_69_size222452_height
+#pragma HLS INTERFACE s_axilite port = memregion_69_size222452_data
+#pragma HLS INTERFACE s_axilite port = memregion_70_size222452_width
+#pragma HLS INTERFACE s_axilite port = memregion_70_size222452_height
+#pragma HLS INTERFACE s_axilite port = memregion_70_size222452_data
+#pragma HLS INTERFACE s_axilite port = memregion_71_size667340_width
+#pragma HLS INTERFACE s_axilite port = memregion_71_size667340_height
+#pragma HLS INTERFACE s_axilite port = memregion_71_size667340_data
+#pragma HLS INTERFACE s_axilite port = memregion_72_size20_width
+#pragma HLS INTERFACE s_axilite port = memregion_72_size20_height
+#pragma HLS INTERFACE s_axilite port = memregion_72_size20_data
+#pragma HLS INTERFACE s_axilite port = memregion_73_size222452_width
+#pragma HLS INTERFACE s_axilite port = memregion_73_size222452_height
+#pragma HLS INTERFACE s_axilite port = memregion_73_size222452_data
+#pragma HLS INTERFACE s_axilite port = memregion_74_size222452_width
+#pragma HLS INTERFACE s_axilite port = memregion_74_size222452_height
+#pragma HLS INTERFACE s_axilite port = memregion_74_size222452_data
+#pragma HLS INTERFACE s_axilite port = memregion_75_size20_width
+#pragma HLS INTERFACE s_axilite port = memregion_75_size20_height
+#pragma HLS INTERFACE s_axilite port = memregion_75_size20_data
+#pragma HLS INTERFACE s_axilite port = memregion_76_size20_width
+#pragma HLS INTERFACE s_axilite port = memregion_76_size20_height
+#pragma HLS INTERFACE s_axilite port = memregion_76_size20_data
+#pragma HLS INTERFACE s_axilite port = memregion_77_size32_width
+#pragma HLS INTERFACE s_axilite port = memregion_77_size32_height
+#pragma HLS INTERFACE s_axilite port = memregion_77_size32_data
+#pragma HLS INTERFACE s_axilite port = memregion_78_size20_width
+#pragma HLS INTERFACE s_axilite port = memregion_78_size20_height
+#pragma HLS INTERFACE s_axilite port = memregion_78_size20_data
+#pragma HLS INTERFACE s_axilite port = memregion_79_size12_width
+#pragma HLS INTERFACE s_axilite port = memregion_79_size12_height
+#pragma HLS INTERFACE s_axilite port = memregion_79_size12_data
+#pragma HLS INTERFACE s_axilite port = memregion_80_size8_width
+#pragma HLS INTERFACE s_axilite port = memregion_80_size8_height
+#pragma HLS INTERFACE s_axilite port = memregion_80_size8_data
+#pragma HLS INTERFACE s_axilite port = memregion_81_size8_width
+#pragma HLS INTERFACE s_axilite port = memregion_81_size8_height
+#pragma HLS INTERFACE s_axilite port = memregion_81_size8_data
+#pragma HLS INTERFACE s_axilite port = memregion_82_size8_width
+#pragma HLS INTERFACE s_axilite port = memregion_82_size8_height
+#pragma HLS INTERFACE s_axilite port = memregion_82_size8_data
+#pragma HLS INTERFACE s_axilite port = r
+#pragma HLS INTERFACE s_axilite port = points_width
+#pragma HLS INTERFACE s_axilite port = points_height
+#pragma HLS INTERFACE s_axilite port = points_data
+#pragma HLS INTERFACE s_axilite port = r
+#pragma HLS INTERFACE s_axilite port = rtr_val_width
+#pragma HLS INTERFACE s_axilite port = rtr_val_height
+#pragma HLS INTERFACE s_axilite port = rtr_val_data
+#pragma HLS INTERFACE s_axilite port = memregion_68_size222452_width
+#pragma HLS INTERFACE s_axilite port = memregion_68_size222452_height
+#pragma HLS INTERFACE s_axilite port = memregion_68_size222452_data
+#pragma HLS INTERFACE s_axilite port = memregion_69_size222452_width
+#pragma HLS INTERFACE s_axilite port = memregion_69_size222452_height
+#pragma HLS INTERFACE s_axilite port = memregion_69_size222452_data
+#pragma HLS INTERFACE s_axilite port = memregion_70_size222452_width
+#pragma HLS INTERFACE s_axilite port = memregion_70_size222452_height
+#pragma HLS INTERFACE s_axilite port = memregion_70_size222452_data
+#pragma HLS INTERFACE s_axilite port = memregion_71_size667340_width
+#pragma HLS INTERFACE s_axilite port = memregion_71_size667340_height
+#pragma HLS INTERFACE s_axilite port = memregion_71_size667340_data
+#pragma HLS INTERFACE s_axilite port = memregion_72_size20_width
+#pragma HLS INTERFACE s_axilite port = memregion_72_size20_height
+#pragma HLS INTERFACE s_axilite port = memregion_72_size20_data
+#pragma HLS INTERFACE s_axilite port = memregion_73_size222452_width
+#pragma HLS INTERFACE s_axilite port = memregion_73_size222452_height
+#pragma HLS INTERFACE s_axilite port = memregion_73_size222452_data
+#pragma HLS INTERFACE s_axilite port = memregion_74_size222452_width
+#pragma HLS INTERFACE s_axilite port = memregion_74_size222452_height
+#pragma HLS INTERFACE s_axilite port = memregion_74_size222452_data
+#pragma HLS INTERFACE s_axilite port = memregion_75_size20_width
+#pragma HLS INTERFACE s_axilite port = memregion_75_size20_height
+#pragma HLS INTERFACE s_axilite port = memregion_75_size20_data
+#pragma HLS INTERFACE s_axilite port = memregion_76_size20_width
+#pragma HLS INTERFACE s_axilite port = memregion_76_size20_height
+#pragma HLS INTERFACE s_axilite port = memregion_76_size20_data
+#pragma HLS INTERFACE s_axilite port = memregion_77_size32_width
+#pragma HLS INTERFACE s_axilite port = memregion_77_size32_height
+#pragma HLS INTERFACE s_axilite port = memregion_77_size32_data
+#pragma HLS INTERFACE s_axilite port = memregion_78_size20_width
+#pragma HLS INTERFACE s_axilite port = memregion_78_size20_height
+#pragma HLS INTERFACE s_axilite port = memregion_78_size20_data
+#pragma HLS INTERFACE s_axilite port = memregion_79_size12_width
+#pragma HLS INTERFACE s_axilite port = memregion_79_size12_height
+#pragma HLS INTERFACE s_axilite port = memregion_79_size12_data
+#pragma HLS INTERFACE s_axilite port = memregion_80_size8_width
+#pragma HLS INTERFACE s_axilite port = memregion_80_size8_height
+#pragma HLS INTERFACE s_axilite port = memregion_80_size8_data
+#pragma HLS INTERFACE s_axilite port = memregion_81_size8_width
+#pragma HLS INTERFACE s_axilite port = memregion_81_size8_height
+#pragma HLS INTERFACE s_axilite port = memregion_81_size8_data
+#pragma HLS INTERFACE s_axilite port = memregion_82_size8_width
+#pragma HLS INTERFACE s_axilite port = memregion_82_size8_height
+#pragma HLS INTERFACE s_axilite port = memregion_82_size8_data
 #pragma HLS INTERFACE s_axilite port = return
     int *temp_width;
     int *temp_height;
@@ -347,7 +451,7 @@ end_inline_i415:;
     int out_i438_width;
     int out_i438_height;
     float out_i438_data[3];
-#pragma HLS BIND_STORAGE variable = out_i438_data type = ram_2p impl
+#pragma HLS BIND_STORAGE variable = out_i438_data type = ram_2p impl = auto
 #pragma clava malloc_size max = 20 min = 20 avg = 20
     int _lit43 = 1;
     int _lit44 = 3;
@@ -389,7 +493,7 @@ end_inline_i415:;
     int out_i440_width;
     int out_i440_height;
     float out_i440_data[55611];
-#pragma HLS BIND_STORAGE variable = out_i440_data type = ram_2p impl
+#pragma HLS BIND_STORAGE variable = out_i440_data type = ram_2p impl = auto
 #pragma clava malloc_size max = 222452 min = 222452 avg = 222452
     int _lit45 = 1;
     // cluster_fMallocHandle_out18_rep18(): begin inline
@@ -503,7 +607,7 @@ end_inline_i415:;
             int out_i479_width;
             int out_i479_height;
             float out_i479_data[3];
-#pragma HLS BIND_STORAGE variable = out_i479_data type = ram_2p impl
+#pragma HLS BIND_STORAGE variable = out_i479_data type = ram_2p impl = auto
 #pragma clava malloc_size max = 20 min = 20 avg = 20
             // cluster_fMallocHandle_out18_rep61(): begin inline
             out_i479_height = rows_i444;
@@ -884,7 +988,7 @@ end_inline_i415:;
         int out_i461_width;
         int out_i461_height;
         int out_i461_data[55610];
-#pragma HLS BIND_STORAGE variable = out_i461_data type = ram_2p impl
+#pragma HLS BIND_STORAGE variable = out_i461_data type = ram_2p impl = auto
 #pragma clava malloc_size max = 8 min = 222448 avg = 111228
         int _lit48 = 1;
         // cluster_iMallocHandle_out25_rep4(): begin inline

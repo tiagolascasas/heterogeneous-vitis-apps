@@ -60,7 +60,7 @@ void cluster(int Ileft_width, int Ileft_height, int Ileft_data[(8294408 - 8) / 4
     // --- optimization ---
     // buffer size is 2097664 int
     // ~1012728 int = 1800 BRAMs
-    int integralImg_data[1012728];
+    float integralImg_data[1012728];
 #pragma HLS BIND_STORAGE variable = integralImg_data type = ram_2p impl = auto
     for (int n = 0, curr = 0; n < 2097664 && curr < 1012728; n += 2)
     {
@@ -138,9 +138,9 @@ void cluster(int Ileft_width, int Ileft_height, int Ileft_data[(8294408 - 8) / 4
     {
 #pragma HLS loop_tripcount max = 1088
         size_t s1 = 0 * integralImg_width + i_i4;
-        if (s1 % 2 == 0 && s1 < 1012728)
+        if (s1 % 2 == 0 && (s1 / 2) < 1012728)
         {
-            integralImg_data[s1] = SAD_data[0 * SAD_width + i_i4];
+            integralImg_data[s1 / 2] = SAD_data[0 * SAD_width + i_i4];
         }
         else
         {
@@ -155,11 +155,11 @@ void cluster(int Ileft_width, int Ileft_height, int Ileft_data[(8294408 - 8) / 4
 #pragma HLS loop_tripcount max = 1088
             size_t s1 = i_i4 * integralImg_width + j_i4;
             size_t s2 = (i_i4 - 1) * integralImg_width + j_i4;
-            int x2 = (s2 % 2 == 0 && s2 < 1012728) ? integralImg_data[s2] : integralImg_data_arr[s2];
+            float x2 = (s2 % 2 == 0 && (s2 / 2) < 1012728) ? integralImg_data[s2 / 2] : integralImg_data_arr[s2];
 
-            if (s1 % 2 == 0 && s1 < 1012728)
+            if (s1 % 2 == 0 && (s1 / 2) < 1012728)
             {
-                integralImg_data[s1] = x2 + SAD_data[i_i4 * SAD_width + j_i4];
+                integralImg_data[s1 / 2] = x2 + SAD_data[i_i4 * SAD_width + j_i4];
             }
             else
             {
@@ -175,10 +175,10 @@ void cluster(int Ileft_width, int Ileft_height, int Ileft_data[(8294408 - 8) / 4
 #pragma HLS loop_tripcount max = 1087
             size_t s1 = i_i4 * integralImg_width + j_i4;
             size_t s2 = i_i4 * integralImg_width + (j_i4 - 1);
-            int x2 = (s2 % 2 == 0 && s2 < 1012728) ? integralImg_data[s2] : integralImg_data_arr[s2];
-            if (s1 % 2 == 0 && s1 < 1012728)
+            float x2 = (s2 % 2 == 0 && (s2 / 2) < 1012728) ? integralImg_data[s2 / 2] : integralImg_data_arr[s2];
+            if (s1 % 2 == 0 && (s1 / 2) < 1012728)
             {
-                integralImg_data[s1] = x2 + integralImg_data[s1];
+                integralImg_data[s1 / 2] = x2 + integralImg_data[s1 / 2];
             }
             else
             {
@@ -206,10 +206,10 @@ void cluster(int Ileft_width, int Ileft_height, int Ileft_data[(8294408 - 8) / 4
             size_t s2 = (i_i5 + 1) * integralImg_width + (j_i5 + 1);
             size_t s3 = (i_i5 + 1) * integralImg_width + (j_i5 + win_sz);
             size_t s4 = (win_sz + i_i5) * integralImg_width + (j_i5 + 1);
-            int x1 = (s1 % 2 == 0 && s1 < 1012728) ? integralImg_data[s1] : integralImg_data_arr[s1];
-            int x2 = (s2 % 2 == 0 && s2 < 1012728) ? integralImg_data[s2] : integralImg_data_arr[s2];
-            int x3 = (s3 % 2 == 0 && s3 < 1012728) ? integralImg_data[s3] : integralImg_data_arr[s3];
-            int x4 = (s4 % 2 == 0 && s4 < 1012728) ? integralImg_data[s4] : integralImg_data_arr[s4];
+            float x1 = (s1 % 2 == 0 && (s1 / 2) < 1012728) ? integralImg_data[s1 / 2] : integralImg_data_arr[s1];
+            float x2 = (s2 % 2 == 0 && (s2 / 2) < 1012728) ? integralImg_data[s2 / 2] : integralImg_data_arr[s2];
+            float x3 = (s3 % 2 == 0 && (s3 / 2) < 1012728) ? integralImg_data[s3 / 2] : integralImg_data_arr[s3];
+            float x4 = (s4 % 2 == 0 && (s4 / 2) < 1012728) ? integralImg_data[s4 / 2] : integralImg_data_arr[s4];
             retSAD_data[i_i5 * (*retSAD_width) + j_i5] = x1 + x2 - x3 - x4;
         }
     }

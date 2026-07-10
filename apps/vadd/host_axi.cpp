@@ -78,9 +78,20 @@ static void cache_flush(const void *addr, size_t len)
     static constexpr uintptr_t LINE = 64;
     const uintptr_t start = reinterpret_cast<uintptr_t>(addr) & ~(LINE - 1);
     const uintptr_t end = (reinterpret_cast<uintptr_t>(addr) + len + LINE - 1) & ~(LINE - 1);
-    for (uintptr_t p = start; p < end; p += LINE)
+    for (uintptr_t p = start; p < end; p += LINE) {
+#if defined(__aarch64__)
         asm volatile("dc civac, %0" ::"r"(p) : "memory");
+#elif defined(__x86_64__)
+        asm volatile("clflush (%0)" ::"r"(p) : "memory");
+#else
+        #warning "cache_flush not implemented for this architecture"
+#endif
+    }
+#if defined(__aarch64__)
     asm volatile("dsb sy" ::: "memory");
+#elif defined(__x86_64__)
+    asm volatile("mfence" ::: "memory");
+#endif
 }
 
 // DMA buffer backed by physically contiguous memory.
@@ -234,7 +245,11 @@ int main(int argc, char **argv)
     // Full barrier: guarantee all argument writes reach the AXI slave before ap_start.
     // nGnRnE device memory is strongly ordered, but dsb+isb makes the intent explicit
     // and prevents any speculative execution past this point on the CPU side.
+#if defined(__aarch64__)
     asm volatile("dsb sy\n\tisb" ::: "memory");
+#elif defined(__x86_64__)
+    asm volatile("mfence" ::: "memory");
+#endif
 
     // Pulse ap_start
     reg_write(regs, CTRL_REG, 0x1);

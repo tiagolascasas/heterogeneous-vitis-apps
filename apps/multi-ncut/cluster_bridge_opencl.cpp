@@ -63,7 +63,7 @@ static cl::Device getXilinxDevice()
     throw std::runtime_error("Unable to find a Xilinx OpenCL accelerator device");
 }
 
-static void fSortIndices_hw_opencl(F2D *input, int dim, I2D *rtr_val)
+static void fSortIndices_hw_opencl(F2D *input, int dim, I2D **rtr_val)
 {
     const std::string binaryFile = "cluster.xclbin";
     const size_t inputBytes = static_cast<size_t>(input->width) * input->height * sizeof(float);
@@ -124,9 +124,9 @@ static void fSortIndices_hw_opencl(F2D *input, int dim, I2D *rtr_val)
                          .count()
                   << " us" << std::endl;
 
-        OCL_CHECK(err, err = queue.enqueueReadBuffer(widthBuffer, CL_TRUE, 0, sizeof(int), &rtr_val->width));
-        OCL_CHECK(err, err = queue.enqueueReadBuffer(heightBuffer, CL_TRUE, 0, sizeof(int), &rtr_val->height));
-        OCL_CHECK(err, err = queue.enqueueReadBuffer(dataBuffer, CL_TRUE, 0, outputBytes, rtr_val->data));
+        OCL_CHECK(err, err = queue.enqueueReadBuffer(widthBuffer, CL_TRUE, 0, sizeof(int), &(*rtr_val)->width));
+        OCL_CHECK(err, err = queue.enqueueReadBuffer(heightBuffer, CL_TRUE, 0, sizeof(int), &(*rtr_val)->height));
+        OCL_CHECK(err, err = queue.enqueueReadBuffer(dataBuffer, CL_TRUE, 0, outputBytes, (*rtr_val)->data));
     }
     catch (const std::exception &ex)
     {
@@ -135,7 +135,8 @@ static void fSortIndices_hw_opencl(F2D *input, int dim, I2D *rtr_val)
     }
 }
 
-void fSortIndices_hw_bridge(F2D *input, int dim, I2D *rtr_val)
+void fSortIndices_hw_bridge(F2D *input, int dim, I2D **rtr_val)
 {
+    *rtr_val = (I2D *)malloc(BUFFER_SIZE * sizeof(int) + sizeof(I2D));
     fSortIndices_hw_opencl(input, dim, rtr_val);
 }

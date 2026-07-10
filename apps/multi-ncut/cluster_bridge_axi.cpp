@@ -138,7 +138,7 @@ struct DmaBuf
     DmaBuf &operator=(const DmaBuf &) = delete;
 };
 
-static void fSortIndices_hw_axi(F2D *input, int dim, I2D *rtr_val)
+static void fSortIndices_hw_axi(F2D *input, int dim, I2D **rtr_val)
 {
     const size_t inputBytes = static_cast<size_t>(input->width) * input->height * sizeof(float);
     const size_t outputBytes = BUFFER_SIZE * sizeof(int);
@@ -201,15 +201,16 @@ static void fSortIndices_hw_axi(F2D *input, int dim, I2D *rtr_val)
     cache_flush(buf_rtr_height.vaddr, sizeof(int));
     cache_flush(buf_rtr_data.vaddr, outputBytes);
 
-    std::memcpy(&rtr_val->width, buf_rtr_width.vaddr, sizeof(int));
-    std::memcpy(&rtr_val->height, buf_rtr_height.vaddr, sizeof(int));
-    std::memcpy(rtr_val->data, buf_rtr_data.vaddr, outputBytes);
+    std::memcpy(&(*rtr_val)->width, buf_rtr_width.vaddr, sizeof(int));
+    std::memcpy(&(*rtr_val)->height, buf_rtr_height.vaddr, sizeof(int));
+    std::memcpy((*rtr_val)->data, buf_rtr_data.vaddr, outputBytes);
 
     munmap(const_cast<uint32_t *>(regs), REGS_MAP_SIZE);
     close(mem_fd);
 }
 
-void fSortIndices_hw_bridge(F2D *input, int dim, I2D *rtr_val)
+void fSortIndices_hw_bridge(F2D *input, int dim, I2D **rtr_val)
 {
+    *rtr_val = (I2D *)malloc(BUFFER_SIZE * sizeof(int) + sizeof(I2D));
     fSortIndices_hw_axi(input, dim, rtr_val);
 }

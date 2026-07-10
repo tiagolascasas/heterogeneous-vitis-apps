@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/tls/dev/heterogeneous-vitis-apps/apps/_common/package_hw_emu_zcu102/sim/behav_waveform/xsim
+source /tools/Xilinx/Vitis/2024.2/data/emulation/qemu/comp/qemu/environment-setup-x86_64-petalinux-linux
+unset LD_LIBRARY_PATH
+/usr/bin/time -p -o pmc_time.txt /tools/Xilinx/Vitis/2024.2/data/emulation/qemu/comp/qemu/sysroots/x86_64-petalinux-linux/usr/bin/qemu-system-microblazeel -hw-dtb "/home/tls/dev/heterogeneous-vitis-apps/apps/_common/package_hw_emu_zcu102/sim/behav_waveform/xsim/zynqmp-pmu.dtb"  -kernel /tools/Xilinx/Vitis/2024.2/data/emulation/dtbs/zynqmp/pmu_rom_qemu_sha3.elf  -chardev "socket,path=./qemu-rport-_pmu@0,id=pmu-apu-rp"  -M "microblaze-fdt"  -device "loader,file=/tools/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/sw//xilinx_zcu102_base_202420_1/qemu/pmufw.elf"  -machine-path "."  -display "none" 

@@ -1191,7 +1191,7 @@ void segment_graph_out3(edge *edges, I2D *indices, int *i, int *a, universe *u, 
     }
 }
 
-void fSortIndices_hw_bridge(F2D *input, int dim, I2D *rtr_val);
+
 void segment_graph(int num_vertices, int num_edges, edge *edges, float c, universe **rtr_val)
 {
     int i;
@@ -1208,8 +1208,7 @@ void segment_graph(int num_vertices, int num_edges, edge *edges, float c, univer
     // Selector between SW and HW bridge calls based on OFFLOAD getenv variable
     if (getenv("OFFLOAD") != NULL)
     {
-        indices = (I2D *)malloc(92014 * sizeof(int) + sizeof(I2D));
-        fSortIndices_hw_bridge(edgeWeights, 1, indices);
+        fSortIndices_hw_bridge(edgeWeights, 1, &indices);
     }
     else
     {
