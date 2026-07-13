@@ -21,7 +21,7 @@ HOST_CXX ?= g++
 SYSROOT ?= 
 XRT_PATH ?= /opt/xilinx/xrt
 else
-HOST_CXX ?= /tools/Xilinx/Vitis/2024.2/gnu/aarch64/lin/aarch64-linux/bin/aarch64-linux-gnu-g++
+HOST_CXX ?= $(XILINX_VITIS)/gnu/aarch64/lin/aarch64-linux/bin/aarch64-linux-gnu-g++
 SYSROOT ?= /home/tls/xilinx/sysroots/xilinx-zynqmp-common-v2024.2/sysroots/cortexa72-cortexa53-xilinx-linux
 # Common image for hw_emu packaging (rootfs + kernel).
 COMMON_IMAGE_DIR ?= /home/tls/xilinx/sysroots/xilinx-zynqmp-common-v2024.2
@@ -41,6 +41,7 @@ COMMON_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))_common
 BUILD_DIR ?= build
 VITIS_DIR ?= vitis
 ELF_PATH ?= $(BUILD_DIR)/$(APPNAME)$(HOST_SUFFIX)_$(TARGET).elf
+DEFAULT_ELF = $(if $(strip $(HOST_VARIANTS)),$(BUILD_DIR)/$(APPNAME)-$(firstword $(HOST_VARIANTS))_$(TARGET).elf,$(ELF_PATH))
 XO_PATH ?= $(BUILD_DIR)/$(TOP)_$(TARGET).xo
 HW_XCLBIN ?= $(BUILD_DIR)/$(TOP)_hw_$(TARGET).xclbin
 HW_EMU_XCLBIN ?= $(BUILD_DIR)/$(TOP)_hw_emu_$(TARGET).xclbin
@@ -60,9 +61,10 @@ RUNTIME_CXXFLAGS = $(if $(filter opencl,$(RUNTIME)),-DUSE_OPENCL,\
                    $(if $(filter axi,$(RUNTIME)),-DUSE_AXI,))
 RUNTIME_INCLUDES = $(if $(filter opencl,$(RUNTIME)),-I$(XRT_PATH)/include,\
                    $(if $(filter axi,$(RUNTIME)),,-I$(XRT_PATH)/include/xrt -I$(XRT_PATH)/include))
-RUNTIME_LIBS     = $(if $(filter opencl,$(RUNTIME)),-L$(XRT_PATH)/lib -lOpenCL -lpthread,\
-                   $(if $(filter axi,$(RUNTIME)),-L$(XRT_PATH)/lib -lpthread,\
-                   -L$(XRT_PATH)/lib -lxrt_coreutil -lpthread))
+COMMA := ,
+RUNTIME_LIBS     = $(if $(filter opencl,$(RUNTIME)),-L$(XRT_PATH)/lib -Wl$(COMMA)-rpath=$(XRT_PATH)/lib -lOpenCL -lpthread,\
+                   $(if $(filter axi,$(RUNTIME)),-L$(XRT_PATH)/lib -Wl$(COMMA)-rpath=$(XRT_PATH)/lib -lpthread,\
+                   -L$(XRT_PATH)/lib -Wl$(COMMA)-rpath=$(XRT_PATH)/lib -lxrt_coreutil -lpthread))
 else
 CXXFLAGS        += -std=c++17 -Wall -O3 --sysroot=$(SYSROOT)
 RUNTIME_CXXFLAGS = $(if $(filter opencl,$(RUNTIME)),-DUSE_OPENCL,\
@@ -101,6 +103,9 @@ help:
 	@echo "  [Alveo / PCIe Workflow (x86) - Requires TARGET=u250]"
 	@echo "  emconfig           Generate emconfig.json for Alveo emulation"
 	@echo "  run-hwemu          Run host executable natively with XCL_EMULATION_MODE=hw_emu"
+	@echo "  run-sw             Run host executable natively without XRT initialization (SW mode)"
+	@echo "  run-hw-mocked      Run host executable natively with XRT initialization but simulated compute (OFFLOAD_SIM=1)"
+	@echo "  run-hw             Run host executable natively on the actual hardware (OFFLOAD=1)"
 	@echo ""
 	@echo "  [Zynq / Edge Workflow (QEMU) - Requires TARGET=zcu102]"
 	@echo "  setup-hwemu        Build the shared QEMU base image (run once per platform)"
@@ -236,7 +241,9 @@ emconfig:
 	emconfigutil --platform $(PLATFORM) --od .
 
 run-hwemu: host link-hwemu emconfig
-	XCL_EMULATION_MODE=hw_emu ./$(ELF_PATH) $(HW_EMU_XCLBIN)
+	XCLBIN=$(HW_EMU_XCLBIN) XCL_EMULATION_MODE=hw_emu ./$(DEFAULT_ELF) $(APP_ARGS)
+
+
 
 else
 
@@ -344,3 +351,21 @@ clean:
 clean-all: clean
 	@echo "Cleaning all build files and bitstreams..."
 	rm -rf $(BUILD_DIR) *.xclbin
+
+# ── Explicit Native Execution (U250 + XRT Only) ──────────────────────────────
+.PHONY: run-sw run-hw-mocked run-hw
+
+U250_XRT_ELF = $(BUILD_DIR)/$(APPNAME)$(if $(strip $(HOST_VARIANTS)),-xrt,)_u250.elf
+U250_HW_XCLBIN = $(BUILD_DIR)/$(TOP)_hw_u250.xclbin
+
+run-sw:
+	$(MAKE) host TARGET=u250
+	./$(U250_XRT_ELF) $(APP_ARGS)
+
+run-hw-mocked:
+	$(MAKE) host TARGET=u250
+	XCLBIN=$(U250_HW_XCLBIN) OFFLOAD_SIM=1 ./$(U250_XRT_ELF) $(APP_ARGS)
+
+run-hw:
+	$(MAKE) host TARGET=u250
+	XCLBIN=$(U250_HW_XCLBIN) OFFLOAD=1 ./$(U250_XRT_ELF) $(APP_ARGS)

@@ -939,7 +939,7 @@ int main(int argc, char *argv[])
     out = seg;
     int _scope5_ret = 0;
     float _scope5_tol = 0;
-    writeMatrix(out, argv[1]);
+    // writeMatrix(out, argv[1]);
     _scope5_ret = selfCheck(out, argv[1], _scope5_tol);
     if (_scope5_ret < 0)
     {
@@ -1206,7 +1206,7 @@ void segment_graph(int num_vertices, int num_edges, edge *edges, float c, univer
     fMallocHandle_rep9(1, num_edges, &edgeWeights);
     segment_graph_out1(&i, &num_edges, edgeWeights, edges);
     // Selector between SW and HW bridge calls based on OFFLOAD getenv variable
-    if (getenv("OFFLOAD") != NULL)
+    if (getenv("OFFLOAD") != NULL || getenv("OFFLOAD_SIM") != NULL)
     {
         fSortIndices_hw_bridge(edgeWeights, 1, &indices);
     }

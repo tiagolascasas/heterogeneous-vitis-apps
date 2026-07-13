@@ -16,6 +16,7 @@
 
 #include <iostream>
 #include <cstring>
+#include <cstdlib>
 
 // XRT includes
 #include "experimental/xrt_bo.h"
@@ -25,6 +26,9 @@
 int main(int argc, char **argv)
 {
     std::string binaryFile = "cluster.xclbin";
+    if (getenv("XCLBIN") != nullptr) {
+        binaryFile = getenv("XCLBIN");
+    }
     int dataSize = 4096;
     if (argc >= 2)
     {
@@ -56,43 +60,90 @@ int main(int argc, char **argv)
     }
 
     auto const initEpoch = std::chrono::high_resolution_clock::now();
-    int device_index = 0;
+    long long initTime = 0, kernelTime = 0, epilogueTime = 0;
 
-    auto device = xrt::device(device_index);
-    auto uuid = device.load_xclbin(binaryFile);
+    bool use_offload = (getenv("OFFLOAD") != nullptr);
+    bool use_offload_sim = (getenv("OFFLOAD_SIM") != nullptr);
 
-    auto krnl = xrt::kernel(device, uuid, "cluster");
+    if (use_offload_sim) {
+        initTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                       std::chrono::high_resolution_clock::now() - initEpoch).count();
 
-    auto bo0 = xrt::bo(device, dataSize * sizeof(int), krnl.group_id(0));
-    auto bo1 = xrt::bo(device, dataSize * sizeof(int), krnl.group_id(1));
-    auto bo_out = xrt::bo(device, dataSize * sizeof(int), krnl.group_id(2));
+        int* dev_a = (int*)malloc(dataSize * sizeof(int));
+        int* dev_b = (int*)malloc(dataSize * sizeof(int));
+        int* dev_out = (int*)malloc(dataSize * sizeof(int));
 
-    bo0.write(a, dataSize * sizeof(int), 0);
-    bo1.write(b, dataSize * sizeof(int), 0);
-    bo0.sync(XCL_BO_SYNC_BO_TO_DEVICE);
-    bo1.sync(XCL_BO_SYNC_BO_TO_DEVICE);
+        // DMA Host to Device
+        std::memcpy(dev_a, a, dataSize * sizeof(int));
+        std::memcpy(dev_b, b, dataSize * sizeof(int));
 
-    const auto initTime = std::chrono::duration_cast<std::chrono::microseconds>(
-                              std::chrono::high_resolution_clock::now() - initEpoch)
-                              .count();
+        const auto kernelEpoch = std::chrono::high_resolution_clock::now();
+        for (int i = 0; i < dataSize; ++i) {
+            dev_out[i] = dev_a[i] + dev_b[i];
+        }
+        kernelTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                         std::chrono::high_resolution_clock::now() - kernelEpoch).count();
 
-    const auto kernelEpoch = std::chrono::high_resolution_clock::now();
-    auto run = krnl(bo0, bo1, bo_out, dataSize);
-    run.wait();
-    const auto kernelTime = std::chrono::duration_cast<std::chrono::microseconds>(
-                                std::chrono::high_resolution_clock::now() - kernelEpoch)
-                                .count();
+        const auto epilogueEpoch = std::chrono::high_resolution_clock::now();
+        // DMA Device to Host
+        std::memcpy(output, dev_out, dataSize * sizeof(int));
 
-    const auto epilogueEpoch = std::chrono::high_resolution_clock::now();
-    bo_out.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
-    bo_out.read(output, dataSize * sizeof(int), 0);
-    const auto epilogueTime = std::chrono::duration_cast<std::chrono::microseconds>(
-                                  std::chrono::high_resolution_clock::now() - epilogueEpoch)
-                                  .count();
+        free(dev_a);
+        free(dev_b);
+        free(dev_out);
+        epilogueTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                           std::chrono::high_resolution_clock::now() - epilogueEpoch).count();
+    } else if (use_offload) {
+        int device_index = 0;
+        auto device = xrt::device(device_index);
+        auto uuid = device.load_xclbin(binaryFile);
+        auto krnl = xrt::kernel(device, uuid, "cluster");
+
+        auto bo0 = xrt::bo(device, dataSize * sizeof(int), krnl.group_id(0));
+        auto bo1 = xrt::bo(device, dataSize * sizeof(int), krnl.group_id(1));
+        auto bo_out = xrt::bo(device, dataSize * sizeof(int), krnl.group_id(2));
+
+        bo0.write(a, dataSize * sizeof(int), 0);
+        bo1.write(b, dataSize * sizeof(int), 0);
+
+        initTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                       std::chrono::high_resolution_clock::now() - initEpoch).count();
+
+        const auto kernelEpoch = std::chrono::high_resolution_clock::now();
+
+        // Hardware Execution
+        bo0.sync(XCL_BO_SYNC_BO_TO_DEVICE);
+        bo1.sync(XCL_BO_SYNC_BO_TO_DEVICE);
+        auto run = krnl(bo0, bo1, bo_out, dataSize);
+        run.wait();
+        bo_out.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
+
+        kernelTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                         std::chrono::high_resolution_clock::now() - kernelEpoch).count();
+
+        const auto epilogueEpoch = std::chrono::high_resolution_clock::now();
+        bo_out.read(output, dataSize * sizeof(int), 0);
+        epilogueTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                           std::chrono::high_resolution_clock::now() - epilogueEpoch).count();
+    } else {
+        // Genuine Software Execution (Default)
+        initTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                       std::chrono::high_resolution_clock::now() - initEpoch).count();
+
+        const auto kernelEpoch = std::chrono::high_resolution_clock::now();
+        for (int i = 0; i < dataSize; ++i) {
+            output[i] = a[i] + b[i];
+        }
+        kernelTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                         std::chrono::high_resolution_clock::now() - kernelEpoch).count();
+
+        const auto epilogueEpoch = std::chrono::high_resolution_clock::now();
+        epilogueTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                           std::chrono::high_resolution_clock::now() - epilogueEpoch).count();
+    }
 
     const auto totalTime = std::chrono::duration_cast<std::chrono::microseconds>(
-                               std::chrono::high_resolution_clock::now() - initEpoch)
-                               .count();
+                               std::chrono::high_resolution_clock::now() - initEpoch).count();
 
     if (std::memcmp(output, bufReference, dataSize * sizeof(int)))
         throw std::runtime_error("Value read back does not match reference");

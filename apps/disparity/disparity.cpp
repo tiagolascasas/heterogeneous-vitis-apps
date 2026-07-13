@@ -585,7 +585,7 @@ void getDisparity(I2D *Ileft, I2D *Iright, int win_sz, int max_shift, I2D **rtr_
     {
 #pragma HLS loop_tripcount max = 64
         // Selector between SW and HW bridge calls based on OFFLOAD getenv variable
-        if (getenv("OFFLOAD") != ((void *)0))
+        if (getenv("OFFLOAD") != ((void *)0) || getenv("OFFLOAD_SIM") != ((void *)0))
         {
             correlateSAD_2D_hw_bridge(IleftPadded, IrightPadded, win_sz, k, retSAD);
         }
@@ -1549,6 +1549,10 @@ int main(int argc, char *argv[])
     sprintf(im2, "%s/2.bmp", argv[1]);
     imleft = readImage(im1);
     imright = readImage(im2);
+    if (!imleft || !imright) {
+        printf("Error: Could not load input images from %s. Please provide the dataset.\n", argv[1]);
+        return -1;
+    }
     rows = imleft->height;
     cols = imleft->width;
     start = photonStartTiming();
@@ -1557,7 +1561,7 @@ int main(int argc, char *argv[])
     printf("Input size\t\t- (%dx%d)\n", rows, cols);
     int _scope0_tol, _scope0_ret = 0;
     _scope0_tol = 2;
-    writeMatrix(retDisparity, argv[1]);
+    // writeMatrix(retDisparity, argv[1]); // Removed to prevent overwriting ground truth
     _scope0_ret = selfCheck(retDisparity, argv[1], _scope0_tol);
     if (_scope0_ret == -1)
     {

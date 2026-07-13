@@ -1,2 +1,0 @@
-running Vivado to generate simulation models and scripts.
-Log file: /home/tls/dev/heterogeneous-vitis-apps/apps/multi-ncut/vitis/link_hwemu/temp/cluster/vivado/vpl/runme.log

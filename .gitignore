@@ -149,3 +149,35 @@ rosetta-spam-filter/spam-filter-with-debugging/.wsdata/
 rosetta-spam-filter/spam-filter-with-debugging/spam-filter_cluster/spam-filter_cluster/
 
 amd-vadd/hello_world_vadd/vadd/
+
+*.elf
+_x
+.ipcache
+.Xil
+hls
+logs
+reports
+*.xclbin
+*.xclbin.info
+*.xclbin.link_summary
+*.xo
+*.hlsrun_impl_summary
+package_hw_emu_xilinx_zcu102_base_202420_1/
+**/link_hwemu/temp/*
+**/cluster
+**/cluser_guidance.pb3
+xelab.pb
+v++.package_summary
+cluster_hw_u250.ltx
+boot.scr
+Image
+xsa.xml
+_ide
+vitis
+*.jou
+# Batch build artifacts
+build_log_*.txt
+backups/
+build/
+*.img
+*.swp

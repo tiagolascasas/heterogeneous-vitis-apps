@@ -5854,7 +5854,7 @@ void stitch(F2D **v, I2D *Icur, F2D **interestPnts, F2D **int1, F2D **int2, int 
 {
     harris(Icur, v);
     // Selector between SW and HW bridge calls based on OFFLOAD getenv variable
-    if (getenv("OFFLOAD") != ((void *)0))
+    if (getenv("OFFLOAD") != ((void *)0) || getenv("OFFLOAD_SIM") != ((void *)0))
     {
         getANMS_hw_bridge((*v), 24, interestPnts);
     }
@@ -5886,6 +5886,10 @@ int main(int argc, char *argv[])
     sprintf(im1, "%s/1.bmp", argv[1]);
     sprintf(im2, "%s/2.bmp", argv[1]);
     Icur = readImage(im1);
+    if (!Icur) {
+        printf("Error: Could not load input image from %s. Please provide the dataset.\n", argv[1]);
+        return -1;
+    }
     rows = Icur->height;
     cols = Icur->width;
     printf("Input size\t\t- (%dx%d)\n", rows, cols);
@@ -5895,7 +5899,7 @@ int main(int argc, char *argv[])
     elapsed = photonReportTiming(start, endC);
     int _scope27_ret = 0;
     float _scope27_tol = 0.02;
-    fWriteMatrix(Fcur, argv[1]);
+    // fWriteMatrix(Fcur, argv[1]); // Removed to prevent overwriting ground truth
     _scope27_ret = fSelfCheck(Fcur, argv[1], _scope27_tol);
     if (_scope27_ret == -1)
     {

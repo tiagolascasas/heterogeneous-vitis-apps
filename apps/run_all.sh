@@ -1,10 +1,9 @@
 #!/bin/bash
 set -o pipefail
 # Configuration
-APPS=("vadd" "edgedetect" "multi-ncut" "disparity" "stitch")
+APPS=("disparity" "edgedetect" "localization" "mser" "multi-ncut" "stitch" "svm" "texture-synthesis" "tracking" "vadd")
 TARGET="u250"
 DRY_RUN=0 # Set to 1 to mock the build, 0 for actual build
-GLOBAL_SUMMARY="../global_build_summary.txt"
 DISCORD_WEBHOOK="https://discord.com/api/webhooks/1523885903972401314/NX7EAVwxvQPhqwqEf0TxRKcS12Jz4iRXwPQF6Wc5lZuu5eItl7IseV0d7jaTxehr2DTx" # <--- PASTE YOUR DISCORD WEBHOOK URL HERE
 
 send_discord() {
@@ -25,10 +24,6 @@ send_discord() {
     fi
 }
 
-# Initialize global summary
-echo "Batch Build Started at $(date)" > "$GLOBAL_SUMMARY"
-echo "========================================" >> "$GLOBAL_SUMMARY"
-
 echo "Starting batch build for all applications..."
 
 for app in "${APPS[@]}"; do
@@ -41,7 +36,7 @@ for app in "${APPS[@]}"; do
     # Ensure a clean state before starting the build
     if [ "$DRY_RUN" -eq 0 ]; then
         echo "Cleaning previous build artifacts for $app..."
-        make clean > /dev/null 2>&1
+        make clean-all > /dev/null 2>&1
     fi
     
     # Create a log file specifically for this app's run
@@ -57,17 +52,19 @@ for app in "${APPS[@]}"; do
         make link-hw TARGET=$TARGET 2>&1 | tee "$LOG_FILE"
     fi
     
-    # Check the exit status of the make command
     if [ $? -eq 0 ]; then
         STATUS="SUCCESS"
         echo "$app build completed SUCCESSFULLY."
+        
+        # Backup the vitis folder and log to preserve reports before they are cleaned
+        TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+        mkdir -p backups
+        cp -r vitis backups/vitis_$TIMESTAMP 2>/dev/null || true
+        cp "$LOG_FILE" backups/build_log_${TIMESTAMP}.txt 2>/dev/null || true
     else
         STATUS="FAILED"
         echo "$app build FAILED. Check $LOG_FILE for details."
     fi
-    
-    # Prepare a short summary
-    echo "[$app] Build finished with status: $STATUS" >> "$GLOBAL_SUMMARY"
     
     # Send Discord notification with log attachment (uncompressed as requested)
     if [ "$STATUS" == "SUCCESS" ]; then
@@ -86,7 +83,5 @@ for app in "${APPS[@]}"; do
     cd ..
 done
 
-echo "========================================" >> "$GLOBAL_SUMMARY"
-echo "Batch build completed at $(date)." >> "$GLOBAL_SUMMARY"
 echo "Batch build completed at $(date)."
 send_discord "🏁 <@181856952324718594> **Batch build for all applications completed!**"

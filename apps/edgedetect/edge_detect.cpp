@@ -421,14 +421,14 @@ void edge_detect_sw(char image_rgb[6220800], char image_gray[2073600], char temp
 void edge_detect_hw_bridge(char image_gray[2073600], char temp_buf[2073600], char filter[9], char output[2073600]);
 int main()
 {
-    char *image_rgb = (char *)malloc(1080 * 1920 * 3 * sizeof(char));
-    char *image_gray = (char *)malloc(1080 * 1920 * sizeof(char));
-    char *temp_buf = (char *)malloc(1080 * 1920 * sizeof(char));
+    char *image_rgb = (char *)calloc(1080 * 1920 * 3, sizeof(char));
+    char *image_gray = (char *)calloc(1080 * 1920, sizeof(char));
+    char *temp_buf = (char *)calloc(1080 * 1920, sizeof(char));
     char filter[9] = {0};
-    char *output = (char *)malloc(1080 * 1920 * sizeof(char));
+    char *output = (char *)calloc(1080 * 1920, sizeof(char));
     readBMP("input.bmp", image_rgb);
     // Selector between SW and HW bridge calls based on OFFLOAD getenv variable
-    if (getenv("OFFLOAD") != ((void *)0))
+    if (getenv("OFFLOAD") != ((void *)0) || getenv("OFFLOAD_SIM") != ((void *)0))
     {
         if (getenv("DEBUG") != ((void *)0))
         {

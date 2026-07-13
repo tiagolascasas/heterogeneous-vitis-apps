@@ -35,6 +35,7 @@
 #include <iostream>
 #include <stdexcept>
 #include <vector>
+#include <cstdlib>
 
 // ─────────────────────────────── AXI backend ────────────────────────────────
 #ifdef USE_AXI
@@ -318,71 +319,104 @@ static int run_opencl(int dataSize, const std::string &binaryFile)
     try
     {
         const auto initEpoch = std::chrono::high_resolution_clock::now();
-        auto device = getXilinxDevice();
-        auto binary = loadBinary(binaryFile);
+        long long initTime = 0, kernelTime = 0, epilogueTime = 0;
 
-        cl::Context context(device, nullptr, nullptr, nullptr, &err);
-        if (err != CL_SUCCESS)
-        {
-            std::cerr << "OpenCL error " << err << " creating context\n";
-            return 1;
+        bool use_offload = (getenv("OFFLOAD") != nullptr);
+        bool use_offload_sim = (getenv("OFFLOAD_SIM") != nullptr);
+
+        if (use_offload || use_offload_sim) {
+            auto device = getXilinxDevice();
+            auto binary = loadBinary(binaryFile);
+
+            cl::Context context(device, nullptr, nullptr, nullptr, &err);
+            if (err != CL_SUCCESS)
+            {
+                std::cerr << "OpenCL error " << err << " creating context\n";
+                return 1;
+            }
+
+            cl::CommandQueue queue(context, device, CL_QUEUE_PROFILING_ENABLE, &err);
+            if (err != CL_SUCCESS)
+            {
+                std::cerr << "OpenCL error " << err << " creating command queue\n";
+                return 1;
+            }
+
+            cl::Program::Binaries binaries;
+            binaries.push_back(binary);
+            cl::Program program(context, {device}, binaries, nullptr, &err);
+            if (err != CL_SUCCESS)
+            {
+                std::cerr << "Failed to program device with xclbin: " << binaryFile << "\n";
+                return 1;
+            }
+
+            cl::Kernel kernel(program, "cluster", &err);
+            if (err != CL_SUCCESS)
+            {
+                std::cerr << "OpenCL error " << err << " creating kernel\n";
+                return 1;
+            }
+
+            OCL_CHECK(err, cl::Buffer bufferA(context, CL_MEM_READ_ONLY, sizeInBytes, nullptr, &err));
+            OCL_CHECK(err, cl::Buffer bufferB(context, CL_MEM_READ_ONLY, sizeInBytes, nullptr, &err));
+            OCL_CHECK(err, cl::Buffer bufferOut(context, CL_MEM_WRITE_ONLY, sizeInBytes, nullptr, &err));
+
+            OCL_CHECK(err, err = queue.enqueueWriteBuffer(bufferA, CL_TRUE, 0, sizeInBytes, a.data()));
+            OCL_CHECK(err, err = queue.enqueueWriteBuffer(bufferB, CL_TRUE, 0, sizeInBytes, b.data()));
+
+            OCL_CHECK(err, err = kernel.setArg(0, bufferA));
+            OCL_CHECK(err, err = kernel.setArg(1, bufferB));
+            OCL_CHECK(err, err = kernel.setArg(2, bufferOut));
+            OCL_CHECK(err, err = kernel.setArg(3, dataSize));
+
+            initTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                           std::chrono::high_resolution_clock::now() - initEpoch).count();
+
+            const auto kernelEpoch = std::chrono::high_resolution_clock::now();
+            if (use_offload) {
+                OCL_CHECK(err, err = queue.enqueueTask(kernel));
+                OCL_CHECK(err, err = queue.finish());
+            } else {
+                unsigned int *mapA = (unsigned int *)queue.enqueueMapBuffer(bufferA, CL_TRUE, CL_MAP_READ, 0, sizeInBytes, nullptr, nullptr, &err);
+                unsigned int *mapB = (unsigned int *)queue.enqueueMapBuffer(bufferB, CL_TRUE, CL_MAP_READ, 0, sizeInBytes, nullptr, nullptr, &err);
+                unsigned int *mapOut = (unsigned int *)queue.enqueueMapBuffer(bufferOut, CL_TRUE, CL_MAP_WRITE, 0, sizeInBytes, nullptr, nullptr, &err);
+
+                for (int i = 0; i < dataSize; ++i) {
+                    mapOut[i] = mapA[i] + mapB[i];
+                }
+
+                queue.enqueueUnmapMemObject(bufferA, mapA);
+                queue.enqueueUnmapMemObject(bufferB, mapB);
+                queue.enqueueUnmapMemObject(bufferOut, mapOut);
+                queue.finish();
+            }
+            kernelTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                             std::chrono::high_resolution_clock::now() - kernelEpoch).count();
+
+            const auto epilogueEpoch = std::chrono::high_resolution_clock::now();
+            OCL_CHECK(err, err = queue.enqueueReadBuffer(bufferOut, CL_TRUE, 0, sizeInBytes, output.data()));
+            epilogueTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                               std::chrono::high_resolution_clock::now() - epilogueEpoch).count();
+        } else {
+            initTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                           std::chrono::high_resolution_clock::now() - initEpoch).count();
+            const auto kernelEpoch = std::chrono::high_resolution_clock::now();
+
+            for (int i = 0; i < dataSize; ++i) {
+                output[i] = a[i] + b[i];
+            }
+
+            kernelTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                             std::chrono::high_resolution_clock::now() - kernelEpoch).count();
+            
+            const auto epilogueEpoch = std::chrono::high_resolution_clock::now();
+            epilogueTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                               std::chrono::high_resolution_clock::now() - epilogueEpoch).count();
         }
-
-        cl::CommandQueue queue(context, device, CL_QUEUE_PROFILING_ENABLE, &err);
-        if (err != CL_SUCCESS)
-        {
-            std::cerr << "OpenCL error " << err << " creating command queue\n";
-            return 1;
-        }
-
-        cl::Program::Binaries binaries;
-        binaries.push_back(binary);
-        cl::Program program(context, {device}, binaries, nullptr, &err);
-        if (err != CL_SUCCESS)
-        {
-            std::cerr << "Failed to program device with xclbin: " << binaryFile << "\n";
-            return 1;
-        }
-
-        cl::Kernel kernel(program, "cluster", &err);
-        if (err != CL_SUCCESS)
-        {
-            std::cerr << "OpenCL error " << err << " creating kernel\n";
-            return 1;
-        }
-
-        OCL_CHECK(err, cl::Buffer bufferA(context, CL_MEM_READ_ONLY, sizeInBytes, nullptr, &err));
-        OCL_CHECK(err, cl::Buffer bufferB(context, CL_MEM_READ_ONLY, sizeInBytes, nullptr, &err));
-        OCL_CHECK(err, cl::Buffer bufferOut(context, CL_MEM_WRITE_ONLY, sizeInBytes, nullptr, &err));
-
-        OCL_CHECK(err, err = queue.enqueueWriteBuffer(bufferA, CL_TRUE, 0, sizeInBytes, a.data()));
-        OCL_CHECK(err, err = queue.enqueueWriteBuffer(bufferB, CL_TRUE, 0, sizeInBytes, b.data()));
-
-        OCL_CHECK(err, err = kernel.setArg(0, bufferA));
-        OCL_CHECK(err, err = kernel.setArg(1, bufferB));
-        OCL_CHECK(err, err = kernel.setArg(2, bufferOut));
-        OCL_CHECK(err, err = kernel.setArg(3, dataSize));
-
-        const auto initTime = std::chrono::duration_cast<std::chrono::microseconds>(
-                                  std::chrono::high_resolution_clock::now() - initEpoch)
-                                  .count();
-
-        const auto kernelEpoch = std::chrono::high_resolution_clock::now();
-        OCL_CHECK(err, err = queue.enqueueTask(kernel));
-        OCL_CHECK(err, err = queue.finish());
-        const auto kernelTime = std::chrono::duration_cast<std::chrono::microseconds>(
-                                    std::chrono::high_resolution_clock::now() - kernelEpoch)
-                                    .count();
-
-        const auto epilogueEpoch = std::chrono::high_resolution_clock::now();
-        OCL_CHECK(err, err = queue.enqueueReadBuffer(bufferOut, CL_TRUE, 0, sizeInBytes, output.data()));
-        const auto epilogueTime = std::chrono::duration_cast<std::chrono::microseconds>(
-                                      std::chrono::high_resolution_clock::now() - epilogueEpoch)
-                                      .count();
 
         const auto totalTime = std::chrono::duration_cast<std::chrono::microseconds>(
-                                   std::chrono::high_resolution_clock::now() - initEpoch)
-                                   .count();
+                                   std::chrono::high_resolution_clock::now() - initEpoch).count();
 
         if (output != reference)
             throw std::runtime_error("Value read back does not match reference");
@@ -407,6 +441,9 @@ int main(int argc, char **argv)
     int dataSize = 4096;
 #ifndef USE_AXI
     std::string binaryFile = "cluster.xclbin";
+    if (getenv("XCLBIN") != nullptr) {
+        binaryFile = getenv("XCLBIN");
+    }
 #endif
 
     if (argc == 1)

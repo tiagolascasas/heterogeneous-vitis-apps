@@ -180,9 +180,9 @@ void cluster(int *points_width, int *points_height, float *points_data, int r, i
     int validCount;
     int j;
     int i;
-    int *interestPnts_width;
-    int *interestPnts_height;
-    float *interestPnts_data;
+    int *interestPnts_width = nullptr;
+    int *interestPnts_height = nullptr;
+    float *interestPnts_data = nullptr;
     float t1;
     float t;
     float r_sq;
@@ -866,7 +866,7 @@ end_inline_i415:;
         // cluster_fMallocHandle_rep113(): begin inline
         int i_i454;
         int j_i454;
-        int out_i454_width;
+        int out_i454_width = 0;
         int out_i454_height;
         float out_i454_data[166830];
 #pragma HLS BIND_STORAGE variable = out_i454_data type = ram_2p impl = auto

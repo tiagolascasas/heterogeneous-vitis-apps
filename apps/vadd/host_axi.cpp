@@ -20,6 +20,7 @@
 #include <chrono>
 #include <stdexcept>
 #include <string>
+#include <cstdlib>
 
 #include <fcntl.h>
 #include <unistd.h>
@@ -192,96 +193,133 @@ int main(int argc, char **argv)
         bufReference[i] = i + i;
 
     auto const initEpoch = std::chrono::high_resolution_clock::now();
+    long long initTime = 0, kernelTime = 0, epilogueTime = 0;
 
-    // Map the kernel's AXI-Lite control registers directly via /dev/mem.
-    // The FPGA bitstream must already be loaded (e.g. via fpgautil or xmutil).
-    int mem_fd = open("/dev/mem", O_RDWR | O_SYNC);
-    if (mem_fd < 0)
-        throw std::runtime_error("cannot open /dev/mem");
-    volatile uint32_t *regs = static_cast<volatile uint32_t *>(
-        mmap(nullptr, REGS_MAP_SIZE, PROT_READ | PROT_WRITE, MAP_SHARED,
-             mem_fd, static_cast<off_t>(CLUSTER_BASE)));
-    if (regs == MAP_FAILED)
-        throw std::runtime_error("mmap /dev/mem failed");
+    bool use_offload = (getenv("OFFLOAD") != nullptr);
+    bool use_offload_sim = (getenv("OFFLOAD_SIM") != nullptr);
 
-    // Allocate contiguous DMA buffers via 2 MB huge pages.
-    DmaBuf buf0(buf_bytes), buf1(buf_bytes), buf_out(buf_bytes);
+    if (use_offload || use_offload_sim) {
+        // Map the kernel's AXI-Lite control registers directly via /dev/mem.
+        // The FPGA bitstream must already be loaded (e.g. via fpgautil or xmutil).
+        int mem_fd = open("/dev/mem", O_RDWR | O_SYNC);
+        if (mem_fd < 0)
+            throw std::runtime_error("cannot open /dev/mem");
+        volatile uint32_t *regs = static_cast<volatile uint32_t *>(
+            mmap(nullptr, REGS_MAP_SIZE, PROT_READ | PROT_WRITE, MAP_SHARED,
+                 mem_fd, static_cast<off_t>(CLUSTER_BASE)));
+        if (regs == MAP_FAILED)
+            throw std::runtime_error("mmap /dev/mem failed");
 
-    int *a = static_cast<int *>(buf0.vaddr);
-    int *b = static_cast<int *>(buf1.vaddr);
-    int *out = static_cast<int *>(buf_out.vaddr);
+        // Allocate contiguous DMA buffers via 2 MB huge pages.
+        DmaBuf buf0(buf_bytes), buf1(buf_bytes), buf_out(buf_bytes);
 
-    for (int i = 0; i < dataSize; ++i)
-    {
-        a[i] = i;
-        b[i] = i;
+        int *a = static_cast<int *>(buf0.vaddr);
+        int *b = static_cast<int *>(buf1.vaddr);
+        int *out = static_cast<int *>(buf_out.vaddr);
+
+        for (int i = 0; i < dataSize; ++i)
+        {
+            a[i] = i;
+            b[i] = i;
+        }
+
+        // Clean+invalidate CPU cache to DDR before the PL kernel reads (HP0 is non-coherent)
+        cache_flush(a, buf_bytes);
+        cache_flush(b, buf_bytes);
+        cache_flush(out, buf_bytes);
+
+        initTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                       std::chrono::high_resolution_clock::now() - initEpoch).count();
+
+        const auto kernelEpoch = std::chrono::high_resolution_clock::now();
+
+        if (use_offload) {
+            // ap_ctrl_hs: the kernel only latches ap_start when ap_idle (bit 2) is high.
+            // Wait here in case it is still in the 'done' state from a previous run.
+            while (!(reg_read(regs, CTRL_REG) & 0x4))
+                ;
+
+            // Write buffer physical addresses and size directly to AXI-Lite registers
+            reg_write(regs, IN1_REG_LO, static_cast<uint32_t>(buf0.phys));
+            reg_write(regs, IN1_REG_HI, static_cast<uint32_t>(buf0.phys >> 32));
+            reg_write(regs, IN2_REG_LO, static_cast<uint32_t>(buf1.phys));
+            reg_write(regs, IN2_REG_HI, static_cast<uint32_t>(buf1.phys >> 32));
+            reg_write(regs, OUT_REG_LO, static_cast<uint32_t>(buf_out.phys));
+            reg_write(regs, OUT_REG_HI, static_cast<uint32_t>(buf_out.phys >> 32));
+            reg_write(regs, SIZE_REG, static_cast<uint32_t>(dataSize));
+
+            // Full barrier: guarantee all argument writes reach the AXI slave before ap_start.
+            // nGnRnE device memory is strongly ordered, but dsb+isb makes the intent explicit
+            // and prevents any speculative execution past this point on the CPU side.
+        #if defined(__aarch64__)
+            asm volatile("dsb sy\n\tisb" ::: "memory");
+        #elif defined(__x86_64__)
+            asm volatile("mfence" ::: "memory");
+        #endif
+
+            // Pulse ap_start
+            reg_write(regs, CTRL_REG, 0x1);
+
+            // Poll ap_done (bit 1, Clear-On-Read — latched until we read it)
+            while (!(reg_read(regs, CTRL_REG) & 0x2))
+                ;
+        } else {
+            // Software Execution using DMA mapped buffers
+            for (int i = 0; i < dataSize; ++i) {
+                out[i] = a[i] + b[i];
+            }
+        }
+
+        kernelTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                         std::chrono::high_resolution_clock::now() - kernelEpoch).count();
+
+        const auto epilogueEpoch = std::chrono::high_resolution_clock::now();
+
+        // Invalidate CPU cache so we read what the PL kernel wrote to DDR
+        cache_flush(out, buf_bytes);
+
+        if (std::memcmp(out, bufReference, buf_bytes))
+            throw std::runtime_error("Value read back does not match reference");
+
+        epilogueTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                           std::chrono::high_resolution_clock::now() - epilogueEpoch).count();
+
+        munmap(const_cast<uint32_t *>(regs), REGS_MAP_SIZE);
+        close(mem_fd);
+    } else {
+        initTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                       std::chrono::high_resolution_clock::now() - initEpoch).count();
+
+        const auto kernelEpoch = std::chrono::high_resolution_clock::now();
+        int *a = new int[dataSize];
+        int *b = new int[dataSize];
+        int *out = new int[dataSize];
+        for (int i = 0; i < dataSize; ++i) {
+            a[i] = i;
+            b[i] = i;
+            out[i] = a[i] + b[i];
+        }
+        kernelTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                         std::chrono::high_resolution_clock::now() - kernelEpoch).count();
+
+        const auto epilogueEpoch = std::chrono::high_resolution_clock::now();
+        
+        if (std::memcmp(out, bufReference, buf_bytes))
+            throw std::runtime_error("Value read back does not match reference");
+
+        epilogueTime = std::chrono::duration_cast<std::chrono::microseconds>(
+                           std::chrono::high_resolution_clock::now() - epilogueEpoch).count();
+
+        delete[] a;
+        delete[] b;
+        delete[] out;
     }
 
-    // Clean+invalidate CPU cache to DDR before the PL kernel reads (HP0 is non-coherent)
-    cache_flush(a, buf_bytes);
-    cache_flush(b, buf_bytes);
-    cache_flush(out, buf_bytes);
-
-    const auto initTime = std::chrono::duration_cast<std::chrono::microseconds>(
-                              std::chrono::high_resolution_clock::now() - initEpoch)
-                              .count();
-
-    const auto kernelEpoch = std::chrono::high_resolution_clock::now();
-
-    // ap_ctrl_hs: the kernel only latches ap_start when ap_idle (bit 2) is high.
-    // Wait here in case it is still in the 'done' state from a previous run.
-    while (!(reg_read(regs, CTRL_REG) & 0x4))
-        ;
-
-    // Write buffer physical addresses and size directly to AXI-Lite registers
-    reg_write(regs, IN1_REG_LO, static_cast<uint32_t>(buf0.phys));
-    reg_write(regs, IN1_REG_HI, static_cast<uint32_t>(buf0.phys >> 32));
-    reg_write(regs, IN2_REG_LO, static_cast<uint32_t>(buf1.phys));
-    reg_write(regs, IN2_REG_HI, static_cast<uint32_t>(buf1.phys >> 32));
-    reg_write(regs, OUT_REG_LO, static_cast<uint32_t>(buf_out.phys));
-    reg_write(regs, OUT_REG_HI, static_cast<uint32_t>(buf_out.phys >> 32));
-    reg_write(regs, SIZE_REG, static_cast<uint32_t>(dataSize));
-
-    // Full barrier: guarantee all argument writes reach the AXI slave before ap_start.
-    // nGnRnE device memory is strongly ordered, but dsb+isb makes the intent explicit
-    // and prevents any speculative execution past this point on the CPU side.
-#if defined(__aarch64__)
-    asm volatile("dsb sy\n\tisb" ::: "memory");
-#elif defined(__x86_64__)
-    asm volatile("mfence" ::: "memory");
-#endif
-
-    // Pulse ap_start
-    reg_write(regs, CTRL_REG, 0x1);
-
-    // Poll ap_done (bit 1, Clear-On-Read — latched until we read it)
-    while (!(reg_read(regs, CTRL_REG) & 0x2))
-        ;
-
-    const auto kernelTime = std::chrono::duration_cast<std::chrono::microseconds>(
-                                std::chrono::high_resolution_clock::now() - kernelEpoch)
-                                .count();
-
-    const auto epilogueEpoch = std::chrono::high_resolution_clock::now();
-
-    // Invalidate CPU cache so we read what the PL kernel wrote to DDR
-    cache_flush(out, buf_bytes);
-
-    if (std::memcmp(out, bufReference, buf_bytes))
-        throw std::runtime_error("Value read back does not match reference");
-
-    const auto epilogueTime = std::chrono::duration_cast<std::chrono::microseconds>(
-                                  std::chrono::high_resolution_clock::now() - epilogueEpoch)
-                                  .count();
-
     const auto totalTime = std::chrono::duration_cast<std::chrono::microseconds>(
-                               std::chrono::high_resolution_clock::now() - initEpoch)
-                               .count();
+                               std::chrono::high_resolution_clock::now() - initEpoch).count();
 
     std::cout << dataSize << ", " << initTime << ", " << kernelTime << ", " << epilogueTime << ", " << totalTime << "\n";
 
-    munmap(const_cast<uint32_t *>(regs), REGS_MAP_SIZE);
-    close(mem_fd);
     delete[] bufReference;
     return 0;
 }
