@@ -199,7 +199,7 @@ void trackFeaturesPyramidalLK_hw_bridge(F2D **blurredImage, I2D *Ic, F2D **previ
         bo->sync(XCL_BO_SYNC_BO_TO_DEVICE);
     }
 
-    auto run = xrt::run(krnl);
+    auto run = xrt::run(*krnl);
     run.set_arg(0, bo_blurredImage_width);
     run.set_arg(1, bo_blurredImage_height);
     run.set_arg(2, bo_blurredImage_data);

@@ -138,7 +138,7 @@ void create_texture_out1_out0_out1_hw_bridge(
     bo_yloopout = xrt::bo(*device, sz_yloopout, krnl->group_id(28));
     bo_xloopout = xrt::bo(*device, sz_xloopout, krnl->group_id(29));
 
-    run = xrt::run(krnl);
+    run = xrt::run(*krnl);
     run.set_arg(0, bo_diff);
     run.set_arg(1, bo_k);
     run.set_arg(2, bo_ncand);

@@ -92,6 +92,7 @@ void cluster(double *diff, int *k, int *ncand, double *curdiff, int *image_width
 #pragma clava param = target_data type = STRUCT_POINTER in = NONE out = LIVEOUT size = 3686400
 #pragma clava param = yloopout type = PRIMITIVE_POINTER in = NONE out = LIVEOUT size = 4
 #pragma clava param = xloopout type = PRIMITIVE_POINTER in = NONE out = LIVEOUT size = 4
+
     // candlistx = global_candlistx; // Removed by CallTreeInliner
     // candlisty = global_candlisty; // Removed by CallTreeInliner
     // result = global_result; // Removed by CallTreeInliner
@@ -99,13 +100,17 @@ void cluster(double *diff, int *k, int *ncand, double *curdiff, int *image_width
     // yloopout = global_yloopout; // Removed by CallTreeInliner
     // xloopout = global_xloopout; // Removed by CallTreeInliner
     // cluster_create_texture_out1_out0_out1_out0(): begin inline
-    (*diff) = 1e10;
+    double local_diff = 1e10;
+    int local_i = *i;
+    int local_j = *j;
     // cluster_create_texture_out1_out0_out1_out0(): end inline
     for ((local_k) = 0; (local_k) < (local_ncand); (local_k)++)
     {
 #pragma HLS loop_tripcount max = 112 min = 2
         // cluster_create_texture_out1_out0_out1_out1(): begin inline
         double _d0_0_i912;
+        int local_candlisty_k = candlisty[(local_k)];
+        int local_candlistx_k = candlistx[(local_k)];
         // cluster_compare_neighb(): begin inline
         double tmp_i913;
         double res_i913;
@@ -117,12 +122,13 @@ void cluster(double *diff, int *k, int *ncand, double *curdiff, int *image_width
         for (i_i913 = -((local_data_localy) / 2); i_i913 < 0; i_i913++)
         {
 #pragma HLS loop_tripcount max = 7
+            int local_yloopout_i = yloopout[local_i + i_i913];
             for (j_i913 = -((local_data_localx) / 2); j_i913 <= (local_data_localx) / 2; j_i913++)
             {
 #pragma HLS loop_tripcount max = 15
-                addr_i913 = (1 * (((candlisty[(local_k)]) + i_i913) * (local_data_widthin) +
-                                  ((candlistx[(local_k)]) + j_i913)));
-                addr1_i913 = (1 * ((yloopout[(*i) + i_i913]) * (local_data_widthout) + (xloopout[(*j) + j_i913])));
+                addr_i913 = (1 * ((local_candlisty_k + i_i913) * (local_data_widthin) +
+                                  (local_candlistx_k + j_i913)));
+                addr1_i913 = (1 * ((local_yloopout_i) * (local_data_widthout) + (xloopout[local_j + j_i913])));
                 tmp_i913 = local_image_data[addr_i913 + 0] - result_data[addr1_i913 + 0];
                 res_i913 = res_i913 + tmp_i913 * tmp_i913;
             }
@@ -130,8 +136,8 @@ void cluster(double *diff, int *k, int *ncand, double *curdiff, int *image_width
         for (j_i913 = -((local_data_localx) / 2); j_i913 < 0; j_i913++)
         {
 #pragma HLS loop_tripcount max = 7
-            addr_i913 = (1 * ((candlisty[(local_k)]) * (local_data_widthin) + ((candlistx[(local_k)]) + j_i913)));
-            addr1_i913 = (1 * ((*i) * (local_data_widthout) + (xloopout[(*j) + j_i913])));
+            addr_i913 = (1 * ((local_candlisty_k) * (local_data_widthin) + (local_candlistx_k + j_i913)));
+            addr1_i913 = (1 * ((local_i) * (local_data_widthout) + (xloopout[local_j + j_i913])));
             tmp_i913 = local_image_data[addr_i913 + 0] - result_data[addr1_i913 + 0];
             res_i913 = res_i913 + tmp_i913 * tmp_i913;
         }
@@ -148,13 +154,14 @@ void cluster(double *diff, int *k, int *ncand, double *curdiff, int *image_width
         for (i_i914 = ((local_data_localy) / 2); i_i914 > 0; i_i914--)
         {
 #pragma HLS loop_tripcount max = 7
+            int local_yloopout_i = yloopout[local_i + i_i914];
             for (j_i914 = -((local_data_localx) / 2); j_i914 <= (local_data_localx) / 2; j_i914++)
             {
 #pragma HLS loop_tripcount max = 15
                 int decomp_0_renamed_239_i914;
-                addr_i914 = (1 * (((candlisty[(local_k)]) + i_i914) * (local_data_widthin) +
-                                  ((candlistx[(local_k)]) + j_i914)));
-                addr1_i914 = (1 * ((yloopout[(*i) + i_i914]) * (local_data_widthout) + (xloopout[(*j) + j_i914])));
+                addr_i914 = (1 * ((local_candlisty_k + i_i914) * (local_data_widthin) +
+                                  (local_candlistx_k + j_i914)));
+                addr1_i914 = (1 * ((local_yloopout_i) * (local_data_widthout) + (xloopout[local_j + j_i914])));
                 decomp_0_renamed_239_i914 = target_data[addr1_i914 + 0] != 1.0;
                 if (decomp_0_renamed_239_i914)
                 { // KVS?
@@ -167,8 +174,8 @@ void cluster(double *diff, int *k, int *ncand, double *curdiff, int *image_width
         {
 #pragma HLS loop_tripcount max = 7
             int decomp_1_renamed_17_i914;
-            addr_i914 = (1 * ((candlisty[(local_k)]) * (local_data_widthin) + ((candlistx[(local_k)]) + j_i914)));
-            addr1_i914 = (1 * ((*i) * (local_data_widthout) + (xloopout[(*j) + j_i914])));
+            addr_i914 = (1 * ((local_candlisty_k) * (local_data_widthin) + (local_candlistx_k + j_i914)));
+            addr1_i914 = (1 * ((local_i) * (local_data_widthout) + (xloopout[local_j + j_i914])));
             decomp_1_renamed_17_i914 = target_data[addr1_i914 + 0] != 1.0;
             if (decomp_1_renamed_17_i914)
             { // KVS?
@@ -183,16 +190,17 @@ void cluster(double *diff, int *k, int *ncand, double *curdiff, int *image_width
         int decomp_1_renamed_18_i915;
         _d0_1_i915 = (local_curdiff) + _d0_0_i912;
         (local_curdiff) = _d0_1_i915;
-        decomp_1_renamed_18_i915 = (local_curdiff) < (*diff);
+        decomp_1_renamed_18_i915 = (local_curdiff) < (local_diff);
         if (decomp_1_renamed_18_i915)
         {
-            (*diff) = (local_curdiff);
-            (local_bestx) = candlistx[(local_k)];
-            (local_besty) = candlisty[(local_k)];
+            (local_diff) = (local_curdiff);
+            (local_bestx) = local_candlistx_k;
+            (local_besty) = local_candlisty_k;
         }
         // cluster_create_texture_out1_out0_out1_out1_out1(): end inline
             *bestx = local_bestx;
     *besty = local_besty;
         // cluster_create_texture_out1_out0_out1_out1(): end inline
     }
+    *diff = local_diff;
 }

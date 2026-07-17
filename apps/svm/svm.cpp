@@ -60415,7 +60415,7 @@ int main(int argc, char *argv[])
 // elapsed = photonReportTiming(start, stop);
 //  // photonPrintTiming(elapsed);
 // free(start);
-    free(stop);
+// free(stop);
 // free(elapsed);
 
     return 0;

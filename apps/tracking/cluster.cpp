@@ -24,40 +24,40 @@ void cluster(
 #pragma HLS INTERFACE m_axi port = blurredImage_width bundle = gmem0
 #pragma HLS INTERFACE m_axi port = blurredImage_height bundle = gmem0
 #pragma HLS INTERFACE m_axi port = blurredImage_data bundle = gmem0
-#pragma HLS INTERFACE m_axi port = Ic_width bundle = gmem0
-#pragma HLS INTERFACE m_axi port = Ic_height bundle = gmem0
-#pragma HLS INTERFACE m_axi port = Ic_data bundle = gmem0
-#pragma HLS INTERFACE m_axi port = blurred_level1_width bundle = gmem0
-#pragma HLS INTERFACE m_axi port = blurred_level1_height bundle = gmem0
-#pragma HLS INTERFACE m_axi port = blurred_level1_data bundle = gmem0
-#pragma HLS INTERFACE m_axi port = blurred_level2_width bundle = gmem0
-#pragma HLS INTERFACE m_axi port = blurred_level2_height bundle = gmem0
-#pragma HLS INTERFACE m_axi port = blurred_level2_data bundle = gmem0
-#pragma HLS INTERFACE m_axi port = features_width bundle = gmem0
-#pragma HLS INTERFACE m_axi port = features_height bundle = gmem0
-#pragma HLS INTERFACE m_axi port = features_data bundle = gmem0
-#pragma HLS INTERFACE m_axi port = status_width bundle = gmem0
-#pragma HLS INTERFACE m_axi port = status_height bundle = gmem0
-#pragma HLS INTERFACE m_axi port = status_data bundle = gmem0
-#pragma HLS INTERFACE m_axi port = WINSZ bundle = gmem0
-#pragma HLS INTERFACE m_axi port = accuracy bundle = gmem0
-#pragma HLS INTERFACE m_axi port = LK_ITER bundle = gmem0
-#pragma HLS INTERFACE m_axi port = k bundle = gmem0
-#pragma HLS INTERFACE m_axi port = numFind bundle = gmem0
-#pragma HLS INTERFACE m_axi port = i bundle = gmem0
-#pragma HLS INTERFACE m_axi port = memregion_236_size8294400 bundle = gmem0
-#pragma HLS INTERFACE m_axi port = memregion_239_size8294400 bundle = gmem0
-#pragma HLS INTERFACE m_axi port = memregion_245_size8294400 bundle = gmem0
-#pragma HLS INTERFACE m_axi port = memregion_251_size4147200 bundle = gmem0
-#pragma HLS INTERFACE m_axi port = memregion_254_size2073600 bundle = gmem0
-#pragma HLS INTERFACE m_axi port = memregion_260_size8294400 bundle = gmem0
-#pragma HLS INTERFACE m_axi port = memregion_263_size8294400 bundle = gmem0
-#pragma HLS INTERFACE m_axi port = memregion_272_size8294400 bundle = gmem0
-#pragma HLS INTERFACE m_axi port = memregion_275_size8294400 bundle = gmem0
-#pragma HLS INTERFACE m_axi port = memregion_284_size2073600 bundle = gmem0
-#pragma HLS INTERFACE m_axi port = memregion_287_size2073600 bundle = gmem0
-#pragma HLS INTERFACE m_axi port = memregion_296_size2073600 bundle = gmem0
-#pragma HLS INTERFACE m_axi port = memregion_299_size2073600 bundle = gmem0
+#pragma HLS INTERFACE m_axi port = Ic_width bundle = gmem1
+#pragma HLS INTERFACE m_axi port = Ic_height bundle = gmem1
+#pragma HLS INTERFACE m_axi port = Ic_data bundle = gmem1
+#pragma HLS INTERFACE m_axi port = blurred_level1_width bundle = gmem2
+#pragma HLS INTERFACE m_axi port = blurred_level1_height bundle = gmem2
+#pragma HLS INTERFACE m_axi port = blurred_level1_data bundle = gmem2
+#pragma HLS INTERFACE m_axi port = blurred_level2_width bundle = gmem3
+#pragma HLS INTERFACE m_axi port = blurred_level2_height bundle = gmem3
+#pragma HLS INTERFACE m_axi port = blurred_level2_data bundle = gmem3
+#pragma HLS INTERFACE m_axi port = features_width bundle = gmem4
+#pragma HLS INTERFACE m_axi port = features_height bundle = gmem4
+#pragma HLS INTERFACE m_axi port = features_data bundle = gmem4
+#pragma HLS INTERFACE m_axi port = status_width bundle = gmem5
+#pragma HLS INTERFACE m_axi port = status_height bundle = gmem5
+#pragma HLS INTERFACE m_axi port = status_data bundle = gmem5
+#pragma HLS INTERFACE m_axi port = WINSZ bundle = gmem6
+#pragma HLS INTERFACE m_axi port = accuracy bundle = gmem6
+#pragma HLS INTERFACE m_axi port = LK_ITER bundle = gmem6
+#pragma HLS INTERFACE m_axi port = k bundle = gmem6
+#pragma HLS INTERFACE m_axi port = numFind bundle = gmem6
+#pragma HLS INTERFACE m_axi port = i bundle = gmem6
+#pragma HLS INTERFACE m_axi port = memregion_236_size8294400 bundle = gmem7
+#pragma HLS INTERFACE m_axi port = memregion_239_size8294400 bundle = gmem7
+#pragma HLS INTERFACE m_axi port = memregion_245_size8294400 bundle = gmem7
+#pragma HLS INTERFACE m_axi port = memregion_251_size4147200 bundle = gmem7
+#pragma HLS INTERFACE m_axi port = memregion_254_size2073600 bundle = gmem7
+#pragma HLS INTERFACE m_axi port = memregion_260_size8294400 bundle = gmem8
+#pragma HLS INTERFACE m_axi port = memregion_263_size8294400 bundle = gmem8
+#pragma HLS INTERFACE m_axi port = memregion_272_size8294400 bundle = gmem8
+#pragma HLS INTERFACE m_axi port = memregion_275_size8294400 bundle = gmem8
+#pragma HLS INTERFACE m_axi port = memregion_284_size2073600 bundle = gmem8
+#pragma HLS INTERFACE m_axi port = memregion_287_size2073600 bundle = gmem8
+#pragma HLS INTERFACE m_axi port = memregion_296_size2073600 bundle = gmem8
+#pragma HLS INTERFACE m_axi port = memregion_299_size2073600 bundle = gmem8
     int local_i;
     local_i = *i;
     int local_numFind;
@@ -119,7 +119,7 @@ void cluster(
     int memregion_321_size4;
     int memregion_319_size4;
     int memregion_318_size4;
-    int memregion_317_size20[5];
+    int memregion_317_size20[8];
     int memregion_316_size4;
     int memregion_315_size4;
     float memregion_314_size24[6];

@@ -27,11 +27,15 @@ Re-compiling and executing the mocked validation (`make run-hw-mocked TARGET=u25
 Verification - Successful
 ```
 
-## Hardware Infinite Loop Prevention
+## 2026-07-16
+
+### Hardware Infinite Loop Prevention (SMO)
 During real hardware execution on the Alveo U250, the `cluster.c` kernel suffered from an infinite loop. This was tracked down to the SMO algorithm oscillating around its convergence threshold without `NumChanged` ever reliably reaching `0` due to floating-point precision deviations between x86 CPUs and Alveo DSP slices. 
 
 To inject an algorithm-safe termination boundary, a maximum loop trip count was appended to the condition:
 ```c
-while ((NumChanged > 0 || ExamineAll == 1) && cnt < 50)
+while ((NumChanged > 0 || ExamineAll == 1) && cnt < 1000)
 ```
-Software execution profiles (`make run-hw-mocked`) showed that the SMO sequence converged at `cnt = 0` for our `100x100x10` dataset. Therefore, the `cnt < 50` boundary leaves massive headroom for legitimate workload iteration while acting as a reliable kill-switch for DSP-induced precision oscillation.
+Software execution profiles (`make run-hw-mocked`) showed that the SMO sequence converged at `cnt = 0` for our `100x100x10` dataset. Therefore, the `cnt < 1000` boundary leaves massive headroom for legitimate workload iteration while acting as a reliable kill-switch for DSP-induced precision oscillation.
+
+* **HLS Pragma Correction**: Updated the associated `#pragma HLS loop_tripcount max = 1000 min = 5` to correctly reflect the updated loop boundaries to the Vitis compiler, allowing it to produce accurate hardware scheduling estimates.

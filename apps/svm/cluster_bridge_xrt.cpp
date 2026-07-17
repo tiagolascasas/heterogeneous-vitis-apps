@@ -22,20 +22,17 @@ void kernel_hw_bridge(int N, F2D *trn1, F2D *trn2, int iterations, alphaRet **rt
     float eps;
     float tolerance;
     
-    F2D *a_result = (F2D *)malloc(sizeof(F2D));
+    F2D *a_result = (F2D *)malloc(sizeof(F2D) + 4000);
     a_result->width = 1;
     a_result->height = 1000;
-    a_result->data = (float *)malloc(4000);
     
-    F2D *b_result = (F2D *)malloc(sizeof(F2D));
+    F2D *b_result = (F2D *)malloc(sizeof(F2D) + 40);
     b_result->width = 1;
     b_result->height = 10;
-    b_result->data = (float *)malloc(40);
     
-    F2D *X = (F2D *)malloc(sizeof(F2D));
+    F2D *X = (F2D *)malloc(sizeof(F2D) + 102400);
     X->width = 1;
     X->height = 25600;
-    X->data = (float *)malloc(102400);
 
     if (getenv("OFFLOAD_SIM") != NULL) {
         cluster(N, &(trn1->width), &(trn1->height), trn1->data,

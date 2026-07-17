@@ -39,3 +39,16 @@ Consequently, XRT synced completely uninitialized garbage memory back to the hos
       *besty = local_besty;
   ```
 - Patched `texture-synthesis.cpp` to initialize `bestx = 0; besty = 0;` before the kernel invocation to enforce host stability even if a defective bitstream is run.
+
+## 4. Hardware Execution "Infinite" Loop Stall
+
+**The Problem:**
+When deployed to the board, `texture-synthesis` would hang indefinitely. This was caused by two catastrophic AXI interface configuration issues:
+1. **Missing `m_axi` Pragmas:** `cluster.cpp` lacked any `#pragma HLS INTERFACE m_axi` directives. Vitis automatically inferred all 30 pointers into a single default AXI bundle, creating an unroutable memory bottleneck.
+2. **Dependent Inner-Loop DDR Reads:** The kernel repeatedly dereferenced global scalar pointers (`*i`, `*j`, `*diff`) and read dependent lookup arrays (`candlistx[(local_k)]`, `candlisty[(local_k)]`) directly inside the innermost image processing loops. Without local caching, this forced the hardware to issue independent, high-latency AXI reads to DDR for every pixel processed, stalling the pipeline millions of times per execution.
+
+**The Fix:**
+- In `cluster.cpp`, manually added 30 `#pragma HLS INTERFACE m_axi` directives, distributing the pointers evenly across 8 new bundles (`gmem0` through `gmem7`).
+- Updated `cluster-link-u250.cfg` to connect these 8 bundles symmetrically across 4 DDR banks (`DDR[0]`, `DDR[1]`, `DDR[2]`, `DDR[3]`).
+- Cached the `*i`, `*j`, and `*diff` global pointers into local registers at the start of the function, replacing all subsequent `(*i)` reads with `local_i` inside the loops.
+- Hoisted the `candlist` array lookups out of the inner loop to prevent Vitis from generating random DDR accesses inside the pipeline, allowing the kernel to execute at full memory bandwidth.

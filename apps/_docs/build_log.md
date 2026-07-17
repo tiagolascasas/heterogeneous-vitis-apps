@@ -46,3 +46,5 @@ Tracks every bitstream generation attempt, configuration used, and outcome. Upda
 | 40 | 2026-07-16 | tracking | 150 MHz | 150 MHz | All DDR[2] | `slr=cluster_1:SLR2` | Explore | ❌ FAIL | Routing congestion: 530,251 node overlaps due to massive LUT-based double-precision division (`ddiv`) | ✅ Verified |
 | 41 | 2026-07-16 | stitch | 150 MHz | 150 MHz | All DDR[2] | `slr=cluster_1:SLR2` | Explore | ✅ SUCCESS | Built successfully. | ✅ Verified |
 | 42 | 2026-07-16 | disparity | 150 MHz | 150 MHz | All DDR[2] | `slr=cluster_1:SLR2` | Explore | ❌ FAIL | Routing congestion: 195 node overlaps. SLR2 URAM density is too high. | ✅ Verified |
+| 43 | 2026-07-17 | texture-synthesis | 300 MHz | 300 MHz | Distributed DDR[0]-[3] | None | Default | ❌ FAIL | Timing: unscalable system clocks failed. 8 AXI masters routed across 4 SLRs at 300MHz caused severe SLL congestion. | ✅ Verified |
+| 44 | 2026-07-17 | stitch | 150 MHz | 150 MHz | All DDR[2] | `slr=cluster_1:SLR2` | Explore | ❌ FAIL | Timing: unscalable system clocks failed. 9 AXI masters mapped to a single DDR[2] created a massive, congested interconnect in SLR2. | ✅ Verified |

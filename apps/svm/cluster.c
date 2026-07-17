@@ -1382,12 +1382,9 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
         cnt = 0;
         NumChanged = 0;
         // cluster_getAlphaFromTrainSet_out4_out1(): end inline
-        // removed printf
-        //
-        while ((NumChanged > 0 || ExamineAll == 1) && cnt < 50)
-        //
+        while ((NumChanged > 0 || ExamineAll == 1) && cnt < 1000)
         {
-#pragma HLS loop_tripcount max = 9 min = 5
+#pragma HLS loop_tripcount max = 1000 min = 5
             // cluster_getAlphaFromTrainSet_out4_out2(): begin inline
             int decomp_0_renamed_3_i18;
             // cluster_getAlphaFromTrainSet_out4_out2_out0(): begin inline
@@ -8253,7 +8250,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
             // cluster_getAlphaFromTrainSet_out4_out2_out3(): end inline
             // cluster_getAlphaFromTrainSet_out4_out2(): end inline
         }
-        printf("SMO iter completed with cnt = %d\\n", cnt);
+        // Removed printf
         // cluster_getAlphaFromTrainSet_out4_out3(): begin inline
         for (r = 0; r < N; r++)
         {

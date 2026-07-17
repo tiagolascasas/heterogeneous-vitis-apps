@@ -563,9 +563,11 @@ end_inline_i415:;
         }
     }
     // cluster_getANMS_out4(): end inline
-    while (validCount > 0)
+    int cnt_anms = 0;
+    while (validCount > 0 && cnt_anms < 500)
     {
-#pragma HLS loop_tripcount max = 55611
+        cnt_anms++;
+#pragma HLS loop_tripcount max = 500
         // cluster_getANMS_out5(): begin inline
         int decomp_2_renamed_9_i423;
         int *temps_i423_width;
@@ -1072,6 +1074,6 @@ end_inline_i415:;
     }
     memcpy(rtr_val_width, interestPnts_width, sizeof(int));
     memcpy(rtr_val_height, interestPnts_height, sizeof(int));
-    memcpy(rtr_val_data, interestPnts_data, sizeof(float));
+    memcpy(rtr_val_data, interestPnts_data, (*interestPnts_height) * (*interestPnts_width) * sizeof(float));
     // cluster_fFreeHandle_rep54(): end inline
 }
