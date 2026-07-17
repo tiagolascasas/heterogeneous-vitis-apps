@@ -1,2 +1,0 @@
-edgedetect_control_s_axi
-edgedetect

@@ -1,9 +1,0 @@
-{
-  "workspaceRoot": "/home/tls/Dev/heterogeneous-vitis-apps/llama2/llama2-everything",
-  "mapping": {
-    "llama2_cluster/../llama2_host/src/async_kernel.c": "llama2_cluster",
-    "llama2_cluster/../llama2_host/src/run.c": "llama2_cluster",
-    "llama2_cluster/../llama2_host/src/synthcalls.h": "llama2_cluster",
-    "llama2_cluster/../llama2_host/src/async_host.c": "llama2_cluster"
-  }
-}

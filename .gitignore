@@ -181,3 +181,4 @@ backups/
 build/
 *.img
 *.swp
+export_alveo/
