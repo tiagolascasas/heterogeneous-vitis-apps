@@ -1,2 +1,0 @@
-vadd_control_s_axi
-vadd
