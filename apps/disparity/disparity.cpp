@@ -129,7 +129,7 @@ unsigned int *photonEndTiming();
 void writeMatrix(I2D *input, char *inpath);
 int selfCheck(I2D *in1, char *path, int tol);
 unsigned int *photonReportTiming(unsigned int *startCycles, unsigned int *endCycles);
-void photonPrintTiming(unsigned int *elapsed);
+// void photonPrintTiming(unsigned int *elapsed);
 int main(int argc, char *argv[]);
 void computeSAD(I2D *Ileft, I2D *Iright_moved, F2D *SAD)
 {
@@ -1555,9 +1555,9 @@ int main(int argc, char *argv[])
     }
     rows = imleft->height;
     cols = imleft->width;
-    start = photonStartTiming();
+//  // // start = photonStartTiming();
     getDisparity(imleft, imright, WIN_SZ, SHIFT, &retDisparity);
-    endC = photonEndTiming();
+//  // // endC = photonEndTiming();
     printf("Input size\t\t- (%dx%d)\n", rows, cols);
     int _scope0_tol, _scope0_ret = 0;
     _scope0_tol = 2;
@@ -1567,14 +1567,14 @@ int main(int argc, char *argv[])
     {
         printf("Error in Disparity Map\n");
     }
-    elapsed = photonReportTiming(start, endC);
-    photonPrintTiming(elapsed);
+//  // // elapsed = photonReportTiming(start, endC);
+//  // // photonPrintTiming(elapsed);
     iFreeHandle_rep5(imleft);
     iFreeHandle_rep6(imright);
     iFreeHandle_rep7(retDisparity);
-    free(start);
-    free(endC);
-    free(elapsed);
+// free(start);
+// free(endC);
+// free(elapsed);
 
     return 0;
 }

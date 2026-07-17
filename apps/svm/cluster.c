@@ -597,7 +597,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                 // cluster_fFreeHandle_rep38(): begin inline
                 int decomp_0_renamed_18_i66;
                 // cluster_fFreeHandle_out0_rep29(): begin inline
-                decomp_0_renamed_18_i66 = X_i4_data != nullptr;
+                decomp_0_renamed_18_i66 = X_i4_data != NULL;
                 // cluster_fFreeHandle_out0_rep29(): end inline
                 if (decomp_0_renamed_18_i66)
                 {
@@ -697,7 +697,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                 // cluster_fFreeHandle_rep39(): begin inline
                 int decomp_0_renamed_19_i70;
                 // cluster_fFreeHandle_out0_rep28(): begin inline
-                decomp_0_renamed_19_i70 = temp_i4_data != nullptr;
+                decomp_0_renamed_19_i70 = temp_i4_data != NULL;
                 // cluster_fFreeHandle_out0_rep28(): end inline
                 if (decomp_0_renamed_19_i70)
                 {
@@ -707,7 +707,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                 // cluster_fFreeHandle_rep40(): begin inline
                 int decomp_0_renamed_20_i71;
                 // cluster_fFreeHandle_out0_rep27(): begin inline
-                decomp_0_renamed_20_i71 = temp1_i4_data != nullptr;
+                decomp_0_renamed_20_i71 = temp1_i4_data != NULL;
                 // cluster_fFreeHandle_out0_rep27(): end inline
                 if (decomp_0_renamed_20_i71)
                 {
@@ -768,7 +768,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
         // cluster_fFreeHandle_rep58(): begin inline
         int decomp_0_renamed_7_i27;
         // cluster_fFreeHandle_out0_rep9(): begin inline
-        decomp_0_renamed_7_i27 = X_i4_data != nullptr;
+        decomp_0_renamed_7_i27 = X_i4_data != NULL;
         // cluster_fFreeHandle_out0_rep9(): end inline
         if (decomp_0_renamed_7_i27)
         {
@@ -807,7 +807,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
         // cluster_fFreeHandle_rep95(): begin inline
         int decomp_0_renamed_8_i29;
         // cluster_fFreeHandle_out0_rep102(): begin inline
-        decomp_0_renamed_8_i29 = Y_i4_data != nullptr;
+        decomp_0_renamed_8_i29 = Y_i4_data != NULL;
         // cluster_fFreeHandle_out0_rep102(): end inline
         if (decomp_0_renamed_8_i29)
         {
@@ -882,7 +882,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
             // cluster_fFreeHandle_rep57(): begin inline
             int decomp_0_renamed_16_i55;
             // cluster_fFreeHandle_out0_rep10(): begin inline
-            decomp_0_renamed_16_i55 = X_i13_data != nullptr;
+            decomp_0_renamed_16_i55 = X_i13_data != NULL;
             // cluster_fFreeHandle_out0_rep10(): end inline
             if (decomp_0_renamed_16_i55)
             {
@@ -1135,7 +1135,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                     // cluster_fFreeHandle_rep69(): begin inline
                     int decomp_0_renamed_28_i108;
                     // cluster_fFreeHandle_out0_rep75(): begin inline
-                    decomp_0_renamed_28_i108 = Y_i13_data != nullptr;
+                    decomp_0_renamed_28_i108 = Y_i13_data != NULL;
                     // cluster_fFreeHandle_out0_rep75(): end inline
                     if (decomp_0_renamed_28_i108)
                     {
@@ -1204,7 +1204,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                     // cluster_fFreeHandle_rep78(): begin inline
                     int decomp_0_renamed_29_i110;
                     // cluster_fFreeHandle_out0_rep85(): begin inline
-                    decomp_0_renamed_29_i110 = t_i81_data != nullptr;
+                    decomp_0_renamed_29_i110 = t_i81_data != NULL;
                     // cluster_fFreeHandle_out0_rep85(): end inline
                     if (decomp_0_renamed_29_i110)
                     {
@@ -1216,7 +1216,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                 // cluster_fFreeHandle_rep91(): begin inline
                 int decomp_0_renamed_22_i82;
                 // cluster_fFreeHandle_out0_rep90(): begin inline
-                decomp_0_renamed_22_i82 = ADD_i13_data != nullptr;
+                decomp_0_renamed_22_i82 = ADD_i13_data != NULL;
                 // cluster_fFreeHandle_out0_rep90(): end inline
                 if (decomp_0_renamed_22_i82)
                 {
@@ -1275,7 +1275,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
             // cluster_fFreeHandle_rep94(): begin inline
             int decomp_0_renamed_17_i58;
             // cluster_fFreeHandle_out0_rep103(): begin inline
-            decomp_0_renamed_17_i58 = Y_i13_data != nullptr;
+            decomp_0_renamed_17_i58 = Y_i13_data != NULL;
             // cluster_fFreeHandle_out0_rep103(): end inline
             if (decomp_0_renamed_17_i58)
             {
@@ -1382,7 +1382,10 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
         cnt = 0;
         NumChanged = 0;
         // cluster_getAlphaFromTrainSet_out4_out1(): end inline
-        while (NumChanged > 0 || ExamineAll == 1)
+        // removed printf
+        //
+        while ((NumChanged > 0 || ExamineAll == 1) && cnt < 50)
+        //
         {
 #pragma HLS loop_tripcount max = 9 min = 5
             // cluster_getAlphaFromTrainSet_out4_out2(): begin inline
@@ -1616,7 +1619,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep109(): begin inline
                                 int decomp_0_renamed_159_i582;
                                 // cluster_fFreeHandle_out0_rep112(): begin inline
-                                decomp_0_renamed_159_i582 = bt_i418_data != nullptr;
+                                decomp_0_renamed_159_i582 = bt_i418_data != NULL;
                                 // cluster_fFreeHandle_out0_rep112(): end inline
                                 if (decomp_0_renamed_159_i582)
                                 {
@@ -1650,7 +1653,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep123(): begin inline
                                     int decomp_0_renamed_207_i697;
                                     // cluster_fFreeHandle_out0_rep132(): begin inline
-                                    decomp_0_renamed_207_i697 = bt1_i418_data != nullptr;
+                                    decomp_0_renamed_207_i697 = bt1_i418_data != NULL;
                                     // cluster_fFreeHandle_out0_rep132(): end inline
                                     if (decomp_0_renamed_207_i697)
                                     {
@@ -1669,7 +1672,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep142(): begin inline
                                 int decomp_0_renamed_161_i586;
                                 // cluster_fFreeHandle_out0_rep147(): begin inline
-                                decomp_0_renamed_161_i586 = bt1_i418_data != nullptr;
+                                decomp_0_renamed_161_i586 = bt1_i418_data != NULL;
                                 // cluster_fFreeHandle_out0_rep147(): end inline
                                 if (decomp_0_renamed_161_i586)
                                 {
@@ -2141,7 +2144,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep237(): begin inline
                                         int decomp_0_renamed_235_i769;
                                         // cluster_fFreeHandle_out0_rep256(): begin inline
-                                        decomp_0_renamed_235_i769 = bt_i702_data != nullptr;
+                                        decomp_0_renamed_235_i769 = bt_i702_data != NULL;
                                         // cluster_fFreeHandle_out0_rep256(): end inline
                                         if (decomp_0_renamed_235_i769)
                                         {
@@ -2176,7 +2179,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                             // cluster_fFreeHandle_rep255(): begin inline
                                             int decomp_0_renamed_255_i820;
                                             // cluster_fFreeHandle_out0_rep270(): begin inline
-                                            decomp_0_renamed_255_i820 = bt1_i702_data != nullptr;
+                                            decomp_0_renamed_255_i820 = bt1_i702_data != NULL;
                                             // cluster_fFreeHandle_out0_rep270(): end inline
                                             if (decomp_0_renamed_255_i820)
                                             {
@@ -2195,7 +2198,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep268(): begin inline
                                         int decomp_0_renamed_237_i773;
                                         // cluster_fFreeHandle_out0_rep289(): begin inline
-                                        decomp_0_renamed_237_i773 = bt1_i702_data != nullptr;
+                                        decomp_0_renamed_237_i773 = bt1_i702_data != NULL;
                                         // cluster_fFreeHandle_out0_rep289(): end inline
                                         if (decomp_0_renamed_237_i773)
                                         {
@@ -2326,7 +2329,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep153(): begin inline
                                 int decomp_0_renamed_52_i252;
                                 // cluster_fFreeHandle_out0_rep164(): begin inline
-                                decomp_0_renamed_52_i252 = a_old_i142_data != nullptr;
+                                decomp_0_renamed_52_i252 = a_old_i142_data != NULL;
                                 // cluster_fFreeHandle_out0_rep164(): end inline
                                 if (decomp_0_renamed_52_i252)
                                 {
@@ -2501,7 +2504,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep327(): begin inline
                             int decomp_0_renamed_53_i259;
                             // cluster_fFreeHandle_out0_rep352(): begin inline
-                            decomp_0_renamed_53_i259 = bt_i180_data != nullptr;
+                            decomp_0_renamed_53_i259 = bt_i180_data != NULL;
                             // cluster_fFreeHandle_out0_rep352(): end inline
                             if (decomp_0_renamed_53_i259)
                             {
@@ -2535,7 +2538,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep341(): begin inline
                                 int decomp_0_renamed_103_i432;
                                 // cluster_fFreeHandle_out0_rep362(): begin inline
-                                decomp_0_renamed_103_i432 = bt1_i180_data != nullptr;
+                                decomp_0_renamed_103_i432 = bt1_i180_data != NULL;
                                 // cluster_fFreeHandle_out0_rep362(): end inline
                                 if (decomp_0_renamed_103_i432)
                                 {
@@ -2554,7 +2557,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep350(): begin inline
                             int decomp_0_renamed_55_i263;
                             // cluster_fFreeHandle_out0_rep377(): begin inline
-                            decomp_0_renamed_55_i263 = bt1_i180_data != nullptr;
+                            decomp_0_renamed_55_i263 = bt1_i180_data != NULL;
                             // cluster_fFreeHandle_out0_rep377(): end inline
                             if (decomp_0_renamed_55_i263)
                             {
@@ -2675,7 +2678,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep361(): begin inline
                             int decomp_0_renamed_56_i268;
                             // cluster_fFreeHandle_out0_rep389(): begin inline
-                            decomp_0_renamed_56_i268 = bt_i181_data != nullptr;
+                            decomp_0_renamed_56_i268 = bt_i181_data != NULL;
                             // cluster_fFreeHandle_out0_rep389(): end inline
                             if (decomp_0_renamed_56_i268)
                             {
@@ -2709,7 +2712,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep375(): begin inline
                                 int decomp_0_renamed_106_i439;
                                 // cluster_fFreeHandle_out0_rep399(): begin inline
-                                decomp_0_renamed_106_i439 = bt1_i181_data != nullptr;
+                                decomp_0_renamed_106_i439 = bt1_i181_data != NULL;
                                 // cluster_fFreeHandle_out0_rep399(): end inline
                                 if (decomp_0_renamed_106_i439)
                                 {
@@ -2728,7 +2731,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep384(): begin inline
                             int decomp_0_renamed_58_i272;
                             // cluster_fFreeHandle_out0_rep414(): begin inline
-                            decomp_0_renamed_58_i272 = bt1_i181_data != nullptr;
+                            decomp_0_renamed_58_i272 = bt1_i181_data != NULL;
                             // cluster_fFreeHandle_out0_rep414(): end inline
                             if (decomp_0_renamed_58_i272)
                             {
@@ -2850,7 +2853,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep395(): begin inline
                             int decomp_0_renamed_59_i277;
                             // cluster_fFreeHandle_out0_rep426(): begin inline
-                            decomp_0_renamed_59_i277 = bt_i182_data != nullptr;
+                            decomp_0_renamed_59_i277 = bt_i182_data != NULL;
                             // cluster_fFreeHandle_out0_rep426(): end inline
                             if (decomp_0_renamed_59_i277)
                             {
@@ -2884,7 +2887,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep409(): begin inline
                                 int decomp_0_renamed_109_i446;
                                 // cluster_fFreeHandle_out0_rep436(): begin inline
-                                decomp_0_renamed_109_i446 = bt1_i182_data != nullptr;
+                                decomp_0_renamed_109_i446 = bt1_i182_data != NULL;
                                 // cluster_fFreeHandle_out0_rep436(): end inline
                                 if (decomp_0_renamed_109_i446)
                                 {
@@ -2903,7 +2906,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep418(): begin inline
                             int decomp_0_renamed_61_i281;
                             // cluster_fFreeHandle_out0_rep451(): begin inline
-                            decomp_0_renamed_61_i281 = bt1_i182_data != nullptr;
+                            decomp_0_renamed_61_i281 = bt1_i182_data != NULL;
                             // cluster_fFreeHandle_out0_rep451(): end inline
                             if (decomp_0_renamed_61_i281)
                             {
@@ -2919,7 +2922,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep166(): begin inline
                             int decomp_0_renamed_38_i184;
                             // cluster_fFreeHandle_out0_rep173(): begin inline
-                            decomp_0_renamed_38_i184 = temp1_i142_data != nullptr;
+                            decomp_0_renamed_38_i184 = temp1_i142_data != NULL;
                             // cluster_fFreeHandle_out0_rep173(): end inline
                             if (decomp_0_renamed_38_i184)
                             {
@@ -2929,7 +2932,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep176(): begin inline
                             int decomp_0_renamed_39_i185;
                             // cluster_fFreeHandle_out0_rep184(): begin inline
-                            decomp_0_renamed_39_i185 = temp_i142_data != nullptr;
+                            decomp_0_renamed_39_i185 = temp_i142_data != NULL;
                             // cluster_fFreeHandle_out0_rep184(): end inline
                             if (decomp_0_renamed_39_i185)
                             {
@@ -3000,7 +3003,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep184(): begin inline
                                 int decomp_0_renamed_64_i284;
                                 // cluster_fFreeHandle_out0_rep198(): begin inline
-                                decomp_0_renamed_64_i284 = a_old_i142_data != nullptr;
+                                decomp_0_renamed_64_i284 = a_old_i142_data != NULL;
                                 // cluster_fFreeHandle_out0_rep198(): end inline
                                 if (decomp_0_renamed_64_i284)
                                 {
@@ -3208,7 +3211,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep430(): begin inline
                                     int decomp_0_renamed_166_i598;
                                     // cluster_fFreeHandle_out0_rep464(): begin inline
-                                    decomp_0_renamed_166_i598 = bt_i450_data != nullptr;
+                                    decomp_0_renamed_166_i598 = bt_i450_data != NULL;
                                     // cluster_fFreeHandle_out0_rep464(): end inline
                                     if (decomp_0_renamed_166_i598)
                                     {
@@ -3242,7 +3245,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep446(): begin inline
                                         int decomp_0_renamed_210_i707;
                                         // cluster_fFreeHandle_out0_rep476(): begin inline
-                                        decomp_0_renamed_210_i707 = bt1_i450_data != nullptr;
+                                        decomp_0_renamed_210_i707 = bt1_i450_data != NULL;
                                         // cluster_fFreeHandle_out0_rep476(): end inline
                                         if (decomp_0_renamed_210_i707)
                                         {
@@ -3261,7 +3264,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep457(): begin inline
                                     int decomp_0_renamed_168_i602;
                                     // cluster_fFreeHandle_out0_rep493(): begin inline
-                                    decomp_0_renamed_168_i602 = bt1_i450_data != nullptr;
+                                    decomp_0_renamed_168_i602 = bt1_i450_data != NULL;
                                     // cluster_fFreeHandle_out0_rep493(): end inline
                                     if (decomp_0_renamed_168_i602)
                                     {
@@ -3328,7 +3331,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep470(): begin inline
                                     int decomp_0_renamed_169_i606;
                                     // cluster_fFreeHandle_out0_rep507(): begin inline
-                                    decomp_0_renamed_169_i606 = bt_i452_data != nullptr;
+                                    decomp_0_renamed_169_i606 = bt_i452_data != NULL;
                                     // cluster_fFreeHandle_out0_rep507(): end inline
                                     if (decomp_0_renamed_169_i606)
                                     {
@@ -3362,7 +3365,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep486(): begin inline
                                         int decomp_0_renamed_213_i712;
                                         // cluster_fFreeHandle_out0_rep519(): begin inline
-                                        decomp_0_renamed_213_i712 = bt1_i452_data != nullptr;
+                                        decomp_0_renamed_213_i712 = bt1_i452_data != NULL;
                                         // cluster_fFreeHandle_out0_rep519(): end inline
                                         if (decomp_0_renamed_213_i712)
                                         {
@@ -3381,7 +3384,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep497(): begin inline
                                     int decomp_0_renamed_171_i610;
                                     // cluster_fFreeHandle_out0_rep536(): begin inline
-                                    decomp_0_renamed_171_i610 = bt1_i452_data != nullptr;
+                                    decomp_0_renamed_171_i610 = bt1_i452_data != NULL;
                                     // cluster_fFreeHandle_out0_rep536(): end inline
                                     if (decomp_0_renamed_171_i610)
                                     {
@@ -3409,7 +3412,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep197(): begin inline
                             int decomp_0_renamed_40_i193;
                             // cluster_fFreeHandle_out0_rep207(): begin inline
-                            decomp_0_renamed_40_i193 = a_old_i142_data != nullptr;
+                            decomp_0_renamed_40_i193 = a_old_i142_data != NULL;
                             // cluster_fFreeHandle_out0_rep207(): end inline
                             if (decomp_0_renamed_40_i193)
                             {
@@ -3419,7 +3422,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep207(): begin inline
                             int decomp_0_renamed_41_i194;
                             // cluster_fFreeHandle_out0_rep218(): begin inline
-                            decomp_0_renamed_41_i194 = temp_i142_data != nullptr;
+                            decomp_0_renamed_41_i194 = temp_i142_data != NULL;
                             // cluster_fFreeHandle_out0_rep218(): end inline
                             if (decomp_0_renamed_41_i194)
                             {
@@ -3429,7 +3432,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep217(): begin inline
                             int decomp_0_renamed_42_i195;
                             // cluster_fFreeHandle_out0_rep229(): begin inline
-                            decomp_0_renamed_42_i195 = temp1_i142_data != nullptr;
+                            decomp_0_renamed_42_i195 = temp1_i142_data != NULL;
                             // cluster_fFreeHandle_out0_rep229(): end inline
                             if (decomp_0_renamed_42_i195)
                             {
@@ -3439,7 +3442,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep227(): begin inline
                             int decomp_0_renamed_43_i196;
                             // cluster_fFreeHandle_out0_rep240(): begin inline
-                            decomp_0_renamed_43_i196 = temp2_i142_data != nullptr;
+                            decomp_0_renamed_43_i196 = temp2_i142_data != NULL;
                             // cluster_fFreeHandle_out0_rep240(): end inline
                             if (decomp_0_renamed_43_i196)
                             {
@@ -3873,7 +3876,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                             // cluster_fFreeHandle_rep561(): begin inline
                                             int decomp_0_renamed_257_i828;
                                             // cluster_fFreeHandle_out0_rep605(): begin inline
-                                            decomp_0_renamed_257_i828 = bt_i779_data != nullptr;
+                                            decomp_0_renamed_257_i828 = bt_i779_data != NULL;
                                             // cluster_fFreeHandle_out0_rep605(): end inline
                                             if (decomp_0_renamed_257_i828)
                                             {
@@ -3908,7 +3911,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                                 // cluster_fFreeHandle_rep571(): begin inline
                                                 int decomp_0_renamed_270_i856;
                                                 // cluster_fFreeHandle_out0_rep619(): begin inline
-                                                decomp_0_renamed_270_i856 = bt1_i779_data != nullptr;
+                                                decomp_0_renamed_270_i856 = bt1_i779_data != NULL;
                                                 // cluster_fFreeHandle_out0_rep619(): end inline
                                                 if (decomp_0_renamed_270_i856)
                                                 {
@@ -3927,7 +3930,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                             // cluster_fFreeHandle_rep584(): begin inline
                                             int decomp_0_renamed_259_i832;
                                             // cluster_fFreeHandle_out0_rep630(): begin inline
-                                            decomp_0_renamed_259_i832 = bt1_i779_data != nullptr;
+                                            decomp_0_renamed_259_i832 = bt1_i779_data != NULL;
                                             // cluster_fFreeHandle_out0_rep630(): end inline
                                             if (decomp_0_renamed_259_i832)
                                             {
@@ -4058,7 +4061,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep509(): begin inline
                                     int decomp_0_renamed_112_i461;
                                     // cluster_fFreeHandle_out0_rep545(): begin inline
-                                    decomp_0_renamed_112_i461 = a_old_i199_data != nullptr;
+                                    decomp_0_renamed_112_i461 = a_old_i199_data != NULL;
                                     // cluster_fFreeHandle_out0_rep545(): end inline
                                     if (decomp_0_renamed_112_i461)
                                     {
@@ -4234,7 +4237,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep627(): begin inline
                                 int decomp_0_renamed_113_i468;
                                 // cluster_fFreeHandle_out0_rep677(): begin inline
-                                decomp_0_renamed_113_i468 = bt_i314_data != nullptr;
+                                decomp_0_renamed_113_i468 = bt_i314_data != NULL;
                                 // cluster_fFreeHandle_out0_rep677(): end inline
                                 if (decomp_0_renamed_113_i468)
                                 {
@@ -4268,7 +4271,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep633(): begin inline
                                     int decomp_0_renamed_175_i623;
                                     // cluster_fFreeHandle_out0_rep687(): begin inline
-                                    decomp_0_renamed_175_i623 = bt1_i314_data != nullptr;
+                                    decomp_0_renamed_175_i623 = bt1_i314_data != NULL;
                                     // cluster_fFreeHandle_out0_rep687(): end inline
                                     if (decomp_0_renamed_175_i623)
                                     {
@@ -4287,7 +4290,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep642(): begin inline
                                 int decomp_0_renamed_115_i472;
                                 // cluster_fFreeHandle_out0_rep694(): begin inline
-                                decomp_0_renamed_115_i472 = bt1_i314_data != nullptr;
+                                decomp_0_renamed_115_i472 = bt1_i314_data != NULL;
                                 // cluster_fFreeHandle_out0_rep694(): end inline
                                 if (decomp_0_renamed_115_i472)
                                 {
@@ -4409,7 +4412,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep649(): begin inline
                                 int decomp_0_renamed_116_i477;
                                 // cluster_fFreeHandle_out0_rep702(): begin inline
-                                decomp_0_renamed_116_i477 = bt_i315_data != nullptr;
+                                decomp_0_renamed_116_i477 = bt_i315_data != NULL;
                                 // cluster_fFreeHandle_out0_rep702(): end inline
                                 if (decomp_0_renamed_116_i477)
                                 {
@@ -4443,7 +4446,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep655(): begin inline
                                     int decomp_0_renamed_178_i630;
                                     // cluster_fFreeHandle_out0_rep712(): begin inline
-                                    decomp_0_renamed_178_i630 = bt1_i315_data != nullptr;
+                                    decomp_0_renamed_178_i630 = bt1_i315_data != NULL;
                                     // cluster_fFreeHandle_out0_rep712(): end inline
                                     if (decomp_0_renamed_178_i630)
                                     {
@@ -4462,7 +4465,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep664(): begin inline
                                 int decomp_0_renamed_118_i481;
                                 // cluster_fFreeHandle_out0_rep719(): begin inline
-                                decomp_0_renamed_118_i481 = bt1_i315_data != nullptr;
+                                decomp_0_renamed_118_i481 = bt1_i315_data != NULL;
                                 // cluster_fFreeHandle_out0_rep719(): end inline
                                 if (decomp_0_renamed_118_i481)
                                 {
@@ -4584,7 +4587,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep671(): begin inline
                                 int decomp_0_renamed_119_i486;
                                 // cluster_fFreeHandle_out0_rep727(): begin inline
-                                decomp_0_renamed_119_i486 = bt_i316_data != nullptr;
+                                decomp_0_renamed_119_i486 = bt_i316_data != NULL;
                                 // cluster_fFreeHandle_out0_rep727(): end inline
                                 if (decomp_0_renamed_119_i486)
                                 {
@@ -4618,7 +4621,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep677(): begin inline
                                     int decomp_0_renamed_181_i637;
                                     // cluster_fFreeHandle_out0_rep737(): begin inline
-                                    decomp_0_renamed_181_i637 = bt1_i316_data != nullptr;
+                                    decomp_0_renamed_181_i637 = bt1_i316_data != NULL;
                                     // cluster_fFreeHandle_out0_rep737(): end inline
                                     if (decomp_0_renamed_181_i637)
                                     {
@@ -4637,7 +4640,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep686(): begin inline
                                 int decomp_0_renamed_121_i490;
                                 // cluster_fFreeHandle_out0_rep744(): begin inline
-                                decomp_0_renamed_121_i490 = bt1_i316_data != nullptr;
+                                decomp_0_renamed_121_i490 = bt1_i316_data != NULL;
                                 // cluster_fFreeHandle_out0_rep744(): end inline
                                 if (decomp_0_renamed_121_i490)
                                 {
@@ -4653,7 +4656,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep514(): begin inline
                                 int decomp_0_renamed_70_i318;
                                 // cluster_fFreeHandle_out0_rep554(): begin inline
-                                decomp_0_renamed_70_i318 = temp1_i199_data != nullptr;
+                                decomp_0_renamed_70_i318 = temp1_i199_data != NULL;
                                 // cluster_fFreeHandle_out0_rep554(): end inline
                                 if (decomp_0_renamed_70_i318)
                                 {
@@ -4663,7 +4666,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep520(): begin inline
                                 int decomp_0_renamed_71_i319;
                                 // cluster_fFreeHandle_out0_rep561(): begin inline
-                                decomp_0_renamed_71_i319 = temp_i199_data != nullptr;
+                                decomp_0_renamed_71_i319 = temp_i199_data != NULL;
                                 // cluster_fFreeHandle_out0_rep561(): end inline
                                 if (decomp_0_renamed_71_i319)
                                 {
@@ -4735,7 +4738,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep528(): begin inline
                                     int decomp_0_renamed_124_i493;
                                     // cluster_fFreeHandle_out0_rep567(): begin inline
-                                    decomp_0_renamed_124_i493 = a_old_i199_data != nullptr;
+                                    decomp_0_renamed_124_i493 = a_old_i199_data != NULL;
                                     // cluster_fFreeHandle_out0_rep567(): end inline
                                     if (decomp_0_renamed_124_i493)
                                     {
@@ -4946,7 +4949,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep694(): begin inline
                                         int decomp_0_renamed_219_i725;
                                         // cluster_fFreeHandle_out0_rep753(): begin inline
-                                        decomp_0_renamed_219_i725 = bt_i641_data != nullptr;
+                                        decomp_0_renamed_219_i725 = bt_i641_data != NULL;
                                         // cluster_fFreeHandle_out0_rep753(): end inline
                                         if (decomp_0_renamed_219_i725)
                                         {
@@ -4981,7 +4984,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                             // cluster_fFreeHandle_rep702(): begin inline
                                             int decomp_0_renamed_241_i784;
                                             // cluster_fFreeHandle_out0_rep765(): begin inline
-                                            decomp_0_renamed_241_i784 = bt1_i641_data != nullptr;
+                                            decomp_0_renamed_241_i784 = bt1_i641_data != NULL;
                                             // cluster_fFreeHandle_out0_rep765(): end inline
                                             if (decomp_0_renamed_241_i784)
                                             {
@@ -5000,7 +5003,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep713(): begin inline
                                         int decomp_0_renamed_221_i729;
                                         // cluster_fFreeHandle_out0_rep774(): begin inline
-                                        decomp_0_renamed_221_i729 = bt1_i641_data != nullptr;
+                                        decomp_0_renamed_221_i729 = bt1_i641_data != NULL;
                                         // cluster_fFreeHandle_out0_rep774(): end inline
                                         if (decomp_0_renamed_221_i729)
                                         {
@@ -5067,7 +5070,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep722(): begin inline
                                         int decomp_0_renamed_222_i733;
                                         // cluster_fFreeHandle_out0_rep784(): begin inline
-                                        decomp_0_renamed_222_i733 = bt_i643_data != nullptr;
+                                        decomp_0_renamed_222_i733 = bt_i643_data != NULL;
                                         // cluster_fFreeHandle_out0_rep784(): end inline
                                         if (decomp_0_renamed_222_i733)
                                         {
@@ -5102,7 +5105,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                             // cluster_fFreeHandle_rep730(): begin inline
                                             int decomp_0_renamed_244_i789;
                                             // cluster_fFreeHandle_out0_rep796(): begin inline
-                                            decomp_0_renamed_244_i789 = bt1_i643_data != nullptr;
+                                            decomp_0_renamed_244_i789 = bt1_i643_data != NULL;
                                             // cluster_fFreeHandle_out0_rep796(): end inline
                                             if (decomp_0_renamed_244_i789)
                                             {
@@ -5121,7 +5124,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep741(): begin inline
                                         int decomp_0_renamed_224_i737;
                                         // cluster_fFreeHandle_out0_rep805(): begin inline
-                                        decomp_0_renamed_224_i737 = bt1_i643_data != nullptr;
+                                        decomp_0_renamed_224_i737 = bt1_i643_data != NULL;
                                         // cluster_fFreeHandle_out0_rep805(): end inline
                                         if (decomp_0_renamed_224_i737)
                                         {
@@ -5149,7 +5152,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep533(): begin inline
                                 int decomp_0_renamed_72_i327;
                                 // cluster_fFreeHandle_out0_rep576(): begin inline
-                                decomp_0_renamed_72_i327 = a_old_i199_data != nullptr;
+                                decomp_0_renamed_72_i327 = a_old_i199_data != NULL;
                                 // cluster_fFreeHandle_out0_rep576(): end inline
                                 if (decomp_0_renamed_72_i327)
                                 {
@@ -5159,7 +5162,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep539(): begin inline
                                 int decomp_0_renamed_73_i328;
                                 // cluster_fFreeHandle_out0_rep583(): begin inline
-                                decomp_0_renamed_73_i328 = temp_i199_data != nullptr;
+                                decomp_0_renamed_73_i328 = temp_i199_data != NULL;
                                 // cluster_fFreeHandle_out0_rep583(): end inline
                                 if (decomp_0_renamed_73_i328)
                                 {
@@ -5169,7 +5172,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep545(): begin inline
                                 int decomp_0_renamed_74_i329;
                                 // cluster_fFreeHandle_out0_rep590(): begin inline
-                                decomp_0_renamed_74_i329 = temp1_i199_data != nullptr;
+                                decomp_0_renamed_74_i329 = temp1_i199_data != NULL;
                                 // cluster_fFreeHandle_out0_rep590(): end inline
                                 if (decomp_0_renamed_74_i329)
                                 {
@@ -5179,7 +5182,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep551(): begin inline
                                 int decomp_0_renamed_75_i330;
                                 // cluster_fFreeHandle_out0_rep597(): begin inline
-                                decomp_0_renamed_75_i330 = temp2_i199_data != nullptr;
+                                decomp_0_renamed_75_i330 = temp2_i199_data != NULL;
                                 // cluster_fFreeHandle_out0_rep597(): end inline
                                 if (decomp_0_renamed_75_i330)
                                 {
@@ -5610,7 +5613,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep238(): begin inline
                                         int decomp_0_renamed_246_i797;
                                         // cluster_fFreeHandle_out0_rep255(): begin inline
-                                        decomp_0_renamed_246_i797 = bt_i741_data != nullptr;
+                                        decomp_0_renamed_246_i797 = bt_i741_data != NULL;
                                         // cluster_fFreeHandle_out0_rep255(): end inline
                                         if (decomp_0_renamed_246_i797)
                                         {
@@ -5645,7 +5648,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                             // cluster_fFreeHandle_rep254(): begin inline
                                             int decomp_0_renamed_263_i840;
                                             // cluster_fFreeHandle_out0_rep271(): begin inline
-                                            decomp_0_renamed_263_i840 = bt1_i741_data != nullptr;
+                                            decomp_0_renamed_263_i840 = bt1_i741_data != NULL;
                                             // cluster_fFreeHandle_out0_rep271(): end inline
                                             if (decomp_0_renamed_263_i840)
                                             {
@@ -5664,7 +5667,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep269(): begin inline
                                         int decomp_0_renamed_248_i801;
                                         // cluster_fFreeHandle_out0_rep288(): begin inline
-                                        decomp_0_renamed_248_i801 = bt1_i741_data != nullptr;
+                                        decomp_0_renamed_248_i801 = bt1_i741_data != NULL;
                                         // cluster_fFreeHandle_out0_rep288(): end inline
                                         if (decomp_0_renamed_248_i801)
                                         {
@@ -5908,7 +5911,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep284(): begin inline
                                         int decomp_0_renamed_249_i808;
                                         // cluster_fFreeHandle_out0_rep304(): begin inline
-                                        decomp_0_renamed_249_i808 = bt_i746_data != nullptr;
+                                        decomp_0_renamed_249_i808 = bt_i746_data != NULL;
                                         // cluster_fFreeHandle_out0_rep304(): end inline
                                         if (decomp_0_renamed_249_i808)
                                         {
@@ -5943,7 +5946,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                             // cluster_fFreeHandle_rep300(): begin inline
                                             int decomp_0_renamed_266_i847;
                                             // cluster_fFreeHandle_out0_rep320(): begin inline
-                                            decomp_0_renamed_266_i847 = bt1_i746_data != nullptr;
+                                            decomp_0_renamed_266_i847 = bt1_i746_data != NULL;
                                             // cluster_fFreeHandle_out0_rep320(): end inline
                                             if (decomp_0_renamed_266_i847)
                                             {
@@ -5962,7 +5965,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep315(): begin inline
                                         int decomp_0_renamed_251_i812;
                                         // cluster_fFreeHandle_out0_rep337(): begin inline
-                                        decomp_0_renamed_251_i812 = bt1_i746_data != nullptr;
+                                        decomp_0_renamed_251_i812 = bt1_i746_data != NULL;
                                         // cluster_fFreeHandle_out0_rep337(): end inline
                                         if (decomp_0_renamed_251_i812)
                                         {
@@ -6045,7 +6048,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep154(): begin inline
                                 int decomp_0_renamed_76_i339;
                                 // cluster_fFreeHandle_out0_rep163(): begin inline
-                                decomp_0_renamed_76_i339 = a_old_i145_data != nullptr;
+                                decomp_0_renamed_76_i339 = a_old_i145_data != NULL;
                                 // cluster_fFreeHandle_out0_rep163(): end inline
                                 if (decomp_0_renamed_76_i339)
                                 {
@@ -6221,7 +6224,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep328(): begin inline
                             int decomp_0_renamed_77_i346;
                             // cluster_fFreeHandle_out0_rep351(): begin inline
-                            decomp_0_renamed_77_i346 = bt_i220_data != nullptr;
+                            decomp_0_renamed_77_i346 = bt_i220_data != NULL;
                             // cluster_fFreeHandle_out0_rep351(): end inline
                             if (decomp_0_renamed_77_i346)
                             {
@@ -6255,7 +6258,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep340(): begin inline
                                 int decomp_0_renamed_133_i516;
                                 // cluster_fFreeHandle_out0_rep363(): begin inline
-                                decomp_0_renamed_133_i516 = bt1_i220_data != nullptr;
+                                decomp_0_renamed_133_i516 = bt1_i220_data != NULL;
                                 // cluster_fFreeHandle_out0_rep363(): end inline
                                 if (decomp_0_renamed_133_i516)
                                 {
@@ -6274,7 +6277,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep351(): begin inline
                             int decomp_0_renamed_79_i350;
                             // cluster_fFreeHandle_out0_rep376(): begin inline
-                            decomp_0_renamed_79_i350 = bt1_i220_data != nullptr;
+                            decomp_0_renamed_79_i350 = bt1_i220_data != NULL;
                             // cluster_fFreeHandle_out0_rep376(): end inline
                             if (decomp_0_renamed_79_i350)
                             {
@@ -6396,7 +6399,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep362(): begin inline
                             int decomp_0_renamed_80_i355;
                             // cluster_fFreeHandle_out0_rep388(): begin inline
-                            decomp_0_renamed_80_i355 = bt_i221_data != nullptr;
+                            decomp_0_renamed_80_i355 = bt_i221_data != NULL;
                             // cluster_fFreeHandle_out0_rep388(): end inline
                             if (decomp_0_renamed_80_i355)
                             {
@@ -6430,7 +6433,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep374(): begin inline
                                 int decomp_0_renamed_136_i523;
                                 // cluster_fFreeHandle_out0_rep400(): begin inline
-                                decomp_0_renamed_136_i523 = bt1_i221_data != nullptr;
+                                decomp_0_renamed_136_i523 = bt1_i221_data != NULL;
                                 // cluster_fFreeHandle_out0_rep400(): end inline
                                 if (decomp_0_renamed_136_i523)
                                 {
@@ -6449,7 +6452,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep385(): begin inline
                             int decomp_0_renamed_82_i359;
                             // cluster_fFreeHandle_out0_rep413(): begin inline
-                            decomp_0_renamed_82_i359 = bt1_i221_data != nullptr;
+                            decomp_0_renamed_82_i359 = bt1_i221_data != NULL;
                             // cluster_fFreeHandle_out0_rep413(): end inline
                             if (decomp_0_renamed_82_i359)
                             {
@@ -6571,7 +6574,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep396(): begin inline
                             int decomp_0_renamed_83_i364;
                             // cluster_fFreeHandle_out0_rep425(): begin inline
-                            decomp_0_renamed_83_i364 = bt_i222_data != nullptr;
+                            decomp_0_renamed_83_i364 = bt_i222_data != NULL;
                             // cluster_fFreeHandle_out0_rep425(): end inline
                             if (decomp_0_renamed_83_i364)
                             {
@@ -6605,7 +6608,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep408(): begin inline
                                 int decomp_0_renamed_139_i530;
                                 // cluster_fFreeHandle_out0_rep437(): begin inline
-                                decomp_0_renamed_139_i530 = bt1_i222_data != nullptr;
+                                decomp_0_renamed_139_i530 = bt1_i222_data != NULL;
                                 // cluster_fFreeHandle_out0_rep437(): end inline
                                 if (decomp_0_renamed_139_i530)
                                 {
@@ -6624,7 +6627,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep419(): begin inline
                             int decomp_0_renamed_85_i368;
                             // cluster_fFreeHandle_out0_rep450(): begin inline
-                            decomp_0_renamed_85_i368 = bt1_i222_data != nullptr;
+                            decomp_0_renamed_85_i368 = bt1_i222_data != NULL;
                             // cluster_fFreeHandle_out0_rep450(): end inline
                             if (decomp_0_renamed_85_i368)
                             {
@@ -6640,7 +6643,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep165(): begin inline
                             int decomp_0_renamed_45_i224;
                             // cluster_fFreeHandle_out0_rep174(): begin inline
-                            decomp_0_renamed_45_i224 = temp1_i145_data != nullptr;
+                            decomp_0_renamed_45_i224 = temp1_i145_data != NULL;
                             // cluster_fFreeHandle_out0_rep174(): end inline
                             if (decomp_0_renamed_45_i224)
                             {
@@ -6650,7 +6653,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep175(): begin inline
                             int decomp_0_renamed_46_i225;
                             // cluster_fFreeHandle_out0_rep185(): begin inline
-                            decomp_0_renamed_46_i225 = temp_i145_data != nullptr;
+                            decomp_0_renamed_46_i225 = temp_i145_data != NULL;
                             // cluster_fFreeHandle_out0_rep185(): end inline
                             if (decomp_0_renamed_46_i225)
                             {
@@ -6721,7 +6724,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep185(): begin inline
                                 int decomp_0_renamed_88_i371;
                                 // cluster_fFreeHandle_out0_rep197(): begin inline
-                                decomp_0_renamed_88_i371 = a_old_i145_data != nullptr;
+                                decomp_0_renamed_88_i371 = a_old_i145_data != NULL;
                                 // cluster_fFreeHandle_out0_rep197(): end inline
                                 if (decomp_0_renamed_88_i371)
                                 {
@@ -6929,7 +6932,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep431(): begin inline
                                     int decomp_0_renamed_189_i658;
                                     // cluster_fFreeHandle_out0_rep463(): begin inline
-                                    decomp_0_renamed_189_i658 = bt_i534_data != nullptr;
+                                    decomp_0_renamed_189_i658 = bt_i534_data != NULL;
                                     // cluster_fFreeHandle_out0_rep463(): end inline
                                     if (decomp_0_renamed_189_i658)
                                     {
@@ -6963,7 +6966,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep445(): begin inline
                                         int decomp_0_renamed_226_i751;
                                         // cluster_fFreeHandle_out0_rep477(): begin inline
-                                        decomp_0_renamed_226_i751 = bt1_i534_data != nullptr;
+                                        decomp_0_renamed_226_i751 = bt1_i534_data != NULL;
                                         // cluster_fFreeHandle_out0_rep477(): end inline
                                         if (decomp_0_renamed_226_i751)
                                         {
@@ -6982,7 +6985,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep458(): begin inline
                                     int decomp_0_renamed_191_i662;
                                     // cluster_fFreeHandle_out0_rep492(): begin inline
-                                    decomp_0_renamed_191_i662 = bt1_i534_data != nullptr;
+                                    decomp_0_renamed_191_i662 = bt1_i534_data != NULL;
                                     // cluster_fFreeHandle_out0_rep492(): end inline
                                     if (decomp_0_renamed_191_i662)
                                     {
@@ -7049,7 +7052,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep471(): begin inline
                                     int decomp_0_renamed_192_i666;
                                     // cluster_fFreeHandle_out0_rep506(): begin inline
-                                    decomp_0_renamed_192_i666 = bt_i536_data != nullptr;
+                                    decomp_0_renamed_192_i666 = bt_i536_data != NULL;
                                     // cluster_fFreeHandle_out0_rep506(): end inline
                                     if (decomp_0_renamed_192_i666)
                                     {
@@ -7083,7 +7086,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                         // cluster_fFreeHandle_rep485(): begin inline
                                         int decomp_0_renamed_229_i756;
                                         // cluster_fFreeHandle_out0_rep520(): begin inline
-                                        decomp_0_renamed_229_i756 = bt1_i536_data != nullptr;
+                                        decomp_0_renamed_229_i756 = bt1_i536_data != NULL;
                                         // cluster_fFreeHandle_out0_rep520(): end inline
                                         if (decomp_0_renamed_229_i756)
                                         {
@@ -7102,7 +7105,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep498(): begin inline
                                     int decomp_0_renamed_194_i670;
                                     // cluster_fFreeHandle_out0_rep535(): begin inline
-                                    decomp_0_renamed_194_i670 = bt1_i536_data != nullptr;
+                                    decomp_0_renamed_194_i670 = bt1_i536_data != NULL;
                                     // cluster_fFreeHandle_out0_rep535(): end inline
                                     if (decomp_0_renamed_194_i670)
                                     {
@@ -7130,7 +7133,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep196(): begin inline
                             int decomp_0_renamed_47_i233;
                             // cluster_fFreeHandle_out0_rep208(): begin inline
-                            decomp_0_renamed_47_i233 = a_old_i145_data != nullptr;
+                            decomp_0_renamed_47_i233 = a_old_i145_data != NULL;
                             // cluster_fFreeHandle_out0_rep208(): end inline
                             if (decomp_0_renamed_47_i233)
                             {
@@ -7140,7 +7143,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep206(): begin inline
                             int decomp_0_renamed_48_i234;
                             // cluster_fFreeHandle_out0_rep219(): begin inline
-                            decomp_0_renamed_48_i234 = temp_i145_data != nullptr;
+                            decomp_0_renamed_48_i234 = temp_i145_data != NULL;
                             // cluster_fFreeHandle_out0_rep219(): end inline
                             if (decomp_0_renamed_48_i234)
                             {
@@ -7150,7 +7153,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep216(): begin inline
                             int decomp_0_renamed_49_i235;
                             // cluster_fFreeHandle_out0_rep230(): begin inline
-                            decomp_0_renamed_49_i235 = temp1_i145_data != nullptr;
+                            decomp_0_renamed_49_i235 = temp1_i145_data != NULL;
                             // cluster_fFreeHandle_out0_rep230(): end inline
                             if (decomp_0_renamed_49_i235)
                             {
@@ -7160,7 +7163,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                             // cluster_fFreeHandle_rep226(): begin inline
                             int decomp_0_renamed_50_i236;
                             // cluster_fFreeHandle_out0_rep241(): begin inline
-                            decomp_0_renamed_50_i236 = temp2_i145_data != nullptr;
+                            decomp_0_renamed_50_i236 = temp2_i145_data != NULL;
                             // cluster_fFreeHandle_out0_rep241(): end inline
                             if (decomp_0_renamed_50_i236)
                             {
@@ -7608,7 +7611,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep155(): begin inline
                                     int decomp_0_renamed_142_i544;
                                     // cluster_fFreeHandle_out0_rep162(): begin inline
-                                    decomp_0_renamed_142_i544 = a_old_i241_data != nullptr;
+                                    decomp_0_renamed_142_i544 = a_old_i241_data != NULL;
                                     // cluster_fFreeHandle_out0_rep162(): end inline
                                     if (decomp_0_renamed_142_i544)
                                     {
@@ -7682,7 +7685,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep329(): begin inline
                                 int decomp_0_renamed_143_i548;
                                 // cluster_fFreeHandle_out0_rep350(): begin inline
-                                decomp_0_renamed_143_i548 = bt_i401_data != nullptr;
+                                decomp_0_renamed_143_i548 = bt_i401_data != NULL;
                                 // cluster_fFreeHandle_out0_rep350(): end inline
                                 if (decomp_0_renamed_143_i548)
                                 {
@@ -7716,7 +7719,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep339(): begin inline
                                     int decomp_0_renamed_197_i679;
                                     // cluster_fFreeHandle_out0_rep364(): begin inline
-                                    decomp_0_renamed_197_i679 = bt1_i401_data != nullptr;
+                                    decomp_0_renamed_197_i679 = bt1_i401_data != NULL;
                                     // cluster_fFreeHandle_out0_rep364(): end inline
                                     if (decomp_0_renamed_197_i679)
                                     {
@@ -7735,7 +7738,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep352(): begin inline
                                 int decomp_0_renamed_145_i552;
                                 // cluster_fFreeHandle_out0_rep375(): begin inline
-                                decomp_0_renamed_145_i552 = bt1_i401_data != nullptr;
+                                decomp_0_renamed_145_i552 = bt1_i401_data != NULL;
                                 // cluster_fFreeHandle_out0_rep375(): end inline
                                 if (decomp_0_renamed_145_i552)
                                 {
@@ -7797,7 +7800,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep363(): begin inline
                                 int decomp_0_renamed_146_i556;
                                 // cluster_fFreeHandle_out0_rep387(): begin inline
-                                decomp_0_renamed_146_i556 = bt_i402_data != nullptr;
+                                decomp_0_renamed_146_i556 = bt_i402_data != NULL;
                                 // cluster_fFreeHandle_out0_rep387(): end inline
                                 if (decomp_0_renamed_146_i556)
                                 {
@@ -7831,7 +7834,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep373(): begin inline
                                     int decomp_0_renamed_200_i684;
                                     // cluster_fFreeHandle_out0_rep401(): begin inline
-                                    decomp_0_renamed_200_i684 = bt1_i402_data != nullptr;
+                                    decomp_0_renamed_200_i684 = bt1_i402_data != NULL;
                                     // cluster_fFreeHandle_out0_rep401(): end inline
                                     if (decomp_0_renamed_200_i684)
                                     {
@@ -7850,7 +7853,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep386(): begin inline
                                 int decomp_0_renamed_148_i560;
                                 // cluster_fFreeHandle_out0_rep412(): begin inline
-                                decomp_0_renamed_148_i560 = bt1_i402_data != nullptr;
+                                decomp_0_renamed_148_i560 = bt1_i402_data != NULL;
                                 // cluster_fFreeHandle_out0_rep412(): end inline
                                 if (decomp_0_renamed_148_i560)
                                 {
@@ -7912,7 +7915,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep397(): begin inline
                                 int decomp_0_renamed_149_i564;
                                 // cluster_fFreeHandle_out0_rep424(): begin inline
-                                decomp_0_renamed_149_i564 = bt_i403_data != nullptr;
+                                decomp_0_renamed_149_i564 = bt_i403_data != NULL;
                                 // cluster_fFreeHandle_out0_rep424(): end inline
                                 if (decomp_0_renamed_149_i564)
                                 {
@@ -7946,7 +7949,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep407(): begin inline
                                     int decomp_0_renamed_203_i689;
                                     // cluster_fFreeHandle_out0_rep438(): begin inline
-                                    decomp_0_renamed_203_i689 = bt1_i403_data != nullptr;
+                                    decomp_0_renamed_203_i689 = bt1_i403_data != NULL;
                                     // cluster_fFreeHandle_out0_rep438(): end inline
                                     if (decomp_0_renamed_203_i689)
                                     {
@@ -7965,7 +7968,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep420(): begin inline
                                 int decomp_0_renamed_151_i568;
                                 // cluster_fFreeHandle_out0_rep449(): begin inline
-                                decomp_0_renamed_151_i568 = bt1_i403_data != nullptr;
+                                decomp_0_renamed_151_i568 = bt1_i403_data != NULL;
                                 // cluster_fFreeHandle_out0_rep449(): end inline
                                 if (decomp_0_renamed_151_i568)
                                 {
@@ -7981,7 +7984,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep164(): begin inline
                                 int decomp_0_renamed_94_i405;
                                 // cluster_fFreeHandle_out0_rep175(): begin inline
-                                decomp_0_renamed_94_i405 = temp1_i241_data != nullptr;
+                                decomp_0_renamed_94_i405 = temp1_i241_data != NULL;
                                 // cluster_fFreeHandle_out0_rep175(): end inline
                                 if (decomp_0_renamed_94_i405)
                                 {
@@ -7991,7 +7994,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep174(): begin inline
                                 int decomp_0_renamed_95_i406;
                                 // cluster_fFreeHandle_out0_rep186(): begin inline
-                                decomp_0_renamed_95_i406 = temp_i241_data != nullptr;
+                                decomp_0_renamed_95_i406 = temp_i241_data != NULL;
                                 // cluster_fFreeHandle_out0_rep186(): end inline
                                 if (decomp_0_renamed_95_i406)
                                 {
@@ -8063,7 +8066,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                     // cluster_fFreeHandle_rep186(): begin inline
                                     int decomp_0_renamed_154_i571;
                                     // cluster_fFreeHandle_out0_rep196(): begin inline
-                                    decomp_0_renamed_154_i571 = a_old_i241_data != nullptr;
+                                    decomp_0_renamed_154_i571 = a_old_i241_data != NULL;
                                     // cluster_fFreeHandle_out0_rep196(): end inline
                                     if (decomp_0_renamed_154_i571)
                                     {
@@ -8151,7 +8154,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep195(): begin inline
                                 int decomp_0_renamed_96_i410;
                                 // cluster_fFreeHandle_out0_rep209(): begin inline
-                                decomp_0_renamed_96_i410 = a_old_i241_data != nullptr;
+                                decomp_0_renamed_96_i410 = a_old_i241_data != NULL;
                                 // cluster_fFreeHandle_out0_rep209(): end inline
                                 if (decomp_0_renamed_96_i410)
                                 {
@@ -8161,7 +8164,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep205(): begin inline
                                 int decomp_0_renamed_97_i411;
                                 // cluster_fFreeHandle_out0_rep220(): begin inline
-                                decomp_0_renamed_97_i411 = temp_i241_data != nullptr;
+                                decomp_0_renamed_97_i411 = temp_i241_data != NULL;
                                 // cluster_fFreeHandle_out0_rep220(): end inline
                                 if (decomp_0_renamed_97_i411)
                                 {
@@ -8171,7 +8174,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep215(): begin inline
                                 int decomp_0_renamed_98_i412;
                                 // cluster_fFreeHandle_out0_rep231(): begin inline
-                                decomp_0_renamed_98_i412 = temp1_i241_data != nullptr;
+                                decomp_0_renamed_98_i412 = temp1_i241_data != NULL;
                                 // cluster_fFreeHandle_out0_rep231(): end inline
                                 if (decomp_0_renamed_98_i412)
                                 {
@@ -8181,7 +8184,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
                                 // cluster_fFreeHandle_rep225(): begin inline
                                 int decomp_0_renamed_99_i413;
                                 // cluster_fFreeHandle_out0_rep242(): begin inline
-                                decomp_0_renamed_99_i413 = temp2_i241_data != nullptr;
+                                decomp_0_renamed_99_i413 = temp2_i241_data != NULL;
                                 // cluster_fFreeHandle_out0_rep242(): end inline
                                 if (decomp_0_renamed_99_i413)
                                 {
@@ -8250,6 +8253,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
             // cluster_getAlphaFromTrainSet_out4_out2_out3(): end inline
             // cluster_getAlphaFromTrainSet_out4_out2(): end inline
         }
+        printf("SMO iter completed with cnt = %d\\n", cnt);
         // cluster_getAlphaFromTrainSet_out4_out3(): begin inline
         for (r = 0; r < N; r++)
         {
@@ -8262,7 +8266,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
         // cluster_fFreeHandle_rep0(): begin inline
         int decomp_0_renamed_4_i20;
         // cluster_fFreeHandle_out0_rep67(): begin inline
-        decomp_0_renamed_4_i20 = Y_data != nullptr;
+        decomp_0_renamed_4_i20 = Y_data != NULL;
         // cluster_fFreeHandle_out0_rep67(): end inline
         if (decomp_0_renamed_4_i20)
         {
@@ -8272,7 +8276,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
         // cluster_fFreeHandle_rep1(): begin inline
         int decomp_0_renamed_5_i21;
         // cluster_fFreeHandle_out0_rep66(): begin inline
-        decomp_0_renamed_5_i21 = e_data != nullptr;
+        decomp_0_renamed_5_i21 = e_data != NULL;
         // cluster_fFreeHandle_out0_rep66(): end inline
         if (decomp_0_renamed_5_i21)
         {
@@ -8282,7 +8286,7 @@ void cluster(int N, int *trn1_width, int *trn1_height, float *trn1_data, int *tr
         // cluster_fFreeHandle_rep2(): begin inline
         int decomp_0_renamed_6_i22;
         // cluster_fFreeHandle_out0_rep65(): begin inline
-        decomp_0_renamed_6_i22 = a_data != nullptr;
+        decomp_0_renamed_6_i22 = a_data != NULL;
         // cluster_fFreeHandle_out0_rep65(): end inline
         if (decomp_0_renamed_6_i22)
         {

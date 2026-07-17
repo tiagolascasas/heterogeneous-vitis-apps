@@ -1991,7 +1991,7 @@ void quatRot(F2D *vec, F2D *rQuat, F2D **rtr_val);
 void fPlus(F2D *a, F2D *b, F2D **rtr_val);
 void fWriteMatrix(F2D *input, char *inpath);
 int fSelfCheck(F2D *in1, char *path, float tol);
-void photonPrintTiming(unsigned int *elapsed);
+// void photonPrintTiming(unsigned int *elapsed);
 int main(int argc, char *argv[]);
 F2D *eul2quat(F2D *angle)
 {
@@ -19628,18 +19628,18 @@ int main(int argc, char *argv[])
     float M_STDDEV_VEL = 0.02;
     F2D *pos, *vel;
     float pi = 3.1416;
-    F2D *eul1, *eul2, *quat;
-    F2D *sData, *gyro, *norm_gyro, *angleAlpha;
-    F2D *quatDelta, *Opos, *temp_STDDEV_GPSPos, *w;
-    F2D *qConj, *orgWorld, *accl, *gtemp;
-    F2D *gravity, *t1;
+    F2D *eul1 = nullptr, *eul2 = nullptr, *quat = nullptr;
+    F2D *sData = nullptr, *gyro = nullptr, *norm_gyro = nullptr, *angleAlpha = nullptr;
+    F2D *quatDelta = nullptr, *Opos = nullptr, *temp_STDDEV_GPSPos = nullptr, *w = nullptr;
+    F2D *qConj = nullptr, *orgWorld = nullptr, *accl = nullptr, *gtemp = nullptr;
+    F2D *gravity = nullptr, *t1 = nullptr;
     I2D *tStamp, *sType, *isEOF;
     I2D *index;
     int rows, cols;
     F2D *resultMat;
     F2D *STDDEV_GPSPos;
     F2D *ones, *randW;
-    unsigned int *start, *endC, *elapsed, *elt;
+//  //  unsigned int *start, *endC, *elapsed, *elt;
     char im1[100];
     if (argc < 2)
     {
@@ -19667,7 +19667,7 @@ int main(int argc, char *argv[])
         }
     }
     fFreeHandle_rep73(_scope0_randn);
-    start = photonStartTiming();
+//  // start = photonStartTiming();
     F2D *_scope1_eulAngle, *_scope1_randn;
     fSetArray_rep31(n, 3, 0, &_scope1_eulAngle);
     randWrapper_rep7(n, 1, &_scope1_randn);
@@ -19684,10 +19684,10 @@ int main(int argc, char *argv[])
     fFreeHandle_rep75(_scope1_randn);
     fFreeHandle_rep76(_scope1_eulAngle);
     initQuartenion(&(quat), eul1, eul2, &i, &(index), &(sType), &(isEOF));
-    endC = photonEndTiming();
-    elapsed = photonReportTiming(start, endC);
-    free(start);
-    free(endC);
+//  // endC = photonEndTiming();
+//  // elapsed = photonReportTiming(start, endC);
+// free(start);
+// free(endC);
     rows = 0;
     cols = 5;
     fSetArray_rep33(3, 3, 0, &STDDEV_GPSPos);
@@ -19697,18 +19697,18 @@ int main(int argc, char *argv[])
         icount = icount + 1;
         sData = readSensorData(index, fid, sType, isEOF);
         rows++;
-        start = photonStartTiming();
+//  // start = photonStartTiming();
         updateState(sType, sData, &(gyro), ones, randW, &n, &M_STDDEV_GYRO, &(norm_gyro), &(angleAlpha),
                     &gyroTimeInterval, &(quatDelta), &(quat), STDDEV_GPSPos, &(Opos), &(pos), &(temp_STDDEV_GPSPos),
                     &(w), &(vel), &(qConj), &(orgWorld), &STDDEV_GPSVel, &i, &STDDEV_ODOVel, &(accl), &(gtemp),
                     &(gravity), &STDDEV_ACCL, &acclTimeInterval, &M_STDDEV_POS, &M_STDDEV_VEL);
-        endC = photonEndTiming();
-        elt = photonReportTiming(start, endC);
-        elapsed[0] += elt[0];
-        elapsed[1] += elt[1];
-        free(start);
-        free(endC);
-        free(elt);
+//  // endC = photonEndTiming();
+// elt = photonReportTiming(start, endC);
+//  // elapsed[0] += elt[0];
+//  // elapsed[1] += elt[1];
+// free(start);
+// free(endC);
+//  // free(elt);
         F2D *_scope7_temp;
         float _scope7_quatOut = 0, _scope7_velOut = 0, _scope7_posOut = 0;
         int _scope7_i;
@@ -19742,9 +19742,9 @@ int main(int argc, char *argv[])
     {
         printf("Error in Localization\n");
     }
-    photonPrintTiming(elapsed);
+//  // photonPrintTiming(elapsed);
     fFreeHandle_rep78(STDDEV_GPSPos);
-    free(elapsed);
+// free(elapsed);
     iFreeHandle_rep5(index);
     iFreeHandle_rep6(sType);
     iFreeHandle_rep7(isEOF);

@@ -209,7 +209,7 @@ unsigned int *photonEndTiming();
 unsigned int *photonReportTiming(unsigned int *startCycles, unsigned int *endCycles);
 void fWriteMatrix(F2D *input, char *inpath);
 int fSelfCheck(F2D *in1, char *path, float tol);
-void photonPrintTiming(unsigned int *elapsed);
+// void photonPrintTiming(unsigned int *elapsed);
 void iFreeHandle(I2D *out);
 void fFreeHandle(F2D *out);
 int main(int argc, char **argv);
@@ -549,10 +549,10 @@ int main(int argc, char **argv)
     im = parse_flags(argc, argv);
     image = fiDeepCopy(im);
     init_params(data);
-    start = photonStartTiming();
+//  // start = photonStartTiming();
     create_texture(image, data);
-    end = photonEndTiming();
-    elapsed = photonReportTiming(start, end);
+// end = photonEndTiming();
+// elapsed = photonReportTiming(start, end);
     int _scope28_ret = 0;
     //fWriteMatrix(result, argv[1]);
     _scope28_ret = fSelfCheck(result, argv[1], 1.0);
@@ -560,12 +560,12 @@ int main(int argc, char **argv)
     {
         printf("Error in Texture Synthesis\n");
     }
-    photonPrintTiming(elapsed);
+//  // photonPrintTiming(elapsed);
     iFreeHandle(im);
     fFreeHandle(image);
-    free(start);
-    free(end);
-    free(elapsed);
+// free(start);
+// free(end);
+// free(elapsed);
     free(data);
     fFreeHandle(target);
     fFreeHandle(result);
@@ -1691,8 +1691,8 @@ void create_texture(F2D *image, params *data)
     int j;
     int k;
     int ncand;
-    int bestx;
-    int besty;
+    int bestx = 0;
+    int besty = 0;
     double diff;
     double curdiff;
     int tsx;

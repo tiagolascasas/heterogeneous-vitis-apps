@@ -1,7 +1,7 @@
 #!/bin/bash
 set -o pipefail
 # Configuration
-APPS=("disparity" "edgedetect" "localization" "mser" "multi-ncut" "stitch" "svm" "texture-synthesis" "tracking" "vadd")
+APPS=("tracking" "disparity")
 TARGET="u250"
 DRY_RUN=0 # Set to 1 to mock the build, 0 for actual build
 DISCORD_WEBHOOK="https://discord.com/api/webhooks/1523885903972401314/NX7EAVwxvQPhqwqEf0TxRKcS12Jz4iRXwPQF6Wc5lZuu5eItl7IseV0d7jaTxehr2DTx" # <--- PASTE YOUR DISCORD WEBHOOK URL HERE

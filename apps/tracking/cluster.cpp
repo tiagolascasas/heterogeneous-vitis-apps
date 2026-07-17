@@ -71,31 +71,32 @@ void cluster(
     int local_WINSZ;
     local_WINSZ = *WINSZ;
     float memregion_248_size2073600[518400];
-#pragma HLS bind_storage variable = memregion_248_size2073600 type = RAM_2P impl = BRAM
+#pragma HLS bind_storage variable=memregion_248_size2073600 type=RAM_2P impl=URAM
+#pragma HLS bind_storage variable = memregion_248_size2073600 type = RAM_2P impl = URAM
     float memregion_341_size36864[9216];
-#pragma HLS bind_storage variable = memregion_341_size36864 type = RAM_2P impl = BRAM
+#pragma HLS bind_storage variable = memregion_341_size36864 type = RAM_2P impl = URAM
     float memregion_338_size36864[9216];
-#pragma HLS bind_storage variable = memregion_338_size36864 type = RAM_2P impl = BRAM
+#pragma HLS bind_storage variable = memregion_338_size36864 type = RAM_2P impl = URAM
     float memregion_335_size36864[9216];
-#pragma HLS bind_storage variable = memregion_335_size36864 type = RAM_2P impl = BRAM
+#pragma HLS bind_storage variable = memregion_335_size36864 type = RAM_2P impl = URAM
     float memregion_332_size36864[9216];
-#pragma HLS bind_storage variable = memregion_332_size36864 type = RAM_2P impl = BRAM
+#pragma HLS bind_storage variable = memregion_332_size36864 type = RAM_2P impl = URAM
     float memregion_329_size36864[9216];
-#pragma HLS bind_storage variable = memregion_329_size36864 type = RAM_2P impl = BRAM
+#pragma HLS bind_storage variable = memregion_329_size36864 type = RAM_2P impl = URAM
     float memregion_326_size36864[9216];
-#pragma HLS bind_storage variable = memregion_326_size36864 type = RAM_2P impl = BRAM
+#pragma HLS bind_storage variable = memregion_326_size36864 type = RAM_2P impl = URAM
     float memregion_323_size36864[9216];
-#pragma HLS bind_storage variable = memregion_323_size36864 type = RAM_2P impl = BRAM
+#pragma HLS bind_storage variable = memregion_323_size36864 type = RAM_2P impl = URAM
     float memregion_320_size36864[9216];
-#pragma HLS bind_storage variable = memregion_320_size36864 type = RAM_2P impl = BRAM
+#pragma HLS bind_storage variable = memregion_320_size36864 type = RAM_2P impl = URAM
     float memregion_350_size40[10];
-#pragma HLS bind_storage variable = memregion_350_size40 type = RAM_2P impl = BRAM
+#pragma HLS bind_storage variable = memregion_350_size40 type = RAM_2P impl = URAM
     float memregion_347_size40[10];
-#pragma HLS bind_storage variable = memregion_347_size40 type = RAM_2P impl = BRAM
+#pragma HLS bind_storage variable = memregion_347_size40 type = RAM_2P impl = URAM
     float memregion_344_size40[10];
-#pragma HLS bind_storage variable = memregion_344_size40 type = RAM_2P impl = BRAM
+#pragma HLS bind_storage variable = memregion_344_size40 type = RAM_2P impl = URAM
     float memregion_308_size40[10];
-#pragma HLS bind_storage variable = memregion_308_size40 type = RAM_2P impl = BRAM
+#pragma HLS bind_storage variable = memregion_308_size40 type = RAM_2P impl = URAM
     int memregion_349_size4;
     int memregion_348_size4;
     int memregion_346_size4;
@@ -586,8 +587,8 @@ void cluster(
     // cluster_imageResize_out0(): begin inline
     rows_i922 = (*blurredImage_height);
     cols_i922 = (*blurredImage_width);
-    outputRows_i922 = floor((rows_i922 + 1) / 2);
-    outputCols_i922 = floor((cols_i922 + 1) / 2);
+    outputRows_i922 = floorf((rows_i922 + 1) / 2);
+    outputCols_i922 = floorf((cols_i922 + 1) / 2);
     // cluster_imageResize_out0(): end inline
     // cluster_fSetArray_rep55(): begin inline
     int i_i960;
@@ -1170,7 +1171,7 @@ void cluster(
     kernel_1_i924_data[1] = 0;
     kernel_1_i924_data[2] = -1;
     kernelSize_i924 = 3;
-    kernelSum_1_i924 = 2.0;
+    kernelSum_1_i924 = 2.0f;
     kernel_2_i924_data[0] = 1;
     kernel_2_i924_data[1] = 2;
     kernel_2_i924_data[2] = 1;
@@ -1652,7 +1653,7 @@ void cluster(
     kernel_1_i926_data[1] = 0;
     kernel_1_i926_data[2] = -1;
     kernelSize_i926 = 3;
-    kernelSum_1_i926 = 2.0;
+    kernelSum_1_i926 = 2.0f;
     kernel_2_i926_data[0] = 1;
     kernel_2_i926_data[1] = 2;
     kernel_2_i926_data[2] = 1;
@@ -1873,11 +1874,11 @@ void cluster(
     // cluster_fMallocHandle_rep159(): end inline
     // cluster_calcPyrLKTrack_out2(): begin inline
     rate_i928_data[0] = 1;
-    rate_i928_data[1] = 0.5;
-    rate_i928_data[2] = 0.25;
-    rate_i928_data[3] = 0.125;
-    rate_i928_data[4] = 0.0625;
-    rate_i928_data[5] = 0.03125;
+    rate_i928_data[1] = 0.5f;
+    rate_i928_data[2] = 0.25f;
+    rate_i928_data[3] = 0.125f;
+    rate_i928_data[4] = 0.0625f;
+    rate_i928_data[5] = 0.03125f;
     winSizeSq_i928 = 4 * (local_WINSZ) * (local_WINSZ);
     // cluster_calcPyrLKTrack_out2(): end inline
     // cluster_iSetArray(): begin inline
@@ -2024,14 +2025,14 @@ void cluster(
                 float a_i1136;
                 float b_i1136;
                 int k_i1136;
-                double _d0_0_i1136;
-                double _d0_1_i1136;
-                double _d1_0_i1136;
-                double _d1_1_i1136;
-                _d0_0_i1136 = floor(x_i928);
+                float _d0_0_i1136;
+                float _d0_1_i1136;
+                float _d1_0_i1136;
+                float _d1_1_i1136;
+                _d0_0_i1136 = floorf(x_i928);
                 _d0_1_i1136 = x_i928 - _d0_0_i1136;
                 a_i1136 = _d0_1_i1136;
-                _d1_0_i1136 = floor(y_i928);
+                _d1_0_i1136 = floorf(y_i928);
                 _d1_1_i1136 = y_i928 - _d1_0_i1136;
                 b_i1136 = _d1_1_i1136;
                 a11_i1120 = (1 - a_i1136) * (1 - b_i1136);
@@ -2086,9 +2087,9 @@ void cluster(
                 for (i_i1120 = -(local_WINSZ); i_i1120 < (local_WINSZ); i_i1120++)
                 {
 #pragma HLS loop_tripcount max = 96
-                    double _d2_0_i1138;
-                    double _d2_1_i1138;
-                    _d2_0_i1138 = floor(y_i928);
+                    float _d2_0_i1138;
+                    float _d2_1_i1138;
+                    _d2_0_i1138 = floorf(y_i928);
                     _d2_1_i1138 = _d2_0_i1138 + i_i1120;
                     srcIdxx_i1120 = _d2_1_i1138;
                     dstIdxx_i1120 = i_i1120 + (local_WINSZ);
@@ -2096,11 +2097,11 @@ void cluster(
                     {
 #pragma HLS loop_tripcount max = 96
                         int _d3_0_i1138;
-                        double _d3_1_i1138;
-                        double _d3_2_i1138;
-                        double _d3_3_i1138;
+                        float _d3_1_i1138;
+                        float _d3_2_i1138;
+                        float _d3_3_i1138;
                         _d3_0_i1138 = srcIdxx_i1120 * imgSize_2_i928;
-                        _d3_1_i1138 = floor(x_i928);
+                        _d3_1_i1138 = floorf(x_i928);
                         _d3_2_i1138 = _d3_0_i1138 + _d3_1_i1138;
                         _d3_3_i1138 = _d3_2_i1138 + j_i1120;
                         srcIdx_i1120 = _d3_3_i1138;
@@ -2135,14 +2136,14 @@ void cluster(
                 float a_i1139;
                 float b_i1139;
                 int k_i1139;
-                double _d0_0_i1139;
-                double _d0_1_i1139;
-                double _d1_0_i1139;
-                double _d1_1_i1139;
-                _d0_0_i1139 = floor(x_i928);
+                float _d0_0_i1139;
+                float _d0_1_i1139;
+                float _d1_0_i1139;
+                float _d1_1_i1139;
+                _d0_0_i1139 = floorf(x_i928);
                 _d0_1_i1139 = x_i928 - _d0_0_i1139;
                 a_i1139 = _d0_1_i1139;
-                _d1_0_i1139 = floor(y_i928);
+                _d1_0_i1139 = floorf(y_i928);
                 _d1_1_i1139 = y_i928 - _d1_0_i1139;
                 b_i1139 = _d1_1_i1139;
                 a11_i1121 = (1 - a_i1139) * (1 - b_i1139);
@@ -2197,9 +2198,9 @@ void cluster(
                 for (i_i1121 = -(local_WINSZ); i_i1121 < (local_WINSZ); i_i1121++)
                 {
 #pragma HLS loop_tripcount max = 96
-                    double _d2_0_i1141;
-                    double _d2_1_i1141;
-                    _d2_0_i1141 = floor(y_i928);
+                    float _d2_0_i1141;
+                    float _d2_1_i1141;
+                    _d2_0_i1141 = floorf(y_i928);
                     _d2_1_i1141 = _d2_0_i1141 + i_i1121;
                     srcIdxx_i1121 = _d2_1_i1141;
                     dstIdxx_i1121 = i_i1121 + (local_WINSZ);
@@ -2207,11 +2208,11 @@ void cluster(
                     {
 #pragma HLS loop_tripcount max = 96
                         int _d3_0_i1141;
-                        double _d3_1_i1141;
-                        double _d3_2_i1141;
-                        double _d3_3_i1141;
+                        float _d3_1_i1141;
+                        float _d3_2_i1141;
+                        float _d3_3_i1141;
                         _d3_0_i1141 = srcIdxx_i1121 * imgSize_2_i928;
-                        _d3_1_i1141 = floor(x_i928);
+                        _d3_1_i1141 = floorf(x_i928);
                         _d3_2_i1141 = _d3_0_i1141 + _d3_1_i1141;
                         _d3_3_i1141 = _d3_2_i1141 + j_i1121;
                         srcIdx_i1121 = _d3_3_i1141;
@@ -2246,14 +2247,14 @@ void cluster(
                 float a_i1142;
                 float b_i1142;
                 int k_i1142;
-                double _d0_0_i1142;
-                double _d0_1_i1142;
-                double _d1_0_i1142;
-                double _d1_1_i1142;
-                _d0_0_i1142 = floor(x_i928);
+                float _d0_0_i1142;
+                float _d0_1_i1142;
+                float _d1_0_i1142;
+                float _d1_1_i1142;
+                _d0_0_i1142 = floorf(x_i928);
                 _d0_1_i1142 = x_i928 - _d0_0_i1142;
                 a_i1142 = _d0_1_i1142;
-                _d1_0_i1142 = floor(y_i928);
+                _d1_0_i1142 = floorf(y_i928);
                 _d1_1_i1142 = y_i928 - _d1_0_i1142;
                 b_i1142 = _d1_1_i1142;
                 a11_i1122 = (1 - a_i1142) * (1 - b_i1142);
@@ -2308,9 +2309,9 @@ void cluster(
                 for (i_i1122 = -(local_WINSZ); i_i1122 < (local_WINSZ); i_i1122++)
                 {
 #pragma HLS loop_tripcount max = 96
-                    double _d2_0_i1144;
-                    double _d2_1_i1144;
-                    _d2_0_i1144 = floor(y_i928);
+                    float _d2_0_i1144;
+                    float _d2_1_i1144;
+                    _d2_0_i1144 = floorf(y_i928);
                     _d2_1_i1144 = _d2_0_i1144 + i_i1122;
                     srcIdxx_i1122 = _d2_1_i1144;
                     dstIdxx_i1122 = i_i1122 + (local_WINSZ);
@@ -2318,11 +2319,11 @@ void cluster(
                     {
 #pragma HLS loop_tripcount max = 96
                         int _d3_0_i1144;
-                        double _d3_1_i1144;
-                        double _d3_2_i1144;
-                        double _d3_3_i1144;
+                        float _d3_1_i1144;
+                        float _d3_2_i1144;
+                        float _d3_3_i1144;
                         _d3_0_i1144 = srcIdxx_i1122 * imgSize_2_i928;
-                        _d3_1_i1144 = floor(x_i928);
+                        _d3_1_i1144 = floorf(x_i928);
                         _d3_2_i1144 = _d3_0_i1144 + _d3_1_i1144;
                         _d3_3_i1144 = _d3_2_i1144 + j_i1122;
                         srcIdx_i1122 = _d3_3_i1144;
@@ -2363,14 +2364,14 @@ void cluster(
                 float a_i1145;
                 float b_i1145;
                 int k_i1145;
-                double _d0_0_i1145;
-                double _d0_1_i1145;
-                double _d1_0_i1145;
-                double _d1_1_i1145;
-                _d0_0_i1145 = floor(x_i928);
+                float _d0_0_i1145;
+                float _d0_1_i1145;
+                float _d1_0_i1145;
+                float _d1_1_i1145;
+                _d0_0_i1145 = floorf(x_i928);
                 _d0_1_i1145 = x_i928 - _d0_0_i1145;
                 a_i1145 = _d0_1_i1145;
-                _d1_0_i1145 = floor(y_i928);
+                _d1_0_i1145 = floorf(y_i928);
                 _d1_1_i1145 = y_i928 - _d1_0_i1145;
                 b_i1145 = _d1_1_i1145;
                 a11_i1124 = (1 - a_i1145) * (1 - b_i1145);
@@ -2425,9 +2426,9 @@ void cluster(
                 for (i_i1124 = -(local_WINSZ); i_i1124 < (local_WINSZ); i_i1124++)
                 {
 #pragma HLS loop_tripcount max = 96
-                    double _d2_0_i1147;
-                    double _d2_1_i1147;
-                    _d2_0_i1147 = floor(y_i928);
+                    float _d2_0_i1147;
+                    float _d2_1_i1147;
+                    _d2_0_i1147 = floorf(y_i928);
                     _d2_1_i1147 = _d2_0_i1147 + i_i1124;
                     srcIdxx_i1124 = _d2_1_i1147;
                     dstIdxx_i1124 = i_i1124 + (local_WINSZ);
@@ -2435,11 +2436,11 @@ void cluster(
                     {
 #pragma HLS loop_tripcount max = 96
                         int _d3_0_i1147;
-                        double _d3_1_i1147;
-                        double _d3_2_i1147;
-                        double _d3_3_i1147;
+                        float _d3_1_i1147;
+                        float _d3_2_i1147;
+                        float _d3_3_i1147;
                         _d3_0_i1147 = srcIdxx_i1124 * imgSize_2_i928;
-                        _d3_1_i1147 = floor(x_i928);
+                        _d3_1_i1147 = floorf(x_i928);
                         _d3_2_i1147 = _d3_0_i1147 + _d3_1_i1147;
                         _d3_3_i1147 = _d3_2_i1147 + j_i1124;
                         srcIdx_i1124 = _d3_3_i1147;
@@ -2474,14 +2475,14 @@ void cluster(
                 float a_i1148;
                 float b_i1148;
                 int k_i1148;
-                double _d0_0_i1148;
-                double _d0_1_i1148;
-                double _d1_0_i1148;
-                double _d1_1_i1148;
-                _d0_0_i1148 = floor(x_i928);
+                float _d0_0_i1148;
+                float _d0_1_i1148;
+                float _d1_0_i1148;
+                float _d1_1_i1148;
+                _d0_0_i1148 = floorf(x_i928);
                 _d0_1_i1148 = x_i928 - _d0_0_i1148;
                 a_i1148 = _d0_1_i1148;
-                _d1_0_i1148 = floor(y_i928);
+                _d1_0_i1148 = floorf(y_i928);
                 _d1_1_i1148 = y_i928 - _d1_0_i1148;
                 b_i1148 = _d1_1_i1148;
                 a11_i1125 = (1 - a_i1148) * (1 - b_i1148);
@@ -2536,9 +2537,9 @@ void cluster(
                 for (i_i1125 = -(local_WINSZ); i_i1125 < (local_WINSZ); i_i1125++)
                 {
 #pragma HLS loop_tripcount max = 96
-                    double _d2_0_i1150;
-                    double _d2_1_i1150;
-                    _d2_0_i1150 = floor(y_i928);
+                    float _d2_0_i1150;
+                    float _d2_1_i1150;
+                    _d2_0_i1150 = floorf(y_i928);
                     _d2_1_i1150 = _d2_0_i1150 + i_i1125;
                     srcIdxx_i1125 = _d2_1_i1150;
                     dstIdxx_i1125 = i_i1125 + (local_WINSZ);
@@ -2546,11 +2547,11 @@ void cluster(
                     {
 #pragma HLS loop_tripcount max = 96
                         int _d3_0_i1150;
-                        double _d3_1_i1150;
-                        double _d3_2_i1150;
-                        double _d3_3_i1150;
+                        float _d3_1_i1150;
+                        float _d3_2_i1150;
+                        float _d3_3_i1150;
                         _d3_0_i1150 = srcIdxx_i1125 * imgSize_2_i928;
-                        _d3_1_i1150 = floor(x_i928);
+                        _d3_1_i1150 = floorf(x_i928);
                         _d3_2_i1150 = _d3_0_i1150 + _d3_1_i1150;
                         _d3_3_i1150 = _d3_2_i1150 + j_i1125;
                         srcIdx_i1125 = _d3_3_i1150;
@@ -2585,14 +2586,14 @@ void cluster(
                 float a_i1151;
                 float b_i1151;
                 int k_i1151;
-                double _d0_0_i1151;
-                double _d0_1_i1151;
-                double _d1_0_i1151;
-                double _d1_1_i1151;
-                _d0_0_i1151 = floor(x_i928);
+                float _d0_0_i1151;
+                float _d0_1_i1151;
+                float _d1_0_i1151;
+                float _d1_1_i1151;
+                _d0_0_i1151 = floorf(x_i928);
                 _d0_1_i1151 = x_i928 - _d0_0_i1151;
                 a_i1151 = _d0_1_i1151;
-                _d1_0_i1151 = floor(y_i928);
+                _d1_0_i1151 = floorf(y_i928);
                 _d1_1_i1151 = y_i928 - _d1_0_i1151;
                 b_i1151 = _d1_1_i1151;
                 a11_i1126 = (1 - a_i1151) * (1 - b_i1151);
@@ -2647,9 +2648,9 @@ void cluster(
                 for (i_i1126 = -(local_WINSZ); i_i1126 < (local_WINSZ); i_i1126++)
                 {
 #pragma HLS loop_tripcount max = 96
-                    double _d2_0_i1153;
-                    double _d2_1_i1153;
-                    _d2_0_i1153 = floor(y_i928);
+                    float _d2_0_i1153;
+                    float _d2_1_i1153;
+                    _d2_0_i1153 = floorf(y_i928);
                     _d2_1_i1153 = _d2_0_i1153 + i_i1126;
                     srcIdxx_i1126 = _d2_1_i1153;
                     dstIdxx_i1126 = i_i1126 + (local_WINSZ);
@@ -2657,11 +2658,11 @@ void cluster(
                     {
 #pragma HLS loop_tripcount max = 96
                         int _d3_0_i1153;
-                        double _d3_1_i1153;
-                        double _d3_2_i1153;
-                        double _d3_3_i1153;
+                        float _d3_1_i1153;
+                        float _d3_2_i1153;
+                        float _d3_3_i1153;
                         _d3_0_i1153 = srcIdxx_i1126 * imgSize_2_i928;
-                        _d3_1_i1153 = floor(x_i928);
+                        _d3_1_i1153 = floorf(x_i928);
                         _d3_2_i1153 = _d3_0_i1153 + _d3_1_i1153;
                         _d3_3_i1153 = _d3_2_i1153 + j_i1126;
                         srcIdx_i1126 = _d3_3_i1153;
@@ -2689,7 +2690,7 @@ void cluster(
             }
             c_det_i928 = (c_xx_i928 * c_yy_i928 - c_xy_i928 * c_xy_i928);
             tr_i928 = c_xx_i928 + c_yy_i928;
-            decomp_9_renamed_3_i1118 = (c_det_i928 / (tr_i928 + 0.00001)) < (local_accuracy);
+            decomp_9_renamed_3_i1118 = (c_det_i928 / (tr_i928 + 0.00001f)) < (local_accuracy);
             // cluster_calcPyrLKTrack_out3_out1_out2(): end inline
             if (decomp_9_renamed_3_i1118)
             {
@@ -2805,14 +2806,14 @@ void cluster(
                     float a_i1188;
                     float b_i1188;
                     int k_i1188;
-                    double _d0_0_i1188;
-                    double _d0_1_i1188;
-                    double _d1_0_i1188;
-                    double _d1_1_i1188;
-                    _d0_0_i1188 = floor((x_i928 + dX_i928));
+                    float _d0_0_i1188;
+                    float _d0_1_i1188;
+                    float _d1_0_i1188;
+                    float _d1_1_i1188;
+                    _d0_0_i1188 = floorf((x_i928 + dX_i928));
                     _d0_1_i1188 = (x_i928 + dX_i928) - _d0_0_i1188;
                     a_i1188 = _d0_1_i1188;
-                    _d1_0_i1188 = floor((y_i928 + dY_i928));
+                    _d1_0_i1188 = floorf((y_i928 + dY_i928));
                     _d1_1_i1188 = (y_i928 + dY_i928) - _d1_0_i1188;
                     b_i1188 = _d1_1_i1188;
                     a11_i1183 = (1 - a_i1188) * (1 - b_i1188);
@@ -2867,9 +2868,9 @@ void cluster(
                     for (i_i1183 = -(local_WINSZ); i_i1183 < (local_WINSZ); i_i1183++)
                     {
 #pragma HLS loop_tripcount max = 96
-                        double _d2_0_i1190;
-                        double _d2_1_i1190;
-                        _d2_0_i1190 = floor((y_i928 + dY_i928));
+                        float _d2_0_i1190;
+                        float _d2_1_i1190;
+                        _d2_0_i1190 = floorf((y_i928 + dY_i928));
                         _d2_1_i1190 = _d2_0_i1190 + i_i1183;
                         srcIdxx_i1183 = _d2_1_i1190;
                         dstIdxx_i1183 = i_i1183 + (local_WINSZ);
@@ -2877,11 +2878,11 @@ void cluster(
                         {
 #pragma HLS loop_tripcount max = 96
                             int _d3_0_i1190;
-                            double _d3_1_i1190;
-                            double _d3_2_i1190;
-                            double _d3_3_i1190;
+                            float _d3_1_i1190;
+                            float _d3_2_i1190;
+                            float _d3_3_i1190;
                             _d3_0_i1190 = srcIdxx_i1183 * imgSize_2_i928;
-                            _d3_1_i1190 = floor((x_i928 + dX_i928));
+                            _d3_1_i1190 = floorf((x_i928 + dX_i928));
                             _d3_2_i1190 = _d3_0_i1190 + _d3_1_i1190;
                             _d3_3_i1190 = _d3_2_i1190 + j_i1183;
                             srcIdx_i1183 = _d3_3_i1190;
@@ -2922,14 +2923,14 @@ void cluster(
                     float a_i1191;
                     float b_i1191;
                     int k_i1191;
-                    double _d0_0_i1191;
-                    double _d0_1_i1191;
-                    double _d1_0_i1191;
-                    double _d1_1_i1191;
-                    _d0_0_i1191 = floor((x_i928 + dX_i928));
+                    float _d0_0_i1191;
+                    float _d0_1_i1191;
+                    float _d1_0_i1191;
+                    float _d1_1_i1191;
+                    _d0_0_i1191 = floorf((x_i928 + dX_i928));
                     _d0_1_i1191 = (x_i928 + dX_i928) - _d0_0_i1191;
                     a_i1191 = _d0_1_i1191;
-                    _d1_0_i1191 = floor((y_i928 + dY_i928));
+                    _d1_0_i1191 = floorf((y_i928 + dY_i928));
                     _d1_1_i1191 = (y_i928 + dY_i928) - _d1_0_i1191;
                     b_i1191 = _d1_1_i1191;
                     a11_i1185 = (1 - a_i1191) * (1 - b_i1191);
@@ -2984,9 +2985,9 @@ void cluster(
                     for (i_i1185 = -(local_WINSZ); i_i1185 < (local_WINSZ); i_i1185++)
                     {
 #pragma HLS loop_tripcount max = 96
-                        double _d2_0_i1193;
-                        double _d2_1_i1193;
-                        _d2_0_i1193 = floor((y_i928 + dY_i928));
+                        float _d2_0_i1193;
+                        float _d2_1_i1193;
+                        _d2_0_i1193 = floorf((y_i928 + dY_i928));
                         _d2_1_i1193 = _d2_0_i1193 + i_i1185;
                         srcIdxx_i1185 = _d2_1_i1193;
                         dstIdxx_i1185 = i_i1185 + (local_WINSZ);
@@ -2994,11 +2995,11 @@ void cluster(
                         {
 #pragma HLS loop_tripcount max = 96
                             int _d3_0_i1193;
-                            double _d3_1_i1193;
-                            double _d3_2_i1193;
-                            double _d3_3_i1193;
+                            float _d3_1_i1193;
+                            float _d3_2_i1193;
+                            float _d3_3_i1193;
                             _d3_0_i1193 = srcIdxx_i1185 * imgSize_2_i928;
-                            _d3_1_i1193 = floor((x_i928 + dX_i928));
+                            _d3_1_i1193 = floorf((x_i928 + dX_i928));
                             _d3_2_i1193 = _d3_0_i1193 + _d3_1_i1193;
                             _d3_3_i1193 = _d3_2_i1193 + j_i1185;
                             srcIdx_i1185 = _d3_3_i1193;

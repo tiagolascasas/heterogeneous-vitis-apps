@@ -32,7 +32,6 @@ static void correlateSAD_2D_hw_sim(I2D *Ileft, I2D *Iright, int win_sz, int disp
     int scratch_w = Ileft->width;
     int scratch_h = Ileft->height;
 
-    auto start = std::chrono::high_resolution_clock::now();
     cluster(
         Ileft->width, Ileft->height, dev_ileft_data,
         Iright->width, Iright->height, dev_iright_data,
@@ -42,9 +41,6 @@ static void correlateSAD_2D_hw_sim(I2D *Ileft, I2D *Iright, int win_sz, int disp
         scratch_w, scratch_h, dev_integralimg_data,
         dev_retsad_width, dev_retsad_height, dev_retsad_data
     );
-    std::cout << std::chrono::duration_cast<std::chrono::microseconds>(
-                     std::chrono::high_resolution_clock::now() - start).count()
-              << " us" << std::endl;
 
     // Simulate device -> host DMA
     std::memcpy(retSAD->data, dev_retsad_data, retSAD->width * retSAD->height * sizeof(float));
@@ -70,18 +66,18 @@ static void correlateSAD_2D_hw_offload(I2D *Ileft, I2D *Iright, int win_sz, int 
     if (getenv("XCLBIN") != nullptr) {
         binaryFile = getenv("XCLBIN");
     }
-    static auto device = xrt::device(0);
-    static auto uuid = device.load_xclbin(binaryFile);
-    static auto krnl = xrt::kernel(device, uuid, "cluster");
+    static auto device = new xrt::device(0);
+    static auto uuid = device->load_xclbin(binaryFile);
+    static auto krnl = new xrt::kernel(*device, uuid, "cluster");
 
-    static auto bo_ileft_data = xrt::bo(device, ILEFT_BYTES, krnl.group_id(2));
-    static auto bo_iright_data = xrt::bo(device, IRIGHT_BYTES, krnl.group_id(5));
-    static auto bo_iright_moved_data = xrt::bo(device, SCRATCH_BYTES, krnl.group_id(8));
-    static auto bo_sad_data = xrt::bo(device, SCRATCH_BYTES, krnl.group_id(13));
-    static auto bo_integralimg_data = xrt::bo(device, SCRATCH_BYTES, krnl.group_id(16));
-    static auto bo_retsad_width = xrt::bo(device, sizeof(int), krnl.group_id(17));
-    static auto bo_retsad_height = xrt::bo(device, sizeof(int), krnl.group_id(18));
-    static auto bo_retsad_data = xrt::bo(device, RETSAD_BYTES, krnl.group_id(19));
+    static auto bo_ileft_data = xrt::bo(*device, ILEFT_BYTES, krnl->group_id(2));
+    static auto bo_iright_data = xrt::bo(*device, IRIGHT_BYTES, krnl->group_id(5));
+    static auto bo_iright_moved_data = xrt::bo(*device, SCRATCH_BYTES, krnl->group_id(8));
+    static auto bo_sad_data = xrt::bo(*device, SCRATCH_BYTES, krnl->group_id(13));
+    static auto bo_integralimg_data = xrt::bo(*device, SCRATCH_BYTES, krnl->group_id(16));
+    static auto bo_retsad_width = xrt::bo(*device, sizeof(int), krnl->group_id(17));
+    static auto bo_retsad_height = xrt::bo(*device, sizeof(int), krnl->group_id(18));
+    static auto bo_retsad_data = xrt::bo(*device, RETSAD_BYTES, krnl->group_id(19));
 
     static bool inputs_synced = false;
     if (!inputs_synced) {
@@ -100,8 +96,7 @@ static void correlateSAD_2D_hw_offload(I2D *Ileft, I2D *Iright, int win_sz, int 
     int scratch_w = Ileft->width;
     int scratch_h = Ileft->height;
 
-    auto start = std::chrono::high_resolution_clock::now();
-    auto run = krnl(
+    auto run = (*krnl)(
         Ileft->width, Ileft->height, bo_ileft_data,
         Iright->width, Iright->height, bo_iright_data,
         scratch_w, scratch_h, bo_iright_moved_data,
@@ -110,9 +105,6 @@ static void correlateSAD_2D_hw_offload(I2D *Ileft, I2D *Iright, int win_sz, int 
         scratch_w, scratch_h, bo_integralimg_data,
         bo_retsad_width, bo_retsad_height, bo_retsad_data);
     run.wait();
-    std::cout << std::chrono::duration_cast<std::chrono::microseconds>(
-                     std::chrono::high_resolution_clock::now() - start).count()
-              << " us" << std::endl;
 
     bo_retsad_data.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
     bo_retsad_data.read(retSAD->data, retSAD->width * retSAD->height * sizeof(float), 0);

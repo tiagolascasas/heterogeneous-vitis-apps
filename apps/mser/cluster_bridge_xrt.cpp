@@ -10,8 +10,8 @@
 #include "mser.h"
 
 static bool initialized = false;
-static xrt::device device;
-static xrt::kernel krnl;
+static xrt::device* device = nullptr;
+static xrt::kernel* krnl = nullptr;
 
 void cluster(int *I_width, int *I_height, int *I_data, int in_delta, int *rtr_val_width, int *rtr_val_height,
              int *rtr_val_data, int *memregion_159_size8294400, int *memregion_161_size8294400,
@@ -77,40 +77,40 @@ void mser_hw_bridge(I2D *I, int in_delta, I2D **rtr_val)
     }
 
     if (!initialized) {
-        std::string binaryFile = getenv("XCLBIN") ? getenv("XCLBIN") : "build/cluster_hw_u250.xclbin";
+        std::string binaryFile = getenv("XCLBIN") ? getenv("XCLBIN") : "cluster.xclbin";
         unsigned int device_index = 0;
-        device = xrt::device(device_index);
-        auto uuid = device.load_xclbin(binaryFile);
-        krnl = xrt::kernel(device, uuid, "cluster");
+        device = new xrt::device(device_index);
+        auto uuid = device->load_xclbin(binaryFile);
+        krnl = new xrt::kernel(*device, uuid, "cluster");
         initialized = true;
     }
 
-    auto bo_I_width = xrt::bo(device, 4, krnl.group_id(0));
-    auto bo_I_height = xrt::bo(device, 4, krnl.group_id(1));
-    auto bo_I_data = xrt::bo(device, I->width * I->height * sizeof(int), krnl.group_id(2));
+    auto bo_I_width = xrt::bo(*device, 4, krnl->group_id(0));
+    auto bo_I_height = xrt::bo(*device, 4, krnl->group_id(1));
+    auto bo_I_data = xrt::bo(*device, I->width * I->height * sizeof(int), krnl->group_id(2));
     
-    auto bo_rtr_val_width = xrt::bo(device, 4, krnl.group_id(4));
-    auto bo_rtr_val_height = xrt::bo(device, 4, krnl.group_id(5));
-    auto bo_rtr_val_data = xrt::bo(device, size8294400 * sizeof(int), krnl.group_id(6));
+    auto bo_rtr_val_width = xrt::bo(*device, 4, krnl->group_id(4));
+    auto bo_rtr_val_height = xrt::bo(*device, 4, krnl->group_id(5));
+    auto bo_rtr_val_data = xrt::bo(*device, size8294400 * sizeof(int), krnl->group_id(6));
     
-    auto bo_memregion_159_size8294400 = xrt::bo(device, size8294400 * sizeof(int), krnl.group_id(7));
-    auto bo_memregion_161_size8294400 = xrt::bo(device, size8294400 * sizeof(int), krnl.group_id(8));
-    auto bo_memregion_162_size8294400 = xrt::bo(device, size8294400 * sizeof(idx_t), krnl.group_id(9));
-    auto bo_memregion_163_size8294400 = xrt::bo(device, size8294400 * sizeof(idx_t), krnl.group_id(10));
-    auto bo_memregion_164_size8294400 = xrt::bo(device, size8294400 * sizeof(val_t), krnl.group_id(11));
-    auto bo_memregion_165_size8294400 = xrt::bo(device, size8294400 * sizeof(int), krnl.group_id(12));
-    auto bo_memregion_166_size8294400 = xrt::bo(device, size8294400 * sizeof(int), krnl.group_id(13));
-    auto bo_memregion_167_size8294400 = xrt::bo(device, size8294400 * sizeof(int), krnl.group_id(14));
-    auto bo_memregion_168_size8294400 = xrt::bo(device, size8294400 * sizeof(float), krnl.group_id(15));
-    auto bo_memregion_169_size8294400 = xrt::bo(device, size8294400 * sizeof(int), krnl.group_id(16));
-    auto bo_memregion_170_size8294400 = xrt::bo(device, size8294400 * sizeof(val_t), krnl.group_id(17));
-    auto bo_memregion_171_size8294400 = xrt::bo(device, size8294400 * sizeof(idx_t), krnl.group_id(18));
-    auto bo_memregion_172_size8294400 = xrt::bo(device, size8294400 * sizeof(idx_t), krnl.group_id(19));
-    auto bo_memregion_173_size8294400 = xrt::bo(device, size8294400 * sizeof(idx_t), krnl.group_id(20));
-    auto bo_memregion_174_size8294400 = xrt::bo(device, size8294400 * sizeof(idx_t), krnl.group_id(21));
-    auto bo_memregion_175_size8294400 = xrt::bo(device, size8294400 * sizeof(int), krnl.group_id(22));
-    auto bo_memregion_177_size16588804 = xrt::bo(device, size16588804 * sizeof(int), krnl.group_id(23));
-    auto bo_memregion_182_size8294400 = xrt::bo(device, size8294400 * sizeof(int), krnl.group_id(24));
+    auto bo_memregion_159_size8294400 = xrt::bo(*device, size8294400 * sizeof(int), krnl->group_id(7));
+    auto bo_memregion_161_size8294400 = xrt::bo(*device, size8294400 * sizeof(int), krnl->group_id(8));
+    auto bo_memregion_162_size8294400 = xrt::bo(*device, size8294400 * sizeof(idx_t), krnl->group_id(9));
+    auto bo_memregion_163_size8294400 = xrt::bo(*device, size8294400 * sizeof(idx_t), krnl->group_id(10));
+    auto bo_memregion_164_size8294400 = xrt::bo(*device, size8294400 * sizeof(val_t), krnl->group_id(11));
+    auto bo_memregion_165_size8294400 = xrt::bo(*device, size8294400 * sizeof(int), krnl->group_id(12));
+    auto bo_memregion_166_size8294400 = xrt::bo(*device, size8294400 * sizeof(int), krnl->group_id(13));
+    auto bo_memregion_167_size8294400 = xrt::bo(*device, size8294400 * sizeof(int), krnl->group_id(14));
+    auto bo_memregion_168_size8294400 = xrt::bo(*device, size8294400 * sizeof(float), krnl->group_id(15));
+    auto bo_memregion_169_size8294400 = xrt::bo(*device, size8294400 * sizeof(int), krnl->group_id(16));
+    auto bo_memregion_170_size8294400 = xrt::bo(*device, size8294400 * sizeof(val_t), krnl->group_id(17));
+    auto bo_memregion_171_size8294400 = xrt::bo(*device, size8294400 * sizeof(idx_t), krnl->group_id(18));
+    auto bo_memregion_172_size8294400 = xrt::bo(*device, size8294400 * sizeof(idx_t), krnl->group_id(19));
+    auto bo_memregion_173_size8294400 = xrt::bo(*device, size8294400 * sizeof(idx_t), krnl->group_id(20));
+    auto bo_memregion_174_size8294400 = xrt::bo(*device, size8294400 * sizeof(idx_t), krnl->group_id(21));
+    auto bo_memregion_175_size8294400 = xrt::bo(*device, size8294400 * sizeof(int), krnl->group_id(22));
+    auto bo_memregion_177_size16588804 = xrt::bo(*device, size16588804 * sizeof(int), krnl->group_id(23));
+    auto bo_memregion_182_size8294400 = xrt::bo(*device, size8294400 * sizeof(int), krnl->group_id(24));
 
     bo_I_width.write(&(I->width));
     bo_I_height.write(&(I->height));
@@ -124,7 +124,7 @@ void mser_hw_bridge(I2D *I, int in_delta, I2D **rtr_val)
     bo_rtr_val_width.sync(XCL_BO_SYNC_BO_TO_DEVICE);
     bo_rtr_val_height.sync(XCL_BO_SYNC_BO_TO_DEVICE);
 
-    auto run = krnl(
+    auto run = (*krnl)(
         bo_I_width, bo_I_height, bo_I_data, in_delta, bo_rtr_val_width, bo_rtr_val_height, bo_rtr_val_data, bo_memregion_159_size8294400, bo_memregion_161_size8294400, bo_memregion_162_size8294400, bo_memregion_163_size8294400, bo_memregion_164_size8294400, bo_memregion_165_size8294400, bo_memregion_166_size8294400, bo_memregion_167_size8294400, bo_memregion_168_size8294400, bo_memregion_169_size8294400, bo_memregion_170_size8294400, bo_memregion_171_size8294400, bo_memregion_172_size8294400, bo_memregion_173_size8294400, bo_memregion_174_size8294400, bo_memregion_175_size8294400, bo_memregion_177_size16588804, bo_memregion_182_size8294400);
 
     run.wait();

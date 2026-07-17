@@ -932,7 +932,7 @@ void cluster_iSetArray(int rows, int cols, int val, I2D **rtr_val);
 void getInterpolatePatch(F2D *src, int cols, float centerX, float centerY, int winSize, F2D **rtr_val);
 void fWriteMatrix(F2D *input, char *inpath);
 int fSelfCheck(F2D *in1, char *path, float tol);
-void photonPrintTiming(unsigned int *elapsed);
+// void photonPrintTiming(unsigned int *elapsed);
 int main(int argc, char *argv[]);
 F2D *calcAreaSum(F2D *src, int cols, int rows, int winSize)
 {
@@ -6607,10 +6607,10 @@ void getInterpolatePatch_out0(float *centerX, float *centerY, float *a11, float 
     float a;
     float b;
     int k;
-    double _d0_0;
-    double _d0_1;
-    double _d1_0;
-    double _d1_1;
+    float _d0_0;
+    float _d0_1;
+    float _d1_0;
+    float _d1_1;
     _d0_0 = floor((*centerX));
     _d0_1 = (*centerX) - _d0_0;
     a = _d0_1;
@@ -6628,10 +6628,10 @@ void getInterpolatePatch_out0_rep8(float *centerX, float *centerY, float *a11, f
     float a;
     float b;
     int k;
-    double _d0_0;
-    double _d0_1;
-    double _d1_0;
-    double _d1_1;
+    float _d0_0;
+    float _d0_1;
+    float _d1_0;
+    float _d1_1;
     _d0_0 = floor((*centerX));
     _d0_1 = (*centerX) - _d0_0;
     a = _d0_1;
@@ -6649,10 +6649,10 @@ void getInterpolatePatch_out0_rep7(float *centerX, float *centerY, float *a11, f
     float a;
     float b;
     int k;
-    double _d0_0;
-    double _d0_1;
-    double _d1_0;
-    double _d1_1;
+    float _d0_0;
+    float _d0_1;
+    float _d1_0;
+    float _d1_1;
     _d0_0 = floor((*centerX));
     _d0_1 = (*centerX) - _d0_0;
     a = _d0_1;
@@ -6670,10 +6670,10 @@ void getInterpolatePatch_out0_rep6(float *centerX, float *centerY, float *a11, f
     float a;
     float b;
     int k;
-    double _d0_0;
-    double _d0_1;
-    double _d1_0;
-    double _d1_1;
+    float _d0_0;
+    float _d0_1;
+    float _d1_0;
+    float _d1_1;
     _d0_0 = floor((*centerX));
     _d0_1 = (*centerX) - _d0_0;
     a = _d0_1;
@@ -6691,10 +6691,10 @@ void getInterpolatePatch_out0_rep5(float *centerX, float *centerY, float *a11, f
     float a;
     float b;
     int k;
-    double _d0_0;
-    double _d0_1;
-    double _d1_0;
-    double _d1_1;
+    float _d0_0;
+    float _d0_1;
+    float _d1_0;
+    float _d1_1;
     _d0_0 = floor((*centerX));
     _d0_1 = (*centerX) - _d0_0;
     a = _d0_1;
@@ -6712,10 +6712,10 @@ void getInterpolatePatch_out0_rep4(float *centerX, float *centerY, float *a11, f
     float a;
     float b;
     int k;
-    double _d0_0;
-    double _d0_1;
-    double _d1_0;
-    double _d1_1;
+    float _d0_0;
+    float _d0_1;
+    float _d1_0;
+    float _d1_1;
     _d0_0 = floor((*centerX));
     _d0_1 = (*centerX) - _d0_0;
     a = _d0_1;
@@ -6733,10 +6733,10 @@ void getInterpolatePatch_out0_rep3(float *centerX, float *centerY, float *a11, f
     float a;
     float b;
     int k;
-    double _d0_0;
-    double _d0_1;
-    double _d1_0;
-    double _d1_1;
+    float _d0_0;
+    float _d0_1;
+    float _d1_0;
+    float _d1_1;
     _d0_0 = floor((*centerX));
     _d0_1 = (*centerX) - _d0_0;
     a = _d0_1;
@@ -6754,10 +6754,10 @@ void getInterpolatePatch_out0_rep2(float *centerX, float *centerY, float *a11, f
     float a;
     float b;
     int k;
-    double _d0_0;
-    double _d0_1;
-    double _d1_0;
-    double _d1_1;
+    float _d0_0;
+    float _d0_1;
+    float _d1_0;
+    float _d1_1;
     _d0_0 = floor((*centerX));
     _d0_1 = (*centerX) - _d0_0;
     a = _d0_1;
@@ -6775,10 +6775,10 @@ void getInterpolatePatch_out0_rep1(float *centerX, float *centerY, float *a11, f
     float a;
     float b;
     int k;
-    double _d0_0;
-    double _d0_1;
-    double _d1_0;
-    double _d1_1;
+    float _d0_0;
+    float _d0_1;
+    float _d1_0;
+    float _d1_1;
     _d0_0 = floor((*centerX));
     _d0_1 = (*centerX) - _d0_0;
     a = _d0_1;
@@ -6796,10 +6796,10 @@ void getInterpolatePatch_out0_rep0(float *centerX, float *centerY, float *a11, f
     float a;
     float b;
     int k;
-    double _d0_0;
-    double _d0_1;
-    double _d1_0;
-    double _d1_1;
+    float _d0_0;
+    float _d0_1;
+    float _d1_0;
+    float _d1_1;
     _d0_0 = floor((*centerX));
     _d0_1 = (*centerX) - _d0_0;
     a = _d0_1;
@@ -6818,8 +6818,8 @@ void getInterpolatePatch_out1(int *i, int *winSize, float *centerY, int *srcIdxx
 {
     for ((*i) = -(*winSize); (*i) < (*winSize); (*i)++)
     {
-        double _d2_0;
-        double _d2_1;
+        float _d2_0;
+        float _d2_1;
         _d2_0 = floor((*centerY));
         _d2_1 = _d2_0 + (*i);
         (*srcIdxx) = _d2_1;
@@ -6827,9 +6827,9 @@ void getInterpolatePatch_out1(int *i, int *winSize, float *centerY, int *srcIdxx
         for ((*j) = -(*winSize); (*j) < ((*winSize)); (*j)++)
         {
             int _d3_0;
-            double _d3_1;
-            double _d3_2;
-            double _d3_3;
+            float _d3_1;
+            float _d3_2;
+            float _d3_3;
             _d3_0 = (*srcIdxx) * (*cols);
             _d3_1 = floor((*centerX));
             _d3_2 = _d3_0 + _d3_1;
@@ -6850,8 +6850,8 @@ void getInterpolatePatch_out1_rep8(int *i, int *winSize, float *centerY, int *sr
     for ((*i) = -(*winSize); (*i) < (*winSize); (*i)++)
     {
 #pragma HLS loop_tripcount max = 96 min = 96
-        double _d2_0;
-        double _d2_1;
+        float _d2_0;
+        float _d2_1;
         _d2_0 = floor((*centerY));
         _d2_1 = _d2_0 + (*i);
         (*srcIdxx) = _d2_1;
@@ -6860,9 +6860,9 @@ void getInterpolatePatch_out1_rep8(int *i, int *winSize, float *centerY, int *sr
         {
 #pragma HLS loop_tripcount max = 96 min = 96
             int _d3_0;
-            double _d3_1;
-            double _d3_2;
-            double _d3_3;
+            float _d3_1;
+            float _d3_2;
+            float _d3_3;
             _d3_0 = (*srcIdxx) * (*cols);
             _d3_1 = floor((*centerX));
             _d3_2 = _d3_0 + _d3_1;
@@ -6883,8 +6883,8 @@ void getInterpolatePatch_out1_rep7(int *i, int *winSize, float *centerY, int *sr
     for ((*i) = -(*winSize); (*i) < (*winSize); (*i)++)
     {
 #pragma HLS loop_tripcount max = 96 min = 96
-        double _d2_0;
-        double _d2_1;
+        float _d2_0;
+        float _d2_1;
         _d2_0 = floor((*centerY));
         _d2_1 = _d2_0 + (*i);
         (*srcIdxx) = _d2_1;
@@ -6893,9 +6893,9 @@ void getInterpolatePatch_out1_rep7(int *i, int *winSize, float *centerY, int *sr
         {
 #pragma HLS loop_tripcount max = 96 min = 96
             int _d3_0;
-            double _d3_1;
-            double _d3_2;
-            double _d3_3;
+            float _d3_1;
+            float _d3_2;
+            float _d3_3;
             _d3_0 = (*srcIdxx) * (*cols);
             _d3_1 = floor((*centerX));
             _d3_2 = _d3_0 + _d3_1;
@@ -6916,8 +6916,8 @@ void getInterpolatePatch_out1_rep6(int *i, int *winSize, float *centerY, int *sr
     for ((*i) = -(*winSize); (*i) < (*winSize); (*i)++)
     {
 #pragma HLS loop_tripcount max = 96 min = 96
-        double _d2_0;
-        double _d2_1;
+        float _d2_0;
+        float _d2_1;
         _d2_0 = floor((*centerY));
         _d2_1 = _d2_0 + (*i);
         (*srcIdxx) = _d2_1;
@@ -6926,9 +6926,9 @@ void getInterpolatePatch_out1_rep6(int *i, int *winSize, float *centerY, int *sr
         {
 #pragma HLS loop_tripcount max = 96 min = 96
             int _d3_0;
-            double _d3_1;
-            double _d3_2;
-            double _d3_3;
+            float _d3_1;
+            float _d3_2;
+            float _d3_3;
             _d3_0 = (*srcIdxx) * (*cols);
             _d3_1 = floor((*centerX));
             _d3_2 = _d3_0 + _d3_1;
@@ -6949,8 +6949,8 @@ void getInterpolatePatch_out1_rep5(int *i, int *winSize, float *centerY, int *sr
     for ((*i) = -(*winSize); (*i) < (*winSize); (*i)++)
     {
 #pragma HLS loop_tripcount max = 96 min = 96
-        double _d2_0;
-        double _d2_1;
+        float _d2_0;
+        float _d2_1;
         _d2_0 = floor((*centerY));
         _d2_1 = _d2_0 + (*i);
         (*srcIdxx) = _d2_1;
@@ -6959,9 +6959,9 @@ void getInterpolatePatch_out1_rep5(int *i, int *winSize, float *centerY, int *sr
         {
 #pragma HLS loop_tripcount max = 96 min = 96
             int _d3_0;
-            double _d3_1;
-            double _d3_2;
-            double _d3_3;
+            float _d3_1;
+            float _d3_2;
+            float _d3_3;
             _d3_0 = (*srcIdxx) * (*cols);
             _d3_1 = floor((*centerX));
             _d3_2 = _d3_0 + _d3_1;
@@ -6982,8 +6982,8 @@ void getInterpolatePatch_out1_rep4(int *i, int *winSize, float *centerY, int *sr
     for ((*i) = -(*winSize); (*i) < (*winSize); (*i)++)
     {
 #pragma HLS loop_tripcount max = 96 min = 96
-        double _d2_0;
-        double _d2_1;
+        float _d2_0;
+        float _d2_1;
         _d2_0 = floor((*centerY));
         _d2_1 = _d2_0 + (*i);
         (*srcIdxx) = _d2_1;
@@ -6992,9 +6992,9 @@ void getInterpolatePatch_out1_rep4(int *i, int *winSize, float *centerY, int *sr
         {
 #pragma HLS loop_tripcount max = 96 min = 96
             int _d3_0;
-            double _d3_1;
-            double _d3_2;
-            double _d3_3;
+            float _d3_1;
+            float _d3_2;
+            float _d3_3;
             _d3_0 = (*srcIdxx) * (*cols);
             _d3_1 = floor((*centerX));
             _d3_2 = _d3_0 + _d3_1;
@@ -7015,8 +7015,8 @@ void getInterpolatePatch_out1_rep3(int *i, int *winSize, float *centerY, int *sr
     for ((*i) = -(*winSize); (*i) < (*winSize); (*i)++)
     {
 #pragma HLS loop_tripcount max = 96 min = 96
-        double _d2_0;
-        double _d2_1;
+        float _d2_0;
+        float _d2_1;
         _d2_0 = floor((*centerY));
         _d2_1 = _d2_0 + (*i);
         (*srcIdxx) = _d2_1;
@@ -7025,9 +7025,9 @@ void getInterpolatePatch_out1_rep3(int *i, int *winSize, float *centerY, int *sr
         {
 #pragma HLS loop_tripcount max = 96 min = 96
             int _d3_0;
-            double _d3_1;
-            double _d3_2;
-            double _d3_3;
+            float _d3_1;
+            float _d3_2;
+            float _d3_3;
             _d3_0 = (*srcIdxx) * (*cols);
             _d3_1 = floor((*centerX));
             _d3_2 = _d3_0 + _d3_1;
@@ -7048,8 +7048,8 @@ void getInterpolatePatch_out1_rep2(int *i, int *winSize, float *centerY, int *sr
     for ((*i) = -(*winSize); (*i) < (*winSize); (*i)++)
     {
 #pragma HLS loop_tripcount max = 96 min = 96
-        double _d2_0;
-        double _d2_1;
+        float _d2_0;
+        float _d2_1;
         _d2_0 = floor((*centerY));
         _d2_1 = _d2_0 + (*i);
         (*srcIdxx) = _d2_1;
@@ -7058,9 +7058,9 @@ void getInterpolatePatch_out1_rep2(int *i, int *winSize, float *centerY, int *sr
         {
 #pragma HLS loop_tripcount max = 96 min = 96
             int _d3_0;
-            double _d3_1;
-            double _d3_2;
-            double _d3_3;
+            float _d3_1;
+            float _d3_2;
+            float _d3_3;
             _d3_0 = (*srcIdxx) * (*cols);
             _d3_1 = floor((*centerX));
             _d3_2 = _d3_0 + _d3_1;
@@ -7081,8 +7081,8 @@ void getInterpolatePatch_out1_rep1(int *i, int *winSize, float *centerY, int *sr
     for ((*i) = -(*winSize); (*i) < (*winSize); (*i)++)
     {
 #pragma HLS loop_tripcount max = 96 min = 96
-        double _d2_0;
-        double _d2_1;
+        float _d2_0;
+        float _d2_1;
         _d2_0 = floor((*centerY));
         _d2_1 = _d2_0 + (*i);
         (*srcIdxx) = _d2_1;
@@ -7091,9 +7091,9 @@ void getInterpolatePatch_out1_rep1(int *i, int *winSize, float *centerY, int *sr
         {
 #pragma HLS loop_tripcount max = 96 min = 96
             int _d3_0;
-            double _d3_1;
-            double _d3_2;
-            double _d3_3;
+            float _d3_1;
+            float _d3_2;
+            float _d3_3;
             _d3_0 = (*srcIdxx) * (*cols);
             _d3_1 = floor((*centerX));
             _d3_2 = _d3_0 + _d3_1;
@@ -7113,8 +7113,8 @@ void getInterpolatePatch_out1_rep0(int *i, int *winSize, float *centerY, int *sr
 {
     for ((*i) = -(*winSize); (*i) < (*winSize); (*i)++)
     {
-        double _d2_0;
-        double _d2_1;
+        float _d2_0;
+        float _d2_1;
         _d2_0 = floor((*centerY));
         _d2_1 = _d2_0 + (*i);
         (*srcIdxx) = _d2_1;
@@ -7122,9 +7122,9 @@ void getInterpolatePatch_out1_rep0(int *i, int *winSize, float *centerY, int *sr
         for ((*j) = -(*winSize); (*j) < ((*winSize)); (*j)++)
         {
             int _d3_0;
-            double _d3_1;
-            double _d3_2;
-            double _d3_3;
+            float _d3_1;
+            float _d3_2;
+            float _d3_3;
             _d3_0 = (*srcIdxx) * (*cols);
             _d3_1 = floor((*centerX));
             _d3_2 = _d3_0 + _d3_1;
@@ -8469,7 +8469,7 @@ int main(int argc, char *argv[])
     F2D *newpoints;
     int numFind, m, n;
     F2D *np_temp;
-    unsigned int *start, *end, *elapsed, *elt;
+//  // unsigned int *start, *end, *elapsed, *elt;
     char im1[100];
     int counter = 2;
     float accuracy = 0.03;
@@ -8493,27 +8493,27 @@ int main(int argc, char *argv[])
     rows = Ic->height;
     cols = Ic->width;
     printf("Input size\t\t- (%dx%d)\n", rows, cols);
-    start = photonStartTiming();
+//  // start = photonStartTiming();
     imagePreprocessing(&(blurredImage), Ic, &(blurred_level1), &(blurred_level2), &(verticalEdgeImage),
                        &(horizontalEdgeImage), &(lambda), &WINSZ, &endR, &endC, &(lambdaTemp), &N_FEA, &(features),
                        &(interestPnt), &SUPPRESION_RADIUS, &i, &j);
-    end = photonEndTiming();
-    elapsed = photonReportTiming(start, end);
+// end = photonEndTiming();
+// elapsed = photonReportTiming(start, end);
     fFreeHandle_rep132(verticalEdgeImage);
     fFreeHandle_rep133(horizontalEdgeImage);
     fFreeHandle_rep134(interestPnt);
     fFreeHandle_rep135(lambda);
     fFreeHandle_rep136(lambdaTemp);
     iFreeHandle_rep45(Ic);
-    free(start);
-    free(end);
+// free(start);
+// free(end);
     for (count = 1; count <= counter; count++)
     {
         sprintf(im1, "%s/%d.bmp", argv[1], count);
         Ic = readImage(im1);
         rows = Ic->height;
         cols = Ic->width;
-        start = photonStartTiming();
+//  // start = photonStartTiming();
         // Selector between SW and HW bridge calls based on OFFLOAD getenv variable
         if (getenv("OFFLOAD") != ((void *)0))
         {
@@ -8531,13 +8531,11 @@ int main(int argc, char *argv[])
                                         &(newpoints), &(features), &(status), &WINSZ, &accuracy, &LK_ITER, &(np_temp),
                                         &k, &numFind, &i);
         }
-        end = photonEndTiming();
-        elt = photonReportTiming(start, end);
-        elapsed[0] += elt[0];
-        elapsed[1] += elt[1];
-        free(start);
-        free(elt);
-        free(end);
+//  // elapsed[0] += elt[0];
+//  // elapsed[1] += elt[1];
+// free(start);
+//  // free(elt);
+// free(end);
     }
     int _scope29_ret = 0;
     float _scope29_tol = 2.0;
@@ -8547,11 +8545,11 @@ int main(int argc, char *argv[])
     {
         printf("Error in Tracking Map\n");
     }
-    photonPrintTiming(elapsed);
+//  // photonPrintTiming(elapsed);
     fFreeHandle_rep137(blurred_level1);
     fFreeHandle_rep138(blurred_level2);
     fFreeHandle_rep139(features);
-    free(elapsed);
+// free(elapsed);
 
     return 0;
 }

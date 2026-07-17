@@ -9,8 +9,8 @@
 #include "experimental/xrt_kernel.h"
 
 static bool initialized = false;
-static xrt::device device;
-static xrt::kernel krnl;
+static xrt::device* device = nullptr;
+static xrt::kernel* krnl = nullptr;
 
 void kernel_hw_bridge(F2D **accl, F2D *sData, F2D **gtemp, F2D *ones, F2D **gravity, F2D **quat,
                                 float *STDDEV_ACCL, F2D **w, F2D **vel, F2D **pos, float *acclTimeInterval, int *n,
@@ -42,16 +42,14 @@ void kernel_hw_bridge(F2D **accl, F2D *sData, F2D **gtemp, F2D *ones, F2D **grav
 
     if (!initialized) {
         // Initialize XRT device and kernel
-        std::string binaryFile = getenv("XCLBIN") ? getenv("XCLBIN") : "build/cluster_hw_u250.xclbin";
+        std::string binaryFile = getenv("XCLBIN") ? getenv("XCLBIN") : "cluster.xclbin";
         unsigned int device_index = 0;
         
-        std::cout << "Open the device " << device_index << std::endl;
-        device = xrt::device(device_index);
+        device = new xrt::device(device_index);
         
-        std::cout << "Load the xclbin " << binaryFile << std::endl;
-        auto uuid = device.load_xclbin(binaryFile);
+        auto uuid = device->load_xclbin(binaryFile);
         
-        krnl = xrt::kernel(device, uuid, "cluster");
+        krnl = new xrt::kernel(*device, uuid, "cluster");
         initialized = true;
     }
 
@@ -63,31 +61,31 @@ void kernel_hw_bridge(F2D **accl, F2D *sData, F2D **gtemp, F2D *ones, F2D **grav
     }
 
     // Create XRT buffers
-    auto bo_accl_width = xrt::bo(device, 4, krnl.group_id(0));
-    auto bo_accl_height = xrt::bo(device, 4, krnl.group_id(1));
-    auto bo_accl_data = xrt::bo(device, 24000, krnl.group_id(2));
+    auto bo_accl_width = xrt::bo(*device, 4, krnl->group_id(0));
+    auto bo_accl_height = xrt::bo(*device, 4, krnl->group_id(1));
+    auto bo_accl_data = xrt::bo(*device, 24000, krnl->group_id(2));
 
-    auto bo_sData_width = xrt::bo(device, 4, krnl.group_id(3));
-    auto bo_sData_height = xrt::bo(device, 4, krnl.group_id(4));
-    auto bo_sData_data = xrt::bo(device, 32, krnl.group_id(5)); // Assuming 8 floats
+    auto bo_sData_width = xrt::bo(*device, 4, krnl->group_id(3));
+    auto bo_sData_height = xrt::bo(*device, 4, krnl->group_id(4));
+    auto bo_sData_data = xrt::bo(*device, 32, krnl->group_id(5)); // Assuming 8 floats
 
-    auto bo_ones_width = xrt::bo(device, 4, krnl.group_id(6));
-    auto bo_ones_height = xrt::bo(device, 4, krnl.group_id(7));
-    auto bo_ones_data = xrt::bo(device, 8000, krnl.group_id(8)); // Assuming ones->width * ones->height * 4
+    auto bo_ones_width = xrt::bo(*device, 4, krnl->group_id(6));
+    auto bo_ones_height = xrt::bo(*device, 4, krnl->group_id(7));
+    auto bo_ones_data = xrt::bo(*device, 8000, krnl->group_id(8)); // Assuming ones->width * ones->height * 4
 
-    auto bo_quat_width = xrt::bo(device, 4, krnl.group_id(9));
-    auto bo_quat_height = xrt::bo(device, 4, krnl.group_id(10));
-    auto bo_quat_data = xrt::bo(device, 32000, krnl.group_id(11)); 
+    auto bo_quat_width = xrt::bo(*device, 4, krnl->group_id(9));
+    auto bo_quat_height = xrt::bo(*device, 4, krnl->group_id(10));
+    auto bo_quat_data = xrt::bo(*device, 32000, krnl->group_id(11)); 
 
-    auto bo_vel_width = xrt::bo(device, 4, krnl.group_id(13));
-    auto bo_vel_height = xrt::bo(device, 4, krnl.group_id(14));
-    auto bo_vel_data = xrt::bo(device, 24000, krnl.group_id(15));
+    auto bo_vel_width = xrt::bo(*device, 4, krnl->group_id(13));
+    auto bo_vel_height = xrt::bo(*device, 4, krnl->group_id(14));
+    auto bo_vel_data = xrt::bo(*device, 24000, krnl->group_id(15));
 
-    auto bo_pos_width = xrt::bo(device, 4, krnl.group_id(16));
-    auto bo_pos_height = xrt::bo(device, 4, krnl.group_id(17));
-    auto bo_pos_data = xrt::bo(device, 24000, krnl.group_id(18));
+    auto bo_pos_width = xrt::bo(*device, 4, krnl->group_id(16));
+    auto bo_pos_height = xrt::bo(*device, 4, krnl->group_id(17));
+    auto bo_pos_data = xrt::bo(*device, 24000, krnl->group_id(18));
     
-    auto bo_memregion = xrt::bo(device, 9999992, krnl.group_id(23));
+    auto bo_memregion = xrt::bo(*device, 9999992, krnl->group_id(23));
 
     // Map buffers to host pointers
     bo_accl_width.write(&((*accl)->width));
@@ -133,7 +131,7 @@ void kernel_hw_bridge(F2D **accl, F2D *sData, F2D **gtemp, F2D *ones, F2D **grav
     bo_pos_data.sync(XCL_BO_SYNC_BO_TO_DEVICE);
 
     // Execute Kernel
-    auto run = krnl(
+    auto run = (*krnl)(
         bo_accl_width, bo_accl_height, bo_accl_data,
         bo_sData_width, bo_sData_height, bo_sData_data,
         bo_ones_width, bo_ones_height, bo_ones_data,

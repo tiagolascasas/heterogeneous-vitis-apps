@@ -52,7 +52,7 @@ unsigned int *photonEndTiming();
 unsigned int *photonReportTiming(unsigned int *startCycles, unsigned int *endCycles);
 void writeMatrix(I2D *input, char *inpath);
 int selfCheck(I2D *in1, char *path, int tol);
-void photonPrintTiming(unsigned int *elapsed);
+// void photonPrintTiming(unsigned int *elapsed);
 void iFreeHandle(I2D *out);
 int main(int argc, char *argv[]);
 void iFreeHandle(I2D *out)
@@ -1095,7 +1095,7 @@ int main(int argc, char *argv[])
             It->data[k++] = I->data[(j)*I->width + (i)];
         }
     }
-    start = photonStartTiming();
+//  // start = photonStartTiming();
     // Selector between SW and HW bridge calls based on OFFLOAD getenv variable
     if (getenv("OFFLOAD") != nullptr)
     {
@@ -1105,8 +1105,8 @@ int main(int argc, char *argv[])
     {
         mser_sw(It, 2, &idx);
     }
-    endC = photonEndTiming();
-    elapsed = photonReportTiming(start, endC);
+//  // endC = photonEndTiming();
+//  // elapsed = photonReportTiming(start, endC);
     printf("Input size\t\t- (%dx%d)\n", rows, cols);
     int _scope4_tol, _scope4_ret = 0;
     _scope4_tol = 1;
@@ -1116,10 +1116,10 @@ int main(int argc, char *argv[])
     {
         printf("Error in MSER\n");
     }
-    photonPrintTiming(elapsed);
-    free(start);
-    free(endC);
-    free(elapsed);
+//  // photonPrintTiming(elapsed);
+// free(start);
+// free(endC);
+// free(elapsed);
     iFreeHandle(idx);
     iFreeHandle(I);
     iFreeHandle(It);

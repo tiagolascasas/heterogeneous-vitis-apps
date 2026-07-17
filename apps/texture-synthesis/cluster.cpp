@@ -191,6 +191,8 @@ void cluster(double *diff, int *k, int *ncand, double *curdiff, int *image_width
             (local_besty) = candlisty[(local_k)];
         }
         // cluster_create_texture_out1_out0_out1_out1_out1(): end inline
+            *bestx = local_bestx;
+    *besty = local_besty;
         // cluster_create_texture_out1_out0_out1_out1(): end inline
     }
 }

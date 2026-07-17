@@ -93,7 +93,7 @@ unsigned int *photonEndTiming();
 unsigned int *photonReportTiming(unsigned int *startCycles, unsigned int *endCycles);
 void writeMatrix(I2D *input, char *inpath);
 int selfCheck(I2D *in1, char *path, int tol);
-void photonPrintTiming(unsigned int *elapsed);
+// void photonPrintTiming(unsigned int *elapsed);
 int main(int argc, char *argv[]);
 void fDeepCopy_out0(int *rows, F2D *in, int *cols)
 {
@@ -932,10 +932,10 @@ int main(int argc, char *argv[])
     sprintf(im1, "%s/1.bmp", argv[1]);
     im = readImage(im1);
     printf("Input size\t\t- (%dx%d)\n", im->height, im->width);
-    start = photonStartTiming();
+//  // start = photonStartTiming();
     segment_image(im, sigma, k, min_size, num_ccs, &seg);
-    endC = photonEndTiming();
-    elapsed = photonReportTiming(start, endC);
+//  // endC = photonEndTiming();
+//  // elapsed = photonReportTiming(start, endC);
     out = seg;
     int _scope5_ret = 0;
     float _scope5_tol = 0;
@@ -945,11 +945,11 @@ int main(int argc, char *argv[])
     {
         printf("Error in Multi N Cut\n");
     }
-    photonPrintTiming(elapsed);
+//  // photonPrintTiming(elapsed);
     iFreeHandle_rep9(im);
-    free(start);
-    free(endC);
-    free(elapsed);
+// free(start);
+// free(endC);
+// free(elapsed);
     iFreeHandle_rep10(seg);
 
     return 0;

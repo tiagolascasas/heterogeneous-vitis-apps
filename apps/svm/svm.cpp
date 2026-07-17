@@ -8052,7 +8052,7 @@ unsigned int *photonEndTiming();
 void fWriteMatrix(F2D *input, char *inpath);
 int fSelfCheck(F2D *in1, char *path, float tol);
 unsigned int *photonReportTiming(unsigned int *startCycles, unsigned int *endCycles);
-void photonPrintTiming(unsigned int *elapsed);
+// void photonPrintTiming(unsigned int *elapsed);
 int main(int argc, char *argv[]);
 void cal_learned_func_out0(float *s)
 {
@@ -47584,7 +47584,7 @@ void getAlphaFromTrainSet_sw(int N, F2D *trn1, F2D *trn2, int iterations, alphaR
     F2D *e;
     alphaRet *alpha;
 #pragma clava malloc_size max = 4 min = 4 avg = 4
-    b = malloc(sizeof(float));
+    b = (float*)malloc(sizeof(float));
 #pragma clava malloc_size max = 80 min = 80 avg = 80
     alpha = (alphaRet *)malloc(sizeof(alphaRet));
     getAlphaFromTrainSet_out2(&tolerance, &C, &d, &dim, &eps);
@@ -60388,10 +60388,10 @@ int main(int argc, char *argv[])
     tst1 = readFile(im1);
     sprintf(im1, "%s/d16tst_2.txt", argv[1]);
     tst2 = readFile(im1);
-    start = photonStartTiming();
+//  // start = photonStartTiming();
     svm(&(alpha), &N, trn1, trn2, &iter, &(a_result), &(b_result), &(Yoffset), &(Xtst), tst1, tst2, &Ntst, &(Ytst), &i,
         &j, &(result), &n, &(s), &dim);
-    stop = photonEndTiming();
+// stop = photonEndTiming();
     int _scope0_ret = 0;
     float _scope0_tol = 0.5;
     // fWriteMatrix(result, argv[1]);
@@ -60412,11 +60412,11 @@ int main(int argc, char *argv[])
     free(alpha);
     fFreeHandle_rep19(Xtst);
     fFreeHandle_rep20(Ytst);
-    elapsed = photonReportTiming(start, stop);
-    photonPrintTiming(elapsed);
-    free(start);
+// elapsed = photonReportTiming(start, stop);
+//  // photonPrintTiming(elapsed);
+// free(start);
     free(stop);
-    free(elapsed);
+// free(elapsed);
 
     return 0;
 }

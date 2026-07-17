@@ -61,7 +61,7 @@ void cluster(int Ileft_width, int Ileft_height, int Ileft_data[(8294408 - 8) / 4
     // buffer size is 2097664 int
     // ~1012728 int = 1800 BRAMs
     float integralImg_data[1012728];
-#pragma HLS BIND_STORAGE variable = integralImg_data type = ram_2p impl = auto
+#pragma HLS bind_storage variable=integralImg_data type=RAM_2P impl=URAM
     for (int n = 0, curr = 0; n < 2097664 && curr < 1012728; n += 2)
     {
 #pragma HLS loop_tripcount max = 1012728

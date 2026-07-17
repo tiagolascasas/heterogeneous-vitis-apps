@@ -223,7 +223,7 @@ void cluster(int *points_width, int *points_height, float *points_data, int r, i
     int out_i413_width;
     int out_i413_height;
     float out_i413_data[55611];
-#pragma HLS BIND_STORAGE variable = out_i413_data type = ram_2p impl = auto
+#pragma HLS bind_storage variable=out_i413_data type=RAM_2P impl=URAM
 #pragma clava malloc_size max = 222452 min = 222452 avg = 222452
     int _lit36 = 1;
     // cluster_fMallocHandle_out18_rep6(): begin inline
@@ -278,7 +278,7 @@ void cluster(int *points_width, int *points_height, float *points_data, int r, i
     int out_i470_width;
     int out_i470_height;
     float out_i470_data[55611];
-#pragma HLS BIND_STORAGE variable = out_i470_data type = ram_2p impl = auto
+#pragma HLS bind_storage variable=out_i470_data type=RAM_2P impl=URAM
 #pragma clava malloc_size max = 222452 min = 222452 avg = 222452
     // cluster_fMallocHandle_out18_rep60(): begin inline
     out_i470_height = rows_i432;
@@ -309,7 +309,7 @@ void cluster(int *points_width, int *points_height, float *points_data, int r, i
     int out_i433_width;
     int out_i433_height;
     int out_i433_data[55611];
-#pragma HLS BIND_STORAGE variable = out_i433_data type = ram_2p impl = auto
+#pragma HLS bind_storage variable=out_i433_data type=RAM_2P impl=URAM
 #pragma clava malloc_size max = 222452 min = 222452 avg = 222452
     // cluster_iMallocHandle_out25_rep5(): begin inline
     out_i433_height = rows_i415;
@@ -412,7 +412,7 @@ end_inline_i415:;
     int out_i416_width;
     int out_i416_height;
     float out_i416_data[55611];
-#pragma HLS BIND_STORAGE variable = out_i416_data type = ram_2p impl = auto
+#pragma HLS bind_storage variable=out_i416_data type=RAM_2P impl=URAM
 #pragma clava malloc_size max = 667340 min = 667340 avg = 667340
     // cluster_fMallocHandle_out18_rep5(): begin inline
     out_i416_height = ((*srtdVIdx_height));
@@ -451,7 +451,6 @@ end_inline_i415:;
     int out_i438_width;
     int out_i438_height;
     float out_i438_data[3];
-#pragma HLS BIND_STORAGE variable = out_i438_data type = ram_2p impl = auto
 #pragma clava malloc_size max = 20 min = 20 avg = 20
     int _lit43 = 1;
     int _lit44 = 3;
@@ -493,7 +492,7 @@ end_inline_i415:;
     int out_i440_width;
     int out_i440_height;
     float out_i440_data[55611];
-#pragma HLS BIND_STORAGE variable = out_i440_data type = ram_2p impl = auto
+#pragma HLS bind_storage variable=out_i440_data type=RAM_2P impl=URAM
 #pragma clava malloc_size max = 222452 min = 222452 avg = 222452
     int _lit45 = 1;
     // cluster_fMallocHandle_out18_rep18(): begin inline
@@ -541,7 +540,7 @@ end_inline_i415:;
     int out_i421_width;
     int out_i421_height;
     int out_i421_data[55611];
-#pragma HLS BIND_STORAGE variable = out_i421_data type = ram_2p impl = auto
+#pragma HLS bind_storage variable=out_i421_data type=RAM_2P impl=URAM
 #pragma clava malloc_size max = 222452 min = 222452 avg = 222452
     int _lit42 = 1;
     // cluster_iMallocHandle_out25_rep3(): begin inline
@@ -607,7 +606,6 @@ end_inline_i415:;
             int out_i479_width;
             int out_i479_height;
             float out_i479_data[3];
-#pragma HLS BIND_STORAGE variable = out_i479_data type = ram_2p impl = auto
 #pragma clava malloc_size max = 20 min = 20 avg = 20
             // cluster_fMallocHandle_out18_rep61(): begin inline
             out_i479_height = rows_i444;
@@ -713,7 +711,7 @@ end_inline_i415:;
             int out_i486_width;
             int out_i486_height;
             float out_i486_data[166833];
-#pragma HLS BIND_STORAGE variable = out_i486_data type = ram_2p impl = auto
+#pragma HLS bind_storage variable=out_i486_data type=RAM_2P impl=URAM
 #pragma clava malloc_size max = 32 min = 667340 avg = 333686
             // cluster_fMallocHandle_out18_rep10(): begin inline
             out_i486_height = (row1_i447 + row2_i447);
@@ -775,7 +773,7 @@ end_inline_i415:;
         int out_i490_width;
         int out_i490_height;
         float out_i490_data[166833];
-#pragma HLS BIND_STORAGE variable = out_i490_data type = ram_2p impl = auto
+#pragma HLS bind_storage variable=out_i490_data type=RAM_2P impl=URAM
 #pragma clava malloc_size max = 20 min = 667340 avg = 333680
         // cluster_fMallocHandle_out18_rep63(): begin inline
         out_i490_height = rows_i450;
@@ -818,7 +816,7 @@ end_inline_i415:;
         int out_i493_width;
         int out_i493_height;
         float out_i493_data[55611];
-#pragma HLS BIND_STORAGE variable = out_i493_data type = ram_2p impl = auto
+#pragma HLS bind_storage variable=out_i493_data type=RAM_2P impl=URAM
 #pragma clava malloc_size max = 12 min = 222452 avg = 111232
         // cluster_fMallocHandle_out18_rep64(): begin inline
         out_i493_height = rows_i451;
@@ -869,7 +867,7 @@ end_inline_i415:;
         int out_i454_width = 0;
         int out_i454_height;
         float out_i454_data[166830];
-#pragma HLS BIND_STORAGE variable = out_i454_data type = ram_2p impl = auto
+#pragma HLS bind_storage variable=out_i454_data type=RAM_2P impl=URAM
 #pragma clava malloc_size max = 8 min = 667328 avg = 333668
         int _lit46 = 3;
         // cluster_fMallocHandle_out18_rep8(): begin inline
@@ -886,7 +884,7 @@ end_inline_i415:;
         int out_i455_width;
         int out_i455_height;
         float out_i455_data[55610];
-#pragma HLS BIND_STORAGE variable = out_i455_data type = ram_2p impl = auto
+#pragma HLS bind_storage variable=out_i455_data type=RAM_2P impl=URAM
 #pragma clava malloc_size max = 8 min = 222448 avg = 111228
         int _lit47 = 1;
         // cluster_fMallocHandle_out18_rep7(): begin inline
@@ -988,7 +986,7 @@ end_inline_i415:;
         int out_i461_width;
         int out_i461_height;
         int out_i461_data[55610];
-#pragma HLS BIND_STORAGE variable = out_i461_data type = ram_2p impl = auto
+#pragma HLS bind_storage variable=out_i461_data type=RAM_2P impl=URAM
 #pragma clava malloc_size max = 8 min = 222448 avg = 111228
         int _lit48 = 1;
         // cluster_iMallocHandle_out25_rep4(): begin inline

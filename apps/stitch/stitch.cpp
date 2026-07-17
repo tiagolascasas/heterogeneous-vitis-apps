@@ -508,7 +508,7 @@ unsigned int *photonEndTiming();
 unsigned int *photonReportTiming(unsigned int *startCycles, unsigned int *endCycles);
 void fWriteMatrix(F2D *input, char *inpath);
 int fSelfCheck(F2D *in1, char *path, float tol);
-void photonPrintTiming(unsigned int *elapsed);
+// void photonPrintTiming(unsigned int *elapsed);
 int main(int argc, char *argv[]);
 void extractFeatures_out1(F2D *g1)
 {
@@ -5893,10 +5893,10 @@ int main(int argc, char *argv[])
     rows = Icur->height;
     cols = Icur->width;
     printf("Input size\t\t- (%dx%d)\n", rows, cols);
-    start = photonStartTiming();
+//  // start = photonStartTiming();
     stitch(&(v), Icur, &(interestPnts), &(int1), &(int2), &i, &(Fcur));
-    endC = photonEndTiming();
-    elapsed = photonReportTiming(start, endC);
+//  // endC = photonEndTiming();
+//  // elapsed = photonReportTiming(start, endC);
     int _scope27_ret = 0;
     float _scope27_tol = 0.02;
     // fWriteMatrix(Fcur, argv[1]); // Removed to prevent overwriting ground truth
@@ -5911,10 +5911,10 @@ int main(int argc, char *argv[])
     fFreeHandle_rep81(int1);
     fFreeHandle_rep82(int2);
     fFreeHandle_rep83(Fcur);
-    free(start);
-    free(endC);
-    photonPrintTiming(elapsed);
-    free(elapsed);
+// free(start);
+// free(endC);
+//  // photonPrintTiming(elapsed);
+// free(elapsed);
 
     return 0;
 }
